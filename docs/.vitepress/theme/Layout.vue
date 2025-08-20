@@ -10,6 +10,8 @@ const { Layout } = DefaultTheme;
       <sub v-if="$frontmatter.deepDiveURL"
         >Article Link Available:
         <a
+          target="_blank"
+          rel="noopener noreferrer"
           style="color: red; font-weight: bold"
           :href="$frontmatter.deepDiveURL"
           >Click here to visit article</a

@@ -2,7 +2,6 @@ import { DefaultTheme, defineConfig } from "vitepress";
 import { generateNavs } from "./nav";
 
 const nv = generateNavs([["Documents", "./docs"]]);
-console.log(nv);
 
 let sb: DefaultTheme.Sidebar = [];
 nv.forEach((v) => {
@@ -11,8 +10,14 @@ nv.forEach((v) => {
 
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
+  title: "Urban Odyssey",
+  description:
+    "Urban Odyssey Notes & Documents - Information for public release, additional notes and more",
   themeConfig: {
     siteTitle: "Urban Odyssey",
+    outline: "deep",
+    outlineTitle: "Table of Contents",
+    logo: "/icons/colored/Spellbook_Sunset.png",
     socialLinks: [
       { icon: "twitter", link: "https://x.com/officialurbanus" },
       { icon: "facebook", link: "https://facebook.com/theurbanodyssey" },
@@ -38,17 +43,50 @@ export default defineConfig({
       },
     ],
     nav: [
-      { text: "Guide", link: "/guide" },
+      { text: "Substack", link: "https://theofficialurban.substack.com" },
       {
-        text: "Dropdown Menu",
+        text: "Main Channels",
         items: [
-          { text: "Item A", link: "/item-1" },
-          { text: "Item B", link: "/item-2" },
-          { text: "Item C", link: "/item-3" },
+          { text: "YouTube", link: "https://youtube.com/@MastersMahanPodcast" },
+          { text: "Rumble", link: "https://rumble.com/c/MastersMahan" },
+          {
+            text: "Bitchute",
+            link: "https://bitchute.com/channel/mastersmahan",
+          },
+          { text: "Odysee", link: "https://odysee.com/@UrbanOdyssey:b" },
+        ],
+      },
+      {
+        text: "Live Streams",
+        items: [
+          {
+            text: "Rumble Live Link",
+            link: "https://rumble.com/c/MastersMahan/live",
+          },
+          {
+            text: "Twitch.tv (TheUrbanOdyssey)",
+            link: "https://twitch.tv/theurbanodyssey",
+          },
+          {
+            text: "Kick (OfficialUrban)",
+            link: "https://kick.com/officialurban",
+          },
+        ],
+      },
+      {
+        text: "Donations",
+        items: [
+          { text: "CashApp", link: "https://cash.app/jsorb84" },
+          { text: "Venmo", link: "https://venmo.com/officialurban" },
+          {
+            text: "PayPal",
+            link: "https://paypal.me/officialurban?country.x=US&locale.x=en_US",
+          },
         ],
       },
     ],
     sidebar: sb,
+
     // sidebar: [
     //   {
     //     text: "Documents",
