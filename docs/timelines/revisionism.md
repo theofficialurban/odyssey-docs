@@ -1,0 +1,435 @@
+---
+title: Timeline & Figures
+deepDiveURL: https://google.com
+---
+
+# Detailed Timeline: `Far-Right Revisionism`
+
+## **Pre-Modern Era:**
+
+- **Antiquity (ca. 8th Century BCE - 5th Century CE):Greek Civilization:** Ancient Greek city-states, admired by some white supremacists, featured "ordered inequality." Figures like Socrates and Plato debated eugenics and political structures that were aristocratic.
+- **Roman Empire:** Its eventual collapse is attributed by some xenophobic sites to the extension of citizenship rights and reliance on non-citizen mercenary troops. The Roman salute, popularized by Nazis, is often falsely attributed to ancient Rome.
+- **Jewish Intellectual and Spiritual Life:** Flourished in Spain during Muslim rule (8th-11th century) and engaged with Muslim thinkers.
+- **St. Maurice (3rd Century CE):** Described as Egyptian in _Legenda Aurea_ and often depicted as Black, challenging the myth of a homogeneously white medieval Europe.
+- **Visigoth Horseshoe Arch:** Adopted by Muslim conquerors in al-Andalus, indicating cultural exchange rather than pure Islamic innovation.
+- **Middle Ages (ca. 5th - 15th Century CE):11th Century AD:** People from Sub-Saharan Africa were regularly transported and sold into Europe, dispelling the myth of a purely white medieval Europe.
+- **Convivencia (Medieval Iberia):** Jews, Christians, and Muslims lived in close proximity, a term later used in scholarship to describe interreligious coexistence. While sometimes romanticized, scholars acknowledge its fragility and complexity.
+- **Rodrigo Díaz de Vivar "El Cid" (c. 1043–1099):** A mercenary who fought alongside and against Muslims, later mythologized as a symbol of Spanishness and a warrior against Muslim "invaders."
+- **Samuel ibn Naghrīla (d. 1055–6):** Poet-vizier in the emirate of Granada, respected by both Jewish and Muslim communities, demonstrating cultural engagement.
+- **Spanish Reconquest (culminating 1492):** The foundational myth of the Spanish nation, where Catholic monarchs expelled Muslims and Jews from the Iberian Peninsula.
+- **1304–1374:** Francesco Petrarca, a figure credited with humanistic thought, believed he was living in a "dark age."
+- **1330s:** Jacopo da Verona’s letters mention African monks at the Church of the Nativity.
+- **1348–50 (Black Death):** Bioarcheological evidence indicates population diversity in London during this period.
+- **1444:** Portuguese Prince Henry the Navigator shipped 235 enslaved African people to Lagos, Portugal, one of the largest importations of Black people into medieval Europe.
+- **Early Modern Period (ca. 16th - 18th Century CE):Early 17th Century:** The term _convivencia_ was first used in Spanish to describe the political unification of Catholic principalities in medieval Spain.
+- **1640:** Saavedra Fajardo's _Idea de un príncipe politico-cristiano_ justified "crimes" against indigenous populations during the conquest of the Americas by citing the "perversities of the Indians."
+
+## **Modern Era (19th Century - Present):**
+
+- **18th Century:** The Roman salute's association with Rome is traced to an 18th-century painting.
+- **1820:** Sir Walter Scott's _Ivanhoe_ gains popularity, romanticizing medieval knighthood and influencing Southern white slave owners to imagine themselves as feudal knights.
+- **1832:** Washington Irving publishes _The Alhambra_, later revised as _Tales of the Alhambra_ (1851), contributing to English-speaking perceptions of Spain.
+- **1870s–1880s:** Establishment of the Third Republic in France.
+- **1883:** Charles Darwin's cousin coins the term "eugenics."
+- **1896:** A Confederate monument is erected in Sherman, Texas, funded by the Daughters of the Confederacy, with an epitaph steeped in medievalism and "southern chivalry."
+- **Early 20th Century:** The figure of Joan of Arc is "rediscovered" and used as a political tool, primarily by conservative groups.
+- **1902:** Euclides da Cunha's _Os Sertões_ (Backlands: The Canudos Campaign) discusses racial mixing and portrays Brazil's civil war as a struggle between "sacred time and race versus secular progress and deep hierarchies."
+- **1905:** Thomas Dixon Jr.'s _The Clansman: A Historical Romance of the Ku Klux Klan_ portrays white men defending "white femininity" under an "Institution of Chivalry."
+- **1912:** Heinrich Schüler publishes _Brasilien, Ein Land der Zukunft_.
+- **1915:** D.W. Griffith's film adaptation of _The Clansman_, _The Birth of a Nation_, uses medievalist imagery to promote white heritage.
+- **1917:** Sinking of the merchant vessel Paraná by German submarines sparks a sense of Brazilian nationalism and xenophobic demonstrations.
+- **1918:** Alma Bridwell White is named the first female bishop of the United States, lauded by far-right groups as a "first feminist" for white Protestant women.
+- **1920:** Joan of Arc is canonized after a campaign by the Catholic Church, further cementing her political utility.
+- **1922:** Ernest T. Dewald publishes on the appearance of the horseshoe arch in Western Europe.
+- **1923:** Jean Toomer's _Cane_ is published, associated with literary modernism and the Harlem Renaissance.
+- **1925:** Alain Locke's influential essay "The New Negro" is published. Alma White publishes _The Ku Klux Klan in Prophecy_.
+- **1927:** Martin Heidegger's _Being and Time_ is published.
+- **1928:** W.E.B. Du Bois publishes _Dark Princess: A Romance_, deploying the Middle Ages in an anti-colonialist, globalist manner.
+- **1930:** George Hughes, a Black man, is lynched in Sherman, Texas, following a false accusation by a white farmer's wife. This event is tied to American medievalism and "southern chivalry."
+- **1930s:** Brazilian military dictatorship (1964-1985) begins to espouse Lusotropicalism.
+- **1931:** Niceto Alcalá-Zamora is appointed President of the Spanish Second Republic.
+- **1936:** Spanish Civil War begins following a military coup. The idea of "the fraud of 1936" (electoral manipulation by the left) becomes a Francoist justification for the coup.
+- **1936–1945:** Dugin identifies Martin Heidegger's "middle period" of philosophy.
+- **1938:** Kristallnacht, a pogrom sending 30,000 Jews to concentration camps.
+- **1940s (Early):** Benito Mussolini reads Julius Evola's _Synthesis of the Doctrine of Race_, incorporating its support for eugenics and restoring "lost Roman virtues" into his fascist movement.
+- **1942 (April):** Theodore E. Mommsen publishes "Petrarch’s Conception of the ‘Dark Ages.’"
+- **1945 (February):** Dresden is heavily bombed by Allied forces towards the end of WWII.
+- **1948:** Américo Castro publishes _España en su historia_, widely accepted as defining "convivencia" as a syncretic culture in medieval Spain. Jean-François Lyotard publishes _The Postmodern Condition_.
+- **1949:** Gilberto Freyre addresses the UN as Ambassador, promoting Brazilian race relations. Curzio Malaparte publishes _The Skin_.
+- **1950s:** Julius Evola's "esoteric fascism" gains new cultic guises, including neo-Gnostic orientalism and secret Tibetan doctrine.
+- **1954:** Martin Heidegger's "Question concerning Technology" is published.
+- **1955:** A statue of El Cid by Juan Cristóbal is erected in Burgos, Spain, with Franco's support, symbolizing Spanish national identity. Hubert Herring publishes _History of Latin America from the Beginnings to the Present_.
+- **1960:** Vittorio De Sica's film _La Ciociara_ is released, featuring an infamous rape scene.
+- **1963 (April 12):** Eight white clergymen in Birmingham release "A Call for Unity," labeling Martin Luther King Jr. as an "outside agitator."
+- **1963:** Robert J. Stoller and Ralph R. Greenson coin the term "gender identity" at a conference on homosexuality.
+- **1964:** Stoller defines "gender identity." Johns Hopkins Medical Center begins performing gender-confirming surgery. Brazilian military coup overthrows President João Goulart.
+- **1966:** Harry Benjamin releases "The Transsexual Phenomenon."
+- **1968:** Alain de Benoist founds GRECE (Groupement de recherche et d’études pour la civilisation européenne), a French ethno-nationalist think tank. Classical scholar Enoch Powell gives his "rivers of blood" speech on immigration in Britain.
+- **1969:** Arthur Cohen publishes "The Myth of the Judeo-Christian Tradition" in _Commentary Magazine_. The _Eugenics Review_ renames itself the _Journal of Biosocial Science_; _Eugenics Quarterly_ changes to _Social Biology_. E.O. Wilson publishes _Sociobiology_, sparking evolutionary psychology.
+- **1970s:** The concept of "gender roles" is used by Richard Green and John Money. Feminism in science faces resistance.
+- **1975:** Spanish transition to democracy begins.
+- **1975–1982:** "Pact of Forgetting" is forged in Spain to avoid dealing with the legacy of Francoism.
+- **1978:** _Seleções do Reader’s Digest_'s 1964 article "The nation that saved itself" is reedited by the Library of the Brazilian Army. Spanish Constitution of 1978 adopted.
+- **1980s:** Attempts to challenge the "Pact of Forgetting" in Spain by victims of the Republican side begin to emerge. Spencer E. Cahill distinguishes "gender identity" from "gender expression."
+- **1980:** Heinz-bernd Krauskopf publishes _Brasilien, Zukunft für Alle?_
+- **1983:** Mark Twain blames _Ivanhoe_ for the American Civil War in _Life on the Mississippi_.
+- **1986:** Paul Edward Gottfried publishes _The Search for Historical Meaning: Hegel and the Postwar American Right_.
+- **1989:** Fall of the Berlin Wall and end of the Cold War. First democratic election in Brazil following the civil-military dictatorship.
+- **1990s:** The concept of "gender expression" surges in popularity with theorists like Judith Butler. Francis Fukuyama declares the "end of history."
+- **1990:** Foro de São Paulo, a forum for left-wing Latin American parties, is created with assistance from Brazil's PT.
+- **1992:** Anne Fausto-Sterling publishes a book on sex difference research from the 1970s, refuting claims that it only became safe to study sex differences recently.
+- **1994:** Silvio Berlusconi's right-wing coalition comes to power in Italy.
+- **1995:** Alexander Dugin runs as an NBP candidate in Duma elections.
+- **1996:** Italy passes a law against sexual violence.
+- **1999:** NATO bombing of Serbia (March 24, 1999). _The Matrix_ film is released.
+- **2000:** Croatian Parliament adopts the Declaration on the Homeland War.
+- **2000s (Early):** Younger historians in Spain begin to recover and refurbish conservative arguments about the Second Republic.
+- **2004:** New socialist government in Spain creates a commission for a Historical Memory Law.
+- **2005:** ITP (Integral Tradition Publishing) begins operations in Denmark, focusing on "Traditionalist" authors like Julius Evola. Italian political party Alleanza Nazionale (AN) releases a controversial poster against sexual violence.
+- **2006:** ITP website declares affinity for "Vedic-Aryan, Islamic or Catholic" texts, positing a "cycle of meta-history."
+- **2007:** Spanish Historical Memory Law is approved, recognizing victims of the Civil War and Francoist dictatorship. Carlos Alberto Brilhante Ustra publishes _A Verdade Sufocada: a história Que a Esquerda não Quer Que o Brasil conheça_.
+- **2008:** Fernando del Rey publishes _Paisanos en lucha: exclusión política y violencia en la Segunda República española_. Romano Bracalini publishes _Paisà_.
+- **2009:** ITP closes. Arktos Media, the inheritor company, is registered in the UK. Alexander Dugin publishes _The Fourth Political Theory_. Tea Party movement emerges in the US. Barack Obama comments on Islam's tradition of tolerance during his visit to Cairo.
+- **2010:** Glenn Beck stages "Restoring Honor" rally in Washington, D.C., reenacting the March on Washington. Andrew Breitbart stages a "UNI-TEA rally" in Philadelphia. Newt Gingrich opposes the construction of the Cordoba House cultural center in Manhattan.
+- **22 March 2011 (as per source, likely meant 2011/3/11):** Nuclear incident occurs.
+- **2012:** Manuel Álvarez Tardío and Fernando del Rey edit _The Spanish Second Republic Revisited_. Giampaolo Pansa publishes _La guerra sporca dei partigiani e dei fascisti_. Gigi Di Fiore publishes _Controstoria della liberazione_. Golden Dawn party celebrates election results in Thessaloniki, Greece.
+- **2013:** French ethno-nationalist youth group Génération Identitaire posts a video to YouTube. Bill C-16 is introduced to amend the Canadian Human Rights Act and Criminal Code. Black Lives Matter movement begins in the US.
+- **2014:** Aproximately a thousand far-right militants reenact the Marcha da Família in São Paulo, chanting pro-dictatorship slogans.
+- **2015:** Richard Spencer speaks at an American Renaissance meeting. Glenn Beck leads a "Restoring Unity" march in Birmingham, Alabama.
+- **2016:** Jordan Peterson releases "Professor against Political Correctness, Part I" on YouTube. Donald Trump wins the US presidential election. Richard Spencer shouts "Hail Trump!" and gives a Nazi salute at a National Policy Institute conference. Slobodan Praljak commits suicide in an international courtroom. Dario Fernández-Morera publishes _The Myth of the Andalusian Paradise_.
+- **2017:January:** Richard Spencer and Daniel Friberg launch AltRight.com.
+- **February:** Marine Le Pen launches her presidential campaign.
+- **April:** Jair Bolsonaro takes the stage at the Club Hebraica of Rio de Janeiro.
+- **May:** Defend Europe campaign launched by Génération Identitaire.
+- **August:** "Unite the Right" rally in Charlottesville, Virginia, with white nationalists carrying medieval-inspired heraldry and confederate flags. Heather Heyer is killed by a self-identified white supremacist. Pharos: Doing Justice to the Classics (pharosclassics.org) is launched.
+- **September:** Jason Reza Jorjani suspended from New Jersey Institute of Technology.
+- **November:** AltRight.com micro-site launched to solicit articles.
+- **2018:May:** AltRight.com removed from internet by GoDaddy.
+- **October:** Jair Bolsonaro wins the Brazilian presidency.
+- **2019 (Summer):** Collective research project on "Kali Yuga" posts on 4chan/pol/ from 2013-2019 is conducted.
+
+# Cast of Characters
+
+## **Individuals:**
+
+- **Albright, Madeleine K. (1937–2022):** US Secretary of State (1997–2001) and author of _Fascism: A Warning_ (2018), who discusses the complexity of defining fascism and identifies a fascist leader's actions as a core component.
+- **Alcalá-Zamora, Niceto (1877–1949):** A conservative monarchist from the Restoration period, appointed president of the Spanish Second Republic. His decision regarding the Popular Front's victory in the 1936 elections is disputed by some revisionist historians.
+- **Alexander the Great (356–323 BCE):** Ancient Macedonian king whose imperial conquests are traditionally seen as "civilizing" the Mediterranean world, but are re-evaluated by some scholars in light of comparisons to figures like Hitler.
+- **Álvarez Tardío, Manuel:** Historian and co-author of _1936: Fraude y Violence_ (2017), which claims the 1936 Spanish elections were fraudulent. He is associated with a revisionist turn in Spanish historiography.
+- **Anderson, Benedict (1936–2015):** Political scientist and historian, known for his concept of "imagined communities," which is borrowed by Louie Dean Valencia-García to describe "digital imagined communities" formed by far-right groups online.
+- **Antônio Conselheiro (1830–1897):** Brazilian rebellion leader whose "mad teachings" are framed by Euclides da Cunha as urging "racial rebellion against the republican government."
+- **Azaña, Manuel (1880–1940):** A Spanish politician who rose to president of the government after the 1936 elections.
+- **Baron-Cohen, Simon (b. 1958):** Psychologist and author of _The Essential Difference: Male and Female Brains and the Truth about Autism_, associated with evolutionary psychology and staunch opposition to social change based on innate gender differences.
+- **Baudet, Thierry (b. 1983):** Dutch politician, mentioned in connection with the term "Boreal" and far-right populist discourse.
+- **Baudrillard, Jean (1929–2007):** French sociologist and philosopher, whose ideas on a "society of the spectacle and a play of simulacra" are invoked by Alexander Dugin.
+- **Beard, Mary (b. 1955):** Prominent Classicist who exhorted historians to "point out the howlers" in far-right appropriations of Latin oratory.
+- **Beck, Glenn (b. 1964):** Former Fox News host and conservative Internet media mogul. Played a central role in fostering the Tea Party movement's historical subjectivity, notably through his "Restoring Honor" (2010) and "Restoring Unity" (2015) rallies.
+- **Benjamin, Harry (1885–1986):** Physician who released _The Transsexual Phenomenon_ in 1966, aimed at capturing the concept and experience of trans identity.
+- **Benoist, Alain de (b. 1943):** French philosopher and founder of the European "Nouvelle Droite" (New Right), and the GRECE think tank.
+- **Boch, Patrick:** Co-founder of Integral Tradition Publishing (ITP) in Denmark and a director of Arktos Media. His interests included "traditional jurisprudence and statecraft."
+- **Bolsonaro, Jair (b. 1955):** Brazilian President (2019-2022) whose rise led to a critical reassessment of narratives about Brazil. He promoted alternative interpretations of history, particularly regarding the military dictatorship, and used rhetoric associated with the "red threat" and a Manichean view of politics.
+- **Boswell, John (1940–1994):** Historian mentioned for his work _Same-Sex Unions in Premodern Europe_.
+- **Bracalini, Romano (b. 1936):** Italian journalist whose work embraces a revisionist trend, particularly focusing on sexual violence committed by French colonial troops during the Allied occupation of Italy. He draws parallels to contemporary immigration.
+- **Braithwaite, William Stanley (1878–1962):** American writer and literary critic, who lauded Jean Toomer's _Cane_ as a work of "modern literary form."
+- **Breitbart, Andrew (1969–2012):** American conservative publisher and commentator, who staged a "UNI-TEA rally" in Philadelphia in 2010 to counter the Tea Party's reputation for racism.
+- **Butler, Judith (b. 1956):** Gender theorist who examined performative dimensions of gender, arguing that "gender is not a noun" and is "performatively constituted."
+- **Cahill, Larry:** Neuroscientist, mentioned as admitting that neuroscientists do not know the history of their own field or the claims they make regarding sex differences.
+- **Cahill, Spencer E. (1948–2020):** Sociologist who, in the 1980s, distinguished between "gender identity" and "gender expression."
+- **Calvin, John (1509–1564):** Theologian, mentioned in the context of "sola scriptura" and the erroneous comparison of Karaites to Calvinists.
+- **Camus, Jean-Yves (b. 1969):** French political scientist and specialist on the far right, co-author of _Far-Right Politics in Europe_, who has demonstrated the lineage from the European New Right to early twentieth-century fascist ideology.
+- **Carrasco, René (b. 1986):** Assistant Professor of Hispanic Studies at Pacific Lutheran University, author of the chapter on "The Black Legend" and its shadow.
+- **Castro, Américo (1887–1972):** Scholar of medieval Spanish literature whose 1948 publication _España en su historia_ is widely accepted for defining "convivencia." He was a republican refugee from Franco's Spain.
+- **Chaucer, Geoffrey (c. 1343–1400):** English poet, his _Man of Law's Tale_ is discussed in the context of miscegenation romance and medievalism.
+- **Christiansen, Jacob:** Co-founder of Integral Tradition Publishing (ITP) in Denmark.
+- **Clinton, Bill (b. 1946):** Former US President, who described Donald Trump's "Make America Great Again" slogan as a "racist dog whistle."
+- **Coulter, Ann (b. 1961):** American conservative media pundit, whose fans are identified as a target audience for Alt-Right books.
+- **Cris-tóbal, Juan (1896–1968):** Artist who created the statue of El Cid erected in Burgos, Spain, in 1955.
+- **Crusius, Patrick (b. 1998):** El Paso shooter, identified as a white nationalist and accelerationist.
+- **Cvjetanovic, Peter:** Torch-bearer at the 2017 Charlottesville rally, who drew inspiration for his Alt-Right activities from undergraduate courses in medieval studies.
+- **da Cunha, Euclides (1866–1909):** Brazilian author of _Os Sertões_ (1902), which discusses racial mixing and frames Brazil's civil war in terms of "sacred time and race versus secular progress."
+- **Darwin, Charles (1809–1882):** Naturalist who developed the theory of evolution. His theories are seen as influenced by social theorists like Malthus and Spencer, and his views on intellectual differences between sexes are noted.
+- **Davies, Martin L.:** Author of _The Enlightenment and the Fate of Knowledge_.
+- **Debord, Guy (1931–1994):** French Marxist theorist, whose ideas are invoked by Alexander Dugin in relation to a "society of the spectacle."
+- **Del Rey, Fernando:** Historian and co-editor of _The Spanish Second Republic Revisited_, who focuses on the "violence in the Second Republic" and attacks Historical Memory Law defenders.
+- **Derrida, Jacques (1930–2004):** French philosopher known for "Archive Fever" and deconstruction. His work is misunderstood by Jordan Peterson as secretly Marxist.
+- **Devi, Savitri (1905–1982):** High priestess of Esoteric Hitlerism and the Aryan myth, who believed in a "new man" unafraid of spiritual violence.
+- **Dewald, Ernest T. (1887–1959):** Author who noticed the presence of the horseshoe arch in Western Europe in his 1922 article.
+- **Di Fiore, Gigi:** Italian journalist whose _Controstoria della liberazione_ critiques the Resistance narrative and highlights sexual violence during the Allied occupation. He also connects Allied occupation to current divisions between Northern and Southern Italy.
+- **Díaz de Vivar, Rodrigo (c. 1043–1099):** See El Cid.
+- **Dixon Jr., Thomas (1864–1946):** American author of _The Clansman: A Historical Romance of the Ku Klux Klan_ (1905), which depicts white men defending white women under an "Institution of Chivalry."
+- **Dockray-Miller, Mary:** Scholar who explains 19th-century Southerners' definition of "chivalry" based on "idealized, implicitly white Southern womanhood."
+- **Donald Trump (b. 1946):** United States President (2017–2021) whose campaign rhetoric (e.g., "Make America Great Again") and policy proposals are linked to Alt-Right ideology.
+- **Dozier, Curtis:** Editor-in-chief of Pharos: Doing Justice to the Classics, a website documenting hate groups' appropriations of Greco-Roman antiquity. Author of the chapter on "Hate Groups and Greco-Roman Antiquity Online."
+- **Du Bois, W.E.B. (1868–1963):** Sociologist and founding figure in critical race scholarship. His 1928 novel _Dark Princess: A Romance_ uses medievalism to assert black worth and presents a progressive, anti-colonialist political ideology.
+- **Dugin, Alexander (b. 1962):** Contemporary Russian public intellectual and author of _The Fourth Political Theory_, which promotes an Alt-Right agenda, drawing on Integral Traditionalism and Heideggerian philosophy. His work is translated for Arktos by Michael Millerman.
+- **Elagabalus (reigned 218–222 CE):** Roman emperor associated with a Semitic god "Sol Invictus" and vilified for decadence. His association symbolically undermines Augustus Sol Invictus's chosen name.
+- **Engels, Friedrich (1820–1895):** German philosopher, whose ideas on Darwin's theories being a transposition of social theories onto the "natural" world are mentioned.
+- **Evans, Richard (b. 1947):** Eminent Second World War historian, who critiqued Brendan Simms's biography of Hitler for conflating socialism and Nazism.
+- **Evola, Julius (1898–1974):** Italian proto-fascist philosopher, a significant intellectual influence on esoteric fascism and Integral Traditionalism. He viewed history as a cyclical decline (Kali Yuga) and advocated a "militant assault on modernity," seeking a return to a "spiritual knighthood." His works are published by Arktos.
+- **Fausto-Sterling, Anne (b. 1944):** Biologist and feminist science scholar, whose work on sex difference research from the 1970s is cited to counter claims about when it became safe to study sex differences.
+- **Fehr, Tristan:** Neuroscientist, who engages with sex difference research and argues that essentialist conclusions about sex are unwarranted in neuroscience. Author of the chapter "Essentially a Lie."
+- **Feijoo (1676–1764):** Spanish enlightened figure, quoted as justifying the "excesses" of conquerors by the "perversities of the Indians."
+- **Fernandes, Florestan (1920–1995):** Brazilian anthropologist who led a UNESCO commission on race relations at the University of São Paulo.
+- **Fernández-Morera, Darío (b. 1952):** Author of _The Myth of the Andalusian Paradise_, which aims to "demystify Islamic Spain" by presenting a dystopian view of al-Andalus, rejecting scholarly consensus on convivencia.
+- **Firkovitch, Avraham (1787–1874):** Karaite historian, whose letter is referenced in the context of an anachronistic and inappropriately Christian perspective on Karaite theology.
+- **Fletcher, Richard (1945–2014):** Historian who describes El Cid as a mercenary in _The Quest for El Cid_.
+- **Follin, Marcus (b. 1990s):** Pseudonym "The Golden One," a Swedish far-right nationalist YouTuber who acts as a translator of Alt-Right texts for a broader audience.
+- **Foucault, Michel (1926–1984):** French philosopher, whose ideas on the "post-political" becoming "biopolitical management of the body" are invoked by Alexander Dugin. Mentioned in the context of Jordan Peterson's misunderstanding of postmodernists and his departure from a Stalinist communist party.
+- **Franco, Francisco (1892–1975):** Spanish dictator who recalled the Spanish Empire and "Reconquest." His regime imposed Spanish as the official language and suppressed diversity.
+- **Freire, Paulo (1921–1997):** Brazilian educator and philosopher, whose concept of "conscientização" is contrasted with Bolsonaro's historical interpretations.
+- **Freyre, Gilberto (1900–1987):** Brazilian polymath and sociologist, considered the greatest defender of the "Brazilian way of life" and a proponent of Lusotropicalism. He elevated Brazil's position as a solution to racial oppression.
+- **Friberg, Daniel (b. 1978):** Swedish nationalist, CEO of Arktos Media, and co-founder of AltRight.com. He was involved in the Swedish neo-Nazi skinhead scene in the 1990s and promotes white nationalism.
+- **Fukuyama, Francis (b. 1952):** Political scientist who believed neoliberalism marked an "end of history," a belief challenged by the far-right's dissemination of alt-facts and histories.
+- **Furet, François (1927–1997):** French historian whose work on the French Revolution and "solidarity among moderates" is used for comparison in discussing the Spanish Second Republic.
+- **García, Roberto Villa:** Historian and co-author of _1936: Fraude y Violence_ (2017), who claims the 1936 Spanish elections were fraudulent.
+- **Geisel, Ernesto (1907–1987):** Brazilian General and President during the civil-military dictatorship, described the re-democratisation process as "slow, gradual and safe."
+- **Georgiadis, Adonis (b. 1972):** Greek politician who argues against the prevalence of erotic relationships between men in ancient Greece, despite overwhelming scholarly evidence.
+- **Gibson, Charles (1920–1985):** Scholar who defined the term "Black Legend."
+- **Gillette, Aaron:** Historian who defines palingenesis as a "myth of national resurgence and regeneration."
+- **Gingrich, Newt (b. 1943):** American politician, opposed the construction of the Cordoba House cultural center in downtown Manhattan in 2010.
+- **Goodrick-Clarke, Nicholas (1953–2012):** Historian who studies "esoteric fascism," noting its preoccupation with occult symbology and apocalypticism.
+- **Gordon, Robert S. C. (b. 1968):** Scholar who notes the "overarching master narratives, of fascism and the Holocaust, were cracking" in Italy in the post-1989 period.
+- **Gottfried, Paul Edward (b. 1941):** Political philosopher and author of _The Search for Historical Meaning: Hegel and the Postwar American Right_, discussed for his framing of internal conflicts within the conservative movement.
+- **Goulart, João (1919–1976):** Brazilian president overthrown by a military coup in 1964.
+- **Green, Richard (b. 1936):** Psychiatrist who, with John Money, first used "gender role" to describe how individuals present as male or female.
+- **Greenson, Ralph R. (1911–1979):** Psychiatrist who, with Robert J. Stoller, coined the term "gender identity" in 1963.
+- **Griffin, Roger:** Historian and political theorist who defines fascism and its central component, palingenesis.
+- **Guénon, René (1886–1951):** French intellectual whose writings constituted the first systematic statement of Integral Traditionalism.
+- **Günther, Hans (1891–1968):** Nazi eugenicist who believed in the German "rootedness to the soil" as a distinguishing feature from Jews.
+- **Halbouni, Manaf (b. 1981):** Artist who created a "Monument" installation in Dresden in 2017, comparing contemporary Syrian refugees to victims of the Dresden bombing, which angered the far-right.
+- **Harris, Arthur (1892–1984):** "Bomber Harris," head of Bomber Command during WWII, whose forces bombed Dresden.
+- **Hayek, Friedrich (1899–1992):** Austrian-British economist and philosopher, author of _The Road to Serfdom_, mentioned as a favorite author among some Tea Partiers.
+- **Hegel, G.W.F. (1770–1831):** German philosopher, whose concept of "world history" is invoked by Richard Spencer. His ideas on "rootedness" are linked to far-right thought.
+- **Heidegger, Martin (1889–1976):** German philosopher, whose ideas are central to Alexander Dugin's "another beginning" philosophy and "rootedness in the soil" discourse among the far-right.
+- **Heineman, Elizabeth:** Historian who writes about the postwar memory politics surrounding mass rapes of German women by Allied soldiers in 1945.
+- **Henderson, Clarence:** Former Woolworth lunch counter protestor, marched with Glenn Beck in 2015.
+- **Heracles (Mythological):** Greek mythological hero, admired by some misogynist sites as a model of masculinity, often with erroneous or distorted depictions.
+- **Herder, Johann Gottfried (1744–1803):** German philosopher, associated with the "Counter-Enlightenment," an inspiration for the European New Right.
+- **Herring, Hubert (1889–1967):** American historian whose 1955 book _History of Latin America from the Beginnings to the Present_ argued that Spain did not destroy large Indian populations because there were none.
+- **Hess, Rudolf (1894–1987):** Prominent future Nazi, listed as a member of the Thule society.
+- **Heyer, Heather (1985–2017):** Counter-protester killed at the "Unite the Right" rally in Charlottesville, Virginia, in 2017.
+- **Hines, Melissa:** Neuroscientist, whose replies to critical feminist biologists are noted as ignoring historical arguments.
+- **Hitler, Adolf (1889–1945):** German dictator and leader of the Nazi party. Far-right revisionists propagate the falsehood that he was a socialist. His image is seen as potentially returning to European monies by Jason Reza Jorjani.
+- **Hobbes, Thomas (1588–1679):** English philosopher whose 17th-century commentary on the "state of nature" is cited as an intellectual lineage for sex differences research.
+- **Hobsbawm, Eric (1917–2012):** Historian whose political commitment is the focus of Iker Itoiz Ciáurriz's PhD thesis.
+- **Hood, Gregory:** Writer for the far-right website American Renaissance and contributor to _A Fair Hearing_.
+- **Hubbard, Ruth (1924–2016):** Biologist and feminist science studies scholar, who emphasized the importance of challenging "scientific" claims and the political motives behind sex differences research.
+- **Hughes, George (d. 1930):** A 41-year-old Black man lynched in Sherman, Texas, in 1930, after being falsely accused by a white farmer's wife.
+- **Huntington, Samuel (1927–2008):** Political scientist known for his "clash of civilizations" theory, embraced by Alexander Dugin.
+- **Huys, Marc:** Scholar mentioned for his summary of bibliography on Spartan practice of selective infanticide.
+- **Ibn Naghrīla, Samuel (d. 1055–6):** Poet-vizier in the emirate of Granada, who engaged deeply with both Jewish and Muslim thinkers. His poetry, though secular, drew on biblical and religious language.
+- **Invictus, Augustus Sol (b. Austin Gillespie, 1983):** White supremacist who legally changed his name and ran for the US Senate. His chosen name is analyzed for its historical and symbolic connections to Roman emperors and deities.
+- **Irving, Washington (1783–1859):** American writer, author of _The Alhambra_, noted for his role in bringing Spain to the English-speaking world.
+- **Isabel I of Castile (1451–1504) and Ferdinand II of Aragon (1452–1516):** The "Catholic Kings" who expelled Muslims and Jews from the Iberian Peninsula starting in 1492.
+- **Itoiz Ciáurriz, Iker:** PhD candidate in history at the University of Edinburgh, author of the chapter "The Wheel That Never Ceases."
+- **Jorjani, Jason Reza (b. 1981):** Iranian-American lecturer and culture editor for AltRight.com. He promotes a vision of Iran as white and Aryan and has espoused increasingly Nazistic views.
+- **Juliá, Santos (b. 1940):** Historian mentioned as clarifying aspects of the Spanish Second Republic and Civil War.
+- **Juin, Alphonse (1888–1967):** French General, whose army included colonial troops implicated in widespread sexual violence during the Allied occupation of Italy.
+- **Juvenal (c. 55–127 CE):** Roman satirist, whose misogynist, homophobic, and xenophobic views are invoked by hate groups, though scholarly interpretation often reveals his poetry to undermine its own arguments.
+- **Kant, Immanuel (1724–1804):** German philosopher, whose ideas on "rootedness" and the "servant-master" relationship conferred on Jews are linked to far-right thought.
+- **Kataguiri, Kim (b. 1996):** Spearheads Movimento Brasil Livre (MBL), an admirer of Ronald Reagan and Margaret Thatcher, who describes the Workers' Party (PT) as a "nemesis of freedom and democracy."
+- **King, Alveda (b. 1950):** Conservative activist and niece of Martin Luther King Jr., invited by Glenn Beck to march alongside him in Birmingham in 2015.
+- **King Jr., Martin Luther (1929–1968):** American civil rights leader, whose legacy Glenn Beck attempts to appropriate for his political ends.
+- **Knipe, Sergio:** Scholar previously listed on the ITP website, interested in Greco-Roman blood sacrifice and traditionalist thought.
+- **Kranzberg, Melvin (1917–1995):** Historian of technology, known for "Kranzberg's Laws," particularly the first: "Technology is neither good nor bad; nor is it neutral."
+- **Krishna (Mythological):** Deity in Hinduism, who describes the "kshatriya" (righteous religious warrior) in the Bhagavad Gita, invoked by Julius Evola.
+- **Krumich, Gerd:** Historian who discusses Joan of Arc's use by political factions.
+- **Kuryokhin, Sergei (1954–1996):** Free-jazz musician and artist-provocateur, who influenced Alexander Dugin to make his works "attention-grabbing spectacles."
+- **Laird, Peter:** Steering-committee member of the Greater Boston Tea Party, who acknowledged the movement's connection to the Founding Fathers was "mostly in name only."
+- **Las Casas, Bartolomé de (1484–1566):** Spanish Dominican friar and historian, whose _Brevísima relación de la destrucción de las Indias_ (Brief Account of the Destruction of the Indies) is criticized by Bernardo de Vargas Machuca.
+- **Lauder-Frost, Gregory:** Head of Arktos UK.
+- **Lebourg, Nicolas (b. 1970):** French historian, co-author of _Far-Right Politics in Europe_, who has demonstrated the lineage from the European New Right to early twentieth-century fascist ideology.
+- **Lee, Robert E. (1807–1870):** Confederate General, subject of statues and believed to be descended from Anglo-Norman knights, part of the "southern chivalry" narrative.
+- **Lenin, Vladimir (1870–1924):** Bolshevik leader, his words are invoked ironically in reference to John Morgan's motivations.
+- **Leonard, John Bruce:** Editor-in-chief of Arktos, who describes himself as an "anti-modernist and enemy of most of what today is toted as 'progress.'"
+- **Le Pen, Jean-Marie (b. 1928):** French politician and founder of the Front National, father of Marine Le Pen. Mentioned as advocating saving "Boreal Europe and the White World."
+- **Le Pen, Marine (b. 1968):** Leader of Rassemblement National (formerly Front National) in France, who models herself as a modern-day Joan of Arc to save France from "immigrant peril."
+- **Lepore, Jill (b. 1966):** Historian and author of _The Whites of Their Eyes_, who frames the Tea Party's historical subjectivity as paradoxical and critiques its "antihistorical" and "historical fundamentalist" tendencies.
+- **Lisboa, José da Silva (1756–1835):** Brazilian political economist, whose thought intermingled classical liberal political economy with slavery.
+- **Locke, Alain (1885–1954):** Howard University philosopher, whose 1925 essay "The New Negro" set the intellectual agenda for the Harlem Renaissance and treated the Middle Ages in a nuanced way.
+- **Lockhart, Jeffrey W.:** PhD Candidate in Sociology at the University of Michigan, author of the chapter "'A Large and Longstanding Body': Historical Authority in the Science of Sex."
+- **Locker, Martin:** Assistant editor-in-chief of Arktos.
+- **Lorenz, Konrad (1903–1989):** Ethologist, widely regarded as the founding father of ethology. He was a Nazi who defended his eugenicist beliefs.
+- **Losantos, Federico Jiménez (b. 1951):** Spanish pseudo-historian close to the far-right, who supported the idea of the "fraud of 1936."
+- **Lowe, Jim:** Black pastor, who marched with Glenn Beck in Birmingham in 2015.
+- **Lyons, Charles:** Head of Arktos US and chief administrative officer, also a regular contributor for Alt-Right.com.
+- **Lyotard, Jean-François (1924–1998):** French philosopher, whose concept of "incredulity towards metanarratives" defines postmodernism. He explicitly disavowed Marxism, contrasting with Jordan Peterson's claims.
+- **MacDonald, Kevin (b. 1944):** Psychologist, identified by the Southern Poverty Law Center as the "neo-Nazi movement’s favorite academic," and a contributor to _A Fair Hearing_.
+- **Machuca, Bernardo de Vargas (c. 1555–1622):** Spanish conquistador, whose _Apologías y discursos de las conquistas occidentales_ refuted Las Casas's _Brevísima_.
+- **Mackinder, Halford (1861–1947):** British geographer, whose opposition between a Eurasian Heartland and an Atlanticist World Island is invoked by Alexander Dugin.
+- **Magdalene, Mary (Biblical Figure):** Figure in the Bible, whose portrayal has been redefined by far-right Christian groups from prostitute to confidant or mother.
+- **Mahan, Alfred (1840–1914):** American naval strategist, whose opposition between land and maritime power is invoked by Alexander Dugin.
+- **Mažić, Mario:** Founding Partner at Europe&Southeast, Board Member at Humanitarian Law Center in Prishtina, and initiator of Political Youth Network. Co-author of the chapter "The Wheel That Never Ceases Reinventions."
+- **Malthus, T.R. (1766–1834):** English economist, whose _Essay on Population_ (1798) influenced Charles Darwin and is cited as an intellectual lineage for sex differences research.
+- **Marlaud, Jacques (1944–2014):** Former President of GRECE, who defined "metapolitics" as influencing political society over the long term.
+- **Marx, Karl (1818–1883):** German philosopher and economist, whose theories (Marxism) are invoked by Jordan Peterson in his critiques of "postmodern neo-Marxists."
+- **Maurras, Charles (1868–1952):** French nationalist and founder of the Action Française journal, whose books were listed by ITP.
+- **McLaren, Evan:** Of Richard Spencer's National Policy Institute, and a contributor to _A Fair Hearing_.
+- **McMahan, Jeff:** Philosopher who discusses the "moral basis of liability to defensive violence."
+- **Mears, Charlotte (b. 1990s):** Doctoral student at Kingston University, author of the chapter "The Far Right and Women's History."
+- **Menéndez Pidal, Ramón (1869–1968):** Spanish philologist, who wrote about the possibility of convivencia between Christians and Muslims in Iberia and whose introduction to _Poema de mio Cid_ is cited for its nationalistic interpretation of El Cid.
+- **Menocal, María Rosa (1953–2012):** Scholar of medieval Spanish literature, author of _The Ornament of the World_, which is caricatured by some as promoting an overly utopian view of convivencia.
+- **Mészáros, Melissa:** Hungarian-American YouTuber and staff member at Arktos.
+- **Mihailovic, Alexandar:** Scholar who points out Dugin's increased attention to tactics after his collaboration with Sergei Kuryokhin.
+- **Miller, Stephen (b. 1985):** Senior policy advisor to US President Donald Trump, claimed to have been mentored by Richard Spencer. His far-right connections are noted.
+- **Millerman, Michael:** Canadian translator of Alexander Dugin's works for Arktos, also a PhD candidate in political science.
+- **Milošević, Slobodan (1941–2006):** Former President of Serbia and Yugoslavia, whose policies were publicly approved in the 1990s through a victimization narrative.
+- **Moa, Pío (b. 1948):** Spanish pseudo-historian close to the far-right, who supported the idea of the "fraud of 1936."
+- **Mommsen, Theodore E. (1907–1986):** Historian, who published "Petrarch’s Conception of the ‘Dark Ages.’"
+- **Money, John (1921–2006):** Psychologist who, with Richard Green, first used "gender role" to describe how individuals present as male or female.
+- **Moog, Vianna (1908–1988):** Brazilian author, who explained the differences between "bandeirantes" and "pioneers."
+- **Morabito, Christine:** Steering-committee member of the Greater Boston Tea Party, who viewed the movement as heirs to a long struggle against overbearing government.
+- **Morgan, John (b. 1973):** Former editor-in-chief and director of Arktos Media, and a co-founder of ITP. He is interested in traditionalist perspectives and "metapolitical" strategies to find alternatives to modernity. Later joined Counter-Currents.
+- **Munslow, Alun:** Author of _The Aesthetics of History_.
+- **Mussolini, Benito (1883–1945):** Italian dictator, wanted to bring back the greatness of the Roman Empire. His fascism is discussed in relation to Julius Evola and palingenesis.
+- **Nenadović, Maja:** Co-author of the chapter "The Wheel That Never Ceases Reinventions."
+- **Nelson, Brittany (b. 1990s):** Podcaster who uses the pseudonym Bre Faucheux, and a contributor to _A Fair Hearing_.
+- **Nietzsche, Friedrich (1844–1900):** German philosopher, whose ideas are linked to far-right thought.
+- **Nirenberg, David (b. 1964):** Historian who observed that using history to demonstrate the virtues of one culture over another often re-creates the dynamics being transcended.
+- **Nolte, Ernst (1923–2016):** German historian whose works inspired the revisionist movement in the seventies.
+- **Nongbri, Brent:** Historian of early Christianity, who notes how American popular and scholarly conceptions of religion tend to see Protestantism as the model.
+- **Obama, Barack (b. 1961):** US President, commented on Islam's tradition of tolerance during his 2009 visit to Cairo.
+- **O'Meara, Michael (b. 1946):** Author of _New Culture, New Right: Anti-Liberalism in Postmodern Europe_, cited by John Morgan.
+- **O'Brien, Dan:** Editor of _30 Teleology and Modernity_.
+- **Olmedo, Daniel:** Mentioned as a historian in the context of the "Black Legend."
+- **Ortega Smith, Javier (b. 1968):** Spanish politician, who calls upon old concepts of "Western civilisation" and the Spanish Reconquest to mask hate.
+- **Pansa, Giampaolo (1935–2018):** Italian journalist whose work on the Resistance has raised polemics and become popular on the right, criticizing the "political opportunism" that dictated the exaltation of the partisan struggle.
+- **Payne, Stanley G. (1934–2021):** Historian who suggested that the extremism of the Left during the Spanish Second Republic caused the Civil War.
+- **Pearce, S.J.:** Associate Professor of Spanish and Portuguese at New York University, author of the chapter criticizing Dario Fernández-Morera's _The Myth of the Andalusian Paradise_.
+- **Pericles (c. 495–429 BCE):** Athenian statesman, whose "Funeral Oration" is included on Augustus Sol Invictus's website, despite Pericles' restrictive citizenship legislation.
+- **Pereña, Luciano (1928–1997):** Scholar whose research results are quoted to argue that population decline in Spanish America was mainly due to demographic crisis and not Spanish Crown extermination.
+- **Perlstein, Rick (b. 1969):** Historian whose trilogy of books chronicles the rise of American conservatism. He sees Trump's election as a rupture from this narrative.
+- **Peterson, Jordan (b. 1962):** Professor of clinical psychology at the University of Toronto who gained popularity for his objections to Canada's Bill C-16, claiming it would compel speech and constitute hate crime. He criticizes "postmodern neo-Marxists."
+- **Petrarca, Francesco (1304–1374):** Italian scholar and poet, accredited for humanistic thought during the Renaissance, who believed he lived in a "dark age."
+- **Phillips-Fein, Kim (b. 1973):** Historian who noted that "conflicts within the conservative movement have yet received relatively little attention from historians."
+- **Pidal, Ramón Menéndez (1869–1968):** Scholar who described _convivencia_ between Christians and Muslims prior to the Almoravids, and also the coexistence of languages in medieval Iberia.
+- **Pinker, Steven (b. 1954):** Cognitive psychologist, cited as a contemporary scholar who has argued for essential sex differences based on biological determinism.
+- **Plato (c. 428–348 BCE):** Greek philosopher, whose advocacy of eugenics in the _Republic_ is invoked by neo-Nazis and early eugenicists.
+- **Plett, Donald (b. 1950):** Canadian Senator, argued against Bill C-16, claiming it threatened freedom of speech and compelled speech.
+- **Popper, Karl (1902–1994):** Viennese Jewish philosopher, author of _The Open Society and Its Enemies_, who argued that unlimited tolerance can lead to extreme intolerance.
+- **Portas, Maximiani (1905–1982):** See Savitri Devi.
+- **Portela Valladares, Manuel (1880–1958):** President of the Government in Spain, whose resignation after the 1936 elections is viewed by some revisionist historians as an imposition.
+- **Powell, Enoch (1912–1998):** Classical scholar and member of parliament who gave the "rivers of blood" speech in 1968, foretelling disaster if immigration continued.
+- **Praljak, Slobodan (1945–2017):** Convicted Bosnian Croat war criminal who committed suicide in court, commemorated as a hero in Croatia.
+- **Preston, Paul (b. 1946):** Historian mentioned as clarifying aspects of the Spanish Second Republic and Civil War.
+- **Primo de Rivera, Miguel (1870–1930):** Spanish dictator, whose regime (1923-1930/31) is overlooked by some historians of the Spanish Second Republic.
+- **Pulek1:** Photographer of the Génération Identitaire protest march in 2017.
+- **Ribera, Julian (1854–1926):** Scholar who first used _convivencia_ to describe shared intellectual interests and daily contact between religions in medieval Spain.
+- **Richard the Lionheart (1157–1199):** Medieval English King, romanticized in _Ivanhoe_.
+- **Robles, Ricardo:** Historian who critiques revisionist historians for constantly reiterating their objectivity without demonstrating it.
+- **Rosenberg, Alfred (1893–1946):** Prominent future Nazi, listed as a member of the Thule society.
+- **Rousseau, Jean-Jacques (1712–1778):** Philosopher, mentioned in Jordan Peterson's reference to postmodernism.
+- **Rumi (1207–1273):** Thirteenth-century Persian poet, whose works are invoked by Jason Reza Jorjani to promote a vision of Iran as white and Aryan.
+- **Rushd, Ibn (‘Averroes’) (1126–1198):** Córdoban Muslim cleric and polymath, whose commentary on Aristotle is mentioned in the context of reading translated texts.
+- **Salazar, António de Oliveira (1889–1970):** Portuguese dictator, who invited Gilberto Freyre to tour contemporary colonies in the 1950s.
+- **Salem, Peter (c. 1750–1816):** Freed black man who fought for the Continental Army at Bunker Hill, highlighted by Glenn Beck as a forgotten black hero.
+- **Samson, Alexander:** British historian who states that the "Black Legend and the Reform are inseparable."
+- **Sarfatti, Margherita (1880–1961):** Italian journalist and mistress of Mussolini, mentioned for her support of Italian Fascism.
+- **Schoep, Jeff (b. 1974):** Neo-Nazi leader who has advocated "rebranding" white supremacy by abandoning traditional Nazi symbols and calling the Nazi salute the "Roman salute."
+- **Schüler, Heinrich:** Author of _Brasilien, Ein Land der Zukunft_ (1912).
+- **Scott, Sir Walter (1771–1832):** Author of _Ivanhoe_, whose romanticized account of medieval life influenced Southern white slave owners.
+- **Sedgwick, Mark (b. 1960):** Scholar of Traditionalism, one of the dissertation advisors for Christian Senholt.
+- **Sekatsky, Alexander (b. 1964):** Radical-right St. Petersburg philosopher, whose "glamour code" is invoked by Alexander Dugin.
+- **Senholt, Jacob Christiansen (b. 1978):** Co-founder of Integral Tradition Publishing (ITP) and a director of Arktos Media. His dissertation on the New Right is noted.
+- **Serrano, Miguel (1917–2009):** Chilean diplomat and author, developed the concept of "Esoteric Hitlerism," blending Gnostic-Manichaeanism with kundalini yoga.
+- **Siksay, Bill (b. 1955):** Canadian MP who first introduced Bill C-389 (An Act to Amend the Canadian Human Rights Act and the Criminal Code (Gender Identity and Gender Expression)) in 2005.
+- **Simms, Brendan (b. 1967):** Professor in the history of international relations at Cambridge University, whose biography of Hitler is criticized for conflating socialism and Nazism.
+- **Skarpelis, A.K.M.:** Postdoctoral fellow at Harvard University, author of the chapter "Dresden Will Never Be Hiroshima."
+- **Snyder, Timothy (b. 1969):** Historian who coined the term "politics of inevitability."
+- **Socrates (c. 470–399 BCE):** Ancient Greek philosopher, whose advocacy of eugenics in Plato's _Republic_ is invoked by neo-Nazis.
+- **Spencer, Herbert (1820–1903):** English philosopher, who applied Darwinian theories to human society as Social Darwinism.
+- **Spencer, Richard (b. 1978):** American white nationalist, poster boy for the "Alt-Right." He directs the National Policy Institute and co-founded AltRight.com. He advocates "peaceful ethnic cleansing."
+- **Stacy, Tyler:** Author of the chapter "Transforming the Law: Canada’s Bill C-16, Gender and Post-Truth Politics."
+- **Stoller, Robert J. (1925–1991):** Psychiatrist who, with Ralph R. Greenson, coined the term "gender identity" in 1963 and defined it.
+- **Stranahan, Lee:** Reporter for Brietbart.com, noted for his coverage of Glenn Beck's "Restoring Unity" rally.
+- **Strauss, Leo (1899–1973):** Philosopher, whose interpretation of Plato is mentioned as being associated with elitism and anti-democracy.
+- **Sunić, Tomislav (b. 1953):** Author of _Against Democracy and Equality: The European New Right_, cited by John Morgan.
+- **Tähtinen, Lauri:** Author of the chapter "The Country of the Future No More," who researches Luso-Brazilian history and politics.
+- **Tannenbaum, Frank (1893–1969):** American historian and sociologist, author of _Slave and Citizen_, who drew parallels between Brazilian and US slavery.
+- **Thatcher, Margaret (1925–2013):** British Prime Minister, admired by Kim Kataguiri.
+- **Thucydides (c. 460–c. 395 BCE):** Ancient Greek historian, whose account of Pericles's "Funeral Oration" is mentioned.
+- **Toomer, Jean (1894–1967):** American writer, author of _Cane_ (1923), associated with the Harlem Renaissance.
+- **Townson, Nigel:** Historian who argued that the lack of consolidation of centrist politics during the Spanish Second Republic led to its failure.
+- **Trompf, G.W. (b. 1937):** Author of _The Idea of Historical Recurrence in Western Thought: From Antiquity to the Reformation_.
+- **Tuđman, Franjo (1922–1999):** Croatian President (1990–1999), whose leadership in a "joint criminal enterprise" was established by the ICTY.
+- **Tuters, Marc:** Assistant Professor in Media Studies at the University of Amsterdam, who directs the Open Intelligence Lab (OILab). Co-author of the chapter "Esoteric Fascism Online."
+- **Twain, Mark (1835–1910):** American writer, who lamented the popularity of _Ivanhoe_ and blamed it for the American Civil War.
+- **Urbano, Francisco Castilla:** Co-editor of _La Sombra de La Leyenda Negra_, which aims to examine the historical conditions of the "Black Legend."
+- **Ustra, Carlos Alberto Brilhante (1932–2015):** Brazilian Army Colonel and former head of DOI-CODI. His memoirs, _A Verdade Sufocada_, became a standard reference for the new radical right in Brazil, echoing the official narrative of the military regime.
+- **Vallée, Jacques (b. 1939):** Computer scientist, whose work with ARPANET contributed to the creation of the modern internet. Met with Jason Reza Jorjani.
+- **Valencia-García, Louie Dean (b. 1980s):** Assistant Professor of Digital History at Texas State University, editor of _Far-Right Revisionism and the End of History_. He is a founding co-chair of the Council for European Studies at Columbia University's Critical European Studies Research Network and a Senior Fellow at the Centre for the Analysis of the Radical Right.
+- **Vargas Llosa, Mario (b. 1936):** Peruvian writer, mentioned in the context of Spain bringing "civilization to the Americas."
+- **Vargas Machuca, Bernardo de (c. 1555–1622):** See Machuca, Bernardo de Vargas.
+- **Vidal, César (b. 1958):** Spanish pseudo-historian close to the far-right, who supported the idea of the "fraud of 1936."
+- **Villaverde Rico, María José:** Co-editor of _La Sombra de La Leyenda Negra_, which aims to examine the historical conditions of the "Black Legend."
+- **Viñas, Ángel (b. 1941):** Historian mentioned as clarifying aspects of the Spanish Second Republic and Civil War.
+- **Virilio, Paul (1940–2018):** French cultural theorist, whose ideas on the accelerated pace of technological change creating a "dromocratic society" are invoked by Alexander Dugin.
+- **Vučić, Aleksandar (b. 1970):** Serbian President, whose remarks in 2018 on the NATO bombing of Serbia framed Serbia as a victim.
+- **Warner, Marina (b. 1946):** Author of _Joan of Arc: The Image of Female Heroism_.
+- **Westman, Tor (b. 1988):** Hungarian-based Swede, technical director and chief marketing officer for AltRight.com and Arktos.
+- **Whitaker, Cord J.:** Associate Professor of English at Wellesley College, author of the chapter "The Problem of Alt-Right Medievalist White Supremacy, and Its Black Medievalist Answer."
+- **White, Alma Bridwell (1869–1960):** Named the first female bishop of the United States in 1918. Praised by far-right groups as a "first feminist" for white Protestant women, despite her racist beliefs and involvement with the Ku Klux Klan.
+- **Wilson, E.O. (1929–2021):** Biologist, author of _Sociobiology_, which sparked evolutionary psychology.
+- **Winer, Rebecca:** Author of the article "Judaism: Sephardim" on the Jewish Virtual Library website, cited by Fernández-Morera.
+- **Winkler, Martin (b. 1945):** Scholar who investigated the claim that the Nazi salute originated in ancient Rome and found no ancient evidence for it.
+- **Wolf, Kenneth Baxter:** Scholar who has written about "convivencia" in medieval Spain and critiqued María Rosa Menocal's _The Ornament of the World_.
+- **Yiannopoulos, Milo (b. 1984):** Far-right political commentator, who rallied behind some "white medieval studies' biggest gatekeepers" after Charlottesville.
+- **Yockey, Francis Parker (1917–1960):** American neo-Nazi theoretician, whose writings contributed to variants of neo-Nazi ideology.
+- **Zeskind, Leonard (b. 1956):** Author of _The ‘Christian Identity’ Movement: Analyzing Its Theological Rationalization for Racist and Anti-Semitic Violence_.
+- **Zweig, Stefan (1881–1942):** Austrian writer, author of _Brazil, a Land of the Future_ (1941). He saw Brazil as a model for cultural and moral transformation, and his work served as a political apology for the Vargas dictatorship.
+- **Zuckerberg, Donna (b. 1986):** Editor-in-chief of Eidolon, an online journal of feminism and Classics, who called attention to the appropriation of Greco-Roman antiquity by white supremacists.
+
+## **Groups/Organizations:**
+
+- **Alt-Right:** A white supremacist movement that repackages old racist ideology, often drawing on Internet trolling culture and alt-histories. Key figures include Richard Spencer and Daniel Friberg.
+- **American Renaissance:** A conservative organization dedicated to "race-realism," or the belief in biological differences between races.
+- **Arktos Media:** A British-based publisher that sells works by proto-fascist and European New Right philosophers, promoting white nationalism and Identitarian ideologies.
+- **Black Lives Matter:** A social movement that revitalized in opposition to police brutality in the US.
+- **Christian Identity Movement:** A far-right Christian movement that bases its views on Eve through "Seed Theory," claiming only white humanity was created by Adam and Eve and that Jews are products of Eve's union with Satan.
+- **Conservative Revolution:** A German movement during the Weimar Republic that influenced Alexander Dugin and Julius Evola, asking how humanity lost its way.
+- **Counter-Currents:** An ethno-nationalist publisher that distributes many of the same authors as Arktos and echoes ITP's language about cyclical history.
+- **Daughters of the Confederacy:** Organization that funded the Sherman Confederate monument in 1896.
+- **Defend Europe:** A campaign by Génération Identitaire to acquire a ship to return refugees to Libya.
+- **Falange:** Spanish fascist political party.
+- **Forza Nuova:** Neo-fascist party in Italy, which has resurrected racist propaganda posters in the context of citizenship debates.
+- **Généra-tion Identitaire (Generation Identity):** French ethno-nationalist youth group that propagates fear of immigrants and claims to have "discovered" their history. It's a trans-European youth movement.
+- **Golden Dawn:** A Greek far-right party that lists Julius Evola first on their recommended reading list.
+- **GRECE (Groupement de recherche et d’études pour la civilisation européenne):** A French-based ethno-nationalist think tank founded in 1968, a dominant far-right academic school of thought.
+- **Hope not Hate:** Swedish organization that caught Jason Reza Jorjani on tape espousing Nazistic views.
+- **Identitarian Bloc:** A new group within the interconnected global far-right movement, mentioned as using the internet for ideological reconstitution.
+- **Identitarian Movement:** A trans-European and global Nationalist-Traditionalist network.
+- **Indignados Movement (15-M movement):** A Spanish social movement (Spring 2011) that challenged the political regime.
+- **Integral Tradition Publishing (ITP):** A small Danish company (2005-2009) that began building a network of nationalists, traditionalists, and white supremacists, publishing works by proto-fascist authors.
+- **Jewish Virtual Library:** Website that published an article on "Sephardim" cited by Dario Fernández-Morera.
+- **Junge Nationalisten:** A German youth group whose website offers "educational material" that frames Dresden bombing victims as displaced ethnic Germans.
+- **Kingdom Identity Ministry:** A branch of the Christian Identity movement that bases its views on Eve through "Seed Theory."
+- **Ku Klux Klan (KKK):** White supremacist hate group, mentioned in various contexts including Alma Bridwell White's involvement, the Birmingham bombing, and medieval-inspired symbols.
+- **Medievalists of Color:** A collective that has challenged the status quo of the white Middle Ages.
+- **Movimento Brasil Livre (MBL):** A Brazilian liberal movement that gained social network following and called for the impeachment of President Rousseff, adopting elements of the far-right "culture war" discourse.
+- **National Policy Institute:** A white nationalist think tank directed by Richard Spencer.
+- **National Rally (formerly Front National):** French far-right political party led by Marine Le Pen, which uses Joan of Arc as a figurehead.
+- **Neo-Nazis:** Groups that repackage old racist ideology and appropriate classical antiquity and medieval symbols.
+- **New Right (European New Right):** A cultural and intellectual network seeking to preserve European culture, tradition, and identity through "metapolitical" strategies.
+- **NFSE Media AB (Motpol AB):** A Swedish company co-founded by Daniel Friberg, a shareholder of Arktos, also listed as administrative contact for Metapedia.org.
+- **Occupy Wall Street:** A social movement (Autumn 2011) that serves as a point of comparison for Generation Identity's organizing strategies.
+- **Open Intelligence Lab (OILab):** An Amsterdam-based collective of interdisciplinary scholars scrutinizing online political subcultures, which conducted research on "Kali Yuga" posts on 4chan/pol/.
+- **Partito Democratico (PD):** Italian political party, whose local politicians argued against a controversial anti-violence poster.
+- **Partido Democrático Social (PDS):** Replaced ARENA, the government party during the Brazilian dictatorship.
+- **Partido do Movimento Democrático Brasileiro (PMDB):** Succeeded the tolerated opposition organization during the Brazilian military regime.
+- **Pharos: Doing Justice to the Classics:** A website launched by Curtis Dozier to raise awareness about hate groups' appropriation of antiquity and provide scholarly responses.
+- **Popular Front:** Left-wing political coalition in Spain that won the 1936 elections, a victory disputed by far-right revisionist historians.
+- **Proud Boys:** A far-right group mentioned for its violent and xenophobic rhetoric.
+- **Regional Network of Youth Initiative for Human Rights:** Implementing organization for the "Past Continues - Shared Narratives" project.
+- **Return of Kings:** A "neomasculine" website that articulates a narrative of moral decline similar to ancient Roman writers.
+- **Rassemblement National:** See National Rally.
+- **Southern Poverty Law Center (SPLC):** Non-profit legal advocacy organization that tracks hate groups.
+- **Tea Party movement:** A US conservative movement (starting 2009) known for its mixture of abstract idealism and historicity, emphasizing a "re-founding" of America based on original principles.
+- **The Daily Stormer:** A far-right propaganda publication.
+- **Thule Society:** A pre-Nazi _völkisch_ group whose members included Rudolf Hess and Alfred Rosenberg, associated with the idea of an ancient Aryan polar homeland.
+- **Torontonians for Academics for Academic Freedom (TAFF):** Organization that hosted a debate on academic freedom and Bill C-16.
+- **UN (United Nations):** Gilberto Freyre addressed it in 1949 as Ambassador.
+- **UNESCO (United Nations Educational, Scientific and Cultural Organization):** Commissioned research on race relations in Brazil.
+- **United States Supreme Court:** Mentioned in the context of recognizing women's right to abortion and upholding hate speech laws.
+- **Vox:** Spanish political party, whose leader Javier Ortega Smith uses concepts of "Western civilisation" and "Reconquest."
+- **Worker’s Party (PT):** Brazilian political party, portrayed by Bolsonaro and his supporters as a "red threat" and associated with communism.
+- **Youth Initiative for Human Rights - Croatia:** NGO focused on reconciliation and transitional justice, designed and led by Mario Mažić.
