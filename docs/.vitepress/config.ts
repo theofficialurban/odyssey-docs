@@ -11,6 +11,7 @@ nv.forEach((v) => {
 // https://vitepress.vuejs.org/config/app-configs
 export default defineConfig({
   title: "Urban Odyssey",
+  titleTemplate: ":title | Urban Odyssey Database",
   description:
     "Urban Odyssey Notes & Documents - Information for public release, additional notes and more",
   themeConfig: {
