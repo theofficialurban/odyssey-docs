@@ -2,6 +2,7 @@
 title: Grok on History of Jewish Human Sacrifice
 description: Original post by FirstWon on X
 ogimage: https://substackcdn.com/image/fetch/$s_!BvJp!,w_848,h_565,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb1fd09e5-fe4f-4460-a225-6e04cda7e6ba_667x481.png
+banner: true
 ---
 
 # Grok Discusses Jewish Human Sacrifice & Blood Libel

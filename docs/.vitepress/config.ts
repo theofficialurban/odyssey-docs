@@ -1,4 +1,4 @@
-import { DefaultTheme, defineConfig, UserConfig } from "vitepress";
+import { DefaultTheme, defineConfig, useData, UserConfig } from "vitepress";
 import { generateNavs } from "./nav";
 import { generateSidebar, withSidebar } from "vitepress-sidebar";
 
@@ -30,19 +30,66 @@ const cfg: UserConfig = {
     pageData.frontmatter.head.push([
       "meta",
       {
+        name: "twitter:card",
+        content: "summary",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "twitter:title",
+        content:
+          pageData.frontmatter.layout === "home"
+            ? `Urban Odyssey Database`
+            : `${pageData.title} | Urban Odyssey Database`,
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
         name: "og:description",
         content:
           pageData.description ??
           "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
       },
     ]);
-
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "twitter:description",
+        content:
+          pageData.description ??
+          "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
+      },
+    ]);
     pageData.frontmatter.head.push([
       "meta",
       {
         name: "og:image",
         content:
           pageData.frontmatter.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "twitter:image",
+        content:
+          pageData.frontmatter.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:image:width",
+        content: "1200",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:image:height",
+        content: "630",
       },
     ]);
     pageData.frontmatter.head.push([
@@ -57,7 +104,15 @@ const cfg: UserConfig = {
       {
         name: "og:url",
         content:
-          pageData.frontmatter.deepDiveUrl ?? "https://docs.urbanodyssey.xyz",
+          pageData.frontmatter.deepDiveURL ?? "https://docs.urbanodyssey.xyz",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "twitter:url",
+        content:
+          pageData.frontmatter.deepDiveURL ?? "https://docs.urbanodyssey.xyz",
       },
     ]);
   },
