@@ -142,5 +142,6 @@ export default defineConfig(
   withSidebar(cfg, {
     useTitleFromFrontmatter: true,
     capitalizeEachWords: true,
+    documentRootPath: "/",
   })
 );
