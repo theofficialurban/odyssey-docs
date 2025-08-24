@@ -1,7 +1,6 @@
 import { readdirSync, statSync } from "fs";
 import { join, basename } from "path";
 import { DefaultTheme } from "vitepress";
-
 // Helper function to capitalize the first letter of a string
 const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 export interface NavItem {

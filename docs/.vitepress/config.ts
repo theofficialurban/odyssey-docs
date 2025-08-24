@@ -1,23 +1,71 @@
-import { DefaultTheme, defineConfig } from "vitepress";
+import { DefaultTheme, defineConfig, UserConfig } from "vitepress";
 import { generateNavs } from "./nav";
+import { generateSidebar, withSidebar } from "vitepress-sidebar";
 
-const nv = generateNavs([["Documents", "./docs"]]);
-
-let sb: DefaultTheme.Sidebar = [];
-nv.forEach((v) => {
-  sb.push({ text: v.name, items: v.results });
-});
-
-// https://vitepress.vuejs.org/config/app-configs
-export default defineConfig({
+const cfg: UserConfig = {
   title: "Urban Odyssey",
   titleTemplate: ":title | Urban Odyssey Database",
   description:
     "Urban Odyssey Notes & Documents - Information for public release, additional notes and more",
+  head: [
+    [
+      "script",
+      { async: "true", src: "https://platform.twitter.com/widgets.js" },
+    ],
+    ["script", { async: "true", src: "https://substack.com/embedjs/embed.js" }],
+  ],
+  transformPageData(pageData) {
+    pageData.frontmatter.head ??= [];
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:title",
+        content:
+          pageData.frontmatter.layout === "home"
+            ? `Urban Odyssey Database`
+            : `${pageData.title} | Urban Odyssey Database`,
+      },
+    ]);
+
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:description",
+        content:
+          pageData.description ??
+          "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
+      },
+    ]);
+
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:image",
+        content:
+          pageData.frontmatter.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:type",
+        content: pageData.frontmatter.type ?? "article",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:url",
+        content:
+          pageData.frontmatter.deepDiveUrl ?? "https://docs.urbanodyssey.xyz",
+      },
+    ]);
+  },
   themeConfig: {
     siteTitle: "Urban Odyssey",
     outline: "deep",
     outlineTitle: "Table of Contents",
+
     logo: "/icons/colored/Spellbook_Sunset.png",
     socialLinks: [
       { icon: "twitter", link: "https://x.com/officialurbanus" },
@@ -86,19 +134,13 @@ export default defineConfig({
         ],
       },
     ],
-    sidebar: sb,
-
-    // sidebar: [
-    //   {
-    //     text: "Documents",
-
-    //     items: [{ text: "Home", link: "/docs/" }],
-    //   },
-    //   {
-    //     text: "Deep Dives",
-
-    //     items: [{ text: "Tavistock", link: "/docs/tavistock" }],
-    //   },
-    // ],
   },
-});
+};
+
+// https://vitepress.vuejs.org/config/app-configs
+export default defineConfig(
+  withSidebar(cfg, {
+    useTitleFromFrontmatter: true,
+    capitalizeEachWords: true,
+  })
+);

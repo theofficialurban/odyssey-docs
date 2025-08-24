@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "vitepress": "1.0.0-alpha.28",
+    "vitepress-sidebar": "^1.33.0",
     "vue": "3.2.44"
   },
   "pnpm": {
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
+    "grey-matter": "^0.0.0",
     "path": "^0.12.7"
   }
 }
