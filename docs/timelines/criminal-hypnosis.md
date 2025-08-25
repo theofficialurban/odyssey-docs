@@ -9,7 +9,7 @@ bannerSettings:
     size: xx-large
     color: red
   settings:
-    blur: 1.5
+    blur: 0
 ogimage: https://i.imgur.com/SCQbimV.jpeg
 ---
 
@@ -19,7 +19,7 @@ ogimage: https://i.imgur.com/SCQbimV.jpeg
 I'm currently working on putting out Deep Dives for each of the sections of this book, however some will be **_Paid Member Only_** posts.
 
 1. ~~`Case Studies of Criminal Hypnosis`~~ [Completed](https://theofficialurban.substack.com/p/case-studies-of-criminal-hypnosis)
-2. `US Government Involvement in Criminal Hypnosis` [In Progress]
+2. ~~`US Government Involvement in Criminal Hypnosis`~~ [Completed](https://open.substack.com/pub/theofficialurban/p/sdt-2?showWelcomeOnShare=false)
 3. ~~`Mind Mapping Phenomena`~~ (Paid Members Only) [Completed](https://open.substack.com/pub/theofficialurban/p/sdt-3?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
 4. `Induction Methods` (Paid Members Only) [Pending]
 5. `Legal & Therapy Issues /w CH` [Pending]

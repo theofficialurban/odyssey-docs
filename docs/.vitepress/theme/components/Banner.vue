@@ -1,54 +1,82 @@
-<script
-  setup
-  lang="ts"
-  generic="T extends BannerProps, U extends BannerFontProps"
->
+<script setup lang="ts">
 import { useData } from "vitepress";
-import { computed, reactive, watch, watchEffect } from "vue";
-import type { BannerFontProps, BannerProps } from "../index";
-import type { StyleValue } from "vue";
-const {
-  settings: { img, radius = 8, width = "100%", height = "10rem", blur = 1 },
-  font: {
-    size = "xx-large",
-    style = "normal",
-    weight = "400",
-    family = "Caesar Dressing",
-    color = "white",
-    text,
-  },
-} = defineProps<{ settings: T; font: BannerFontProps }>();
+import { computed, reactive, watchEffect } from "vue";
+import {
+  fontDefault,
+  setDefault,
+  type BannerFontProps,
+  type BannerProps,
+  type SettingsFrontmatter,
+} from "../index";
+
 const dt = useData();
-const background = computed(() => {
+
+const bannerSettings: { font: BannerFontProps; settings: BannerProps } = {
+  font: reactive<BannerFontProps>(fontDefault),
+  settings: reactive<BannerProps>(setDefault),
+};
+
+const fnt = bannerSettings.font;
+const stings = bannerSettings.settings;
+const bgString = computed(() => {
   return `url(${
     dt.frontmatter.value.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg"
   }) no-repeat`;
 });
-const title = computed(() => {
-  return text ?? dt.frontmatter.value.title;
-});
 const styleObj = reactive({
-  background,
-  height,
-  width,
-  "border-radius": `${radius}px`,
+  background: `url(${
+    dt.frontmatter.value.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg"
+  }) no-repeat`,
+  height: stings.height,
+  width: stings.width,
+  "border-radius": `${stings.radius}px`,
 
   "box-shadow": "0 4px 30px rgba(0, 0, 0, 0.1)",
-  filter: `blur(${blur}px)`,
+  filter: `blur(${stings.blur}px)`,
+});
+const fntStyle = reactive({
+  fontSize: fnt.size ?? "xx-large",
+  fontStyle: fnt.style ?? "normal",
+  fontWeight: Number(fnt.weight) ?? 400,
+  fontFamily: fnt.family ?? "Caesar Dressing",
+  color: fnt.color ?? "white",
 });
 
-const fnt = reactive({
-  fontSize: size,
-  fontStyle: style,
-  fontWeight: Number(weight),
-  fontFamily: family,
-  color: color,
+const title = computed(() => {
+  return fnt.text ?? dt.frontmatter.value.title;
+});
+defineExpose({
+  font: fnt,
+  settings: stings,
+});
+
+watchEffect(() => {
+  const fms: SettingsFrontmatter = dt.frontmatter.value.bannerSettings;
+  const t = dt.frontmatter.value.title;
+  if (dt.frontmatter.value.ogimage) {
+    styleObj.background = bgString.value;
+  }
+  if (fms) {
+    // const { family, size, style, weight, color, text } = fms.font;
+    // const { img, blur, radius, width, height } = fms.settings;
+    bannerSettings.font = fms.font;
+    bannerSettings.settings = fms.settings;
+  } else {
+    bannerSettings.font = fontDefault;
+    bannerSettings.settings = setDefault;
+    styleObj.filter = `blur(1px)`;
+  }
+  fntStyle.color = bannerSettings.font.color ?? "white";
+  fntStyle.fontFamily = bannerSettings.font.family ?? "Caesar Dressing";
+  fntStyle.fontSize = bannerSettings.font.size ?? "xx-large";
+  fntStyle.fontStyle = bannerSettings.font.style ?? "normal";
+  fntStyle.fontWeight = Number(bannerSettings.font.weight) ?? 400;
 });
 </script>
 
 <template>
   <div class="img_wrapper">
-    <div class="img_text" :style="fnt">
+    <div class="img_text" :style="fntStyle">
       <slot>{{ title }}</slot>
     </div>
 

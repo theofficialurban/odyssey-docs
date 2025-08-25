@@ -2,45 +2,39 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import Banner from "./components/Banner.vue";
-import { reactive, watchEffect } from "vue";
-import { BannerFontProps, BannerProps } from ".";
+
 const dt = useData();
 
 const { Layout } = DefaultTheme;
-const stings: BannerProps = reactive({
-  blur: 1,
-  font: "Trade Winds",
-  img: dt.frontmatter.value.ogimage,
-});
-const bannerFont: BannerFontProps = reactive({
-  color: "deepskyblue",
-  size: "x-large",
-});
-type SettingsFrontmatter =
-  | {
-      font: Partial<BannerFontProps>;
-      settings: Partial<BannerProps>;
-    }
-  | undefined;
+// const stings: BannerProps = reactive({
+//   blur: 1,
+//   font: "Trade Winds",
+//   img: dt.frontmatter.value.ogimage,
+// });
+// const bannerFont: BannerFontProps = reactive({
+//   color: "white",
+//   size: "x-large",
+//   text: dt.frontmatter.value.title,
+// });
 
-watchEffect(() => {
-  const fms: SettingsFrontmatter = dt.frontmatter.value.bannerSettings;
-  if (fms !== undefined) {
-    const { family, size, style, weight, color, text } = fms.font;
-    bannerFont.color = color ?? "white";
-    bannerFont.family = family ?? "Caesar Dressing";
-    bannerFont.size = size ?? "xx-large";
-    bannerFont.style = style ?? "normal";
-    bannerFont.weight = weight ?? "400";
-    bannerFont.text = text ?? dt.frontmatter.value.title;
-    const { img, blur, radius, width, height } = fms.settings;
-    stings.blur = blur ?? 1;
-    stings.height = height ?? "10rem";
-    stings.width = width ?? "100%";
-    stings.img = img ?? "https://i.imgur.com/S8LHDQ7.jpeg";
-    stings.radius = radius ?? 8;
-  }
-});
+// const settingDefault: SettingsFrontmatter = {
+//   font: {
+//     color: "white",
+//     family: "Caesar Dressing",
+//     size: "xx-large",
+//     style: "normal",
+//     weight: "400",
+//     text: dt.frontmatter.value.title ?? "Odyssey DB",
+//   },
+//   settings: {
+//     blur: 1,
+//     height: "10rem",
+//     width: "100%",
+//     img: "https://i.imgur.com/S8LHDQ7.jpeg",
+//     radius: 8,
+//   },
+// };
+// const bannerRef = ref<SettingsFrontmatter | null>(null);
 </script>
 
 <template>
@@ -48,6 +42,7 @@ watchEffect(() => {
     <template #doc-before>
       <Banner
         v-if="$frontmatter.banner"
+        ref="bannerRef"
         :settings="stings"
         :font="bannerFont"
       ></Banner>
