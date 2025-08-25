@@ -1,22 +1,31 @@
-<script setup lang="ts" generic="T extends BannerProps">
+<script
+  setup
+  lang="ts"
+  generic="T extends BannerProps, U extends BannerFontProps"
+>
 import { useData } from "vitepress";
 import { computed, reactive, watch, watchEffect } from "vue";
-import type { BannerProps } from "../index";
+import type { BannerFontProps, BannerProps } from "../index";
+import type { StyleValue } from "vue";
 const {
-  settings: {
-    img,
-    radius = 8,
-    width = "100%",
-    height = "10rem",
-    blur = 1,
-    font = "Caesar Dressing",
+  settings: { img, radius = 8, width = "100%", height = "10rem", blur = 1 },
+  font: {
+    size = "xx-large",
+    style = "normal",
+    weight = "400",
+    family = "Caesar Dressing",
+    color = "white",
+    text,
   },
-} = defineProps<{ settings: T }>();
+} = defineProps<{ settings: T; font: BannerFontProps }>();
 const dt = useData();
 const background = computed(() => {
   return `url(${
     dt.frontmatter.value.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg"
   }) no-repeat`;
+});
+const title = computed(() => {
+  return text ?? dt.frontmatter.value.title;
 });
 const styleObj = reactive({
   background,
@@ -28,13 +37,19 @@ const styleObj = reactive({
   filter: `blur(${blur}px)`,
 });
 
-const fnt = { "font-family": font };
+const fnt = reactive({
+  fontSize: size,
+  fontStyle: style,
+  fontWeight: Number(weight),
+  fontFamily: family,
+  color: color,
+});
 </script>
 
 <template>
   <div class="img_wrapper">
     <div class="img_text" :style="fnt">
-      <slot>{{ dt.frontmatter.value.title ?? "Urban Odyssey" }}</slot>
+      <slot>{{ title }}</slot>
     </div>
 
     <div class="img_bg" :style="styleObj"></div>

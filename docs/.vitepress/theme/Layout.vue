@@ -2,8 +2,8 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import Banner from "./components/Banner.vue";
-import { reactive } from "vue";
-import { BannerProps } from ".";
+import { reactive, watchEffect } from "vue";
+import { BannerFontProps, BannerProps } from ".";
 const dt = useData();
 
 const { Layout } = DefaultTheme;
@@ -12,12 +12,45 @@ const stings: BannerProps = reactive({
   font: "Trade Winds",
   img: dt.frontmatter.value.ogimage,
 });
+const bannerFont: BannerFontProps = reactive({
+  color: "deepskyblue",
+  size: "x-large",
+});
+type SettingsFrontmatter =
+  | {
+      font: Partial<BannerFontProps>;
+      settings: Partial<BannerProps>;
+    }
+  | undefined;
+
+watchEffect(() => {
+  const fms: SettingsFrontmatter = dt.frontmatter.value.bannerSettings;
+  if (fms !== undefined) {
+    const { family, size, style, weight, color, text } = fms.font;
+    bannerFont.color = color ?? "white";
+    bannerFont.family = family ?? "Caesar Dressing";
+    bannerFont.size = size ?? "xx-large";
+    bannerFont.style = style ?? "normal";
+    bannerFont.weight = weight ?? "400";
+    bannerFont.text = text ?? dt.frontmatter.value.title;
+    const { img, blur, radius, width, height } = fms.settings;
+    stings.blur = blur ?? 1;
+    stings.height = height ?? "10rem";
+    stings.width = width ?? "100%";
+    stings.img = img ?? "https://i.imgur.com/S8LHDQ7.jpeg";
+    stings.radius = radius ?? 8;
+  }
+});
 </script>
 
 <template>
   <Layout>
     <template #doc-before>
-      <Banner v-if="$frontmatter.banner" :settings="stings"></Banner>
+      <Banner
+        v-if="$frontmatter.banner"
+        :settings="stings"
+        :font="bannerFont"
+      ></Banner>
 
       <sub v-if="$frontmatter.deepDiveURL"
         >Article Link Available:
