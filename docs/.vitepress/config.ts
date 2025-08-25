@@ -31,13 +31,6 @@ const cfg: UserConfig = {
     pageData.frontmatter.head.push([
       "meta",
       {
-        name: "twitter:card",
-        content: "summary",
-      },
-    ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
         name: "twitter:title",
         content:
           pageData.frontmatter.layout === "home"
@@ -52,6 +45,13 @@ const cfg: UserConfig = {
         content:
           pageData.description ??
           "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
+      },
+    ]);
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
       },
     ]);
     pageData.frontmatter.head.push([
