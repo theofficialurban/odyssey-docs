@@ -13,6 +13,7 @@ const cfg: UserConfig = {
       { async: "true", src: "https://platform.twitter.com/widgets.js" },
     ],
     ["script", { async: "true", src: "https://substack.com/embedjs/embed.js" }],
+    ["link", { rel: "icon", href: "/icons/favicon.ico" }],
   ],
   transformPageData(pageData) {
     pageData.frontmatter.head ??= [];

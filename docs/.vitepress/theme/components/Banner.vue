@@ -34,7 +34,7 @@ const fnt = { "font-family": font };
 <template>
   <div class="img_wrapper">
     <div class="img_text" :style="fnt">
-      <slot>{{ dt.title.value }}</slot>
+      <slot>{{ dt.frontmatter.value.title ?? "Urban Odyssey" }}</slot>
     </div>
 
     <div class="img_bg" :style="styleObj"></div>

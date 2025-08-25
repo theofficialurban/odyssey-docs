@@ -1,6 +1,9 @@
 ---
 title: Far-Right Revisionism Timeline & Figures
-deepDiveURL: https://open.substack.com/pub/theofficialurban/p/far-right-revisionism?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false
+deepDiveURL: https://urbanodyssey.xyz/p/far-right-revisionism
+ogimage: https://i.imgur.com/SvEVkFX.jpeg
+description: Timeline and Figures for the article on Far Right Revisionism
+banner: true
 ---
 
 # Detailed Timeline: `Far-Right Revisionism`

@@ -212,9 +212,9 @@ banner: true
 
 **May 2019:** The Alabama legislature passes a law banning abortion altogether, with limited exceptions.
 
-# Cast of Characters
+## Cast of Characters
 
-**Political Operatives / Activists:**
+### **Political Operatives / Activists:**
 
 - **Paul Weyrich:** Conservative visionary, co-founder of the Heritage Foundation and the American Legislative Exchange Council (ALEC). Co-founder of the Council for National Policy (CNP). Instrumental in mobilizing fundamentalists and developing long-term strategies for conservative political power.
 - **Richard Viguerie:** Chairman, American Target Advertising. A pioneer in direct mail for political campaigns, he helped build fundraising and bypass traditional media.
@@ -245,7 +245,7 @@ banner: true
 - **Juan Pablo Andrade:** Advisor for a Trump surrogate organization, who made controversial remarks about Nazis at a Turning Point USA conference.
 - **Wesley Goodman:** Former Ohio state legislator whose political career focused on anti-LGBT rights, but resigned after sexual misconduct allegations surfaced. A former director of CNP's Conservative Action Project and a rising star in CNP youth council.
 
-**Religious Leaders:**
+### **Religious Leaders:**
 
 - **Paige Patterson:** Co-founder of the Southern Baptist Convention's "Conservative Resurgence" and a leading member of the CNP.
 - **Herman Paul Pressler III:** Co-founder of the Southern Baptist Convention's "Conservative Resurgence" and a leading member of the CNP.
@@ -268,7 +268,7 @@ banner: true
 - **J. D. Greear:** President of the Southern Baptist Convention in 2019, aimed to steer the denomination away from partisan politics.
 - **Lance Wallnau:** Leading proponent of Seven Mountains Dominionism and author of _God's Chaos Candidate_, comparing Trump to King Cyrus.
 
-**Donors / Financiers:**
+### **Donors / Financiers:**
 
 - **Richard DeVos Sr.:** Co-founder of Amway and patriarch of a powerful economic and political dynasty. A long-standing CNP member and major donor.
 - **Richard DeVos Jr. (Dick DeVos):** Former CEO of Amway, married to Betsy DeVos. Major donor to conservative causes and instrumental in campaigns against labor unions.
@@ -289,7 +289,7 @@ banner: true
 - **Ken Eldred:** Silicon Valley venture capitalist, funded United in Purpose.
 - **Green family:** Owners of Hobby Lobby craft stores, major donors to the National Christian Foundation, and primary funders of the Museum of the Bible.
 
-**Other Key Figures:**
+### **Other Key Figures:**
 
 - **Larry Arnn:** President of Hillsdale College, a CNP member, who transformed the college into a platform for conservative ideology.
 - **Leonard Leo:** CNP member from the Federalist Society, instrumental in compiling lists of judicial nominees for Donald Trump.
