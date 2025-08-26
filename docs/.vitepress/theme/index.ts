@@ -1,6 +1,6 @@
 import type { Theme } from "vitepress";
-import DefaultTheme from "vitepress/theme";
 import Layout from "./Layout.vue";
+import "./global.scss";
 import OdysseyBanner from "./components/OdysseyBanner.vue";
 import Banner from "./components/Banner.vue";
 export type SettingsFrontmatter =
@@ -47,6 +47,7 @@ export default {
   Layout: Layout,
   enhanceApp({ app }) {
     app.component("OdysseyBanner", OdysseyBanner);
+
     app.component("Banner", Banner);
   },
 } satisfies Theme;

@@ -2,7 +2,6 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import Banner from "./components/Banner.vue";
-
 const dt = useData();
 
 const { Layout } = DefaultTheme;
@@ -37,8 +36,8 @@ const { Layout } = DefaultTheme;
 // const bannerRef = ref<SettingsFrontmatter | null>(null);
 </script>
 
-<template>
-  <Layout>
+<template dark="true">
+  <Layout class="dark">
     <template #doc-before>
       <Banner
         v-if="$frontmatter.banner"

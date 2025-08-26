@@ -14,7 +14,43 @@ const cfg: UserConfig = {
     ],
     ["script", { async: "true", src: "https://substack.com/embedjs/embed.js" }],
     ["link", { rel: "icon", href: "/icons/favicon.ico" }],
+    // [
+    //   "link",
+    //   {
+    //     type: "text/css",
+    //     rel: "stylesheet",
+    //     href: "https://unpkg.com/bootstrap@4.6.1/dist/css/bootstrap.min.css",
+    //   },
+    // ],
+    [
+      "link",
+      {
+        type: "text/css",
+        rel: "stylesheet",
+        href: "https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css",
+      },
+    ],
+    [
+      "script",
+      {
+        crossorigin: "anonymous",
+        src: "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0&features=es2015%2CIntersectionObserver",
+      },
+    ],
+    [
+      "script",
+      {
+        src: "https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.js",
+      },
+    ],
+    [
+      "script",
+      {
+        src: "https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue-icons.min.js",
+      },
+    ],
   ],
+  vue: {},
   transformPageData(pageData) {
     pageData.frontmatter.head ??= [];
     pageData.frontmatter.head.push([
@@ -116,6 +152,20 @@ const cfg: UserConfig = {
           pageData.frontmatter.deepDiveURL ?? "https://docs.urbanodyssey.xyz",
       },
     ]);
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          silenceDeprecations: [
+            "import",
+            "mixed-decls",
+            "color-functions",
+            "global-builtin",
+          ],
+        },
+      },
+    },
   },
   themeConfig: {
     siteTitle: "Urban Odyssey",
