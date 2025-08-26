@@ -1,7 +1,6 @@
-import { DefaultTheme, defineConfig, useData, UserConfig } from "vitepress";
-import { generateNavs } from "./nav";
-import { generateSidebar, withSidebar } from "vitepress-sidebar";
-
+import { defineConfig, UserConfig } from "vitepress";
+import { withSidebar } from "vitepress-sidebar";
+import tailwindcss from "@tailwindcss/vite";
 const cfg: UserConfig = {
   title: "Urban Odyssey",
   titleTemplate: ":title | Urban Odyssey Database",
@@ -13,6 +12,7 @@ const cfg: UserConfig = {
       { async: "true", src: "https://platform.twitter.com/widgets.js" },
     ],
     ["script", { async: "true", src: "https://substack.com/embedjs/embed.js" }],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" }],
     ["link", { rel: "icon", href: "/icons/favicon.ico" }],
     // [
     //   "link",
@@ -154,6 +154,7 @@ const cfg: UserConfig = {
     ]);
   },
   vite: {
+    plugins: [tailwindcss()],
     css: {
       preprocessorOptions: {
         scss: {

@@ -2,38 +2,10 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import Banner from "./components/Banner.vue";
+import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
 const dt = useData();
 
 const { Layout } = DefaultTheme;
-// const stings: BannerProps = reactive({
-//   blur: 1,
-//   font: "Trade Winds",
-//   img: dt.frontmatter.value.ogimage,
-// });
-// const bannerFont: BannerFontProps = reactive({
-//   color: "white",
-//   size: "x-large",
-//   text: dt.frontmatter.value.title,
-// });
-
-// const settingDefault: SettingsFrontmatter = {
-//   font: {
-//     color: "white",
-//     family: "Caesar Dressing",
-//     size: "xx-large",
-//     style: "normal",
-//     weight: "400",
-//     text: dt.frontmatter.value.title ?? "Odyssey DB",
-//   },
-//   settings: {
-//     blur: 1,
-//     height: "10rem",
-//     width: "100%",
-//     img: "https://i.imgur.com/S8LHDQ7.jpeg",
-//     radius: 8,
-//   },
-// };
-// const bannerRef = ref<SettingsFrontmatter | null>(null);
 </script>
 
 <template dark="true">
