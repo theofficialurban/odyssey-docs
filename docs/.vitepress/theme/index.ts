@@ -57,5 +57,7 @@ export default {
     app.component("OdysseyBanner", OdysseyBanner);
     app.component("Spotify", SpotifyPlaylists);
     app.component("Banner", Banner);
+
+    //app.component("PDF", PDF);
   },
 } satisfies Theme;
