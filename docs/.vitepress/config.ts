@@ -109,22 +109,6 @@ const cfg: UserConfig = {
         content: pageData.frontmatter.type ?? "article",
       },
     ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "og:url",
-        content:
-          pageData.frontmatter.deepDiveURL ?? "https://docs.urbanodyssey.xyz",
-      },
-    ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "twitter:url",
-        content:
-          pageData.frontmatter.deepDiveURL ?? "https://docs.urbanodyssey.xyz",
-      },
-    ]);
   },
   vite: {
     plugins: [tailwindcss()],
