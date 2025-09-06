@@ -21,9 +21,9 @@ I'm currently working on putting out Deep Dives for each of the sections of this
 1. ~~`Case Studies of Criminal Hypnosis`~~ [Completed](https://theofficialurban.substack.com/p/case-studies-of-criminal-hypnosis)
 2. ~~`US Government Involvement in Criminal Hypnosis`~~ [Completed](https://open.substack.com/pub/theofficialurban/p/sdt-2?showWelcomeOnShare=false)
 3. ~~`Mind Mapping Phenomena`~~ (Paid Members Only) [Completed](https://open.substack.com/pub/theofficialurban/p/sdt-3?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
-4. `Induction Methods` (Paid Members Only) [Pending]
-5. `Legal & Therapy Issues /w CH` [Pending]
-6. `Reference Section` [Pending]
+4. ~~`Induction Methods`~~ (Paid Members Only) [Completed](https://open.substack.com/pub/theofficialurban/p/sdt-4?utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+5. ~~`Legal & Therapy Issues /w CH`~~ [Completed](https://open.substack.com/pub/theofficialurban/p/sdt-5)
+6. ~~`Reference Section`~~ [Completed](https://open.substack.com/pub/theofficialurban/p/sdt-6)
 
 :::
 

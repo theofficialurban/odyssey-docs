@@ -8,6 +8,10 @@ ogimage: https://substackcdn.com/image/fetch/$s_!Xh__!,w_1456,c_limit,f_webp,q_a
 
 [[toc]]
 
+## UPDATE: See the Slideshow Presentation
+
+[Click Here to go to the Slideshow](https://orion.officialurban.com)
+
 ## **Incels, Terrorism & Extremism**
 
 ### _An Analysis of Terrorism_
