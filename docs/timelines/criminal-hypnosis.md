@@ -1,7 +1,7 @@
 ---
 title: Encyclopedia of Hypnosis Timeline
 description: From the book "Secret, Don't Tell The Encyclopedia of Hypnosis" historical timeline and list of figures
-deepDiveURL: https://theofficialurban.substack.com/p/case-studies-of-criminal-hypnosis
+deepDiveURL: https://theofficialurban.substack.com/p/secret-dont-tell
 banner: true
 bannerSettings:
   font:
