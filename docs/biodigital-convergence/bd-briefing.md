@@ -1,7 +1,7 @@
 ---
 title: Analysis of an Orchestrated Global Transformation
 description: The provided source materials collectively argue that the "Covid-19" event was not a spontaneous public health crisis but a premeditated, global psychological operation, described as an "Omniwar" or a "war against humanity."
-ogimage: https://i.imgur.com/Nz3SsE7.png
+ogimage: https://i.imgur.com/t3MQ1dI.jpeg
 ---
 
 # Analysis of an Orchestrated Global Transformation

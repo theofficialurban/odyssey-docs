@@ -1,7 +1,7 @@
 ---
 title: Intro to Modern Surveillance and Military Networks
 description: This document aims to demystify a set of complex modern military and surveillance technologies, drawing exclusively from the provided source materials to build a clear and accessible understanding for someone new to the topic.
-ogimage: https://i.imgur.com/ZurpD1A.png
+ogimage: https://i.imgur.com/sb2SAHM.jpeg
 ---
 
 # Demystifying the Architecture of Control: _An Explainer on Modern Surveillance and Military Networks_
