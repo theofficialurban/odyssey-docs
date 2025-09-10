@@ -1,6 +1,7 @@
 ---
 title: The Antichrist will come as Apollo
 description: Apollo, as depicted within these ancient texts, is not merely a benign deity of light and prophecy, but a figure interwoven with illicit divine origins, usurpation, and demonic influence. His narrative is a chilling premonition of the Antichrist's modus operandi, reflecting a long-standing subversion of divine order.
+ogimage: https://i0.wp.com/i.dailymail.co.uk/i/pix/2015/11/06/14/2E2CAC3800000578-3303819-image-a-1_1446821742059.jpg
 ---
 
 # The Coming of Antichrist as the God Apollo _(The "Sun King")_
