@@ -65,8 +65,6 @@ Donald Trump's 'gold' embellished Oval Office is being mocked by users online af
 
 https://www.dailymail.co.uk/news/article-15084471/Trumps-Oval-Office-mocked-gold.html
 
-<iframe allowfullscreen frameborder="0" width="598" height="473" scrolling="no" id="molvideoplayer" title="MailOnline Embed Player" src="https://www.dailymail.co.uk/embed/video/3507821.html"></iframe>
-
 ![](https://i.dailymail.co.uk/1s/2025/09/10/15/102009207-15084471-The_decorations_are_strikingly_similar_to_those_sold_by_Home_Dep-a-11_1757515361286.jpg)
 _The decorations are strikingly similar to those sold by Home Depot as DIY accessors marketed as 'polyurethane appliqué' for $58_
 
