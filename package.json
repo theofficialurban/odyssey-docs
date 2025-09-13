@@ -8,6 +8,7 @@
     "serve": "vitepress serve docs"
   },
   "devDependencies": {
+    "@types/reveal.js": "^5.2.0",
     "vitepress": "1.0.0-alpha.28",
     "vitepress-sidebar": "^1.33.0",
     "vue": "3.3.13"

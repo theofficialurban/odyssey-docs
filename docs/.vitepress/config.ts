@@ -13,6 +13,7 @@ const cfg: UserConfig = {
     ],
     ["script", { async: "true", src: "https://substack.com/embedjs/embed.js" }],
     ["script", { src: "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" }],
+
     ["link", { rel: "icon", href: "/icons/favicon.ico" }],
 
     [

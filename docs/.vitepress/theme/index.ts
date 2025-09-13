@@ -1,9 +1,13 @@
 import type { Theme } from "vitepress";
 import Layout from "./Layout.vue";
+import DefaultTheme from "vitepress/theme";
+
 import "./global.css";
+
 import OdysseyBanner from "./components/OdysseyBanner.vue";
 import Banner from "./components/Banner.vue";
 import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
+
 export type SettingsFrontmatter =
   | {
       font: Partial<BannerFontProps>;
@@ -53,6 +57,7 @@ export type PodcastsSettings = {
 };
 export default {
   Layout: Layout,
+
   enhanceApp({ app }) {
     app.component("OdysseyBanner", OdysseyBanner);
     app.component("Spotify", SpotifyPlaylists);

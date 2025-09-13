@@ -2,7 +2,7 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import Banner from "./components/Banner.vue";
-import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
+
 const dt = useData();
 
 const { Layout } = DefaultTheme;

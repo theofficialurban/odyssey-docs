@@ -33,6 +33,9 @@ importers:
         specifier: ^4.1.12
         version: 4.1.12
     devDependencies:
+      '@types/reveal.js':
+        specifier: ^5.2.0
+        version: 5.2.0
       vitepress:
         specifier: 1.0.0-alpha.28
         version: 1.0.0-alpha.28(@algolia/client-search@5.35.0)(sass@1.91.0)(search-insights@2.17.3)
@@ -375,6 +378,9 @@ packages:
     resolution: {integrity: sha512-4pt0AMFDx7gzIrAOIYgYP0KCBuKWqyW8ayrdiLEjoJTT4pKTjrzG/e4uzWtTLDziC+66R9wbUqZBccJalSE5vQ==}
     peerDependencies:
       vite: ^5.2.0 || ^6 || ^7
+
+  '@types/reveal.js@5.2.0':
+    resolution: {integrity: sha512-IHO3Nc0YjI4CKQHeK/2U+6SinAJCC8/xiKCIDQnlFCiq02GMag+WrveIszll033zyv/mtXoCnWmYZITUngE2pA==}
 
   '@types/web-bluetooth@0.0.16':
     resolution: {integrity: sha512-oh8q2Zc32S6gd/j50GowEjKLoOVOwHP/bWVjKJInBwQqdOYMdPrf1oVlelTlyfFK3CKxL1uahMDAr+vy8T7yMQ==}
@@ -1376,6 +1382,8 @@ snapshots:
       '@tailwindcss/oxide': 4.1.12
       tailwindcss: 4.1.12
       vite: 3.2.11(sass@1.91.0)
+
+  '@types/reveal.js@5.2.0': {}
 
   '@types/web-bluetooth@0.0.16': {}
 
