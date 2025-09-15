@@ -2,6 +2,7 @@
 title: CIA Psychological Operations Manuals
 description: The provided documents outline comprehensive strategies for Psychological Operations (PSYOP), detailing their application in both conventional and unconventional warfare scenarios.
 ogimage: https://i.imgur.com/MJDVXwn.png
+deepDiveURL: https://open.substack.com/pub/theofficialurban/p/cia-psyops-2?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false
 ---
 
 # CIA Psychological Operations Manuals

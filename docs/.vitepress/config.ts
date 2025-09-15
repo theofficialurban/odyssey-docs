@@ -1,6 +1,7 @@
 import { defineConfig, UserConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
 import tailwindcss from "@tailwindcss/vite";
+const siteBaseUrl = "https://docs.urbanodyssey.xyz";
 const cfg: UserConfig = {
   title: "Urban Odyssey",
   titleTemplate: ":title | Urban Odyssey Database",
@@ -79,6 +80,15 @@ const cfg: UserConfig = {
         name: "og:image",
         content:
           pageData.frontmatter.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg",
+      },
+    ]);
+    const baseUrl = `${siteBaseUrl}/${pageData.relativePath}`;
+    const pgUrl = baseUrl.replace(".md", ".html");
+    pageData.frontmatter.head.push([
+      "meta",
+      {
+        name: "og:url",
+        content: pageData.frontmatter.ogurl ?? pgUrl,
       },
     ]);
     pageData.frontmatter.head.push([
