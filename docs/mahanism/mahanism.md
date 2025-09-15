@@ -30,8 +30,6 @@ The ultimate aim of this Mahanist agenda is the ushering in of the New World Ord
 
 ### The Weaponization of Secrecy: A Shroud of Absolute Power
 
-<div class="text-3xl text-red-600">Hello</div>
-
 The very survival of the occult, and by extension the Mahanist agenda, hinges upon an impenetrable "shroud of secrecy". This secrecy is a weapon of profound psychological and societal control, a meticulously crafted veil that allows malevolent agendas to fester and flourish unseen. The perpetrators of this system have intentionally veiled the powers of darkness from the populace, hoarding science, magic, psychology, and spiritual knowledge for themselves while distributing mere crumbs to mankind. This is a tactic refined over thousands of years.
 
 - **Invisibility as Invincibility:** The power of those directing the conspiracy becomes "more invincible" precisely because they "remain invisible". This hiddenness is strategic, ensuring their machinations go largely undetected. The world government tyranny is the only conquest to occur without the knowledge of the conquered.
