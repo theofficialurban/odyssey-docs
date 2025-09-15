@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Hey August";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Hey August"),
+    url("https://fonts.cdnfonts.com/s/27783/Hey August.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Killuminati";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Killuminati"),
+    url("https://fonts.cdnfonts.com/s/90071/KilluminatiIkiikocom-eZWRO.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "The Art of Illuminating";
+  font-style: normal;
+  font-weight: 400;
+  src: local("The Art of Illuminating"),
+    url("https://fonts.cdnfonts.com/s/7966/ArtOfIlluminating.woff")
+      format("woff");
+}
+
+/* .content {
+  h1,
+  h2,
+  h3 {
+    font-family: "Hey August", sans-serif;
+  }
+} */
+
+/* :root {
+  --vp-c-bg: red;
+} */

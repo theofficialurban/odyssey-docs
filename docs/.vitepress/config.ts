@@ -7,6 +7,7 @@ const cfg: UserConfig = {
   titleTemplate: ":title | Urban Odyssey Database",
   description:
     "Urban Odyssey Notes & Documents - Information for public release, additional notes and more",
+
   head: [
     [
       "script",
