@@ -1,5 +1,6 @@
 import { defineConfig, UserConfig } from "vitepress";
 import { withSidebar } from "vitepress-sidebar";
+
 import tailwindcss from "@tailwindcss/vite";
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
 const cfg: UserConfig = {
@@ -9,6 +10,21 @@ const cfg: UserConfig = {
     "Urban Odyssey Notes & Documents - Information for public release, additional notes and more",
 
   head: [
+    [
+      "script",
+      {
+        async: "",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-109HDR35M3",
+      },
+    ],
+    [
+      "script",
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-109HDR35M3');`,
+    ],
     [
       "script",
       { async: "true", src: "https://platform.twitter.com/widgets.js" },

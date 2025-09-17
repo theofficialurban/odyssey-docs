@@ -1,13 +1,18 @@
 ---
 title: Timeline & Figures on Memetics
 description: Extended study guide, timeline & figures for the article on Memetics and Psybermagick
-ogimage: https://substackcdn.com/image/fetch/$s_!golM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F78ddbdeb-250b-4644-8f59-74cbfd23fd88_2100x1500.jpeg
+ogimage: https://i.imgur.com/klJk44G.jpeg
+deepDiveURL: https://theofficialurban.substack.com/p/the-art-of-memetics
 useHeaderFont: Trade Winds
 ---
 
 # Extended Notes, Timeline & Figures on Memetics & Psybermagick
 
 [[toc]]
+
+## See my Previous Work on _Irony Poisoning_
+
+[Click Here to Go to the Reading Room Page](../reading/irony-poisoning.md)
 
 ## Navigating Memetic Networks - The Applied Brutality of Reality Hacking
 

@@ -1,12 +1,15 @@
 import type { Theme } from "vitepress";
 import Layout from "./Layout.vue";
 import DefaultTheme from "vitepress/theme";
-
+import { data } from "./data/posts.data";
 import "./global.css";
 
 import OdysseyBanner from "./components/OdysseyBanner.vue";
 import Banner from "./components/Banner.vue";
 import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
+import Card from "./components/Card.vue";
+import LinkedArticle from "./components/LinkedArticle.vue";
+import { inject } from "vue";
 
 export type SettingsFrontmatter =
   | {
@@ -62,7 +65,16 @@ export default {
     app.component("OdysseyBanner", OdysseyBanner);
     app.component("Spotify", SpotifyPlaylists);
     app.component("Banner", Banner);
+    app.component("Card", Card);
+    app.component("Article", LinkedArticle);
+    app.provide("posts", data);
 
     //app.component("PDF", PDF);
+  },
+  setup() {
+    const posts = inject("posts");
+    return {
+      posts,
+    };
   },
 } satisfies Theme;
