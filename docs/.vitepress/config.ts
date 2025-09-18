@@ -1,6 +1,6 @@
 import { defineConfig } from "@lando/vitepress-theme-default-plus/config";
 import { withSidebar } from "vitepress-sidebar";
-
+import { type UserConfig } from "vitepress";
 import tailwindcss from "@tailwindcss/vite";
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -25,14 +25,13 @@ const collections = {
     patterns: ["bible/*.md"],
   },
 };
-const cfg = {
+const cfg: UserConfig = {
   title: "Urban Odyssey",
   titleTemplate: ":title | Urban Odyssey Database",
   description:
     "Urban Odyssey Notes & Documents - Information for public release, additional notes and more",
   base: "",
   lang: "en-US",
-  debug: true,
 
   themeConfig: {
     siteTitle: "Urban Odyssey",
@@ -53,18 +52,6 @@ const cfg = {
     //     "tailwindcss", // Exclude Tailwind to fix BigInt and .node file errors
     //   ],
     // },
-    css: {
-      preprocessorOptions: {
-        scss: {
-          silenceDeprecations: [
-            "import",
-            "mixed-decls",
-            "color-functions",
-            "global-builtin",
-          ],
-        },
-      },
-    },
   },
 
   head: [
@@ -202,5 +189,9 @@ export default defineConfig(
     useTitleFromFrontmatter: true,
     capitalizeEachWords: true,
     documentRootPath: "/docs",
+    hyphenToSpace: true,
+    underscoreToSpace: true,
+    capitalizeFirst: true,
+    excludeFilesByFrontmatterFieldName: "secret",
   })
 );

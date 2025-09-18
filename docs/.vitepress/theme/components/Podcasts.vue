@@ -1,23 +1,12 @@
 <script setup lang="ts">
 import { ref, withDefaults } from "vue";
-const { spotify, apple, width, height, classes } = withDefaults(
-  defineProps<{
-    spotify?: boolean;
-    apple?: boolean;
-    width?: string;
-    height?: string;
-    classes?: { spotify?: string; apple?: string };
-  }>(),
-  {
-    spotify: false,
-    apple: false,
-    width: "100%",
-    classes: () => {
-      return { spotify: "", apple: "" };
-    },
-    height: "352",
-  }
-);
+const { spotify, apple, width, height, classes } = defineProps<{
+  spotify?: boolean;
+  apple?: boolean;
+  width?: string;
+  height?: string;
+  classes?: { spotify?: string; apple?: string };
+}>();
 const spotRef = ref(null);
 const appleRef = ref(null);
 // defineExpose({
