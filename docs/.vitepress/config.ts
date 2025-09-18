@@ -205,12 +205,12 @@ const cfg: UserConfig = {
     collections,
     sponsors: Sponsors,
 
-    feed: {
-      patterns: ["/**/*.md"],
-      file: "main.rss",
-      baseUrl: "https://docs.urbanodyssey.xyz/",
-      title: "Urban Odyssey",
-    },
+    // feed: {
+    //   patterns: ["/**/*.md"],
+    //   file: "main.rss",
+    //   baseUrl: "https://docs.urbanodyssey.xyz/",
+    //   title: "Urban Odyssey",
+    // },
 
     lastUpdated: {
       text: "Updated at",
