@@ -1,5 +1,6 @@
 ---
-title: Main Index
+title: Home
+description: This is the main index for the Urban Odyssey Database
 layout: page
 ---
 

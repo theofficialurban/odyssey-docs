@@ -1,17 +1,8 @@
 ---
 title: Mahanism
+description: Articles and notes based on the Masters Mahan Podcast or elite Luciferianism as a whole
+ogimage: https://i.imgur.com/q4rAWi2.png
 layout: page
 ---
 
-<VPLCollectionPage>
-    
-<VPLCollectionPageTags v-model="tags" />
-<VPLCollectionItems :items="pages" :tags="tags"/>
-</VPLCollectionPage>
-
-<script setup>
-import {useCollection} from '@lando/vitepress-theme-default-plus';
-import {VPLCollectionPage, VPLCollectionPageTags, VPLCollectionPageTitle, VPLCollectionItems} from '@lando/vitepress-theme-default-plus';
-
-const {pages, tags} = useCollection('mahanism');
-</script>
+<CollectionIndex title="Mahanism" lead="Notes from Masters Mahan & Elite Occultism" collection="mahanism" />

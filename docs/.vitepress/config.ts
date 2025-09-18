@@ -371,6 +371,8 @@ export default defineConfig(
     capitalizeEachWords: true,
     documentRootPath: "/docs",
     hyphenToSpace: true,
+    collapsed: false,
+    includeFolderIndexFile: true,
     underscoreToSpace: true,
     capitalizeFirst: true,
     excludeFilesByFrontmatterFieldName: "secret",
