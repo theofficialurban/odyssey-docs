@@ -27,7 +27,7 @@ The ultimate aim of this Mahanist agenda is the ushering in of the New World Ord
 
 ![](https://i.imgur.com/ZUkRn8v.png)
 
-<iframe src="https://files.catbox.moe/ycewe4.mp4" width="240px" height="460px"></iframe>
+<iframe src="https://files.catbox.moe/ycewe4.mp4" width="240px" autoplay="false" height="460px"></iframe>
 
 ### The Weaponization of Secrecy: A Shroud of Absolute Power
 

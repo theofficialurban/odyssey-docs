@@ -7,10 +7,8 @@ import {
   VPLCollectionPageTitle,
 } from "@lando/vitepress-theme-default-plus";
 import { inject } from "vue";
-
-const posts: unknown[] | undefined = inject("posts");
+const { posts } = useCollection("bible");
 console.log(posts);
-console.log(useCollection("bible"));
 </script>
 
 <template>
@@ -19,7 +17,5 @@ console.log(useCollection("bible"));
       <template #title> Guides </template>
       <template #lead> Helpful tutorial-like content! </template>
     </VPLCollectionPageTitle>
-
-    <VPLCollectionItems :items="posts" />
   </VPLCollectionPage>
 </template>

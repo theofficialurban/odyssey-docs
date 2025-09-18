@@ -7,6 +7,7 @@ import { data, type Frontmatter } from "./data/posts.data";
 import "./global.css";
 
 import OdysseyBanner from "./components/OdysseyBanner.vue";
+import CollectionIndex from "./components/CollectionIndex.vue";
 import Banner from "./components/Banner.vue";
 import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
 import Card from "./components/Card.vue";
@@ -71,9 +72,8 @@ export default {
     app.component("Banner", Banner);
     app.component("Card", Card);
     app.component("Article", LinkedArticle);
+    app.component("CollectionIndex", CollectionIndex);
     app.component("MinCard", MinLink);
     app.component("Test", Test);
-
-    app.provide<Frontmatter[]>("posts", data);
   },
 } satisfies Theme;
