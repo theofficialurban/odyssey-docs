@@ -1,5 +1,6 @@
 ---
 title: Defining Mahanism
+collection: mahanism
 useHeaderFont: Hey August
 useBodyFont: Luxurious Roman
 ---

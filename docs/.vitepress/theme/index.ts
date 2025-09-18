@@ -1,7 +1,9 @@
-import type { Theme } from "vitepress";
+import { type Theme } from "vitepress";
+import VPLTheme, { useCollection } from "@lando/vitepress-theme-default-plus";
+
 import Layout from "./Layout.vue";
-import DefaultTheme from "vitepress/theme";
-import { data } from "./data/posts.data";
+// import DefaultTheme from "vitepress/theme";
+import { data, type Frontmatter } from "./data/posts.data";
 import "./global.css";
 
 import OdysseyBanner from "./components/OdysseyBanner.vue";
@@ -10,6 +12,8 @@ import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
 import Card from "./components/Card.vue";
 import LinkedArticle from "./components/LinkedArticle.vue";
 import { inject } from "vue";
+import MinLink from "./components/MinLink.vue";
+import Test from "./components/Test.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -59,7 +63,7 @@ export type PodcastsSettings = {
   classes?: { spotify?: string; apple?: string };
 };
 export default {
-  Layout: Layout,
+  extends: VPLTheme,
 
   enhanceApp({ app }) {
     app.component("OdysseyBanner", OdysseyBanner);
@@ -67,14 +71,9 @@ export default {
     app.component("Banner", Banner);
     app.component("Card", Card);
     app.component("Article", LinkedArticle);
-    app.provide("posts", data);
+    app.component("MinCard", MinLink);
+    app.component("Test", Test);
 
-    //app.component("PDF", PDF);
-  },
-  setup() {
-    const posts = inject("posts");
-    return {
-      posts,
-    };
+    app.provide<Frontmatter[]>("posts", data);
   },
 } satisfies Theme;

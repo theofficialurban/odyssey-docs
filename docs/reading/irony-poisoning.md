@@ -5,6 +5,10 @@ description: Reading Room for Urban's PREVIOUS Irony Poisoning Article & Slidesh
 
 # Irony Poisoning
 
+<MinCard />
+
+fff
+
 [[toc]]
 
 ## Read the Original Article
