@@ -3,6 +3,7 @@ title: Notes on Demonology
 description: Notes from episodes 24 through 26 of the Masters Mahan Podcast on the nature of demons and hell
 ogimage: https://i.imgur.com/crCui7L.jpeg
 deepDiveURL: https://theofficialurban.substack.com/p/demonology
+collection: mahanism
 banner: true
 ---
 

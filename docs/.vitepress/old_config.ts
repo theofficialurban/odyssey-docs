@@ -140,6 +140,14 @@ const cfg: UserConfig = {
   },
   vite: {
     plugins: [tailwindcss()],
+    // optimizeDeps: {
+    //   exclude: [
+    //     "vitepress-sidebar",
+    //     "gray-matter",
+    //     "globby",
+    //     "tailwindcss", // Exclude Tailwind to fix BigInt and .node file errors
+    //   ],
+    // },
     css: {
       preprocessorOptions: {
         scss: {
@@ -157,7 +165,7 @@ const cfg: UserConfig = {
     siteTitle: "Urban Odyssey",
     outline: "deep",
     outlineTitle: "Table of Contents",
-
+    baseURL: siteBaseUrl,
     logo: "/icons/colored/Spellbook_Sunset.png",
     socialLinks: [
       { icon: "twitter", link: "https://x.com/officialurbanus" },

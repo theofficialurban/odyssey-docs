@@ -59,6 +59,8 @@ _After_
 
 ### Dailymail `September 10th, 2025`
 
+<Test />
+
 :::details Dailymail 9/10/2025
 
 Donald Trump's 'gold' embellished Oval Office is being mocked by users online after the decorations were exposed as $58 trinkets from Home Depot.
