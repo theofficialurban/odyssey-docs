@@ -1,6 +1,12 @@
 <script setup lang="ts">
 import { ref, withDefaults } from "vue";
-const { spotify, apple, width, height, classes } = defineProps<{
+const {
+  spotify = false,
+  apple = false,
+  width = "480px",
+  height = "350px",
+  classes = { spotify: "", apple: "" },
+} = defineProps<{
   spotify?: boolean;
   apple?: boolean;
   width?: string;
