@@ -13,6 +13,12 @@ This is a pseudo-functional programming system where you basically provide Gemin
 
 **This should hypothetically work with any LLM, not just limited to Google Gemini**
 
+## UPDATE: Google Gem Share Links!
+
+Google has added features to share Gems, here is the link which will allow you to use the Gem!
+
+https://gemini.google.com/gem/1ESfQDJrkgGrZGgsBXFXVQYjMhJ2ywW4P?usp=sharing
+
 ### Pseudo-Functions
 
 Here is the basic idea behind functions, this is very similar to regular programming but more reliant on conversational language

@@ -15,6 +15,7 @@ import LinkedArticle from "./components/LinkedArticle.vue";
 import { inject } from "vue";
 import MinLink from "./components/MinLink.vue";
 import Test from "./components/Test.vue";
+import AllIndex from "./components/AllIndex.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -73,6 +74,7 @@ export default {
     app.component("Card", Card);
     app.component("Article", LinkedArticle);
     app.component("CollectionIndex", CollectionIndex);
+    app.component("All", AllIndex);
     app.component("MinCard", MinLink);
     app.component("Test", Test);
   },

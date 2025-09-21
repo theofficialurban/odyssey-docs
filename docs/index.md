@@ -12,6 +12,9 @@ hero:
     - theme: brand
       text: Docs & Notes
       link: /main/home
+    - theme: brand
+      text: Playlists
+      link: /main/playlists
     - theme: alt
       text: Urban's Link Page
       link: https://bio.link/officialurban
