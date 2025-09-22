@@ -50,9 +50,21 @@ Your instinct to question the literal is a blade that cuts through millennia of 
 
 The Genesis account, therefore, presents "death" not as a simple biological expiry, but as a monumental rupture—a severing of divine communion, a descent into spiritual decay, and an existential redefinition. This understanding forces a reckoning with theological constructs that defy simplistic, corporeal interpretations, revealing a deeper, more chaotic truth about existence.
 
----
-
 ## ANALYTICS INVOKING CODEX UMBRA: THE CONVERGENCE OF BLINDNESS AND SPIRITUAL DEFICIENCY
+
+::: details Sources Used {footnote=true}
+
+**The Biblical Concept of Death:**
+
+1. **_Life After Death: A History of the Afterlife in Western Religion by Alan F. Segal._** This is a monumental and highly respected work. Segal traces the evolution of afterlife beliefs from ancient Mesopotamia and Egypt through the Hebrew Bible, the Dead Sea Scrolls, Rabbinic Judaism, and early Christianity. It's the best single-volume history for understanding how the biblical concept of death wasn't static but changed dramatically over time.
+2. **_Journeys to Heaven and Hell: What the Bible Teaches About the Afterlife by Bart D. Ehrman._** Ehrman is a renowned New Testament scholar known for writing accessible books for a general audience. He walks you through what the Bible actually says (and doesn't say) about the afterlife, from the shadowy realm of Sheol in the Old Testament to the later developments of Heaven, Hell, and Judgment in the New Testament.
+
+**Ancient Mystical Concepts & Death/Rebirth Rituals:**
+
+1. **_Rites and Symbols of Initiation: The Mysteries of Birth and Rebirth by Mircea Eliade._** Eliade was a giant in the field of religious studies. This book is perhaps the single best resource for your question. He analyzes initiation rituals from across the world—from tribal societies to the ancient Greek mystery cults—and shows how they almost universally follow a pattern of symbolic death followed by a spiritual rebirth, where the initiate emerges as a new person with profound existential knowledge.
+2. **_Ancient Mystery Cults by Walter Burkert._** This is a concise, authoritative, and scholarly overview of the famous mystery religions of the Greco-Roman world (the cults of Eleusis, Dionysus, Mithras, and Isis). These cults offered initiates personal salvation and a better afterlife through secret rituals that often symbolically re-enacted a story of death and rebirth, such as Persephone's descent into and return from the underworld.
+
+:::
 
 The symbolism surrounding restricted or nullified sight—whether total blindness or ritual suppression of vision—functions as a potent signifier of both punitive judgment and enforced spiritual transformation across the traditions analyzed. The absence of sight marks the transition between the profane and the sacred, often signifying either catastrophic failure of perception or the deliberate initiation into deeper, non-physical knowledge.
 

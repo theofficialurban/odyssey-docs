@@ -16,6 +16,9 @@ hero:
       text: Playlists
       link: /main/playlists
     - theme: alt
+      text: All Posts
+      link: /all
+    - theme: alt
       text: Urban's Link Page
       link: https://bio.link/officialurban
 ---

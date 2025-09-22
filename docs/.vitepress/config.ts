@@ -2,8 +2,12 @@ import { defineConfig } from "@lando/vitepress-theme-default-plus/config";
 import { withSidebar } from "vitepress-sidebar";
 import { type UserConfig } from "vitepress";
 import tailwindcss from "@tailwindcss/vite";
-
+import container from "markdown-it-container";
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
+
+const customContainer = {
+  footnote: { defaultTitle: "Footnote" },
+};
 
 const collections = {
   bible: {
@@ -213,36 +217,68 @@ const socialLinks = [
 ];
 
 const navLinks = [
-  { text: "Substack", link: "https://theofficialurban.substack.com" },
   {
-    text: "Main Channels",
-    items: [
-      { text: "YouTube", link: "https://youtube.com/@MastersMahanPodcast" },
-      { text: "Rumble", link: "https://rumble.com/c/MastersMahan" },
-      {
-        text: "Bitchute",
-        link: "https://bitchute.com/channel/mastersmahan",
-      },
-      { text: "Odysee", link: "https://odysee.com/@UrbanOdyssey:b" },
-    ],
+    text: "All Posts",
+    link: "/all/",
   },
   {
-    text: "Live Streams",
+    text: "Playlists",
+    link: "/main/playlists.html",
+  },
+  {
+    text: "Urban's Channels",
     items: [
       {
-        text: "Rumble Live Link",
-        link: "https://rumble.com/c/MastersMahan/live",
+        text: "Substack",
+        columns: 1,
+        items: [
+          {
+            text: "Substack",
+            link: "https://theofficialurban.substack.com",
+            alert: { text: "Primary", type: "success" },
+          },
+        ],
       },
       {
-        text: "Twitch.tv (TheUrbanOdyssey)",
-        link: "https://twitch.tv/theurbanodyssey",
+        text: "Live Streams",
+        columns: 3,
+        items: [
+          {
+            text: "Rumble",
+            link: "https://rumble.com/c/MastersMahan/live",
+          },
+          {
+            text: "Twitch.tv",
+            link: "https://twitch.tv/theurbanodyssey",
+          },
+          {
+            text: "Kick",
+            link: "https://kick.com/officialurban",
+          },
+        ],
       },
       {
-        text: "Kick (OfficialUrban)",
-        link: "https://kick.com/officialurban",
+        text: "Video Content",
+        columns: 4,
+        items: [
+          { text: "YouTube", link: "https://youtube.com/@MastersMahanPodcast" },
+          {
+            text: "Rumble",
+            link: "https://rumble.com/c/MastersMahan",
+          },
+          {
+            text: "Bitchute",
+            link: "https://bitchute.com/channel/mastersmahan",
+          },
+          {
+            text: "Odysee",
+            link: "https://odysee.com/@UrbanOdyssey:b",
+          },
+        ],
       },
     ],
   },
+
   {
     text: "Donations",
     items: [
@@ -272,6 +308,7 @@ const cfg: UserConfig = {
     logo: "/icons/colored/Spellbook_Sunset.png",
     contributors,
     collections,
+    containers: customContainer,
     socialLinks,
     nav: navLinks,
     sponsors: Sponsors,

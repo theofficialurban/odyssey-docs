@@ -33,6 +33,15 @@
   transition: background-color 0.25s;
 }
 
+details[footnote] {
+  &.custom-block {
+    padding: 5px;
+    background-color: var(--vp-c-bg-alt);
+
+    font-size: 11px;
+  }
+}
+
 /* .content {
   h1,
   h2,
