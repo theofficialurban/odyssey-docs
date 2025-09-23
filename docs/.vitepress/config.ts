@@ -3,13 +3,19 @@ import { withSidebar } from "vitepress-sidebar";
 import { type UserConfig } from "vitepress";
 import tailwindcss from "@tailwindcss/vite";
 import container from "markdown-it-container";
+import type {
+  Contributors,
+  CollectionDefinition,
+  Contributor,
+  DefineCollections,
+} from "./utils";
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
 
 const customContainer = {
   footnote: { defaultTitle: "Footnote" },
 };
 
-const collections = {
+const collections: DefineCollections = {
   bible: {
     frontmatter: {
       collection: "bible",
@@ -167,7 +173,7 @@ const Sponsors = {
     },
   ],
 };
-const contributors = {
+const contributors: Contributors = {
   merge: "name",
   include: [
     {

@@ -8,7 +8,13 @@ import {
   VPLCollectionItems,
 } from "@lando/vitepress-theme-default-plus";
 import { computed } from "vue";
-import { Collection } from "../../utils";
+import {
+  type Collection,
+  type CollectionDefinition,
+  findCollection,
+} from "../../utils";
+import Icon from "./Icon.vue";
+import { useData } from "vitepress";
 
 interface Props {
   title: string;
@@ -16,12 +22,20 @@ interface Props {
   collection: string[];
 }
 
+type DefinitionAndPages = {
+  definition: CollectionDefinition | null;
+  collection: Collection;
+};
+
+const { theme } = useData();
 const { title, collection, lead } = defineProps<Props>();
 const collections = computed(() => {
-  const cm = new Map<string, Collection>();
+  const cm = new Map<string, DefinitionAndPages>();
   collection.forEach((c) => {
     const found: Collection = useCollection(c);
-    cm.set(c, found);
+    const findCol = findCollection(theme.value.collections, c);
+
+    cm.set(c, { definition: findCol, collection: found });
   });
   return cm;
 });
@@ -38,10 +52,17 @@ const { hasItems, tags } = useCollection();
         {{ lead }}
       </template>
     </VPLCollectionPageTitle>
-    <template v-for="[name, col] in collections">
+    <template
+      v-for="[name, { definition: cDef, collection: col }] in collections"
+    >
       <VPLCollectionPageSection v-if="col.hasItems(col.pages, col.tags)">
         <template #title>
-          <a :href="`/${name}`">{{ name.toUpperCase() }}</a>
+          <Icon
+            v-if="cDef !== null && cDef.icon && cDef.iconLink"
+            :icon="cDef.icon ?? ''"
+            :link="cDef.iconLink"
+            :title="name.toUpperCase()"
+          />
         </template>
         <template #items>
           <VPLCollectionPageTags
