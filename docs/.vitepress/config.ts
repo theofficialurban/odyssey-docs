@@ -308,6 +308,9 @@ const cfg: UserConfig = {
     logo: "/icons/colored/Spellbook_Sunset.png",
     contributors,
     collections,
+    search: {
+      provider: "local",
+    },
     containers: customContainer,
     socialLinks,
     nav: navLinks,
