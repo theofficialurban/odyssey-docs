@@ -236,12 +236,17 @@ const navLinks = [
     items: [
       {
         text: "Substack",
-        columns: 1,
+        columns: 2,
         items: [
           {
-            text: "Substack",
+            text: "Urban Odyssey",
             link: "https://theofficialurban.substack.com",
             alert: { text: "Primary", type: "success" },
+          },
+          {
+            text: "Urban's Library",
+            link: "https://urbanslibrary.substack.com",
+            alert: { text: "Secondary", type: "danger" },
           },
         ],
       },
