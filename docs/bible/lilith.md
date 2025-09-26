@@ -1,5 +1,5 @@
 ---
-title: Lilith: Unveiling the Noctifer and Matriarch of the Abyss
+title: Lilith Unveiling the Noctifer and Matriarch of the Abyss
 description: Lilith embodies the spirit of primordial defiance and sovereignty, traced back through various ancient pantheons.
 ogimage: https://live.staticflickr.com/65535/53943661226_e3428c756f_b.jpg
 ---
