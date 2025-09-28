@@ -10,16 +10,6 @@ ogimage: https://substackcdn.com/image/fetch/$s_!OIuX!,w_1456,c_limit,f_webp,q_a
 
 [[toc]]
 
-## Full Slideshow on Principalities
-
-::: warning UPDATE
-
-You can now view the full slideshow presentation below
-
-:::
-
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTcwzQ0U4Oxb7BN-Gsao-IcsfI8IJ-h8e92faS9nXJlGbvVpwvr3S8ne3M6F8XFeD2txLHwuyFf-Vi0/pubembed?start=false&loop=false&delayms=10000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 ## Principalities & Rulers of Darkness [Original Article]
 
 ::: highlight
