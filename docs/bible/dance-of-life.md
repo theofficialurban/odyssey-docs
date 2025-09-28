@@ -18,8 +18,6 @@ The full Google Drive with all of the information I have on Jesuitism & Church H
 
 ![](https://i.imgur.com/Cg1nevU.png)
 
-<iframe src="https://danceoflife.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-
 ::: caption
 
 Be sure to check out the work of Tudor Alexander & the Dance of Life Podcast which has helped to put this information together **_[The Dance of Life Podcast](https://danceoflife.com)_**
@@ -27,6 +25,8 @@ Be sure to check out the work of Tudor Alexander & the Dance of Life Podcast whi
 :::
 
 ::::
+
+<iframe src="https://danceoflife.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 ## The Beast System, Jesuit Machinations, and End-Time Delusions
 
