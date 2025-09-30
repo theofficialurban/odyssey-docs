@@ -30,6 +30,16 @@ This text, "The Black Awakening: Rise of the Satanic Super Soldiers and the Comi
 
 For more information on this topic, please see the following links
 
+**_More From Russ Dizdar_**
+
+- Russ Dizdar Homepage & Bio: https://www.russdizdar.com/
+- Russ Dizdar & The Black Awakening (Full Audiobook): https://www.youtube.com/playlist?list=PLeZ164ZSzHeyJZQ1XSpESfm5R7Yz36A06
+- Dark Rituals & Powers by Russ Dizdar (Spiritual Warfare Playlist): https://www.youtube.com/playlist?list=PL4kOCLnFZ_bxi2S6LlcGa0mtmzbBVxd6Z
+- Rumble Playlist: https://rumble.com/playlists/c5nJKWn2Oes?e9s=src_v1_ucp_pl
+- Odysee Playlist: https://odysee.com/russ-dizdar:6fe524ba38ae7f615ca4f69c88d9c85adfbedaf1?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn&lid=6fe524ba38ae7f615ca4f69c88d9c85adfbedaf1
+- Posts on Russ Dizdar by Urban Odyssey: https://theofficialurban.substack.com/t/russ-dizdar
+- Russ Dizdar Spotify Playlist: https://open.spotify.com/playlist/2WbNVAuTIMUkepzsz6C5Ne?si=8d83978d00604e64
+
 **_Substack Posts_**
 
 - _Programmed to Kill [David McGowan]_ https://theofficialurban.substack.com/p/programmed-to-kill?r=3kr5wz
