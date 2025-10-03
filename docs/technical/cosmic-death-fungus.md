@@ -18,7 +18,7 @@ This document, "Cosmic Death Fungus," presents a compelling, non-scientific theo
 
 ::: danger Downloads & Additional Reading
 
-[Click here to go to the Research & Footnotes Section](./#research)
+[Click here to go to the Research & Footnotes Section](./cosmic-death-fungus.html#research)
 
 I highly advise anybody looking for more information or anybody who is unsure about this to also read the **_Parasite Pill E-Book_** (it's very light reading, a lot of images and screenshots + links to all of the research papers and journal entries)
 
