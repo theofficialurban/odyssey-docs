@@ -11,6 +11,7 @@ import { computed } from "vue";
 import {
   type Collection,
   type CollectionDefinition,
+  type Page,
   findCollection,
 } from "../../utils";
 import Icon from "./Icon.vue";
@@ -25,6 +26,7 @@ interface Props {
 type DefinitionAndPages = {
   definition: CollectionDefinition | null;
   collection: Collection;
+  publicPages: Page[];
 };
 
 const { theme } = useData();
@@ -34,8 +36,10 @@ const collections = computed(() => {
   collection.forEach((c) => {
     const found: Collection = useCollection(c);
     const findCol = findCollection(theme.value.collections, c);
-
-    cm.set(c, { definition: findCol, collection: found });
+    const publicPages: Page[] = found.pages.filter(
+      (pg) => pg.secret === undefined || pg.secret === false
+    );
+    cm.set(c, { definition: findCol, collection: found, publicPages });
   });
   return cm;
 });
@@ -53,9 +57,12 @@ const { hasItems, tags } = useCollection();
       </template>
     </VPLCollectionPageTitle>
     <template
-      v-for="[name, { definition: cDef, collection: col }] in collections"
+      v-for="[
+        name,
+        { definition: cDef, collection: col, publicPages },
+      ] in collections"
     >
-      <VPLCollectionPageSection v-if="col.hasItems(col.pages, col.tags)">
+      <VPLCollectionPageSection v-if="col.hasItems(publicPages, col.tags)">
         <template #title>
           <Icon
             v-if="cDef !== null && cDef.icon && cDef.iconLink"
@@ -67,11 +74,11 @@ const { hasItems, tags } = useCollection();
         <template #items>
           <VPLCollectionPageTags
             v-model="col.tags"
-            v-if="col.tags.length > 0 && hasItems(col.pages, col.tags)"
+            v-if="col.tags.length > 0 && hasItems(publicPages, col.tags)"
           />
           <VPLCollectionItems
-            v-if="col.hasItems(col.pages, col.tags)"
-            :items="col.pages"
+            v-if="col.hasItems(publicPages, col.tags)"
+            :items="publicPages"
             :tags="col.tags"
           />
         </template>

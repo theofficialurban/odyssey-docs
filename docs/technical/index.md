@@ -1,5 +1,6 @@
 ---
 title: Technical
+secret: true
 layout: page
 ---
 

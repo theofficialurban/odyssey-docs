@@ -1,5 +1,6 @@
 ---
 title: Biodigital Convergence
+secret: true
 layout: page
 ---
 

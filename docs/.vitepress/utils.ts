@@ -31,6 +31,7 @@ export interface Page extends PageData {
   tags: Record<string, unknown>[];
   timestamp: string;
   title: string;
+  secret?: boolean;
   type: string;
   url: string;
 }

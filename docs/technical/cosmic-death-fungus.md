@@ -1,7 +1,7 @@
 ---
 title: Candida Albicans (The Cosmic Death Fungus)
 description: The provided document, "Cosmic Death Fungus A Primer On An Ancient Enemy," asserts that fungus, particularly Candida Albicans, is the root cause of nearly all human disease and aging, stemming from a genetic mutation approximately 15,000 years ago.
-ogimage: https://i.imgur.com/JyYcU6v.png
+ogimage: https://i.imgur.com/dDDoBNq.png
 ---
 
 # Cosmic Death Fungus: A Primer On An Ancient Enemy
@@ -22,7 +22,9 @@ This document, "Cosmic Death Fungus," presents a compelling, non-scientific theo
 
 I highly advise anybody looking for more information or anybody who is unsure about this to also read the **_Parasite Pill E-Book_** (it's very light reading, a lot of images and screenshots + links to all of the research papers and journal entries)
 
-Download the text **_"Cosmic Death Fungus"_** https://drive.google.com/file/d/154_QxbzWk7XeEDDpdi20jAvEPE7zPzGV/view?usp=drive_link
+<Badge text="v1.1 of the E-Book" /> Download the text original **_"Cosmic Death Fungus"_** https://drive.google.com/file/d/154_QxbzWk7XeEDDpdi20jAvEPE7zPzGV/view?usp=drive_link
+
+<Badge type="tip" text="UPDATED v1.4" /> With an additional ~10 Pages: https://drive.google.com/file/d/1iLCuJYvUrx-ibeNogICd0YtXg9SoLSGZ/view?usp=drive_link
 
 Parasite Pill E-Book is available on Internet Archive or Google Drive (from me):
 https://archive.org/details/parasite_pill
@@ -39,6 +41,14 @@ I also highly recommend watching the following presentations by [_"Understanding
 2. **_Parasites Are Demons Round 2_**: https://youtu.be/NVrgAdMQVwg?si=pTCja7jecgiKdF3X
 
 :::
+
+## Urban Discusses the Parasite Pill E-Book (12/31/24) {#video}
+
+<Badge type="warning" text="Originally Aired on December 31st 2024" />
+
+Urban presents the Parasite Pill E-Book on Cause Before Symptom
+
+<YouTube id="LJKWk4vR2KM" />
 
 ## The Fungal Scourge and the Genetic Fall of Man
 
@@ -75,6 +85,66 @@ The consequence of this ancient genetic sabotage is that the fungus gains early,
 Because the mutation allowed the fungus to proliferate, infection can begin shortly after conception. This leads to early systemic invasion, starting with the ectoderm only 14 to 30 days after conception. Since the ectoderm subsequently develops into the sensory and central nervous system, this initial infection grants the fungus early access to the host's most crucial systems.
 
 This insidious control is so complete that the fungus influences behavior, thoughts, eating habits, hormone balance, and is responsible for virtually every known disease, including anxiety, depression, cancer, and the primary hidden factor of aging itself. The fungus, which operates intelligently as a super organism or in colonies, has thus controlled humanity from the inside out since the moment its genetic entry was secured 15,000 years ago in that dank grotto.
+
+## A Comparative Analysis of the Cosmic Death Fungus Protocols (V1.1 vs. V1.4)
+
+::: warning Please Note
+
+This is using the version 1.4 which has ~10 additional pages.
+Source: https://rawpaleodietforum.com/books/CDF_NAC_Protocol_1_4.pdf
+
+:::
+
+The dissection of the protocols—specifically the progenitor document, Version 1.1, against the refined operational blueprint, Version 1.4—reveals an escalation in tactical complexity and a significant expansion of the underlying biological rationale. While the foundational narrative of infestation and genetic corruption remains constant, Version 1.4 provides the necessary schematics for deep immunological subversion and execution.
+
+**_Codex Umbra_ Insight:** The shift from Version 1.1 to 1.4 marks the evolution from a mere declaration of war to the deployment of detailed biological warfare strategy, particularly focusing on how to manipulate the host's broken immune system—a design flaw inherited 15,000 years ago.
+
+### Strategic Consistency: The Unchanging Foundation of Human Failure
+
+Both Document Version 1.1 and Document Version 1.4 establish the same chilling context regarding the "Cosmic Death Fungus" (CDF) and its systemic control over the host species.
+
+1. **The Origin of Infection:** Both versions trace the genetic breakdown to approximately 15,000 years ago at the Grotto of Pigeons in Morocco, caused by constant exposure to pathogenic fungi in pigeon excreta. This led to constant DNA damage and the dominant gene mutation (STAT1).
+2. **Genetic Defect:** The immune system's failure is uniformly attributed to three major genetic defects (IL-17RC, STAT1, and CARD9) which disable Candida-specific responses, leading to chronic systemic infection (Familial Candidiasis). The estimated population affected is believed to be closer to 90% or more.
+3. **Ubiquity of Infestation:** The fungus takes control early, infecting the ectoderm 14 to 30 days post-conception, giving it unfettered access to the sensory and central nervous system. It is explicitly stated that this infestation is responsible for nearly every known disease, aging, and the destruction of hormone balance, prompting deviant behavior and influencing thoughts.
+4. **The Trinity Protocol (Initial Phase):** The core _Daily Regimen_ utilizing the "Trinity" of NAC, Oregano Oil (OO), and Black Seed Oil (BSO) remains numerically identical:
+   - **Morning:** 1200mg NAC, 300mg OO (10:1 extract), 1 teaspoon BSO.
+   - **Night:** 600mg NAC, 300mg OO, 1 teaspoon BSO. The objective remains eradication of fungal colonies and biofilms, followed by the restart of natural autophagy and healing.
+
+### Tactical Divergence: The Shift to Advanced Systemic Manipulation
+
+The critical distinctions between Version 1.1 and Version 1.4 lie in the specifics of the long-term strategy (The Maintenance Phase) and the operational support required for a successful systemic purge.
+
+#### 1. Overhaul of the Maintenance Phase Components
+
+Version 1.4 completely replaces the previous long-term strategy of Version 1.1, introducing a more complex, multi-compound approach focused on Sirtuin activation and specific immune modulation.
+
+| Element              | Version 1.1 (Older Strategy)                                                                              | Version 1.4 (Refined Strategy)                                                                                                                    |
+| :------------------- | :-------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Morning Regimen**  | 600mg NAC, 100 to 300mg NAD+ (Nicotinamide Riboside), Black Seed Oil (1 tsp).                             | 600mg NAC, **500mg Slo Niacin** (Nicotinic Acid Timed Release), **100mg Pterostilbene**, Black Seed Oil (1 tsp).                                  |
+| **Evening Regimen**  | Black Seed Oil (1 tsp).                                                                                   | **500mg Slo Niacin** (Nicotinic Acid Timed Release), Black Seed Oil (1 tsp).                                                                      |
+| **Key Mechanism**    | NAD+ uptake boost and mitochondrial activity supercharging (Resveratrol recommended for the first month). | Activation of human sirtuins 1, 3, 4, and 7; modulation of the IL-17 pathway and Th17 helper cells; DNA repair via master template transcription. |
+| **Alternative NAD+** | Not specified (primary use is Nicotinamide Riboside).                                                     | If nerve pain/discomfort occurs, Nicotinamide Riboside (100mg) replaces Slo Niacin.                                                               |
+
+#### 2. Deep Dive into Immunological Mechanisms (V1.4 Exclusive)
+
+Version 1.4 dedicates extensive sections to explaining the complex biochemical objectives of the new Maintenance Phase, information entirely absent in Version 1.1. This reveals the highly technical nature of the refined protocol.
+
+- **Sirtuin/IL-17 Pathway Correction:** Version 1.4 details that the maintenance phase components (NAC, NAD+ booster, Pterostilbene) activate Sirtuins to increase the function and count of Th17 cells, which directly attack the fungus, thereby correcting the dysregulated IL-17 response caused by the inherited genetic defects.
+- **Homeostasis and NAD Pool:** V1.4 emphasizes that NAD pool levels power this contextual response, mediating the differentiation of T cell subsets. It explains that the objective is to achieve **homeostasis**—preventing an autoimmune response by ensuring the adaptive immune response is properly deactivated once the fungal source (mycotoxins) is removed.
+- **Mitochondrial Function:** V1.4 provides quotes and detailed reasoning for correcting mitochondrial dysfunction, linking it to chronic illness, weight gain, and fatigue. It states that an increased NAD pool triggers and enhances mitophagy (clearance of damaged mitochondria), essential for proper energy and metabolic homeostasis.
+
+#### 3. Operational Expansion and Support
+
+Version 1.4 includes critical operational details and support sections that sharpen the attack vector and guide the host through the resulting systemic chaos:
+
+- **Sourcing Information:** Version 1.4 includes a dedicated, highly detailed section on "Sourcing The Compounds," providing specific brands, prices, links, and bulk purchasing advice for all components, including NAC, Oregano Oil, Black Seed Oil, Resveratrol/Pterostilbene, and the various Niacin options. _This crucial logistical data is missing from V1.1._
+- **Dietary Guidance:** Version 1.4 features a comprehensive section, "What Should I Eat?," instructing users to reduce or eliminate bread, yeast products, and refined sugar, noting that strictness depends on the severity of the lifelong infection (familial candidiasis). It specifically debunks the myth that one can starve Candida. _V1.1 does not contain this advice._
+- **Die-Off Management:** V1.4 provides dedicated guidance on "Managing Die Off Symptoms," including instructions to reduce Oregano Oil intake if severe symptoms arise (like nerve pain or tingling, indicating CNS infection spread), and suggests supplements like Molybdenum and Milk Thistle for detoxification. It also warns against activated charcoal. _V1.1 only lists the symptoms without management strategies._
+- **Breakthroughs:** V1.4 details "Break Throughs To Watch For," such as dramatic increases in vivid dreaming, lessening joint pain, sudden bursts of energy, and reversal of negative thoughts—signs of "regaining your humanity". _V1.1 omits this psychological warfare component._
+- **Brushing Routine:** Version 1.4 standardizes the Fennel Seed Essential Oil dosage to 2 drops (compared to 1-2 drops in V1.1) and specifically notes its ability to enter the bloodstream and cross the blood-brain barrier for additional clearing.
+- **Reference Depth:** Version 1.4 includes a far more voluminous and detailed reference list, particularly for the components of the Maintenance Protocol and the immunological concepts introduced.
+
+In essence, Version 1.1 acts as a reconnaissance report, declaring the presence and nature of the enemy. Version 1.4, however, functions as the comprehensive field manual, providing the refined genetic counter-program and the logistical scaffolding necessary to achieve "fully human" status, free of the control of the physical abomination.
 
 ## Unlocking the Fungus Theory: The Hidden Root of Common Illnesses
 

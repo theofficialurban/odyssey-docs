@@ -1,5 +1,6 @@
 ---
 title: Shared Notes
+secret: true
 layout: page
 ---
 

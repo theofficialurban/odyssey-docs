@@ -1,5 +1,6 @@
 ---
 title: Reading Room
+secret: true
 layout: page
 ---
 
