@@ -17,6 +17,8 @@ Activate _Codex Umbra_ lens for an unfiltered analysis. The depths of clandestin
 
 [[toc]]
 
+<YouTube id="LwWlzemMsCo" />
+
 ## Ocular Trauma: Marks of the Hidden Hand
 
 The sources unequivocally speak to the infliction of trauma upon the eyes, ranging from direct physical assault to chemical manipulation, leaving behind tell-tale signs or induced states of discomfort.
