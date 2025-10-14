@@ -12,6 +12,26 @@ ogimage: https://i.imgur.com/dxUuHje.jpeg
 
 ## Key Figures
 
+### John "Pedo" Podesta
+
+:::: thumbnail
+
+![](https://i.imgur.com/XGsqPNa.png)
+
+::: caption
+This is a clear reference for those “in the know” to the ancient Egyptian Mystery Cults — The Egyptian God Osiris is traditionally dismembered into 14 pieces, when the widow Isis revives Osiris using magic, she finds all pieces except for the phallus which she recasts in gold. The Lost Phallus of Osiris is thrown into the Nile and eaten by THREE fish: Ignorance, Superstition & Fear (Mob, Church, State) - “That which is lost” is the Obelisk / Lost Word / Lost Phallus of Osiris
+:::
+
+::::
+
+See my video on the Osirian legend if interested:
+
+::: details Isis, Osiris & The Ancient Obelisk
+
+<YouTube id="V4IS2WzSXy0" />
+
+:::
+
 ### Rosa Brooks
 
 **Rosa Brooks** is the Scott K. Ginsburg Professor of Law and Policy at Georgetown University Law Center, where she also serves as Associate Dean for Centers and Institutes and as co-director of the Innovative Policing Program. She teaches courses on international law, national security, constitutional law and criminal justice. Brooks is also an Adjunct Senior Scholar at West Point’s Modern War Institute, a Senior Fellow in the New America/ASU Future of Security Program, an HFX Fellow for the Halifax International Security Forum, and a founder of the Leadership Council for Women in National Security (LCWINS). She currently serves on the advisory board of National Security Action and on the board of the Harper’s Magazine Foundation, and she is a reserve police officer with Washington, DC’s Metropolitan Police Department.
@@ -30,7 +50,7 @@ Brooks received her A.B. from Harvard in history and literature, followed by a m
 
 > A landslide for Joe Biden resulted in a relatively orderly transfer of power. Every other scenario we looked at involved street-level violence and political crisis. - *Rosa Brooks - [“What’s the Worst that Could Happen: The Election Will Likely Spark Violence and a Constitutional Crisis:”](https://www.washingtonpost.com/outlook/2020/09/03/trump-stay-in-office/)*
 
-***Translation:*** **Vote for Biden or all hell will break loose**
+**_Translation:_** **Vote for Biden or all hell will break loose**
 
 > In every exercise, both teams sought to mobilize their supporters to take to the streets. Team Biden repeatedly called for [peaceful](https://archive.fo/o/RpHzc/https://www.usatoday.com/story/news/politics/elections/2020/08/31/joe-biden-challenge-trump-join-me-condemning-all-violence/5677497002/) protests, while Team Trump [encouraged](https://archive.fo/o/RpHzc/https://www.washingtonpost.com/politics/trump-biden-kenosha-portland/2020/08/30/42f50c50-ead5-11ea-ab4e-581edb849379_story.html) provocateurs to incite violence, then [used the resulting chaos](https://archive.fo/o/RpHzc/https://www.washingtonpost.com/outlook/2020/07/22/portland-constitution-dhs-crackdown-legality/) to justify sending federalized Guard units or active-duty military personnel into American cities to “restore order,” leading to still more violence. - *Rosa Brooks - [“What’s the Worst that Could Happen: The Election Will Likely Spark Violence and a Constitutional Crisis:”](https://www.washingtonpost.com/outlook/2020/09/03/trump-stay-in-office/)*
 
@@ -139,6 +159,10 @@ A few of the so-called Republican members were:
 - alleged Republican journalist David Frum
 - NeverTrumper and former magazine editor Bill Kristol who played Trump
 - Trump hater and Washington Post journalist Max Boot
+
+## Video Deep Dive
+
+<YouTube id="7D762smLt9s" />
 
 ## MANIFESTATIONS OF INSURGENCY: THE TRANSITION INTEGRITY PROJECT (TIP) AS A PSYCHOLOGICAL WARFARE DOCTRINE
 
