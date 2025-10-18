@@ -1,9 +1,15 @@
 <script setup lang="ts">
-import VuePdfEmbed from "vue-pdf-embed";
+interface Props {
+  src: string;
+  width?: string;
+  height?: string;
+}
+
+const { src, width = "75%", height = "650px" } = defineProps<Props>();
 </script>
 
 <template>
-  <VuePdfEmbed
-    source="https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/examples/learning/helloworld.pdf"
-  />
+  <center v-if="src">
+    <iframe title="PDFViewer" :src="src" :width :height />
+  </center>
 </template>

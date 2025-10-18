@@ -1,9 +1,6 @@
 import { type Theme } from "vitepress";
 import VPLTheme, { useCollection } from "@lando/vitepress-theme-default-plus";
 
-import Layout from "./Layout.vue";
-// import DefaultTheme from "vitepress/theme";
-import { data, type Frontmatter } from "./data/posts.data";
 import "./global.css";
 
 import OdysseyBanner from "./components/OdysseyBanner.vue";
@@ -12,9 +9,9 @@ import Banner from "./components/Banner.vue";
 import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
 import Card from "./components/Card.vue";
 import LinkedArticle from "./components/LinkedArticle.vue";
-import { inject } from "vue";
+
 import MinLink from "./components/MinLink.vue";
-import Test from "./components/Test.vue";
+import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
 
 export type SettingsFrontmatter =
@@ -76,6 +73,6 @@ export default {
     app.component("CollectionIndex", CollectionIndex);
     app.component("All", AllIndex);
     app.component("MinCard", MinLink);
-    app.component("Test", Test);
+    app.component("PDF", PDF);
   },
 } satisfies Theme;
