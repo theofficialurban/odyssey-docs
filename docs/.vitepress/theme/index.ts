@@ -13,6 +13,7 @@ import LinkedArticle from "./components/LinkedArticle.vue";
 import MinLink from "./components/MinLink.vue";
 import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
+import Gradient from "./components/Gradient.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -69,6 +70,7 @@ export default {
     app.component("Spotify", SpotifyPlaylists);
     app.component("Banner", Banner);
     app.component("Card", Card);
+    app.component("Gradient", Gradient);
     app.component("Article", LinkedArticle);
     app.component("CollectionIndex", CollectionIndex);
     app.component("All", AllIndex);

@@ -20,7 +20,7 @@ ogimage: https://i.imgur.com/iPYJoG8.jpeg
 
 ::: tip Vatican Sacred Portal Coordinates
 
-"Portal" Coordinates:
+<Gradient fromCol="#ee0979" toCol="#ff6a00" weight="900" size="1.3rem">"Portal" Coordinates:</Gradient>
 
 - **St. Peters Basilica:** 41° 54′ 8″ N, 12° 27′ 12″E,
 - **Roman Prison Rebibbia:** 41°55'52.9"N 12°34'19.7"E,
@@ -29,7 +29,7 @@ ogimage: https://i.imgur.com/iPYJoG8.jpeg
 - **Basilica Saint Mary Major:** 41°53′51″N 12°29′55″E
 - **Basilica of Saint Paul:** 41°51′31″N 12°28′36″E,
 
-Coordinate Sources:
+<Gradient fromCol="#ee0979" toCol="#ff6a00" weight="900" size="1.3rem">Coordinate Sources:</Gradient>
 
 - St. Peters Basilica [Link](https://en.wikipedia.org/wiki/St._Peter's_Basilica),
 - Roman Prison Rebibbia [Link](https://www.google.com/maps/place/41%C2%B055'52.9%22N+12%C2%B034'19.7%22E/@41.9313611,12.5721389,821m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d41.9313611!4d12.5721389!5m1!1e4?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D),
