@@ -20,6 +20,10 @@ Their website can be found here: https://kjvm.org
 
 <YouTube id="XitdTlbyfG4" />
 
+### More on the 5th Kingdom
+
+<YouTube id="pQwPPrNs5OE" />
+
 ## Digital Recreation
 
 ::: tip View the Album
