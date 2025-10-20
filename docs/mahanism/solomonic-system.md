@@ -32,7 +32,17 @@ You can view the full album on Imgur: https://imgur.com/a/d2auJvC
 
 :::
 
-### Full Images {#images}
+### View the Full Whiteboard on Canva {#canva-link}
+
+::: warning Canva
+
+You can now view the whiteboard and most up to date links and sources here: https://www.canva.com/design/DAG2JzlhlzY/1eVGbvnBFeTsVOPITDc0-w/edit?utm_content=DAG2JzlhlzY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+:::
+
+### Solomon's Seal (Video 1) {#seal}
+
+#### Full Images {#images}
 
 ![](https://i.imgur.com/zrjvwjG.png)
 
@@ -43,7 +53,7 @@ You can view the full album on Imgur: https://imgur.com/a/d2auJvC
 
 :::
 
-### Key
+#### Key
 
 ![](https://i.imgur.com/HSU9rJN.png)
 
@@ -57,13 +67,13 @@ You can view the full album on Imgur: https://imgur.com/a/d2auJvC
 
 :::
 
-#### View the Key /w Links
+##### View the Key /w Links
 
 <PDF :src="`https://files.catbox.moe/rpkesd.pdf`" />
 
-### Hexagram Sections
+#### Hexagram Sections
 
-#### Top Section
+##### Top Section
 
 :::tabs
 == Left
@@ -75,7 +85,7 @@ You can view the full album on Imgur: https://imgur.com/a/d2auJvC
 
 :::
 
-#### Bottom Section
+##### Bottom Section
 
 :::tabs
 == Left
@@ -86,3 +96,21 @@ You can view the full album on Imgur: https://imgur.com/a/d2auJvC
 ![](https://i.imgur.com/7fDEq6D.png)
 
 :::
+
+### The Roman Fort of Conformity (Video 2) {#fort}
+
+#### Steps of the Fort (Tikkun Olam) {#steps}
+
+![](https://i.imgur.com/YjqWFHn.png)
+
+##### Inquisition Renamed
+
+![](https://i.imgur.com/H7uTu9n.jpeg)
+
+#### Tiers of Similar Concepts {#tiers}
+
+![](https://i.imgur.com/P8bZlPQ.png)
+
+#### Full Chart {#full-fort}
+
+![](https://i.imgur.com/HQhroDr.png)
