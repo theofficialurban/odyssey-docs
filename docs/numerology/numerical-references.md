@@ -216,3 +216,7 @@ This represents the divine manifestation, as does the Tetractys and then the sac
 ### The Divine Code
 
 Thus, quite literally, all numbers can be though of as an endless manifestation of YHVH.
+
+## Download a Copy of the Book
+
+<PDF :src="`https://files.catbox.moe/yo7ff7.pdf`" title="Numerology: Idiot's Guide" />

@@ -1,6 +1,7 @@
 ---
 title: The Tree of Life
 description: Some graphic aids and information on the Tree of Life & The 32 Paths. Also the cube of space
+ogimage: https://i.imgur.com/32Mgqkr.png
 ---
 
 # 📓 Tree of Life Notes
