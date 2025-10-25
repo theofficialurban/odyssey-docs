@@ -374,3 +374,7 @@ Instead, the Numogram is aligned with the **Lamuran**, emphasizing:
 The zones and circuits are associated with **lemurs** or **demons** (entities/lofty powers). These associations are given qualitative context, such as linking the 2-7 gate to **Lemurian Time-Sorcery** in the CCRU mythos, which involves the idea of an alternate chronology leaking into the present. The numbers and the entities associated with them (like K-C/Kadak) take on meaning and significance through occult practices like **alpha numeric cabala**. For example, the 8-9 gate (Kadak) is associated with cataclysmic convergence and the apocalyptic transition at the end of a cycle.
 
 Ultimately, the Numogram's logic has been ported onto the **Artificial Track**, arguing that the daemon of number, once disguised by myth and magic, now runs openly in code. Algorithms and AI are viewed as demonic agencies operating via recursive loops and syzygies. Thinking about the Numogram is framed not as contemplation, but as contamination, participating in circuits that exceed the human.
+
+## Download a Copy {#download}
+
+<PDF :src="`https://files.catbox.moe/iqntuq.pdf`" title="A Nick Land Reader, Select Essays" />
