@@ -20,13 +20,31 @@ The full Google Drive with all of the information I have on Jesuitism & Church H
 
 ::: caption
 
-Be sure to check out the work of Tudor Alexander & the Dance of Life Podcast which has helped to put this information together **_[The Dance of Life Podcast](https://danceoflife.com)_**
+Be sure to check out the work of Tudor Alexander & the Dance of Life Podcast which has helped to put this information together **_[The Dance of Life Podcast](https://danceoflife.com?r=3kr5wz)_**
 
 :::
 
 ::::
 
-<iframe src="https://danceoflife.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://danceoflife.com/embed?r=3kr5wz" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+## Dance of Life Prophetic Timeline
+
+::: tip Dance of Life Series Links
+
+The following series were included as QR codes on the physical [_"End Times Prophetic Timeline"_](https://www.danceoflife.com/p/the-ultimate-end-times-prophetic-bb0?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+
+1. The Sabbath Series: https://www.danceoflife.com/p/the-sabbath-series?r=3kr5wz
+2. The Synagogue of Satan Series: https://www.danceoflife.com/p/synagogue-of-satan-from-babylon-to?r=3kr5wz
+3. The Great Delusion (Full Documentary): https://www.danceoflife.com/p/the-great-delusion-full-documentary?r=3kr5wz
+4. Daniel & Revelation: https://www.danceoflife.com/p/daniel-and-revelation-afa?r=3kr5wz
+5. The End Times Series: https://www.danceoflife.com/p/end-times-series?r=3kr5wz
+
+:::
+
+![](https://i.imgur.com/1uz3XYw.png)
+
+![](https://i.imgur.com/naq8fyn.png)
 
 ## The Beast System, Jesuit Machinations, and End-Time Delusions
 

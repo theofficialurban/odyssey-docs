@@ -14,6 +14,7 @@ import MinLink from "./components/MinLink.vue";
 import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
 import Gradient from "./components/Gradient.vue";
+import OdysseySubstack from "./components/OdysseySubstack.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -67,6 +68,7 @@ export default {
 
   enhanceApp({ app }) {
     app.component("OdysseyBanner", OdysseyBanner);
+    app.component("Substack", OdysseySubstack);
     app.component("Spotify", SpotifyPlaylists);
     app.component("Banner", Banner);
     app.component("Card", Card);
