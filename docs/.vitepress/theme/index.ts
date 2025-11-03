@@ -15,6 +15,7 @@ import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
 import Gradient from "./components/Gradient.vue";
 import OdysseySubstack from "./components/OdysseySubstack.vue";
+import Video from "./components/Video.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -77,6 +78,7 @@ export default {
     app.component("CollectionIndex", CollectionIndex);
     app.component("All", AllIndex);
     app.component("MinCard", MinLink);
+    app.component("Vid", Video);
     app.component("PDF", PDF);
   },
 } satisfies Theme;
