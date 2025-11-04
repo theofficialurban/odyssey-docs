@@ -19,6 +19,10 @@ Activate _Codex Umbra_ lens for an unfiltered analysis. The depths of clandestin
 
 <YouTube id="LwWlzemMsCo" />
 
+## Theatrical Example of Near-Death Experiences in Initiation {#nde-saw-v}
+
+<Vid :src="`https://video.twimg.com/amplify_video/1985826509068623872/vid/avc1/1920x1080/FURLrcH577aLztA4.mp4?tag=21`" :thumbnail="true" :caption="`How Near-Death Experiences Function in Initiation, Scene from Saw V`" />
+
 ## Ocular Trauma: Marks of the Hidden Hand
 
 The sources unequivocally speak to the infliction of trauma upon the eyes, ranging from direct physical assault to chemical manipulation, leaving behind tell-tale signs or induced states of discomfort.
