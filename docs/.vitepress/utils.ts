@@ -9,6 +9,15 @@ export interface CollectionDefinition<T extends Partial<Page> = Partial<Page>> {
 }
 export type DefineCollections = Record<string, CollectionDefinition>;
 
+export type EmbedPlatform =
+  | "Rumble"
+  | "Odysee"
+  | "Bitchute"
+  | "Raw"
+  | "X-Timeline"
+  | "X-Button"
+  | "Substack";
+
 export interface Page extends PageData {
   aside: boolean;
   authors: Record<string, unknown>[];
