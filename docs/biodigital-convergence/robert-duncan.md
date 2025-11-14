@@ -57,13 +57,13 @@ This extensive guide, "How to Tame a Demon," serves as a practical resource and 
 
 Dr. Robert Duncan holds multiple degrees from Harvard University and Dartmouth College amongst others. He has had the most expensive American education money can buy. He is an investigator, author, and soon be movie producer on the topics of directed energy, neurological weapons, psychological, and information warfare. His movie is called "The Enemy Within - Psychic Warfare". A book he is co-authoring will be out in a few months called "Hacking the Human Mind".
 
-Dr. Duncan has worked as a business and information technology consultant to the Fortune 500. He has worked for companies like Oracle Corporation, BEA systems, HP, BBN, and as a professor at a college. For the department of defense he has written the artificial intelligence code to track the Soviet nuclear submarine fleet with passive and active acoustical arrays and has been to a couple secret NATA Navy underground bases in Europe.
-
 ::: right
 
 <AudioEmbed :src="`https://files.catbox.moe/kic8b3.mp3`" caption="Full Audio Interview /w Dr. Robert Duncan" />
 
 :::
+
+Dr. Duncan has worked as a business and information technology consultant to the Fortune 500. He has worked for companies like Oracle Corporation, BEA systems, HP, BBN, and as a professor at a college. For the department of defense he has written the artificial intelligence code to track the Soviet nuclear submarine fleet with passive and active acoustical arrays and has been to a couple secret NATA Navy underground bases in Europe.
 
 ### Video Version
 
