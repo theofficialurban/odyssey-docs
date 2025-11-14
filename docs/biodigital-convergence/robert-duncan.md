@@ -59,7 +59,7 @@ Dr. Robert Duncan holds multiple degrees from Harvard University and Dartmouth C
 
 ::: right
 
-<AudioEmbed :src="`https://files.catbox.moe/kic8b3.mp3`" caption="Full Audio Interview /w Dr. Robert Duncan" />
+<AudioEmbed :src="`https://files.catbox.moe/1lcbpj.mp3`" caption="Full Audio Interview /w Dr. Robert Duncan" />
 
 :::
 
