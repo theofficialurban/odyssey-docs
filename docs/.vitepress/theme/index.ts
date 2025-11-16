@@ -9,7 +9,8 @@ import Banner from "./components/Banner.vue";
 import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
 import Card from "./components/Card.vue";
 import LinkedArticle from "./components/LinkedArticle.vue";
-
+import { NolebaseInlineLinkPreviewPlugin } from "@nolebase/vitepress-plugin-inline-link-preview";
+import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
 import MinLink from "./components/MinLink.vue";
 import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
@@ -84,5 +85,6 @@ export default {
     app.component("VEmbed", VideoEmbed);
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
+    app.use(NolebaseInlineLinkPreviewPlugin);
   },
 } satisfies Theme;
