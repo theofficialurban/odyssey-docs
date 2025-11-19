@@ -3,8 +3,6 @@ title: Testing
 secret: true
 ---
 
-::: footnote Testing {name="Josh"}
+Let's see if the paragraph thing works [Testing]{style="color: red;"}
 
-This should hopefully work
-
-:::
+[Embed Youtube Test](../mahanism/blood.html){preview="true"}

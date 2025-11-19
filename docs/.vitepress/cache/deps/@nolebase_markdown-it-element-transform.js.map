@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../../node_modules/.pnpm/@nolebase+markdown-it-eleme_c1db57d91c7afc699aa96aa0833e8933/node_modules/@nolebase/markdown-it-element-transform/dist/index.mjs"],
-  "sourcesContent": ["const ElementTransform = (md, options) => {\n  if (!options || !options.transform)\n    throw new Error(\"The `transform` option is required\");\n  md.core.ruler.push(\n    \"token_transform\",\n    (state) => {\n      const transformFunc = options.transform === void 0 ? function() {\n      } : options.transform;\n      state.tokens.forEach((token) => {\n        if (token.children && token.children.length) {\n          token.children.forEach((token2) => {\n            transformFunc(token2, state, state.env);\n          });\n        }\n        transformFunc(token, state, state.env);\n      });\n      return false;\n    }\n  );\n};\n\nexport { ElementTransform };\n"],
-  "mappings": ";;;AAAA,IAAM,mBAAmB,CAAC,IAAI,YAAY;AACxC,MAAI,CAAC,WAAW,CAAC,QAAQ;AACvB,UAAM,IAAI,MAAM,oCAAoC;AACtD,KAAG,KAAK,MAAM;AAAA,IACZ;AAAA,IACA,CAAC,UAAU;AACT,YAAM,gBAAgB,QAAQ,cAAc,SAAS,WAAW;AAAA,MAChE,IAAI,QAAQ;AACZ,YAAM,OAAO,QAAQ,CAAC,UAAU;AAC9B,YAAI,MAAM,YAAY,MAAM,SAAS,QAAQ;AAC3C,gBAAM,SAAS,QAAQ,CAAC,WAAW;AACjC,0BAAc,QAAQ,OAAO,MAAM,GAAG;AAAA,UACxC,CAAC;AAAA,QACH;AACA,sBAAc,OAAO,OAAO,MAAM,GAAG;AAAA,MACvC,CAAC;AACD,aAAO;AAAA,IACT;AAAA,EACF;AACF;",
-  "names": []
-}

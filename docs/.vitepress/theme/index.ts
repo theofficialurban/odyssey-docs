@@ -1,5 +1,5 @@
 import { type Theme } from "vitepress";
-import VPLTheme, { useCollection } from "@lando/vitepress-theme-default-plus";
+import VPLTheme from "@lando/vitepress-theme-default-plus";
 
 import "./global.css";
 
@@ -9,7 +9,12 @@ import Banner from "./components/Banner.vue";
 import SpotifyPlaylists from "./components/SpotifyPlaylists.vue";
 import Card from "./components/Card.vue";
 import LinkedArticle from "./components/LinkedArticle.vue";
-import { NolebaseInlineLinkPreviewPlugin } from "@nolebase/vitepress-plugin-inline-link-preview";
+import {
+  NolebaseInlineLinkPreviewPlugin,
+  PopupIframe,
+  NolebaseInlineLinkPreview,
+  InjectionKey,
+} from "@nolebase/vitepress-plugin-inline-link-preview";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
 import MinLink from "./components/MinLink.vue";
 import PDF from "./components/PDF.vue";
@@ -82,9 +87,23 @@ export default {
     app.component("All", AllIndex);
     app.component("MinCard", MinLink);
     app.component("Vid", Video);
+    app.component("PopupIframe", PopupIframe);
+    app.component("LinkPreview", NolebaseInlineLinkPreview);
     app.component("VEmbed", VideoEmbed);
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
+    app.provide(InjectionKey, {
+      selectorsToBeHided: [
+        ".VPNav",
+        ".VPFooter",
+        ".VPLocalNav",
+        ".VPSidebar",
+        ".VPDocFooter > .prev-next",
+        ".VPLocalNav",
+        ".collection-header",
+      ],
+      popupTeleportTargetSelector: "body",
+    });
     app.use(NolebaseInlineLinkPreviewPlugin);
   },
 } satisfies Theme;

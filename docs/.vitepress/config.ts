@@ -10,7 +10,7 @@ import type { Contributors, DefineCollections } from "./utils";
 
 import markdownit from "markdown-it";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
-
+import mdSpans from "markdown-it-bracketed-spans";
 let md = markdownit();
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -510,16 +510,17 @@ const cfg: UserConfig = {
     ]);
   },
   markdown: {
+    html: true,
     config(md) {},
     preConfig(md) {
-      md.use(InlineLinkPreviewElementTransform);
       md.use(
         BiDirectionalLinks({ dir: cwd() + "\\docs", isRelativePath: true })
       );
+      md.use(mdSpans);
       md.use(
         ElementTransform,
         (() => {
-          let transformNextLinkCloseToken = false;
+          let transformNextLinkCloseToken: string | null = null;
           return {
             transform(token) {
               switch (token.type) {
@@ -530,35 +531,63 @@ const cfg: UserConfig = {
                   // since usually the header anchor is not quite the same as the normal link
                   if (
                     token.attrGet("class") !== "header-anchor" &&
-                    token.attrGet("data-frame") == "true" &&
-                    token.attrGet("href") != null
+                    token.attrGet("youtube-video") != null
                   ) {
                     // Modify the tag of the token
-                    token.tag = "PopupIframe";
-                    // Set the flag to transform the next link_close token
-                    transformNextLinkCloseToken = true;
-                    console.log(token);
+                    token.tag = "YouTube";
+                    token.attrPush(["id", token.attrGet("youtube-video")]);
+
+                    transformNextLinkCloseToken = "YouTube";
                   }
+                  // Frame
+                  if (
+                    token.attrGet("preview") != null &&
+                    token.attrGet("class") !== "header-anchor"
+                  ) {
+                    token.tag = "LinkPreview";
+                    transformNextLinkCloseToken = "LinkPreview";
+                  }
+                  // Audio Embed
+                  if (
+                    token.attrGet("class") !== "header-anchor" &&
+                    token.attrGet("audio-src") != null
+                  ) {
+                    // Modify the tag of the token
+                    token.tag = "AudioEmbed";
+                    token.attrPush(["src", token.attrGet("href")]);
+
+                    transformNextLinkCloseToken = "AudioEmbed";
+                  }
+
                   break;
                 case "link_close":
                   // Transform the token if the flag is set
-                  if (
-                    transformNextLinkCloseToken &&
-                    token.attrGet("href") != null
-                  ) {
+                  if (transformNextLinkCloseToken == "YouTube") {
                     // Modify the tag of the token
-                    token.tag = "PopupIframe";
+                    token.tag = "YouTube";
                     // Reset the flag
-                    transformNextLinkCloseToken = false;
-                    console.log(token);
+                    transformNextLinkCloseToken = null;
+                  }
+                  if (transformNextLinkCloseToken == "LinkPreview") {
+                    // Modify the tag of the token
+                    token.tag = "LinkPreview";
+                    // Reset the flag
+                    transformNextLinkCloseToken = null;
+                  }
+                  if (transformNextLinkCloseToken == "AudioEmbed") {
+                    // Modify the tag of the token
+                    token.tag = "AudioEmbed";
+
+                    transformNextLinkCloseToken = null;
                   }
                   break;
               }
-              //console.log(token);
             },
           };
         })()
       );
+
+      //md.use(InlineLinkPreviewElementTransform);
     },
   },
 };
