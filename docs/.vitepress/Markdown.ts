@@ -100,6 +100,9 @@ const Rules: EditRules = [
         t.tag = "iframe";
         t.attrPush(["src", t.attrGet("href")]);
         t.attrSet("href", "");
+        t.attrSet("target", "");
+        t.attrSet("rel", "");
+        t.attrSet("platform", platform);
         return [
           "iframe",
           (token: Token) => {
@@ -113,7 +116,10 @@ const Rules: EditRules = [
       ) {
         t.tag = "VEmbed";
         t.attrPush(["src", t.attrGet("href")]);
-
+        t.attrSet("href", "");
+        t.attrSet("target", "");
+        t.attrSet("rel", "");
+        t.attrSet("platform", platform);
         return [
           "VEmbed",
           (token: Token) => {
@@ -123,6 +129,12 @@ const Rules: EditRules = [
       }
     },
   ],
+  /**
+   * Gradient Text
+   * [Some Text]{from="#FFFFFF" to="#000000"}
+   * Transforms into
+   * <Gradient fromCol="#FFFFFF" toCol="#000000">Some Text</Gradient>
+   */
   [
     "span_open",
     (t: Token) =>
@@ -133,14 +145,35 @@ const Rules: EditRules = [
       t.tag = "Gradient";
       t.attrPush(["fromCol", t.attrGet("from")]);
       t.attrPush(["toCol", t.attrGet("to")]);
-      //t.attrPush(["weight", t.attrGet("weight") ?? "600"]);
-      //t.attrPush(["size", t.attrGet("size") ?? "1rem"]);
+
       t.attrSet("weight", t.attrGet("weight") ?? "600");
       t.attrSet("size", t.attrGet("size") ?? "1rem");
       return [
         "Gradient",
         (token: Token) => {
           token.tag = "Gradient";
+        },
+      ];
+    },
+  ],
+  [
+    "span_open",
+    (t: Token) =>
+      t.attrGet("pdf") != null && t.attrGet("class") !== "header-anchor",
+    (t: Token, s: StateCore, e) => {
+      console.log(t);
+      t.tag = "PDF";
+      const title = t.content != "" ? t.content : t.attrGet("title");
+      t.attrPush(["src", t.attrGet("pdf")]);
+      if (t.attrGet("title")) {
+        t.attrSet("title", title);
+      } else {
+        t.attrPush(["title", title]);
+      }
+      return [
+        "PDF",
+        (token: Token) => {
+          token.tag = "PDF";
         },
       ];
     },
