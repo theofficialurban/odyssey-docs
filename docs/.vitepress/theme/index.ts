@@ -16,6 +16,7 @@ import {
   InjectionKey,
 } from "@nolebase/vitepress-plugin-inline-link-preview";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
+
 import MinLink from "./components/MinLink.vue";
 import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
@@ -24,6 +25,7 @@ import OdysseySubstack from "./components/OdysseySubstack.vue";
 import Video from "./components/Video.vue";
 import AudioEmbed from "./components/Audio.vue";
 import VideoEmbed from "./components/VideoEmbed.vue";
+import { defaultLinkPreviewOptions } from "../utils";
 
 export type SettingsFrontmatter =
   | {
@@ -92,18 +94,8 @@ export default {
     app.component("VEmbed", VideoEmbed);
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
-    app.provide(InjectionKey, {
-      selectorsToBeHided: [
-        ".VPNav",
-        ".VPFooter",
-        ".VPLocalNav",
-        ".VPSidebar",
-        ".VPDocFooter > .prev-next",
-        ".VPLocalNav",
-        ".collection-header",
-      ],
-      popupTeleportTargetSelector: "body",
-    });
+    app.provide(InjectionKey, defaultLinkPreviewOptions);
+
     app.use(NolebaseInlineLinkPreviewPlugin);
   },
 } satisfies Theme;

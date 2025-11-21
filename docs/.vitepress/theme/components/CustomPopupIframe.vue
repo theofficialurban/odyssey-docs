@@ -1,30 +1,31 @@
 <script setup lang="ts">
-import { inject, ref } from "vue";
+import { ref, inject } from "vue";
 
-import { InjectionKey } from "@nolebase/vitepress-plugin-inline-link-preview/client";
-
-import { attemptWithDelay } from "../../utils";
+import { attemptWithDelay, defaultLinkPreviewOptions } from "../../utils";
+import { InjectionKey } from "@nolebase/vitepress-plugin-inline-link-preview";
 
 const props = defineProps<{
   href: string;
 }>();
 
-const defaultLinkPreviewPopupOptions = {
-  popupWidth: 600,
-  popupHeight: 480,
-  previewLocalHostName: true,
-  selectorsToBeHided: [
-    ".VPNav",
-    ".VPFooter",
-    ".VPLocalNav",
-    ".VPSidebar",
-    ".VPDocFooter > .prev-next",
-    ".VPLocalNav",
-    ".collection-header",
-  ],
-  popupTeleportTargetSelector: "body",
-  popupDelay: 500,
-};
+// const defaultLinkPreviewPopupOptions = {
+//   popupWidth: 600,
+//   popupHeight: 480,
+//   previewLocalHostName: true,
+//   selectorsToBeHided: [
+//     ".VPNav",
+//     ".VPFooter",
+//     ".VPLocalNav",
+//     ".VPSidebar",
+//     ".VPDocFooter > .prev-next",
+//     ".VPLocalNav",
+//     ".collection-header",
+//   ],
+//   popupTeleportTargetSelector: "body",
+//   popupDelay: 500,
+// };
+
+const defaultLinkPreviewPopupOptions = defaultLinkPreviewOptions;
 
 const options = inject(InjectionKey, defaultLinkPreviewPopupOptions);
 

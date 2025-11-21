@@ -4,7 +4,7 @@ import { type UserConfig } from "vitepress";
 import { cwd } from "node:process";
 import Inspect from "vite-plugin-inspect";
 import tailwindcss from "@tailwindcss/vite";
-import { InlineLinkPreviewElementTransform } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
+
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import type { Contributors, DefineCollections } from "./utils";
 
@@ -512,6 +512,7 @@ const cfg: UserConfig = {
   },
   markdown: {
     html: true,
+
     config(md) {},
     preConfig(md) {
       md.use(

@@ -9,6 +9,23 @@ export interface CollectionDefinition<T extends Partial<Page> = Partial<Page>> {
 }
 export type DefineCollections = Record<string, CollectionDefinition>;
 
+export const defaultLinkPreviewOptions = {
+  popupWidth: 600,
+  popupHeight: 480,
+  previewLocalHostName: true,
+  selectorsToBeHided: [
+    ".VPNav",
+    ".VPFooter",
+    ".VPLocalNav",
+    ".VPSidebar",
+    ".VPDocFooter > .prev-next",
+    ".VPLocalNav",
+    ".collection-header",
+  ],
+  popupTeleportTargetSelector: "body",
+  popupDelay: 500,
+};
+
 export type EmbedPlatform =
   | "Rumble"
   | "Odysee"

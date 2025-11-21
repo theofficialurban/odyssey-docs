@@ -39,6 +39,29 @@ export type EditRule = [string, (token: Token) => boolean, RuleFunc];
 
 export type EditRules = EditRule[];
 
+/**
+ * Sets the `href` `target` and `rel` attributes to `""` for the token
+ *
+ * @param {Token} t - The Token to Remove the Attributes From
+ * @param {string[]} removeAttrs - Keys of the Attributes to Remove (Defaults to `href`, `rel` and `target`)
+ * @returns {void}
+ */
+export function removeLinkAttributes(
+  t: Token,
+  removeAttrs: string[] = ["href", "rel", "target"]
+) {
+  let newAttrs: [string, string][] = [];
+  let removeAttributes: Map<string, boolean> = new Map();
+  removeAttrs.forEach((m) => removeAttributes.set(m, true));
+  t.attrs.forEach(([aKey, aVal]) => {
+    if (removeAttributes.has(aKey)) {
+      return;
+    }
+    newAttrs.push([aKey, aVal]);
+  });
+  t.attrs = newAttrs;
+}
+
 const Rules: EditRules = [
   [
     "link_open",
@@ -47,9 +70,9 @@ const Rules: EditRules = [
       t.attrGet("class") !== "header-anchor",
     (t: Token, s: StateCore, e) => {
       t.tag = "YouTube";
-      e.a = "f";
+
       t.attrPush(["id", t.attrGet("youtube-video")]);
-      console.log(t);
+      removeLinkAttributes(t);
       return [
         "YouTube",
         (token: Token) => {
@@ -80,6 +103,7 @@ const Rules: EditRules = [
     (t: Token, s: StateCore, e) => {
       t.tag = "AudioEmbed";
       t.attrPush(["src", t.attrGet("href")]);
+      removeLinkAttributes(t);
       return [
         "AudioEmbed",
         (token: Token) => {
@@ -99,10 +123,9 @@ const Rules: EditRules = [
         // Iframe
         t.tag = "iframe";
         t.attrPush(["src", t.attrGet("href")]);
-        t.attrSet("href", "");
-        t.attrSet("target", "");
-        t.attrSet("rel", "");
+
         t.attrSet("platform", platform);
+        removeLinkAttributes(t);
         return [
           "iframe",
           (token: Token) => {
@@ -116,10 +139,8 @@ const Rules: EditRules = [
       ) {
         t.tag = "VEmbed";
         t.attrPush(["src", t.attrGet("href")]);
-        t.attrSet("href", "");
-        t.attrSet("target", "");
-        t.attrSet("rel", "");
         t.attrSet("platform", platform);
+        removeLinkAttributes(t);
         return [
           "VEmbed",
           (token: Token) => {
@@ -146,8 +167,6 @@ const Rules: EditRules = [
       t.attrPush(["fromCol", t.attrGet("from")]);
       t.attrPush(["toCol", t.attrGet("to")]);
 
-      t.attrSet("weight", t.attrGet("weight") ?? "600");
-      t.attrSet("size", t.attrGet("size") ?? "1rem");
       return [
         "Gradient",
         (token: Token) => {
@@ -157,19 +176,15 @@ const Rules: EditRules = [
     },
   ],
   [
-    "span_open",
+    "link_open",
     (t: Token) =>
       t.attrGet("pdf") != null && t.attrGet("class") !== "header-anchor",
     (t: Token, s: StateCore, e) => {
-      console.log(t);
       t.tag = "PDF";
-      const title = t.content != "" ? t.content : t.attrGet("title");
-      t.attrPush(["src", t.attrGet("pdf")]);
-      if (t.attrGet("title")) {
-        t.attrSet("title", title);
-      } else {
-        t.attrPush(["title", title]);
-      }
+
+      t.attrPush(["src", t.attrGet("href")]);
+
+      removeLinkAttributes(t);
       return [
         "PDF",
         (token: Token) => {
