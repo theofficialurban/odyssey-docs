@@ -9,6 +9,23 @@ export interface CollectionDefinition<T extends Partial<Page> = Partial<Page>> {
 }
 export type DefineCollections = Record<string, CollectionDefinition>;
 
+export const defaultLinkPreviewOptions = {
+  popupWidth: 600,
+  popupHeight: 480,
+  previewLocalHostName: true,
+  selectorsToBeHided: [
+    ".VPNav",
+    ".VPFooter",
+    ".VPLocalNav",
+    ".VPSidebar",
+    ".VPDocFooter > .prev-next",
+    ".VPLocalNav",
+    ".collection-header",
+  ],
+  popupTeleportTargetSelector: "body",
+  popupDelay: 500,
+};
+
 export type EmbedPlatform =
   | "Rumble"
   | "Odysee"
@@ -104,4 +121,48 @@ export interface Contributors {
   debotify?: boolean;
   exclude?: string[] | Partial<Contributor>[];
   include?: string[] | Partial<Contributor>[];
+}
+
+export function attemptWithDelay<T>(
+  maxTryIterate: number,
+  delayMs: number,
+  attempt: () => (T | null) | Promise<T | null>
+): Promise<T | null> {
+  return new Promise<T | null>((resolve, reject) => {
+    let tryIterate = 0;
+
+    function attemptWithDelayInner() {
+      tryIterate++;
+
+      try {
+        const result = attempt();
+
+        if (result instanceof Promise) {
+          result
+            .then((result) => {
+              if (result) resolve(result);
+              else if (tryIterate < maxTryIterate)
+                setTimeout(attemptWithDelayInner, delayMs);
+              else resolve(null);
+            })
+            .catch((e) => {
+              if (tryIterate < maxTryIterate)
+                setTimeout(attemptWithDelayInner, delayMs);
+              else reject(e);
+            });
+        } else {
+          if (result) resolve(result);
+          else if (tryIterate < maxTryIterate)
+            setTimeout(attemptWithDelayInner, delayMs);
+          else resolve(null);
+        }
+      } catch (e) {
+        if (tryIterate < maxTryIterate)
+          setTimeout(attemptWithDelayInner, delayMs);
+        else reject(e);
+      }
+    }
+
+    attemptWithDelayInner();
+  });
 }

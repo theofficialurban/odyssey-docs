@@ -1,5 +1,3 @@
-import "./chunk-PZ5AY32C.js";
-
 // node_modules/.pnpm/@vue+devtools-shared@8.0.2/node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;

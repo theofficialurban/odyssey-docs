@@ -4,13 +4,14 @@ import { type UserConfig } from "vitepress";
 import { cwd } from "node:process";
 import Inspect from "vite-plugin-inspect";
 import tailwindcss from "@tailwindcss/vite";
-import { InlineLinkPreviewElementTransform } from "@nolebase/vitepress-plugin-inline-link-preview/markdown-it";
+
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import type { Contributors, DefineCollections } from "./utils";
 
 import markdownit from "markdown-it";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
-
+import mdSpans from "markdown-it-bracketed-spans";
+import Rules, { CleanupFunction } from "./Markdown";
 let md = markdownit();
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -510,55 +511,44 @@ const cfg: UserConfig = {
     ]);
   },
   markdown: {
+    html: true,
+
     config(md) {},
     preConfig(md) {
-      md.use(InlineLinkPreviewElementTransform);
       md.use(
         BiDirectionalLinks({ dir: cwd() + "\\docs", isRelativePath: true })
       );
+      md.use(mdSpans);
       md.use(
         ElementTransform,
         (() => {
-          let transformNextLinkCloseToken = false;
+          let transformNextLinkCloseToken: CleanupFunction = null;
           return {
-            transform(token) {
-              switch (token.type) {
-                case "link_open":
-                  // You can have some conditions here to skip the transformation
-                  //
-                  // Skip the transformation if the token is a header anchor
-                  // since usually the header anchor is not quite the same as the normal link
-                  if (
-                    token.attrGet("class") !== "header-anchor" &&
-                    token.attrGet("data-frame") == "true" &&
-                    token.attrGet("href") != null
-                  ) {
-                    // Modify the tag of the token
-                    token.tag = "PopupIframe";
-                    // Set the flag to transform the next link_close token
-                    transformNextLinkCloseToken = true;
-                    console.log(token);
-                  }
-                  break;
-                case "link_close":
-                  // Transform the token if the flag is set
-                  if (
-                    transformNextLinkCloseToken &&
-                    token.attrGet("href") != null
-                  ) {
-                    // Modify the tag of the token
-                    token.tag = "PopupIframe";
-                    // Reset the flag
-                    transformNextLinkCloseToken = false;
-                    console.log(token);
-                  }
-                  break;
+            transform(token, state, env) {
+              if (
+                transformNextLinkCloseToken !== null &&
+                token.type.includes("close")
+              ) {
+                // Modify the tag of the token
+                const [name, cleanupFn] = transformNextLinkCloseToken;
+                cleanupFn(token, state, env);
+
+                transformNextLinkCloseToken = null;
               }
-              //console.log(token);
+              Rules.forEach((r) => {
+                const [trigger, ruleTest, ruleFunc] = r;
+                if (token.type == trigger) {
+                  if (ruleTest(token)) {
+                    transformNextLinkCloseToken = ruleFunc(token, state, env);
+                  }
+                }
+              });
             },
           };
         })()
       );
+
+      //md.use(InlineLinkPreviewElementTransform);
     },
   },
 };
