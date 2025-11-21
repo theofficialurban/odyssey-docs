@@ -11,6 +11,7 @@ import type { Contributors, DefineCollections } from "./utils";
 import markdownit from "markdown-it";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import mdSpans from "markdown-it-bracketed-spans";
+import Rules, { CleanupFunction } from "./Markdown";
 let md = markdownit();
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -520,68 +521,27 @@ const cfg: UserConfig = {
       md.use(
         ElementTransform,
         (() => {
-          let transformNextLinkCloseToken: string | null = null;
+          let transformNextLinkCloseToken: CleanupFunction = null;
           return {
-            transform(token) {
-              switch (token.type) {
-                case "link_open":
-                  // You can have some conditions here to skip the transformation
-                  //
-                  // Skip the transformation if the token is a header anchor
-                  // since usually the header anchor is not quite the same as the normal link
-                  if (
-                    token.attrGet("class") !== "header-anchor" &&
-                    token.attrGet("youtube-video") != null
-                  ) {
-                    // Modify the tag of the token
-                    token.tag = "YouTube";
-                    token.attrPush(["id", token.attrGet("youtube-video")]);
+            transform(token, state, env) {
+              if (
+                transformNextLinkCloseToken !== null &&
+                token.type.includes("close")
+              ) {
+                // Modify the tag of the token
+                const [name, cleanupFn] = transformNextLinkCloseToken;
+                cleanupFn(token, state, env);
 
-                    transformNextLinkCloseToken = "YouTube";
-                  }
-                  // Frame
-                  if (
-                    token.attrGet("preview") != null &&
-                    token.attrGet("class") !== "header-anchor"
-                  ) {
-                    token.tag = "LinkPreview";
-                    transformNextLinkCloseToken = "LinkPreview";
-                  }
-                  // Audio Embed
-                  if (
-                    token.attrGet("class") !== "header-anchor" &&
-                    token.attrGet("audio-src") != null
-                  ) {
-                    // Modify the tag of the token
-                    token.tag = "AudioEmbed";
-                    token.attrPush(["src", token.attrGet("href")]);
-
-                    transformNextLinkCloseToken = "AudioEmbed";
-                  }
-
-                  break;
-                case "link_close":
-                  // Transform the token if the flag is set
-                  if (transformNextLinkCloseToken == "YouTube") {
-                    // Modify the tag of the token
-                    token.tag = "YouTube";
-                    // Reset the flag
-                    transformNextLinkCloseToken = null;
-                  }
-                  if (transformNextLinkCloseToken == "LinkPreview") {
-                    // Modify the tag of the token
-                    token.tag = "LinkPreview";
-                    // Reset the flag
-                    transformNextLinkCloseToken = null;
-                  }
-                  if (transformNextLinkCloseToken == "AudioEmbed") {
-                    // Modify the tag of the token
-                    token.tag = "AudioEmbed";
-
-                    transformNextLinkCloseToken = null;
-                  }
-                  break;
+                transformNextLinkCloseToken = null;
               }
+              Rules.forEach((r) => {
+                const [trigger, ruleTest, ruleFunc] = r;
+                if (token.type == trigger) {
+                  if (ruleTest(token)) {
+                    transformNextLinkCloseToken = ruleFunc(token, state, env);
+                  }
+                }
+              });
             },
           };
         })()

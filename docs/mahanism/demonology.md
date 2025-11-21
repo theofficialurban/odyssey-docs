@@ -38,10 +38,7 @@ Demons are fallen angels who, like Lucifer, are liars and prefer to appear in di
 
 Audio: _The Who are You Zone_
 
-<audio volume="30" controls preload="auto" autobuffer >
-<source type="audio/mpeg" src="https://files.catbox.moe/573ide.mp3" />
-
-</audio>
+[The Who Are You Zone](https://files.catbox.moe/573ide.mp3){audio-src="files.catbox.moe/573ide.mp3"}
 
 :::
 
