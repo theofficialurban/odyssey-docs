@@ -26,6 +26,9 @@ importers:
       sass:
         specifier: ^1.92.1
         version: 1.92.1
+      substack-api:
+        specifier: ^1.4.0
+        version: 1.4.0
     devDependencies:
       '@lando/vitepress-theme-default-plus':
         specifier: ^1.1.1
@@ -1268,6 +1271,9 @@ packages:
     resolution: {integrity: sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==}
     engines: {node: '>= 6'}
 
+  fp-ts@2.16.11:
+    resolution: {integrity: sha512-LaI+KaX2NFkfn1ZGHoKCmcfv7yrZsC3b8NtWsTVQeHkq4F27vI5igUuO53sxqDEa2gNQMHFPmpojDw/1zmUK7w==}
+
   fraction.js@4.3.7:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
 
@@ -1394,6 +1400,11 @@ packages:
 
   inherits@2.0.3:
     resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
+
+  io-ts@2.2.22:
+    resolution: {integrity: sha512-FHCCztTkHoV9mdBsHpocLpdTAfh956ZQcIkWQxxS0U5HT53vtrcuYdQneEJKH6xILaLNzXVl2Cvwtoy8XNN0AA==}
+    peerDependencies:
+      fp-ts: ^2.5.0
 
   ip-regex@4.3.0:
     resolution: {integrity: sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q==}
@@ -2021,6 +2032,9 @@ packages:
   strip-indent@3.0.0:
     resolution: {integrity: sha512-laJTa3Jb+VQpaC6DseHhF7dXVqHTfJPCRDaEbid/drOhgitgYku/letMUqOXFoWV0zIIUbjpdH2t+tYj4bQMRQ==}
     engines: {node: '>=8'}
+
+  substack-api@1.4.0:
+    resolution: {integrity: sha512-vaVOtddr1hyq3G28l0T5PosOhYtR2Vw4ZWKtkisAhDP5Ap7ShH11NUCOXGnfeHBjyDiC+3jGlExqoasV5Shcug==}
 
   superjson@2.2.2:
     resolution: {integrity: sha512-5JRxVqC8I8NuOUjzBbvVJAKNM8qoVuH0O77h4WInc/qC2q5IreqKxYwgkga3PfA22OayK2ikceb/B26dztPl+Q==}
@@ -3381,6 +3395,8 @@ snapshots:
       hasown: 2.0.2
       mime-types: 2.1.35
 
+  fp-ts@2.16.11: {}
+
   fraction.js@4.3.7: {}
 
   fs-extra@11.3.2:
@@ -3528,6 +3544,10 @@ snapshots:
   indent-string@4.0.0: {}
 
   inherits@2.0.3: {}
+
+  io-ts@2.2.22(fp-ts@2.16.11):
+    dependencies:
+      fp-ts: 2.16.11
 
   ip-regex@4.3.0: {}
 
@@ -4119,6 +4139,11 @@ snapshots:
   strip-indent@3.0.0:
     dependencies:
       min-indent: 1.0.1
+
+  substack-api@1.4.0:
+    dependencies:
+      fp-ts: 2.16.11
+      io-ts: 2.2.22(fp-ts@2.16.11)
 
   superjson@2.2.2:
     dependencies:
