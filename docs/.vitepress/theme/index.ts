@@ -1,4 +1,4 @@
-import { type Theme } from "vitepress";
+import { loadEnv, type Theme } from "vitepress";
 import VPLTheme from "@lando/vitepress-theme-default-plus";
 
 import "./global.css";
@@ -25,7 +25,8 @@ import OdysseySubstack from "./components/OdysseySubstack.vue";
 import Video from "./components/Video.vue";
 import AudioEmbed from "./components/Audio.vue";
 import VideoEmbed from "./components/VideoEmbed.vue";
-import { defaultLinkPreviewOptions } from "../utils";
+import { defaultLinkPreviewOptions, SubstackSymbol } from "../utils";
+import { data } from "./data/substack.data";
 
 export type SettingsFrontmatter =
   | {
@@ -74,6 +75,7 @@ export type PodcastsSettings = {
   height?: string;
   classes?: { spotify?: string; apple?: string };
 };
+
 export default {
   extends: VPLTheme,
 
@@ -95,6 +97,8 @@ export default {
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
+    console.log(data.posts.size);
+    app.provide(SubstackSymbol, data);
 
     app.use(NolebaseInlineLinkPreviewPlugin);
   },

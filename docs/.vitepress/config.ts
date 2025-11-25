@@ -1,6 +1,6 @@
 import { defineConfig } from "@lando/vitepress-theme-default-plus/config";
 import { withSidebar } from "vitepress-sidebar";
-import { type UserConfig } from "vitepress";
+import { loadEnv, type UserConfig } from "vitepress";
 import { cwd } from "node:process";
 import Inspect from "vite-plugin-inspect";
 import tailwindcss from "@tailwindcss/vite";
@@ -382,13 +382,13 @@ const cfg: UserConfig = {
   },
 
   head: [
-    [
-      "script",
-      {
-        async: "",
-        src: "https://www.googletagmanager.com/gtag/js?id=G-109HDR35M3",
-      },
-    ],
+    // [
+    //   "script",
+    //   {
+    //     async: "",
+    //     src: "https://www.googletagmanager.com/gtag/js?id=G-109HDR35M3",
+    //   },
+    // ],
     [
       "script",
       {},
@@ -397,11 +397,11 @@ const cfg: UserConfig = {
       gtag('js', new Date());
       gtag('config', 'G-109HDR35M3');`,
     ],
-    [
-      "script",
-      { async: "true", src: "https://platform.twitter.com/widgets.js" },
-    ],
-    ["script", { async: "true", src: "https://substack.com/embedjs/embed.js" }],
+    // [
+    //   "script",
+    //   { async: "true", src: "https://platform.twitter.com/widgets.js" },
+    // ],
+
     ["script", { src: "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" }],
 
     ["link", { rel: "icon", href: "/icons/favicon.ico" }],

@@ -43,6 +43,7 @@
     "fs": "0.0.1-security",
     "grey-matter": "^0.0.0",
     "path": "^0.12.7",
-    "sass": "^1.92.1"
+    "sass": "^1.92.1",
+    "substack-api": "^1.4.0"
   }
 }
