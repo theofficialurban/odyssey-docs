@@ -1,4 +1,4 @@
-import { SubstackClient } from "substack-api";
+import { PreviewPost, SubstackClient } from "substack-api";
 import { defineLoader, loadEnv } from "vitepress";
 import { SubstackDataProvider } from "../../utils";
 
@@ -13,11 +13,14 @@ export default defineLoader({
       apiKey: env.SUBSTACK_API,
       hostname: env.SUBSTACK_HOSTNAME,
     });
-
+    //const postsMap: PostsMap = new Map<number, PreviewPost>([]);
+    let postsArray: PreviewPost[] = [];
     const ownProfile = await client.profileForId(216258227);
+    //const adminProfile = await client.ownProfile();
 
     return {
       ownProfile,
+      posts: postsArray,
     };
   },
 });

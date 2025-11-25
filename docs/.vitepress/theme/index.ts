@@ -97,7 +97,7 @@ export default {
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
-
+    console.log(data.posts.size);
     app.provide(SubstackSymbol, data);
 
     app.use(NolebaseInlineLinkPreviewPlugin);

@@ -1,6 +1,6 @@
 import { ComputedRef, InjectionKey } from "vue";
-import { loadEnv, type PageData } from "vitepress";
-import { Profile } from "substack-api";
+import { type PageData } from "vitepress";
+import { PreviewPost, Profile } from "substack-api";
 
 export interface CollectionDefinition<T extends Partial<Page> = Partial<Page>> {
   frontmatter: T;
@@ -10,8 +10,10 @@ export interface CollectionDefinition<T extends Partial<Page> = Partial<Page>> {
 }
 export type DefineCollections = Record<string, CollectionDefinition>;
 
+export type PostsMap = Map<number, PreviewPost>;
 export interface SubstackDataProvider {
   ownProfile: Profile;
+  posts: PreviewPost[];
 }
 
 export const SubstackSymbol: InjectionKey<SubstackDataProvider> =
