@@ -27,6 +27,8 @@ import AudioEmbed from "./components/Audio.vue";
 import VideoEmbed from "./components/VideoEmbed.vue";
 import { defaultLinkPreviewOptions, SubstackSymbol } from "../utils";
 import { data } from "./data/substack.data";
+import ImgurEmbed from "./components/ImgurEmbed.vue";
+import SubstackPost from "./components/SubstackPost.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -96,8 +98,10 @@ export default {
     app.component("VEmbed", VideoEmbed);
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
+    app.component("Imgur", ImgurEmbed);
+    app.component("SubstackEmbed", SubstackPost);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
-    console.log(data.posts.size);
+
     app.provide(SubstackSymbol, data);
 
     app.use(NolebaseInlineLinkPreviewPlugin);

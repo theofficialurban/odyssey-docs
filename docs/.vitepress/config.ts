@@ -1,6 +1,6 @@
 import { defineConfig } from "@lando/vitepress-theme-default-plus/config";
 import { withSidebar } from "vitepress-sidebar";
-import { loadEnv, type UserConfig } from "vitepress";
+import { HeadConfig, loadEnv, type UserConfig } from "vitepress";
 import { cwd } from "node:process";
 import Inspect from "vite-plugin-inspect";
 import tailwindcss from "@tailwindcss/vite";
@@ -309,13 +309,14 @@ const navLinks = [
         items: [
           { text: "YouTube", link: "https://youtube.com/@MastersMahanPodcast" },
           {
+            text: "2nd YouTube",
+            link: "https://youtube.com/@UrbanOdysseyPodcast",
+          },
+          {
             text: "Rumble",
             link: "https://rumble.com/c/MastersMahan",
           },
-          {
-            text: "Bitchute",
-            link: "https://bitchute.com/channel/mastersmahan",
-          },
+
           {
             text: "Odysee",
             link: "https://odysee.com/@UrbanOdyssey:b",
@@ -328,15 +329,46 @@ const navLinks = [
   {
     text: "Donations",
     items: [
-      { text: "CashApp", link: "https://cash.app/jsorb84" },
-      { text: "Venmo", link: "https://venmo.com/officialurban" },
       {
         text: "PayPal",
         link: "https://paypal.me/officialurban?country.x=US&locale.x=en_US",
       },
+      { text: "CashApp", link: "https://cash.app/$urbanodyssey" },
+      { text: "Venmo", link: "https://venmo.com/officialurban" },
     ],
   },
 ];
+
+// <script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+const imgurEmbedScript: HeadConfig = [
+  "script",
+  {
+    src: "//s.imgur.com/min/embed.js",
+    async: "true",
+    charset: "utf-8",
+  },
+];
+//<div class="substack-post-embed"><p lang="en">BlueTruth: A Deep-Dive into The Vaxxed Mac Address Phenomena (Mini-Documentary) by Urban (theofficialurban)</p><p>The evidence clearly indicates the vaxxed have already been chipped. And there's an easy way to prove it.</p><a data-post-link href="https://theofficialurban.substack.com/p/bluetruth-a-deep-dive-into-the-vaxxed">Read on Substack</a></div>
+//<script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
+const substackEmbedScript: HeadConfig = [
+  "script",
+  {
+    src: "https://substack.com/embedjs/embed.js",
+    async: "true",
+    charset: "utf-8",
+  },
+];
+
+// [
+//   "script",
+//   {
+//     async: "",
+//     src: "https://www.googletagmanager.com/gtag/js?id=G-109HDR35M3",
+//   },
+// ],
+
+const customHeaders: HeadConfig[] = [imgurEmbedScript, substackEmbedScript];
 
 const cfg: UserConfig = {
   title: "Urban Odyssey",
@@ -382,13 +414,7 @@ const cfg: UserConfig = {
   },
 
   head: [
-    // [
-    //   "script",
-    //   {
-    //     async: "",
-    //     src: "https://www.googletagmanager.com/gtag/js?id=G-109HDR35M3",
-    //   },
-    // ],
+    ...customHeaders,
     [
       "script",
       {},
@@ -397,10 +423,6 @@ const cfg: UserConfig = {
       gtag('js', new Date());
       gtag('config', 'G-109HDR35M3');`,
     ],
-    // [
-    //   "script",
-    //   { async: "true", src: "https://platform.twitter.com/widgets.js" },
-    // ],
 
     ["script", { src: "https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" }],
 

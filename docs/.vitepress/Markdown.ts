@@ -112,6 +112,40 @@ const Rules: EditRules = [
       ];
     },
   ],
+  // Imgur Embed
+  [
+    "link_open",
+    (t: Token) =>
+      t.attrGet("imgur") != null && t.attrGet("class") !== "header-anchor",
+    (t: Token, s: StateCore, e) => {
+      t.tag = "Imgur";
+      t.attrPush(["src", t.attrGet("href")]);
+      removeLinkAttributes(t);
+      return [
+        "Imgur",
+        (token: Token) => {
+          token.tag = "Imgur";
+        },
+      ];
+    },
+  ],
+  // Substack Embed
+  [
+    "link_open",
+    (t: Token) =>
+      t.attrGet("substack") != null && t.attrGet("class") !== "header-anchor",
+    (t: Token, s: StateCore, e) => {
+      t.tag = "SubstackEmbed";
+      //t.attrPush(["src", t.attrGet("href")]);
+      //removeLinkAttributes(t);
+      return [
+        "SubstackEmbed",
+        (token: Token) => {
+          token.tag = "SubstackEmbed";
+        },
+      ];
+    },
+  ],
   [
     "link_open",
     (t: Token) =>

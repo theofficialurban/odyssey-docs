@@ -28,6 +28,10 @@ This excerpt outlines a comprehensive vision for a **Network State**, a novel f
 
 This guide, "Patterns for Decentralised Organising" by Richard D. Bartlett, offers **practical guidance** derived from his experience with collaborative groups like Loomio and Enspiral that utilize **decentralised organising** principles. The text identifies common, painful challenges faced by teams moving away from traditional management hierarchy, such as dealing with power imbalances and building accountability without a boss. Bartlett outlines eight specific "patterns" or practical responses, like intentionally producing a **counter-culture** to unlearn hierarchical habits and systematically distributing **care labour** to ensure fairness and resilience. Other critical patterns include making **explicit norms and boundaries**, actively discussing power dynamics, agreeing on how to use communication **technology** effectively, and embracing **asynchronous decision-making** to maximize inclusion.
 
+## Original Substack Post
+
+[The Network State](https://theofficialurban.substack.com/p/the-network-state){substack=true}
+
 ## DECENTRALIZED AUTONOMOUS ORGANIZATIONS: A CODEX UMBRA DEEP DIVE
 
 A Decentralized Autonomous Organization (DAO) is a radical organizational form, an entity represented by codified rules embedded in a computer program that is transparent, controlled exclusively by its members, and fundamentally designed to operate free from the influence of any central government or traditional, centralized hierarchy. It is the technical culmination of an effort to diminish transaction costs and agency costs in an open market, replacing concentrated corporate models with distributed, user-owned networks.
