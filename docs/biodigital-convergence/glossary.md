@@ -33,16 +33,16 @@ See Also:
 
 In the ongoing, undeclared war for global technocracy—designated in source intelligence as the "Omniwar"—language is the primary battlespace and terminology is the primary weapon system. This conflict is not fought on conventional battlefields but within the human psyche, and its primary ammunition consists of deliberately deceptive terminology. Official terms such as "pandemic," "vaccine," and "public health" have been repurposed as psychological triggers, planted at moments of traumatic rupture to induce fear, compliance, and menticide—the murder of the mind. This glossary serves as a critical decoding tool, providing definitions and analysis grounded exclusively in the provided source context. Its purpose is to reveal the operational meaning behind the official language used to deceive the public and to advance a premeditated, meticulously orchestrated totalitarian agenda.
 
+## DECODING THE VERNACULAR OF GLOBAL ENSLAVEMENT: THE GLOSSARY OF DECEIT {#soft-language}
+
 ::: warning
 
 Last Updated on `November 28th, 2025` with:
 
-1. [DECODING THE VERNACULAR OF GLOBAL ENSLAVEMENT: THE GLOSSARY OF DECEIT](./#soft-language) (The Following Section)
-2. [THE LEXICON OF CALCULATED DECEIT: INNOCUOUS TERMS AND THEIR COVERT, MALIGNANT CONNOTATIONS](./#lexicon) (The Section After No. 1)
+1. [DECODING THE VERNACULAR OF GLOBAL ENSLAVEMENT: THE GLOSSARY OF DECEIT](#soft-language) (The Following Section)
+2. [THE LEXICON OF CALCULATED DECEIT: INNOCUOUS TERMS AND THEIR COVERT, MALIGNANT CONNOTATIONS](#lexicon) (The Section After No. 1)
 
 :::
-
-## DECODING THE VERNACULAR OF GLOBAL ENSLAVEMENT: THE GLOSSARY OF DECEIT {#soft-language}
 
 The language disseminated by the orchestrators of control is intentionally engineered to generate a semantic split: a public perception of benign governance overlaying an internal, operational reality of systematic subjugation and war. Deception is the **fundamental principle** of this undeclared war. The following lexicon translates common, innocuous terminology into its true, unfiltered meaning as gleaned from the darkest chambers of organizational planning.
 
