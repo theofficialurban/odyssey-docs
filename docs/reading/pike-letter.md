@@ -12,6 +12,10 @@ ogimage: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRCupvXH88oqUJC8Fw
 
 ![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRCupvXH88oqUJC8FwuDtQ84kt5OCIR2GP-bbbYcIM9WE18ubUZrNtlaXNJLkY0XyixWMOv1Zx0SGnp6utxTJFZsEDigWdYcya5LlgTIw)
 
+## _Palmerston's London During the 1800s (+ Mazzini)_ {#mazzini-london}
+
+[Palmerstons London](https://larouchepub.com/eiw/public/1994/eirv21n16-19940415/eirv21n16-19940415_006-palmerstons_london_during_the_18.pdf){pdf=true}
+
 ## The Illuminati Plan for 3 World Wars, August 15, 1871
 
 The following is a letter, that speculation claimed that Albert Pike wrote to Giuseppe Mazzini in1871 regarding a conspiracy involving three world wars, that were planned in an attempt to takeover the world. The Pike letter to Giuseppe Mazzini was on display in the British Museum Library in London until 1977. This letter has been claimed by many internet sites to reside in the British Library in London, which denies the letter exists.
