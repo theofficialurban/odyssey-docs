@@ -74,9 +74,9 @@ defineProps({
   @apply h-full w-full object-cover;
 }
 h1 {
-  font-size: clamp(1rem, 2vw + 1rem, 2.5rem);
+  @apply text-[18px] lg:text-[22px];
 }
 p {
-  font-size: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+  @apply text-[16px];
 }
 </style>
