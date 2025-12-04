@@ -32,6 +32,21 @@ defineProps({
     required: false,
     default: "",
   },
+  showUrl: {
+    type: Boolean,
+    required: false,
+    default: true,
+  },
+  titleSize: {
+    type: String,
+    required: false,
+    default: "18px",
+  },
+  descSize: {
+    type: String,
+    required: false,
+    default: "14px",
+  },
 });
 </script>
 
@@ -41,7 +56,7 @@ defineProps({
     target="_blank"
     rel="noopener noreferrer"
     :class="[
-      'group md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden rounded-lg border border-gray-700 bg-gray-800 shadow-lg',
+      'card group md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden rounded-lg border border-gray-700 bg-gray-800 shadow-lg',
       ' hover:shadow-cyan-500/30 md:max-h-[200px]',
       className,
     ]"
@@ -56,23 +71,33 @@ defineProps({
 
     <div class="p-6 md:col-span-3">
       <slot name="title">
-        <h1
-          class="text-[18px] lg:text-[22px] mb-2 font-bold text-gray-100 group-hover:text-cyan-400"
-        >
+        <h1 class="mb-2 font-bold text-gray-100 group-hover:text-cyan-400">
           {{ title }}
         </h1>
       </slot>
 
-      <p v-if="description" class="text-gray-400 text-[16px]">
+      <p v-if="description" class="text-gray-400">
         {{ description }}
       </p>
-      <sub class="font-mono">{{ href }}</sub>
+      <sub v-if="showUrl === true" class="font-mono">{{ href }}</sub>
     </div>
   </a>
 </template>
 
 <style>
-.cardImg {
-  @apply h-full w-full object-cover;
+@reference "tailwindcss";
+
+.card {
+  .cardImg {
+    @apply h-full w-full object-cover;
+  }
+  h1 {
+    font-size: v-bind(titleSize);
+    @apply leading-6;
+  }
+  p {
+    font-size: v-bind(descSize);
+    @apply leading-5;
+  }
 }
 </style>

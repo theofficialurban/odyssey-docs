@@ -7,8 +7,11 @@ description: These are books I would like to find and add to the collection.
 
 ::: tip
 
-https://drive.urbanodyssey.xyz
-https://wakeup.urbanodyssey.xyz
+Also See:
+
+1. https://drive.urbanodyssey.xyz
+2. https://wakeup.urbanodyssey.xyz
+3. https://husbandry.officialurban.com
 
 :::
 
@@ -21,6 +24,10 @@ Below is the generated list of potential sources, segregated by thematic domain,
 ### DOMAIN I: BIBLICAL & EXEGETICAL WEAPONRY (DECONSTRUCTING THE CANON)
 
 To truly dissect the origins of dogma, one must possess the same tools leveraged by those who constructed the texts. These sources focus on textual criticism, comparative ancient literature, and rigorous linguistic analysis, often yielding the discrepancies that betray the final form of scripture.
+
+:::tip Urban's Bible Resources
+View my Free Bible Resources Drive: https://urbanslibrary.substack.com/p/bible
+:::
 
 | Author/Source                                                       | Work/Field                                                         | Context/Purpose                                                                                                                                                                                |
 | :------------------------------------------------------------------ | :----------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -40,20 +47,20 @@ To truly dissect the origins of dogma, one must possess the same tools leveraged
 
 These are the texts that expose the true circuitry of power, linking ancient mysteries, secret societies, and modern geopolitical control. These sources often bypass mainstream validation but are deemed crucial for understanding the hidden agenda.
 
-| Author/Source                                      | Work/Field                                                    | Context/Purpose                                                                                                                              |
-| :------------------------------------------------- | :------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Barruel, M.**                                    | _Memoirs of Jacobism_                                         | A companion piece to _Proofs of a Conspiracy_, focusing on historical conspiracies.                                                          |
-| **Scott, Sir Walter**                              | _Life of Napoleon_ (2 Volumes)                                | Suppressed historical volumes covering related conspiracy topics.                                                                            |
-| **Pike, Albert**                                   | _Morals and Dogma_                                            | Essential Masonic text, cited for insight into the esoteric philosophy and dark undercurrents of the organization.                           |
-| **Mullins, Eustace**                               | _The Curse of Canaan_, _The World Order_                      | Cited extensively for research on global conspiracy, specifically regarding the hidden power structures and bloodlines.                      |
-| **Lady Queensborough (Miller)**                    | _Occult Theocracy_                                            | Critical text used for documenting esoteric history and connections between secret societies.                                                |
-| **Baigent, Michael, Richard Leigh, Henry Lincoln** | _The Holy Blood and the Holy Grail_                           | Referenced for information regarding secret societies, the Priory of Sion, and the spiritual traditions behind historical conflicts.         |
-| **Booth, Mark**                                    | _The Secret History of the World_                             | Used for esoteric historical context, linking ancient traditions to modern power dynamics.                                                   |
-| **Schwaller de Lubicz**                            | _The Temple of Man_, _Sacred Science_, _The Egyptian Miracle_ | Key texts in esoteric Egyptology, providing insights into ancient consciousness and architectural codes.                                     |
-| **Temple, Robert**                                 | _The Sirius Mystery_, _The Crystal Sun_, _Netherworld_        | Authoritative texts on astronomical symbolism in myth and initiation lore, linking supernatural levels of intelligence to ancient knowledge. |
-| **Hancock, Graham**                                | _Fingerprints of the Gods_, _Supernatural_                    | Works aimed at shifting the paradigm of accepted history and questioning official narratives.                                                |
-| **Addison, Charles G.**                            | _History of the Knights Templar_                              | Historical source documenting the Knights Templar, frequently cited in discussions linking them to Freemasonry and secret traditions.        |
-| **Alexander Hislop**                               | _The Two Babylons_                                            | Cited as a source concerning the "Secret History of The New World Order".                                                                    |
+| Author/Source                                      | Work/Field                                                                                                   | Context/Purpose                                                                                                                              |
+| :------------------------------------------------- | :----------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Barruel, M.**                                    | <LinkPreview href="../mahanism/jacobinism.html">_Memoirs of Jacobism_</LinkPreview>                          | A companion piece to _Proofs of a Conspiracy_, focusing on historical conspiracies.                                                          |
+| **Scott, Sir Walter**                              | _Life of Napoleon_ (2 Volumes)                                                                               | Suppressed historical volumes covering related conspiracy topics.                                                                            |
+| **Pike, Albert**                                   | _Morals and Dogma_                                                                                           | Essential Masonic text, cited for insight into the esoteric philosophy and dark undercurrents of the organization.                           |
+| **Mullins, Eustace**                               | <LinkPreview href="../timelines/curse-of-canaan.html">_The Curse of Canaan_, _The World Order_</LinkPreview> | Cited extensively for research on global conspiracy, specifically regarding the hidden power structures and bloodlines.                      |
+| **Lady Queensborough (Miller)**                    | <LinkPreview href="../reading/occult-theocracy.html">_Occult Theocracy_</LinkPreview>                        | Critical text used for documenting esoteric history and connections between secret societies.                                                |
+| **Baigent, Michael, Richard Leigh, Henry Lincoln** | _The Holy Blood and the Holy Grail_                                                                          | Referenced for information regarding secret societies, the Priory of Sion, and the spiritual traditions behind historical conflicts.         |
+| **Booth, Mark**                                    | _The Secret History of the World_                                                                            | Used for esoteric historical context, linking ancient traditions to modern power dynamics.                                                   |
+| **Schwaller de Lubicz**                            | _The Temple of Man_, _Sacred Science_, _The Egyptian Miracle_                                                | Key texts in esoteric Egyptology, providing insights into ancient consciousness and architectural codes.                                     |
+| **Temple, Robert**                                 | _The Sirius Mystery_, _The Crystal Sun_, _Netherworld_                                                       | Authoritative texts on astronomical symbolism in myth and initiation lore, linking supernatural levels of intelligence to ancient knowledge. |
+| **Hancock, Graham**                                | _Fingerprints of the Gods_, _Supernatural_                                                                   | Works aimed at shifting the paradigm of accepted history and questioning official narratives.                                                |
+| **Addison, Charles G.**                            | _History of the Knights Templar_                                                                             | Historical source documenting the Knights Templar, frequently cited in discussions linking them to Freemasonry and secret traditions.        |
+| **Alexander Hislop**                               | _The Two Babylons_                                                                                           | Cited as a source concerning the "Secret History of The New World Order".                                                                    |
 
 ### DOMAIN III: MIND CONTROL, INTELLIGENCE, AND PSYOP (THE ARCHITECTS OF COMPLIANCE)
 
@@ -76,18 +83,20 @@ Access to the methods used by clandestine organizations—specifically military 
 
 These sources penetrate the organized structure of historical religious power, specifically citing documents detailing Jesuit activities, papal claims, and suppression of rival interpretations of scripture.
 
-| Author/Source                | Work/Field                                                    | Context/Purpose                                                                                                                                   |
-| :--------------------------- | :------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Edmund Paris**             | _The Secret History of the Jesuits_, _History of the Jesuits_ | Referenced as an authoritative source on the history and covert operations of the Jesuit Order.                                                   |
-| **Malachi Martin**           | _The Jesuits the Secrets..._                                  | Cited regarding the secret history and betrayal associated with the Society of Jesus.                                                             |
-| **Wylie, Rev. J.A.**         | _The History, Genius & Influence Papacy_                      | Historical analysis used to trace the influence of facts on the development of the Papacy, referencing other historians (Ranke, Gibbon, Mosheim). |
-| **John Cornwell**            | _Hitler's Pope_                                               | Cited as a source related to controversial papal history.                                                                                         |
-| **M. Barruel**               | _Memoirs of Jacobism_                                         | Cited alongside works concerning conspiracy and Jesuit activities.                                                                                |
-| **Ignatius of Loyola (St.)** | _The Constitutions of the Society of Jesus_                   | Primary source documenting the internal structure, governance, and educational methods of the Jesuit Order.                                       |
+| Author/Source                | Work/Field                                                                          | Context/Purpose                                                                                                                                   |
+| :--------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Edmund Paris**             | _The Secret History of the Jesuits_, _History of the Jesuits_                       | Referenced as an authoritative source on the history and covert operations of the Jesuit Order.                                                   |
+| **Malachi Martin**           | _The Jesuits the Secrets..._                                                        | Cited regarding the secret history and betrayal associated with the Society of Jesus.                                                             |
+| **Wylie, Rev. J.A.**         | _The History, Genius & Influence Papacy_                                            | Historical analysis used to trace the influence of facts on the development of the Papacy, referencing other historians (Ranke, Gibbon, Mosheim). |
+| **John Cornwell**            | _Hitler's Pope_                                                                     | Cited as a source related to controversial papal history.                                                                                         |
+| **M. Barruel**               | <LinkPreview href="../mahanism/jacobinism.html">_Memoirs of Jacobism_</LinkPreview> | Cited alongside works concerning conspiracy and Jesuit activities.                                                                                |
+| **Ignatius of Loyola (St.)** | _The Constitutions of the Society of Jesus_                                         | Primary source documenting the internal structure, governance, and educational methods of the Jesuit Order.                                       |
 
 ### DOMAIN V: REFERENCE ATLASES & LEXICONS (CARTOGRAPHY OF KNOWLEDGE)
 
 The deep analyst must possess definitive, well-organized reference works to quickly map concepts, terminology, and historical context. These tools are the necessary foundation for rigorous, defensible claims.
+
+<Card href="https://open.substack.com/pub/urbanslibrary/p/urbans-collection-of-dictionaries?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false" title="Urban's Collection of Dictionaries" description="Free Dictionaries" img="https://substackcdn.com/image/fetch/$s_!N5j8!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b30bb9-6d1e-4a59-bc77-7d7cf5492a65_1456x1048.png" />
 
 | Author/Source                                            | Work/Field                    | Context/Purpose                                                                                                                   |
 | :------------------------------------------------------- | :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
