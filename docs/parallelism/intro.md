@@ -47,6 +47,10 @@ This academic analysis, attributed to Anatoly Fomenko, undertakes a **thorough 
 
 This text introduces a radical critique of established historical timelines, proposing a new methodology based on **empirico-statistical methods** and astronomical data to verify ancient events. The core finding is the **Global Chronological Diagram (GCD)**, which the author contends is formed by four parallel and essentially identical historical chronicles that repeat the same events across different time periods. This chronological layering is attributed to **three basic chronological shifts**, which, when statistically corrected, suggest that much of what is considered ancient history is simply displaced, duplicated material from later centuries. Ultimately, the work challenges the traditional chronology established by figures like Scaliger and Petavius, asserting that **reliable historical knowledge** only begins much later, specifically around the 10th century A.D.
 
+## Download
+
+[Archive Set](https://archive.org/embed/history-fiction-or-science-2003-2015-22-books-in-1-fomenko-anatoly){platform="Raw" width="560" height="384"}
+
 ## **New Chronology**
 
 ![](https://i.imgur.com/YazCWFs.png)

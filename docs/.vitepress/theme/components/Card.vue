@@ -4,7 +4,7 @@ import { useData } from "vitepress";
 // This script block defines the properties (props) that our component will accept.
 // This allows us to pass unique data for each card we create.
 const { theme } = useData();
-const baseUrl = theme.value.baseURL ?? "#";
+//const baseUrl = theme.value.baseURL ?? "#";
 defineProps({
   // The URL the card should link to. This is required.
   href: {
@@ -66,7 +66,7 @@ defineProps({
       <p v-if="description" class="text-base text-gray-400">
         {{ description }}
       </p>
-      <sub class="font-mono">{{ baseUrl + href }}</sub>
+      <sub class="font-mono">{{ href }}</sub>
     </div>
   </a>
 </template>
