@@ -56,12 +56,14 @@ defineProps({
 
     <div class="p-6 md:col-span-3">
       <slot name="title">
-        <h1 class="mb-2 font-bold text-gray-100 group-hover:text-cyan-400">
+        <h1
+          class="text-[18px] lg:text-[22px] mb-2 font-bold text-gray-100 group-hover:text-cyan-400"
+        >
           {{ title }}
         </h1>
       </slot>
 
-      <p v-if="description" class="text-gray-400">
+      <p v-if="description" class="text-gray-400 text-[16px]">
         {{ description }}
       </p>
       <sub class="font-mono">{{ href }}</sub>
@@ -69,14 +71,8 @@ defineProps({
   </a>
 </template>
 
-<style scoped>
+<style>
 .cardImg {
   @apply h-full w-full object-cover;
-}
-h1 {
-  @apply text-[18px] lg:text-[22px];
-}
-p {
-  @apply text-[16px];
 }
 </style>

@@ -29,8 +29,10 @@ John Robison's polemical work serves as an extensive and alarmist exposé, argui
 ### Jacobite Conspiracy
 
 :::card Memoirs Illustrating the History of Jacobinism
+
 ![](https://upload.wikimedia.org/wikipedia/commons/1/13/Memoirs_Illustrating_the_History_of_Jacobinism.jpg)
-[](https://en.wikipedia.org/wiki/Memoirs_Illustrating_the_History_of_Jacobinism)
+[Wikipedia Article](https://en.wikipedia.org/wiki/Memoirs_Illustrating_the_History_of_Jacobinism)
+
 :::
 
 The source is a polemical treatise asserting that the catastrophic French Revolution was the deliberate result of a massive, coordinated **Antichristian Conspiracy** rather than an organic, undirected disaster. The author aims to expose the "plots and means" of the Sophisters, identifying **Voltaire, D'Alembert, and Diderot** as the ringleaders who shared the secret watchword to **"crush the wretch"** (a derogatory reference to Christ). Their central strategy involved both political intrigue—manipulating European courts to dismantle religious orders like the Jesuits—and subtle intellectual subversion, using works like the *Encyclopédie* to spread dangerous doctrines such as **Atheism and Fatalism** in an effort to undermine the foundation of all religious and civil society.
