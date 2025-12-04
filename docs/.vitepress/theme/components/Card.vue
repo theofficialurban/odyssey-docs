@@ -57,13 +57,13 @@ defineProps({
     <div class="p-6 md:col-span-3">
       <slot name="title">
         <h1
-          class="mb-2 text-lg font-bold text-gray-100 group-hover:text-cyan-400"
+          class="mb-2 text-fluid-base font-bold text-gray-100 group-hover:text-cyan-400"
         >
           {{ title }}
         </h1>
       </slot>
 
-      <p v-if="description" class="text-base text-gray-400">
+      <p v-if="description" class="text-fluid-sm text-gray-400">
         {{ description }}
       </p>
       <sub class="font-mono">{{ href }}</sub>
