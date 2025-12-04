@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@config "../../tailwind.config.js";
+
+@theme {
+  --text-fluid-sm: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+  --text-fluid-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+}
+
 @font-face {
   font-family: "Hey August";
   font-style: normal;
