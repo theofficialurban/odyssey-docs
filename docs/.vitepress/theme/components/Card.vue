@@ -35,7 +35,7 @@ defineProps({
   showUrl: {
     type: Boolean,
     required: false,
-    default: true,
+    default: false,
   },
   titleSize: {
     type: String,
@@ -92,12 +92,16 @@ defineProps({
     @apply h-full w-full object-cover;
   }
   h1 {
-    font-size: v-bind(titleSize);
-    @apply leading-6;
+    @apply leading-6 max-md:text-sm;
+    @media (width >= 48rem) {
+      font-size: v-bind(titleSize);
+    }
   }
   p {
-    font-size: v-bind(descSize);
-    @apply leading-5;
+    @apply leading-5 max-md:text-sm;
+    @media (width >= 48rem) {
+      font-size: v-bind(descSize);
+    }
   }
 }
 </style>

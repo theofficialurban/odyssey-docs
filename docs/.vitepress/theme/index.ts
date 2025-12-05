@@ -29,6 +29,7 @@ import { defaultLinkPreviewOptions, SubstackSymbol } from "../utils";
 import { data } from "./data/substack.data";
 import ImgurEmbed from "./components/ImgurEmbed.vue";
 import SubstackPost from "./components/SubstackPost.vue";
+import CardGrid from "./components/CardGrid.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -98,6 +99,7 @@ export default {
     app.component("VEmbed", VideoEmbed);
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
+    app.component("Grid", CardGrid);
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
