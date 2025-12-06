@@ -552,9 +552,11 @@ const cfg: UserConfig = {
 
     config(md) {},
     preConfig(md) {
-      md.use(
-        BiDirectionalLinks({ dir: cwd() + "\\docs", isRelativePath: true })
-      );
+      // md.use(
+      //   BiDirectionalLinks({ dir: cwd() + "\\docs", isRelativePath: true })
+      // );
+
+      //md.use<LinkToCardPluginOptions>(linkToCardPlugin, {});
       md.use(mdSpans);
       md.use(
         ElementTransform,

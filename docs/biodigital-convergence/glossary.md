@@ -17,13 +17,12 @@ See Also:
 1. https://theofficialurban.substack.com/p/biodigital-convergence
 2. https://gangstalkingmindcontrolcults.com/
 3. https://plasmaenergysolution.com/?p=15843
-4. [Urban's Drive](https://mega.nz/folder/x68QRTZI#hwx2rUetmChFmt5OGSIqdg)
-5. [pCloud Drive](https://u.pcloud.link/publink/show?code=kZN2sn5ZMm1Bu1JmajuY1NymqdSBdVB9eDgX)
-6. [Devils Dictionary Infographics](https://imgur.com/a/devils-dictionary-by-anab-whitehouse-rvm3d2i)
+4. [pCloud Drive](https://u.pcloud.link/publink/show?code=kZN2sn5ZMm1Bu1JmajuY1NymqdSBdVB9eDgX)
+5. [Devils Dictionary Infographics](https://imgur.com/a/devils-dictionary-by-anab-whitehouse-rvm3d2i)
+6. [Robert Duncan Imgur](https://imgur.com/a/matrix-control-systems-gCpKo7X)
 7. [Rumble Starter Playlist](https://rumble.com/playlists/S7g42O_JBUM)
-8. [Juxtaposition1 on Rumble](https://rumble.com/user/Juxtaposition1?e9s=src_v1_cbl)
-9. [Juxtaposition1 on Substack](https://juxtaposition1.substack.com/)
-10. https://rense.com/general97/electronic-warfare-and-civilian-targeting-program.php
+8. [Juxtaposition1 on Substack](https://juxtaposition1.substack.com/)
+9. https://rense.com/general97/electronic-warfare-and-civilian-targeting-program.php
 
 :::
 
