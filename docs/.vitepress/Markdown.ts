@@ -4,6 +4,7 @@ import { TokenMeta } from "markdown-it/lib/rules_inline/state_inline.mjs";
 import { Options } from "markdown-it";
 import Renderer from "markdown-it/lib/renderer.mjs";
 import StateCore from "markdown-it/lib/rules_core/state_core.mjs";
+import Container from "markdown-it-container";
 
 // On Link Open - If Func Return True - Do This
 //["link_open", () => true, ]
@@ -63,6 +64,50 @@ export function removeLinkAttributes(
 }
 
 const Rules: EditRules = [
+  // [
+  //   "fence",
+  //   (t: Token) => t.attrGet("class") !== "header-anchor" && t.info == "embed",
+  //   (t: Token, s: StateCore, e) => {
+  //     //const sContent = t.content.replace(": ", "=");
+  //     let propMap = new Map<string, string>();
+  //     const ssContent = t.content.split(/\r?\n/);
+  //     const finalContent = ssContent.forEach((c) => {
+  //       const exp = c.split(`: `);
+  //       if (exp[0] && exp[1]) {
+  //         const [key, val] = exp;
+  //         const fixVal = val.slice(1, -1);
+  //         if (key == "image") {
+  //           propMap.set("img", fixVal);
+  //           return;
+  //         } else if (key == "url") {
+  //           propMap.set("href", fixVal);
+  //           return;
+  //         } else if (key == "favicon" || key == "aspectRatio") {
+  //           return;
+  //         }
+  //         propMap.set(key, fixVal);
+  //       }
+  //     });
+  //     t.tag = "Card";
+  //     t.content = "";
+  //     propMap.forEach((v, k) => {
+  //       if (t.attrGet(k)) {
+  //         t.attrSet(k, v);
+  //       } else {
+  //         t.attrPush([k, v]);
+  //       }
+  //     });
+  //     t.type = "link_open";
+  //     t.level = 1;
+  //     console.log(t);
+  //     return [
+  //       "Card",
+  //       (token: Token) => {
+  //         token.tag = "Card";
+  //       },
+  //     ];
+  //   },
+  // ],
   [
     "link_open",
     (t: Token) =>

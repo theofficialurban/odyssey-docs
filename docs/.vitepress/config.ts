@@ -7,11 +7,12 @@ import tailwindcss from "@tailwindcss/vite";
 
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import type { Contributors, DefineCollections } from "./utils";
-
+// import Container from "markdown-it-container";
 import markdownit from "markdown-it";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import mdSpans from "markdown-it-bracketed-spans";
 import Rules, { CleanupFunction } from "./Markdown";
+import { Token } from "markdown-it/index.js";
 let md = markdownit();
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -555,7 +556,47 @@ const cfg: UserConfig = {
       // md.use(
       //   BiDirectionalLinks({ dir: cwd() + "\\docs", isRelativePath: true })
       // );
+      // md.use(Container, "embed", {
+      //   render: function (tokens: Token[], idx: number) {
+      //     const token = tokens[idx];
+      //     console.log(token);
+      //     if (token.nesting === 1) {
+      //       let propMap = new Map<string, string>();
+      //       const ssContent = token.content.split(/\r?\n/);
+      //       const finalContent = ssContent.forEach((c) => {
+      //         const exp = c.split(`: `);
+      //         if (exp[0] && exp[1]) {
+      //           const [key, val] = exp;
+      //           const fixVal = val.slice(1, -1);
+      //           if (key == "image") {
+      //             propMap.set("img", fixVal);
+      //             return;
+      //           } else if (key == "url") {
+      //             propMap.set("href", fixVal);
+      //             return;
+      //           } else if (key == "favicon" || key == "aspectRatio") {
+      //             return;
+      //           }
+      //           propMap.set(key, fixVal);
 
+      //         }
+      //       });
+      //       let propsString = "";
+      //       propMap.forEach((v, k) => {
+      //         if (token.attrGet(k)) {
+      //           token.attrSet(k, v);
+      //         } else {
+      //           token.attrPush([k, v]);
+      //         }
+      //         propsString += `${k}="${v}" `;
+      //       });
+      //       token.tag = "Card"
+      //       return `<Card class="custom-container embed" ${propsString}>\n`;
+      //     } else {
+      //       return `</Card>\n`;
+      //     }
+      //   },
+      // });
       //md.use<LinkToCardPluginOptions>(linkToCardPlugin, {});
       md.use(mdSpans);
       md.use(

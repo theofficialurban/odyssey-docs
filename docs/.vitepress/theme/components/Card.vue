@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { useData } from "vitepress";
+import { useSlots } from "vue";
 
 // This script block defines the properties (props) that our component will accept.
 // This allows us to pass unique data for each card we create.
 const { theme } = useData();
+
 //const baseUrl = theme.value.baseURL ?? "#";
 defineProps({
   // The URL the card should link to. This is required.
@@ -68,7 +70,7 @@ defineProps({
         class="cardImg"
       />
     </div>
-
+    <div class="hidden"><slot></slot></div>
     <div class="p-6 md:col-span-3">
       <slot name="title">
         <h1 class="mb-2 font-bold text-gray-100 group-hover:text-cyan-400">
