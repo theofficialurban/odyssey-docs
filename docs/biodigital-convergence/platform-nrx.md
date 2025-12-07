@@ -10,7 +10,7 @@ ogimage: https://i.imgur.com/pfv1tNi.jpeg
 
 ![](https://i.imgur.com/pfv1tNi.jpeg)
 
-<CardPreset preset="odyssey" />
+<Preset preset="odyssey" />
 
 <!-- <Card title="Urban Odyssey | Urban (theofficialurban) | Substack" img="https://substackcdn.com/image/fetch/$s_!CG4e!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftheofficialurban.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1679742482%26version%3D9" description="A deep dive into politics, esoterica, occult, and conspiracy. Guest writers are always welcome, just send me an e-mail. Anything goes, we can't promise any specific subject or area, but we can promise a bit of everything. Click to read Urban Odyssey, a Substack publication with tens of thousands of subscribers." href="https://theofficialurban.substack.com" /> -->
 
