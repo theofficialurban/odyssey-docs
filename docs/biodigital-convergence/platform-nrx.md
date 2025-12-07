@@ -10,7 +10,9 @@ ogimage: https://i.imgur.com/pfv1tNi.jpeg
 
 ![](https://i.imgur.com/pfv1tNi.jpeg)
 
-<Card title="Urban Odyssey | Urban (theofficialurban) | Substack" img="https://substackcdn.com/image/fetch/$s_!CG4e!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftheofficialurban.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1679742482%26version%3D9" description="A deep dive into politics, esoterica, occult, and conspiracy. Guest writers are always welcome, just send me an e-mail. Anything goes, we can't promise any specific subject or area, but we can promise a bit of everything. Click to read Urban Odyssey, a Substack publication with tens of thousands of subscribers." href="https://theofficialurban.substack.com" />
+<CardPreset preset="odyssey" />
+
+<!-- <Card title="Urban Odyssey | Urban (theofficialurban) | Substack" img="https://substackcdn.com/image/fetch/$s_!CG4e!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Ftheofficialurban.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-1679742482%26version%3D9" description="A deep dive into politics, esoterica, occult, and conspiracy. Guest writers are always welcome, just send me an e-mail. Anything goes, we can't promise any specific subject or area, but we can promise a bit of everything. Click to read Urban Odyssey, a Substack publication with tens of thousands of subscribers." href="https://theofficialurban.substack.com" /> -->
 
 ## Overview & Sources Guide
 
@@ -83,9 +85,11 @@ Coined by Balaji Srinivasan, network states are digital-first communities crowdf
 
 #### **Urban's Links**
 
+<Grid>
 <Card title="The Network State & An Introduction to Decentralized Autonomous Organizations (DAOs)" img="https://substackcdn.com/image/fetch/$s_!17iW!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F177211302%2F6048dacb-7bf8-487f-a90e-11240d44c9ff%2Ftranscoded-1761513627.png" description="A network state is a digital-first community that forms a social network, organizes an economy, crowdfunds physical territory across the globe, and ultimately seeks diplomatic recognition." href="https://theofficialurban.substack.com/p/the-network-state" />
 
 <Card title="Decentralized Autonomous Organizations | Urban Odyssey Database" img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBS67jGKRVmIttVIPC1OjiNNOcb4-k30tFA&s" description="This will be a page for all of my information on Decentralized Autonomous Organizations" href="https://docs.urbanodyssey.xyz/biodigital-convergence/dao.html" />
+</Grid>
 
 ### 6. The “Dark Enlightenment” and Crazy Neoreactionary Thinking That Thiel, Musk, and Others Appear to Endorse
 
@@ -136,9 +140,13 @@ Resistance strategies include legislative bans, privacy tech (e.g., zero-knowled
 
 #### **Suggested Reading by [Rachel Sunshine](https://www.facebook.com/TheRachelSunshine)** {#resist}
 
+<Grid>
+
 <Card title="International Premiere: The Voluntaryist's Trusty Guide to 21st Century Activism" img="https://substackcdn.com/image/fetch/$s_!u6DE!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F958da1ea-f1c9-4a2e-af90-81ec1fadf6d6_991x1400.jpeg" description="The complete source on how to move from Constitutionalism to Anarchy" href="https://open.substack.com/pub/theofficialurban/p/international-premiere-the-voluntaryists?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false" />
 
 <Card title="How Medical Tyranny Murdered The United States Constitution" img="https://substackcdn.com/image/fetch/$s_!uH5L!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa605803e-4d68-4541-8fb9-20e065501dc6_1176x851.jpeg" description="A NotebookLM overview / summary for Maiden Anarchy (Rachel Sunshine)'s 'How Medical Tyranny Murdered The United States Constitution' E-Book Dissertation" href="https://open.substack.com/pub/theofficialurban/p/how-medical-tyranny-murdered-the?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false" />
+
+</Grid>
 
 ## Images & Files {#downloads}
 

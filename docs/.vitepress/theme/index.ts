@@ -30,6 +30,7 @@ import { data } from "./data/substack.data";
 import ImgurEmbed from "./components/ImgurEmbed.vue";
 import SubstackPost from "./components/SubstackPost.vue";
 import CardGrid from "./components/CardGrid.vue";
+import CardPreset from "./components/CardPreset.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -88,6 +89,7 @@ export default {
     app.component("Spotify", SpotifyPlaylists);
     app.component("Banner", Banner);
     app.component("Card", Card);
+    app.component("Preset", CardPreset);
     app.component("Gradient", Gradient);
     app.component("Article", LinkedArticle);
     app.component("CollectionIndex", CollectionIndex);
