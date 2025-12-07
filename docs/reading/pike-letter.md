@@ -14,7 +14,9 @@ ogimage: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRCupvXH88oqUJC8Fw
 
 ## _Palmerston's London During the 1800s (+ Mazzini)_ {#mazzini-london}
 
-[Palmerstons London](https://larouchepub.com/eiw/public/1994/eirv21n16-19940415/eirv21n16-19940415_006-palmerstons_london_during_the_18.pdf){pdf=true}
+:::tip
+https://larouchepub.com/eiw/public/1994/eirv21n16-19940415/eirv21n16-19940415_006-palmerstons_london_during_the_18.pdf
+:::
 
 ## The Illuminati Plan for 3 World Wars, August 15, 1871
 
