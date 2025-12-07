@@ -27,7 +27,9 @@ const presets: Record<string, CardProps> = {
 };
 
 function getPreset(name: string): CardProps | null {
-  return presets[name] ? presets[name] : null;
+  const found = presets[name];
+  console.log(found);
+  return found.title ? found : null;
 }
 
 interface Props {
@@ -38,12 +40,15 @@ const { preset = "odyssey" } = defineProps<Props>();
 
 const selectedPreset = computed<CardProps | null>(() => {
   const s = getPreset(preset);
-  return s ?? null;
+  return s;
 });
 </script>
 
 <template>
-  <div v-if="selectedPreset !== null">
+  <div v-if="selectedPreset != null">
     <Card v-if="preset == 'odyssey'" v-bind="selectedPreset" />
+  </div>
+  <div v-else>
+    <sub class="font-mono text-red-600">Invalid Preset</sub>
   </div>
 </template>
