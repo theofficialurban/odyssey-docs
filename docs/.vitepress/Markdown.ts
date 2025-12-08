@@ -63,51 +63,34 @@ export function removeLinkAttributes(
   t.attrs = newAttrs;
 }
 
+export function createCardFromEmbed(content: string): string {
+  let propMap = new Map<string, string>();
+  const ssContent = content.split(/\r?\n/);
+  ssContent.forEach((c) => {
+    const exp = c.split(`: `);
+    if (exp[0] && exp[1]) {
+      const [key, val] = exp;
+      const fixVal = val.slice(1, -1);
+      if (key == "image") {
+        propMap.set("img", fixVal);
+        return;
+      } else if (key == "url") {
+        propMap.set("href", fixVal);
+        return;
+      } else if (key == "favicon" || key == "aspectRatio") {
+        return;
+      }
+      propMap.set(key, fixVal);
+    }
+  });
+  let propsString = "";
+  propMap.forEach((v, k) => {
+    propsString += `${k}="${v}" `;
+  });
+  return `<Card ${propsString} />`;
+}
+
 const Rules: EditRules = [
-  // [
-  //   "fence",
-  //   (t: Token) => t.attrGet("class") !== "header-anchor" && t.info == "embed",
-  //   (t: Token, s: StateCore, e) => {
-  //     //const sContent = t.content.replace(": ", "=");
-  //     let propMap = new Map<string, string>();
-  //     const ssContent = t.content.split(/\r?\n/);
-  //     const finalContent = ssContent.forEach((c) => {
-  //       const exp = c.split(`: `);
-  //       if (exp[0] && exp[1]) {
-  //         const [key, val] = exp;
-  //         const fixVal = val.slice(1, -1);
-  //         if (key == "image") {
-  //           propMap.set("img", fixVal);
-  //           return;
-  //         } else if (key == "url") {
-  //           propMap.set("href", fixVal);
-  //           return;
-  //         } else if (key == "favicon" || key == "aspectRatio") {
-  //           return;
-  //         }
-  //         propMap.set(key, fixVal);
-  //       }
-  //     });
-  //     t.tag = "Card";
-  //     t.content = "";
-  //     propMap.forEach((v, k) => {
-  //       if (t.attrGet(k)) {
-  //         t.attrSet(k, v);
-  //       } else {
-  //         t.attrPush([k, v]);
-  //       }
-  //     });
-  //     t.type = "link_open";
-  //     t.level = 1;
-  //     console.log(t);
-  //     return [
-  //       "Card",
-  //       (token: Token) => {
-  //         token.tag = "Card";
-  //       },
-  //     ];
-  //   },
-  // ],
   [
     "link_open",
     (t: Token) =>

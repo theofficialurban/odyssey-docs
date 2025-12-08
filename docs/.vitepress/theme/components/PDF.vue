@@ -10,7 +10,7 @@ interface Props {
 
 const {
   src,
-  width = "75%",
+  width = "100%",
   height = "650px",
   title = "PDF Document",
   disableDisplay = false,
@@ -35,3 +35,10 @@ const {
     <small v-else-if="disableLink == true">{{ title }}</small>
   </div>
 </template>
+
+<style>
+@reference "tailwindcss";
+iframe {
+  @apply w-[v-bind(width)] h-[v-bind(height)] pt-4;
+}
+</style>

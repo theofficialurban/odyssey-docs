@@ -8,11 +8,12 @@ import tailwindcss from "@tailwindcss/vite";
 import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import type { Contributors, DefineCollections } from "./utils";
 // import Container from "markdown-it-container";
-import markdownit from "markdown-it";
+import markdownit, { Options } from "markdown-it";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import mdSpans from "markdown-it-bracketed-spans";
-import Rules, { CleanupFunction } from "./Markdown";
-import { Token } from "markdown-it/index.js";
+import Rules, { CleanupFunction, createCardFromEmbed } from "./Markdown";
+import { Renderer } from "markdown-it/index.js";
+import Token from "markdown-it/lib/token.mjs";
 let md = markdownit();
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -559,7 +560,7 @@ const cfg: UserConfig = {
       // md.use(Container, "embed", {
       //   render: function (tokens: Token[], idx: number) {
       //     const token = tokens[idx];
-      //     console.log(token);
+      //     // console.log(token);
       //     if (token.nesting === 1) {
       //       let propMap = new Map<string, string>();
       //       const ssContent = token.content.split(/\r?\n/);
@@ -598,6 +599,22 @@ const cfg: UserConfig = {
       //   },
       // });
       //md.use<LinkToCardPluginOptions>(linkToCardPlugin, {});
+      const proxy = (tokens, idx, options, env, self) =>
+        self.renderToken(tokens, idx, options);
+      const fenceRenderer = md.renderer.rules.fence || proxy;
+      md.renderer.rules.fence = function (
+        tokens: Token[],
+        idx: number,
+        options: Options,
+        env: any,
+        self: Renderer
+      ) {
+        const token = tokens[idx];
+        if (token.info == "embed") {
+          return createCardFromEmbed(token.content);
+        }
+        return fenceRenderer(tokens, idx, options, env, self);
+      };
       md.use(mdSpans);
       md.use(
         ElementTransform,
