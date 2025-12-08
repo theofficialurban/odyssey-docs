@@ -36,7 +36,7 @@ const {
   </div>
 </template>
 
-<style>
+<style scoped>
 @reference "tailwindcss";
 iframe {
   @apply w-[v-bind(width)] h-[v-bind(height)] pt-4;
