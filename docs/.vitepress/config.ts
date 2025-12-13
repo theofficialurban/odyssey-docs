@@ -1,11 +1,9 @@
 import { defineConfig } from "@lando/vitepress-theme-default-plus/config";
 import { withSidebar } from "vitepress-sidebar";
-import { HeadConfig, loadEnv, type UserConfig } from "vitepress";
-import { cwd } from "node:process";
+import { HeadConfig, type UserConfig } from "vitepress";
 import Inspect from "vite-plugin-inspect";
 import tailwindcss from "@tailwindcss/vite";
 
-import { BiDirectionalLinks } from "@nolebase/markdown-it-bi-directional-links";
 import type { Contributors, DefineCollections } from "./utils";
 // import Container from "markdown-it-container";
 import markdownit, { Options } from "markdown-it";
@@ -423,10 +421,16 @@ const cfg: UserConfig = {
   vite: {
     plugins: [tailwindcss(), Inspect()],
     optimizeDeps: {
-      exclude: ["@nolebase/vitepress-plugin-inline-link-preview/client"],
+      exclude: [
+        "@nolebase/vitepress-plugin-inline-link-preview/client",
+        "@royalfig/share-button",
+      ],
     },
     ssr: {
-      noExternal: ["@nolebase/vitepress-plugin-inline-link-preview"],
+      noExternal: [
+        "@nolebase/vitepress-plugin-inline-link-preview",
+        "@royalfig/share-button",
+      ],
     },
   },
 
