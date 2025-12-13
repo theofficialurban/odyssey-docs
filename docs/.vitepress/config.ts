@@ -417,9 +417,16 @@ const cfg: UserConfig = {
       },
     },
   },
-
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.includes("-"),
+      },
+    },
+  },
   vite: {
     plugins: [tailwindcss(), Inspect()],
+
     optimizeDeps: {
       exclude: [
         "@nolebase/vitepress-plugin-inline-link-preview/client",
