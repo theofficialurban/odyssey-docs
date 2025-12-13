@@ -2,8 +2,8 @@
 import { defineClientComponent, useData } from "vitepress";
 import Layout from "@lando/vitepress-theme-default-plus/components/VPLLayout.vue";
 import { computed, ref, watch, watchEffect } from "vue";
-const ShareButton = defineClientComponent(() => {
-  return import("@royalfig/share-button");
+const ShareButton = defineClientComponent(async () => {
+  return await import("@royalfig/share-button");
 });
 const { page } = useData();
 
