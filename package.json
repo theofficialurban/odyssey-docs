@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@royalfig/share-button": "^1.0.26",
     "bootstrap": "^4.6.2",
     "fs": "0.0.1-security",
     "grey-matter": "^0.0.0",

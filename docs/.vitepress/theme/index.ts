@@ -1,6 +1,5 @@
-import { loadEnv, type Theme } from "vitepress";
+import { type Theme } from "vitepress";
 import VPLTheme from "@lando/vitepress-theme-default-plus";
-
 import "./global.css";
 
 import OdysseyBanner from "./components/OdysseyBanner.vue";
@@ -17,6 +16,7 @@ import {
 } from "@nolebase/vitepress-plugin-inline-link-preview";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
 
+import "@royalfig/share-button";
 import MinLink from "./components/MinLink.vue";
 import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
@@ -31,6 +31,8 @@ import ImgurEmbed from "./components/ImgurEmbed.vue";
 import SubstackPost from "./components/SubstackPost.vue";
 import CardGrid from "./components/CardGrid.vue";
 import CardPreset from "./components/CardPreset.vue";
+import ShareBtn from "./components/ShareBtn.vue";
+import LayoutShare from "./components/LayoutShare.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -82,7 +84,7 @@ export type PodcastsSettings = {
 
 export default {
   extends: VPLTheme,
-
+  Layout: LayoutShare,
   enhanceApp({ app }) {
     app.component("OdysseyBanner", OdysseyBanner);
     app.component("Substack", OdysseySubstack);
@@ -104,6 +106,7 @@ export default {
     app.component("Grid", CardGrid);
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
+    app.component("ShareBtn", ShareBtn);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
 
     app.provide(SubstackSymbol, data);

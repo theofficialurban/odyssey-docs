@@ -11,6 +11,9 @@ importers:
       '@popperjs/core':
         specifier: ^2.11.8
         version: 2.11.8
+      '@royalfig/share-button':
+        specifier: ^1.0.26
+        version: 1.0.26
       bootstrap:
         specifier: ^4.6.2
         version: 4.6.2(jquery@3.7.1)(popper.js@1.16.1)
@@ -658,6 +661,9 @@ packages:
     resolution: {integrity: sha512-APwKy6YUhvZaEoHyM+9xqmTpviEI+9eL7LoCH+aLcvWYHJ663qG5zx7WzWZY+a9qkg5JtzcMyJ9z0WtQBMDmgA==}
     cpu: [x64]
     os: [win32]
+
+  '@royalfig/share-button@1.0.26':
+    resolution: {integrity: sha512-J2vDh6bVGqp0BJmtFh5YOgWbXjqr/7Dm1zJnZFvCNfaFzyq5Dyl3Xr/UDsZgyICr3gxH8iOzbMcqjrRZvJ6+pg==}
 
   '@shikijs/core@3.12.2':
     resolution: {integrity: sha512-L1Safnhra3tX/oJK5kYHaWmLEBJi1irASwewzY3taX5ibyXyMkkSDZlq01qigjryOBwrXSdFgTiZ3ryzSNeu7Q==}
@@ -2782,6 +2788,8 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.50.2':
     optional: true
+
+  '@royalfig/share-button@1.0.26': {}
 
   '@shikijs/core@3.12.2':
     dependencies:

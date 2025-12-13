@@ -10,6 +10,8 @@ ogimage: https://i.imgur.com/NzjoVhq.png
 
 [[toc]]
 
+<!-- <ShareBtn /> -->
+
 <Card title="Occult Theocracy Vol I & II" titleSize="24px" showUrl="false" descSize="18px" description="Download the text for free, with bookmarks!" href="https://drive.google.com/file/d/18B_7Pr3M1YW4N1SwqPCgoNd8LCd8QHv3/view?usp=drive_link" img="https://i.imgur.com/a4L9pnM.png" />
 
 ## Volume One
