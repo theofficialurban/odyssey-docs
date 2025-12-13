@@ -27,9 +27,15 @@ scrolling="no"
 
 View the Imgur Album: https://imgur.com/a/biHcFg7
 
+[Fusion Centers]{.text-xl .font-bold .text-yellow-400}
+
 ![](https://i.imgur.com/pqQeMcw.jpeg)
 
+[Matrix of Mendacity]{.text-xl .font-bold .text-yellow-400}
+
 ![](https://i.imgur.com/DSS5DdM.jpeg)
+
+[Maritime / Admiralty Law]{.text-xl .font-bold .text-yellow-400}
 
 ![](https://i.imgur.com/x8sq3a9.jpeg)
 
