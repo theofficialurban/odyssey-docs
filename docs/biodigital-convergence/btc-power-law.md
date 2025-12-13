@@ -4,6 +4,8 @@ description: Examining the work of Giovanni Santostasi in which he claims that B
 ogimage: https://i.imgur.com/z2pNTOU.png
 ---
 
+[[atomic]]
+
 # Giovanni Santostasi's "Bitcoin Power Law Theory" {#btc-power-laws}
 
 [[toc]]

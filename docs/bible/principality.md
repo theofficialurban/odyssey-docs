@@ -4,6 +4,8 @@ description: This article discusses the meaning of Principalities as said in Eph
 ogimage: https://substackcdn.com/image/fetch/$s_!OIuX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07e9cc3b-4078-4301-aedb-811f86b86344_474x315.jpeg
 ---
 
+[[atomic]]
+
 # Principalities & Powers: _Kosmokrators_
 
 ![](https://substackcdn.com/image/fetch/$s_!OIuX!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F07e9cc3b-4078-4301-aedb-811f86b86344_474x315.jpeg)

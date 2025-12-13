@@ -1,13 +1,117 @@
 import type Token from "markdown-it/lib/token.mjs";
-import type { RenderRule } from "markdown-it/lib/renderer.mjs";
-import { TokenMeta } from "markdown-it/lib/rules_inline/state_inline.mjs";
-import { Options } from "markdown-it";
-import Renderer from "markdown-it/lib/renderer.mjs";
+
 import StateCore from "markdown-it/lib/rules_core/state_core.mjs";
-import Container from "markdown-it-container";
+import MarkdownIt, { PluginSimple } from "markdown-it";
+import { RuleBlock } from "markdown-it/lib/parser_block.mjs";
 
 // On Link Open - If Func Return True - Do This
 //["link_open", () => true, ]
+
+/**
+ * Generates the opening HTML for a container with a specified class and optional header HTML.
+ * @param {string} containerClass The CSS class to apply to the container div
+ * @returns {string} HTML string
+ */
+function transformAtomicShareBtn(containerClass: string): string {
+  let shareBtnOpenHtml =
+    '<div class="' +
+    containerClass +
+    '"><share-button atomic></share-button></div>';
+
+  return shareBtnOpenHtml;
+}
+/**
+ * Generates the opening HTML for a container with a specified class and optional header HTML.
+ * @param {string} containerClass The CSS class to apply to the container div
+ * @returns {string} HTML string
+ */
+function transformShareBtn(containerClass: string): string {
+  let shareBtnOpenHtml =
+    '<div class="' +
+    containerClass +
+    '"><share-button position="left"></share-button></div>';
+
+  return shareBtnOpenHtml;
+}
+const defaultShareOptions = {
+  containerClass: "share-btns",
+  markerPatternAtomic: /^\[\[atomic\]\]/im,
+  markerPattern: /^\[\[share\]\]/im,
+  transformAtomicShareBtn,
+  transformShareBtn,
+};
+
+export const ShareBtnPlugin: PluginSimple = (md: MarkdownIt) => {
+  const options = Object.assign({}, defaultShareOptions);
+  const btnAtomicRegexp = options.markerPatternAtomic;
+  const btnRegexp = options.markerPattern;
+  const shareBtnAtomic: RuleBlock = (state, startLine, endLine, silent) => {
+    let token: Token;
+    let match;
+    const start = state.bMarks[startLine] + state.tShift[startLine];
+    const max = state.eMarks[startLine];
+
+    // Reject if the token does not start with [
+    if (state.src.charCodeAt(start) !== 0x5b /* [ */) {
+      return false;
+    }
+    // Detect [[atomic]] markup
+    match = btnAtomicRegexp.exec(state.src.substring(start, max));
+    match = !match ? [] : match.filter((m) => m);
+    if (match.length < 1) {
+      return false;
+    }
+    if (silent) {
+      return true;
+    }
+
+    state.line = startLine + 1;
+
+    // Build Content
+    token = state.push("share_button_atomic", "share-button", 0);
+    token.markup = "[[atomic]]";
+    token.map = [startLine, state.line];
+    token.children = [];
+    return true;
+  };
+  const shareBtn: RuleBlock = (state, startLine, endLine, silent) => {
+    let token: Token;
+    let match;
+    const start = state.bMarks[startLine] + state.tShift[startLine];
+    const max = state.eMarks[startLine];
+
+    // Reject if the token does not start with [
+    if (state.src.charCodeAt(start) !== 0x5b /* [ */) {
+      return false;
+    }
+    // Detect [[share]] markup
+    match = btnRegexp.exec(state.src.substring(start, max));
+    match = !match ? [] : match.filter((m) => m);
+    if (match.length < 1) {
+      return false;
+    }
+    if (silent) {
+      return true;
+    }
+
+    state.line = startLine + 1;
+
+    // Build Content
+    token = state.push("share_button_regular", "share-button", 0);
+    token.markup = "[[share]]";
+    token.map = [startLine, state.line];
+    token.children = [];
+    return true;
+  };
+  md.renderer.rules.share_button_atomic = function () {
+    return options.transformAtomicShareBtn(`atomic-${options.containerClass}`);
+  };
+  md.renderer.rules.share_button_regular = function () {
+    return options.transformShareBtn(options.containerClass);
+  };
+  md.block.ruler.before("heading", "shareBtnAtomic", shareBtnAtomic);
+  md.block.ruler.before("heading", "shareBtn", shareBtn);
+};
 
 export type CleanupFunction =
   | [

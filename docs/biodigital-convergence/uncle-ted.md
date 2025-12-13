@@ -4,6 +4,8 @@ description: Deep dive notes on the collected writings of Ted Kaczynski on 'Tech
 ogimage: https://i.imgur.com/r35PstN.png
 ---
 
+[[atomic]]
+
 # The Collected Writings of Ted Kaczynski {#title}
 
 ![](https://i.imgur.com/r35PstN.png)

@@ -4,6 +4,8 @@ description: These are my notes on the Genomic applications of Blockchain techno
 ogimage: https://i.imgur.com/tABhcWZ.png
 ---
 
+[[atomic]]
+
 # 🧬 Blockchain & Genomics {#blockchain-genomics}
 
 ![](https://i.imgur.com/tABhcWZ.png)

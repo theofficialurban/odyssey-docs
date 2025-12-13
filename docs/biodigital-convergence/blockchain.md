@@ -4,6 +4,8 @@ description: This will be the main page for all of my research and informational
 ogimage: https://money.com/wp-content/uploads/2022/06/What-Is-Blockchain-Infographic.jpg?quality=60
 ---
 
+[[atomic]]
+
 # A Basic Introduction to Blockchain
 
 ![](https://money.com/wp-content/uploads/2022/06/What-Is-Blockchain-Infographic.jpg?quality=60)

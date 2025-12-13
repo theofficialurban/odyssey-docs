@@ -4,6 +4,8 @@ description: Extended notes for my deep dive into the book "The Network State"
 ogimage: https://i.imgur.com/md25ocV.png
 ---
 
+[[atomic]]
+
 # The Network State & Decentralized Autonomous Organizations (DAOs)
 
 ![](https://i.imgur.com/md25ocV.png)

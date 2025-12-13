@@ -4,6 +4,8 @@ description: The Push for Tokenization, Universal Ledgers, Monarch CEOs, "Platfo
 ogimage: https://i.imgur.com/pfv1tNi.jpeg
 ---
 
+[[atomic]]
+
 # Tokenization, Unified Ledger, Slavery Agenda & Possible Resistance
 
 [[toc]]

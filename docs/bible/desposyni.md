@@ -4,6 +4,8 @@ description: The Family of God, also known as the Merovingian or Desposyni line 
 ogimage: https://i.imgur.com/JkmiefP.png
 ---
 
+[[atomic]]
+
 # The Family of God: _The Desposyni_ {#title}
 
 ::::thumbnail

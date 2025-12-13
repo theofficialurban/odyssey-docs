@@ -3,6 +3,8 @@ title: Urban's Notes
 description: View & Download copies of Urban's notes on Biodigital Convergence, Blockchain & DAOs in PDF format
 ---
 
+[[atomic]]
+
 # Urban's Notes on Biodigital Convergence, Blockchain & DAOs {#notes}
 
 [[toc]]

@@ -4,6 +4,8 @@ description: Notes from my study into how Web3 and Gambling is being used to rol
 ogimage: https://i.imgur.com/mBPozEK.png
 ---
 
+[[atomic]]
+
 # Web3 and the Gamification of EVERYTHING {#title}
 
 ![](https://i.imgur.com/mBPozEK.png)

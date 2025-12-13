@@ -4,6 +4,8 @@ description: This page will be the combined notes on the works of Doctor Robert 
 ogimage: https://i.imgur.com/gAoBD3s.png
 ---
 
+[[atomic]]
+
 # Robert Duncan's _The Matrix Deciphered_ & _Project Soul Catcher_ {#title}
 
 ![](https://i.imgur.com/gAoBD3s.png)

@@ -4,6 +4,8 @@ description: Urban's notes and research on the strange events happening on or ar
 ogimage: https://i.imgur.com/0u6XY8j.png
 ---
 
+[[atomic]]
+
 # What the HELL is Going on At WRIGHT-PATTERSON AFB ?? {#wright-patt}
 
 ![](https://i.imgur.com/0u6XY8j.png)

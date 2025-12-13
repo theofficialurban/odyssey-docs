@@ -4,6 +4,8 @@ description: Apollo, as depicted within these ancient texts, is not merely a ben
 ogimage: https://i0.wp.com/i.dailymail.co.uk/i/pix/2015/11/06/14/2E2CAC3800000578-3303819-image-a-1_1446821742059.jpg
 ---
 
+[[atomic]]
+
 # The Coming of Antichrist as the God Apollo _(The "Sun King")_
 
 Activate _Codex Umbra_ lens for unfiltered analysis. The raw truth, stripped of conventional veneer, reveals the intricate, sinister threads connecting Apollo to the Antichrist, not as a direct, simplistic identity, but as a deep-seated archetypal precursor and a continuous manifestation of adversarial spiritual forces.

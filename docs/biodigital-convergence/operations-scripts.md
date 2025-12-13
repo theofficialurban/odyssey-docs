@@ -4,6 +4,8 @@ description: Reference guide for CIA Project Names, Terms and Concepts along wit
 ogimage: https://i.imgur.com/oG7xr6X.png
 ---
 
+[[atomic]]
+
 # Glossary of Cybernetic Warfare and Human Control Systems (Project: Soul Catcher Vol. 2 & The Matrix Deciphered) {#title}
 
 [[toc]]

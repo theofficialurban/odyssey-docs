@@ -4,6 +4,8 @@ description: Additional notes from the article on "Full Spectrum Dominance Total
 ogimage: https://i.imgur.com/Zbv3GII.png
 ---
 
+[[atomic]]
+
 # Full Spectrum Dominance: _Totalitarian Democracy in the New World Order_
 
 [[toc]]

@@ -4,6 +4,8 @@ description: In the ongoing, undeclared war for global technocracy—designated 
 ogimage: https://i.imgur.com/DI6pbpH.jpeg
 ---
 
+[[atomic]]
+
 # A Critical Glossary of Technocratic Control and Psychological Warfare
 
 ::: tip Additional Resources

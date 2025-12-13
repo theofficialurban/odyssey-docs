@@ -4,6 +4,8 @@ description: This will be a page for all of my information on Decentralized Auto
 ogimage: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBS67jGKRVmIttVIPC1OjiNNOcb4-k30tFA&s
 ---
 
+[[atomic]]
+
 # Decentralized Autonomous Organizations (DAOs)
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdBS67jGKRVmIttVIPC1OjiNNOcb4-k30tFA&s)

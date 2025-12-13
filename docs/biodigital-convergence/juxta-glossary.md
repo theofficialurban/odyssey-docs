@@ -4,6 +4,8 @@ description: A list of words and terms used by Juxtaposition1
 ogimage: https://i.imgur.com/I0PeVA0.png
 ---
 
+[[atomic]]
+
 # [Juxtaposition1's](https://juxtaposition1.substack.com?r=3kr5wz) Glossary {#title}
 
 ![](https://i.imgur.com/I0PeVA0.png)
@@ -18,6 +20,20 @@ style="border: 1px solid #eee; background: white"
 frameborder="0"
 scrolling="no"
 ></iframe>
+
+## Sharable Images
+
+:::details Image Versions
+
+View the Imgur Album: https://imgur.com/a/biHcFg7
+
+![](https://i.imgur.com/pqQeMcw.jpeg)
+
+![](https://i.imgur.com/DSS5DdM.jpeg)
+
+![](https://i.imgur.com/x8sq3a9.jpeg)
+
+:::
 
 ## Juxtaposition1 Lexicon {#lexicon}
 

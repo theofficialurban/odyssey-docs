@@ -2,6 +2,8 @@
 title: On the Exalting of the Cross
 ---
 
+[[atomic]]
+
 # On the Exaltation of the Cross
 
 ::: highlight
@@ -11,6 +13,8 @@ Lucifer does believe that his exalting of the cross will ultimately result in th
 :::
 
 <YouTube id="JqAhMMBGWpk" />
+
+[[toc]]
 
 ## **THE RECUTTING OF THE SCAPEGOAT: LUCIFER'S GRAND ALCHEMIC CALCULATION VIA THE CROSS**
 

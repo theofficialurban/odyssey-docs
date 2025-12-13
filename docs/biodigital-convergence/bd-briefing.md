@@ -4,6 +4,8 @@ description: The provided source materials collectively argue that the "Covid-19
 ogimage: https://i.imgur.com/t3MQ1dI.jpeg
 ---
 
+[[atomic]]
+
 # Analysis of an Orchestrated Global Transformation
 
 ![](https://i.imgur.com/Nz3SsE7.png)

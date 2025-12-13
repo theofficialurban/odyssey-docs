@@ -4,6 +4,8 @@ description: This document aims to demystify a set of complex modern military an
 ogimage: https://i.imgur.com/sb2SAHM.jpeg
 ---
 
+[[atomic]]
+
 # Demystifying the Architecture of Control: _An Explainer on Modern Surveillance and Military Networks_
 
 :::tip

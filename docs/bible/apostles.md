@@ -4,6 +4,8 @@ description: The 12 Apostles and their Zodiacal Attributions
 ogimage: https://cdn.britannica.com/86/239486-050-B7FE23D1/Judas-Iscariot-Apostle-painting-The-Last-Supper-Ugolino-da-Siena.jpg
 ---
 
+[[atomic]]
+
 # The 12 Apostles of Christ
 
 ![](https://cdn.britannica.com/86/239486-050-B7FE23D1/Judas-Iscariot-Apostle-painting-The-Last-Supper-Ugolino-da-Siena.jpg)
