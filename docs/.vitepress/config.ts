@@ -526,14 +526,14 @@ const cfg: UserConfig = {
         "meta",
         {
           name: "twitter:player:width",
-          content: pageData.frontmatter.ogplayerwidth ?? "1280",
+          content: String(pageData.frontmatter.ogplayerwidth) ?? "1280",
         },
       ]);
       pageData.frontmatter.head.push([
         "meta",
         {
           name: "twitter:player:height",
-          content: pageData.frontmatter.ogplayerheight ?? "720",
+          content: String(pageData.frontmatter.ogplayerheight) ?? "720",
         },
       ]);
     }
