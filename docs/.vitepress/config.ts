@@ -472,7 +472,9 @@ const cfg: UserConfig = {
 
   transformPageData(pageData) {
     pageData.frontmatter.head ??= [];
-    const twitterCard = twitterCardType(pageData);
+    const twitterCard = pageData.frontmatter.ogtype
+      ? pageData.frontmatter.ogtype
+      : twitterCardType(pageData);
     pageData.frontmatter.head.push([
       "meta",
       {
@@ -520,6 +522,15 @@ const cfg: UserConfig = {
         {
           name: "twitter:player",
           content: pageData.frontmatter.ogplayer ?? "",
+        },
+      ]);
+      pageData.frontmatter.head.push([
+        "meta",
+        {
+          name: "twitter:player:stream",
+          content:
+            pageData.frontmatter.ogplayer ??
+            pageData.frontmatter.ogplayerstream,
         },
       ]);
       pageData.frontmatter.head.push([

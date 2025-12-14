@@ -2,6 +2,9 @@
 title: Near-Death Experiences in Programming
 description: The depths of clandestine methodologies reveal disturbing practices concerning both physical marks upon the body and the manipulation of the very threshold of life and death.
 ogimage: https://i.imgur.com/h9n52hl.png
+ogplayer: "https://files.catbox.moe/x6nsdq.mp4"
+ogplayerwidth: 1280
+ogplayerheight: 720
 deepDiveURL: https://urbanodyssey.xyz/p/demonology
 ---
 
