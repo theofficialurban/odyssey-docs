@@ -16,6 +16,7 @@ import Rules, {
 } from "./Markdown";
 import { Renderer } from "markdown-it/index.js";
 import Token from "markdown-it/lib/token.mjs";
+import { twitterCardType } from "./TwitterCard";
 let md = markdownit();
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -471,6 +472,7 @@ const cfg: UserConfig = {
 
   transformPageData(pageData) {
     pageData.frontmatter.head ??= [];
+    const twitterCard = twitterCardType(pageData);
     pageData.frontmatter.head.push([
       "meta",
       {
@@ -505,9 +507,32 @@ const cfg: UserConfig = {
       "meta",
       {
         name: "twitter:card",
-        content: "summary_large_image",
+        content: twitterCard ?? "summary_large_image",
       },
     ]);
+    if (twitterCard == "player") {
+      pageData.frontmatter.head.push([
+        "meta",
+        {
+          name: "twitter:player",
+          content: pageData.frontmatter.ogplayer,
+        },
+      ]);
+      pageData.frontmatter.head.push([
+        "meta",
+        {
+          name: "twitter:player:width",
+          content: pageData.frontmatter.ogplayerwidth ?? "1280",
+        },
+      ]);
+      pageData.frontmatter.head.push([
+        "meta",
+        {
+          name: "twitter:player:height",
+          content: pageData.frontmatter.ogplayerheight ?? "720",
+        },
+      ]);
+    }
     pageData.frontmatter.head.push([
       "meta",
       {

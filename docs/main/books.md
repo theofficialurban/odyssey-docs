@@ -119,3 +119,129 @@ Modern information warfare necessitates mastery of digital access points. These 
 | **laparola.net/greco**                         | Greek NT Website                          | Allows comparison of multiple editions of the Greek NT (UBS4, Westcott and Hort, Byzantine text type) and links to older lexicons, crucial for rapid textual analysis. |
 | **The Unhived Mind forum / Vatican Assassins** | Websites/Forums                           | Cited as excellent web sites for "further research" into conspiracy theories and Jesuit control.                                                                       |
 | **Google Books**                               | Digital Library                           | A vast archive where public domain works (often older, technical volumes) can be downloaded freely, allowing for rapid accumulation of a digital library.              |
+
+## Additional Books `Added 12/14/2025` {#new-books}
+
+:::tip Note
+These were recommended using ~234 of my other sources based on sources that pop up repeatededly or were cited by multiple texts in the notebook.
+:::
+
+### I. THE ARCHITECTS OF CONTROL (Systemic & Political)
+
+#### **1. _Tragedy and Hope: A History of the World in Our Time_ by Carroll Quigley**
+
+<Card title="The Works of Carroll Quigley" href="https://theofficialurban.substack.com/p/carroll-quigley" description="This article looks at the three primary works authored by the scholar Carroll Quigley -- Quigley was a notable influence on President Bill Clinton, along with a very well-known professor at Georgetown" img="https://substackcdn.com/image/fetch/$s_!d3iN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F177707636%2F8acd3f8d-164d-4e3c-b06f-4457306063f5%2Ftranscoded-1761970056.png" />
+
+- **Significance:** This text is the "smoking gun" for the existence of an Anglo-American elite network working to establish a world system of financial control. It is cited as the admission of the conspiracy by the conspirators themselves.
+- **Sourced From:**
+  - **Source:** Eustace Mullins in _Secrets of the Federal Reserve_ cites Quigley regarding the "international financial coterie" and their aim to control the world.
+  - **Source:** Fritz Springmeier in _Be Wise As Serpents_ notes that Quigley’s book is enlightening on the New World Order but omits the Masonic connection.
+  - **Source:** Henry Makow cites Quigley regarding the communist takeover of the US government being a tool of the financial elite.
+  - **Source:** John Daniel in _Scarlet and the Beast_ cites Quigley regarding the Round Table groups and the League of Nations.
+
+#### **2. _Morals and Dogma of the Ancient and Accepted Scottish Rite of Freemasonry_ by Albert Pike**
+
+- **Significance:** The supreme philosophical textbook of the Scottish Rite, often cited by researchers to demonstrate the Luciferian or occult nature of high-level Freemasonry.
+- **Sourced From:**
+  - **Source:** Texe Marrs in _Codex Magica_ cites Pike regarding the "Invisible Sun."
+  - **Source:** Fritz Springmeier in _Be Wise As Serpents_ cites Pike regarding the Masonic Messiah and the connection to the Mysteries.
+  - **Source:** Cites Pike regarding the Masonic view of religion.
+  - **Source:** John Daniel cites Pike regarding the Kabbalah.
+
+#### **3. _The Externalisation of the Hierarchy_ by Alice A. Bailey**
+
+- **Significance:** A Theosophical text outlining the "Plan" for a New World Order and a One World Religion, allegedly channeled from a spiritual master.
+- **Sourced From:**
+  - **Source:** Texe Marrs cites Bailey regarding the "Rays and the Initiations."
+  - **Source:** Springmeier identifies this book as a "textbook on how The Plan is to unfold," specifically mentioning the three channels: the Church, the Masonic Lodge, and education.
+  - **Source:** Included in Springmeier's bibliography for _Bloodlines of the Illuminati_.
+
+### II. THE PSYCHOTRONIC GRID (Mind Control & Behavioral Engineering)
+
+#### **4. _Physical Control of the Mind: Toward a Psychocivilized Society_ by José M.R. Delgado**
+
+<LinkPreview href="../mahanism/temple-of-set.html">Temple of Set Reading List</LinkPreview>
+
+- **Significance:** A seminal work by a Yale physiologist detailing the use of electrode implants to electronically control behavior and emotion. It is the blueprint for the "techno-totalitarian" state.
+- **Sourced From:**
+  - **Source:** Jim Keith in _Mind Control, World Control_ cites Delgado extensively regarding the inhibition of aggression and the manipulation of the brain via radio control.
+  - **Source:** The _Ritual Abuse_ document collection lists this as "Outdated; still essential" reading for understanding ESB (Electrical Stimulation of the Brain).
+  - **Source:** Robert Duncan in _Project: Soul Catcher_ cites Delgado.
+
+#### **5. _The Rape of the Mind: The Psychology of Thought Control, Menticide, and Brainwashing_ by Joost A. M. Meerloo**
+
+- **Significance:** An analysis of the techniques used by totalitarians to break the human will, coined the term "menticide" (killing of the mind).
+- **Sourced From:**
+  - **Source:** David Hughes in _Covid-19_ cites Meerloo regarding mass formation and the destruction of the mind.
+  - **Source:** Referenced in _Obama Hypnosis Techniques_ regarding the psychology of thought control.
+  - **Source:** Walter Bowart in _Operation Mind Control_ lists this as a primary source for Chapter 1.
+
+#### **6. _The Search for the Manchurian Candidate_ by John Marks**
+
+- **Significance:** This book was based on declassified CIA documents (FOIA) regarding MKULTRA and ARTICHOKE, proving the government's involvement in drug testing and behavior modification.
+- **Sourced From:**
+  - **Source:** Brad Steiger cites Marks regarding the CIA and mind control.
+  - **Source:** Jim Keith cites Marks regarding LSD and the CIA.
+  - **Source:** Walter Bowart uses excerpts from Marks.
+  - **Source:** Steven Hassan in _Combatting Cult Mind Control_ cites Marks regarding the Unification Church's training methods.
+
+### III. THE ESOTERIC & OCCULT CANON
+
+#### **7. _The Secret Doctrine_ and _Isis Unveiled_ by H.P. Blavatsky**
+
+- **Significance:** The foundational texts of Theosophy, which provided the spiritual framework for the New Age movement and the Aryan root race theory later adopted by the Nazis.
+- **Sourced From:**
+  - **Source:** Cited in _Secret History of the World_ (Booth).
+  - **Source:** Texe Marrs cites _The Secret Doctrine_ regarding the serpent symbol.
+  - **Source:** David Hulse in _The Key of It All_ lists Blavatsky's collected writings as essential for understanding alphabet-number mysticism.
+  - **Source:** Henry Makow cites Blavatsky identifying Lucifer with the Sun and as a benefactor of mankind.
+  - **Source:** Manly P. Hall in _Secret Teachings of All Ages_ draws heavily on Blavatsky's work.
+
+#### **8. _Sepher Yetzirah_ (The Book of Creation) & _The Zohar_**
+
+- **Significance:** The primary texts of Jewish Kabbalah (Qabalah), essential for understanding the numerical and symbolic codes used in Western occultism and high-level Masonry.
+- **Sourced From:**
+  - **Source:** David Hulse provides a massive breakdown of these texts, calling the _Sepher Yetzirah_ "the oldest extant text showing the secret meanings of the Hebrew alphabet."
+  - **Source:** John Michael Greer in _The New Encyclopedia of the Occult_ describes the _Sepher Yetzirah_ and _Zohar_ as critical Cabalistic books.
+  - **Source:** Manly P. Hall dedicates chapters to the Qabalah, citing the _Zohar_ and _Sepher Yetzirah_ as the secret doctrine of Israel.
+
+#### **9. _The Book of Thoth_ by Aleister Crowley**
+
+- **Significance:** Crowley's definitive work on the Tarot, integrating Qabalah, astrology, and Thelemic philosophy. It is a key text for modern ceremonial magic.
+- **Sourced From:**
+  - **Source:** Barbara Walker cites it in _The Woman's Dictionary of Symbols_.
+  - **Source:** Hulse describes it as Crowley's best work on the Tarot, based on _The Book of the Law_.
+  - **Source:** Henry Makow cites it regarding the "Great Name of God."
+
+### IV. THEOLOGICAL & HISTORICAL POLEMICS
+
+#### **10. _Fifty Years in the Church of Rome_ by Charles Chiniquy**
+
+- **Significance:** An expose by a former priest alleging that the Jesuits were responsible for the American Civil War and the assassination of Abraham Lincoln.
+- **Sourced From:**
+  - **Source:** Cited in _Antichrist Conspiracy_ regarding the loss of law and order.
+  - **Source:** Cited heavily in _Antichrist Conspiracy_ regarding Lincoln.
+  - **Source:** Eric Jon Phelps in _Vatican Assassins_ uses Chiniquy as a primary source for his thesis on Jesuit control.
+
+#### **11. _The Two Babylons_ by Alexander Hislop**
+
+- **Significance:** A controversial text arguing that the Roman Catholic Church is the continuation of the ancient pagan religion of Babylon, identifying the Pope with Nimrod.
+- **Sourced From:**
+  - **Source:** Cited in _The Babylon Matrix_ as a key source for understanding the "Papal worship proved to be the worship of Nimrod."
+  - **Source:** Cited in _The Genesis 6 Conspiracy_ regarding Semiramis and Nimrod.
+
+#### **12. _Entdecktes Judenthum_ (Judaism Unmasked) by Johann Andreas Eisenmenger**
+
+- **Significance:** A massive 18th-century polemic against Rabbinic Judaism, often cited by anti-Talmudic researchers for its translations of Rabbinic texts.
+- **Sourced From:**
+  - **Source:** Cited in _Destruction of Freemasonry_.
+  - **Source:** Michael Hoffman in _Judaism Discovered_ calls it the "benchmark achievement in the study of Judaism" and notes it exposes "rabbinic buncombe."
+
+#### **13. _The Catcher in the Rye_ by J.D. Salinger**
+
+<YouTube id="LNKQbOzRQHI" />
+
+- **Significance:** Identified in the provided transcripts as a specific "programming tool" or "activation trigger" for mind-controlled assassins and a vector for societal degradation.
+- **Sourced From:**
+  - **Source:** Steiger mentions it in relation to Mark David Chapman (Lennon's killer) and John Hinckley Jr. (Reagan's shooter).
+  - **Source:** The _Masters Mahan Podcast_ transcript devotes entire sections to analyzing this book as "scientific neuro-linguistic brainwashing" used to induce a trance state and push a "willing slavery agenda."
