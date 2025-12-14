@@ -1,8 +1,6 @@
 import { PageData } from "vitepress";
 
-type TwitterCard = "summary" | "summary_large_image" | "player";
-
-export function twitterCardType(pageData: PageData): TwitterCard {
+export function twitterCardType(pageData: PageData): string {
   const hasDescription =
     pageData.description && pageData.description != "" ? true : false;
   const usePlayer: boolean =

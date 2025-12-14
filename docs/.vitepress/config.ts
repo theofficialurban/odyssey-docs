@@ -510,12 +510,16 @@ const cfg: UserConfig = {
         content: twitterCard ?? "summary_large_image",
       },
     ]);
-    if (twitterCard == "player") {
+    if (
+      twitterCard == "player" &&
+      pageData.frontmatter.ogplayer &&
+      pageData.frontmatter.ogplayer != ""
+    ) {
       pageData.frontmatter.head.push([
         "meta",
         {
           name: "twitter:player",
-          content: pageData.frontmatter.ogplayer,
+          content: pageData.frontmatter.ogplayer ?? "",
         },
       ]);
       pageData.frontmatter.head.push([

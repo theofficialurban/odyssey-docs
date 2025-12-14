@@ -130,7 +130,7 @@ These were recommended using 234 of my other sources based on sources that pop u
 
 **1. _Tragedy and Hope: A History of the World in Our Time_ by Carroll Quigley**
 
-<Card title="The Works of Carroll Quigley" href="https://theofficialurban.substack.com/p/carroll-quigley" description="This article looks at the three primary works authored by the scholar Carroll Quigley - Quigley was a notable influence on President Bill Clinton, along with a very well-known professor at Georgetown" img="https://substackcdn.com/image/fetch/$s_!d3iN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F177707636%2F8acd3f8d-164d-4e3c-b06f-4457306063f5%2Ftranscoded-1761970056.png" />
+<!-- <Card title="The Works of Carroll Quigley" href="https://theofficialurban.substack.com/p/carroll-quigley" description="This article looks at the three primary works authored by the scholar Carroll Quigley - Quigley was a notable influence on President Bill Clinton, along with a very well-known professor at Georgetown" img="https://substackcdn.com/image/fetch/$s_!d3iN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F177707636%2F8acd3f8d-164d-4e3c-b06f-4457306063f5%2Ftranscoded-1761970056.png" /> -->
 
 - **Significance:** This text is the "smoking gun" for the existence of an Anglo-American elite network working to establish a world system of financial control. It is cited as the admission of the conspiracy by the conspirators themselves.
 - **Sourced From:**
