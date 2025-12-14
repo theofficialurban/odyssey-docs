@@ -25,7 +25,7 @@ scrolling="no"
 
 :::details Image Versions
 
-View the Imgur Album: https://imgur.com/a/biHcFg7
+<Card title="Juxtaposition1 Lexicon Imgur" img="https://i.imgur.com/I0PeVA0.png" description="A list of words and terms used by Juxtaposition1" href="https://imgur.com/a/biHcFg7" />
 
 [Fusion Centers]{.text-xl .font-bold .text-yellow-400}
 
@@ -39,6 +39,28 @@ View the Imgur Album: https://imgur.com/a/biHcFg7
 
 ![](https://i.imgur.com/x8sq3a9.jpeg)
 
+[Protocols & Mandates]{.text-xl .font-bold .text-yellow-400}
+
+![](https://i.imgur.com/ollZxay.jpeg)
+
+![](https://i.imgur.com/qLMwko1.jpeg)
+
+[Ultimatum]{.text-xl .font-bold .text-red-400}
+
+![](https://i.imgur.com/4e1Yvv8.jpeg)
+
+[Fascism]{.text-xl .font-bold .text-red-400}
+
+![](https://i.imgur.com/g1iW3mU.jpeg)
+
+["Higher Authority"]{.text-xl .font-bold .text-green-400}
+
+![](https://i.imgur.com/B6wRY6R.jpeg)
+
+:::
+
+:::tip Urban's Glossary
+Please also see <LinkPreview href="./glossary.html">Urban's Glossary</LinkPreview> of words & terms.
 :::
 
 ## Juxtaposition1 Lexicon {#lexicon}
