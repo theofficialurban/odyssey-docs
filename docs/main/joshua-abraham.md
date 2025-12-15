@@ -6,6 +6,10 @@ description: Posts from Joshua Abraham's Masonic Infiltration
 
 # Joshua Abraham's Infiltration of a 33rd Degree Masonic Study Group
 
+## Urban's Interview with Josh {#interview}
+
+<VEmbed src="https://rumble.com/embed/v6v4m96/?pub=3gc1h8" platform="Rumble" />
+
 :::danger {WARNING}
 These are Joshua Abraham's experiences, these are for reference and critical review only. I am not claiming any of these to be 100% fact. Use your own best judgement
 :::
