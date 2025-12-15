@@ -34,6 +34,17 @@ Make sure to check out his X page. Joshua Abraham, Son of Larry Abraham, author 
 
 <VEmbed platform="Raw" src="https://files.catbox.moe/gzw48b.mp4" />
 
+#### Follow [PRIZONPALACE](https://x.com/PrizonPalace?s=20) on Rumble
+
+<Card title="PRIZONPALACE" img="https://1a-1791.com/video/z0/z/V/N/N/zVNNe.asF.1-1a4zq1-ro979h.jpeg"
+description="PRIZONPALACE's videos on Rumble.com" href="https://rumble.com/user/PRIZONPALACE" />
+
+### Fritz Springmeier & Josh Abraham on The Imagination Podcast
+
+https://rumble.com/v72p9rc-s6e23-fritz-springmeier-undetectable-no-more-exposing-the-evolution-of-mk-u.html?mref=3gc1h8&mc=7m5w3
+
+<VEmbed src="https://rumble.com/embed/v70ilr4/?pub=3gc1h8" platform="Rumble" />
+
 ## THE COMPLETE LIST OF BOOKS TO SUCCESSFULLY INFILTRATE FREE MASONRY UP TO THE RANK OF THE THIRD DEGREE OF MASTER MASON:
 
 Read these books in this order for a more complete understanding of the Masonic Craft. There are no short cuts. You must read all these books front to back for a successful infiltration. This way, you will never have to take the Masonic “Oath of Light” and bind your soul to the Brotherhood on the checkered floor of the Lodge (Mathew [5:36](https://x.com/JoshuaAbraham33/status/1845029524838211990?t=336) KJV). Masonry is a fraternity of knowledge. Now you can defeat them at their own game.
