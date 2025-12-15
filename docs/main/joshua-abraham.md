@@ -2,13 +2,16 @@
 title: Joshua Abraham's 33rd Degree Infiltration
 ogimage: https://pbs.twimg.com/profile_images/1961680826820694016/HvIYgQ7t_400x400.jpg
 description: Posts from Joshua Abraham's Masonic Infiltration
+ogplayer: https://files.catbox.moe/gzw48b.mp4
+ogplayerwidth: 1280
+ogplayerheight: 720
 ---
+
+[[atomic]]
 
 # Joshua Abraham's Infiltration of a 33rd Degree Masonic Study Group
 
-## Urban's Interview with Josh {#interview}
-
-<VEmbed src="https://rumble.com/embed/v6v4m96/?pub=3gc1h8" platform="Rumble" />
+[[toc]]
 
 :::danger {WARNING}
 These are Joshua Abraham's experiences, these are for reference and critical review only. I am not claiming any of these to be 100% fact. Use your own best judgement
@@ -20,6 +23,16 @@ These are Joshua Abraham's experiences, these are for reference and critical rev
 
 Posts Written by [Joshua Abraham](https://x.com/YeshuaMyGod33)
 Make sure to check out his X page. Joshua Abraham, Son of Larry Abraham, author of the novel “None Dare Call It Conspiracy”, the first book to expose the Illuminati plan for the New World Order global government and one of Fritz Springmeier's disciples.
+
+## Videos {#videos}
+
+### Urban's Interview with Josh {#interview}
+
+<VEmbed src="https://rumble.com/embed/v6v4m96/?pub=3gc1h8" platform="Rumble" />
+
+### Josh Abraham calls into InfoWars to Expose Alex Jones {#infowars}
+
+<VEmbed platform="Raw" src="https://files.catbox.moe/gzw48b.mp4" />
 
 ## THE COMPLETE LIST OF BOOKS TO SUCCESSFULLY INFILTRATE FREE MASONRY UP TO THE RANK OF THE THIRD DEGREE OF MASTER MASON:
 
