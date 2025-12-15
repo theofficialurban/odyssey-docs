@@ -100,8 +100,6 @@ The church teaches that infallibility is a [charism](https://en.wikipedia.org/w
 ![](https://i.imgur.com/CgV92ra.jpeg)
 ![](https://i.imgur.com/A7VaHW1.jpeg)
 
-![Templar Flag](historical-flag-knights-templar-vector-file-illustration-95071565.webp)
-
 ![](https://i.imgur.com/x7w2bsY.jpeg)
 
 [Schematics]{.text-2xl .text-transparent .bg-clip-text .bg-gradient-to-r .from-orange-400 .to-yellow-600 .py-3}
