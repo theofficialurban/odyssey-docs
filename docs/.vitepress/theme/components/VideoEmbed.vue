@@ -41,7 +41,17 @@ const { platform, params = {}, className, src } = defineProps<Props>();
       v-bind="params"
     ></iframe>
   </div>
-  <div v-else-if="platform === 'Raw'" v-bind="params">
-    <slot>Raw Embed</slot>
+  <div v-else-if="platform === 'Raw'">
+    <slot>
+      <iframe
+        :class="['raw-embed', className]"
+        v-bind="params"
+        width="640"
+        height="360"
+        v-bind:src="src"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </slot>
   </div>
 </template>
