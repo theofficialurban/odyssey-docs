@@ -471,9 +471,6 @@ const cfg: UserConfig = {
   ],
   sitemap: {
     hostname: "https://docs.urbanodyssey.xyz",
-    transformItems(items) {
-      items[0].
-    },
   },
   transformPageData(pageData) {
     pageData.frontmatter.head ??= [];
@@ -517,7 +514,7 @@ const cfg: UserConfig = {
         content: twitterCard ?? "summary_large_image",
       },
     ]);
-    if(pageData.frontmatter.secret == true) {
+    if (pageData.frontmatter.secret == true) {
       // If the page is a secret page, make noindex meta tag
       pageData.frontmatter.head.push([
         "meta",
@@ -527,7 +524,6 @@ const cfg: UserConfig = {
         },
       ]);
     }
-
 
     if (
       twitterCard == "player" &&
