@@ -36,7 +36,7 @@ In the ongoing, undeclared war for global technocracy—designated in source int
 
 ## Master Sheet
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjFubVoA60qFjP6fquRlSxMDtgLLDOt_jTgKaKxUwkUfhMeTXTJM8M5TMzip162Hqq64mfN4qDtEAq/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width="100%" class="mx-auto" height="450px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjFubVoA60qFjP6fquRlSxMDtgLLDOt_jTgKaKxUwkUfhMeTXTJM8M5TMzip162Hqq64mfN4qDtEAq/pubhtml?widget=true&amp;headers=false"></iframe>
 
 https://docs.google.com/spreadsheets/d/e/2PACX-1vTjFubVoA60qFjP6fquRlSxMDtgLLDOt_jTgKaKxUwkUfhMeTXTJM8M5TMzip162Hqq64mfN4qDtEAq/pubhtml
 
