@@ -14,9 +14,13 @@ ogimage: https://i.imgur.com/S8FF3tf.png
 
 ## Overview
 
+![](https://pbs.twimg.com/media/G8z6sOQXwAAm-sv?format=jpg&name=4096x4096)
+
 These historical records detail **King James I’s** obsession with the supernatural, focusing on his treatise, _**Dæmonologie**_, and the sensational **North Berwick witch trials**. Written as a dialogue, the King’s text aims to prove the reality of **witchcraft** and **necromancy** while arguing for the necessity of severe legal punishments. The accounts describe how the **Devil** allegedly recruits followers through greed or revenge, marking them with insensible physical signs to seal their unholy pacts. Related reports from **Scotland** recount the brutal use of **torture**, such as the "boots" and "pilliwinckes," to extract confessions from accused individuals like **Agnis Sampson** and **Doctor Fian**. These sources illustrate a period where the monarchy viewed sorcery as **high treason against God**, claiming the King was uniquely protected by divine providence. Ultimately, the writings reflect a **theological worldview** that sought to categorize spirits and justify the state-sponsored execution of those suspected of diabolical activities.
 
-![](https://pbs.twimg.com/media/G8z6sOQXwAAm-sv?format=jpg&name=4096x4096)
+:::left
+<AudioEmbed src="https://files.catbox.moe/bobmwm.m4a" caption="Audio Deep Dive" />
+:::
 
 This document is a historical exploration of **King James I’s Dæmonologie**, a theological dialogue written to prove the reality of **witchcraft** and the necessity of its **legal punishment**. The text is structured into three books that categorize unlawful arts into **learned magic or necromancy**, driven by curiosity, and **sorcery or witchcraft**, fueled by greed or revenge. Central to the work is the concept of a **mutually binding contract** with the Devil, whom James describes as "God's hangman," an instrument permitted by the Divine to test the faithful or punish the wicked. Supplementing the theoretical discourse is a vivid account of the **North Berwick witch trials**, detailing the "miraculous" confessions and **brutal tortures** used to extract them. Ultimately, the source serves as a royal manifesto intended to resolve "doubting hearts" by asserting that **Satanic assaults** are a certainty and that the King, as the **Lord’s anointed**, remains uniquely protected by God against such dark conspiracies.
 
@@ -27,6 +31,10 @@ This document is a historical exploration of **King James I’s Dæmonologie**,
 <Card title="The Playbook of the Jacobins Revealed & Robison's Proofs of a Conspiracy" img="https://substackcdn.com/image/fetch/$s_!kNf1!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F180458966%2F92230e18-7b21-406c-9223-0aa775f31554%2Ftranscoded-1764794964.png" description="A recovered (and very rare) set of memoires I have uncovered detailing the Illuminati (called at this point in history: Jacobins) playbook along with Robinson's Proofs of a Conspiracy" href="../mahanism/jacobinism.html" :preview="true" />
 
 </Grid>
+
+## Video Deep Dive {#video}
+
+<YouTube id="-EHqUi9c1fI" />
 
 ## **King James's Four Kinds of Spirits: A Beginner's Guide to 'Dæmonologie'**
 
