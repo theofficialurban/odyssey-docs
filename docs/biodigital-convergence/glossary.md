@@ -34,6 +34,12 @@ See Also:
 
 In the ongoing, undeclared war for global technocracy—designated in source intelligence as the "Omniwar"—language is the primary battlespace and terminology is the primary weapon system. This conflict is not fought on conventional battlefields but within the human psyche, and its primary ammunition consists of deliberately deceptive terminology. Official terms such as "pandemic," "vaccine," and "public health" have been repurposed as psychological triggers, planted at moments of traumatic rupture to induce fear, compliance, and menticide—the murder of the mind. This glossary serves as a critical decoding tool, providing definitions and analysis grounded exclusively in the provided source context. Its purpose is to reveal the operational meaning behind the official language used to deceive the public and to advance a premeditated, meticulously orchestrated totalitarian agenda.
 
+## Master Sheet
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTjFubVoA60qFjP6fquRlSxMDtgLLDOt_jTgKaKxUwkUfhMeTXTJM8M5TMzip162Hqq64mfN4qDtEAq/pubhtml?widget=true&amp;headers=false"></iframe>
+
+https://docs.google.com/spreadsheets/d/e/2PACX-1vTjFubVoA60qFjP6fquRlSxMDtgLLDOt_jTgKaKxUwkUfhMeTXTJM8M5TMzip162Hqq64mfN4qDtEAq/pubhtml
+
 ## DECODING THE VERNACULAR OF GLOBAL ENSLAVEMENT: THE GLOSSARY OF DECEIT {#soft-language}
 
 ::: warning
