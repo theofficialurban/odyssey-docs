@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { NolebaseInlineLinkPreview } from "@nolebase/vitepress-plugin-inline-link-preview";
 import { useData } from "vitepress";
 import { useSlots } from "vue";
 
@@ -49,12 +50,18 @@ defineProps({
     required: false,
     default: "14px",
   },
+  preview: {
+    type: Boolean,
+    required: false,
+    default: false,
+  },
 });
 </script>
 
 <template>
   <a
     :href="href"
+    v-if="preview === false"
     target="_blank"
     rel="noopener noreferrer"
     :class="[
@@ -84,6 +91,37 @@ defineProps({
       <sub v-if="showUrl === true" class="font-mono">{{ href }}</sub>
     </div>
   </a>
+
+  <NolebaseInlineLinkPreview
+    :href="href"
+    :class="[
+      'card group md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden rounded-lg border border-gray-700 bg-gray-800 shadow-lg',
+      ' hover:shadow-cyan-500/30 md:max-h-[200px]',
+      className,
+    ]"
+    v-else-if="preview === true"
+  >
+    <div class="overflow-hidden">
+      <img
+        :src="img ?? `https://i.imgur.com/S8LHDQ7.jpeg`"
+        :alt="`Image for ${title}`"
+        class="cardImg"
+      />
+    </div>
+    <div class="hidden"><slot></slot></div>
+    <div class="p-6 md:col-span-3">
+      <slot name="title">
+        <h1 class="mb-2 font-bold text-gray-100 group-hover:text-cyan-400">
+          {{ title }}
+        </h1>
+      </slot>
+
+      <p v-if="description" class="text-gray-400">
+        {{ description }}
+      </p>
+      <sub v-if="showUrl === true" class="font-mono">{{ href }}</sub>
+    </div>
+  </NolebaseInlineLinkPreview>
 </template>
 
 <style>

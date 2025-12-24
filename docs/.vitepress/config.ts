@@ -469,7 +469,9 @@ const cfg: UserConfig = {
       },
     ],
   ],
-
+  sitemap: {
+    hostname: "https://docs.urbanodyssey.xyz",
+  },
   transformPageData(pageData) {
     pageData.frontmatter.head ??= [];
     const twitterCard = pageData.frontmatter.ogtype
