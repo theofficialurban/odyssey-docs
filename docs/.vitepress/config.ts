@@ -477,6 +477,7 @@ const cfg: UserConfig = {
     const twitterCard = pageData.frontmatter.ogtype
       ? pageData.frontmatter.ogtype
       : twitterCardType(pageData);
+    const pageType: string = pageData.frontmatter.type ?? "article";
     pageData.frontmatter.head.push([
       "meta",
       {
@@ -526,7 +527,7 @@ const cfg: UserConfig = {
     }
 
     if (
-      twitterCard == "player" &&
+      (twitterCard == "player" || pageType == "audio" || pageType == "video") &&
       pageData.frontmatter.ogplayer &&
       pageData.frontmatter.ogplayer != ""
     ) {
@@ -609,13 +610,81 @@ const cfg: UserConfig = {
         content: "630",
       },
     ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "og:type",
-        content: pageData.frontmatter.type ?? "article",
-      },
-    ]);
+    // og:(case type):(third variable) = value, if none then use supplied
+    const thirdVariables = ["url", "secure_url", "type", "width", "height"];
+    switch (pageType) {
+      case "video":
+        const additionalVideoVars: [string, string][] = [
+          ["og:video", pageData.frontmatter.ogplayer ?? ""],
+          ["og:video:url", pageData.frontmatter.ogplayer ?? ""],
+          ["og:video:secure_url", pageData.frontmatter.ogplayer ?? ""],
+          ["og:video:type", "text/html"],
+          [
+            "og:video:width",
+            String(pageData.frontmatter.ogplayerwidth) ?? "1280",
+          ],
+          [
+            "og:video:height",
+            String(pageData.frontmatter.ogplayerheight) ?? "720",
+          ],
+        ];
+
+        pageData.frontmatter.head.push([
+          "meta",
+          {
+            name: "og:type",
+            content: "video.other",
+          },
+        ]);
+        additionalVideoVars.forEach((av) => {
+          const [key, val] = av;
+          pageData.frontmatter.head.push([
+            "meta",
+            {
+              name: key,
+              content: val,
+            },
+          ]);
+        });
+
+        break;
+      case "audio":
+        const additionalAudioVars: [string, string][] = [
+          ["og:audio", pageData.frontmatter.ogplayer ?? ""],
+          ["og:audio:url", pageData.frontmatter.ogplayer ?? ""],
+          ["og:audio:secure_url", pageData.frontmatter.ogplayer ?? ""],
+          ["og:audio:type", "audio/mpeg"],
+        ];
+
+        pageData.frontmatter.head.push([
+          "meta",
+          {
+            name: "og:type",
+            content: "audio",
+          },
+        ]);
+        additionalAudioVars.forEach((av) => {
+          const [key, val] = av;
+          pageData.frontmatter.head.push([
+            "meta",
+            {
+              name: key,
+              content: val,
+            },
+          ]);
+        });
+
+        break;
+      default:
+        pageData.frontmatter.head.push([
+          "meta",
+          {
+            name: "og:type",
+            content: "article",
+          },
+        ]);
+        break;
+    }
   },
   markdown: {
     html: true,

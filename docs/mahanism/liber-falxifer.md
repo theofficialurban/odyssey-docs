@@ -2,12 +2,12 @@
 title: The Books of the Anamlaqayin
 description: Notes from two of the darkest books I have come across
 secret: true
-ogimage: https://i.imgur.com/Dtpqp6c.png
+ogimage: https://i.imgur.com/8bXKA56.png
 ---
 
 # The Book(s) of the Left Handed Reaper
 
-![](https://i.imgur.com/Dtpqp6c.png)
+![](https://i.imgur.com/8bXKA56.png)
 
 ::: danger
 

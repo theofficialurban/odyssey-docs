@@ -1,8 +1,9 @@
 ---
 title: Defining Mahanism
-collection: mahanism
-useHeaderFont: Hey August
-useBodyFont: Luxurious Roman
+type: video
+ogplayer: https://www.youtube.com/embed/csqUdkzCDl0
+ogplayerwidth: 1280
+ogplayerheight: 720
 ---
 
 # What does `Mahan` / `Mahanism` Mean?
