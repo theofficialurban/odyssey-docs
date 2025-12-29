@@ -1,5 +1,5 @@
 ---
-title: Magic
+title: 40.Magic
 description: Articles and notes on Magic and Kabbalah
 secret: true
 layout: page

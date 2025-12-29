@@ -751,10 +751,16 @@ export default defineConfig(
     capitalizeEachWords: true,
     documentRootPath: "/docs",
     hyphenToSpace: true,
-    collapsed: false,
-    includeFolderIndexFile: true,
+    collapsed: true,
+
     underscoreToSpace: true,
     capitalizeFirst: true,
     excludeFilesByFrontmatterFieldName: "secret",
+    sortMenusOrderNumericallyFromTitle: true,
+    prefixSeparator: ".",
+    removePrefixAfterOrdering: true,
+    includeEmptyFolder: false,
+
+    includeDotFiles: false,
   })
 );

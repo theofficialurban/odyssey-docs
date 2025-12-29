@@ -1,5 +1,5 @@
 ---
-title: Numerology
+title: 60.Numerology
 description: Numerology references and esoteric meanings
 secret: true
 layout: page

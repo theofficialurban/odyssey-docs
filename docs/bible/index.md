@@ -1,5 +1,5 @@
 ---
-title: The Bible
+title: 20.Bible
 description: Urban's notes on the Bible & Biblical Resources
 layout: page
 secret: true

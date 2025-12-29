@@ -1,5 +1,5 @@
 ---
-title: Spotify Playlists
+title: 30.Spotify Playlists
 layout: page
 description: This is a (mostly) up to date list of all of the sub-Playlists I have created from my Podcast. All listings will be located here
 pageClass: dark

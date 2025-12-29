@@ -1,5 +1,6 @@
 ---
 layout: doc
+secret: true
 ---
 
 # VitePress & Vue

@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Home
+title: 0.Index
 description: Documents and Notes Root
 ---
 
