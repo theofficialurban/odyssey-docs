@@ -23,6 +23,8 @@ You can find the series on many platforms
 
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0YBAKOtukmMvGCjQkp8pMN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+:::
+
 ## 6G and Beyond: A Deep-Dive Examination of the Bio-Digital Control Network
 
 ### 1.0 Introduction: Deconstructing the "Next Generation" Narrative
