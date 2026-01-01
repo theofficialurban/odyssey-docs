@@ -17,6 +17,7 @@ import Rules, {
 import { Renderer } from "markdown-it/index.js";
 import Token from "markdown-it/lib/token.mjs";
 import { twitterCardType } from "./TwitterCard";
+import { computed, ref } from "vue";
 let md = markdownit();
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
@@ -390,6 +391,19 @@ const substackEmbedScript: HeadConfig = [
 
 const customHeaders: HeadConfig[] = [imgurEmbedScript, substackEmbedScript];
 
+const baseOgImages = [
+  `${siteBaseUrl}/og/1.jpg`,
+  `${siteBaseUrl}/og/2.jpg`,
+  `${siteBaseUrl}/og/3.jpg`,
+  "https://i.imgur.com/S8LHDQ7.jpeg",
+];
+function getRandomOg(): string {
+  const imgs = baseOgImages.length;
+  const max = imgs - 1;
+  const pickRand = Math.floor(Math.random() * max);
+  return baseOgImages[pickRand] ?? `${siteBaseUrl}/og/1.jpg`;
+}
+
 const cfg: UserConfig = {
   title: "Urban Odyssey",
   titleTemplate: ":title | Urban Odyssey Database",
@@ -478,36 +492,64 @@ const cfg: UserConfig = {
       ? pageData.frontmatter.ogtype
       : twitterCardType(pageData);
     const pageType: string = pageData.frontmatter.type ?? "article";
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "og:title",
-        content:
-          pageData.frontmatter.layout === "home"
-            ? `Urban Odyssey Database`
-            : `${pageData.title} | Urban Odyssey Database`,
-      },
-    ]);
+    let rawTitle = ref<string>(pageData.frontmatter.title);
+    // If there is a ordering integer on the title (i.e `20.Home`) this will be removed for SEO
+    if (rawTitle.value.includes(".")) {
+      const splitTitle = computed<string>(() => {
+        const titleSplit = rawTitle.value.split(".");
+        if (titleSplit.length == 2) {
+          return titleSplit[1];
+        }
+        return rawTitle.value;
+      });
+      rawTitle.value = splitTitle.value;
+      pageData.title = rawTitle.value;
+      pageData.frontmatter.title = rawTitle.value;
+    }
+    // Sets the `og:title` and the `twitter:title`
+    const finalPageTitle =
+      pageData.frontmatter.layout === "home"
+        ? `Urban Odyssey Database`
+        : `${rawTitle.value} | Urban Odyssey Database`;
+    pageData.frontmatter.head.push(
+      [
+        "meta",
+        {
+          name: "og:title",
+          content: finalPageTitle,
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "twitter:title",
+          content: finalPageTitle,
+        },
+      ]
+    );
 
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "twitter:title",
-        content:
-          pageData.frontmatter.layout === "home"
-            ? `Urban Odyssey Database`
-            : `${pageData.title} | Urban Odyssey Database`,
-      },
-    ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "og:description",
-        content:
-          pageData.description ??
-          "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
-      },
-    ]);
+    // Sets the `og:description` and `twitter:description`
+    pageData.frontmatter.head.push(
+      [
+        "meta",
+        {
+          name: "og:description",
+          content:
+            pageData.description ??
+            "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "twitter:description",
+          content:
+            pageData.description ??
+            "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
+        },
+      ]
+    );
+
     pageData.frontmatter.head.push([
       "meta",
       {
@@ -531,54 +573,108 @@ const cfg: UserConfig = {
       pageData.frontmatter.ogplayer &&
       pageData.frontmatter.ogplayer != ""
     ) {
-      pageData.frontmatter.head.push([
-        "meta",
-        {
-          name: "twitter:player",
-          content: pageData.frontmatter.ogplayer ?? "",
-        },
-      ]);
-      pageData.frontmatter.head.push([
-        "meta",
-        {
-          name: "twitter:player:stream",
-          content:
-            pageData.frontmatter.ogplayer ??
-            pageData.frontmatter.ogplayerstream,
-        },
-      ]);
-      pageData.frontmatter.head.push([
-        "meta",
-        {
-          name: "twitter:player:width",
-          content: String(pageData.frontmatter.ogplayerwidth) ?? "1280",
-        },
-      ]);
-      pageData.frontmatter.head.push([
-        "meta",
-        {
-          name: "twitter:player:height",
-          content: String(pageData.frontmatter.ogplayerheight) ?? "720",
-        },
-      ]);
+      const ogPHeight =
+        String(pageData.frontmatter.ogplayerheight ?? 720) ?? "720";
+      const ogPWidth =
+        String(pageData.frontmatter.ogplayerwidth ?? 1280) ?? "1280";
+      pageData.frontmatter.head.push(
+        [
+          "meta",
+          {
+            name: "twitter:player",
+            content: pageData.frontmatter.ogplayer ?? "",
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:player:stream",
+            content:
+              pageData.frontmatter.ogplayer ??
+              pageData.frontmatter.ogplayerstream,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:player:width",
+            content: ogPWidth,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:player:height",
+            content: ogPHeight,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "og:player:width",
+            content: ogPWidth,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "og:player:height",
+            content: ogPHeight,
+          },
+        ]
+      );
     }
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "twitter:description",
-        content:
-          pageData.description ??
-          "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
-      },
-    ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "og:image",
-        content:
-          pageData.frontmatter.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg",
-      },
-    ]);
+    // Sets the `og:image` and the `twitter:image` along with height and width
+    const ogImage = pageData.frontmatter.ogimage ?? getRandomOg();
+    const ogIHeight =
+      String(pageData.frontmatter.ogimageheight ?? 630) ?? "630";
+    const ogIWidth =
+      String(pageData.frontmatter.ogimagewidth ?? 1200) ?? "1200";
+    pageData.frontmatter.head.push(
+      [
+        "meta",
+        {
+          name: "og:image",
+          content: ogImage,
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "twitter:image",
+          content: ogImage,
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "og:image:width",
+          content: ogIWidth,
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "twitter:image:width",
+          content: ogIWidth,
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "og:image:height",
+          content: ogIHeight,
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "twitter:image:height",
+          content: ogIHeight,
+        },
+      ]
+    );
+
     const baseUrl = `${siteBaseUrl}/${pageData.relativePath}`;
     const pgUrl = baseUrl.replace(".md", ".html");
     pageData.frontmatter.head.push([
@@ -588,28 +684,7 @@ const cfg: UserConfig = {
         content: pageData.frontmatter.ogurl ?? pgUrl,
       },
     ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "twitter:image",
-        content:
-          pageData.frontmatter.ogimage ?? "https://i.imgur.com/S8LHDQ7.jpeg",
-      },
-    ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "og:image:width",
-        content: "1200",
-      },
-    ]);
-    pageData.frontmatter.head.push([
-      "meta",
-      {
-        name: "og:image:height",
-        content: "630",
-      },
-    ]);
+
     // og:(case type):(third variable) = value, if none then use supplied
     const thirdVariables = ["url", "secure_url", "type", "width", "height"];
     switch (pageType) {

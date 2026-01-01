@@ -39,7 +39,21 @@ const collections = computed(() => {
     const publicPages: Page[] = found.pages.filter(
       (pg) => pg.secret === undefined || pg.secret === false
     );
-    cm.set(c, { definition: findCol, collection: found, publicPages });
+    const titleFix = publicPages.map((pubPg) => {
+      const oldTitle: string = pubPg.title ?? pubPg.frontmatter.title;
+      if (oldTitle.includes(".")) {
+        const splitTitle = oldTitle.split(".");
+        if (splitTitle.length == 2) {
+          return { ...pubPg, title: splitTitle[1] };
+        }
+      }
+      return { ...pubPg };
+    });
+    cm.set(c, {
+      definition: findCol,
+      collection: found,
+      publicPages: titleFix,
+    });
   });
   return cm;
 });
