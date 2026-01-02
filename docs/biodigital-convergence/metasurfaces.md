@@ -10,6 +10,8 @@ ogimageheight: 1342
 
 # Programmable Metasurfaces & VisorSurf {#title}
 
+![](https://www.visorsurf.eu/m/filer_public_thumbnails/filer_public/40/80/40803283-a83d-44f3-a792-59571ef18feb/visorsurf2.png__1890x1342_q85_crop_upscale.png)
+
 [[toc]]
 
 ## Overview
@@ -27,6 +29,14 @@ Modern wireless communication faces significant hurdles like **signal fading** a
 ## Urban's Video on Metasurfaces {#video}
 
 <YouTube id="OWVqaTsUJpI" />
+
+## Images
+
+![](https://i.imgur.com/MHnQ9f9.png)
+
+![](https://www.visorsurf.eu/m/filer_public_thumbnails/filer_public/4d/42/4d424e18-e696-48e9-b36a-30a77e343660/visorsurf1.png__2106x800_q85_crop_upscale.png)
+
+![](https://www.visorsurf.eu/m/cms_page_media/5/f534824d-9cc0-4473-bd0f-5547dccecde0.png)
 
 ## **Reshaping Connectivity: An Analysis of Metasurface Technologies in Next-Generation Wireless Communications**
 
