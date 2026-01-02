@@ -32,7 +32,6 @@ import SubstackPost from "./components/SubstackPost.vue";
 import CardGrid from "./components/CardGrid.vue";
 import CardPreset from "./components/CardPreset.vue";
 import LayoutShare from "./components/LayoutShare.vue";
-import DictTest from "./components/DictTest.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -104,7 +103,7 @@ export default {
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
     app.component("Grid", CardGrid);
-    app.component("DictTest", DictTest);
+
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
 
