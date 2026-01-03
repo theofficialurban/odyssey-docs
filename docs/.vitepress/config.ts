@@ -380,6 +380,12 @@ const substackEmbedScript: HeadConfig = [
     charset: "utf-8",
   },
 ];
+const dictTooltipScript: HeadConfig = [
+  "script",
+  {
+    src: "/dictionary/dict.js",
+  },
+];
 
 // [
 //   "script",

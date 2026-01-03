@@ -103,7 +103,7 @@ export default {
     app.component("AudioEmbed", AudioEmbed);
     app.component("PDF", PDF);
     app.component("Grid", CardGrid);
-
+    //app.component("DictTest", DictTest);
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
 

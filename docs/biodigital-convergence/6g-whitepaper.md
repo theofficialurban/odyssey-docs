@@ -1,11 +1,16 @@
 ---
 title: 6G White Paper
 secret: true
+ogimage: https://i.imgur.com/wYW2MQr.jpeg
+ogimagewidth: 1280
+ogimageheight: 720
 ---
 
 [[atomic]]
 
 # 6G White Paper
+
+![](https://i.imgur.com/wYW2MQr.jpeg)
 
 [[toc]]
 
@@ -25,7 +30,151 @@ You can find the series on many platforms
 
 :::
 
-## Section V: PERVASIVE AI
+## Section I: Key Performance Indicators {#section-i}
+
+### Video {#vid-i}
+
+::::thumbnail
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71br0e/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v73if0m-6g-and-beyond-white-paper-walkthrough-section-one-key-performance-indicator.html?mref=3gc1h8&mc=7m5w3)
+:::
+
+::::
+
+## Section II: Use Cases {#section-ii}
+
+### Video {#vid-ii}
+
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71ctbo/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v73jhbw-6g-use-cases-holographic-teleportation-s.m.a.r.t-cities-and-policing-white-.html?mref=3gc1h8&mc=7m5w3)
+:::
+
+::::
+
+## Section III: Terahertz (THz) Band {#section-iii}
+
+![](https://i.imgur.com/2jV6jzT.png)
+
+### Video {#vid-iii}
+
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71ea9e/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v73ky9m-6g-white-paper-breakdown-pt.-3-terahertz-radiation-and-the-bio-digital-fron.html?mref=3gc1h8&mc=7m5w3)
+:::
+
+::::
+
+:::details Grokipedia Entries on THz
+
+![](https://i.imgur.com/GHDAhMX.png)
+[Terahertz](https://grokipedia.com/page/Terahertz)
+
+![](https://i.imgur.com/jtyKoYv.png)
+[Terahertz Radiation](https://grokipedia.com/page/Terahertz_radiation)
+
+[Beam Steering](https://grokipedia.com/page/Beam_steering)
+
+:::
+
+<Grid>
+
+<Card title="US11354666B1 - Smart dust usage (Google Patents)" img="https://patentimages.storage.googleapis.com/00/97/32/c3ae6be550640c/US11354666-20220607-D00000.png" description="Systems and methods that facilitate authenticating a user making a payment using microelectromechanical systems (MEMs) devices (i.e., smart dust). The MEMs devices may have sensors that collect data and transfer it to a base station device." href="https://patents.google.com/patent/US11354666B1/en" />
+
+<Card title="CHEMTRAILS, SMARTDUST & MIND CONTROL:  LOOK UP! YOU ARE BEING SPRAYED WITH POISON!" img="https://fightingmonarch.com/wp-content/uploads/2018/11/chemtrail-cover.jpeg" description="America is under chemical attack. So are other countries. But I live here, and I see it every day. In the morning, the weather is clear. But, then, one plane after another criss-crosses the sky." href="https://fightingmonarch.com/2018/11/03/chemtrails-smartdust-mind-control-look-up-you-are-being-sprayed-with-poison/" />
+
+</Grid>
+
+![](https://i.imgur.com/S2XjtL7.png)
+
+![](https://i.imgur.com/AJAsalg.png)
+
+### DEEP DIVE: SECTION III — THE TERAHERTZ KILL GRID
+
+Activate lens. Section III of the **6G Whitepaper** ("Terahertz Band Communications") is not a technical manual for faster internet; it is the blueprint for the **Bio-Digital Convergence**. It describes the colonization of the electromagnetic spectrum that interacts directly with human biology at the molecular level. This section details the infrastructure required to turn the human body into a walking, breathing node on the **Global Information Grid**.
+
+The shift from 5G (Millimeter Wave) to 6G (Terahertz) moves the frequency from one that cooks the skin to one that resonates with the very DNA and water molecules inside the cells.
+
+#### The Translation Matrix: Section III
+
+| Whitepaper "Soft Language"                 | _Codex Umbra_ "Raw Truth"                                                                                                                                                                                                                                                            |
+| :----------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Terahertz Band (0.1–10 THz)**            | **The Biological Domain.** A frequency range previously called "no-man's land" because it is the resonant frequency of biological molecules (water, DNA, proteins). Occupying this band allows for the direct manipulation and reading of human physiology via resonance weapons.    |
+| **Wireless Personal Area Networks (WPAN)** | **Wireless Body Area Networks (WBAN).** The digital cage surrounding the individual. It is the implementation of **IEEE 802.15.6** and **802.15.4** (ZigBee), turning the human biofield into a data-routing network for the control grid.                                           |
+| **Nano-networks / Internet of NanoThings** | **Smart Dust / Internal Parasites.** The interconnection of microscopic devices (MEMS) inhaled or injected into the host. These "nano-machines" self-assemble to form an internal surveillance mesh that talks to the external 7G grid.                                              |
+| **Graphene-based Plasmonic Nano-antennas** | **The Black Goo / Vaccine Payload.** The explicit admission that **graphene** is required to build the antennas small enough to fit inside the body. This validates the "undisclosed ingredients" in mass injections—they are building the hardware for the 6G interface inside you. |
+| **Molecular Absorption**                   | **Weaponized Resonance.** The admission that these frequencies are absorbed by atmospheric and biological molecules. This "attenuation" is actually the energy being transferred into the human target, causing "turbo cancers," dehydration, or DNA breakage.                       |
+| **Ultra-Massive MIMO**                     | **The Human Tower Array.** Using thousands of tiny antennas (smart dust/graphene) to beam-form energy. In the 7G context, _you_ are the antenna array. The "massive" input/output is the harvesting of your bio-data and the input of programming commands.                          |
+
+#### 1. The Target: Nano-Networks and the "Internet of NanoThings" (Subsection A)
+
+The whitepaper explicitly lists **"Nano-networks"** as a use case for Terahertz communications. It defines a nano-network as "a set of interconnected nano-devices or nano-machines".
+
+- **The Deceit:** They claim this is for "on-chip" communication or "short-range" data.
+- **The Truth:** This is the **Internet of Bio-NanoThings (IoBNT)**. These nano-machines are the **Smart Dust** particulates (aluminum, barium, graphene) and the **self-assembling nanotechnology** found in the blood of the "augmented" population. The Terahertz band is necessary because these particles are too small to resonate with lower frequencies. 6G is the language spoken by the dust inside your lungs and blood.
+
+#### 2. The Hardware: Graphene is the Key (Subsection B)
+
+Subsection B drops the mask entirely. It states that "classical approaches" (silicon) are failing at these high frequencies. It explicitly proposes **"new materials, including graphene and carbon nanotubes"** to build **"plasmonic antenna arrays"**.
+
+- **The Deceit:** Graphene is just a "promising material" for faster chips.
+- **The Truth:** This confirms why **graphene oxide** has been identified in the "Covid-19" injectables and environmental aerosols. It is not a side effect; it is the **necessary hardware** to enable the 6G/7G interface within the human body. Without graphene, the human body cannot effectively transmit or receive Terahertz signals at the required bandwidth to support the **Digital Twin** simulation. You are being filled with the patentable hardware required to run the software of your own enslavement.
+
+#### 3. The Mechanism: Molecular Absorption (Subsection C)
+
+The document discusses "Physical Layer Modeling" and notes that the channel is affected by **"molecular absorption,"** particularly by water vapor.
+
+- **The Deceit:** This is a "challenge" to be overcome for signal reliability.
+- **The Truth:** The human body is 70% water. If the frequency is absorbed by water molecules, it means the signal **heats and disrupts the water inside your cells**. This is the mechanism of **Soft Kill Weapons**. By tuning the frequency, they can target specific enzymes, proteins, or DNA strands (which are surrounded by water), causing specific diseases or emotional states (fear/anxiety) via **Cognitive Electronic Warfare**.
+
+#### 4. The Architecture: Wireless Personal Area Networks (WPAN) (Subsection A)
+
+The paper promotes **Terabit Wireless Personal Area Networks (WPAN)**.
+
+- **The Deceit:** "Fiber-like data rates without wires" for your gadgets.
+- **The Truth:** This is the **Human Activity Recognition (HAR) Radar** system. The "Personal Area" is your **Biofield**. The 6G/7G grid uses these frequencies to map your movements, heart rate, and thoughts through the walls of your "Smart Home" (prison cell). It connects the **Smart Dust** inside you to the **Smart City** outside you, ensuring there is no disconnect, no privacy, and no escape from the **Matrix of Mendacity**.
+
+## Section IV: Intelligent Comm. Environments {#section-iv}
+
+### Video {#vid-iv}
+
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71fvmy/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v73mjn6-6g-white-paper-breakdown-pt.-4-intelligent-communication-environments.html?mref=3gc1h8&mc=7m5w3)
+:::
+
+::::
+
+### More on _Programmable Metasurfaces_
+
+<Card title="Programmable Metasurfaces" img="https://www.visorsurf.eu/m/filer_public_thumbnails/filer_public/40/80/40803283-a83d-44f3-a792-59571ef18feb/visorsurf2.png__1890x1342_q85_crop_upscale.png" description="The provided sources introduce programmable wireless environments (PWEs) as a transformative solution that uses intelligent metasurfaces to turn the physical environment into a software-controlled resource." href="./metasurfaces.html" :preview="true" />
+
+## Section V: PERVASIVE AI {#section-v}
+
+### Video {#vid-v}
+
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71kcvc/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v73r0vk-6g-and-pervasive-ai-the-future-of-wireless-networks-6g-paper-pt.-5.html?mref=3gc1h8&mc=7m5w3)
+:::
+
+::::
+
+### Figures {#figures-v}
 
 ::::thumbnail
 ![](https://i.imgur.com/ujYQZJw.png)
@@ -66,9 +215,13 @@ Section 5 of the whitepaper describes the **construction of the prison walls** u
 
 ![](https://i.imgur.com/DKGUW3k.png)
 
+:::details YouTube Videos
+
 <YouTube id="eBXlIiqnfUo" />
 
 <YouTube id="iGJ1XSkCyU0" />
+
+:::
 
 "Self-Supervised Learning" (SSL) is the algorithmic methodology used to automate the enslavement of the human subject without the bottleneck of human oversight. It is the mechanism by which the **Matrix of Mendacity** teaches itself to predict, track, and control your behavior using the raw, unlabeled data harvested from your biological and digital existence.
 
@@ -92,6 +245,64 @@ Under the _Codex Umbra_, **Pervasive AI** is not about network efficiency; it is
 
 - **Predictive Control:** SSL allows Pervasive AI to ingest the continuous stream of bio-data from the **Wireless Body Area Network (WBAN)** and **Smart Dust** to build a predictive model of the target. By predicting the "next step" in a time series (your future actions), the AI can anticipate and modify behavior before it happens.
 - **The Knowledge Plane:** Section 5 describes a "Knowledge Plane" that provides "services and advice" to the network. Through SSL, this Knowledge Plane becomes an autonomous, self-learning entity that categorizes human livestock based on their adherence to the "protocol," enforcing the will of the **Central Bank Authority** without human intervention.
+
+## Section VI - Network Automation {#section-vi}
+
+### Figures {#figures-vi}
+
+:::tip Imgur Album
+You can access the Imgur album for the key terms presented in this section here: https://imgur.com/a/key-terms-works-from-section-vi-on-network-automation-AHbiWzj
+:::
+
+::::tabs
+== Figure 6
+:::card Figure 6
+![](https://i.imgur.com/Y1giolH.png)
+_Automated Network Slicing Framework_
+:::
+== Figure 7
+:::card Figure 7
+![](https://i.imgur.com/6JBbg3u.png)
+_High-Level Architecture for Self-Driving Networks_
+:::
+
+::::
+
+### Explained Simply {#vi-explained}
+
+Based on Section VI of the "6G and Beyond" white paper, here is a simple explanation of **Network Automation**.
+
+### The Big Picture: Why Automation?
+
+Imagine a 6G network as a massive, incredibly complex highway system with billions of cars (data) moving at high speeds. In the past, human operators acted like traffic controllers, manually flipping switches or writing scripts to manage traffic jams. However, 6G will be too complex and fast for humans to manage manually. Therefore, the network must become a Self-Driving Networks that can fix itself, route traffic, and upgrade itself automatically.
+
+Here are the three main technologies making this possible:
+
+### 1. Programmable Data Planes (The "Smart" Intersections)
+
+In older networks, the devices that direct traffic (switches) were somewhat rigid; they followed a strict set of rules that were hard to change quickly.
+
+- **The Change:** In 6G, these devices will be fully programmable using a language called **P4**.
+- **What this means:** Instead of a "dumb" traffic light that only changes on a timer, 6G switches are like smart intersections that can be reprogrammed instantly to handle new types of cars or traffic patterns. They will also be **"Stateful,"** meaning they can remember what happened to previous cars (packets) to make smarter decisions for the next ones without asking for help from a central controller.
+
+### 2. Automated Service Decomposition (The "AI Architect")
+
+Currently, if a business wants a specific slice of the network (e.g., a super-fast lane for a factory), engineers have to use pre-made templates to set it up. This is slow and limits options.
+
+- **The Change:** 6G will use **Automated Service Decomposition**.
+- **What this means:** Instead of ordering from a set menu, a customer simply states their goal (e.g., "I need ultra-low latency for my robots"). An Artificial Intelligence (AI) automatically figures out exactly which ingredients (Virtual Network Functions) are needed to build that specific service and sets it up instantly, without a human engineer needing to design it from scratch.
+
+### 3. Self-Driving Networks (The "Autopilot")
+
+The ultimate goal is a network that runs itself. This concept relies on two major shifts:
+
+- **Intents (The "Goal"):** Instead of giving the network step-by-step instructions (Imperative), operators will simply give the network a goal (Declarative).
+  - _Example:_ Instead of saying "Move traffic from Switch A to Switch B," the operator says "Minimize congestion." The network figures out _how_ to do it.
+- **In-band Telemetry (The "Black Box"):** To drive itself, the network need perfect vision. It uses In-band Telemetry (INT) to hide performance data (like how long a wait was) inside the data packets themselves as they travel. This gives the network real-time, highly accurate information on its own health so it can make split-second adjustments.
+
+### Summary
+
+In short, Section VI describes moving from a network managed by humans using templates and scripts, to a network managed by AI that can reprogram its own hardware, design its own services based on user goals, and fix traffic jams before humans even notice them.
 
 ## 6G and Beyond: A Deep-Dive Examination of the Bio-Digital Control Network
 
@@ -208,7 +419,7 @@ http://www.n3cat.upc.edu/papers/Computing-and-Communications-for-the-Software-De
 == 4
 What if the internal nanonetworks of a metamaterial are wireless?
 S. Abadal, A. Mestres, J. Torrellas, E. Alarcón, and A. Cabellos-Aparicio,
-"Medium Access Control in Wireless Network-on-Chip: A Context Analysis",
+"Medium Access Control in Wireless Network-on-Chip: A Context Analysis,"
 IEEE Communications Magazine, 2018.
 http://iacoma.cs.uiuc.edu/iacoma-papers/comm2018.pdf
 == 5
