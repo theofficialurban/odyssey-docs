@@ -248,6 +248,18 @@ Under the _Codex Umbra_, **Pervasive AI** is not about network efficiency; it is
 
 ## Section VI - Network Automation {#section-vi}
 
+### Video {#vid-vi}
+
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71njii/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v73u7iq-6g-network-automation-self-driving-networks-and-ai-explained-white-paper-pt.html?mref=3gc1h8&mc=7m5w3)
+:::
+
+::::
+
 ### Figures {#figures-vi}
 
 :::tip Imgur Album
