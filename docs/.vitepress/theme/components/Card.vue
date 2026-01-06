@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { NolebaseInlineLinkPreview } from "@nolebase/vitepress-plugin-inline-link-preview";
 import { useData } from "vitepress";
-import { useSlots } from "vue";
 
 // This script block defines the properties (props) that our component will accept.
 // This allows us to pass unique data for each card we create.

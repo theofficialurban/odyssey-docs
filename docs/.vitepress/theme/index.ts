@@ -17,7 +17,6 @@ import {
 } from "@nolebase/vitepress-plugin-inline-link-preview";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
 
-import MinLink from "./components/MinLink.vue";
 import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
 import Gradient from "./components/Gradient.vue";
@@ -95,7 +94,6 @@ export default {
     app.component("Article", LinkedArticle);
     app.component("CollectionIndex", CollectionIndex);
     app.component("All", AllIndex);
-    app.component("MinCard", MinLink);
     app.component("Vid", Video);
     app.component("PopupIframe", PopupIframe);
     app.component("LinkPreview", NolebaseInlineLinkPreview);

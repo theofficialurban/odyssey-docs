@@ -46,9 +46,11 @@
 details[footnote] {
   &.custom-block {
     padding: 5px;
-    background-color: var(--vp-c-bg-alt);
-
+    background-color: var(--vp-c-bg-elv);
     font-size: 11px;
+    &summary {
+      background-color: var(--vp-c-bg-alt);
+    }
   }
 }
 
