@@ -506,7 +506,7 @@ Activate lens. Section IX of the **6G Whitepaper** ("Internet of Space Things wi
 ![](https://i.imgur.com/a5ultSo.png)
 :::
 
-### Video {#vid-viii}
+### Video {#vid-ix}
 
 :::danger Work in Progress
 Placeholder
