@@ -508,9 +508,15 @@ Activate lens. Section IX of the **6G Whitepaper** ("Internet of Space Things wi
 
 ### Video {#vid-ix}
 
-:::danger Work in Progress
-Placeholder
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71vnx0/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v742bx8-6g-white-paper-pt.-9-the-internet-of-space-things-iost-and-cubesats.html?mref=3gc1h8&mc=7m5w3)
 :::
+
+::::
 
 ### The Translation Matrix: Section IX {#lexicon-ix}
 
