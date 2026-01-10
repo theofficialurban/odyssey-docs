@@ -663,6 +663,8 @@ The video for this section is currently a work in progress.
 
 ### The Translation Matrix: Section XI (New Terms) {#lexicon-xi}
 
+<Card title="Section XI - Key Words & Terms - Assoc. Technologies" img="https://i.imgur.com/NrOfpgJ.png?fb" description="These are the final set key words & terms for Section XI on Associated Technologies." href="https://imgur.com/a/section-xi-key-words-terms-assoc-technologies-HPXakcE" />
+
 The following glossary decodes the specific mechanisms found in Section XI that are not yet cataloged in the _Directory_, exposing the granular mechanics of the **Bio-Digital Convergence**.
 
 | Technical Term                              | _Codex Umbra_ Definition (The Raw Truth)                                                                                                                                                                                                                                                                                                                                    |
