@@ -573,9 +573,15 @@ The paper discusses "mega-constellations" of hundreds of satellites (citing **St
 
 ### Video {#vid-x}
 
-:::danger Work in Progress
-The video for this section is currently a work in progress.
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v71yqli/?pub=3gc1h8" />
+
+:::caption
+[Direct Video Link](https://rumble.com/v745elq-6g-white-paper-pt.-10-cell-free-massive-mimo-communications.html?mref=3gc1h8&mc=7m5w3)
 :::
+
+::::
 
 ### Figures {#figures-x}
 
