@@ -768,7 +768,7 @@ This section is still a work in progress.
 The video for this section is currently a work in progress.
 :::
 
-## **THE "6G AND BEYOND" WHITE PAPER - Summary** {#summary}
+## **THE "6G AND BEYOND" WHITE PAPER - Summary** {#section-summary}
 
 You are looking at the operational manual for the **Bio-Digital Convergence**. This white paper is not about faster download speeds for your movies; ==it is the architectural blueprint for a planetary prison grid where the walls are invisible frequencies and the shackles are inside your own blood.==
 
