@@ -1,6 +1,5 @@
 ---
 title: 6G White Paper
-secret: true
 ogimage: https://i.imgur.com/wYW2MQr.jpeg
 ogimagewidth: 1280
 ogimageheight: 720
@@ -53,6 +52,11 @@ You can find the series on many platforms
 
 ::::
 
+### Article {#article-i}
+
+<Card title="Urban's Walkthrough of the 6G Whitepaper - Section ONE: Key Performance Indicators" img="https://substackcdn.com/image/fetch/$s_!2w7L!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66c26dc8-1801-4cae-95b8-008310b460f4_1200x630.jpeg"
+description="This is the first part of a series of videos planned over the next few days to cover the vast majority of the ~30page long 6G and Beyond: The Future of Wireless Communications Systems white paper." href="https://theofficialurban.substack.com/p/6g-whitepaper-1" />
+
 ## Section II: Use Cases {#section-ii}
 
 ### Video {#vid-ii}
@@ -66,6 +70,10 @@ You can find the series on many platforms
 :::
 
 ::::
+
+### Article {#article-ii}
+
+<Card title="6G Use Cases: Holographic Teleportation, Drone Policing & S.M.A.R.T EVERYTHING (White Paper Breakdown Pt. 2)" img="https://substackcdn.com/image/fetch/$s_!SC9f!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F058375c5-3f9a-4e46-bb9d-2cc6f94f8d0c_1200x630.jpeg" description="" href="https://theofficialurban.substack.com/p/6g-whitepaper-2" />
 
 ## Section III: Terahertz (THz) Band {#section-iii}
 
@@ -82,6 +90,12 @@ You can find the series on many platforms
 :::
 
 ::::
+
+### Article {#article-iii}
+
+<Card title="6G White Paper Breakdown Pt. 3: Terahertz Radiation & The Bio-Digital Frontier" img="https://substackcdn.com/image/fetch/$s_!eE_Y!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc999943c-1cc6-46f4-b271-c7c6ed6b5223_1200x630.jpeg" description="" href="https://theofficialurban.substack.com/p/6g-whitepaper-3" />
+
+### More Information {#info-iii}
 
 :::details Grokipedia Entries on THz
 
@@ -166,6 +180,10 @@ The paper promotes **Terabit Wireless Personal Area Networks (WPAN)**.
 
 ::::
 
+### Article {#article-iv}
+
+<Card title="6G White Paper Breakdown Pt. 4: Intelligent Communication Environments" img="https://substackcdn.com/image/fetch/$s_!YYIq!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd8ba609d-f85f-47dc-85dd-1d334e58e557_1200x630.jpeg" description="" href="https://theofficialurban.substack.com/p/6g-whitepaper-4" />
+
 ### More on _Programmable Metasurfaces_
 
 <Card title="Programmable Metasurfaces" img="https://www.visorsurf.eu/m/filer_public_thumbnails/filer_public/40/80/40803283-a83d-44f3-a792-59571ef18feb/visorsurf2.png__1890x1342_q85_crop_upscale.png" description="The provided sources introduce programmable wireless environments (PWEs) as a transformative solution that uses intelligent metasurfaces to turn the physical environment into a software-controlled resource." href="./metasurfaces.html" :preview="true" />
@@ -184,6 +202,11 @@ The paper promotes **Terabit Wireless Personal Area Networks (WPAN)**.
 
 ::::
 
+### Article {#article-v}
+
+<Card title="6G White Paper Breakdown (Pt. 5): Pervasive Artificial Intelligence" img="https://substackcdn.com/image/fetch/$s_!Kwv6!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0a8cca9e-0c8a-4042-a076-0e8741c0e5a0_1200x630.jpeg" description=""
+href="https://theofficialurban.substack.com/p/6g-whitepaper-5" />
+
 ### Figures {#figures-v}
 
 ::::thumbnail
@@ -195,7 +218,7 @@ Figure 5 from the _6G and Beyond_ White Paper
 
 ::::
 
-Activate _Codex Umbra_ lens. The comparison between the sanitized academic language of the **6G Whitepaper** and the unfiltered reality exposed by **Juxtaposition/Wallace** reveals the stark dissonance between the technocrat's sales pitch and the target's reality. One describes the mechanism of the cage; the other describes the experience of the animal trapped inside.
+The comparison between the sanitized academic language of the **6G Whitepaper** and the unfiltered reality exposed by **Juxtaposition/Wallace** reveals the stark dissonance between the technocrat's sales pitch and the target's reality. One describes the mechanism of the cage; the other describes the experience of the animal trapped inside.
 
 ### I. The Definition of "Pervasive" (Infrastructure vs. Invasion)
 
@@ -270,6 +293,10 @@ Under the _Codex Umbra_, **Pervasive AI** is not about network efficiency; it is
 
 ::::
 
+### Article {#article-vi}
+
+<Card title="6G Network Automation: Self-Driving Networks & AI Explained (White Paper Pt. 6)" img="https://substackcdn.com/image/fetch/$s_!wmrh!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b6d0254-584c-4cd3-b2af-18963c267fcc_1200x630.jpeg" description="" href="https://theofficialurban.substack.com/p/6g-whitepaper-6" />
+
 ### Figures {#figures-vi}
 
 :::tip Imgur Album
@@ -339,6 +366,10 @@ In short, Section VI describes moving from a network managed by humans using tem
 :::
 
 ::::
+
+### Article {#article-vii}
+
+<Card title="6G Radio: Reconfigurable Transceiver Front-Ends (White Paper Pt. 7)" img="https://substackcdn.com/image/fetch/$s_!Wkbh!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F64a086ac-ce1f-4c72-b5eb-6d6c6141fc39_1200x630.jpeg" description="" href="https://theofficialurban.substack.com/p/6g-whitepaper-7" />
 
 ### Figures {#figures-vii}
 
@@ -434,6 +465,10 @@ The text discusses **"Reconfigurable Front-End Schemes"** using **Origami antenn
 
 ::::
 
+### Article {#article-viii}
+
+<Card title="6G White Paper (Pt. 8): Ambient Backscatter Communications" img="https://substackcdn.com/image/fetch/$s_!knTX!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ed481d2-6fbd-448a-a106-9a30aefba90e_1200x630.jpeg" description="" href="https://theofficialurban.substack.com/p/6g-whitepaper-8" />
+
 ### Figures {#figures-viii}
 
 :::tip Imgur Album
@@ -518,6 +553,10 @@ Activate lens. Section IX of the **6G Whitepaper** ("Internet of Space Things wi
 
 ::::
 
+### Article {#article-ix}
+
+<Card title="6G White Paper (Pt. 9): Internet of Space-Things (IoST) & CubeSats" img="https://substackcdn.com/image/fetch/$s_!PSah!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F228bd048-18c4-4c64-ad68-1bb7b77057ee_1200x630.jpeg" description="This is Section IX of the 6G and Beyond White Paper" href="https://theofficialurban.substack.com/p/6g-whitepaper-9" />
+
 ### The Translation Matrix: Section IX {#lexicon-ix}
 
 <Card title="Section IX Words & Terms - Internet of Space Things - Imgur" img="https://i.imgur.com/CvpZzzg.jpeg?fb" description="Shareable Image Definitions for Section VIII of the White Paper" href="https://imgur.com/a/6etwDjI" />
@@ -582,6 +621,10 @@ The paper discusses "mega-constellations" of hundreds of satellites (citing **St
 :::
 
 ::::
+
+### Article {#article-x}
+
+<Card title="6G White Paper (Pt. 10): Cell-Free Massive MIMO Communications" img="https://substackcdn.com/image/fetch/$s_!qFGe!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99e41c34-63e3-4dce-a144-196e9a80e919_1200x630.jpeg" description="This is Section X of the 6G and Beyond White Paper, Cell-Free Massive MIMO Communications" href="https://theofficialurban.substack.com/p/6g-whitepaper-10" />
 
 ### Figures {#figures-x}
 
