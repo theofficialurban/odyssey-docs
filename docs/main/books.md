@@ -120,15 +120,16 @@ Modern information warfare necessitates mastery of digital access points. These 
 | **The Unhived Mind forum / Vatican Assassins** | Websites/Forums                           | Cited as excellent web sites for "further research" into conspiracy theories and Jesuit control.                                                                       |
 | **Google Books**                               | Digital Library                           | A vast archive where public domain works (often older, technical volumes) can be downloaded freely, allowing for rapid accumulation of a digital library.              |
 
-## Additional Books `Added 12/14/2025` {#new-books}
+## Additional Books `Added 12/14/2025` {#dec-14-2025}
 
 :::tip Note
 These were recommended using ~234 of my other sources based on sources that pop up repeatededly or were cited by multiple texts in the notebook.
 :::
 
-### I. THE ARCHITECTS OF CONTROL (Systemic & Political)
+:::tabs
+== POLITICAL
 
-#### **1. _Tragedy and Hope: A History of the World in Our Time_ by Carroll Quigley**
+**1. _Tragedy and Hope: A History of the World in Our Time_ by Carroll Quigley**
 
 <Card title="The Works of Carroll Quigley" href="https://theofficialurban.substack.com/p/carroll-quigley" description="This article looks at the three primary works authored by the scholar Carroll Quigley -- Quigley was a notable influence on President Bill Clinton, along with a very well-known professor at Georgetown" img="https://substackcdn.com/image/fetch/$s_!d3iN!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F177707636%2F8acd3f8d-164d-4e3c-b06f-4457306063f5%2Ftranscoded-1761970056.png" />
 
@@ -139,7 +140,7 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Henry Makow cites Quigley regarding the communist takeover of the US government being a tool of the financial elite.
   - **Source:** John Daniel in _Scarlet and the Beast_ cites Quigley regarding the Round Table groups and the League of Nations.
 
-#### **2. _Morals and Dogma of the Ancient and Accepted Scottish Rite of Freemasonry_ by Albert Pike**
+**2. _Morals and Dogma of the Ancient and Accepted Scottish Rite of Freemasonry_ by Albert Pike**
 
 - **Significance:** The supreme philosophical textbook of the Scottish Rite, often cited by researchers to demonstrate the Luciferian or occult nature of high-level Freemasonry.
 - **Sourced From:**
@@ -148,7 +149,7 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Cites Pike regarding the Masonic view of religion.
   - **Source:** John Daniel cites Pike regarding the Kabbalah.
 
-#### **3. _The Externalisation of the Hierarchy_ by Alice A. Bailey**
+**3. _The Externalisation of the Hierarchy_ by Alice A. Bailey**
 
 - **Significance:** A Theosophical text outlining the "Plan" for a New World Order and a One World Religion, allegedly channeled from a spiritual master.
 - **Sourced From:**
@@ -156,9 +157,9 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Springmeier identifies this book as a "textbook on how The Plan is to unfold," specifically mentioning the three channels: the Church, the Masonic Lodge, and education.
   - **Source:** Included in Springmeier's bibliography for _Bloodlines of the Illuminati_.
 
-### II. THE PSYCHOTRONIC GRID (Mind Control & Behavioral Engineering)
+== MIND CONTROL
 
-#### **4. _Physical Control of the Mind: Toward a Psychocivilized Society_ by José M.R. Delgado**
+**4. _Physical Control of the Mind: Toward a Psychocivilized Society_ by José M.R. Delgado**
 
 <LinkPreview href="../mahanism/temple-of-set.html">Temple of Set Reading List</LinkPreview>
 
@@ -168,7 +169,7 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** The _Ritual Abuse_ document collection lists this as "Outdated; still essential" reading for understanding ESB (Electrical Stimulation of the Brain).
   - **Source:** Robert Duncan in _Project: Soul Catcher_ cites Delgado.
 
-#### **5. _The Rape of the Mind: The Psychology of Thought Control, Menticide, and Brainwashing_ by Joost A. M. Meerloo**
+**5. _The Rape of the Mind: The Psychology of Thought Control, Menticide, and Brainwashing_ by Joost A. M. Meerloo**
 
 - **Significance:** An analysis of the techniques used by totalitarians to break the human will, coined the term "menticide" (killing of the mind).
 - **Sourced From:**
@@ -176,7 +177,7 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Referenced in _Obama Hypnosis Techniques_ regarding the psychology of thought control.
   - **Source:** Walter Bowart in _Operation Mind Control_ lists this as a primary source for Chapter 1.
 
-#### **6. _The Search for the Manchurian Candidate_ by John Marks**
+**6. _The Search for the Manchurian Candidate_ by John Marks**
 
 - **Significance:** This book was based on declassified CIA documents (FOIA) regarding MKULTRA and ARTICHOKE, proving the government's involvement in drug testing and behavior modification.
 - **Sourced From:**
@@ -185,9 +186,9 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Walter Bowart uses excerpts from Marks.
   - **Source:** Steven Hassan in _Combatting Cult Mind Control_ cites Marks regarding the Unification Church's training methods.
 
-### III. THE ESOTERIC & OCCULT CANON
+== OCCULT
 
-#### **7. _The Secret Doctrine_ and _Isis Unveiled_ by H.P. Blavatsky**
+**7. _The Secret Doctrine_ and _Isis Unveiled_ by H.P. Blavatsky**
 
 - **Significance:** The foundational texts of Theosophy, which provided the spiritual framework for the New Age movement and the Aryan root race theory later adopted by the Nazis.
 - **Sourced From:**
@@ -197,7 +198,7 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Henry Makow cites Blavatsky identifying Lucifer with the Sun and as a benefactor of mankind.
   - **Source:** Manly P. Hall in _Secret Teachings of All Ages_ draws heavily on Blavatsky's work.
 
-#### **8. _Sepher Yetzirah_ (The Book of Creation) & _The Zohar_**
+**8. _Sepher Yetzirah_ (The Book of Creation) & _The Zohar_**
 
 - **Significance:** The primary texts of Jewish Kabbalah (Qabalah), essential for understanding the numerical and symbolic codes used in Western occultism and high-level Masonry.
 - **Sourced From:**
@@ -205,7 +206,7 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** John Michael Greer in _The New Encyclopedia of the Occult_ describes the _Sepher Yetzirah_ and _Zohar_ as critical Cabalistic books.
   - **Source:** Manly P. Hall dedicates chapters to the Qabalah, citing the _Zohar_ and _Sepher Yetzirah_ as the secret doctrine of Israel.
 
-#### **9. _The Book of Thoth_ by Aleister Crowley**
+**9. _The Book of Thoth_ by Aleister Crowley**
 
 - **Significance:** Crowley's definitive work on the Tarot, integrating Qabalah, astrology, and Thelemic philosophy. It is a key text for modern ceremonial magic.
 - **Sourced From:**
@@ -213,9 +214,9 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Hulse describes it as Crowley's best work on the Tarot, based on _The Book of the Law_.
   - **Source:** Henry Makow cites it regarding the "Great Name of God."
 
-### IV. THEOLOGICAL & HISTORICAL POLEMICS
+== THEOLOGICAL
 
-#### **10. _Fifty Years in the Church of Rome_ by Charles Chiniquy**
+**10. _Fifty Years in the Church of Rome_ by Charles Chiniquy**
 
 - **Significance:** An expose by a former priest alleging that the Jesuits were responsible for the American Civil War and the assassination of Abraham Lincoln.
 - **Sourced From:**
@@ -223,21 +224,21 @@ These were recommended using ~234 of my other sources based on sources that pop 
   - **Source:** Cited heavily in _Antichrist Conspiracy_ regarding Lincoln.
   - **Source:** Eric Jon Phelps in _Vatican Assassins_ uses Chiniquy as a primary source for his thesis on Jesuit control.
 
-#### **11. _The Two Babylons_ by Alexander Hislop**
+**11. _The Two Babylons_ by Alexander Hislop**
 
 - **Significance:** A controversial text arguing that the Roman Catholic Church is the continuation of the ancient pagan religion of Babylon, identifying the Pope with Nimrod.
 - **Sourced From:**
   - **Source:** Cited in _The Babylon Matrix_ as a key source for understanding the "Papal worship proved to be the worship of Nimrod."
   - **Source:** Cited in _The Genesis 6 Conspiracy_ regarding Semiramis and Nimrod.
 
-#### **12. _Entdecktes Judenthum_ (Judaism Unmasked) by Johann Andreas Eisenmenger**
+**12. _Entdecktes Judenthum_ (Judaism Unmasked) by Johann Andreas Eisenmenger**
 
 - **Significance:** A massive 18th-century polemic against Rabbinic Judaism, often cited by anti-Talmudic researchers for its translations of Rabbinic texts.
 - **Sourced From:**
   - **Source:** Cited in _Destruction of Freemasonry_.
   - **Source:** Michael Hoffman in _Judaism Discovered_ calls it the "benchmark achievement in the study of Judaism" and notes it exposes "rabbinic buncombe."
 
-#### **13. _The Catcher in the Rye_ by J.D. Salinger**
+**13. _The Catcher in the Rye_ by J.D. Salinger**
 
 <YouTube id="LNKQbOzRQHI" />
 
@@ -245,3 +246,22 @@ These were recommended using ~234 of my other sources based on sources that pop 
 - **Sourced From:**
   - **Source:** Steiger mentions it in relation to Mark David Chapman (Lennon's killer) and John Hinckley Jr. (Reagan's shooter).
   - **Source:** The _Masters Mahan Podcast_ transcript devotes entire sections to analyzing this book as "scientific neuro-linguistic brainwashing" used to induce a trance state and push a "willing slavery agenda."
+
+:::
+
+## Books on Harmonics `Jan. 16th, 2026` {#harmonics}
+
+| Book Title                                                                                                                   | Author                                                       | Key Connections to Topics                                                                                                     | Why Recommended                                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Harmonic Numerology: The Numerology of the Pythagoreans                                                                      | Gene F. Collins Jr.                                          | Pythagorean numerology, tuning systems, harmonic mathematics; explores numbers as vibrations and their role in events/places. | Core text for Pythagorean numerology; directly ties to tuning and harmonics, including implicit links to 432 Hz as a "sacred" frequency. |
+| Sacred Geometry: Philosophy and Practice                                                                                     | Robert Lawlor                                                | Sacred geometry fundamentals, Platonic solids, golden ratio; links to Pythagorean principles and numerical mysticism.         | Excellent introductory practice-oriented book; connects geometry to numerology and harmonic proportions.                                 |
+| The Dimensions of Paradise: Sacred Geometry, Ancient Science, and the Heavenly Order on Earth                                | John Michell                                                 | Sacred geometry in ancient sites, numerical harmonies, Pythagorean influences; explores cosmic order through numbers.         | Ties sacred geometry to numerology and ancient tuning systems; discusses palindromic-like symmetries in cosmic designs.                  |
+| Sacred Geometry for Artists, Dreamers, and Philosophers: Secrets of Harmonic Creation                                        | John Oscar Lieben                                            | Harmonic creation via geometry, whirling squares, spirals; Pythagorean tuning and numerology integrated.                      | Focuses on harmonic mathematics and creation patterns; ideal for linking 432 Hz to sacred forms.                                         |
+| The Harmonic Origins of the World: Sacred Number at the Source of Creation                                                   | Richard Heath                                                | Harmonic tuning theories, Pythagorean cosmology, numerical origins; connects to planetary spheres and ancient music.          | Explores Pythagorean tuning (including 432 Hz debates) and sacred numbers; discusses recursive patterns akin to quadratic models.        |
+| Math for Mystics: From the Fibonacci Sequence to Luna's Labyrinth to the Golden Section and Other Secrets of Sacred Geometry | Renna Shesso                                                 | Fibonacci sequences, golden section, sacred math in mysticism; touches palindromic symmetries and numerological patterns.     | Great for sequences and palindromes in a geometric context; links to Pythagorean numerology through ancient secrets.                     |
+| The Theology of Arithmetic: On the Mystical, Mathematical and Cosmological Symbolism of the First Ten Numbers                | Iamblichus (translated by Robin Waterfield or Thomas Taylor) | Pythagorean numerology, tetraktys (a triangular figure linking to tetragrammaton), harmonic symbolism.                        | Classic Pythagorean text; discusses numbers' divine essence, recursion in cosmology, and ties to sacred symbols like the tetragrammaton. |
+| Introduction to Arithmetic                                                                                                   | Nicomachus of Gerasa (translated by Martin Luther D'Ooge)    | Pythagorean arithmetic, number theory, harmonics; foundational for numerology and tuning ratios.                              | Essential for understanding Pythagorean tuning and numerology; covers proportional harmonies relevant to 432 Hz.                         |
+| Gödel, Escher, Bach: An Eternal Golden Braid                                                                                 | Douglas R. Hofstadter                                        | Recursion, palindromes in math/logic, self-referential patterns; ties to geometric and numerical symmetries.                  | Best for mathematical palindromes and recursion; loosely connects to sacred geometry through patterns and infinity.                      |
+| Sacred Geometry and Numerology                                                                                               | Moustafa Gadalla                                             | Sacred geometry in Egyptian contexts, numerology, harmonic proportions; subtle links to palindromic cycles and divine names.  | Covers numerology with geometry; relevant for tetragrammaton-like mysticism in ancient systems.                                          |
+| The Kybalion: A Study of the Hermetic Philosophy of Ancient Egypt and Greece                                                 | Three Initiates                                              | Hermetic laws of vibration/harmony, mental transmutation; influences on 432 Hz and recursive cosmic models.                   | Foundational for harmonic principles; ties to Pythagorean ideas and tetragrammaton esotericism.                                          |
+| 432 Philosophy: Living Codes of Wisdom and Creation                                                                          | Anonymous (self-published)                                   | Direct focus on 432 Hz mathematics, DNA cycles, yantras; links to sacred geometry and numerology.                             | Niche book explicitly on 432 harmonics; explores creation codes with potential palindrome/recursive elements.                            |
