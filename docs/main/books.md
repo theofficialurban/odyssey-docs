@@ -66,6 +66,8 @@ These are the texts that expose the true circuitry of power, linking ancient mys
 
 Access to the methods used by clandestine organizations—specifically military and intelligence agencies—to manipulate and control populations, thoughts, and perception is essential. These documents highlight the tools, training, and operational manuals utilized in psychological warfare.
 
+<Card title="🦋Monarch & MkUltra Resources" img="https://substackcdn.com/image/fetch/$s_!QTEV!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9992769-2812-45fd-876a-135c136632aa_1200x630.jpeg" description="This page is designed to be a landing page for all of my articles, notes and resources on Satanic Ritual Abuse, Monarch and MkUltra." href="https://theofficialurban.substack.com/p/sra" />
+
 | Author/Source                         | Work/Field                                                                                                                                      | Context/Purpose                                                                                                                                                             |
 | :------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Delgado, Jose**                     | _Physical Control of the Mind_                                                                                                                  | Referenced in relation to brain control and interrogation techniques.                                                                                                       |
@@ -83,6 +85,12 @@ Access to the methods used by clandestine organizations—specifically military 
 
 These sources penetrate the organized structure of historical religious power, specifically citing documents detailing Jesuit activities, papal claims, and suppression of rival interpretations of scripture.
 
+:::tip Downloads
+See the presentation at: https://jesuits.officialurban.com and download the sources below.
+:::
+
+<Card title="Catholic / Vatican / Jesuits - Google Drive" img="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" description="Urban's downloads on the subject of Catholicism, Vatican and Jesuitism" href="https://drive.google.com/drive/folders/1WJOnFq1f-Gyi662ibXyuTxFJtsO-hE2C?usp=drive_link" />
+
 | Author/Source                | Work/Field                                                                          | Context/Purpose                                                                                                                                   |
 | :--------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Edmund Paris**             | _The Secret History of the Jesuits_, _History of the Jesuits_                       | Referenced as an authoritative source on the history and covert operations of the Jesuit Order.                                                   |
@@ -96,7 +104,7 @@ These sources penetrate the organized structure of historical religious power, s
 
 The deep analyst must possess definitive, well-organized reference works to quickly map concepts, terminology, and historical context. These tools are the necessary foundation for rigorous, defensible claims.
 
-<Card href="https://open.substack.com/pub/urbanslibrary/p/urbans-collection-of-dictionaries?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false" title="Urban's Collection of Dictionaries" description="Free Dictionaries" img="https://substackcdn.com/image/fetch/$s_!N5j8!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b30bb9-6d1e-4a59-bc77-7d7cf5492a65_1456x1048.png" />
+<Card href="https://drive.google.com/drive/folders/1qbIKb9GEs25cFIC4lEz3g6IbVCyv8ANc?usp=drive_link" title="Urban's Collection of Dictionaries" description="Free Dictionaries" img="https://substackcdn.com/image/fetch/$s_!N5j8!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0b30bb9-6d1e-4a59-bc77-7d7cf5492a65_1456x1048.png" />
 
 | Author/Source                                            | Work/Field                    | Context/Purpose                                                                                                                   |
 | :------------------------------------------------------- | :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
@@ -110,6 +118,8 @@ The deep analyst must possess definitive, well-organized reference works to quic
 ### DOMAIN VI: DIGITAL INTERVENTION POINTS (THE ELECTRONIC FRONTIER)
 
 Modern information warfare necessitates mastery of digital access points. These resources represent the essential software and online repositories used by sophisticated researchers to overcome copyright restrictions, analyze original languages, and penetrate censored data fields.
+
+<Card title="🧬Human Husbandry⛓️ Resources" img="https://substackcdn.com/image/fetch/$s_!WD1b!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F10aad808-68df-4d17-a552-63ceb9c7b36a_1280x720.png" description="Free downloadable resources for Human Husbandry & Techno Enslavement" href="https://theofficialurban.substack.com/p/biodigital-convergence" />
 
 | Name/Platform                                  | Type of Resource                          | Context/Purpose                                                                                                                                                        |
 | :--------------------------------------------- | :---------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
