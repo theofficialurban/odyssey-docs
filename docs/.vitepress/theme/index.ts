@@ -31,6 +31,7 @@ import SubstackPost from "./components/SubstackPost.vue";
 import CardGrid from "./components/CardGrid.vue";
 import CardPreset from "./components/CardPreset.vue";
 import LayoutShare from "./components/LayoutShare.vue";
+import PlatformBtns from "./components/PlatformBtns.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -90,6 +91,7 @@ export default {
     app.component("Banner", Banner);
     app.component("Card", Card);
     app.component("Preset", CardPreset);
+    app.component("Platforms", PlatformBtns);
     app.component("Gradient", Gradient);
     app.component("Article", LinkedArticle);
     app.component("CollectionIndex", CollectionIndex);

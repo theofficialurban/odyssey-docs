@@ -1,5 +1,8 @@
 ---
 title: 6G White Paper
+description: Urban's full reading and walkthrough of the "6G and Beyond The Future of Wireless Communications Systems" White Paper, section by section until completion. (This series is now complete).
+ogtype: video
+ogplayer: https://files.catbox.moe/13lhap.mp4
 ogimage: https://i.imgur.com/wYW2MQr.jpeg
 ogimagewidth: 1280
 ogimageheight: 720
@@ -51,6 +54,10 @@ You can find the series on many platforms
 :::
 
 ::::
+
+#### Video Links {#vid-links-i}
+
+<Platforms :buttons="[[`Rumble`, `https://rumble.com/v73if0m-6g-and-beyond-white-paper-walkthrough-section-one-key-performance-indicator.html?mref=3gc1h8&mc=7m5w3`], [`Odysee`, `https://odysee.com/@UrbanOdyssey:b/6g-whitepaper-1:e`], [`Substack`, `https://theofficialurban.substack.com/p/6g-whitepaper-1?r=3kr5wz`]]" />
 
 ### Article {#article-i}
 
@@ -709,6 +716,19 @@ This is the blueprint for **Post-Humanity**, where the subject is not just conne
 :::
 
 ::::
+
+### Figures {#figures-xi}
+
+:::tabs
+== Fig. 14
+![](https://i.imgur.com/86JU0EA.png)
+== Fig. 15
+![](https://i.imgur.com/AmgzSRM.png)
+== Fig. 16
+<span class="text-2xl font-bold text-red-500 pb-4">Figure 16 is from Section XII on the "Projected Timeline for 6G"</span>
+![](https://i.imgur.com/KvsEemZ.png)
+
+:::
 
 ### Article {#article-xi}
 

@@ -497,7 +497,7 @@ const cfg: UserConfig = {
     const twitterCard = pageData.frontmatter.ogtype
       ? pageData.frontmatter.ogtype
       : twitterCardType(pageData);
-    const pageType: string = pageData.frontmatter.type ?? "article";
+    const pageType: string = pageData.frontmatter.ogtype ?? "article";
     let rawTitle = ref<string>(pageData.frontmatter.title);
     // If there is a ordering integer on the title (i.e `20.Home`) this will be removed for SEO
     if (rawTitle.value.includes(".")) {
@@ -531,7 +531,7 @@ const cfg: UserConfig = {
           name: "twitter:title",
           content: finalPageTitle,
         },
-      ]
+      ],
     );
 
     // Sets the `og:description` and `twitter:description`
@@ -553,7 +553,7 @@ const cfg: UserConfig = {
             pageData.description ??
             "Urban's Document / Notes Database, notes available for public release by Urban Odyssey",
         },
-      ]
+      ],
     );
 
     pageData.frontmatter.head.push([
@@ -627,7 +627,7 @@ const cfg: UserConfig = {
             name: "og:player:height",
             content: ogPHeight,
           },
-        ]
+        ],
       );
     }
     // Sets the `og:image` and the `twitter:image` along with height and width
@@ -678,7 +678,7 @@ const cfg: UserConfig = {
           name: "twitter:image:height",
           content: ogIHeight,
         },
-      ]
+      ],
     );
 
     const baseUrl = `${siteBaseUrl}/${pageData.relativePath}`;
@@ -702,11 +702,15 @@ const cfg: UserConfig = {
           ["og:video:type", "text/html"],
           [
             "og:video:width",
-            String(pageData.frontmatter.ogplayerwidth) ?? "1280",
+            pageData.frontmatter.ogplayerwidth
+              ? String(pageData.frontmatter.ogplayerwidth)
+              : "1280",
           ],
           [
             "og:video:height",
-            String(pageData.frontmatter.ogplayerheight) ?? "720",
+            pageData.frontmatter.ogplayerheight
+              ? String(pageData.frontmatter.ogplayerheight)
+              : "720",
           ],
         ];
 
@@ -781,7 +785,7 @@ const cfg: UserConfig = {
         idx: number,
         options: Options,
         env: any,
-        self: Renderer
+        self: Renderer,
       ) {
         const token = tokens[idx];
         if (token.info == "embed") {
@@ -816,7 +820,7 @@ const cfg: UserConfig = {
               });
             },
           };
-        })()
+        })(),
       );
 
       //md.use(InlineLinkPreviewElementTransform);
@@ -843,5 +847,5 @@ export default defineConfig(
     includeEmptyFolder: false,
 
     includeDotFiles: false,
-  })
+  }),
 );
