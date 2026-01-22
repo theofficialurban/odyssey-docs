@@ -2,227 +2,190 @@
 title: Energy Harvesting WBANs
 description: |
   This report provides an exhaustive, expert-level analysis of the seven primary modalities of energy harvesting within WBAN ecosystems: Piezoelectric (PEEH), Triboelectric (TEEH), Electromagnetic (EMEH), Thermoelectric (TEG), Kinetic, Cardiovascular, and Blood Pressure harvesting.
+ogimage: https://i.imgur.com/sXWpWIm.png
 ---
 
 [[atomic]]
 
 # **Energy Harvesting Architectures for Wireless Body Area Networks: Mechanisms, Applications, and Systemic Implications** {#title}
 
+![](https://i.imgur.com/sXWpWIm.png)
+
 [[toc]]
 
-:::tip Download as PDF
-Download this report as a PDF here: https://docs.google.com/document/d/10tN-vQylUKxctpm6M6faw8UuJTueLNEzFASA3nnfvyQ/edit?usp=sharing
-Also, reference the directory of words & terms: https://dict.officialurban.com
+<Card title="STAR CHAMBER 1/21/26 - Imgur" img="https://i.imgur.com/LbGKKqb.jpeg?fb" description="Imgur Album of Key Words & Terms Sharable Images for Energy Harvesting Based WBANs" href="https://imgur.com/a/star-chamber-1-21-26-ND8hl18" />
+
+## STAR CHAMBER Episode `Jan. 21st, 2026` {#video}
+
+::::thumbnail
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v72hpiq/?pub=3gc1h8" />
+
+:::caption
+[Direct Link Here](https://juxtaposition1.substack.com/p/human-energy-harvesting-eh-wban-81211)
 :::
 
-## **1.0 Executive Summary and Systemic Overview**
+::::
 
-The proliferation of Wireless Body Area Networks (WBANs) represents a pivotal shift in the trajectory of biomedical engineering, telecommunications, and human-computer interaction. As the demand for continuous, real-time physiological monitoring accelerates—driven by the twin engines of preventative healthcare and the burgeoning "Internet of Bodies" (IoB)—the conventional power paradigm based on finite electrochemical batteries has become an unsustainable bottleneck. The operational lifespan of implantable and wearable devices is currently tethered to the chemical energy density of lithium-ion or solid-state batteries, creating severe limitations regarding device miniaturization, maintenance schedules, and patient safety. In response, the scientific community has aggressively pivoted toward Energy Harvesting (EH) technologies: sophisticated transduction mechanisms designed to scavenge ambient or biomechanical energy from the human host itself, transforming the biological organism into a perpetual power source for the digital infrastructure that monitors it.1
+## Read the Full [Research Report](https://files.catbox.moe/qkw9r8.pdf) {#report}
 
-This report provides an exhaustive, expert-level analysis of the seven primary modalities of energy harvesting within WBAN ecosystems: Piezoelectric (PEEH), Triboelectric (TEEH), Electromagnetic (EMEH), Thermoelectric (TEG), Kinetic, Cardiovascular, and Blood Pressure harvesting. It examines the fundamental physics governing these transducers, the advanced materials—such as lead-free piezoceramics, triboelectric polymers, and graphene-based nanocomposites—required to interface with soft biological tissues, and the power management architectures necessary to rectify intermittent biological signals into stable direct current (DC) voltage.4
+:::details Expand to Read the Report
 
-Furthermore, this analysis integrates a critical assessment of the systemic and geopolitical implications of these technologies. The research literature reveals a dual-use potential inherent in self-powered bio-electronics. While offering revolutionary medical benefits—such as leadless pacemakers that never require battery replacement surgeries and "cuff-less" blood pressure monitors—these technologies also establish the physical hardware for "Bio-Digital Convergence".7 This convergence suggests a future where the human body is re-architected as a "Human Node" within a global information grid, powered by its own metabolic and kinetic output. Concepts such as "Ambient Backscatter" (colloquially termed the "Vampire Protocol" in critical discourse) and "Smart Dust" (NEMS) indicate a trajectory toward inescapable surveillance, where the very act of living—generating heat, moving limbs, and circulating blood—powers the sensors that track, catalogue, and potentially commodify human biological data.8
+<PDF :src="`https://files.catbox.moe/qkw9r8.pdf`" title="Energy Harvesting Architectures for Wireless Body Area Networks: Mechanisms, Applications, and Systemic Implications" />
 
-The following sections dissect these technologies not merely as isolated engineering achievements but as components of a cohesive, self-sustaining "Perpetual Engine" of surveillance and healthcare, evaluating the technical specifications alongside the profound ethical and security risks of side-channel attacks and unauthorized biological actuation.10
+:::
 
-## **2.0 The Energy Constraint in WBANs and the Harvesting Paradigm**
+## **Power from the People: How Your Everyday Movements Can Generate Electricity**
 
-### **2.1 Evolution from WSN to WBAN**
+### Introduction: The Power in Your Step
 
-Wireless Sensor Networks (WSNs) have historically monitored environmental parameters through distributed nodes. The evolution into Wireless Body Area Networks (WBANs) brings this monitoring to the intimate scale of the human physiology. Standardized under IEEE 802.15.6, WBANs require ultra-low power consumption, high reliability, and extreme miniaturization to function within or upon the human body without inducing tissue necrosis or obstructing natural movement.3 The primary architectural challenge in WBAN design is the "energy gap"—the disparity between the power required for continuous data transmission (telemetry) and the energy capacity of miniaturized storage units.
+Did you know your body is a biological battery? An average person has enough stored energy in their body fat to power a four-bedroom house for nearly three days. While we can’t plug our homes directly into our bodies, this staggering fact reveals a fundamental truth: the human body is a tremendous storehouse of energy. Every movement we make, from walking to the store to simply breathing, converts this stored potential into kinetic energy.
 
-### **2.2 The Limitations of Electrochemical Storage**
+This has led to a fascinating and growing field called human energy harvesting, built on a simple yet powerful idea: what if we could capture the energy from our everyday movements that would otherwise be lost as heat? This process works like "regenerative braking" in an electric car, which recaptures energy when the vehicle slows down. By harnessing our own kinetic energy, we can act as personal, portable power generators. This document will explain the science behind human-powered energy, explore the different ways it works, and showcase amazing real-world examples that are already making a difference.
 
-Traditional batteries impose a hard limit on the lifespan of implantable medical devices (IMDs). For cardiac pacemakers, deep brain stimulators, and cochlear implants, battery depletion necessitates surgical replacement, which introduces cumulative risks of infection, scar tissue formation, and anesthesia complications.2 Furthermore, as devices scale down to the nanometer range—facilitating the "Internet of Bio-Nano Things" (IoBNT)—batteries become physically implausible. A device the size of a blood cell cannot house a chemical battery with sufficient charge to operate its transceiver. This physical reality forces a transition to "self-powered" architectures that harvest energy from the environment.8
+### 1. The Two Flavors of Human Power: Active vs. Passive Harvesting
 
-### **2.3 The Physiology of Power: Available Sources**
+Harvesting energy from human activities can be divided into two main categories, depending on the effort required from the user. Understanding this distinction is key to seeing the wide range of potential applications, from emergency equipment to smart infrastructure.
 
-The human body is a thermodynamic engine and a kinetic system, continuously dissipating energy that can be scavenged.
+| **Active Harvesting**                                                                                                                               | **Passive Harvesting**                                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Definition:** Requires the user to perform a specific action they would not normally do, with the primary goal of generating power.               | **Definition:** Captures energy from normal, everyday tasks the user is already performing, without requiring any extra or different effort. |
+| **Primary Example:** A wind-up flashlight or the hand-cranked Freeplay Fetal Heart Monitor, where a user must turn a crank to generate electricity. | **Primary Example:** An energy-generating floor tile or staircase that produces electricity simply by being walked upon.                     |
 
-- **Thermal Output:** The basal metabolic rate generates heat, maintaining a core temperature of \~37°C. The gradient between the skin surface and the ambient air represents a continuous thermal potential difference.13
-- **Kinetic Output:** Voluntary movements (walking, arm swinging) and involuntary movements (heartbeat, respiration, arterial pulsatility) generate mechanical stress and vibration.1
-- **Electromagnetic Environment:** The body acts as a conductive medium and an antenna, constantly bombarded by ambient Radio Frequency (RF) signals from the surrounding telecommunications infrastructure (5G/6G, Wi-Fi, TV broadcasts).16
+Now that we know the two main approaches, let's look at some incredible technologies that put these ideas into action.
 
-By tapping into these sources, WBAN nodes can achieve "perpetual operation," functioning as long as the host remains biologically active. This capability is central to the vision of "Human Husbandry" technologies, where the management of human populations is automated through self-sustaining biometric feedback loops.9
+### 2. The Science Behind the Spark: How Motion Becomes Electricity
 
-## **3.0 Piezoelectric Energy Harvesting (PEEH): Transducing Biological Stress**
+Converting the physical energy of human movement into usable electrical energy relies on special materials and clever mechanical designs. Three primary principles are at the heart of most human energy harvesting technologies.
 
-### **3.1 Fundamental Principles of Piezoelectricity**
+- **Piezoelectricity (Pressure Power):** This phenomenon occurs in certain materials, like crystals or ceramics, that generate a tiny electric voltage when they are deformed—squeezed, stretched, or twisted. Think of it as squeezing a spark out of a rock. This makes it perfect for capturing the sharp, high-impact energy from footsteps on a floor tile or the subtle pressure changes from breathing.
+- **Thermoelectricity (Heat Power):** This principle allows for the generation of electricity from a temperature difference. For a person, this means harnessing the temperature gradient between their warm body and the cooler surrounding air. The Seiko Thermic watch, for example, uses a thermoelectric generator to power itself entirely from the wearer's body heat.
+- **Electromechanical Induction (Motion Power):** This method uses the physical up-and-down motion of an activity like walking to drive a generator. A great example is the energy-harvesting backpack. As the pack bounces during a normal walk, this up-and-down movement drives a **toothed rack** against a **pinion gear** attached to a generator, spinning it to create a current.
 
-Piezoelectric Energy Harvesting (PEEH) harnesses the direct piezoelectric effect, a phenomenon where mechanical strain applied to non-centrosymmetric crystalline materials induces an internal electrical polarization, resulting in a voltage potential across the material's surface. This mechanism is ideal for harvesting the low-frequency, high-torque motions of the human body, such as joint flexion, heel strikes, and organ deformation.4
+### 3. Power in Action: Real-World Human Energy Harvesters
 
-The constitutive equations governing piezoelectricity relate the electrical displacement (![][image1]) to the mechanical stress (![][image2]) and the electric field (![][image3]):
+Human power isn't just a futuristic idea—it's already making a real difference in the world. From smart walkways to life-saving medical devices, these innovations show the incredible potential of harnessing our own energy.
 
-![][image4]  
-Where ![][image5] is the piezoelectric charge constant and ![][image6] is the permittivity at constant stress. In WBAN applications, the coupling coefficient (![][image7]) is critical, representing the efficiency of energy conversion.
+#### 3.1. Power-Generating Walkways and Wearables
 
-### **3.2 Material Science: Ceramics vs. Polymers**
+Walking is one of the most powerful and consistent activities for passive energy harvesting, and several technologies have been designed to capture this energy.
 
-The selection of piezoelectric materials involves a trade-off between conversion efficiency and biocompatibility.
+- **Pavegen Energy-Harvesting Floor Tiles**
+  - Famously used during the **London 2012 Olympics**, these tiles were installed in a walkway to capture the energy from millions of footsteps.
+  - Each footstep generates between **5 and 7 Watts** of power, depending on the force of the impact.
+  - Unlike some technologies that produce sharp spikes of energy, Pavegen's hybrid solution provides a more **constant flow of power**.
+- **The PowerWalk™ Knee Brace**
+  - This wearable device looks like an athletic knee brace and generates electricity from the natural motion of walking.
+  - Walking for just over an hour while wearing a device on each leg can generate enough total energy to **fully charge four mobile phones**.
+  - It features an "intelligent" system that harvests more energy when a person's muscles are performing a braking action, such as **walking downhill**, which can even reduce the strain on the user.
 
-- **Lead Zirconate Titanate (PZT):** PZT ceramics offer the highest piezoelectric coefficients (d33 \> 300 pC/N), making them exceptionally efficient. However, PZT is brittle and contains lead (Pb), a toxic heavy metal. This necessitates rigorous encapsulation for implantable use to prevent lead leakage into the bloodstream, which would be catastrophic.18
-- **Polyvinylidene Fluoride (PVDF):** PVDF is a semi-crystalline polymer that is flexible, chemically inert, and biocompatible. While its piezoelectric coefficient is lower than PZT (d33 \~ \-20 to \-30 pC/N), its mechanical compliance allows it to conform to soft tissues, such as arterial walls or the heart surface, without restricting their natural motion. This makes PVDF the material of choice for "smart skin" and vascular energy harvesters.20
-- **Zinc Oxide (ZnO) Nanowires:** Emerging research utilizes ZnO nanowire arrays. These are lead-free, biocompatible, and capable of harvesting energy from nanoscale deformations, fitting the requirements for the IoBNT.22
+#### 3.2. The Smart Backpack
 
-### **3.3 Structural Configurations and Modes**
+Dr. Larry Rome developed an innovative backpack that does more than just carry books or gear—it generates electricity.
 
-PEEH devices in WBANs typically utilize two primary operational modes:
+- **Mechanism:** It captures energy from the vertical, up-and-down oscillations of the backpack that occur during a normal walk.
+- **Power Output:** The device can produce a maximum of **7 Watts** of power, enough to run small electronic devices.
+- **Surprising Benefit:** The backpack is designed with a suspended-load system that actually makes carrying a heavy load feel **less strenuous** for the wearer.
 
-- ![][image8] **Mode (Cantilever Beam):** Used for inertial harvesting. A cantilever beam with a proof mass is tuned to resonate with the frequency of human motion (e.g., walking at 1-2 Hz). As the body moves, the beam oscillates, stressing the piezoelectric layers. This is common in shoe-mounted or wrist-worn harvesters.23
-- ![][image9] **Mode (Compression):** Used for direct force harvesting, such as the compression of a shoe sole during walking or the squeezing of a pacemaker sleeve by the heart muscle.24
+#### 3.3. Pedal and Crank Power
 
-### **3.4 Applications in Physiological Monitoring**
+Active harvesting methods, where a person intentionally performs an action to generate power, can produce a significant amount of electricity.
 
-The integration of PEEH allows for sensors that are not only self-powered but also act as active sensors themselves, as the voltage generated is directly proportional to the mechanical stimulus.
+- **Pedal Power**
+  - Pedaling a stationary bicycle can generate up to **60 Watts** of power.
+  - This method is used to power laptops, mobile chargers, and even classroom computers. In some **Indian schools**, students take turns cycling to generate electricity for their classmates' computers.
+- **Crank Power**
+  - The **Freeplay Fetal Heart monitor** is a life-saving device powered by a simple hand crank.
+  - Designed for remote areas in the developing world without reliable electricity, it allows healthcare workers to monitor an infant's heart rate during childbirth, safeguarding both mother and child.
 
-- **Gait Recognition:** PEEH insoles generate unique voltage signatures based on the wearer's walking pattern. Deep learning algorithms (e.g., LSTM networks) can analyze these harvesting signals to identify individuals with \>97% accuracy and detect gait anomalies indicative of neurodegenerative diseases, turning the energy harvester into a biometric surveillance tool.23
-- **Intracardiac Energy Harvesting:** A critical application involves powering leadless pacemakers. Research describes piezoelectric "sleeves" composed of porous PVDF-TrFE films that wrap around the pacemaker. The contraction of the right ventricle compresses the harvester, generating approximately 1.1 V, sufficient to extend battery life significantly or potentially eliminate it.26
+From life-saving medical tools to empowering remote communities, these active harvesters demonstrate the immense potential unlocked when we intentionally generate our own power.
 
-### **3.5 Systemic Implications of PEEH**
+### 4. Conclusion: Your Personal Power Plant
 
-The deployment of PEEH devices introduces a paradigm where the subject's physical exertion is commodified as electrical power. In the context of "Human Husbandry," this is described as a "Parasitic Power Plant" mechanism, where the subject's biological output powers the very grid used to monitor them. The use of lead-free materials like ZnO and PVDF mitigates toxicity risks but enhances the feasibility of long-term, undetectable implantation.
+As we've seen, every step we take, every hill we descend, and every pedal we push contains untapped energy. Human beings are a constant and readily available source of clean power, and remarkable technologies now exist to capture it.
 
-## **4.0 Triboelectric Energy Harvesting (TEEH): Surface Charge Engineering**
+From passive methods that harvest energy from our daily commute to active methods that power life-saving devices in off-grid locations, human energy harvesting is more than just a novelty. It represents a tangible, personal way to contribute to a more sustainable world. This isn’t just a niche scientific interest; it’s a serious and growing industry, with the global market for energy harvesting valued in the billions of dollars. As this technology continues to develop, we may find that the most reliable power plant we have is ourselves, generating clean energy one step at a time.
 
-### **4.1 Principles of Contact Electrification**
+## An Introduction to Energy Harvesting Technologies
 
-Triboelectric Energy Harvesting (TEEH) is based on the coupling of contact electrification (triboelectrification) and electrostatic induction. When two materials with different electron affinities come into contact, electrons transfer from one to the other. When they separate, a potential difference is created, driving electrons through an external load to balance the electrostatic field. TENGs (Triboelectric Nanogenerators) are characterized by high output voltages (hundreds of volts) but low currents, requiring specialized management circuits.5
+### 1. What is Energy Harvesting and Why Does It Matter?
 
-### **4.2 Material Versatility and Biocompatibility**
+Energy harvesting is the process of capturing ambient energy from the environment and converting it into usable electrical power. This innovative field is rapidly gaining importance as a cornerstone of sustainable technology, driven by a convergence of environmental, technological, and practical demands.
 
-Unlike PEEH, which requires specific crystal structures, TEEH can be constructed from a vast array of common polymers (PTFE, PDMS, Kapton, Nylon, Silk). This allows for the fabrication of biodegradable, flexible, and even washable harvesters that can be integrated into clothing ("smart textiles") or implanted directly into the body.28 The "Triboelectric Series" ranks materials by their tendency to gain or lose electrons; maximizing the distance between two materials in this series maximizes power output.30
+The growing interest in energy harvesting is fueled by several key drivers:
 
-### **4.3 Operational Modes in WBANs**
+- **The Demand for Sustainable Solutions:** As environmental concerns intensify, industries and consumers are actively seeking alternatives to traditional energy sources to reduce carbon footprints. Energy harvesting aligns with global sustainability goals by harnessing power from ambient sources like light, heat, and motion.
+- **The Rise of Connected Devices (IoT):** The proliferation of the Internet of Things (IoT) and wireless sensor networks has created a massive demand for sustainable power sources. Energy harvesting enables these interconnected devices to operate autonomously without relying on traditional batteries, reducing maintenance costs and enhancing longevity.
+- **Technological Innovation:** Continuous advancements in materials and energy conversion technologies, such as piezoelectric materials and thermoelectric generators, are making energy harvesting systems more efficient, effective, and practical for a wider range of applications.
 
-1. **Vertical Contact-Separation Mode:** Ideal for harvesting compressive forces like walking or heartbeats. The periodic contact and separation of layers pump electrons back and forth between electrodes.31
-2. **Lateral Sliding Mode:** Harvesting energy from friction, such as joints moving or skin rubbing against fabric. This mode is highly effective for low-frequency, large-amplitude motions.31
-3. **Single-Electrode Mode:** Useful for interactions where one object is freely moving (e.g., a finger tapping a sensor).
-4. **Free-Standing Layer Mode:** Allows for harvesting without direct electrical connection to the moving part, reducing wear and tear.
+The significance of this field is reflected in its market growth. The global energy harvesting market was valued at **USD 0.62 Billion in 2024** and is projected to reach **USD 1.739 Billion by 2035**, growing at a compound annual growth rate (CAGR) of approximately **9.8%**.
 
-### **4.4 Physiological Applications: "Smart Skin" and Pulse Sensing**
+To understand how this market growth is being realized, the following section breaks down the core technologies capturing and converting different forms of ambient energy.
 
-TEEH is exceptionally sensitive to low-frequency biological signals, making it superior to PEEH for certain soft-tissue applications.
+### 2. Key Energy Harvesting Technologies Explained
 
-- **Arterial Pulse Sensors:** Ultrasensitive TENGs placed over the radial artery can detect the minute expansion of the vessel wall. The generated voltage waveform mirrors the arterial pressure pulse, allowing for continuous, cuff-less blood pressure monitoring and arterial stiffness assessment.32
-- **Respiratory Harvesting:** TENGs integrated into chest bands or implanted near the diaphragm harvest the expansion of the thorax. This provides a self-powered mechanism for monitoring respiration rate and depth, critical for detecting apnea or respiratory distress.33
-- **Implantable TENGs (iTENGs):** Biodegradable TENGs can be implanted to power transient medical devices (e.g., electrical stimulators for nerve regeneration) and then dissolve, eliminating the need for removal surgery. Research has demonstrated iTENGs powering pacemakers in porcine models.29
+Energy harvesting is achieved through several key technologies, each designed to capture energy from a specific ambient source. While many methods exist, the market is primarily led by three main technological categories: Photovoltaic, Thermoelectric, and Electrodynamics.
 
-### **4.5 Security Vulnerabilities and Side-Channels**
+#### 2.1 Photovoltaic: Harvesting Light Energy
 
-The high voltage generated by TENGs creates a distinct electromagnetic signature. This introduces security risks where the operation of the harvester can be detected remotely. Furthermore, because the TENG output is directly correlated with user activity (gait, heart rate), the harvested signal itself becomes a side-channel for eavesdropping. An adversary analyzing the power fluctuations of a TENG-powered node could infer specific user activities or health states without accessing the encrypted data stream.11
+Photovoltaic (PV) technology is the process of converting sunlight directly into electricity. It is the most established and widely recognized form of energy harvesting. According to market analysis, **Photovoltaic technology currently holds the largest share** of the energy harvesting market. Its dominance is attributed to its established infrastructure and extensive adoption in both residential and commercial sectors, from large-scale solar farms to rooftop panel installations.
 
-## **5.0 Electromagnetic Energy Harvesting (EMEH): Inductive and RF Scavenging**
+#### 2.2 Thermoelectric: Harvesting Heat Energy
 
-### **5.1 Inductive Harvesting: Biomechanical Coupling**
+Thermoelectric technology is the process of converting a temperature difference, often from waste heat, into usable electrical energy. This method captures thermal energy that would otherwise be lost and transforms it into power. This technology is identified as the **fastest-growing segment in the market**. This growth is driven by its potential in both industrial waste heat recovery and novel consumer applications, perfectly illustrated by the Seiko Thermic wristwatch. This device is powered entirely by the temperature difference between the wearer's body heat and the surrounding air, eliminating the need for a traditional battery.
 
-Electromagnetic Energy Harvesting (EMEH) utilizes Faraday's Law of Induction, where a changing magnetic flux through a coil generates an electromotive force (EMF). In WBANs, this is typically achieved through the relative motion of a permanent magnet and a coil, driven by body movement.
+#### 2.3 Electrodynamics and Mechanical Methods: Harvesting Motion Energy
 
-- **Cardiac Mass Imbalance:** EMEH is particularly effective for intracardiac harvesting. A device containing an oscillating mass (magnet) is implanted in the heart. The rhythmic acceleration of the heartbeat drives the mass back and forth through a coil. Prototypes tested in vivo have generated mean power outputs of 14.39 µW to \>80 µW, sufficient to sustain modern leadless pacemakers.36
-- **Blood Flow Turbines:** Miniature magnetic turbines placed in the blood stream (e.g., the aorta or right ventricular outflow tract) convert hemodynamic kinetic energy into electricity. While power density is high, the risks of turbulence, hemolysis (damage to blood cells), and thrombosis limit clinical viability.37
+This category converts mechanical energy—such as motion, vibration, or physical stress—into electricity through several methods, most notably electrodynamics, piezoelectricity, and triboelectricity. This category is crucial for powering autonomous devices in environments where light or heat are unreliable.
 
-### **5.2 RF Energy Harvesting: The "Vampire Protocol"**
+- **Piezoelectricity:** Certain materials, such as the piezoelectric polymer Polyvinylidene fluoride (PVDF), generate an electrical charge in response to applied mechanical stress. This makes them highly suitable for harvesting energy from low-frequency biomechanical movements, such as the pressure generated from walking.
+- **Electromechanical Systems:** A prime example is the **energy-harvesting backpack**. This device uses an electromechanical mechanism to convert the up-and-down oscillations of the backpack during walking into electricity, which can be used to power portable electronic devices.
 
-Radio Frequency (RF) energy harvesting differs fundamentally from inductive harvesting; rather than converting internal kinetic energy, it scavenges electromagnetic radiation from the external environment. This technology is critical for the "Internet of Bodies" and is often referred to in critical literature as the "Vampire Protocol" or "Ambient Backscatter".8
+While each technology targets a unique ambient source, their distinct market roles and applications become clearer through a direct comparison.
 
-- **Rectenna Arrays:** The core component is the rectenna (rectifying antenna), which captures RF signals (from Wi-Fi, GSM, LTE, DTV) and converts the AC waveform into DC voltage using Schottky diodes. Impedance matching networks are essential to maximize power transfer efficiency.38
-- **Ambient Backscatter:** This communication paradigm allows WBAN nodes to communicate without generating their own radio waves. Instead, they modulate the reflection of incident ambient signals. By toggling their antenna impedance, they encode data into the reflected "electro-smog." This allows for near-zero power communication, enabling devices to operate perpetually on harvested nanowatts.16
+### 3. Comparing the Technologies: A Snapshot
 
-### **5.3 6G, Terahertz, and Molecular Absorption**
+The following table provides a side-by-side comparison of the three primary energy harvesting technologies, highlighting their energy source, market position, and a key application example.
 
-As telecommunications infrastructure migrates to 6G and the Terahertz (THz) band (0.1–10 THz), RF harvesting dynamics change. THz frequencies offer massive bandwidth (Tbps) but suffer from high molecular absorption, particularly by water. In the context of the IoBNT, this absorption is leveraged as a feature: the body's water content becomes the medium for energy transfer and secure communication. Graphene-based plasmonic nano-antennas are being engineered to resonate at THz frequencies, allowing nanobots to harvest energy from external 6G fields or directed beams, effectively turning the human body into a powered node within the 6G mesh.8
+| Technology                     | Primary Energy Source         | Market Position & Key Example                                                          |
+| ------------------------------ | ----------------------------- | -------------------------------------------------------------------------------------- |
+| **Photovoltaic**               | Light (Sunlight)              | **Largest Market Share** <br> _Example:_ Residential and commercial solar panels.      |
+| **Thermoelectric**             | Heat (Temperature Difference) | **Fastest-Growing Segment** <br> _Example:_ Body-heat-powered wristwatches.            |
+| **Electrodynamics/Mechanical** | Motion, Vibration, & Stress   | **Key for Wearable & Biomechanical Power** <br> _Example:_ Energy-harvesting backpack. |
 
-The "Directory of Human Husbandry" characterizes this as a "Kill Grid" architecture, where the same frequencies used for communication and power can be manipulated to create "dead zones" or induce thermal damage in tissues, creating a physical mechanism for remote coercion or "actuation" of biological states.9
+This technological landscape directly enables a diverse set of real-world applications, with specific market segments driving the industry's growth.
 
-## **6.0 Thermoelectric Generators (TEGs): Harvesting the Thermal Gradient**
+### 4. The Energy Harvesting Market: Applications and Growth
 
-### **6.1 The Seebeck Effect in Physiology**
+Energy harvesting technologies are being adopted across a diverse range of industries, creating self-sustaining systems and enhancing energy efficiency. The market is defined by both well-established, dominant applications and rapidly emerging sectors with immense growth potential.
 
-Thermoelectric Generators (TEGs) exploit the Seebeck effect to convert heat flux directly into electricity. The human body, maintaining a core temperature of \~37°C, acts as a constant heat source. The temperature gradient (![][image10]) between the skin surface (typically 32-34°C) and the cooler ambient environment drives the diffusion of charge carriers in semiconductor materials, generating voltage.6
+#### 4.1 Dominant and Emerging Applications
 
-### **6.2 Material Engineering for Wearables**
+Market analysis identifies two particularly significant application segments that are shaping the industry's trajectory.
 
-Standard TEG materials like Bismuth Telluride (![][image11]) are rigid and brittle, which is problematic for curvilinear skin surfaces. To maximize ![][image10] and harvesting efficiency (![][image12]), advanced materials are required.
+**Largest Segment: Consumer Electronics** Consumer electronics is the dominant application area for energy harvesting. This is largely driven by the need to enhance the battery life and overall efficiency of modern gadgets. Devices such as smartphones, wearables, and other portable electronics are increasingly leveraging these technologies to reduce reliance on frequent charging and battery replacements.
 
-- **Nanocomposites:** Microwave-processed nanocomposites reduce thermal conductivity (keeping the heat in the active material) while maintaining electrical conductivity. Optimized nanocomposite TEGs have achieved power densities of 44 µW/cm² in still air and up to 156.5 µW/cm² under airflow.13
-- **Liquid Metal Elastomers:** Researchers are developing stretchable TEGs using liquid metal droplets embedded in elastomers. These "electronic skins" maintain electrical continuity even under significant strain (e.g., on a joint), allowing for seamless integration into clothing or direct skin application.44
+**Fastest-Growing Segment: Healthcare** Healthcare is the most rapidly emerging segment, fueled by the rising demand for sustainable and reliable power sources in advanced medical technology. Energy harvesting is critical for powering devices like implantable monitors, biosensors, and remote patient monitoring systems, where continuous, autonomous operation is essential for patient care.
 
-### **6.3 Physiological and Environmental Constraints**
+#### 4.2 Future Outlook and Opportunities
 
-The primary limitation of TEG systems is the variability of ![][image10]. In hot environments (ambient \> 30°C) or under insulating clothing, the gradient disappears, and power generation ceases. Conversely, excessive sweating changes the thermal contact resistance. Despite this, TEGs are crucial for "always-on" background monitoring, as they provide a baseline power source whenever the device is worn, unlike solar (which requires light) or kinetic (which requires motion).14
+The future outlook for the energy harvesting market is robust and expected to be driven by continuous innovation and expanding applications. The transition toward autonomous, battery-less sensors and devices will continue to fuel demand for sustainable micro-power solutions.
 
-## **7.0 Kinetic Energy Harvesting: The Physics of Body Motion**
+Key opportunities for future growth include:
 
-### **7.1 Gross Motor Harvesting**
+- **Integration into IoT devices:** As the Internet of Things expands, the need for self-powered sensors and nodes will become increasingly critical.
+- **Expansion into wearable technology:** The demand for more functional, less intrusive wearables provides a significant opportunity for integrated energy harvesting solutions.
+- **Development of smart grid solutions:** Energy harvesting can play a role in creating more resilient and efficient smart grids by powering distributed sensors and control systems.
 
-Kinetic energy harvesting captures the mechanical energy of voluntary body movements. This is distinct from the micro-vibrations of the heart (cardiovascular) or arteries (blood pressure).
+These opportunities signal a shift toward a more connected and sustainable technological landscape, powered by the ambient energy all around us.
 
-- **Heel Strike (Footfalls):** The impact of the heel during walking involves significant force (\~1.2x body weight) and displacement. Piezoelectric or electromagnetic in-soles can harvest milliwatts of power from this action, sufficient to power complex sensor nodes and wireless transmission (e.g., ZigBee).12
-- **Center of Mass Motion:** Backpack-suspended load harvesters use the vertical oscillation of a load during walking to drive a generator, capable of producing watts of power (mostly for military "soldier power" applications).45
+### 5. Conclusion: Powering a Sustainable Future
 
-### **7.2 Human Activity Recognition (HAR)**
+Energy harvesting is a critical and rapidly advancing field poised to reshape our relationship with power. By capturing and converting ambient energy, its diverse technologies—including **photovoltaic**, **thermoelectric**, and **electrodynamics**—offer a pathway to more sustainable and efficient systems. From enhancing the battery life of consumer electronics to enabling life-saving autonomous medical devices, the applications are both practical and transformative. As innovation continues, energy harvesting will be instrumental in powering the next generation of smart, autonomous, and environmentally conscious technologies in key sectors like healthcare, consumer electronics, and the Internet of Things.
 
-Kinetic harvesters function inherently as accelerometers. The specific voltage patterns generated by a user's gait are unique. Research demonstrates that this "incidental" data can be processed by deep learning models to identify users and diagnose gait pathologies (e.g., Parkinson's, post-stroke recovery). However, this creates a significant privacy risk: a device marketed for energy efficiency is intrinsically a biometric tracking device capable of identifying the user based solely on how they walk.23
+## **Works cited** {#sources}
 
-## **8.0 Cardiovascular Energy Harvesting: Powering the Internal Grid**
-
-### **8.1 The Heart as a Perpetual Engine**
-
-Cardiovascular harvesting specifically targets the incessant, involuntary motion of the heart muscle and the pulsatile flow of blood. This provides a reliable power source for critical life-support implants.
-
-- **Mechanism:** Intracardiac harvesters typically use **mass imbalance oscillation**. A capsule containing a magnet on a spring is implanted in the right ventricle. As the heart contracts and relaxes, the magnet oscillates through a coil, generating AC current. Prototypes have demonstrated power outputs (16-80 µW) well in excess of the needs of modern leadless pacemakers.36
-- **Piezoelectric Sleeves:** An alternative approach involves flexible piezoelectric polymers (PVDF) wrapped around the pacemaker housing or the leads. The compression of the heart muscle directly strains the polymer, generating charge. This design avoids moving parts, increasing long-term reliability.24
-
-### **8.2 Patent Landscape and Innovation**
-
-Specific patents highlight the commercial maturity of this field.
-
-- **US Patent 11,771,910:** Describes a device implanted in the heart ventricle utilizing magnets and coils enclosed in a mesh to translate torquing heart movements into linear magnetic motion for electricity generation.47
-- **US Patent 2010/0076517:** Details a piezoelectric energy converter positioned inside the body to generate power from bio-kinetic events like heartbeats, matched to the physiologic pulse rate range.48
-
-These technologies aim to create "batteryless" cardiac implants, transforming the patient's own organ function into the life-support system for the device regulating it.
-
-## **9.0 Blood Pressure Harvesting: The Hemodynamic Interface**
-
-### **9.1 Arterial Wall Pulsation**
-
-Blood pressure harvesting is distinct from cardiac harvesting; it exploits the elastic expansion of arterial walls (arterial compliance) driven by the pressure pulse wave traveling away from the heart.
-
-- **Piezoelectric Cuffs:** A curved piezoelectric bimorph or PVDF film is wrapped around an artery (e.g., carotid or aorta). As the pressure wave passes, the artery expands, straining the cuff and generating voltage.
-- **Power Density:** Simulations indicate that harvesting from the aorta can yield peak powers of \~200 µW, while peripheral arteries like the carotid yield \~10-12 µW. This stratification allows for powering different classes of sensors depending on implantation site.49
-
-### **9.2 Cuff-less Blood Pressure Monitoring**
-
-Beyond power, these harvesters enable "cuff-less" continuous blood pressure monitoring. The voltage output of the piezoelectric cuff correlates linearly with the arterial pressure. By analyzing the Pulse Transit Time (PTT) and the waveform shape, the device can calculate Systolic and Diastolic pressure in real-time without the need for inflatable cuffs. This allows for 24/7 hemodynamic profiling, capturing hypertensive events that sporadic clinical measurements miss.50
-
-## **10.0 Systemic Implications: The "Human Node" and Bio-Digital Convergence**
-
-### **10.1 The Internet of Bio-Nano Things (IoBNT)**
-
-The convergence of these harvesting technologies facilitates the Internet of Bio-Nano Things (IoBNT). In this architecture, the human body is no longer just a user of technology but a substrate for it. Nanodevices, powered by harvested thermal or biochemical energy, communicate via molecular signals or THz frequencies to monitor cellular health, deliver drugs, and potentially interface with neural activity.
-
-- **Terahertz Control:** The use of THz frequencies (0.1-10 THz) is strategic. While these waves have short range (mm), they interact strongly with biological molecules (molecular absorption). This allows external THz sources (6G towers, local gateways) to theoretically wake up, power, or interrogate in-body nanonodes.8
-
-### **10.2 The "Vampire Project" and Techno-Enslavement**
-
-A critical analysis of the literature reveals a narrative of "Human Husbandry" and "Breath Theft." By harvesting the body's thermal and kinetic output, the surveillance infrastructure effectively parasitizes the host's metabolism.
-
-- **The Inescapable Grid:** A sensor powered by Ambient Backscatter (RF) or Body Heat cannot be turned off. It has no battery to remove. It operates as long as the subject is alive and within range of the grid. This creates the technological basis for irreversible "financial panopticons" and "kill grids," where non-compliance can be met with targeted denial of service to essential medical implants or tracking.9
-- **Military Optimization:** The "Human Performance Wing" research suggests these technologies are dual-use, intended for "warfighter optimization" (enhancing soldier endurance via metabolic regulation) as much as for civilian healthcare.
-
-### **10.3 Side-Channel Vulnerabilities**
-
-Self-powered WBANs introduce novel security vectors.
-
-- **Energy Analysis Attacks:** Adversaries can monitor the energy harvesting rate of a device (which correlates to the user's activity/heart rate) to infer private behaviors or health states without ever cracking the data encryption. This "side-channel" allows for the profiling of individuals based solely on their power generation patterns.10
-- **Keystroke Inference:** Piezoelectric sensors are so sensitive that they can detect the acoustic/vibrational signature of keystrokes on a nearby keyboard, allowing for password theft via a compromised wearable.52
-
-## **11.0 Conclusion**
-
-The engineering of Energy Harvesting WBANs constitutes a monumental leap in material science and biomedical capability. The successful integration of Piezoelectric, Triboelectric, and Thermoelectric mechanisms enables a new class of "immortal" medical devices—leadless pacemakers, deep-brain stimulators, and neural interfaces—that are freed from the tyranny of battery life. This promises to reduce surgical mortality, enhance chronic disease management, and improve quality of life for millions.
-
-However, the third-order implications of this technological victory are stark. The ability to harvest energy from the human body transforms the subject into a perpetual power source for the infrastructure of surveillance. The convergence of these harvesting modalities with 6G/THz communication grids, AI-driven behavioral analysis, and the ideology of "Human Husbandry" establishes the physical hardware for a level of biological monitoring that is persistent, intimate, and physically inescapable. As the "Internet of Bodies" matures, the distinction between a patient being monitored for health and a "Human Node" being managed as an asset will be defined not by the hardware, which is now capable of both, but by the governance, ethics, and sovereignty protocols encoded into the system. The "Perpetual Engine" of the self-powered human is now a reality; the question remains who will hold the keys to the ignition.
-
-#### **Works cited**
+:::details Expand for Sources List {footnote=true}
 
 1. A Review on Recent Energy Harvesting Methods for Increasing Battery Efficiency in WBANs \- arXiv, accessed January 21, 2026, [https://arxiv.org/pdf/2402.00877](https://arxiv.org/pdf/2402.00877)
 2. Towards a Green and Self-Powered Internet of Things Using Piezoelectric Energy Harvesting \- IEEE Xplore, accessed January 21, 2026, [https://ieeexplore.ieee.org/iel7/6287639/8600701/08762143.pdf](https://ieeexplore.ieee.org/iel7/6287639/8600701/08762143.pdf)
@@ -277,15 +240,4 @@ However, the third-order implications of this technological victory are stark. T
 51. Programmable Electromagnetics, [https://drive.google.com/open?id=1AbzaKmYH9c0gaefR-74k3AJ9S050HyTgYiYo_iLb74o](https://drive.google.com/open?id=1AbzaKmYH9c0gaefR-74k3AJ9S050HyTgYiYo_iLb74o)
 52. (PDF) Keystroke Estimation via Piezoelectric Acoustic Sensing \- ResearchGate, accessed January 21, 2026, [https://www.researchgate.net/publication/398214261_Keystroke_Estimation_via_Piezoelectric_Acoustic_Sensing](https://www.researchgate.net/publication/398214261_Keystroke_Estimation_via_Piezoelectric_Acoustic_Sensing)
 
-[image1]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAXCAYAAADtNKTnAAAA+ElEQVR4Xu3SP0tCYRTH8SMUJCUugkFNDULgIpIuOgjO0bvo/ThKi1tDi2Dg0BD1GsJVRRAEdTJIKfs+99xreri3254/+MDl/u4fnvM8IvvEpYYx1ltmmPjXS3SQC174LXdYoWLun6ONOUqm20kKr3hDxnQuWfTQRdJ0m1xiigccmC5IS/QZ92xorkXXf2uLrbiPvOPKFkEaEj6PIMd4wgJF03k5wbNEz8PlDH3RXbzYrTR/mUcdX3jEkem8xC2lILq9TRyazkvc1p7iRXQeadNtkhf9i12K++ON6BzuJeIDVQzk55h/YoSh6HH/ED3qZST8d/b5X/kGTpo1fO7baeEAAAAASUVORK5CYII=
-[image2]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAYCAYAAADKx8xXAAAAuUlEQVR4XmNgGDnACYjvAvEjIrELSBMjEE8B4pVArADlg8AcIP4HxB5QPjMQ2wPxAyA2BQmIA/EqIBaDKgABQSA+zQBRJI0kzgPEi4FYBsQBWVuIJAkC+kD8CYjXADELkjjIwElAzAvihAKxGpIkCEQD8X8gLkcTFwbiNAaEdzAAyH+/gdgGXQIfwOU/gsAYiL8yYPqPIMDlP7wA5On5DIPWf6A4PAfE7xggfoPhL0B8nQFi2CgY3AAAzMQr+zx1NKQAAAAASUVORK5CYII=
-[image3]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAZCAYAAADuWXTMAAAA/klEQVR4XmNgGAWeQPyfSFwE1YMBFgLxbyC2QRNnBGIjIH4IxEFocmAgCMSngfgBEEujSsHBHCB2QRcEAX0g/gTEa4CYBSoGog2AmBXKnwhVhwGiGSB+KkcSA7kAZBs3lA9ysgBCGgFAiv4AcQAQSwKxPBDPBOJWZEXYAMy/f4H4CRA/AuJXUD5WPyIDYyD+yoDqX14gXgXESlA+M1QMA1CkGRZYyAlAHIgnAzEHlB8BxFkIaQgAJYD5DNgTBwzwAPFiIFZEl4AF1l0GiG3YQAwDxBUgi1AANv/CACh+K4D4NRBbIkuAouAZAyLBI0cTCP9CktsBxJwQbaNgCAEA3l87nMQUjqsAAAAASUVORK5CYII=
-[image4]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAmwAAAAsCAYAAADYUuRgAAAD5UlEQVR4Xu3dTah1UxgH8CWUz3zmI0okMqKUkAkZMKAopSRKKJkw4JWhFAPJx0gkGSiUCaEM7lCUUqRIbhKlEDFAPp6ntdc9+2z73PP1nvv25verf3eftffprrtHT+tZe99SAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgPzgu8mTkxMgtkQ8jJ3Tnrm0XAQBw4Fwaub47fjHydO/cxb1jAID/hWMihw4HD7CTIkd3x7m6lqtszZG9YwCA/e7HyD+9tM+/Rk7rXbcXroz8Xurvz+LoqsiXka/n5Or88h76InLBcLAnW6T9ezqW+3euBgCY48zIN5G3IkcMzv0UeTZyyGB8k64otWg7NfJq5JRuPPeL5crWduSMbixX4l4u9W+Y57kyWSFbR96Lfjt0ljbfNte+58veF5kAwEEsC4e/I48OT4StyKeRkwfjm/Rg5IdS53Vfb/zCyC+R1yOHdWNZFGXxdGy7aBcvlVrgrSvvRb8dOkubb5tr/ryoO36qOw8AsJAskLJgG1vx2Sp19W2RFax15H6160pdVcuCbCtyU+S83jVZJGUrMefb5L6yu8piK4CrFmy56pirfHkPnoi8EXk78ljk+N51Q22+Ta605cpaurHs/l0AgCnbZbwdmn4r06+vGBruJRvLO6W+CmPMWZHPIw91n28vtchpT2P2Dduhy1qmYLuk1L18Oa9VHn5o7dC/Sr0H33fHY0UxAMBcs9qhKYunRfZrreqVUlfwzu4+t3bo2Ib+LB777dB5Th/ktci5g7FZBdwHkfdLfffaKvI1H22+KVu2uR/vnFILwEVauAAAO2a1Q/NVFVl0bPIdY1mctSIs09qhY4XUsB26m3y4IB8y6OerUt+f1h+7o31hIO9JPiXbVgkvnz49V2uHtidBs9X7TKmrmDdH7unGAQDmygLiu1JXfoayLflA2X1/2HAVayy5/2tWWzGLmru742x1bpfxFb2cw5+lPkG6qmVaojmv3FO3qiwMZ803n2ptK4oAAHNdU/7bDr0z8nPk8cH4JuQKW9uv9l6ZrOg9vHNFlWPLtEPHLFOwfRJ5pEyK1aN65xYx1r7NVb99kct6YwAAM91a6kb4XEn6o0xaf7nRPleHzp9culH3Rj6OvBC5odRC6d1Sn8bMJ0Q/KtMv9s025WdltTbtMgVb7qHL3/1mqXO7bfr0TNla/rbUueZDBrk/L+9r3uP2N/ivCADAQSeLqPZy3MNLfc/ZrBbqOpYp2Jp89UabGwAAG5bvdVunpQoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAr+xeu3LQaank2pAAAAABJRU5ErkJggg==
-[image5]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAYCAYAAADDLGwtAAAA5klEQVR4XmNgGNSAB4jF0AWRgSMQ/wTi/0C8B00OA8gA8RMgbkWXQAc2DBBT/dAl0EE5EL8FYk10CWaooC8QiwPxGiA+wADxEByAFFwA4nYgToOyfwHxJGRF8kB8C4grgZgRKpbAAPEx3H0sQLycAeI7RZggAxb3gRggAZB7QJpAAERjuA/kcJAV6TABIJAG4gcMaO6DKfREEgOF328gDgJiSyAuBAnqMECshjmanwESZV+B2BiIq4HYBSQB8mUOEF8E4rlAvBuIA4H4ChDvBOJeIGYFKYQBWCoBBToIgCRFkPgjEAAAHLgn/hbkvHMAAAAASUVORK5CYII=
-[image6]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAYCAYAAAAYl8YPAAABDUlEQVR4XmNgoDOQBOJjQHwKiA8C8S0gvgDEB6BiIFoEqpYgCAHiCCBmBGJBID4NxNFQORC/B4i5oXy8gAWIS4GYH8o3BuLbQKwJ5YMMK4KyCQKQYdJIfJCLQC4DGQICnEAsj5AmHoC8OR+IJ6FLkAPQw4sigB5eRAFWIBaHYhAbBtIZUMMLL+BjgITHayDeAMRTgFiNAZIsZgHxfSB+DsRzgdgTqgcrAMUIKDHOYYDEENkA5JVVQPwEiBXR5EgGoAB9C8S/gPgREo5EVkQsAMXSVyAuR5cgB+gD8ScGKhkGCvDNDJBwgyUFUGonKvNiAxJAvJ0BUsSAksFhIK5mgORNsgEPA2ZiHQUjEgAAKp4pEBW9VcoAAAAASUVORK5CYII=
-[image7]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAXCAYAAADduLXGAAAA4UlEQVR4XuXSoYpCQRTG8SMquKigGA0iirDNBzBqsrnR4AtYtBjFKJpsxu2iGOyC0bppk0Fs+wIK6v/cOwMy94p1wQ9+cOfMwJk5XJF/mQhyyLgbbsY444a+sxeaFi6ouRthmeGAvFMPJI0dNkg4e4F84g8Ds9bHVtDAhz1k08YVdcQxwgRrCXmwvW8JQ1TFPxSYThZ7/GAu/pU0eo0ekmbt5XFkZfxiJU8e6o7sW/xO2rGJjqlLClssEDM1PaxrncIURVOXAk7o2gL5whFLU9cxetEPbRe1BRPt+PKHet/cAcfeIy832IBiAAAAAElFTkSuQmCC
-[image8]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAABh0lEQVR4Xu2VPyiGURTGH6GUfwORKBkofwaFoixKYaAwWkwsUgYJo8RisVuUpGwyiOErgxFlEkVZjQYMPI9zX+730vvRd23fU7/e+57zds6959x7XyCnwCohVSQ/7gihPvJM3sgJKU53h1MdeSCrcUdI9cJWMxJ3hNQCeSTNcUc2UnMVcJhUk32SgjU/iBT8gqyRKTd+IZv+R9monlyTRZLnbJOwnRWkHwVkF7aLGjz7T/1oIStk3Y19qdRDpD1m/5CCKJjqr4SSnvF+tJI9UkYayQ3pcb4lckDuYf38JhlVlmnPVkvukN6PbliQLlLjxhOeX5NJIUMSLTWSzscrGYPNds7zSYPkEnZYIyUmaYOVK2pwOewaeSIdZJn0O18FrGRXsGvHV2IS7aYZ2My2yDEZhQU6Ihuk8PNrk87QORn3bIlJIsVvWwWu9N6bYOWTPQp4SIqc/1dJMkmb4Ba2ilJy6myRgiTpJDtkgMzCkkSN16bZhvXxjMzja4V/lkqllfzbTywnvAM870aKCQP0aAAAAABJRU5ErkJggg==
-[image9]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAYAAAAPtVbGAAABuklEQVR4Xu2VTyhFQRTGj7CQ/xGJkkT5s0NRNkphQaEs2ChhI8JCstQLCxtbsVCSsqVEeWVpgbISRdlaWqDwfc5c5o678Hqz46tfb+45886dOefMXJF/eVYWKAKprsOH2sAzeAfHIDPs9qcy8ABirsOnWkV30+M6fGoOPIIa15GMWFwG7AbFYA/ERYvvRQx+AZbAmBm/gDV7UjIqB9dgHqQY27BoZ3mpRxrYEe2iCsseVY9asAiWzThQBhgRzcKoeQ6JQRiM+ecLKf669agDuyAHVIEb0CK68xUwYI256CDWp1hkpmXcspWCOwnXoxncgyZQYsZDosG2wKZo4zADZyBf/6YKXtJl2Xg+XkGf6GqnLR/VCS5FD6stpukAzDp2qRdNV1DgXNFr5Ak0gAXQbnwFoim7Er12bA2Cc7AuEVcQ8zghurINcAR6RQMdglWQ/jVbxTPEgP2OnWIsLpKL/SH3tmXgQuu5WjR9tHNuHOyDbNGiV5p5TP+bfO8+IbEJbkV3wcCnxhZ054yZx4W4rf9rNYJt0AEmRV/CwnNnTOmUaMOciKYsONQJiwG5k6iPWJ5oa3u75/6oPgB1hUvcRo0kzQAAAABJRU5ErkJggg==
-[image10]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAYCAYAAADtaU2/AAABeElEQVR4Xu2UsSsHYRzGH8UgZFCkGEgW/AkmC4uBRZgUGew2ZTCJf8Fkk5TIYLhRRimDLBZlYDEZ8Dy+97q79+697ooy3Kc+w+/7/u79vs/73r1Awz+gha7RKX/grxmnr/SW9npjPiv0saI3dMIey6O0+/SDftL17HCGdnpOd2lfXOugl7CFK4Boo4v0ng7EtRxj9JQuwZpf057MPxI08QFsAY5h+kQj2pmq99ND2pWq/eDSLsMmu4Cl1u8iVumsV5uBPbPj1bWgPViPHCP0GEnCaVjqK9rt/hTTCmvs74YaqrG/oFE679W+0Uq2kU2nrYpgEy2k6iHc+WqrlbASQ/QI+QRzCKf2CZ1vKVsofoPVTE3VXIsoQ9tbdL5BlPYM4W9W26wJI5QnCZ1vkE264RdTpFPrhSvCvQ+Vz3eQniC5AELopVMafWLp79ZR+3yV9B356833GdY4lLrW+SrlHeyBOupmU+pJ+kDfvPEX2NEEr8eGhoZf4QtvxGYDhLRPqwAAAABJRU5ErkJggg==
-[image11]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAAYCAYAAABJA/VsAAADV0lEQVR4Xu2XWahNURjH/zJE5iEyRUQZSjJlqvvggQeSZCweEImIB+XlIpLkRbwYQ4YHyQOSlGt4UMpQREohkSQlRMb//35737P2t/c595zjnpfT+deve/a3h7XWN611gZpqqqmaNYW8Jn8DvpC30e/f5DIZHr8QqBWZG6HfzakDOQUbrxjOkY6Nb1ZI+8k3MsHZh5EX5CkZ4O6NIZ9hTmnv7mVpNHlOFiL3fPyNqzCnSF3JUXIaxTmzLHUiDeQJ6ZW81agTsKjPdva2pA7Z72RpLVnjbEth397i7Bprq7O1qIaQd+Q40p6NHfKDTE7eKkmK7EHS39mPkJ9kmrPLGfOcrUU1B+bt1f4GLBVV1wdIm8A+kMwiXQJbIfUjy5F0andyj7xE2hnqEyOcTZLz6mCZ0DN5qzTtgkVSi+gbMYjUk/dkMWnd9LRFQCmvyD1C+YPH9XweSYdmSQ1NfechWUGWkTtkVPhQsYrT9wMsvQ9FqJGoxnciGc3e5BhsoapDdXk5qBzlq2cvzfEKuQVrcrGUfQpUySpUz4Nhnfs+bLHSeLISNvhdchbJKI2ERUTodz5pLI2ZVc9ean5/yKLoWimuSF9Azgnq/MqA3WRVdJ1XhepZiju396iamra4eCLSWLIRVgpTYXttvgUVqudQSuvrsDkoq57BsnA+cguTA/eQBcFvH4yE8u3Pkj6q/VNenuHu6T3t3X0Cm9JUmSGbBlStqjtnaRz5iubrWduhyqwBluZZ0vsnYWUnh2secqgcm1Jz+/N0WIO7huSAWpQWrIUr1fbC0l/fmAjztuw6tOiZLBVbz53JbVjGeemc0M7ZFCjV/2Znb5K2hI9In3zkLaXzJ/IY6UY1k3yHpe4ksh3pfqBIKupKea9S6lnahnTkesC+Eb6/hDwgh5FxfFUEXyF31tY+/AZWg/r7C1Zr65HdEHQc1VZ1CXaWDjuqpOszSB9mdsC+r/HiseNa1fYXbouh9D3V6E3YznKR3ED2/wPSOlgf8PP6bym1lM5+ohpI6a4sUq3p7N5S6gY7Q/hzvuaiJjY0utbBJasPVUQavB4WYU1O9a3to9KKy3RTdK3Dk65lr7i0T4ZpKyp6fo4kZ+8jG2A1rtRXivs+U5WK0z/f1lZTTdWof7YbtgLKQb6PAAAAAElFTkSuQmCC
-[image12]: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAABSElEQVR4Xu2UsSuFURiHX6EIC7pSJkkpyqxMLEoMWJRFWS3+AoOFDJTFYpB/wSDDHZXtLgZZLDYWk4Xnd885de7Xd9xzJ6nvqafb997vnPOe3zn3mlX8N3bxNdMGzrlhefTjLZ7gmK8N4D1+4Kyv9eI2PuOEr2WhCa7MLRSYxDes42BUH8cbHIpqbdnDtUJtBb/xqFDXwqfYVag3t7xkrgOh7c5jn7kFRnw9oIm1QHHhadwo1JoHosPRAGW6iju4H78UEfJXROr4V3rwwtyk6n4Z7/DS3C7KSOWfxQKemesyhWIpy78t6v7YWm9LGan8k+jEN/HQ0rEEFEndMvMXmnwLD7A7quvmrEfPgY7z15X6wkdzO9BOzvEBa9F7gY7yn8JrHMYZfDI3WJ96DiziC37674Pv5hpJ/i3oRyQDyn/UWqOqqPhDfgA0Zj+UGJDZHwAAAABJRU5ErkJggg==
+:::
