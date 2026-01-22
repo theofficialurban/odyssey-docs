@@ -35,6 +35,28 @@ ogimage: https://i.imgur.com/sXWpWIm.png
 
 :::
 
+## Key Words & Terms {#words}
+
+<VEmbed platform="Raw" src="https://files.catbox.moe/uaiuue.mp4" />
+[_Direct Video Link_](https://files.catbox.moe/uaiuue.mp4)
+
+<VEmbed platform="Raw" src="https://files.catbox.moe/xe6a8t.mp4" />
+[_Direct Video Link_](https://files.catbox.moe/xe6a8t.mp4)
+
+:::details Expand for Images
+
+View the full Directory of Words & Terms currently sitting at 218 Words with more planned to be added soon! [Click Here](https://dict.officialurban.com)
+
+![](https://i.imgur.com/y311FfA.png)
+
+![](https://i.imgur.com/MVl1fVc.png)
+
+![](https://i.imgur.com/n4WFSNS.png)
+
+![](https://i.imgur.com/zWXgcb0.png)
+
+:::
+
 ## **Power from the People: How Your Everyday Movements Can Generate Electricity**
 
 ### Introduction: The Power in Your Step
