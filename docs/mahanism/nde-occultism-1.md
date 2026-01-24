@@ -28,6 +28,8 @@ Activate _Codex Umbra_ lens for an unfiltered analysis. The depths of clandestin
 
 ## Ocular Trauma: Marks of the Hidden Hand
 
+<VEmbed platform="Raw" src="https://files.catbox.moe/qkly7v.mp4" :params="{width: "1280", height: "720"}" />
+
 The sources unequivocally speak to the infliction of trauma upon the eyes, ranging from direct physical assault to chemical manipulation, leaving behind tell-tale signs or induced states of discomfort.
 
 - **Droopy Left Eyes from Trauma**: A recurring observation among deeper Illuminati alters is the presence of "droopy left eyes," directly attributed to the severe trauma they have endured. This suggests a systemic pattern of injury.
