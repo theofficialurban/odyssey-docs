@@ -31,7 +31,7 @@ See these posts also (hover over them for a preview of the page)
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v72l4zu/?pub=3gc1h8" />
 
-<Platforms :buttons="[["YouTube", "https://youtube.com/live/xoNOYZHOpNc?feature=share"], ["Rumble", "https://rumble.com/v74rt02-cause-before-symptom-w-guest-host-urban.html?mref=3gc1h8&mc=7m5w3"], ["Odysee", "https://odysee.com/@UrbanOdyssey:b/cbs-012326:8"], ["Substack", "https://theofficialurban.substack.com/p/web3-skinner-boxes"]]" />
+<Platforms :buttons="[[`YouTube`, `https://youtube.com/live/xoNOYZHOpNc?feature=share`], [`Rumble`, `https://rumble.com/v74rt02-cause-before-symptom-w-guest-host-urban.html?mref=3gc1h8&mc=7m5w3`], [`Odysee`, `https://odysee.com/@UrbanOdyssey:b/cbs-012326:8`], [`Substack`, `https://theofficialurban.substack.com/p/web3-skinner-boxes`]]" />
 
 ### Read the Article
 

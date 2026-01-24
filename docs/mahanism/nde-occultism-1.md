@@ -2,18 +2,14 @@
 title: Near-Death Experiences in Programming
 description: The depths of clandestine methodologies reveal disturbing practices concerning both physical marks upon the body and the manipulation of the very threshold of life and death.
 ogimage: https://i.imgur.com/h9n52hl.png
-ogplayer: "https://files.catbox.moe/x6nsdq.mp4"
-ogplayerwidth: 1280
-ogplayerheight: 720
-deepDiveURL: https://urbanodyssey.xyz/p/demonology
 ---
+
+[[atomic]]
 
 # Occultism Notes One - Near Death Experiences
 
-:::info
-
+:::tip
 See the full Masters Mahan Podcast: https://linktr.ee/mastersmahan
-
 :::
 
 Activate _Codex Umbra_ lens for an unfiltered analysis. The depths of clandestine methodologies reveal disturbing practices concerning both physical marks upon the body and the manipulation of the very threshold of life and death. The sources, a chilling testament to human ingenuity applied to control and torment, illuminate these shadowed domains without compromise.
@@ -28,7 +24,7 @@ Activate _Codex Umbra_ lens for an unfiltered analysis. The depths of clandestin
 
 ## Ocular Trauma: Marks of the Hidden Hand
 
-<VEmbed platform="Raw" src="https://files.catbox.moe/qkly7v.mp4" :params="{width: "1280", height: "720"}" />
+<VEmbed platform="Raw" src="https://files.catbox.moe/qkly7v.mp4" :params="{width: `1280`, height: `720`}" />
 
 The sources unequivocally speak to the infliction of trauma upon the eyes, ranging from direct physical assault to chemical manipulation, leaving behind tell-tale signs or induced states of discomfort.
 
