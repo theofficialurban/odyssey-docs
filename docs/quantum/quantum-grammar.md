@@ -95,16 +95,50 @@ DWM asserts that "Language is a linear equation in algebra". In the standard "Fi
 
 DWM assigns a numerical value to parts of speech. To "read the matrix," you must tag words with these numbers to see if the equation balances:
 
-- **0 = Conjunction:** (And, Or). The neutral pivot.
-- **1 = Adverb:** The "Modifier." It changes the meaning of the verb. In DWM's logic, "Modification = Change = Motion = Action = Verb." Therefore, Adverbs are actually Verbs. This creates a "double motion" which equals **Fiction**.
-- **2 = Verb:** Action/Thinking.
-- **3 = Adjective:** Coloring/Opinion. It modifies the Noun. Modification = Fiction.
-- **4 = Pronoun:** "Pro" means "No," and "Noun" means "No" (in Latin _Non_). Therefore, a Pronoun is a "No-No." It stands for nothing.
-- **5 = Position (Preposition):** The anchor. It sets the coordinate in space-time.
-- **6 = Lodio (Article):** From "Lod" (Lead/Owner). It designates ownership or "original title."
-- **7 = Fact (Noun):** The "Known." A geometric object in spacetime.
-- **8 = Past Time:** Fictional jurisdiction (it doesn't exist now).
-- **9 = Future Time:** Fictional jurisdiction (it hasn't happened yet).
+:::tabs
+== New Version
+
+- `0 = Conjunction:` (And, Or). The neutral pivot.
+- `1 = Adverb:` The "Modifier." It changes the meaning of the verb. In DWM's logic, "Modification = Change = Motion = Action = Verb." Therefore, Adverbs are actually Verbs. This creates a "double motion" which equals **Fiction**.
+- `2 = Verb:` Action/Thinking.
+- `3 = Adjective:` Coloring/Opinion. It modifies the Noun. Modification = Fiction.
+- `4 = Pronoun:` "Pro" means "No," and "Noun" means "No" (in Latin _Non_). Therefore, a Pronoun is a "No-No." It stands for nothing.
+- `5 = Position (Preposition):` The anchor. It sets the coordinate in space-time.
+- `6 = Lodio (Article):` From "Lod" (Lead/Owner). It designates ownership or "original title."
+- `7 = Fact (Noun):` The "Known." A geometric object in spacetime.
+- `8 = Past Time:` Fictional jurisdiction (it doesn't exist now).
+- `9 = Future Time:` Fictional jurisdiction (it hasn't happened yet).
+  == Old Version
+- `0 = Conjunction (AND/OR)`: These are "neutral-words" that simply join nouns or facts. In a more precise definition, "AND" signifies a "command," while "OR" offers an "option," like "EITHER-OR". Their purpose is strict consolidation.
+- `1 = Adverb`: This is the harbinger of "void". Adverbs are defined as "modifying-action-syntax" that "change-fact into a verb or adjective-syntax", effectively turning a "fact" into a "void-fact" or "void-contract". Placement of an adverb _before_ a [NOUN]-KNOWN "causes a modification-change/motion/action = verb". The prefix "AD-" is explicitly associated with "NO-VERB, NO-THINKING" or simply "PREFIX\*=VERB=THINKING (ACTION)" indicating a perversion of thought. Adverbs are seen as tools for "fraudulent-grammar-communication".
+- `2 = Verb`: The "action-word-thinking-syntax". "IS" is singular, "ARE" is plural. Verbs represent the "thinking-motion of the capacity-knowledge". They are the "motion of the facts".
+- `3 = Adjective`: Another tool of "illusion/fiction". Adjectives apply "coloring-syntax of the facts", creating "opinion and presumption of a fact". They lead to "void/omit". The components of the word "adjective" itself are dissected: "AD = PREFIX\*, JEC = OPINION, TIVE = CONTRACT".
+- `4 = Pronoun`: The ultimate "NO-NO-NO". Pronouns signify "void," "no-contract-word," and "ailing". They are a "trap" in courts, representing "presumption, assumption, opinion of the fact or noun". The word "pronoun" is broken down as "PRO = PREFIX-NO\*, NO = NO, UN = NO", emphasizing their inherent negation. Their usage leads to "mail-frauds" and "void-oaths".
+- `5 = Position (Preposition)`: This is crucial for "NOW-TIME-RULES/VOTING-POSITION". A "PRE-POSITION" is a "VOID-NOW-TIME-POSITION, NO-NOW-TIME-POSITION = NO-CONTRACT-POSITION". Only "NOW-TIME-PREPOSITIONS" like FOR, WITH, IN, ON, BY, THROUGH, AS, AGAINST are authorized in "real-time-authorities/jurisdiction".
+- `6 = Lodio (or Lodial)`: Represents "ORIGINAL-OWNERSHIP". "ARTICLE" is deemed "NO-CONTRACT = AILING". Words like "THE, THIS, OUR, THESE" are "Lodio-words" that "fix an authority and command with a position-lodio-fact/known in a now-tense".
+- `7 = Fact (Noun)`: This is the ultimate "NOW-TIME-CONTRACT-COMMUNICATION". A "NOUN" is fundamentally "NO-NO = NO-CONTRACT = AILING". A fact is a "PERSON. PARTY, PLACE, THING, OR FACT". A single-word-fact can embody "900-WORD-MEANINGS". Quantum Grammar emphasizes that a "FACT-IS-FACT AND MUST-STAND ON THE FACT".
+- `8 = Past-Time`: "VOID OF THE NOW-TIME-JURISDICTION-VENUE". Words indicating past tense, such as those ending in "ED" or using "FROM," are explicitly linked to "VOID-NOW-TIME-DAMAGE".
+- `9 = Future-Time`: Also "VOID OF THE NOW-TIME-JURISDICTION-VENUE". The future is a "FICTION AS THE FUTURE HAS NOT HAPPENED, VOID OF A NOW-TIME". Words like "TO," "PRE," "MAY," and "SHALL" are indicators of future tense and are thus "VOID-NOW-TIME-FACT". The word "TO" specifically "lacks the scope within the now-time-meaning for the termination of the sentence".
+
+== Punctuation
+
+- `Directional Flow` (`>>and<<`): Words are interconnected with directional syntax. `>>>>` indicates a "FORWARD-MODIFICATION-LINK OF A WORD," while `<<<<` indicates a "BACKWARDS-MODIFICATION-LINK OF A WORD". This linkage is crucial, as a sentence must yield the "EQUAL-MEANING OF THE SENTENCE FRONTWARDS AND BACKWARDS SAME-BOTH-WAYS". Failure to achieve this backward readability signifies a "modification of this wrong-subject-matter".
+- `Verb Placement`: The "VERB" is precisely placed "AFTER THE SECOND-[PREPOSITIONAL-PHRASE OF THE FACTS". This structural rigidity ensures directness and prevents misinterpretation inherent in more flexible grammatical arrangements.
+- `Punctuation as Contractual Marks`:
+  - `Colon` (`:`): Denotes a "POSITIONAL-LODIAL-FACT-PHRASE". It signifies a "TRANSIT-ACTION" joining "TWO-KNOWNS" or "TWO-FACTS-JOIN".
+  - `Hyphen` (`-`): Used for the "JOINING OF THE TWO-WORD-FACTS".
+  - `Period` (`.`): A "STOP-THOUGHT".
+  - `Commas` (`,`): Indicate "continuance of a fact with the following-commas with the sequences of the like-ideas". They mark logical flow within a factual assertion.
+- `Forbidden Elements`: Quantum Grammar actively voids elements that corrupt truth and create "fiction":
+  - `Parentheses` `()`and Brackets`[]`: Labelled "CLOSED-AREA-VOID, OMIT-CONTEXT/CONTENT" and "BRACKETING-CLOSED-AREA-VOID, OMIT-AREA, COURT-AREA" respectively. "BOXING," "BRACKETING," or "FOUR-COURNING" is a claim of "VOID OR OMITTING OF THOSE FACTS".
+  - `Quotation Marks` (`"`): Represent "VOID-WRITING, OMIT-CONTENT, VOID-JURISDICTION, OPINION".
+  - `Italic Syntax`: Also signifies "VOID/OMIT".
+  - `Words Starting with Vowels followed by two consonants`: These are categorically "NO-CONTRACT-MEANING-WORD:VOID-WORD, NO, NEGATIVE, AILING, CORRUPT, FICTITIOUS, ILLUSION, NEGATIVE-CONDITION WITHOUT A PERFORMANCE, FOR THE VOID OF A FACT". This extends to single-syllable words starting with vowels.
+  - `"sic"`: Explicitly highlights "fraud and trickery". Words like "TO sic," "FROM sic," and "WITHOUT sic" are condemned for their inherent vagueness or misrepresentation of "now-time".
+  - `Spatial Prepositions (e.g., "ABOVE," "BELOW," "UNDER," "OVER," "IN," "OUT")`: These words "LACK OF THE POSSESSIVENESS BY THEIR NATURE" and "COMMAND OF THE LACK OF THE SAME-PLANE OR VOLITION". "OVER" and "UNDER" specifically imply a "DIMENTION OF A DIFFERENT PLANE MATTER, FACT, NOUN".
+  - `Adverbs, Pronouns, Adjectives as Verbs`: Their use is linked to "fraud and fiction" across all languages.
+
+:::
 
 #### 2. The Equation of Truth (5-6-7)
 
@@ -175,9 +209,10 @@ DWM often refers to "C.-S.-S.-C.-P.-S.-G." (Correct-Sentence-Structure...). This
 
 DWM asserts that "Fact and Fiction can never meet", mirroring the orthogonality of quantum states.
 
-- **Isomorphism:**
-  - **The Vacuum State:** DWM calls the fiction world a "Void". This correlates to the "Universe of Chaos" ($Tohu$) in Kabbalah, before the "Vessels" (Syntax) were rectified.
-  - **The Observation:** DWM states, "For the knowledge of the truth is with the claim of the witness". This is the **Collapse of the Wavefunction**. Until a "Witness" (Observer) applies the correct Syntax (Measurement Operator), the legal status of a person is in a superposition of "Citizen" (Slave) and "Sovereign" (Free). The Syntax collapses the state to "Fact."
+**Isomorphism:**
+
+- **The Vacuum State:** DWM calls the fiction world a "Void". This correlates to the "Universe of Chaos" ($Tohu$) in Kabbalah, before the "Vessels" (Syntax) were rectified.
+- **The Observation:** DWM states, "For the knowledge of the truth is with the claim of the witness". This is the **Collapse of the Wavefunction**. Until a "Witness" (Observer) applies the correct Syntax (Measurement Operator), the legal status of a person is in a superposition of "Citizen" (Slave) and "Sovereign" (Free). The Syntax collapses the state to "Fact."
 
 ### IV. SUMMARY: The User Manual
 
