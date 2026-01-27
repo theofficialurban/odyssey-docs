@@ -18,7 +18,98 @@ import { Renderer } from "markdown-it/index.js";
 import Token from "markdown-it/lib/token.mjs";
 import { twitterCardType } from "./TwitterCard";
 import { computed, ref } from "vue";
+//import mathjax3 from "markdown-it-mathjax3";
 let md = markdownit();
+
+const customElements = [
+  "mjx-container",
+  "mjx-assistive-mml",
+  "math",
+  "maction",
+  "maligngroup",
+  "malignmark",
+  "menclose",
+  "merror",
+  "mfenced",
+  "mfrac",
+  "mi",
+  "mlongdiv",
+  "mmultiscripts",
+  "mn",
+  "mo",
+  "mover",
+  "mpadded",
+  "mphantom",
+  "mroot",
+  "mrow",
+  "ms",
+  "mscarries",
+  "mscarry",
+  "mscarries",
+  "msgroup",
+  "mstack",
+  "mlongdiv",
+  "msline",
+  "mstack",
+  "mspace",
+  "msqrt",
+  "msrow",
+  "mstack",
+  "mstack",
+  "mstyle",
+  "msub",
+  "msup",
+  "msubsup",
+  "mtable",
+  "mtd",
+  "mtext",
+  "mtr",
+  "munder",
+  "munderover",
+  "semantics",
+  "math",
+  "mi",
+  "mn",
+  "mo",
+  "ms",
+  "mspace",
+  "mtext",
+  "menclose",
+  "merror",
+  "mfenced",
+  "mfrac",
+  "mpadded",
+  "mphantom",
+  "mroot",
+  "mrow",
+  "msqrt",
+  "mstyle",
+  "mmultiscripts",
+  "mover",
+  "mprescripts",
+  "msub",
+  "msubsup",
+  "msup",
+  "munder",
+  "munderover",
+  "none",
+  "maligngroup",
+  "malignmark",
+  "mtable",
+  "mtd",
+  "mtr",
+  "mlongdiv",
+  "mscarries",
+  "mscarry",
+  "msgroup",
+  "msline",
+  "msrow",
+  "mstack",
+  "maction",
+  "semantics",
+  "annotation",
+  "annotation-xml",
+];
 
 const siteBaseUrl = "https://docs.urbanodyssey.xyz";
 
@@ -206,6 +297,21 @@ const collections: DefineCollections = {
     icon: `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 32 32"><title>Character-whole-number SVG Icon</title><path fill="currentColor" d="M28 9h-6v2h6v4h-4v2h4v4h-6v2h6a2.003 2.003 0 0 0 2-2V11a2.002 2.002 0 0 0-2-2m-8 14h-8v-6a2.002 2.002 0 0 1 2-2h4v-4h-6V9h6a2.002 2.002 0 0 1 2 2v4a2.002 2.002 0 0 1-2 2h-4v4h6zm-17.5-.5v-1h3v-11h-3v-1h4v12h3v1z"/><path fill="currentColor" d="M6 10v12zm1-1H2v2h3v10H2v2h8v-2H7z"/></svg>`,
     iconLink: "/numerology",
     patterns: ["numerology/*.md"],
+  },
+  quantum: {
+    frontmatter: {
+      collection: "quantum",
+      contributors: false,
+      backLink: false,
+      aside: true,
+      sidebar: true,
+      prev: true,
+      next: true,
+      editLink: false,
+    },
+    icon: `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 512 512"><title>Qiskit SVG Icon</title><path fill="currentColor" d="M127.711 477.547c-170.281-98.17-170.281-344.925 0-443.094S512 59.662 512 256S297.993 575.716 127.711 477.547m211.575-153.49a780.83 780.83 0 0 1-22.03 1.876l46.417 69.863c13.969-6.163 29.935.833 34.433 16.127c114.69-29.73 77.668-69.916-58.82-87.866M175.906 90.392a24.912 24.912 0 0 1-6.114 13.588l53.517 80.55c38.537-1.37 77.495-.39 115.878 3.424c270.075-39.435 57.001-123.186-163.28-97.562m.338 223.52c37.095-4.134 76.35-5.494 117.958-3.82l-71.917-108.245c-15.95-.76-31.445-2.016-46.245-3.739c-188.473 22.155-229.922 86.51.204 115.803m162.997-115.474c-33.071 3.869-67.902 4.963-104.096 3.907l72.06 108.46a672.1 672.1 0 0 1 31.788 2.777c201.71-24.413 209.525-89.157.248-115.144m162.09 47.161c-1.495-35.888-10.727-69.806-26.079-100.129c-6.822 22.366-46.52 37.66-97.862 47.396c56.715 9.841 110.262 24.688 123.941 52.733m-325.245-57.984a800.587 800.587 0 0 1 34.64-2.529l-49.371-74.875c-13.582 5.79-26.86-.23-32.857-11.986c-122.863 28.526-89.793 71.642 47.588 89.39m-38.25 4.698c-53.5-10.58-98.96-28.082-95.828-56.721c-18.468 32.71-29.648 70.054-31.332 109.825c13.877-27.162 64.733-43.116 127.16-53.104m.133 127.399c-63.9-9.65-115.879-27.341-127.293-53.242c1.686 39.757 12.86 77.098 31.318 109.815c-3.429-29.534 45.315-46.464 95.975-56.573M349.056 420.85c-.455-6.669 1.292-13.136 6.212-18.848L305.236 326.7c-42.117 2.643-85.29 1.421-129.148-2.308c-246.918 34.267-86.732 123.29 172.968 96.459m126.183-54.396c15.322-30.27 24.552-64.114 26.082-99.916c-10.508 24.898-62.471 42.797-123.94 52.65c48.314 8.86 90.751 24.371 97.858 47.266M309.287 30.264c-12.33-14.83-92.07-15.934-106.574 0c11.387 15.278 96.084 15.139 106.574 0m143.248 78.66c-35.745-47.629-88.387-81.882-148.938-93.832c32.55 12.396 15.828 37.086-47.662 37.086c-60.58.18-81.378-23.81-47.498-37.117C144.322 27.673 89.1 65.307 53.388 117.346c15.644-13.107 41.096-22.173 72.658-29.257c-.76-28.245 39.147-36.477 48.94-8.098c110.695-12.123 218.67-1.371 277.55 28.932M202.713 481.736c8.317 14.243 92.146 16.452 106.574 0c-4.769-12.707-89.167-17.636-106.574 0m53.222-21.915c58.26-.384 82.29 22.498 48.066 37.004c60.27-12.014 112.672-46.156 148.334-93.572c-15.427 8.277-33.314 14.682-53.633 19.238c-3.426 22.606-33.76 29.776-46.52 8.404c-122.838 14.752-253.282.442-298.727-36.234c35.707 52.01 90.887 89.64 154.949 102.266c-34.427-13.256-12.33-38.083 47.53-37.106"/></svg>`,
+    iconLink: "/quantum",
+    patterns: ["quantum/*.md"],
   },
 };
 
@@ -433,7 +539,7 @@ const cfg: UserConfig = {
     socialLinks,
     nav: navLinks,
     sponsors: Sponsors,
-
+    math: true,
     lastUpdated: {
       text: "Updated at",
       formatOptions: {
@@ -445,7 +551,13 @@ const cfg: UserConfig = {
   vue: {
     template: {
       compilerOptions: {
-        isCustomElement: (tag) => tag.includes("-"),
+        isCustomElement: (tag) => {
+          if (tag.includes("mjx-container")) return true;
+          if (tag.includes("-")) return true;
+          const found = customElements.find((v) => v == tag);
+          if (found !== undefined) return true;
+          if (found === undefined) return false;
+        },
       },
     },
   },
@@ -773,10 +885,13 @@ const cfg: UserConfig = {
   },
   markdown: {
     html: true,
-
-    config(md) {},
+    math: true,
+    config(md) {
+      //md.use(mathjax3);
+    },
     preConfig(md) {
       md.use(ShareBtnPlugin);
+      //md.use(mathjax3);
       const proxy = (tokens, idx, options, env, self) =>
         self.renderToken(tokens, idx, options);
       const fenceRenderer = md.renderer.rules.fence || proxy;

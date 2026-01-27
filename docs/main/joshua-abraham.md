@@ -2,9 +2,6 @@
 title: 20.Joshua Abraham's 33rd Degree Infiltration
 ogimage: https://pbs.twimg.com/profile_images/1961680826820694016/HvIYgQ7t_400x400.jpg
 description: Posts from Joshua Abraham's Masonic Infiltration
-ogplayer: https://files.catbox.moe/gzw48b.mp4
-ogplayerwidth: 1280
-ogplayerheight: 720
 ---
 
 [[atomic]]
@@ -117,6 +114,18 @@ There are dark occult societies of the Brotherhood all over the world that don�
 ## The Four Holy Books of 33rd Degree Freemasonry
 
 ![Force Powers of Freemasonry](https://i.imgur.com/EWf3Tpv.jpeg)
+
+:::details Note on the Order
+
+⛎ **The Restrainer:** In the context of the Apocalypse, Ophiuchus is seen holding the Serpent (Serpens), occupying the "wings" of the celestial sphere. This figure represents the force that binds or restrains the serpentine power until the appointed time
+
+Ophiuchus is the 13th Gate. It represents the initiate who has grasped the serpent (the sexual/life force) and mastered it, rather than being stung by the Scorpion. It is the hidden "Man" of the fixed cross, the "Measurer" of time and karma, standing upon the abyss of the southern sky. The exclusion of Ophiuchus from the popular zodiac maintains the illusion of a closed system (the 12), hiding the exit point (the 13) where the man wrestles the dragon for immortality.
+
+The Cherubim is composed of the four cardinal points of the zodiac: The Lion (Leo), the Calf (Taurus), the Man (Aquarius), and the Serpent Holder (Ophiuchus). This suggests that the "Eagle" aspect of the fixed cross is actually the energy of Ophiuchus—the transmuted Scorpion
+
+Anywhere you look, the order / attribution is incorrect and apparently this may be the reason why it is always incorrect. Usually Man/Eagle is swapped for public texts. Man/Water = Bible, while Eagle/Air = Book of the Law (Originally the Book of the Dead)
+
+:::
 
 The Four Holy Books represent the four elements of the Earth and the four angels of the Apocalypse; the Lion, Ox, Eagle, and Man: Ezekiel 1:7, Revelation 4:7
 
