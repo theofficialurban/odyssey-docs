@@ -17,6 +17,10 @@ ogimage: https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=103
 
 The provided sources explore the integration of **network-centric warfare**, **medical body area networks (MBANs)**, and **autonomous systems** within modern military and healthcare frameworks. Central to this discussion is the **Joint All-Domain Command and Control (JADC2)** concept, which transforms individual soldiers into data-generating nodes to achieve **decision dominance**. Technical research highlights the importance of **IEEE 802.15.6 standards** for reliable physiological monitoring, while military initiatives like **BATDOK** and **AutoDoc** aim to automate casualty care documentation. However, these advancements face significant **cybersecurity threats**, such as code injection and electronic warfare, necessitating **zero-trust architectures** and robust encryption. Furthermore, the rise of **artificial intelligence** in lethal autonomous weapons prompts critical debates regarding **ethical governance**, human accountability, and the need for explainable algorithms. Collectively, these texts underscore a strategic shift toward a highly interconnected, though increasingly vulnerable, digital battlefield.
 
+## Video Presentation
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v72v5no/?pub=3gc1h8" :thumbnail="`Testing Thumbnail One Two Three`" :buttons="[[`Rumble`, `https://rumble.com/v751tnw-cause-before-symptom-w-guest-host-urban.html?mref=3gc1h8&mc=7m5w3`], [`Odysee`, `https://odysee.com/@UrbanOdyssey:b/cbs-012926:7`], [`Substack`, `https://theofficialurban.substack.com/p/network-centric-warfare?r=3kr5wz`], [`YouTube`, `https://youtube.com/live/s4AaKG2bhbY`], [`Spotify`, `https://creators.spotify.com/pod/profile/urbanodyssey/episodes/Network-Centric-Warfare-Bio-Digital-Enslavement--Operator-Supervised-Autonomy--The-6G-Kill-Box-e3ed340`]]" />
+
 ## **The Algorithmic Warfighter: _Inside the Pentagon's Plan to Turn Soldiers into Data Points_**
 
 ### Introduction: A Pulse from the Sky

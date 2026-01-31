@@ -28,7 +28,8 @@ You should be aware of the following two key terms before beginning on this topi
 
 ## Urban's Walkthrough {#walkthrough}
 
-:::tip Urban's Playlist Links
+:::tabs
+== Links
 You can find the series on many platforms
 
 1. **Substack:** https://theofficialurban.substack.com/t/6g-and-beyond
@@ -37,9 +38,8 @@ You can find the series on many platforms
 4. **Odysee:** https://odysee.com/@UrbanOdyssey:b/6g-whitepaper:1
 5. **X:** https://x.com/officialurbanus/status/2005040667551215993?s=20
 6. **Bitchute:** https://www.bitchute.com/video/40a4CfGLXIgl?playlistId=telNasy8Ti3F
-
+== Spotify
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0YBAKOtukmMvGCjQkp8pMN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-
 :::
 
 ## Section I: Key Performance Indicators {#section-i}

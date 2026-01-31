@@ -5,6 +5,7 @@ import Icon from "./Icon.vue";
 
 interface Props {
   buttons: EmbedPlatformBtn[];
+  className?: string;
 }
 
 const btnClasses = {
@@ -24,6 +25,7 @@ const {
     ["Rumble", "https://google.com"],
     ["Odysee", "https://google.com"],
   ],
+  className = "",
 } = defineProps<Props>();
 const btnsCount = computed(() => buttons.length);
 
@@ -37,7 +39,10 @@ const getClass = (currentIndex: number) => {
 
 <template>
   <div
-    class="inline-flex no-underline rounded-full shadow-xs mx-auto min-w-full py-4"
+    :class="[
+      `inline-flex no-underline rounded-full shadow-xs mx-auto min-w-full`,
+      className,
+    ]"
     v-if="btnsCount > 0"
   >
     <a
