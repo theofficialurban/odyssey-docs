@@ -63,10 +63,6 @@ Image of CRISPR Cas9 DNA editing mechanism (Image from Shutterstock)
 
 #### **"A Crack in Creation" by Jennifer Doudna**
 
-:::warning
-Jennifer Doudna lives in the same house that they put Ted Kaczynski in during his time at UC Berkeley.
-:::
-
 - **Why it fits:** Written by the co-inventor of CRISPR. While it doesn't discuss YHWH, it explains the **mechanism of palindromes**.
 - **The Connection:** In your theory, you might view Palindromes as "standing waves" or "resonance locks"—sequences that read the same forward and backward, creating a form of informational symmetry or "zero point" in the code where editing (quantum collapse/change) can occur.
 
