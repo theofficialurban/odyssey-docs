@@ -110,7 +110,8 @@ The Dark Enlightenment (NRx) rejects democracy for hierarchical, tech-driven gov
 See Also:
 
 1. <LinkPreview href="../reading/nick-land.html">Extended Notes on Nick Land</LinkPreview>
-2. [Substack Post](https://theofficialurban.substack.com/p/nick-land)
+2. <LinkPreview href="../quantum/bibliography.html">Cybernetics in Quantum Computing</LinkPreview>
+3. [Substack Post](https://theofficialurban.substack.com/p/nick-land)
 
 :::
 
