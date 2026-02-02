@@ -14,6 +14,10 @@ ogimage: https://i.imgur.com/QyehPyh.png
 
 ## Overview
 
+:::highlight
+"The Problem with Psychological Weapons is that they are a double-edged blade with no handle. Any psychological weapon capable of destroying the enemy will also destroy the wielder. To deploy them is to destroy yourself." [~ Frank Herbert ~](https://medium.com/p/cluster-b-capture-collapse-theory-5ffabf8f47fe?source=social.tw)
+:::
+
 These sources examine the intersection of **space exploration**, **advanced neurotechnology**, and **claims of illicit government surveillance**. Scientific documents outline **planetary protection protocols** for Mars missions and the therapeutic potential of **brain-computer interfaces** in treating neurological disorders. Conversely, legal and investigative texts detail allegations from "Targeted Individuals" who claim they are victims of **organized stalking** and **directed energy weapons** like "voice-to-skull" technology. Government reports on **Havana Syndrome** and various court rulings largely categorize these experiences as **psychogenic illnesses** or **delusional disorders**, often dismissing the associated lawsuits for lacking subject matter jurisdiction. Together, the collection contrasts **established scientific advancement** with **conspiracy theories** and the controversial search for evidence regarding **neurological warfare**.
 
 <VEmbed platform="Raw" src="https://files.catbox.moe/2q097w.mp4" />
