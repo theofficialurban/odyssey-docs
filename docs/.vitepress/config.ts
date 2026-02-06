@@ -315,6 +315,15 @@ const collections: DefineCollections = {
     patterns: ["quantum/*.md"],
   },
 };
+type CatOverride = { prefix: string; text: string };
+// {prefix, text}
+const CollectionsToCategories = (overwrites?: CatOverride[]) => {
+  const collsKeys = Object.keys(collections);
+  let cats = collsKeys.map((v) => {
+    return { prefix: v, text: v.toUpperCase() };
+  });
+  return cats;
+};
 
 const Sponsors = {
   text: "Urban Odyssey Substack",
@@ -888,9 +897,7 @@ const cfg: UserConfig = {
       baseUrl: "https://docs.urbanodyssey.xyz",
 
       category: {
-        byCustomGetter(page) {
-          return page.frontmatter.collection ?? "UNKNOWN";
-        },
+        byPathPrefix: CollectionsToCategories(),
       },
     })(siteConfig);
   },
