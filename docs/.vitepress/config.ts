@@ -15,6 +15,7 @@ import Rules, {
   ShareBtnPlugin,
 } from "./Markdown";
 import { Renderer } from "markdown-it/index.js";
+import { buildEndGenerateOpenGraphImages } from "@nolebase/vitepress-plugin-og-image";
 import Token from "markdown-it/lib/token.mjs";
 import { twitterCardType } from "./TwitterCard";
 import { computed, ref } from "vue";
@@ -519,8 +520,7 @@ function getRandomOg(): string {
 const cfg: UserConfig = {
   title: "Urban Odyssey",
   titleTemplate: ":title | Urban Odyssey Database",
-  description:
-    "Urban Odyssey Notes & Documents - Information for public release, additional notes and more",
+  description: "Notes & Docs for public release.",
   base: "",
   lang: "en-US",
 
@@ -748,50 +748,50 @@ const cfg: UserConfig = {
       String(pageData.frontmatter.ogimageheight ?? 630) ?? "630";
     const ogIWidth =
       String(pageData.frontmatter.ogimagewidth ?? 1200) ?? "1200";
-    pageData.frontmatter.head.push(
-      [
-        "meta",
-        {
-          name: "og:image",
-          content: ogImage,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "twitter:image",
-          content: ogImage,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "og:image:width",
-          content: ogIWidth,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "twitter:image:width",
-          content: ogIWidth,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "og:image:height",
-          content: ogIHeight,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "twitter:image:height",
-          content: ogIHeight,
-        },
-      ],
-    );
+    // pageData.frontmatter.head.push(
+    //   [
+    //     "meta",
+    //     {
+    //       name: "og:image",
+    //       content: ogImage,
+    //     },
+    //   ],
+    //   [
+    //     "meta",
+    //     {
+    //       name: "twitter:image",
+    //       content: ogImage,
+    //     },
+    //   ],
+    //   [
+    //     "meta",
+    //     {
+    //       name: "og:image:width",
+    //       content: ogIWidth,
+    //     },
+    //   ],
+    //   [
+    //     "meta",
+    //     {
+    //       name: "twitter:image:width",
+    //       content: ogIWidth,
+    //     },
+    //   ],
+    //   [
+    //     "meta",
+    //     {
+    //       name: "og:image:height",
+    //       content: ogIHeight,
+    //     },
+    //   ],
+    //   [
+    //     "meta",
+    //     {
+    //       name: "twitter:image:height",
+    //       content: ogIHeight,
+    //     },
+    //   ],
+    // );
 
     const baseUrl = `${siteBaseUrl}/${pageData.relativePath}`;
     const pgUrl = baseUrl.replace(".md", ".html");
@@ -882,6 +882,17 @@ const cfg: UserConfig = {
         ]);
         break;
     }
+  },
+  buildEnd(siteConfig) {
+    return buildEndGenerateOpenGraphImages({
+      baseUrl: "https://docs.urbanodyssey.xyz",
+
+      category: {
+        byCustomGetter(page) {
+          return String(page.frontmatter.collection).toUpperCase() ?? "UNKNOWN";
+        },
+      },
+    })(siteConfig);
   },
   markdown: {
     html: true,
