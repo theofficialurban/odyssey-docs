@@ -886,11 +886,9 @@ const cfg: UserConfig = {
   buildEnd(siteConfig) {
     return buildEndGenerateOpenGraphImages({
       baseUrl: "https://docs.urbanodyssey.xyz",
-      templateSvgPath: "../public/og_template.svg",
+      templateSvgPath: "og_template.svg",
       category: {
-        byCustomGetter(page) {
-          return String(page.frontmatter.collection).toUpperCase() ?? "UNKNOWN";
-        },
+        byLevel: 0,
       },
     })(siteConfig);
   },
