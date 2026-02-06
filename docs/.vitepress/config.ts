@@ -886,7 +886,7 @@ const cfg: UserConfig = {
   buildEnd(siteConfig) {
     return buildEndGenerateOpenGraphImages({
       baseUrl: "https://docs.urbanodyssey.xyz",
-      templateSvgPath: "../og_template.svg",
+
       category: {
         byLevel: 0,
       },
