@@ -888,7 +888,9 @@ const cfg: UserConfig = {
       baseUrl: "https://docs.urbanodyssey.xyz",
 
       category: {
-        byLevel: 0,
+        byCustomGetter(page) {
+          return page.frontmatter.collection ?? "UNKNOWN";
+        },
       },
     })(siteConfig);
   },
