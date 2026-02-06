@@ -118,6 +118,23 @@ const customContainer = {
   footnote: { defaultTitle: "Footnote" },
 };
 
+const PathCategories = [
+  { prefix: "bible", text: "THE BIBLE" },
+  { prefix: "all", text: "GENERAL" },
+  { prefix: "biodigital-convergence", text: "HUMAN HUSBANDRY" },
+  { prefix: "magic", text: "MAGIC & MYSTICISM" },
+  { prefix: "mahanism", text: "MAHANISM & CONSPIRACY" },
+  { prefix: "main", text: "MAIN" },
+  { prefix: "numerology", text: "NUMEROLOGY" },
+  { prefix: "parallelism", text: "DYNASTIC PARALLELISM" },
+  { prefix: "project-orion", text: "PROJECT ORION" },
+  { prefix: "quantum", text: "QUANTUM COMPUTING" },
+  { prefix: "reading", text: "READING NOTES" },
+  { prefix: "shared", text: "SHARED CONTENT" },
+  { prefix: "technical", text: "TECHNICAL" },
+  { prefix: "timelines", text: "TIMELINES" },
+];
+
 const collections: DefineCollections = {
   bible: {
     frontmatter: {
@@ -752,55 +769,58 @@ const cfg: UserConfig = {
       );
     }
     // Sets the `og:image` and the `twitter:image` along with height and width
-    const ogImage = pageData.frontmatter.ogimage ?? getRandomOg();
-    const ogIHeight =
-      String(pageData.frontmatter.ogimageheight ?? 630) ?? "630";
-    const ogIWidth =
-      String(pageData.frontmatter.ogimagewidth ?? 1200) ?? "1200";
-    // pageData.frontmatter.head.push(
-    //   [
-    //     "meta",
-    //     {
-    //       name: "og:image",
-    //       content: ogImage,
-    //     },
-    //   ],
-    //   [
-    //     "meta",
-    //     {
-    //       name: "twitter:image",
-    //       content: ogImage,
-    //     },
-    //   ],
-    //   [
-    //     "meta",
-    //     {
-    //       name: "og:image:width",
-    //       content: ogIWidth,
-    //     },
-    //   ],
-    //   [
-    //     "meta",
-    //     {
-    //       name: "twitter:image:width",
-    //       content: ogIWidth,
-    //     },
-    //   ],
-    //   [
-    //     "meta",
-    //     {
-    //       name: "og:image:height",
-    //       content: ogIHeight,
-    //     },
-    //   ],
-    //   [
-    //     "meta",
-    //     {
-    //       name: "twitter:image:height",
-    //       content: ogIHeight,
-    //     },
-    //   ],
-    // );
+
+    if (pageData.frontmatter.ogimage) {
+      const ogImage = pageData.frontmatter.ogimage ?? getRandomOg();
+      const ogIHeight =
+        String(pageData.frontmatter.ogimageheight ?? 630) ?? "630";
+      const ogIWidth =
+        String(pageData.frontmatter.ogimagewidth ?? 1200) ?? "1200";
+      pageData.frontmatter.head.push(
+        [
+          "meta",
+          {
+            name: "og:image",
+            content: ogImage,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:image",
+            content: ogImage,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "og:image:width",
+            content: ogIWidth,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:image:width",
+            content: ogIWidth,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "og:image:height",
+            content: ogIHeight,
+          },
+        ],
+        [
+          "meta",
+          {
+            name: "twitter:image:height",
+            content: ogIHeight,
+          },
+        ],
+      );
+    }
 
     const baseUrl = `${siteBaseUrl}/${pageData.relativePath}`;
     const pgUrl = baseUrl.replace(".md", ".html");
@@ -895,9 +915,9 @@ const cfg: UserConfig = {
   buildEnd(siteConfig) {
     return buildEndGenerateOpenGraphImages({
       baseUrl: "https://docs.urbanodyssey.xyz",
-
+      overrideExistingMetaTags: false,
       category: {
-        byPathPrefix: CollectionsToCategories(),
+        byPathPrefix: PathCategories,
       },
     })(siteConfig);
   },
