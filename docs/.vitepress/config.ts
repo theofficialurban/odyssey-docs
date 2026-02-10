@@ -19,6 +19,7 @@ import { buildEndGenerateOpenGraphImages } from "@nolebase/vitepress-plugin-og-i
 import Token from "markdown-it/lib/token.mjs";
 import { twitterCardType } from "./TwitterCard";
 import { computed, ref } from "vue";
+
 //import mathjax3 from "markdown-it-mathjax3";
 let md = markdownit();
 
@@ -549,7 +550,7 @@ const cfg: UserConfig = {
   description: "Notes & Docs for public release.",
   base: "",
   lang: "en-US",
-
+  srcDir: "",
   themeConfig: {
     siteTitle: "Urban Odyssey",
     outline: "deep",
