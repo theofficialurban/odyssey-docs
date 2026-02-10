@@ -7,8 +7,8 @@ interface Props {
   params?: Record<string, string>;
   className?: string;
   src: string;
-  thumbnail?: false | string;
-  buttons?: EmbedPlatformBtn[] | null;
+  thumbnail?: string | null;
+  buttons?: EmbedPlatformBtn[];
 }
 
 const {
@@ -16,13 +16,13 @@ const {
   params = {},
   className,
   src,
-  thumbnail = false,
-  buttons = null,
+  thumbnail = null,
+  buttons = [],
 } = defineProps<Props>();
 </script>
 
 <template>
-  <div v-if="thumbnail === false" class="">
+  <div v-if="!thumbnail && buttons.length == 0" class="">
     <div v-if="platform === 'X-Timeline'">
       <a
         v-bind:class="['twitter-timeline', className]"
@@ -86,11 +86,11 @@ const {
         ></iframe>
       </slot>
     </div>
-    <div v-if="buttons !== null && buttons.length > 0">
-      <PlatformBtns :buttons />
-    </div>
   </div>
-  <div v-else class="thumbnail custom-block">
+  <div
+    v-else-if="thumbnail !== null || buttons.length > 0"
+    class="thumbnail custom-block"
+  >
     <div v-if="platform === 'X-Timeline'">
       <a
         v-bind:class="['twitter-timeline', className]"
@@ -153,12 +153,15 @@ const {
         ></iframe>
       </slot>
     </div>
-    <div v-if="thumbnail.length > 0" class="caption custom-block">
+    <div
+      v-if="thumbnail !== null && thumbnail.length > 0"
+      class="caption custom-block"
+    >
       <p>
         <em>{{ thumbnail ?? "Empty Caption" }}</em>
       </p>
     </div>
-    <div v-if="buttons !== null && buttons.length > 0">
+    <div v-if="buttons.length > 0">
       <PlatformBtns :buttons />
     </div>
   </div>
