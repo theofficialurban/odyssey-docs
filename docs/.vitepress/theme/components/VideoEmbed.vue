@@ -161,7 +161,7 @@ const {
         <em>{{ thumbnail ?? "Empty Caption" }}</em>
       </p>
     </div>
-    <div v-if="buttons.length > 0">
+    <div class="pt-4" v-if="buttons.length > 0">
       <PlatformBtns :buttons />
     </div>
   </div>
