@@ -29,7 +29,7 @@ Make sure to check out his X page. Joshua Abraham, Son of Larry Abraham, author 
 
 ### Josh Abraham calls into InfoWars to Expose Alex Jones {#infowars}
 
-<VEmbed platform="Raw" src="https://files.catbox.moe/gzw48b.mp4" />
+Watch the video clip here: https://files.catbox.moe/gzw48b.mp4
 
 #### Follow [PRIZONPALACE](https://x.com/PrizonPalace?s=20) on Rumble
 
