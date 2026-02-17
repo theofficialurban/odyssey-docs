@@ -53,7 +53,7 @@ const {
       ></iframe>
     </div>
 
-    <div v-else-if="platform === 'Raw'">
+    <div v-else-if="platform === 'Raw' || platform === 'X-Link'">
       <slot>
         <iframe
           :class="['raw-embed', className]"
@@ -120,7 +120,7 @@ const {
         v-bind="params"
       ></iframe>
     </div>
-    <div v-else-if="platform === 'Raw'">
+    <div v-else-if="platform === 'Raw' || platform === 'X-Link'">
       <slot>
         <iframe
           :class="['raw-embed', className]"
