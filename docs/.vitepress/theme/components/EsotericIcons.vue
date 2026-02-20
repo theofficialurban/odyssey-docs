@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed } from "vue";
 import {
   type Planets,
   type ZodiacSigns,
@@ -13,6 +13,7 @@ interface Props {
   planet?: Planets | null;
   sign?: ZodiacSigns | null;
   element?: Elements | null;
+  includeName?: boolean;
   className?: string;
   width?: string;
   height?: string;
@@ -23,12 +24,16 @@ const {
   planet = null,
   sign = null,
   element = null,
-  className = "w-4 h-4",
+  className = "w-3 h-3",
   width = "16",
+  includeName = false,
   height = "16",
   fill = "currentColor",
 } = defineProps<Props>();
 
+//const planetModel = useTemplateRef<HTMLSpanElement>("planet-ref")
+//const zodiacModel = useTemplateRef<HTMLSpanElement>("zodiac-ref")
+//const elementModel = useTemplateRef<HTMLSpanElement>("element-ref")
 const foundPlanetIcon = computed<string | null>(() => {
   if (planet == null) return null;
   if (sign != null || element != null) return null;
@@ -38,7 +43,9 @@ const foundPlanetIcon = computed<string | null>(() => {
     fixWH = fixWH.replaceAll("{{class}}", className);
     // fixWH = fixWH.replaceAll("{{height}}", height);
     // fixWH = fixWH.replaceAll("{{fill}}", fill);
-
+    if (includeName) {
+      return `${fixWH} ${planet}`;
+    }
     return fixWH;
   }
   return null;
@@ -53,7 +60,9 @@ const foundZodiacIcon = computed<string | null>(() => {
     //found.replaceAll("{{width}}", width);
     //fixWH = fixWH.replaceAll("{{height}}", height);
     //fixWH = fixWH.replaceAll("{{fill}}", fill);
-
+    if (includeName) {
+      return `${fixWH} ${sign}`;
+    }
     return fixWH;
   }
   return null;
@@ -67,7 +76,9 @@ const foundElementIcon = computed<string | null>(() => {
     fixWH = fixWH.replaceAll("{{class}}", className);
     // fixWH = fixWH.replaceAll("{{height}}", height);
     // fixWH = fixWH.replaceAll("{{fill}}", fill);
-
+    if (includeName) {
+      return `${fixWH} ${element}`;
+    }
     return fixWH;
   }
   return null;
