@@ -23,9 +23,9 @@ const {
   planet = null,
   sign = null,
   element = null,
-  className = "w-6 h-6",
-  width = "20",
-  height = "20",
+  className = "w-4 h-4",
+  width = "16",
+  height = "16",
   fill = "currentColor",
 } = defineProps<Props>();
 
@@ -92,7 +92,7 @@ const foundElementIcon = computed<string | null>(() => {
 <style lang="scss" scoped>
 .esoteric-icon {
   gap: 2px;
-  display: flex;
+  display: inline-flex;
   justify-content: flex-end;
   align-items: center;
 

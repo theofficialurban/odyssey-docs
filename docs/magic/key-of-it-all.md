@@ -76,16 +76,16 @@ The division of creation into four elements is a cornerstone of Western esoteric
 
 Rooted in the Hebrew Qabalah, this system arranges the elements according to the four letters of the Tetragrammaton (IHVH), linking them to the archetypal family unit and the suits of the Tarot. This order—Fire, Water, Air, Earth—is considered the esoteric sequence used in modern magick.
 
-| Attribute                                                                                                                                             | **Fire (Yod)**                  | **Water (Heh)**                                         | **Air (Vav)**                                                                             | **Earth (Heh Final)**                        |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------- |
-| **Gender**                                                                                                                                            | Male                            | Female                                                  | Male                                                                                      | Female                                       |
-| **Family**                                                                                                                                            | Father                          | Mother                                                  | Son                                                                                       | Daughter                                     |
-| **Direction (Enochian)**                                                                                                                              | South                           | West                                                    | East                                                                                      | North                                        |
-| **Tarot Suits**                                                                                                                                       | Wands                           | Cups                                                    | Swords                                                                                    | Pentacles                                    |
-| **Archangel**                                                                                                                                         | Raphael                         | Michael                                                 | Uriel                                                                                     | Gabriel                                      |
-| **Kerub**                                                                                                                                             | Man                             | Lion                                                    | Eagle                                                                                     | Ox                                           |
-| [==Joshua Abraham's 33rd Degreee Masonic Infiltration==](https://docs.urbanodyssey.xyz/main/joshua-abraham.html)                                      | Lion                            | Man                                                     | Eagle                                                                                     | Ox                                           |
-| ...................([Force Power & Holy Book](https://docs.urbanodyssey.xyz/main/joshua-abraham.html#the-four-holy-books-of-33rd-degree-freemasonry)) | Qur'an - Control via Submission | King James Bible - Power of the Apostles to Heal Others | Currently the Book of the Law, Historically the Book of the Dead - Control via Demonology | Vedic Scriptures - Power of Healing Yourself |
+| Attribute                                                                                                                            | **Fire (Yod)**                  | **Water (Heh)**                                         | **Air (Vav)**                                                                             | **Earth (Heh Final)**                        |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------- |
+| **Gender**                                                                                                                           | Male                            | Female                                                  | Male                                                                                      | Female                                       |
+| **Family**                                                                                                                           | Father                          | Mother                                                  | Son                                                                                       | Daughter                                     |
+| **Direction (Enochian)**                                                                                                             | South                           | West                                                    | East                                                                                      | North                                        |
+| **Tarot Suits**                                                                                                                      | Wands                           | Cups                                                    | Swords                                                                                    | Pentacles                                    |
+| **Archangel**                                                                                                                        | Raphael                         | Michael                                                 | Uriel                                                                                     | Gabriel                                      |
+| **Kerub**                                                                                                                            | Man                             | Lion                                                    | Eagle                                                                                     | Ox                                           |
+| [Joshua Abraham's 33rd Degreee Masonic Infiltration](https://docs.urbanodyssey.xyz/main/joshua-abraham.html)                         | Lion                            | Man                                                     | Eagle                                                                                     | Ox                                           |
+| ..([Force Power & Holy Book](https://docs.urbanodyssey.xyz/main/joshua-abraham.html#the-four-holy-books-of-33rd-degree-freemasonry)) | Qur'an - Control via Submission | King James Bible - Power of the Apostles to Heal Others | Currently the Book of the Law, Historically the Book of the Dead - Control via Demonology | Vedic Scriptures - Power of Healing Yourself |
 
 ![](https://i.imgur.com/m8wkqha.jpeg)
 
@@ -106,13 +106,13 @@ The fourfold elemental system can be expanded to five with the inclusion of Spir
 
 ###### **Western and Eastern Elements**
 
-| Western | Indian (Tattvas) | Chinese |
-| ------- | ---------------- | ------- |
-| Spirit  | Akasha           | Earth   |
-| Air     | Vayu             | Wood    |
-| Fire    | Tejas            | Fire    |
-| Water   | Apas             | Water   |
-| Earth   | Prithivi         | Metal   |
+| Western                                              | Indian (Tattvas) | Chinese |
+| ---------------------------------------------------- | ---------------- | ------- |
+| <EsoIcon element="Spirit" fill="fuchsia" /> Spirit   | Akasha           | Earth   |
+| <EsoIcon element="Air" fill="yellow" /> Air          | Vayu             | Wood    |
+| <EsoIcon element="Fire" fill="red" /> Fire           | Tejas            | Fire    |
+| <EsoIcon element="Water" fill="deepskyblue" /> Water | Apas             | Water   |
+| <EsoIcon element="Earth" fill="seagreen" /> Earth    | Prithivi         | Metal   |
 
 #### 2.2 The Planetary Keys: The Seven Celestial Spheres
 
@@ -136,30 +136,30 @@ The Greek names for these deities possess numerical values that were central to 
 
 ###### **Greek Qabalah for the Seven Planetary Deities**
 
-| Planet     | Greek Name | Number Value |
-| ---------- | ---------- | ------------ |
-| Saturn     | ΚΡΟΝΟΣ     | 510          |
-| Jupiter    | ΖΕΥΣ       | 612          |
-| Mars       | ΑΡΗΣ       | 309          |
-| Sun        | ΗΛΙΟΣ      | 318          |
-| Venus      | ΑΦΡΟΔΙΤΗ   | 993          |
-| Mercury    | ΕΡΜΗΣ      | 353          |
-| Moon       | ΑΡΤΕΜΙΣ    | 656          |
-| **Total:** |            | **3,751**    |
+| Planet                               | Greek Name | Number Value |
+| ------------------------------------ | ---------- | ------------ |
+| <EsoIcon planet="Saturn" /> Saturn   | ΚΡΟΝΟΣ     | 510          |
+| <EsoIcon planet="Jupiter" /> Jupiter | ΖΕΥΣ       | 612          |
+| <EsoIcon planet="Mars" /> Mars       | ΑΡΗΣ       | 309          |
+| <EsoIcon planet="Sun" /> Sun         | ΗΛΙΟΣ      | 318          |
+| <EsoIcon planet="Venus" /> Venus     | ΑΦΡΟΔΙΤΗ   | 993          |
+| <EsoIcon planet="Mercury" /> Mercury | ΕΡΜΗΣ      | 353          |
+| <EsoIcon planet="Moon" /> Moon       | ΑΡΤΕΜΙΣ    | 656          |
+| **Total:**                           |            | **3,751**    |
 
 ##### **3. Astrological Symbols & Alchemical Metals**
 
 During the Renaissance, alchemists developed specific symbols for the seven planets, linking each to a corresponding metal.
 
-| Planet & Symbol | Alchemical Metal |
-| --------------- | ---------------- |
-| Sun ☉           | Gold             |
-| Moon ☽          | Silver           |
-| Mercury ☿       | Quicksilver      |
-| Venus ♀         | Copper           |
-| Mars ♂          | Iron             |
-| Jupiter ♃       | Tin              |
-| Saturn ♄        | Lead             |
+| Planet & Symbol                        | Alchemical Metal |
+| -------------------------------------- | ---------------- |
+| <EsoIcon planet="Sun" /> Sun ☉         | Gold             |
+| <EsoIcon planet="Moon" /> Moon ☽       | Silver           |
+| <EsoIcon planet="Mercury" /> Mercury ☿ | Quicksilver      |
+| <EsoIcon planet="Venus" /> Venus ♀     | Copper           |
+| <EsoIcon planet="Mars" /> Mars ♂       | Iron             |
+| <EsoIcon planet="Jupiter" /> Jupiter ♃ | Tin              |
+| <EsoIcon planet="Saturn" /> Saturn ♄   | Lead             |
 
 ##### **4. Platonic Order and Greek Vowels**
 
@@ -167,15 +167,15 @@ The Platonic order of the planets, arranged by their cosmic spheres from the out
 
 ###### **Platonic Planetary Order and the Seven Greek Vowels**
 
-| Planet  | Sphere  | Greek Vowel |
-| ------- | ------- | ----------- |
-| Saturn  | Seventh | Ω (Omega)   |
-| Jupiter | Sixth   | Υ (Upsilon) |
-| Mars    | Fifth   | Ο (Omicron) |
-| Sun     | Fourth  | Ι (Iota)    |
-| Venus   | Third   | Η (Eta)     |
-| Mercury | Second  | Ε (Epsilon) |
-| Moon    | First   | Α (Alpha)   |
+| Planet                               | Sphere  | Greek Vowel |
+| ------------------------------------ | ------- | ----------- |
+| <EsoIcon planet="Saturn" /> Saturn   | Seventh | Ω (Omega)   |
+| <EsoIcon planet="Jupiter" /> Jupiter | Sixth   | Υ (Upsilon) |
+| <EsoIcon planet="Mars" /> Mars       | Fifth   | Ο (Omicron) |
+| <EsoIcon planet="Sun" /> Sun         | Fourth  | Ι (Iota)    |
+| <EsoIcon planet="Venus" /> Venus     | Third   | Η (Eta)     |
+| <EsoIcon planet="Mercury" /> Mercury | Second  | Ε (Epsilon) |
+| <EsoIcon planet="Moon" /> Moon       | First   | Α (Alpha)   |
 
 ##### **5. Dee's Planetary Monad**
 
@@ -183,15 +183,15 @@ The 16th-century magician John Dee devised a single symbol, the _Monas Hieroglyp
 
 ###### **The Seven Planets on the Monad**
 
-| Planet  | Sign | Monad Derivation                                                                                       |
-| ------- | ---- | ------------------------------------------------------------------------------------------------------ |
-| Saturn  | ♄    | The cross of the elements placed above the crescent of the Moon.                                       |
-| Jupiter | ♃    | The crescent of the Moon placed above the cross of the elements.                                       |
-| Mars    | ♂    | The circle of the Sun with the cross of the elements placed above it as an arrow.                      |
-| Sun     | ☉    | The central circle with its center point.                                                              |
-| Venus   | ♀    | The circle of the Sun placed above the cross of the elements.                                          |
-| Mercury | ☿    | The full Monad: the crescent of the Moon above the circle of the Sun, above the cross of the elements. |
-| Moon    | ☽    | The crescent at the top of the Monad.                                                                  |
+| Planet                               | Sign | Monad Derivation                                                                                       |
+| ------------------------------------ | ---- | ------------------------------------------------------------------------------------------------------ |
+| <EsoIcon planet="Saturn" /> Saturn   | ♄    | The cross of the elements placed above the crescent of the Moon.                                       |
+| <EsoIcon planet="Jupiter" /> Jupiter | ♃    | The crescent of the Moon placed above the cross of the elements.                                       |
+| <EsoIcon planet="Mars" /> Mars       | ♂    | The circle of the Sun with the cross of the elements placed above it as an arrow.                      |
+| <EsoIcon planet="Sun" /> Sun         | ☉    | The central circle with its center point.                                                              |
+| <EsoIcon planet="Venus" /> Venus     | ♀    | The circle of the Sun placed above the cross of the elements.                                          |
+| <EsoIcon planet="Mercury" /> Mercury | ☿    | The full Monad: the crescent of the Moon above the circle of the Sun, above the cross of the elements. |
+| <EsoIcon planet="Moon" /> Moon       | ☽    | The crescent at the top of the Monad.                                                                  |
 
 ##### **6. Days of the Week and Planetary Hours**
 
@@ -199,32 +199,32 @@ The cycle of the seven planets governs both the days of the week and the 168 hou
 
 ###### **Planetary Ruler for the 168 Hours of the Week**
 
-| **Day / Hour**  | **Sun** | **Mon** | **Tue** | **Wed** | **Thu** | **Fri** | **Sat** |
-| --------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| **12-1 AM**     | Mercury | Jupiter | Venus   | Saturn  | Sun     | Moon    | Mars    |
-| **1-2 AM**      | Moon    | Mars    | Mercury | Jupiter | Venus   | Saturn  | Sun     |
-| **2-3 AM**      | Saturn  | Sun     | Moon    | Mars    | Mercury | Jupiter | Venus   |
-| **3-4 AM**      | Jupiter | Venus   | Saturn  | Sun     | Moon    | Mars    | Mercury |
-| **4-5 AM**      | Mars    | Mercury | Jupiter | Venus   | Saturn  | Sun     | Moon    |
-| **5-6 AM**      | Sun     | Moon    | Mars    | Mercury | Jupiter | Venus   | Saturn  |
-| **6-7 AM**      | Venus   | Saturn  | Sun     | Moon    | Mars    | Mercury | Jupiter |
-| **7-8 AM**      | Mercury | Jupiter | Venus   | Saturn  | Sun     | Moon    | Mars    |
-| **8-9 AM**      | Moon    | Mars    | Mercury | Jupiter | Venus   | Saturn  | Sun     |
-| **9-10 AM**     | Saturn  | Sun     | Moon    | Mars    | Mercury | Jupiter | Venus   |
-| **10-11 AM**    | Jupiter | Venus   | Saturn  | Sun     | Moon    | Mars    | Mercury |
-| **11 AM-12 PM** | Mars    | Mercury | Jupiter | Venus   | Saturn  | Sun     | Moon    |
-| **12-1 PM**     | Sun     | Moon    | Mars    | Mercury | Jupiter | Venus   | Saturn  |
-| **1-2 PM**      | Venus   | Saturn  | Sun     | Moon    | Mars    | Mercury | Jupiter |
-| **2-3 PM**      | Mercury | Jupiter | Venus   | Saturn  | Sun     | Moon    | Mars    |
-| **3-4 PM**      | Moon    | Mars    | Mercury | Jupiter | Venus   | Saturn  | Sun     |
-| **4-5 PM**      | Saturn  | Sun     | Moon    | Mars    | Mercury | Jupiter | Venus   |
-| **5-6 PM**      | Jupiter | Venus   | Saturn  | Sun     | Moon    | Mars    | Mercury |
-| **6-7 PM**      | Mars    | Mercury | Jupiter | Venus   | Saturn  | Sun     | Moon    |
-| **7-8 PM**      | Sun     | Moon    | Mars    | Mercury | Jupiter | Venus   | Saturn  |
-| **8-9 PM**      | Venus   | Saturn  | Sun     | Moon    | Mars    | Mercury | Jupiter |
-| **9-10 PM**     | Mercury | Jupiter | Venus   | Saturn  | Sun     | Moon    | Mars    |
-| **10-11 PM**    | Moon    | Mars    | Mercury | Jupiter | Venus   | Saturn  | Sun     |
-| **11 PM-12 AM** | Saturn  | Sun     | Moon    | Mars    | Mercury | Jupiter | Venus   |
+| **Day / Hour**  | **Sun**                              | **Mon**                              | **Tue**                              | **Wed**                              | **Thu**                              | **Fri**                              | **Sat**                              |
+| --------------- | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| **12-1 AM**     | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       |
+| **1-2 AM**      | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         |
+| **2-3 AM**      | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     |
+| **3-4 AM**      | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury |
+| **4-5 AM**      | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       |
+| **5-6 AM**      | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   |
+| **6-7 AM**      | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter |
+| **7-8 AM**      | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       |
+| **8-9 AM**      | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         |
+| **9-10 AM**     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     |
+| **10-11 AM**    | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury |
+| **11 AM-12 PM** | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       |
+| **12-1 PM**     | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   |
+| **1-2 PM**      | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter |
+| **2-3 PM**      | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       |
+| **3-4 PM**      | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         |
+| **4-5 PM**      | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     |
+| **5-6 PM**      | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury |
+| **6-7 PM**      | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       |
+| **7-8 PM**      | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   |
+| **8-9 PM**      | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter |
+| **9-10 PM**     | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       |
+| **10-11 PM**    | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         |
+| **11 PM-12 AM** | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     |
 
 #### 2.3 The Zodiacal Keys: The Twelve Divisions of Heaven
 
@@ -232,14 +232,14 @@ The Zodiac is an ancient system that divides the celestial sphere into twelve 30
 
 ##### **1. The Twelve Signs**
 
-| Order | Name   | Image  | Order | Name        | Image        |
-| ----- | ------ | ------ | ----- | ----------- | ------------ |
-| 1     | Aries  | Ram    | 7     | Libra       | Scales       |
-| 2     | Taurus | Bull   | 8     | Scorpio     | Scorpion     |
-| 3     | Gemini | Twins  | 9     | Sagittarius | Centaur      |
-| 4     | Cancer | Crab   | 10    | Capricorn   | Goat-Fish    |
-| 5     | Leo    | Lion   | 11    | Aquarius    | Water-Bearer |
-| 6     | Virgo  | Virgin | 12    | Pisces      | Fishes       |
+| Order | Name                             | Image  | Order | Name                                       | Image        |
+| ----- | -------------------------------- | ------ | ----- | ------------------------------------------ | ------------ |
+| 1     | Aries <EsoIcon sign="Aries" />   | Ram    | 7     | Libra <EsoIcon sign="Libra" />             | Scales       |
+| 2     | Taurus <EsoIcon sign="Taurus" /> | Bull   | 8     | Scorpio <EsoIcon sign="Scorpio" />         | Scorpion     |
+| 3     | Gemini <EsoIcon sign="Gemini" /> | Twins  | 9     | Sagittarius <EsoIcon sign="Sagittarius" /> | Centaur      |
+| 4     | Cancer <EsoIcon sign="Cancer" /> | Crab   | 10    | Capricorn <EsoIcon sign="Capricorn" />     | Goat-Fish    |
+| 5     | Leo <EsoIcon sign="Leo" />       | Lion   | 11    | Aquarius <EsoIcon sign="Aquarius" />       | Water-Bearer |
+| 6     | Virgo <EsoIcon sign="Virgo" />   | Virgin | 12    | Pisces <EsoIcon sign="Pisces" />           | Fishes       |
 
 ##### **2. Elemental Divisions**
 
@@ -247,11 +247,11 @@ The twelve signs are grouped by element into four _triplicities_ (three signs pe
 
 ###### **Tetragrammaton Elemental Order as the Precession of the Signs**
 
-| Fire        | Water   | Air      | Earth     |
-| ----------- | ------- | -------- | --------- |
-| Aries       | Pisces  | Aquarius | Capricorn |
-| Sagittarius | Scorpio | Libra    | Virgo     |
-| Leo         | Cancer  | Gemini   | Taurus    |
+| Fire <EsoIcon element="Fire" fill="red" /> | Water <EsoIcon element="Water" fill="deepskyblue" /> | Air <EsoIcon element="Air" fill="yellow" /> | Earth <EsoIcon element="Earth" fill="seagreen" /> |
+| ------------------------------------------ | ---------------------------------------------------- | ------------------------------------------- | ------------------------------------------------- |
+| Aries                                      | Pisces                                               | Aquarius                                    | Capricorn                                         |
+| Sagittarius                                | Scorpio                                              | Libra                                       | Virgo                                             |
+| Leo                                        | Cancer                                               | Gemini                                      | Taurus                                            |
 
 ##### **3. Planetary Influences**
 
@@ -259,31 +259,31 @@ Each zodiacal sign is "ruled" by one of the seven classical planets, which exert
 
 ###### **Alchemical Ladder of Planetary Rulers for the Zodiac**
 
-| Sign     | Planetary Ruler | Sign        |
-| -------- | --------------- | ----------- |
-| Cancer   | Moon            | Sun         |
-| Gemini   | Mercury         | Virgo       |
-| Taurus   | Venus           | Libra       |
-| Aries    | Mars            | Scorpio     |
-| Pisces   | Jupiter         | Sagittarius |
-| Aquarius | Saturn          | Capricorn   |
+| Sign     | Planetary Ruler                      | Sign                         |
+| -------- | ------------------------------------ | ---------------------------- |
+| Cancer   | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Sun" /> Sun |
+| Gemini   | <EsoIcon planet="Mercury" /> Mercury | Virgo                        |
+| Taurus   | <EsoIcon planet="Venus" /> Venus     | Libra                        |
+| Aries    | <EsoIcon planet="Mars" /> Mars       | Scorpio                      |
+| Pisces   | <EsoIcon planet="Jupiter" /> Jupiter | Sagittarius                  |
+| Aquarius | <EsoIcon planet="Saturn" /> Saturn   | Capricorn                    |
 
 ###### **Planetary Dignities for the Zodiac**
 
-| Sign            | Domicile (Ruler) | Exaltation | Detriment | Fall    |
-| --------------- | ---------------- | ---------- | --------- | ------- |
-| **Aries**       | Mars             | Sun        | Venus     | Saturn  |
-| **Taurus**      | Venus            | Moon       | Mars      | -       |
-| **Gemini**      | Mercury          | -          | Jupiter   | -       |
-| **Cancer**      | Moon             | Jupiter    | Saturn    | Mars    |
-| **Leo**         | Sun              | -          | Saturn    | -       |
-| **Virgo**       | Mercury          | Mercury    | Jupiter   | Venus   |
-| **Libra**       | Venus            | Saturn     | Mars      | Sun     |
-| **Scorpio**     | Mars             | -          | Venus     | Moon    |
-| **Sagittarius** | Jupiter          | -          | Mercury   | -       |
-| **Capricorn**   | Saturn           | Mars       | Moon      | Jupiter |
-| **Aquarius**    | Saturn           | -          | Sun       | -       |
-| **Pisces**      | Jupiter          | Venus      | Mercury   | Mercury |
+| Sign            | Domicile (Ruler)                     | Exaltation                           | Detriment                            | Fall                                 |
+| --------------- | ------------------------------------ | ------------------------------------ | ------------------------------------ | ------------------------------------ |
+| **Aries**       | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Sun" /> Sun         | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   |
+| **Taurus**      | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Mars" /> Mars       | -                                    |
+| **Gemini**      | <EsoIcon planet="Mercury" /> Mercury | -                                    | <EsoIcon planet="Jupiter" /> Jupiter | -                                    |
+| **Cancer**      | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Mars" /> Mars       |
+| **Leo**         | <EsoIcon planet="Sun" /> Sun         | -                                    | <EsoIcon planet="Saturn" /> Saturn   | -                                    |
+| **Virgo**       | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     |
+| **Libra**       | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Sun" /> Sun         |
+| **Scorpio**     | <EsoIcon planet="Mars" /> Mars       | -                                    | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Moon" /> Moon       |
+| **Sagittarius** | <EsoIcon planet="Jupiter" /> Jupiter | -                                    | <EsoIcon planet="Mercury" /> Mercury | -                                    |
+| **Capricorn**   | <EsoIcon planet="Saturn" /> Saturn   | <EsoIcon planet="Mars" /> Mars       | <EsoIcon planet="Moon" /> Moon       | <EsoIcon planet="Jupiter" /> Jupiter |
+| **Aquarius**    | <EsoIcon planet="Saturn" /> Saturn   | -                                    | <EsoIcon planet="Sun" /> Sun         | -                                    |
+| **Pisces**      | <EsoIcon planet="Jupiter" /> Jupiter | <EsoIcon planet="Venus" /> Venus     | <EsoIcon planet="Mercury" /> Mercury | <EsoIcon planet="Mercury" /> Mercury |
 
 ##### **4. Zodiac of the Human Body**
 
@@ -641,38 +641,38 @@ The Coptic alphabet and its associated lore represent a crucial bridge, filterin
 
 The Coptic alphabet consists of the 24 letters of the Greek alphabet plus six additional characters derived from Egyptian Demotic script, giving it a total of 30 letters with astrological and Qabalistic correspondences.
 
-| Coptic Letter | Name    | Value | Astrological | Tree of Life Path |
-| ------------- | ------- | ----- | ------------ | ----------------- |
-| Ⲁ             | Alpha   | 1     | Sun          | 15 (Heh)          |
-| Ⲃ             | Beta    | 2     | Venus        | 12 (Beth)         |
-| Ⲅ             | Gamma   | 3     | Mercury      | 13 (Gimel)        |
-| Ⲇ             | Delta   | 4     | Moon         | 14 (Daleth)       |
-| Ⲉ             | Epsilon | 5     | Aries        | 16 (Vav)          |
-| Ⲋ             | So      | 6     | Gemini       | 17 (Zain)         |
-| Ⲍ             | Zeta    | 7     | Cancer       | 18 (Cheth)        |
-| Ⲏ             | Eta     | 8     | Leo          | 19 (Teth)         |
-| Ⲑ             | Theta   | 9     | Virgo        | 20 (Yod)          |
-| Ⲓ             | Iota    | 10    | Libra        | 21 (Kaph)         |
-| Ⲕ             | Kappa   | 20    | Scorpio      | 22 (Lamed)        |
-| Ⲗ             | Laula   | 30    | Sagittarius  | 23 (Mem)          |
-| Ⲙ             | Me      | 40    | Capricorn    | 24 (Nun)          |
-| Ⲛ             | Ne      | 50    | Aquarius     | 25 (Samekh)       |
-| Ⲝ             | Exi     | 60    | Pisces       | 26 (Ayin)         |
-| Ⲟ             | O       | 70    | Mars         | 27 (Peh)          |
-| Ⲡ             | Pi      | 80    | Taurus       | 28 (Tzaddi)       |
-| Ⲣ             | Ro      | 100   | Mercury      | 30 (Resh)         |
-| Ⲥ             | Sima    | 200   | Jupiter      | 11 (Aleph)        |
-| Ⲧ             | Tau     | 300   | Saturn       | 31 (Shin)         |
-| Ⲩ             | Upsilon | 400   | Earth        | 32 (Tav)          |
-| Ⲫ             | Phi     | 500   |              |                   |
-| Ⲭ             | Chi     | 600   |              |                   |
-| Ⲯ             | Psi     | 700   |              |                   |
-| Ⲱ             | O       | 800   |              |                   |
-| Ϣ             | Shai    | 900   |              |                   |
-| Ϥ             | Fai     | 90    |              |                   |
-| Ϧ             | Khai    | -     |              |                   |
-| Ϩ             | Hori    | -     |              |                   |
-| Ϫ             | Janja   | -     |              |                   |
+| Coptic Letter | Name    | Value | Astrological                         | Tree of Life Path |
+| ------------- | ------- | ----- | ------------------------------------ | ----------------- |
+| Ⲁ             | Alpha   | 1     | <EsoIcon planet="Sun" /> Sun         | 15 (Heh)          |
+| Ⲃ             | Beta    | 2     | <EsoIcon planet="Venus" /> Venus     | 12 (Beth)         |
+| Ⲅ             | Gamma   | 3     | <EsoIcon planet="Mercury" /> Mercury | 13 (Gimel)        |
+| Ⲇ             | Delta   | 4     | <EsoIcon planet="Moon" /> Moon       | 14 (Daleth)       |
+| Ⲉ             | Epsilon | 5     | Aries                                | 16 (Vav)          |
+| Ⲋ             | So      | 6     | Gemini                               | 17 (Zain)         |
+| Ⲍ             | Zeta    | 7     | Cancer                               | 18 (Cheth)        |
+| Ⲏ             | Eta     | 8     | Leo                                  | 19 (Teth)         |
+| Ⲑ             | Theta   | 9     | Virgo                                | 20 (Yod)          |
+| Ⲓ             | Iota    | 10    | Libra                                | 21 (Kaph)         |
+| Ⲕ             | Kappa   | 20    | Scorpio                              | 22 (Lamed)        |
+| Ⲗ             | Laula   | 30    | Sagittarius                          | 23 (Mem)          |
+| Ⲙ             | Me      | 40    | Capricorn                            | 24 (Nun)          |
+| Ⲛ             | Ne      | 50    | Aquarius                             | 25 (Samekh)       |
+| Ⲝ             | Exi     | 60    | Pisces                               | 26 (Ayin)         |
+| Ⲟ             | O       | 70    | <EsoIcon planet="Mars" /> Mars       | 27 (Peh)          |
+| Ⲡ             | Pi      | 80    | Taurus                               | 28 (Tzaddi)       |
+| Ⲣ             | Ro      | 100   | <EsoIcon planet="Mercury" /> Mercury | 30 (Resh)         |
+| Ⲥ             | Sima    | 200   | <EsoIcon planet="Jupiter" /> Jupiter | 11 (Aleph)        |
+| Ⲧ             | Tau     | 300   | <EsoIcon planet="Saturn" /> Saturn   | 31 (Shin)         |
+| Ⲩ             | Upsilon | 400   | Earth                                | 32 (Tav)          |
+| Ⲫ             | Phi     | 500   |                                      |                   |
+| Ⲭ             | Chi     | 600   |                                      |                   |
+| Ⲯ             | Psi     | 700   |                                      |                   |
+| Ⲱ             | O       | 800   |                                      |                   |
+| Ϣ             | Shai    | 900   |                                      |                   |
+| Ϥ             | Fai     | 90    |                                      |                   |
+| Ϧ             | Khai    | -     |                                      |                   |
+| Ϩ             | Hori    | -     |                                      |                   |
+| Ϫ             | Janja   | -     |                                      |                   |
 
 ##### **2. Egyptian Numerals**
 
@@ -773,32 +773,32 @@ The most ancient runic alphabet is the Elder Futhark, composed of 24 letters div
 
 ###### **The Elder Futhark Runes**
 
-| Rune  | Trans. | Name     | Meaning             | Homeric Value | Pythagorean Value |
-| ----- | ------ | -------- | ------------------- | ------------- | ----------------- |
-| **ᚠ** | F      | Fehu     | Cattle, possessions | 1             | 1                 |
-| **ᚢ** | U      | Uruz     | Strength, wild ox   | 2             | 2                 |
-| **ᚦ** | Th     | Thurisaz | Thorn, giant, gate  | 3             | 3                 |
-| **ᚨ** | A      | Ansuz    | God, mouth, signal  | 4             | 4                 |
-| **ᚱ** | R      | Raido    | Journey             | 5             | 5                 |
-| **ᚲ** | K      | Kaunaz   | Torch, opening      | 6             | 7                 |
-| **ᚷ** | G      | Gebo     | Gift, partnership   | 7             | 8                 |
-| **ᚹ** | W      | Wunjo    | Joy, bliss          | 8             | 9                 |
-| **ᚺ** | H      | Hagalaz  | Hail                | 9             | 10                |
-| **ᚾ** | N      | Nauthiz  | Need, constraint    | 10            | 20                |
-| **ᛁ** | I      | Isa      | Ice                 | 11            | 30                |
-| **ᛃ** | J      | Jera     | Year, harvest       | 12            | 40                |
-| **ᛇ** | Ei     | Eihwaz   | Yew tree            | 13            | 50                |
-| **ᛈ** | P      | Perthro  | Lot cup             | 14            | 60                |
-| **ᛉ** | Z      | Algiz    | Elk, protection     | 15            | 70                |
-| **ᛊ** | S      | Sowilo   | Sun                 | 16            | 80                |
-| **ᛏ** | T      | Tiwaz    | The God Tyr         | 17            | 100               |
-| **ᛒ** | B      | Berkano  | Birch tree          | 18            | 200               |
-| **ᛖ** | E      | Ehwaz    | Horse               | 19            | 300               |
-| **ᛗ** | M      | Mannaz   | Man                 | 20            | 400               |
-| **ᛚ** | L      | Laguz    | Water, lake         | 21            | 500               |
-| **ᛜ** | Ng     | Ingwaz   | The God Ing         | 22            | 600               |
-| **ᛟ** | O      | Othala   | Inheritance, estate | 23            | 700               |
-| **ᛞ** | D      | Dagaz    | Day                 | 24            | 800               |
+| Rune  | Trans. | Name     | Meaning                      | Homeric Value | Pythagorean Value |
+| ----- | ------ | -------- | ---------------------------- | ------------- | ----------------- |
+| **ᚠ** | F      | Fehu     | Cattle, possessions          | 1             | 1                 |
+| **ᚢ** | U      | Uruz     | Strength, wild ox            | 2             | 2                 |
+| **ᚦ** | Th     | Thurisaz | Thorn, giant, gate           | 3             | 3                 |
+| **ᚨ** | A      | Ansuz    | God, mouth, signal           | 4             | 4                 |
+| **ᚱ** | R      | Raido    | Journey                      | 5             | 5                 |
+| **ᚲ** | K      | Kaunaz   | Torch, opening               | 6             | 7                 |
+| **ᚷ** | G      | Gebo     | Gift, partnership            | 7             | 8                 |
+| **ᚹ** | W      | Wunjo    | Joy, bliss                   | 8             | 9                 |
+| **ᚺ** | H      | Hagalaz  | Hail                         | 9             | 10                |
+| **ᚾ** | N      | Nauthiz  | Need, constraint             | 10            | 20                |
+| **ᛁ** | I      | Isa      | Ice                          | 11            | 30                |
+| **ᛃ** | J      | Jera     | Year, harvest                | 12            | 40                |
+| **ᛇ** | Ei     | Eihwaz   | Yew tree                     | 13            | 50                |
+| **ᛈ** | P      | Perthro  | Lot cup                      | 14            | 60                |
+| **ᛉ** | Z      | Algiz    | Elk, protection              | 15            | 70                |
+| **ᛊ** | S      | Sowilo   | <EsoIcon planet="Sun" /> Sun | 16            | 80                |
+| **ᛏ** | T      | Tiwaz    | The God Tyr                  | 17            | 100               |
+| **ᛒ** | B      | Berkano  | Birch tree                   | 18            | 200               |
+| **ᛖ** | E      | Ehwaz    | Horse                        | 19            | 300               |
+| **ᛗ** | M      | Mannaz   | Man                          | 20            | 400               |
+| **ᛚ** | L      | Laguz    | Water, lake                  | 21            | 500               |
+| **ᛜ** | Ng     | Ingwaz   | The God Ing                  | 22            | 600               |
+| **ᛟ** | O      | Othala   | Inheritance, estate          | 23            | 700               |
+| **ᛞ** | D      | Dagaz    | Day                          | 24            | 800               |
 
 Runes were also used in calendrical calculations, with a specific code for the numbers 1 through 19, known as the "Golden Number Series."
 
@@ -1127,30 +1127,30 @@ S.L. MacGregor Mathers was instrumental in revealing the secret structure connec
 
 ###### **The Rectified Hebraic Order of the Tarot**
 
-| Tarot Key                  | Hebrew Letter | Astrological Attribute |
-| -------------------------- | ------------- | ---------------------- |
-| **0. The Fool**            | Aleph (א)     | Air                    |
-| **I. The Magician**        | Beth (ב)      | Mercury                |
-| **II. The High Priestess** | Gimel (ג)     | Moon                   |
-| **III. The Empress**       | Daleth (ד)    | Venus                  |
-| **IV. The Emperor**        | Heh (ה)       | Aries                  |
-| **V. The Hierophant**      | Vav (ו)       | Taurus                 |
-| **VI. The Lovers**         | Zain (ז)      | Gemini                 |
-| **VII. The Chariot**       | Cheth (ח)     | Cancer                 |
-| **VIII. Strength**         | Teth (ט)      | Leo                    |
-| **IX. The Hermit**         | Yod (י)       | Virgo                  |
-| **X. The Wheel**           | Kaph (כ)      | Jupiter                |
-| **XI. Justice**            | Lamed (ל)     | Libra                  |
-| **XII. The Hanged Man**    | Mem (מ)       | Water                  |
-| **XIII. Death**            | Nun (נ)       | Scorpio                |
-| **XIV. Temperance**        | Samekh (ס)    | Sagittarius            |
-| **XV. The Devil**          | Ayin (ע)      | Capricorn              |
-| **XVI. The Tower**         | Peh (פ)       | Mars                   |
-| **XVII. The Star**         | Tzaddi (צ)    | Aquarius               |
-| **XVIII. The Moon**        | Qoph (ק)      | Pisces                 |
-| **XIX. The Sun**           | Resh (ר)      | Sun                    |
-| **XX. Judgement**          | Shin (ש)      | Fire                   |
-| **XXI. The World**         | Tav (ת)       | Saturn                 |
+| Tarot Key                  | Hebrew Letter | Astrological Attribute               |
+| -------------------------- | ------------- | ------------------------------------ |
+| **0. The Fool**            | Aleph (א)     | Air                                  |
+| **I. The Magician**        | Beth (ב)      | <EsoIcon planet="Mercury" /> Mercury |
+| **II. The High Priestess** | Gimel (ג)     | <EsoIcon planet="Moon" /> Moon       |
+| **III. The Empress**       | Daleth (ד)    | <EsoIcon planet="Venus" /> Venus     |
+| **IV. The Emperor**        | Heh (ה)       | Aries                                |
+| **V. The Hierophant**      | Vav (ו)       | Taurus                               |
+| **VI. The Lovers**         | Zain (ז)      | Gemini                               |
+| **VII. The Chariot**       | Cheth (ח)     | Cancer                               |
+| **VIII. Strength**         | Teth (ט)      | Leo                                  |
+| **IX. The Hermit**         | Yod (י)       | Virgo                                |
+| **X. The Wheel**           | Kaph (כ)      | <EsoIcon planet="Jupiter" /> Jupiter |
+| **XI. Justice**            | Lamed (ל)     | Libra                                |
+| **XII. The Hanged Man**    | Mem (מ)       | Water                                |
+| **XIII. Death**            | Nun (נ)       | Scorpio                              |
+| **XIV. Temperance**        | Samekh (ס)    | Sagittarius                          |
+| **XV. The Devil**          | Ayin (ע)      | Capricorn                            |
+| **XVI. The Tower**         | Peh (פ)       | <EsoIcon planet="Mars" /> Mars       |
+| **XVII. The Star**         | Tzaddi (צ)    | Aquarius                             |
+| **XVIII. The Moon**        | Qoph (ק)      | Pisces                               |
+| **XIX. The Sun**           | Resh (ר)      | <EsoIcon planet="Sun" /> Sun         |
+| **XX. Judgement**          | Shin (ש)      | Fire                                 |
+| **XXI. The World**         | Tav (ת)       | <EsoIcon planet="Saturn" /> Saturn   |
 
 - **Minor Arcana:** The four suits correspond to the four Qabalistic worlds, and the ten numbered cards in each suit correspond to the ten Sephiroth of the Tree of Life.
 
@@ -1232,16 +1232,16 @@ The Sufi mystic Ibn al-Arabi developed a sophisticated system linking each of th
 
 ###### **Arabic Astrological Symbols (Selected)**
 
-| Letter | Element | Zodiac  | Planet  | Color      |
-| ------ | ------- | ------- | ------- | ---------- |
-| **A**  | Fire    | Aries   | Mars    | Red        |
-| **J**  | Water   | Taurus  | Venus   | Green      |
-| **Z**  | Air     | Gemini  | Mercury | Sandalwood |
-| **Sh** | Earth   | Cancer  | Moon    | White      |
-| **T**  | Fire    | Leo     | Sun     | Yellow     |
-| **Dh** | Water   | Virgo   | Mercury | Sandalwood |
-| **Kh** | Air     | Libra   | Venus   | Green      |
-| **Tz** | Earth   | Scorpio | Mars    | Red        |
+| Letter | Element | Zodiac  | Planet                               | Color      |
+| ------ | ------- | ------- | ------------------------------------ | ---------- |
+| **A**  | Fire    | Aries   | <EsoIcon planet="Mars" /> Mars       | Red        |
+| **J**  | Water   | Taurus  | <EsoIcon planet="Venus" /> Venus     | Green      |
+| **Z**  | Air     | Gemini  | <EsoIcon planet="Mercury" /> Mercury | Sandalwood |
+| **Sh** | Earth   | Cancer  | <EsoIcon planet="Moon" /> Moon       | White      |
+| **T**  | Fire    | Leo     | <EsoIcon planet="Sun" /> Sun         | Yellow     |
+| **Dh** | Water   | Virgo   | <EsoIcon planet="Mercury" /> Mercury | Sandalwood |
+| **Kh** | Air     | Libra   | <EsoIcon planet="Venus" /> Venus     | Green      |
+| **Tz** | Earth   | Scorpio | <EsoIcon planet="Mars" /> Mars       | Red        |
 
 #### 4.3 The Sanskrit System: Vedic and Tantrik Keys
 
@@ -1273,13 +1273,13 @@ The Tattva system outlines the five subtle elements that are the building blocks
 
 ###### **Golden Dawn Tattva System**
 
-| Tattva       | Shape           | Color  | Element | Planet  |
-| ------------ | --------------- | ------ | ------- | ------- |
-| **Akasha**   | Black Egg       | Black  | Spirit  | Saturn  |
-| **Vayu**     | Blue Circle     | Blue   | Air     | Jupiter |
-| **Tejas**    | Red Triangle    | Red    | Fire    | Mars    |
-| **Apas**     | Silver Crescent | Silver | Water   | Venus   |
-| **Prithivi** | Yellow Square   | Yellow | Earth   | Mercury |
+| Tattva       | Shape           | Color  | Element | Planet                               |
+| ------------ | --------------- | ------ | ------- | ------------------------------------ |
+| **Akasha**   | Black Egg       | Black  | Spirit  | <EsoIcon planet="Saturn" /> Saturn   |
+| **Vayu**     | Blue Circle     | Blue   | Air     | <EsoIcon planet="Jupiter" /> Jupiter |
+| **Tejas**    | Red Triangle    | Red    | Fire    | <EsoIcon planet="Mars" /> Mars       |
+| **Apas**     | Silver Crescent | Silver | Water   | <EsoIcon planet="Venus" /> Venus     |
+| **Prithivi** | Yellow Square   | Yellow | Earth   | <EsoIcon planet="Mercury" /> Mercury |
 
 #### 4.4 The Tibetan System: Vajrayana Symbolism
 
@@ -1326,16 +1326,16 @@ The _I Ching_, or "Book of Changes," is an ancient divinatory text based on 64 s
 
 ###### **The Eight Basic Trigrams**
 
-| Trigram | Name   | Meaning           | Element   |
-| ------- | ------ | ----------------- | --------- |
-| **☰**  | Ch'ien | The Creative      | Sky       |
-| **☱**  | Tui    | The Joyful        | Lake      |
-| **☲**  | Li     | The Clinging      | Fire      |
-| **☳**  | Chen   | The Arousing      | Thunder   |
-| **☴**  | Sun    | The Gentle        | Wood/Wind |
-| **☵**  | K'an   | The Abysmal       | Water     |
-| **☶**  | Ken    | The Keeping Still | Mountain  |
-| **☷**  | K'un   | The Receptive     | Earth     |
+| Trigram | Name                         | Meaning           | Element   |
+| ------- | ---------------------------- | ----------------- | --------- |
+| **☰**  | Ch'ien                       | The Creative      | Sky       |
+| **☱**  | Tui                          | The Joyful        | Lake      |
+| **☲**  | Li                           | The Clinging      | Fire      |
+| **☳**  | Chen                         | The Arousing      | Thunder   |
+| **☴**  | <EsoIcon planet="Sun" /> Sun | The Gentle        | Wood/Wind |
+| **☵**  | K'an                         | The Abysmal       | Water     |
+| **☶**  | Ken                          | The Keeping Still | Mountain  |
+| **☷**  | K'un                         | The Receptive     | Earth     |
 
 Each of the 64 hexagrams has a core judgment providing oracular guidance. For example:
 
