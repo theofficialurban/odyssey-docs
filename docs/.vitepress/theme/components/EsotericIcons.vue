@@ -13,6 +13,7 @@ interface Props {
   planet?: Planets | null;
   sign?: ZodiacSigns | null;
   element?: Elements | null;
+  className?: string;
   width?: string;
   height?: string;
   fill?: string;
@@ -22,6 +23,7 @@ const {
   planet = null,
   sign = null,
   element = null,
+  className = "w-6 h-6",
   width = "20",
   height = "20",
   fill = "currentColor",
@@ -33,6 +35,7 @@ const foundPlanetIcon = computed<string | null>(() => {
   const found = PlanetaryIcons[planet] ?? null;
   if (found) {
     let fixWH = found.replaceAll("{{fill}}", fill);
+    fixWH = fixWH.replaceAll("{{class}}", className);
     // fixWH = fixWH.replaceAll("{{height}}", height);
     // fixWH = fixWH.replaceAll("{{fill}}", fill);
 
@@ -46,6 +49,7 @@ const foundZodiacIcon = computed<string | null>(() => {
   const found = ZodiacIcons[sign] ?? null;
   if (found) {
     let fixWH = found.replaceAll("{{fill}}", fill);
+    fixWH = fixWH.replaceAll("{{class}}", className);
     //found.replaceAll("{{width}}", width);
     //fixWH = fixWH.replaceAll("{{height}}", height);
     //fixWH = fixWH.replaceAll("{{fill}}", fill);
@@ -60,6 +64,7 @@ const foundElementIcon = computed<string | null>(() => {
   const found = ElementalIcons[element] ?? null;
   if (found) {
     let fixWH = found.replaceAll("{{fill}}", fill);
+    fixWH = fixWH.replaceAll("{{class}}", className);
     // fixWH = fixWH.replaceAll("{{height}}", height);
     // fixWH = fixWH.replaceAll("{{fill}}", fill);
 
