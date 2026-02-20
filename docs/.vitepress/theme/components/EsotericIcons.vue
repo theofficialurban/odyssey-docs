@@ -32,9 +32,9 @@ const foundPlanetIcon = computed<string | null>(() => {
   if (sign != null || element != null) return null;
   const found = PlanetaryIcons[planet] ?? null;
   if (found) {
-    let fixWH = found.replaceAll("{{width}}", width);
-    fixWH = fixWH.replaceAll("{{height}}", height);
-    fixWH = fixWH.replaceAll("{{fill}}", fill);
+    let fixWH = found.replaceAll("{{fill}}", fill);
+    // fixWH = fixWH.replaceAll("{{height}}", height);
+    // fixWH = fixWH.replaceAll("{{fill}}", fill);
 
     return fixWH;
   }
@@ -45,9 +45,10 @@ const foundZodiacIcon = computed<string | null>(() => {
   if (planet != null || element != null) return null;
   const found = ZodiacIcons[sign] ?? null;
   if (found) {
-    let fixWH = found.replaceAll("{{width}}", width);
-    fixWH = fixWH.replaceAll("{{height}}", height);
-    fixWH = fixWH.replaceAll("{{fill}}", fill);
+    let fixWH = found.replaceAll("{{fill}}", fill);
+    //found.replaceAll("{{width}}", width);
+    //fixWH = fixWH.replaceAll("{{height}}", height);
+    //fixWH = fixWH.replaceAll("{{fill}}", fill);
 
     return fixWH;
   }
@@ -58,9 +59,9 @@ const foundElementIcon = computed<string | null>(() => {
   if (sign != null || planet != null) return null;
   const found = ElementalIcons[element] ?? null;
   if (found) {
-    let fixWH = found.replaceAll("{{width}}", width);
-    fixWH = fixWH.replaceAll("{{height}}", height);
-    fixWH = fixWH.replaceAll("{{fill}}", fill);
+    let fixWH = found.replaceAll("{{fill}}", fill);
+    // fixWH = fixWH.replaceAll("{{height}}", height);
+    // fixWH = fixWH.replaceAll("{{fill}}", fill);
 
     return fixWH;
   }
@@ -72,13 +73,30 @@ const foundElementIcon = computed<string | null>(() => {
   <div v-if="!foundElementIcon && !foundPlanetIcon && !foundZodiacIcon">
     <span>Error finding Icon</span>
   </div>
-  <div v-else-if="foundPlanetIcon !== null">
-    <span v-html="foundPlanetIcon"></span>
+  <div class="esoteric-icon" v-else-if="foundPlanetIcon !== null">
+    <span class="icon" v-html="foundPlanetIcon"></span>
   </div>
-  <div v-else-if="foundZodiacIcon !== null">
-    <span v-html="foundZodiacIcon"></span>
+  <div class="esoteric-icon" v-else-if="foundZodiacIcon !== null">
+    <span class="icon" v-html="foundZodiacIcon"></span>
   </div>
-  <div v-else-if="foundElementIcon !== null">
-    <span v-html="foundElementIcon"></span>
+  <div class="esoteric-icon" v-else-if="foundElementIcon !== null">
+    <span class="icon" v-html="foundElementIcon"></span>
   </div>
 </template>
+
+<style lang="scss" scoped>
+.esoteric-icon {
+  gap: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  &:hover {
+    color: var(--vp-c-brand-1);
+  }
+  .icon {
+    width: v-bind(width);
+    height: v-bind(height);
+  }
+}
+</style>
