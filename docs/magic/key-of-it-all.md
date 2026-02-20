@@ -120,15 +120,15 @@ The lore of the seven classical planets is a central pillar of the Western magic
 
 ##### **1. Graeco-Roman Planetary Deities**
 
-| Planet  | Deity     |
-| ------- | --------- |
-| Saturn  | Cronus    |
-| Jupiter | Zeus      |
-| Mars    | Ares      |
-| Sun     | Helios    |
-| Venus   | Aphrodite |
-| Mercury | Hermes    |
-| Moon    | Artemis   |
+| Planet                               | Deity     |
+| ------------------------------------ | --------- |
+| <EsoIcon planet="Saturn" /> Saturn   | Cronus    |
+| <EsoIcon planet="Jupiter" /> Jupiter | Zeus      |
+| <EsoIcon planet="Mars" /> Mars       | Ares      |
+| <EsoIcon planet="Sun" /> Sun         | Helios    |
+| <EsoIcon planet="Venus" /> Venus     | Aphrodite |
+| <EsoIcon planet="Mercury" /> Mercury | Hermes    |
+| <EsoIcon planet="Moon" /> Moon       | Artemis   |
 
 ##### **2. Greek Qabalah Values**
 
@@ -1328,14 +1328,14 @@ The _I Ching_, or "Book of Changes," is an ancient divinatory text based on 64 s
 
 | Trigram | Name   | Meaning           | Element   |
 | ------- | ------ | ----------------- | --------- |
-| **☰**   | Ch'ien | The Creative      | Sky       |
-| **☱**   | Tui    | The Joyful        | Lake      |
-| **☲**   | Li     | The Clinging      | Fire      |
-| **☳**   | Chen   | The Arousing      | Thunder   |
-| **☴**   | Sun    | The Gentle        | Wood/Wind |
-| **☵**   | K'an   | The Abysmal       | Water     |
-| **☶**   | Ken    | The Keeping Still | Mountain  |
-| **☷**   | K'un   | The Receptive     | Earth     |
+| **☰**  | Ch'ien | The Creative      | Sky       |
+| **☱**  | Tui    | The Joyful        | Lake      |
+| **☲**  | Li     | The Clinging      | Fire      |
+| **☳**  | Chen   | The Arousing      | Thunder   |
+| **☴**  | Sun    | The Gentle        | Wood/Wind |
+| **☵**  | K'an   | The Abysmal       | Water     |
+| **☶**  | Ken    | The Keeping Still | Mountain  |
+| **☷**  | K'un   | The Receptive     | Earth     |
 
 Each of the 64 hexagrams has a core judgment providing oracular guidance. For example:
 
