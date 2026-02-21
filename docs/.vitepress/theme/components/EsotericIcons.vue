@@ -24,7 +24,7 @@ const {
   planet = null,
   sign = null,
   element = null,
-  className = "w-3 h-3",
+  className = "w-4 h-4",
   width = "16",
   includeName = false,
   height = "16",
@@ -104,7 +104,7 @@ const foundElementIcon = computed<string | null>(() => {
 .esoteric-icon {
   gap: 2px;
   display: inline-flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
 
   &:hover {
