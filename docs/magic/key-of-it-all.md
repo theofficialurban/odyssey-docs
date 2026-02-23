@@ -199,32 +199,32 @@ The cycle of the seven planets governs both the days of the week and the 168 hou
 
 ###### **Planetary Ruler for the 168 Hours of the Week**
 
-| **Day / Hour**  | **Sun**                      | **Mon**                      | **Tue**                      | **Wed**                                         | **Thu**                      | **Fri**                      | **Sat**                      |
-| --------------- | ---------------------------- | ---------------------------- | ---------------------------- | ----------------------------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| **12-1 AM**     | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" :includeName="true" /> | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
-| **1-2 AM**      | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" />                    | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
-| **2-3 AM**      | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />                       | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
-| **3-4 AM**      | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />                        | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> |
-| **4-5 AM**      | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />                      | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    |
-| **5-6 AM**      | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" />                    | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  |
-| **6-7 AM**      | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />                       | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> |
-| **7-8 AM**      | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />                     | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
-| **8-9 AM**      | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" />                    | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
-| **9-10 AM**     | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />                       | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
-| **10-11 AM**    | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />                        | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> |
-| **11 AM-12 PM** | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />                      | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    |
-| **12-1 PM**     | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" />                    | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  |
-| **1-2 PM**      | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />                       | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> |
-| **2-3 PM**      | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />                     | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
-| **3-4 PM**      | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" />                    | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
-| **4-5 PM**      | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />                       | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
-| **5-6 PM**      | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />                        | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> |
-| **6-7 PM**      | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />                      | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    |
-| **7-8 PM**      | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" />                    | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  |
-| **8-9 PM**      | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />                       | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> |
-| **9-10 PM**     | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />                     | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
-| **10-11 PM**    | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" />                    | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
-| **11 PM-12 AM** | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />                       | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
+| **Day / Hour**  | **Sun**                      | **Mon**                      | **Tue**                      | **Wed**                      | **Thu**                      | **Fri**                      | **Sat**                      |
+| --------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
+| **12-1 AM**     | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
+| **1-2 AM**      | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
+| **2-3 AM**      | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
+| **3-4 AM**      | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> |
+| **4-5 AM**      | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    |
+| **5-6 AM**      | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  |
+| **6-7 AM**      | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> |
+| **7-8 AM**      | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
+| **8-9 AM**      | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
+| **9-10 AM**     | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
+| **10-11 AM**    | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> |
+| **11 AM-12 PM** | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    |
+| **12-1 PM**     | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  |
+| **1-2 PM**      | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> |
+| **2-3 PM**      | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
+| **3-4 PM**      | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
+| **4-5 PM**      | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
+| **5-6 PM**      | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> |
+| **6-7 PM**      | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    |
+| **7-8 PM**      | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  |
+| **8-9 PM**      | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> |
+| **9-10 PM**     | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    |
+| **10-11 PM**    | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     |
+| **11 PM-12 AM** | <EsoIcon planet="Saturn" />  | <EsoIcon planet="Sun" />     | <EsoIcon planet="Moon" />    | <EsoIcon planet="Mars" />    | <EsoIcon planet="Mercury" /> | <EsoIcon planet="Jupiter" /> | <EsoIcon planet="Venus" />   |
 
 #### 2.3 The Zodiacal Keys: The Twelve Divisions of Heaven
 
@@ -232,14 +232,20 @@ The Zodiac is an ancient system that divides the celestial sphere into twelve 30
 
 ##### **1. The Twelve Signs**
 
-| Order | Name                             | Image  | Order | Name                                       | Image        |
-| ----- | -------------------------------- | ------ | ----- | ------------------------------------------ | ------------ |
-| 1     | Aries <EsoIcon sign="Aries" />   | Ram    | 7     | Libra <EsoIcon sign="Libra" />             | Scales       |
-| 2     | Taurus <EsoIcon sign="Taurus" /> | Bull   | 8     | Scorpio <EsoIcon sign="Scorpio" />         | Scorpion     |
-| 3     | Gemini <EsoIcon sign="Gemini" /> | Twins  | 9     | Sagittarius <EsoIcon sign="Sagittarius" /> | Centaur      |
-| 4     | Cancer <EsoIcon sign="Cancer" /> | Crab   | 10    | Capricorn <EsoIcon sign="Capricorn" />     | Goat-Fish    |
-| 5     | Leo <EsoIcon sign="Leo" />       | Lion   | 11    | Aquarius <EsoIcon sign="Aquarius" />       | Water-Bearer |
-| 6     | Virgo <EsoIcon sign="Virgo" />   | Virgin | 12    | Pisces <EsoIcon sign="Pisces" />           | Fishes       |
+| Order | Name                                               | Image        |
+| ----- | -------------------------------------------------- | ------------ |
+| 1     | <EsoIcon sign="Aries" :includeName="true" />       | Ram          |
+| 2     | <EsoIcon sign="Taurus" :includeName="true" />      | Bull         |
+| 3     | <EsoIcon sign="Gemini" :includeName="true" />      | Twins        |
+| 4     | <EsoIcon sign="Cancer" :includeName="true" />      | Crab         |
+| 5     | <EsoIcon sign="Leo" :includeName="true" />         | Lion         |
+| 6     | <EsoIcon sign="Virgo" :includeName="true" />       | Virgin       |
+| 7     | <EsoIcon sign="Libra" :includeName="true" />       | Scales       |
+| 8     | <EsoIcon sign="Scorpio" :includeName="true" />     | Scorpion     |
+| 9     | <EsoIcon sign="Sagittarius" :includeName="true" /> | Centaur      |
+| 10    | <EsoIcon sign="Capricorn" :includeName="true" />   | Goat-Fish    |
+| 11    | <EsoIcon sign="Aquarius" :includeName="true" />    | Water-Bearer |
+| 12    | <EsoIcon sign="Pisces" :includeName="true" />      | Fishes       |
 
 ##### **2. Elemental Divisions**
 
@@ -247,11 +253,11 @@ The twelve signs are grouped by element into four _triplicities_ (three signs pe
 
 ###### **Tetragrammaton Elemental Order as the Precession of the Signs**
 
-| Fire <EsoIcon element="Fire" fill="red" /> | Water <EsoIcon element="Water" fill="deepskyblue" /> | Air <EsoIcon element="Air" fill="yellow" /> | Earth <EsoIcon element="Earth" fill="seagreen" /> |
-| ------------------------------------------ | ---------------------------------------------------- | ------------------------------------------- | ------------------------------------------------- |
-| Aries                                      | Pisces                                               | Aquarius                                    | Capricorn                                         |
-| Sagittarius                                | Scorpio                                              | Libra                                       | Virgo                                             |
-| Leo                                        | Cancer                                               | Gemini                                      | Taurus                                            |
+| <EsoIcon element="Fire" :includeName="true" /> | <EsoIcon element="Water" :includeName="true" /> | <EsoIcon element="Air" :includeName="true" /> | <EsoIcon element="Earth" :includeName="true" /> |
+| ---------------------------------------------- | ----------------------------------------------- | --------------------------------------------- | ----------------------------------------------- |
+| Aries                                          | Pisces                                          | Aquarius                                      | Capricorn                                       |
+| Sagittarius                                    | Scorpio                                         | Libra                                         | Virgo                                           |
+| Leo                                            | Cancer                                          | Gemini                                        | Taurus                                          |
 
 ##### **3. Planetary Influences**
 
@@ -321,9 +327,8 @@ Aleister Crowley proposed a different timeline, arguing the Age of Aquarius bega
 
 ###### **Crowley's Precession of the Equinoxes**
 
-|              |              |           |         |        |                   |
-| ------------ | ------------ | --------- | ------- | ------ | ----------------- |
 | Age          | Time         | Society   | Cult    | Family | Egyptian Liber AL |
+| ------------ | ------------ | --------- | ------- | ------ | ----------------- |
 | **Aries**    | 2000 BCE - 0 | Matriarch | Goddess | Mother | Isis              |
 | **Pisces**   | 0 - 1904 CE  | Patriarch | Jesus   | Father | Osiris            |
 | **Aquarius** | 1904 CE - ?  | Equality  | Thelema | Child  | Horus             |

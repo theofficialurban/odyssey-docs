@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { computed, reactive, ref } from "vue";
 import {
   type Planets,
   type ZodiacSigns,
   PlanetaryIcons,
   ZodiacIcons,
   type Elements,
+  type IconDefaults,
   ElementalIcons,
 } from "../../Esoteric";
 
@@ -20,6 +21,27 @@ interface Props {
   fill?: string;
 }
 
+const iconDefaults: Partial<IconDefaults> = {
+  Fire: { fill: "red" },
+  Water: { fill: "deepskyblue" },
+  Earth: { fill: "seagreen" },
+  Air: { fill: "yellow" },
+  Spirit: { fill: "fuchsia" },
+  Aries: { fill: "red" },
+  Leo: { fill: "red" },
+  Sagittarius: { fill: "red" },
+  Pisces: { fill: "deepskyblue" },
+  Scorpio: { fill: "deepskyblue" },
+  Cancer: { fill: "deepskyblue" },
+  Aquarius: { fill: "yellow" },
+  Libra: { fill: "yellow" },
+  Gemini: { fill: "yellow" },
+  Capricorn: { fill: "seagreen" },
+  Virgo: { fill: "seagreen" },
+  Taurus: { fill: "seagreen" },
+  Mercury: { className: "w-6 h-6" },
+};
+
 const {
   planet = null,
   sign = null,
@@ -31,6 +53,11 @@ const {
   fill = "currentColor",
 } = defineProps<Props>();
 
+const fillProp = ref<string>(fill);
+const widthProp = ref<string>(width);
+const heightProp = ref<string>(height);
+const classProp = ref<string>(className);
+
 //const planetModel = useTemplateRef<HTMLSpanElement>("planet-ref")
 //const zodiacModel = useTemplateRef<HTMLSpanElement>("zodiac-ref")
 //const elementModel = useTemplateRef<HTMLSpanElement>("element-ref")
@@ -39,13 +66,23 @@ const foundPlanetIcon = computed<string | null>(() => {
   if (sign != null || element != null) return null;
   const found = PlanetaryIcons[planet] ?? null;
   if (found) {
-    let fixWH = found.replaceAll("{{fill}}", fill);
-    fixWH = fixWH.replaceAll("{{class}}", className);
+    const hasDefaults = iconDefaults[planet] ?? null;
+
+    if (hasDefaults) {
+      if (hasDefaults.fill && fillProp.value === "currentColor")
+        fillProp.value = hasDefaults.fill;
+      if (hasDefaults.height && heightProp.value == "16")
+        heightProp.value = hasDefaults.height;
+      if (hasDefaults.width && widthProp.value == "16")
+        widthProp.value = hasDefaults.width;
+      if (hasDefaults.className && classProp.value == "w-4 h-4")
+        classProp.value = hasDefaults.className;
+    }
+    let fixWH = found.replaceAll("{{fill}}", fillProp.value);
+    fixWH = fixWH.replaceAll("{{class}}", classProp.value);
     // fixWH = fixWH.replaceAll("{{height}}", height);
     // fixWH = fixWH.replaceAll("{{fill}}", fill);
-    if (includeName) {
-      return `${fixWH} ${planet}`;
-    }
+
     return fixWH;
   }
   return null;
@@ -55,14 +92,24 @@ const foundZodiacIcon = computed<string | null>(() => {
   if (planet != null || element != null) return null;
   const found = ZodiacIcons[sign] ?? null;
   if (found) {
-    let fixWH = found.replaceAll("{{fill}}", fill);
-    fixWH = fixWH.replaceAll("{{class}}", className);
+    const hasDefaults = iconDefaults[sign] ?? null;
+
+    if (hasDefaults) {
+      if (hasDefaults.fill && fillProp.value === "currentColor")
+        fillProp.value = hasDefaults.fill;
+      if (hasDefaults.height && heightProp.value == "16")
+        heightProp.value = hasDefaults.height;
+      if (hasDefaults.width && widthProp.value == "16")
+        widthProp.value = hasDefaults.width;
+      if (hasDefaults.className && classProp.value == "w-4 h-4")
+        classProp.value = hasDefaults.className;
+    }
+    let fixWH = found.replaceAll("{{fill}}", fillProp.value);
+    fixWH = fixWH.replaceAll("{{class}}", classProp.value);
     //found.replaceAll("{{width}}", width);
     //fixWH = fixWH.replaceAll("{{height}}", height);
     //fixWH = fixWH.replaceAll("{{fill}}", fill);
-    if (includeName) {
-      return `${fixWH} ${sign}`;
-    }
+
     return fixWH;
   }
   return null;
@@ -72,13 +119,23 @@ const foundElementIcon = computed<string | null>(() => {
   if (sign != null || planet != null) return null;
   const found = ElementalIcons[element] ?? null;
   if (found) {
-    let fixWH = found.replaceAll("{{fill}}", fill);
-    fixWH = fixWH.replaceAll("{{class}}", className);
+    const hasDefaults = iconDefaults[element] ?? null;
+
+    if (hasDefaults) {
+      if (hasDefaults.fill && fillProp.value === "currentColor")
+        fillProp.value = hasDefaults.fill;
+      if (hasDefaults.height && heightProp.value == "16")
+        heightProp.value = hasDefaults.height;
+      if (hasDefaults.width && widthProp.value == "16")
+        widthProp.value = hasDefaults.width;
+      if (hasDefaults.className && classProp.value == "w-4 h-4")
+        classProp.value = hasDefaults.className;
+    }
+    let fixWH = found.replaceAll("{{fill}}", fillProp.value);
+    fixWH = fixWH.replaceAll("{{class}}", classProp.value);
     // fixWH = fixWH.replaceAll("{{height}}", height);
     // fixWH = fixWH.replaceAll("{{fill}}", fill);
-    if (includeName) {
-      return `${fixWH} ${element}`;
-    }
+
     return fixWH;
   }
   return null;
@@ -91,12 +148,15 @@ const foundElementIcon = computed<string | null>(() => {
   </div>
   <div class="esoteric-icon" v-else-if="foundPlanetIcon !== null">
     <span class="icon" v-html="foundPlanetIcon"></span>
+    <span v-if="includeName">{{ planet }}</span>
   </div>
   <div class="esoteric-icon" v-else-if="foundZodiacIcon !== null">
     <span class="icon" v-html="foundZodiacIcon"></span>
+    <span v-if="includeName">{{ sign }}</span>
   </div>
   <div class="esoteric-icon" v-else-if="foundElementIcon !== null">
     <span class="icon" v-html="foundElementIcon"></span>
+    <span v-if="includeName">{{ element }}</span>
   </div>
 </template>
 
@@ -109,10 +169,6 @@ const foundElementIcon = computed<string | null>(() => {
 
   &:hover {
     color: var(--vp-c-brand-1);
-  }
-  .icon {
-    width: v-bind(width);
-    height: v-bind(height);
   }
 }
 </style>

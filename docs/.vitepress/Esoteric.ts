@@ -98,6 +98,11 @@ export type Elements = "Fire" | "Water" | "Air" | "Earth" | "Spirit";
 export type PlanetaryIcons = Record<Planets, string>;
 export type ZodiacIcons = Record<ZodiacSigns, string>;
 export type ElementalIcons = Record<Elements, string>;
+export type IconDefaults = Record<
+  Planets | Elements | ZodiacSigns,
+  { width?: string; height?: string; fill?: string; className?: string }
+>;
+
 // https://en.wikipedia.org/wiki/Alchemical_symbol
 export const ElementalIcons: ElementalIcons = {
   Water: `<svg xmlns="http://www.w3.org/2000/svg" stroke="{{fill}}" class="{{class}}" viewBox="0 0 12 12"><path style="fill:none;stroke-width:.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:7;stroke-dasharray:none" d="M11 1.67H1l5 8.66z" stroke-miterlimit="10"/></svg>`,
@@ -248,3 +253,32 @@ export const PlanetaryIcons: PlanetaryIcons = {
 //     },
 //   ],
 // ]);
+// type EsotericBase = Planets | ZodiacSigns | Elements
+
+// interface EsotericImplements<T extends EsotericBase> {
+//   name: T
+//   icon: string
+// }
+// abstract class EsotericBaseClass<T extends EsotericBase> implements EsotericImplements<T> {
+//   constructor(public name: T, public icon: string) {
+
+//   }
+// }
+
+// interface ElementImplements extends EsotericImplements<Elements> {
+
+// }
+
+// abstract class ElementBaseClass extends EsotericBaseClass<Elements> implements ElementImplements {
+//   constructor(name: Elements) {
+//     super(name, ElementalIcons[name])
+//   }
+// }
+
+// class Neptune extends EsotericBaseClass<Planets> {
+
+//   constructor() {
+//     super("Neptune")
+
+//   }
+// }
