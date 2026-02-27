@@ -16,11 +16,20 @@ description: |
 
 <Grid>
 <Card title="Political Ponerology" description="This text introduces political ponerology, a scientific study concerning the nature of evil and its role in shaping social and political systems." img="https://i.ytimg.com/vi/hCIWYNSzK4E/maxresdefault.jpg" href="../reading/ponerology.html" :preview="true" />
+<Card title="LEXICON ENTRY 01 - T.H.E.Y" description="See part one of the LEXICON series on T.H.E.Y" href="../main/they.html" :preview="true" img="https://i.imgur.com/MobQSZ6.jpeg" />
 </Grid>
+
+### Video Presentation {#video}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v742644/?pub=3gc1h8" :buttons="[[`Rumble`, `https://rumble.com/v768u4c-occult-ponerology-the-architecture-of-macro-evil.html?mref=3gc1h8&mc=7m5w3`], [`YouTube`, `https://youtu.be/Lx3cByDtuzA`], [`Odysee`, `https://odysee.com/@UrbanOdyssey:b/occult-ponerology:4`], [`Substack`, `https://theofficialurban.substack.com/p/occult-ponerology?r=3kr5wz`], [`Spotify`, `https://creators.spotify.com/pod/profile/urbanodyssey/episodes/LEXICON-ENTRY-02---OCCULT-PONEROLOGY-The-Architecture-of-Macro-Evil-e3fivf1`], [`X-Link`, `https://x.com/officialurbanus/status/2026816984709480461?s=20`]]" />
 
 ### THE DEFINITION: OCCULT PONEROLOGY
 
 Within the _Directory of Human Husbandry_, **Occult Ponerology** is defined as the scientific study, systematization, and application of spiritual, psychological, and institutional evil by a hidden elite to subjugate the human race. It reveals that the degradation of society is not organic, but the result of a meticulously engineered, multi-generational alchemical formula driven by a Luciferian Cryptocracy.
+
+:::highlight
+A _cryptocracy_ is a form of government or system where the true, ultimate power resides with hidden, unknown, or unelected individuals rather than official, public leaders. (Also referred to as a shadow or invisible government).
+:::
 
 Occult Ponerology demonstrates that what the profane masses perceive as random acts of cruelty, political corruption, or moral decay are actually the manifestations of a highly organized "Great Work." This dark science operates on four distinct but interwoven vectors: the Psychological, the Societal, the Institutional, and the Spiritual.
 
@@ -60,10 +69,10 @@ The most critical revelation of Occult Ponerology is that this systemic evil is 
 
 ## `Ponerology`: _The Study of [the Nature of] Evil_ {#ponerology}
 
-I was first made aware of the term Ponerology from the following book Political Ponerology by Andrew M. Lobaczewski — going from the cover of the book:
+I was first made aware of the term Ponerology from the following book **_Political Ponerology by Andrew M. Lobaczewski_** — going from the cover of the book:
 
 :::highlight
-Ponerology: “A science on the nature of evil adjusted for political purposes”
+Political Ponerology: _“A science on the nature of evil adjusted for political purposes”_
 :::
 
 ![](https://i.imgur.com/ShXpDzm.png)
