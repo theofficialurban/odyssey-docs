@@ -16,7 +16,7 @@ import {
   InjectionKey,
 } from "@nolebase/vitepress-plugin-inline-link-preview";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
-
+import { ElementObjects, EsotericSymbol } from "../Esoteric";
 import PDF from "./components/PDF.vue";
 import AllIndex from "./components/AllIndex.vue";
 import Gradient from "./components/Gradient.vue";
@@ -108,7 +108,7 @@ export default {
     //app.component("DictTest", DictTest);
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
-
+    app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
 
     app.provide(SubstackSymbol, data);

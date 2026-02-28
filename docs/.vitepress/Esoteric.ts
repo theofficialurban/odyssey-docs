@@ -6,6 +6,9 @@
 //   Water = "WATER",
 // }
 
+import { h, InjectionKey, VNode } from "vue";
+import EsotericIcons from "./theme/components/EsotericIcons.vue";
+
 // 2. The Planets (The Modulators / Rulers)
 // Note: In astrological systems, the Sun and Moon (luminaries)
 // and Pluto are traditionally categorized under "planets" for logic mapping.
@@ -88,12 +91,7 @@ export type Elements = "Fire" | "Water" | "Air" | "Earth" | "Spirit";
 //   dignity: D;
 //   planet: Planet;
 // }
-// export type ZodiacSignDignities = {
-//   ruler: Relationship<Dignity.Rulership>;
-//   exaltation: Relationship<Dignity.Exaltation> | null;
-//   detriment: Relationship<Dignity.Detriment>;
-//   fall: Relationship<Dignity.Fall> | null;
-// };
+
 //type PlanetaryDignities = Map<ZodiacSigns, ZodiacSignDignities>;
 export type PlanetaryIcons = Record<Planets, string>;
 export type ZodiacIcons = Record<ZodiacSigns, string>;
@@ -253,32 +251,247 @@ export const PlanetaryIcons: PlanetaryIcons = {
 //     },
 //   ],
 // ]);
-// type EsotericBase = Planets | ZodiacSigns | Elements
+type EsotericBase = Planets | ZodiacSigns | Elements;
+type SignModality = "Cardinal" | "Fixed" | "Mutable";
+export type ZodiacSignDignities = {
+  ruler: PlanetBaseClass;
+  exaltation: PlanetBaseClass | null;
+  detriment: PlanetBaseClass;
+  fall: PlanetBaseClass | null;
+};
+interface EsotericImplements<T extends EsotericBase> {
+  name: T;
+}
+interface EsotericIconsProps {
+  includeName?: boolean;
+  className?: string;
 
-// interface EsotericImplements<T extends EsotericBase> {
-//   name: T
-//   icon: string
-// }
-// abstract class EsotericBaseClass<T extends EsotericBase> implements EsotericImplements<T> {
-//   constructor(public name: T, public icon: string) {
+  fill?: string;
+}
+abstract class EsotericBaseClass<
+  T extends EsotericBase,
+> implements EsotericImplements<T> {
+  constructor(public name: T) {}
+  abstract icon(params: EsotericIconsProps): VNode;
+}
 
-//   }
-// }
+class PlanetBaseClass extends EsotericBaseClass<Planets> {
+  private _RulerOf: SignBaseClass<any>[] = [];
+  private _ExalterOf: SignBaseClass<any>[] = [];
+  private _DetrimentOf: SignBaseClass<any>[] = [];
+  private _FallOf: SignBaseClass<any>[] = [];
+  constructor(name: Planets) {
+    super(name);
+  }
+  addSignRelationship(
+    relation: keyof ZodiacSignDignities,
+    sign: SignBaseClass<any>,
+  ) {
+    switch (relation) {
+      case "ruler":
+        this._RulerOf.push(sign);
+      case "exaltation":
+        this._ExalterOf.push(sign);
+      case "detriment":
+        this._DetrimentOf.push(sign);
+      case "fall":
+        this._FallOf.push(sign);
+    }
+  }
+  get rulerOf() {
+    return this._RulerOf;
+  }
+  get exalterOf() {
+    return this._ExalterOf;
+  }
+  get detrimentOf() {
+    return this._DetrimentOf;
+  }
+  get fallOf() {
+    return this._FallOf;
+  }
+  icon(props: EsotericIconsProps) {
+    return h(EsotericIcons, { ...props, planet: this.name });
+  }
+}
 
-// interface ElementImplements extends EsotericImplements<Elements> {
+interface SignImplements<
+  M extends SignModality,
+> extends EsotericImplements<ZodiacSigns> {
+  // What element does the sign belong to?
 
-// }
+  modality: M;
+}
 
-// abstract class ElementBaseClass extends EsotericBaseClass<Elements> implements ElementImplements {
-//   constructor(name: Elements) {
-//     super(name, ElementalIcons[name])
-//   }
-// }
+class SignBaseClass<M extends SignModality>
+  extends EsotericBaseClass<ZodiacSigns>
+  implements SignImplements<M>
+{
+  constructor(
+    name: ZodiacSigns,
+    public modality: M,
+    public dignities: ZodiacSignDignities,
+  ) {
+    super(name);
+    this.dignities.ruler.addSignRelationship("ruler", this);
+    if (this.dignities.exaltation)
+      this.dignities.exaltation.addSignRelationship("exaltation", this);
+    this.dignities.detriment.addSignRelationship("detriment", this);
+    if (this.dignities.fall)
+      this.dignities.fall.addSignRelationship("fall", this);
+  }
+  icon(props: EsotericIconsProps) {
+    return h(EsotericIcons, { ...props, sign: this.name });
+  }
+}
 
-// class Neptune extends EsotericBaseClass<Planets> {
+type ElementModalities = {
+  cardinal: SignBaseClass<"Cardinal">;
+  fixed: SignBaseClass<"Fixed">;
+  mutable: SignBaseClass<"Mutable">;
+};
+interface ElementImplements extends EsotericImplements<Elements> {
+  Cardinal: SignBaseClass<"Cardinal"> | null;
+  Fixed: SignBaseClass<"Fixed"> | null;
+  Mutable: SignBaseClass<"Mutable"> | null;
+}
 
-//   constructor() {
-//     super("Neptune")
+class ElementBaseClass extends EsotericBaseClass<Elements> {
+  private _Cardinal: SignBaseClass<"Cardinal"> | null = null;
+  private _Fixed: SignBaseClass<"Fixed"> | null = null;
+  private _Mutable: SignBaseClass<"Mutable"> | null = null;
+  constructor(name: Elements, modalities: ElementModalities) {
+    super(name);
+    this._Cardinal = modalities.cardinal;
+    this._Fixed = modalities.fixed;
+    this._Mutable = modalities.mutable;
+  }
+  // addCardinalSign(sign: SignBaseClass<"Cardinal">) {
+  //   this._Cardinal = sign
+  // }
+  // addFixedSign(sign: SignBaseClass<"Fixed">) {
+  //   this._Fixed = sign
+  // }
+  // addMutableSign(sign: SignBaseClass<"Mutable">) {
+  //   this._Mutable = sign
+  // }
+  icon(props: EsotericIconsProps) {
+    return h(EsotericIcons, { ...props, element: this.name });
+  }
+  get Cardinal() {
+    return this._Cardinal;
+  }
+  get Fixed() {
+    return this._Fixed;
+  }
+  get Mutable() {
+    return this._Mutable;
+  }
+}
 
-//   }
-// }
+const Planets: Record<Planets, PlanetBaseClass> = {
+  Saturn: new PlanetBaseClass("Saturn"),
+  Sun: new PlanetBaseClass("Sun"),
+  Moon: new PlanetBaseClass("Moon"),
+  Jupiter: new PlanetBaseClass("Jupiter"),
+  Venus: new PlanetBaseClass("Venus"),
+  Neptune: new PlanetBaseClass("Neptune"),
+  Pluto: new PlanetBaseClass("Pluto"),
+  Uranus: new PlanetBaseClass("Uranus"),
+  Mars: new PlanetBaseClass("Mars"),
+  Mercury: new PlanetBaseClass("Mercury"),
+};
+
+const FireElement = new ElementBaseClass("Fire", {
+  cardinal: new SignBaseClass<"Cardinal">("Aries", "Cardinal", {
+    ruler: Planets.Mars,
+    exaltation: Planets.Sun,
+    detriment: Planets.Venus,
+    fall: Planets.Saturn,
+  }),
+  fixed: new SignBaseClass<"Fixed">("Leo", "Fixed", {
+    ruler: Planets.Sun,
+    exaltation: null,
+    detriment: Planets.Saturn,
+    fall: null,
+  }),
+  mutable: new SignBaseClass<"Mutable">("Sagittarius", "Mutable", {
+    ruler: Planets.Jupiter,
+    exaltation: null,
+    detriment: Planets.Mercury,
+    fall: null,
+  }),
+});
+const EarthElement = new ElementBaseClass("Earth", {
+  cardinal: new SignBaseClass<"Cardinal">("Capricorn", "Cardinal", {
+    ruler: Planets.Saturn,
+    exaltation: Planets.Mars,
+    detriment: Planets.Moon,
+    fall: Planets.Jupiter,
+  }),
+  fixed: new SignBaseClass<"Fixed">("Taurus", "Fixed", {
+    ruler: Planets.Venus,
+    exaltation: Planets.Moon,
+    detriment: Planets.Mars,
+    fall: null,
+  }),
+  mutable: new SignBaseClass<"Mutable">("Virgo", "Mutable", {
+    ruler: Planets.Mercury,
+    exaltation: Planets.Mercury,
+    detriment: Planets.Jupiter,
+    fall: Planets.Venus,
+  }),
+});
+
+const WaterElement = new ElementBaseClass("Water", {
+  cardinal: new SignBaseClass<"Cardinal">("Cancer", "Cardinal", {
+    ruler: Planets.Moon,
+    exaltation: Planets.Jupiter,
+    detriment: Planets.Saturn,
+    fall: Planets.Mars,
+  }),
+  fixed: new SignBaseClass<"Fixed">("Scorpio", "Fixed", {
+    ruler: Planets.Mars,
+    exaltation: null,
+    detriment: Planets.Venus,
+    fall: Planets.Moon,
+  }),
+  mutable: new SignBaseClass<"Mutable">("Pisces", "Mutable", {
+    ruler: Planets.Jupiter,
+    exaltation: Planets.Venus,
+    detriment: Planets.Mercury,
+    fall: Planets.Mercury,
+  }),
+});
+
+const AirElement = new ElementBaseClass("Air", {
+  cardinal: new SignBaseClass<"Cardinal">("Libra", "Cardinal", {
+    ruler: Planets.Venus,
+    exaltation: Planets.Saturn,
+    detriment: Planets.Mars,
+    fall: Planets.Sun,
+  }),
+  fixed: new SignBaseClass<"Fixed">("Aquarius", "Fixed", {
+    ruler: Planets.Saturn,
+    exaltation: null,
+    detriment: Planets.Sun,
+    fall: null,
+  }),
+  mutable: new SignBaseClass<"Mutable">("Gemini", "Mutable", {
+    ruler: Planets.Mercury,
+    exaltation: null,
+    detriment: Planets.Jupiter,
+    fall: null,
+  }),
+});
+export type ElementObjects = Record<
+  Exclude<Elements, "Spirit">,
+  ElementBaseClass
+>;
+export const ElementObjects: ElementObjects = {
+  Fire: FireElement,
+  Earth: EarthElement,
+  Water: WaterElement,
+  Air: AirElement,
+};
+export const EsotericSymbol: InjectionKey<ElementObjects> = Symbol("Esoteric");
