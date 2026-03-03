@@ -33,7 +33,7 @@ const props = defineProps({
   className: {
     type: String,
     required: false,
-    default: "",
+    default: "py-3",
   },
   showUrl: {
     type: Boolean,
