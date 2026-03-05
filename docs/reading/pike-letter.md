@@ -4,9 +4,9 @@ description: The following is a letter, that speculation claimed that Albert Pik
 ogimage: https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRCupvXH88oqUJC8FwuDtQ84kt5OCIR2GP-bbbYcIM9WE18ubUZrNtlaXNJLkY0XyixWMOv1Zx0SGnp6utxTJFZsEDigWdYcya5LlgTIw
 ---
 
-# Albert Pike's 1871 Letter to Mazzini
+[[atomic]]
 
-<center><iframe title="PDFViewer" src="https://files.catbox.moe/bvimg2.pdf" width="75%" height="650px" /></center>
+# Albert Pike's 1871 Letter to Mazzini
 
 [[toc]]
 
