@@ -28,7 +28,7 @@ This document functions as an extensive conspiratorial compendium designed to ex
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v5xhv22/?pub=3gc1h8" />
 
-<Card className="py-6" title="The Black Nobility Bloodlines (Rumble Playlist)" img="https://i.imgur.com/Xauk3Ju.jpeg" description="Pastor James Carner begins a deep dive into each of the individual bloodlines which collectively make up the Black Nobility and Papal Bloodlines." href="https://rumble.com/playlists/L_hDckLnEdI?e9s=src_v1_upp_pl" />
+<Card title="The Black Nobility Bloodlines (Rumble Playlist)" img="https://i.imgur.com/Xauk3Ju.jpeg" description="Pastor James Carner begins a deep dive into each of the individual bloodlines which collectively make up the Black Nobility and Papal Bloodlines." href="https://rumble.com/playlists/L_hDckLnEdI?e9s=src_v1_upp_pl" />
 
 ### Masters Mahan Podcast Eps. #13-16 {#mmp-bloodlines}
 
