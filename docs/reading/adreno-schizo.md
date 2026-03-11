@@ -290,7 +290,8 @@ This deepening psychosis culminates in a physical pilgrimage, a "journey towards
 :::highlight
 
 > "The sky was full of calamities."
-> :::
+
+:::
 
 #### 1.3. The Transfiguration: The Inner World Made Real
 
