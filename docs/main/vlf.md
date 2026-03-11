@@ -42,6 +42,77 @@ Homepage - http://www.vlf.it/
 7. [`LANDES-F`](http://www.vlf.it/lotetgaronne/lotetgaronne.html) by J.M. Brieussel & M. Brunel
 8. [`LRN-Laurentian Univ.-CA`](http://www.vlf.it/laurentian/livedata_laurentian.html) by K. Saroka
 
+### Direct Image Link(s)
+
+1. http://www.vlf.it/cumiana/last_E-VLF.jpg
+2. http://www.vlf.it/cumiana/last-geomar.jpg
+3. http://www.vlf.it/cumiana/last-marconi-multistrip-slow.jpg
+4. http://www.vlf.it/cumiana/last-geophone-multistrip-slow.jpg
+5. http://www.vlf.it/cumiana/last-plotted.jpg
+6. http://www.vlf.it/cumiana/last-virgo-LR.jpg
+7. http://www.vlf.it/cumiana/last-virgo-rdf.jpg
+8. http://www.vlf.it/cumiana/last-virgo-rdf24ms.jpg
+9. http://www.vlf.it/cumiana/last-virgo-rrdf1hms.jpg
+10. http://www.vlf.it/cumiana/last-sosenattos-mine.jpg
+11. http://www.vlf.it/cumiana/sosenattos_last-plotted.jpg
+12. http://www.vlf.it/cumiana/last-sosenattos-mine_1h.jpg
+13. http://www.vlf.it/cumiana/last-sosenattos-mine_24h.jpg
+14. http://www.vlf.it/cumiana/last-sosenattos-mine_24h_pc.jpg
+15. http://www.vlf.it/cumiana/lotetgaronne_last-coil_8h.jpg
+16. http://www.vlf.it/cumiana/lotetgaronne_last-coil_1h-sr.jpg
+17. http://www.vlf.it/cumiana/lotetgaronne_last-coil_24h-pc1.jpg
+18. http://www.vlf.it/cumiana/lotetgaronne_last-coil_24h-sr.jpg
+19. http://www.etna-ero.it/live_etna/last-coil_8h.jpg
+20. http://www.etna-ero.it/live_etna/last-coil_1h.jpg
+21. http://www.etna-ero.it//live_etna/last-coil_24h.jpg
+22. http://www.etna-ero.it/live_etna/geophone-etna.jpg
+
+## Scales
+
+### [`last_E-VLF`](http://www.vlf.it/cumiana/last_E-VLF.jpg) = `Freq= 1.....15000 Hz`
+
+E-VLF = Electronic Very Low Frequencies
+
+### [`last-geomar`](http://www.vlf.it/cumiana/last-geomar.jpg) = `Freq= 0...30 Hz and 0...105 Hz`
+
+### [`last-marconi-multistrip-slow`](http://www.vlf.it/cumiana/last-marconi-multistrip-slow.jpg) = `ELECTRIC FIELD/daily strips, 0.2-49 Hz`
+
+### [`last-geophone-multistrip-slow`](http://www.vlf.it/cumiana/last-geophone-multistrip-slow.jpg) = `GEOPHONE/Hourly Strips 0-6 Hz`
+
+### [`last-plotted`](http://www.vlf.it/cumiana/last-plotted.jpg)
+
+### [`last-virgo-??`](http://www.vlf.it/virgo/virgo.html)
+
+- **NS/EW** [`last-virgo-LR`](http://www.vlf.it/cumiana/last-virgo-LR.jpg) = `NS/EW Magnetic Field, 0.1-48hz`
+- [`last-virgo-rdf`](http://www.vlf.it/cumiana/last-virgo-rdf.jpg) = `MAGNETIC FIELD, 0.1-105hz`
+- **Daily Strips** [`last-virgo-rdf24ms`](http://www.vlf.it/cumiana/last-virgo-rdf24ms.jpg) = `MAGNETIC FIELD, Daily Strips, 0.2-48Hz`
+- **Hourly Strips** [`last-virgo-rrdf1hms`](http://www.vlf.it/cumiana/last-virgo-rrdf1hms.jpg) = `MAGNETIC FIELD, Hourly Strips, 0.2-48Hz`
+
+### [`lotetgaronne-last-coil_??`](http://www.vlf.it/cumiana/livedata.html)
+
+- [`lotetgaronne-last-coil_8h`](http://www.vlf.it/cumiana/lotetgaronne_last-coil_8h.jpg) = `0.1-55 Hz / 0-5 Hz`
+- [`lotetgaronne-last-coil_1h-sr`](http://www.vlf.it/cumiana/lotetgaronne_last-coil_1h-sr.jpg) = `0.2-49 Hz`
+- [`lotetgaronne-last-coil_24h-pc1`](http://www.vlf.it/cumiana/lotetgaronne_last-coil_24h-pc1.jpg) = `0.1-10 Hz / 0-5 Hz`
+- [`lotetgaronne-last-coil_24h-sr`](http://www.vlf.it/cumiana/lotetgaronne-last-coil_24h-sr.jpg) = `0.1-48 Hz / 0-5 Hz`
+
+### [`last-sosenattos-mine_??`](http://www.vlf.it/sos-enattos/sosenattos_live.html)
+
+- [`last-sosenattos-mine`](http://www.vlf.it/cumiana/last-sosenattos-mine.jpg) = `0.1-105 Hz`
+- [`last-sosenattos-mine_1h`](http://www.vlf.it/cumiana/last-sosenattos-mine_1h.jpg) = `0.2-48 Hz`
+- [`last-sosenattos-mine_24h`](http://www.vlf.it/cumiana/last-sosenattos-mine_24h.jpg) = `0.1-48 Hz`
+- [`last-sosenattos-mine_24h_pc`](http://www.vlf.it/cumiana/last-sosenattos-mine_24h_pc.jpg) = `0.1-10 Hz`
+- [`sosenattos_last-plotted`](http://www.vlf.it/cumiana/sosenattos_last-plotted.jpg)
+
+### [`live_etna`](http://www.vlf.it/etna/etna_live.html)
+
+#### `last-coil_??`
+
+- [`last-coil_8h`](http://www.etna-ero.it/live_etna/last-coil_8h.jpg) = `Magnetic Field, 0.1-105 Hz / 0-5 Hz`
+- [`last-coil_1h`](http://www.etna-ero.it/live_etna/last-coil_1h.jpg) = `Hourly Magnetic Field, 0.4-36 Hz`
+- [`last-coil_24h`](http://www.etna-ero.it/live_etna/last-coil_24h.jpg) = `Daily Magnetic Field, 0.2-10 Hz`
+
+#### [`geophone-etna`](http://www.etna-ero.it/live_etna/geophone-etna.jpg) = `Geophone, 0.4-6 Hz`
+
 ## What is Resonance?
 
 <YouTube id="JblDjh5lCWA" />
