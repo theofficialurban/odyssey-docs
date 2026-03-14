@@ -19,6 +19,10 @@ _St. Peter Faber is depicted serving Communion in a 19th-century painting by Pie
 
 This biographical study explores the life and interior world of Peter Faber, the first companion of Ignatius of Loyola and a pivotal figure in the early **Society of Jesus**. The text illustrates how Faber’s personality was marked by a sensitive, **scrupulous disposition** that found stability through the **Spiritual Exercises** and a life of radical, often physically exhausting, **blind obedience**. Moving beyond his historical role as a "traveling apostle" in Reformation-era Europe, the narrative emphasizes his unique **spiritual discernment**, characterized by a deep **mystical rootedness** and the ability to find God within his own psychological limitations and depressions. Ultimately, the source portrays Faber as a master of **pastoral conversation** whose quiet influence and intercessory prayer sought to reform the Church not through theological debate, but through the **reconciliation of souls**.
 
+## Urban's Video
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v74woxk/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v773cxs-cause-before-symptom-w-guest-host-urban.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-031326:f'], ['Substack', 'https://theofficialurban.substack.com/p/peter-faber?r=3kr5wz'], ['YouTube', 'https://youtube.com/live/Cvcg5sOWWBk?feature=share']]" />
+
 ### Interesting Links & Information {#links}
 
 - [Peter Faber: The New Patron Saint of Business?](https://www.ncronline.org/news/people/peter-faber-new-patron-saint-business)
