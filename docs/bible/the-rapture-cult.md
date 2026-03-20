@@ -31,7 +31,7 @@ This text was very hard to locate and there is another text with the same exact 
 
 :::details Expand for PDF Reader
 
-<PDF title="The Rapture Cult: Religious Zeal & Political Conspiracy (Robert L. Pierce)" src="https://files.catbox.moe/j9pkme.pdf" />
+<PDF title="The Rapture Cult: Religious Zeal & Political Conspiracy (Robert L. Pierce)" src="https://files.catbox.moe/rqgbjo.pdf" />
 
 :::
 
