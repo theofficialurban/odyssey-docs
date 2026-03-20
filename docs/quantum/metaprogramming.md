@@ -1,6 +1,6 @@
 ---
 title: Human Metaprogramming
-secret: true
+description: This page contains notes on the Human Biocomputer and attempts to build a API and document the various parts of the API as to better understand how the human mind acts in many cases like a computer. Using Cybernetics and established information on the topic of 'Metaprogramming'
 ---
 
 [[atomic]]
