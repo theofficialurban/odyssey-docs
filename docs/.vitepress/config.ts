@@ -402,7 +402,7 @@ const contributors: Contributors = {
   merge: "name",
   include: [
     {
-      avatar: "https://i.imgur.com/65H5WRj.png",
+      avatar: "https://i.imgur.com/pm8kgLg.png",
       name: "Urban",
 
       email: "theofficialurban@protonmail.com",

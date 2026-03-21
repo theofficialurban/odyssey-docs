@@ -6,7 +6,7 @@ hero:
   text: Public Database
   tagline: Various notes & additional information that has been made available to the public by Urban.
   image:
-    src: https://i.imgur.com/65H5WRj.png
+    src: https://i.imgur.com/pm8kgLg.png
     alt: Urban Odyssey Logo
   actions:
     - theme: brand
