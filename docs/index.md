@@ -1,13 +1,13 @@
 ---
 layout: home
-title: Database
+title: Home
 hero:
   name: Urban Odyssey
   text: Public Database
   tagline: Various notes & additional information that has been made available to the public by Urban.
   image:
-    src: https://cdn.bio.link/uploads/profile_pictures/2025-07-04/SwfkVYmIZ1hVEcD7en5yz9e3HoWA5BUm.png
-    alt: Urban Odyssey Gold
+    src: https://i.imgur.com/65H5WRj.png
+    alt: Urban Odyssey Logo
   actions:
     - theme: brand
       text: Docs & Notes
@@ -20,5 +20,5 @@ hero:
       link: /all
     - theme: alt
       text: Urban's Link Page
-      link: https://bio.link/officialurban
+      link: https://direct.me/officialurban
 ---

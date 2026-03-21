@@ -402,8 +402,7 @@ const contributors: Contributors = {
   merge: "name",
   include: [
     {
-      avatar:
-        "https://cdn.bio.link/uploads/profile_pictures/2025-07-04/SwfkVYmIZ1hVEcD7en5yz9e3HoWA5BUm.png",
+      avatar: "https://i.imgur.com/65H5WRj.png",
       name: "Urban",
 
       email: "theofficialurban@protonmail.com",
@@ -432,12 +431,6 @@ const socialLinks = [
       svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 3h18v18H3zm7.564 2.536h-4.31v12.928h4.31V15.59H12v1.436h1.436v1.436h4.31v-4.309h-1.437v-1.436h-1.436v-1.436h1.436V9.845h1.436V5.536h-4.309v1.436H12V8.41h-1.436z"/></svg>',
     },
     link: "https://kick.com/officialurban",
-  },
-  {
-    icon: {
-      svg: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M2.547 1L1 4.776v15.433h5.5V23h3.093l2.922-2.791h4.47L23 14.462V1zm18.39 12.478L17.5 16.76H12l-2.922 2.791v-2.79h-4.64V2.97h16.499zM17.5 6.747v5.74h-2.063v-5.74zm-5.5 0v5.74H9.938v-5.74z" clip-rule="evenodd"/></svg>',
-    },
-    link: "https://twitch.tv/theurbanodyssey",
   },
   {
     icon: {
@@ -483,10 +476,7 @@ const navLinks = [
             text: "Rumble",
             link: "https://rumble.com/c/MastersMahan/live",
           },
-          {
-            text: "Twitch.tv",
-            link: "https://twitch.tv/theurbanodyssey",
-          },
+
           {
             text: "Kick",
             link: "https://kick.com/officialurban",
