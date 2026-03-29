@@ -457,3 +457,7 @@ As we stand on the precipice of this new frontier, we realize that we are not th
 The history of plasma research has taken us from "radiant matter" in a tube to the "New Science of Heaven." We have moved from a worldview where space is a dead vacuum to one where it is a vibrant, electric, and potentially intelligent web. We are not separate from this; we are "plasma beings" living in a "plasma universe," our biological functions driven by the same subatomic currents that power the stars.
 
 **Nature began with the Plasma.**
+
+## Plasmoid Unification Model
+
+<PDF src="https://files.catbox.moe/l0qpsi.pdf" title="Plasmoid Unification Model" />
