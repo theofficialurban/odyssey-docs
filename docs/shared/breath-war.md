@@ -37,71 +37,46 @@ James Carner’s "Breath War" outlines a **theological and legal framework** whe
 
 <span class="text-2xl text-blue-400 font-bold">Breath War</span>
 
+_Click/Tap on the Cover Image to Download_
 <a href="https://jamescarner.com/wp-content/uploads/2025/06/breath_war.pdf" target="_blank"><img src="https://jamescarner.com/wp-content/uploads/2025/11/breath_war.png" width="811" height="1207" /></a>
 
 James Carner’s "Breath War" presents an esoteric, legalistic interpretation of spiritual warfare, positing that the **divine breath** granted to humanity in Genesis serves as a **legal authorization** for dominion over the physical realm. The text explores a cosmic conflict where a fallen hierarchy seeks to build a **counterfeit kingdom** by harvesting, trafficking, and fragmenting this breath through mechanisms such as **trauma, fear, and bloodline manipulation**. Carner identifies a historical "fracture" beginning with Cain and Abel, leading to a modern **breath economy** managed by occult priesthoods and advanced through technologies like **artificial intelligence and transhumanism**. Ultimately, the work asserts that this illegal "breath theft" is nullified only through the **legal authority of Christ**, whose sacrificial blood restores humanity’s standing in the **heavenly registry**.
-
-:::details Expand for PDF Viewer
-
-<PDF src="https://jamescarner.com/wp-content/uploads/2025/06/breath_war.pdf" title="Breath War" />
-
-:::
 
 == Crown of Blood
 
 <span class="text-2xl text-red-500 font-bold">The Crown of Blood</span>
 
+_Click/Tap on the Cover Image to Download_
 <a href="https://jamescarner.com/wp-content/uploads/2025/07/The-Crown-of-Blood.pdf" target="_blank"><img src="https://jamescarner.com/wp-content/uploads/2025/11/crown_blood.png" width="811" height="1207" /></a>
 
 James Carner’s *Crown of Blood* presents a complex, esoteric narrative that characterizes human history as a perpetual struggle over the **theft of divine breath**, which the author identifies as the essential spiritual life-force and "authorship" granted by God. Carner argues that ancient biblical rebellions, beginning with Cain, established a **counterfeit registry** designed to commodify and control this essence through ritualized systems of power. He traces this legacy of spiritual usurpation from the architecture of the Tower of Babel to a modern global conspiracy where **elite bloodlines**, specifically the Orsini and Li families, merge religious tradition with **technocratic dominion**. The text warns that contemporary advancements in **artificial intelligence, blockchain, and genetic engineering** are the final, digital manifestations of this ancient quest to "hack" the human soul and enthrone a deceptive, networked "Beast" system. Ultimately, the book serves as a call for spiritual resistance, urging readers to reclaim their divine identity from a **global administrative machine** that seeks to replace organic faith with a simulated, programmed reality.
-
-:::details Expand for PDF Viewer
-
-<PDF src="https://jamescarner.com/wp-content/uploads/2025/07/The-Crown-of-Blood.pdf" title="The Crown of Blood" />
-
-:::
 
 == The Ritual Machine
 
 <span class="text-2xl text-yellow-500 font-bold">The Ritual Machine</span>
 
+_Click/Tap on the Cover Image to Download_
 <a href="https://jamescarner.com/wp-content/uploads/2025/08/The-Ritual-Machine.pdf" target="_blank"><img src="https://jamescarner.com/wp-content/uploads/2025/11/ritual_machine.png" width="811" height="1207" /></a>
 
 James Carner’s *The Ritual Machine* presents an esoteric worldview where **spiritual activities function as executable computer code** within a literal **cosmic courtroom**. The text posits that human breath is the "compiler" of this code, serving as a divine signature of authorship that the "Beast" seeks to hijack through **ritualized infrastructure, financial systems, and digital technology**. By framing the biblical fall and the "Codex of Cain" as the first **registry hacks**, the author argues that modern advancements like **biometric IDs, AI, and quantum computing** are actually ancient occult protocols designed to enslave the soul. Ultimately, the work serves as a strategic manual for a "remnant" of believers to use **Heaven’s counter-code**—specifically the blood of Christ and legal petitions—to annul these fraudulent contracts. The narrative transitions from a historical analysis of spiritual rebellion to a warning about a **technocratic "Digital Resurrection"** that seeks to replace divine life with synthetic, simulated existence.
-
-:::details Expand for PDF Viewer
-
-<PDF src="https://jamescarner.com/wp-content/uploads/2025/08/The-Ritual-Machine.pdf" title="The Ritual Machine" />
-
-:::
 
 == The Stone That Speaks
 
 <span class="text-2xl font-bold">The Stone That Speaks</span>
 
+_Click/Tap on the Cover Image to Download_
 <a href="https://jamescarner.com/wp-content/uploads/2025/11/The-Stone-That-Speaks.pdf" target="_blank"><img src="https://jamescarner.com/wp-content/uploads/2025/11/stone_book.png" width="811" height="1207" /></a>
 
 James Carner’s *The Stone That Speaks* presents a provocative alternative history and eschatology centered on the **divine registry of breath and bone**, asserting that spiritual authority is anchored in physical witnesses rather than religious institutions. The text argues that the original sanctuary was the **body of Adam**, whose physical remains and divinely exhaled breath constitute a legal contract of inheritance preserved through the **Ethiopian canon** and hidden geologic markers. Carner contrasts this "living registry" with a **Western erasure** orchestrated by elite dynasties and the Vatican, who have allegedly redacted sacred scrolls like Enoch and Jubilees to replace spiritual identity with **legal strawman constructs** and state-controlled registration. A central theme is the **war for memory**, where modern technologies like **Artificial Intelligence, transhumanism, and digital currencies** are depicted as "breathless counterfeits" designed to mimic divine authority while severing humanity from its ancestral covenant. Ultimately, the work serves as a mandate for a **righteous remnant** to recover these suppressed testimonies and the **Tablet of Testimony**, a literal stone witness whose eventual unveiling will legally invalidate the Beast system and restore the **throne of Zion**.
-
-:::details Expand for PDF Viewer
-
-<PDF src="https://jamescarner.com/wp-content/uploads/2025/11/The-Stone-That-Speaks.pdf" title="The Stone that Speaks" />
-
-:::
 
 == Crown of Cain
 
 <span class="text-2xl font-bold text-red-900">The Crown of Cain</span>
 
+_Click/Tap on the Cover Image to Download_
 <a href="https://jamescarner.com/wp-content/uploads/2026/02/The-Crown-of-Cain.pdf" target="_blank"><img src="https://jamescarner.com/wp-content/uploads/2026/02/crown_cain.png" width="811" height="1207" /></a>
 
 In **The Crown of Cain**, James Carner explores a **structural rupture** in the history of power, moving beyond a simple moral lesson about jealousy to identify a **prototypical pattern of authority**. He argues that Cain represents the birth of a "crown" characterized by **continuity without reconciliation**, where systems of rule learn to stabilize, build, and endure despite being **permanently misaligned** from their divine source. By contrasting this with the **relational stewardship** of Eden—where authority functioned through **proximity and participation**—Carner reveals how modern governance often mimics Cain’s legacy by valuing **function over truth** and survival over repentance. The text serves as a **diagnostic lens** for the reader, stripping away the comfort of psychological labels to expose an **architectural pattern of power** that justifies its legitimacy through the mere fact of its own persistence.
-
-:::details Expand for PDF Viewer
-
-<PDF src="https://jamescarner.com/wp-content/uploads/2026/02/The-Crown-of-Cain.pdf" title="The Crown of Cain" />
-
-:::
 
 ::::
 

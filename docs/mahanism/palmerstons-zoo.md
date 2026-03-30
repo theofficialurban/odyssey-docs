@@ -35,7 +35,7 @@ These sources document a **1994 Schiller Institute conference** titled "**Lord P
 
 #### Part(s) 1 - 3 How British Oligarchs Conquered the World {#part-1}
 
-<VEmbed platform="Rumble" src="https://rumble.com/embed/v75hgru/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v77o4s2-the-palmerston-zoo-pts.-1-3-how-british-oligarchs-conquered-the-world-schil.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/palmerston-zoo-1:b'], ['Substack', 'https://theofficialurban.substack.com/p/palmerston-zoo-1']]" />
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v75hgru/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v77o4s2-the-palmerston-zoo-pts.-1-3-how-british-oligarchs-conquered-the-world-schil.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/palmerston-zoo-1:b'], ['Substack', 'https://theofficialurban.substack.com/p/palmerston-zoo-1'], ['Spotify', 'https://open.spotify.com/episode/6ZByFYvCntmTFRj7EzWi7C?si=24dbec7028e4462b']]" />
 
 ::::details Expand for Source Guide
 
@@ -68,7 +68,7 @@ The blueprint for Britain's global tyranny was forged during a 200-year hostile 
 
 #### Part(s) 4 - 6 The Venetian Takeover of the English Mind {#part-2}
 
-<VEmbed platform="Rumble" src="https://rumble.com/embed/v75in8g/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v77pb8o-the-palmerston-zoo-pts-4-6-the-venetian-takeover-of-the-english-mind-1994.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/palmerston-zoo-2:b'], ['Substack', 'https://theofficialurban.substack.com/p/palmerston-zoo-2']]" />
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v75in8g/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v77pb8o-the-palmerston-zoo-pts-4-6-the-venetian-takeover-of-the-english-mind-1994.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/palmerston-zoo-2:b'], ['Substack', 'https://theofficialurban.substack.com/p/palmerston-zoo-2'], ['Spotify', 'https://open.spotify.com/episode/5bYapY3A1gAm7cfibWsDVy?si=f410f292ad094dc6']]" />
 
 ::::details Expand for Source Guide
 
@@ -101,6 +101,8 @@ The 1843 creation of B'nai B'rith in New York was a clandestine British intellig
 ::::
 
 #### Part(s) 7 - 9 {#part-3}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v75mrmk/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v77tfms-the-palmerston-zoo-final-pts-7-9-young-turks-freud-and-the-war-on-america.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/palmerston-zoo-3:6'], ['Substack', 'https://theofficialurban.substack.com/p/palmerston-zoo-3'], ['Spotify', 'https://open.spotify.com/episode/6vW0oZFCjl3M3Bc2Bz5nT5?si=c5b5c2e1ce9e483c']]" />
 
 ::::details Expand for Source Guide
 
@@ -136,6 +138,10 @@ This pseudo-science was championed by the highest levels of power, including U.S
 :::
 
 ::::
+
+### Spotify Playlist
+
+<VEmbed platform="Spotify" src="https://open.spotify.com/embed/playlist/1TuJ3gOGmj7Kb8skGFT3yN?utm_source=generator" />
 
 ### Lecture Notes (Compiled)
 
