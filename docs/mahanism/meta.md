@@ -11,28 +11,9 @@ ogimage: https://cdn.arstechnica.net/wp-content/uploads/2021/11/metaverse-landsc
 
 [[toc]]
 
-::::details See More on Hauntology
+## Urban's Video: Lexicon Entry #04 - Meta/Metaverse {#video}
 
-<Card title="Hauntology" description="Hauntology, a concept birthed by Derrida to describe the persistence of the past and the 'non-origin,' is usually applied to postmodern malaise or Marxist specters." href="./hauntology.html" :preview="true" />
-
-:::tabs
-== Hauntology
-
-![](https://i.imgur.com/4CWP6Ba.png)
-[`Hauntology`](https://grokipedia.com/page/Hauntology)
-
-== Anemoia
-
-![](https://i.imgur.com/FjIoNTZ.png)
-[`Anemoia`](https://grokipedia.com/page/anemoia)
-
-:::
-
-<YouTube id="UHffxk3t4gU" />
-
-<YouTube id="YGtFKR19vQ0" />
-
-::::
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v75r4n4/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v77xsnc-lexicon-entry-004-metametaverse.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/meta:aa3'], ['Substack', 'https://theofficialurban.substack.com/p/meta'], ['Spotify', 'https://open.spotify.com/episode/1RSFLZvmP0hPznMkTVwlRa?si=5OWq7x13QNijxLNdtMPsgQ'], ['YouTube', 'https://youtu.be/owA7fd9IcV4'], ['X-Link', 'https://x.com/officialurbanus/status/2039752156970959105']]" />
 
 ## THE EMPIRE OF THE DEAD
 
@@ -80,7 +61,28 @@ To understand the architecture of the Matrix, one must bridge the linguistic occ
 
 By legally and spiritually declaring the human population _Meta_ (dead, "lost at sea," or soulless Golems), the architects force reality into a permanent hauntological crisis. We are not experiencing life; we are experiencing the "agency of the non-existent".
 
+::::details See More on Hauntology
+
 <Card title="Hauntology" description="Hauntology, a concept birthed by Derrida to describe the persistence of the past and the 'non-origin,' is usually applied to postmodern malaise or Marxist specters." href="./hauntology.html" :preview="true" />
+
+:::tabs
+== Hauntology
+
+![](https://i.imgur.com/4CWP6Ba.png)
+[`Hauntology`](https://grokipedia.com/page/Hauntology)
+
+== Anemoia
+
+![](https://i.imgur.com/FjIoNTZ.png)
+[`Anemoia`](https://grokipedia.com/page/anemoia)
+
+:::
+
+<YouTube id="UHffxk3t4gU" />
+
+<YouTube id="YGtFKR19vQ0" />
+
+::::
 
 Here is the deep-dive autopsy of the Spectral Necropolis.
 
