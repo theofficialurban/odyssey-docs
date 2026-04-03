@@ -65,6 +65,8 @@ By legally and spiritually declaring the human population _Meta_ (dead, "lost at
 
 <Card title="Hauntology" description="Hauntology, a concept birthed by Derrida to describe the persistence of the past and the 'non-origin,' is usually applied to postmodern malaise or Marxist specters." href="./hauntology.html" :preview="true" />
 
+<Card title="Flatline Constructs" description="Additional notes on the source texts by Mark Fisher and Jacques Derrida" img="https://i.imgur.com/E0pTJcv.png" href="../reading/flatline-constructs.html" :preview="true" />
+
 :::tabs
 == Hauntology
 

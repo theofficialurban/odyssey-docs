@@ -10,7 +10,13 @@ description: |
 
 [[toc]]
 
+<Card title="Flatline Constructs" description="Additional notes on the source texts by Mark Fisher and Jacques Derrida" img="https://i.imgur.com/E0pTJcv.png" href="../reading/flatline-constructs.html" :preview="true" />
+
 ## Videos
+
+:::tip
+Full YouTube Playlist: https://www.youtube.com/playlist?list=PLeZ164ZSzHeyUGAheFc5sROZvqJxGiFO4
+:::
 
 <YouTube id="UHffxk3t4gU" />
 
