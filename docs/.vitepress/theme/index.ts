@@ -34,6 +34,7 @@ import LayoutShare from "./components/LayoutShare.vue";
 import PlatformBtns from "./components/PlatformBtns.vue";
 import EsotericIcons from "./components/EsotericIcons.vue";
 import Redirect from "./components/Redirect.vue";
+import CollectionCard from "./components/CollectionCard.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -106,6 +107,7 @@ export default {
     app.component("PDF", PDF);
     app.component("Grid", CardGrid);
     app.component("EsoIcon", EsotericIcons);
+    app.component("CCard", CollectionCard);
     //app.component("DictTest", DictTest);
     app.component("Redirect", Redirect);
     app.component("Imgur", ImgurEmbed);

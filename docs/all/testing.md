@@ -1,7 +1,6 @@
 ---
 title: Testing
 secret: true
-layout: page
 ---
 
-<Redirect to="../mahanism/attachment-needs.html" timer=10 />
+<CCard collection="magic" href="/magic/sacred-geometry.html" />

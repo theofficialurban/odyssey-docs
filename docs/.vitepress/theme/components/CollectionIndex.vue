@@ -35,9 +35,10 @@ const collections = computed(() => {
   const cm = new Map<string, DefinitionAndPages>();
   collection.forEach((c) => {
     const found: Collection = useCollection(c);
+    console.log(found.pages);
     const findCol = findCollection(theme.value.collections, c);
     const publicPages: Page[] = found.pages.filter(
-      (pg) => pg.secret === undefined || pg.secret === false
+      (pg) => pg.secret === undefined || pg.secret === false,
     );
     const titleFix = publicPages.map((pubPg) => {
       const oldTitle: string = pubPg.title ?? pubPg.frontmatter.title;
