@@ -1,8 +1,12 @@
 import type Token from "markdown-it/lib/token.mjs";
-
+import mdSpans from "markdown-it-bracketed-spans";
 import StateCore from "markdown-it/lib/rules_core/state_core.mjs";
-import MarkdownIt, { PluginSimple } from "markdown-it";
+import MarkdownIt, { Options, PluginSimple } from "markdown-it";
 import { RuleBlock } from "markdown-it/lib/parser_block.mjs";
+import { MarkdownOptions } from "vitepress";
+import { Renderer } from "markdown-it/index.js";
+import { ElementTransform } from "@nolebase/markdown-it-element-transform";
+import { RenderRule } from "markdown-it/lib/renderer.mjs";
 
 // On Link Open - If Func Return True - Do This
 //["link_open", () => true, ]
@@ -116,15 +120,15 @@ export const ShareBtnPlugin: PluginSimple = (md: MarkdownIt) => {
 export type CleanupFunction =
   | [
       string,
-      ((token: Token, state?: StateCore, env?: any) => void) | null | never
+      ((token: Token, state?: StateCore, env?: any) => void) | null | never,
     ]
   | [string]
   | null;
 
 export type RuleFunc = (
   token: Token,
-  state?: StateCore,
-  env?: any
+  state: StateCore,
+  env?: any,
 ) => CleanupFunction;
 
 /**
@@ -153,7 +157,7 @@ export type EditRules = EditRule[];
  */
 export function removeLinkAttributes(
   t: Token,
-  removeAttrs: string[] = ["href", "rel", "target"]
+  removeAttrs: string[] = ["href", "rel", "target"],
 ) {
   let newAttrs: [string, string][] = [];
   let removeAttributes: Map<string, boolean> = new Map();
@@ -330,8 +334,8 @@ const Rules: EditRules = [
       t.attrGet("to") != null,
     (t: Token, s: StateCore, e) => {
       t.tag = "Gradient";
-      t.attrPush(["fromCol", t.attrGet("from")]);
-      t.attrPush(["toCol", t.attrGet("to")]);
+      t.attrPush(["fromCol", t.attrGet("from") ?? "#FFFFFF"]);
+      t.attrPush(["toCol", t.attrGet("to") ?? "#FFFFFF"]);
 
       return [
         "Gradient",
@@ -348,7 +352,7 @@ const Rules: EditRules = [
     (t: Token, s: StateCore, e) => {
       t.tag = "PDF";
 
-      t.attrPush(["src", t.attrGet("href")]);
+      t.attrPush(["src", t.attrGet("href") ?? "#"]);
 
       removeLinkAttributes(t);
       return [
@@ -361,4 +365,65 @@ const Rules: EditRules = [
   ],
 ];
 
+const MarkdownOps: MarkdownOptions = {
+  html: true,
+  math: true,
+  config(md) {
+    //md.use(mathjax3);
+  },
+  preConfig(md) {
+    md.use(ShareBtnPlugin);
+    //md.use(mathjax3);
+    const proxy: RenderRule = (tokens, idx, options, env, self) =>
+      self.renderToken(tokens, idx, options);
+    const fenceRenderer = md.renderer.rules.fence || proxy;
+    md.renderer.rules.fence = function (
+      tokens: Token[],
+      idx: number,
+      options: Options,
+      env: any,
+      self: Renderer,
+    ) {
+      const token = tokens[idx];
+      if (token.info == "embed") {
+        return createCardFromEmbed(token.content);
+      }
+      return fenceRenderer(tokens, idx, options, env, self);
+    };
+    md.use(mdSpans);
+    md.use(
+      ElementTransform,
+      (() => {
+        let transformNextLinkCloseToken: CleanupFunction = null;
+        return {
+          transform(token, state, env) {
+            if (
+              transformNextLinkCloseToken !== null &&
+              token.type.includes("close")
+            ) {
+              // Modify the tag of the token
+              const [name, cleanupFn] = transformNextLinkCloseToken;
+              if (cleanupFn !== undefined && cleanupFn !== null)
+                cleanupFn(token, state, env);
+
+              transformNextLinkCloseToken = null;
+            }
+            Rules.forEach((r) => {
+              const [trigger, ruleTest, ruleFunc] = r;
+              if (token.type == trigger) {
+                if (ruleTest(token)) {
+                  transformNextLinkCloseToken = ruleFunc(token, state, env);
+                }
+              }
+            });
+          },
+        };
+      })(),
+    );
+
+    //md.use(InlineLinkPreviewElementTransform);
+  },
+};
+
+export { MarkdownOps as MarkdownOptions };
 export default Rules;
