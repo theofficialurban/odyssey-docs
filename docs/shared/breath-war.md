@@ -80,6 +80,10 @@ In **The Crown of Cain**, James Carner explores a **structural rupture** in t
 
 ::::
 
+## [Strong's Number #5397](https://biblehub.com/hebrew/5397.htm) `neshamah` (נְשָׁמָה) {#strongs-5397}
+
+![](https://i.imgur.com/eWZjVWc.png)
+
 ## **Conceptual Framework: _The Legal and Energetic Properties of Divine Breath_**
 
 ### 1. Introduction: Entering the Breath War
