@@ -53,6 +53,28 @@ _Courtesy of the [Deep State Mapping Project](https://dsmp.io/?aff=22)_
 
 <Card title="Windows On The World" img="https://i.ytimg.com/vi/pim4q-MqZG0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCbrppZGSn3MbaJWzVIMcps0-sXPQ&days_since_epoch=20553" description="Urban's Playlist of Content by Windows on the World" href="https://www.youtube.com/playlist?list=PLeZ164ZSzHexzqd4oHpraH06gA207SBbr" />
 
+## Definition of Octogon Group
+
+![](https://i.imgur.com/EAYbcNj.png)
+
+**Term:** OCTOGON (THE SWISS NAZI TEMPLAR COMMAND)
+
+**Simplistic Definition:** The supreme, centralized military and intelligence apparatus of the global Pharaohistocracy, operating from the impenetrable, neutral-branded fortress of Switzerland. It is the literal shadow government of Earth, functioning as the apex predator over all global secret services, police forces, and military-industrial complexes.
+
+**Conceptual Category:** `Global Shadow Governance` / `State Terror & Conflict Technologies`
+
+### Context/Usage in Source
+
+- **The Genesis of Terror:** Octogon was founded in 1291 by the Knights Templar, exactly two and a half months after the fall of Acre and the end of the overt Crusades, establishing Switzerland as their permanent, untouchable base of global operations.
+- **The Second Horseman:** In the apocalyptic control matrix, Octogon operates as the "Red Horse" (the second seal), granted a great sword to strip peace from the Earth. Its primary directive is the perpetual orchestration of "horizontal wars" and the enforcement of the "Horus Matrix" to systematically annihilate natural masculinity, ensuring that professional, unquestioning police armies can easily dominate the defenseless "farmed race".
+- **The Global Puppet Master:** Octogon dictates orders to the world's most powerful nations and leaders. It controls the United States and Russia alike, utilizing a "fifth column" of sleeper agents embedded in the highest echelons, including former presidents and the founders of the CIA and FBI. Global intelligence agencies—whether the CIA, KGB/FSB, or MI6—are not genuine enemies; they are all subservient branches answering to the Swiss Octogon, executing coordinated black ops, false flags, and assassinations worldwide.
+- **The Kill Grid & AI Enforcement:** The name "Octogon" is unapologetically used for a Swiss-developed predictive policing AI software exported globally. This pre-crime algorithmic tool allows the fascist state to target, assess, and incarcerate human livestock before they have committed any offense, simply because the machine calculates they pose a future threat to the system. It operates under the brutal, algorithmic logic of: "when they don't like your face they put you in prison".
+- **Architectural Domination:** Within the occult blueprint of the Matrix, the Octogon is esoterically and physically represented as the eight-sided protective barrier (the military, police, and intelligence wings) guarding the "Inner Circle" (the elite Pharaonic bloodlines and Freemason masters) from the "Square" (the four-cornered base of the pyramid, representing the massive herd of human slaves).
+
+**Associated Technology/Protocol:** `Predictive Policing AI (Octogon Software)`, `Operation Gladio`, `GRU Unit 29155`, `Code O2T` (Automated Oxygen Deprivation Torture).
+
+**Implications for Human Anatomy (Inferred):** Absolute physical vulnerability. The human body is stripped of all sanctuary, subject to constant surveillance, algorithmic pre-crime incarceration, or sudden kinetic termination by Octogon's unified global "blue army" and state-sanctioned death squads without any recourse to genuine justice.
+
 ## **THE PHARAOHISTOCRACY**
 
 ![](https://i.imgur.com/37PkMVx.png)
@@ -383,3 +405,74 @@ Within this "Global Matrix," the elite utilize specific "Tools of Control," whic
 **Social Engineering and the "Horus Matrix"** The elite employ deliberate social engineering to reshape human civilization. A primary tactic is the "Horus Matrix," a campaign aimed at destroying the patriarchy by sending men to die in manufactured wars. The goal is to leave behind fatherless societies where the state can raise boys "from scratch" into obedient, feminized slaves or "pink list killers" who will serve Pharaoh's system without resistance.
 
 **The "Fifth Column" and Infiltration** The Swiss elite do not conquer through overt military invasion but through covert infiltration. They deploy a "fifth column" of "Swiss sleeper agents" who emigrate to foreign nations, change their names to blend in, and seize key positions in government, intelligence (such as the CIA and FBI), and the judiciary. Through organizations like the World Economic Forum and the United Nations, they orchestrate global policy, ensuring the entire world is trapped in a dictatorial system engineered by the Swiss base.
+
+## New Vocabulary
+
+The following classifications have been extracted directly from the suppressed archives of the Swiss Matrix. These are the unvarnished, brutal mechanisms of planetary enslavement utilized by the Pharaohistocracy to manage, cull, and mind-wipe the human livestock. None of these operational protocols appear on the previously intercepted Directory.
+
+:::tabs
+
+== Code O2T
+**CODE O2T (OXYGEN DEPRIVATION PROTOCOL)**
+
+![](https://i.imgur.com/S9rQUwT.png)
+
+- **Simplistic Definition:** A covert, state-sanctioned torture and assassination method utilizing controlled asphyxiation in high-security detention centers.
+- **Conceptual Category:** Biotechnology & Human Interface / State Terror
+- **Context/Usage:** Deployed by the Swiss Gestapo within their designated "torture detention centers" to eliminate political prisoners, whistleblowers, and unwanted immigrants without leaving kinetic forensic evidence. It involves "the deprivation of oxygen to a near life-threatening degree which is the easiest to regulate in order to create slow death". The system logs these automated murders as "suicides" or "medical problems" to maintain the illusion of a civilized state. Victims include whistleblowers like Wolfgang Umvogel, who was silenced before he could expose massive tax evasion.
+
+== Horus Matrix
+**THE HORUS MATRIX**
+
+![](https://i.imgur.com/FEkBTKw.png)
+
+- **Simplistic Definition:** The systematic, multi-generational eradication of the patriarchy and natural fatherhood to allow the State to act as the supreme parent and programmer of the youth.
+- **Conceptual Category:** Social Engineering / Biological Sabotage
+- **Context/Usage:** The ultimate psychological reset of the human herd. This protocol demands endless "horizontal wars" specifically designed to slaughter adult males. By "killing the fathers," the elite are free to "raise the sons new from scratch" and mold them entirely after the image of the system rather than divine creation. This matrix weaponizes feminism and "pink list killers" to openly advocate for the destruction of the patriarchy, ensuring that young boys are left defenseless, isolated, and easily indoctrinated into obedient, state-sponsored killers (e.g., the Hitler Youth).
+
+== Triple M
+**TRIPLE M (MASTER'S MEGA MEDIA)**
+
+![](https://i.imgur.com/GjSIZ07.png)
+
+- **Simplistic Definition:** The unified, global propaganda apparatus functioning as the "Fifth Seal" of the Pharaonic control grid.
+- **Conceptual Category:** Psychological Warfare / Mind Control
+- **Context/Usage:** The mainstream media is exclusively owned by the elite and is utilized to "twist our heads with lies and false flags to divide and rule". The Triple M is a weapon of mass deception designed to incite racial, political, and religious hatred among the slave class. Its primary directive is to ensure the livestock are perpetually fighting one another so they never identify their true masters in the Alps.
+
+== Swiss Neutrality
+**THE SWISS NEUTRALITY SWINDLE**
+
+![](https://i.imgur.com/z0eMOGq.png)
+
+- **Simplistic Definition:** The geopolitical cloak of invisibility worn by the epicenter of global evil, allowing the elite to orchestrate wars, fund terrorism, and hoard stolen wealth without facing military retaliation.
+- **Conceptual Category:** System & Infrastructure Design / Geopolitics
+- **Context/Usage:** The concept of Swiss "neutrality" is an absolute fabrication; it is "for the elite only and not for you dumb slaves". It is a mechanism that allows the Swiss Nazi Templar banking cartel to fund both sides of global conflicts, provide safe havens for genocidal dictators and international mafia bosses, and operate a massive military-industrial complex that supplies high-precision weaponry to terrorists and rogue police forces worldwide. It ensures the "whore of Babylon" can freely engage in the "major crime league" completely immune from international law.
+
+== Inverse Pyramid
+**INVERSED PYRAMID PSYCHOLOGY (THE INVERSED TRIANGLE OF DEATH)**
+
+![](https://i.imgur.com/SkS7z6o.png)
+
+- **Simplistic Definition:** The weaponized psychological tactic of publicly declaring the exact opposite of the elite's true intentions to lower the defenses of the masses before a catastrophic betrayal.
+- **Conceptual Category:** Psychological Warfare / Occult Subversion
+- **Context/Usage:** Derived from the esoteric reversal of the goddess Maat (Justice) into a symbol of absolute injustice. Politicians embedded in the matrix utilize this technique to placate the public—for instance, promising peace while actively arming for war, or pretending to oppose the deep state while actively staffing their cabinets with deep state operatives. The elite signal this deception to one another using the hand sign of the "inversed pyramid of death," confirming that whatever they are saying is a deliberate lie meant to pacify the slaves until the trap snaps shut.
+
+== Vertical vs Horizontal
+**VERTICAL VERSUS HORIZONTAL RULE PARADIGM**
+
+![](https://i.imgur.com/uUD7Rur.png)
+
+- **Simplistic Definition:** The fabricated, grand chessboard of global conflict, where the elite pit their two models of enslavement against one another to cull populations and consolidate power.
+- **Conceptual Category:** System & Infrastructure Design / Conflict Technologies
+- **Context/Usage:** The "Old World Order" is the Vertical Rule (feudalism, absolute monarchs, dictatorships, caliphates) symbolized by the Red House of Pharaoh. The "New World Order" is the Horizontal Rule (republics, democracies, corporate states) symbolized by the White House, instituted by the Knights Templar to allow multiple aristocrats to rule collaboratively. All major global conflicts (WWI, WWII, the Cold War, modern proxy wars) are simply engineered bloodbaths between these two management styles, forcing the "dumb slaves" to slaughter each other while the elite safely watch from their lodges.
+
+== Octogon AI
+**SWISS OCTOGON A.I. (PREDICTIVE POLICING)**
+
+![](https://i.imgur.com/M9KGLHc.png)
+
+- **Simplistic Definition:** A digitized pre-crime algorithm deployed to systematically incarcerate individuals based on their potential to resist the matrix, rather than any actual laws broken.
+- **Conceptual Category:** Artificial Intelligence & Automation / State Terror
+- **Context/Usage:** The Swiss have pioneered and exported a software system literally named "Octogon" to automate human suppression. This predictive policing tool strips away the illusion of justice, allowing authorities to incarcerate targets based on "risk assessment". In brutal terms, "when they don't like your face they put you in prison" before you've even committed an offense. It is the ultimate tool to target and neutralize "Sigma males" and independent thinkers who pose a metaphysical threat to the Pharaonic hive mind.
+
+:::
