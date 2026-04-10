@@ -1,5 +1,5 @@
 ---
-title: Octogone Group
+title: Octogon Group
 description: |
   These sources present a critique of Switzerland, portraying the nation as the clandestine global base for a Pharaonic elite and the descendants of the Knights Templar. The claim that Swiss neutrality is a deceptive facade designed to mask organized crime, international money laundering, and the orchestration of major global conflicts like the Ukraine war.
 ogimage: https://i.imgur.com/SYQ35eT.png
@@ -9,7 +9,7 @@ ogimageheight: 720
 
 [[atomic]]
 
-# The Octogone Group & Swiss Beast
+# The Octogon Group & Swiss Beast {#title}
 
 [[toc]]
 
