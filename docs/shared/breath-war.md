@@ -16,6 +16,27 @@ description: |
 
 James Carner’s "Breath War" outlines a **theological and legal framework** where human breath is viewed as a **divine jurisdictional commodity**. The author posits that a spiritual conflict exists between **God’s original registry of life** and a **counterfeit Luciferian economy** that seeks to harvest breath through **trauma, sin, and deception**. This narrative traces a "seedline indictment" from the **Cain and Abel fracture** to modern **transhumanism and artificial intelligence**, portraying these as tools for **illegal breath extraction**. Carner argues that **elite bloodlines and occult hierarchies** manage this energy economy to build a **synthetic kingdom** outside of divine authority. Ultimately, the text asserts that the **sacrificial blood of Christ** serves as the only **superior legal counterclaim** capable of nullifying these spiritual contracts. The work serves as a manual for the "remnant" to engage in **courtroom-style intercessory prayer** to reclaim stolen spiritual jurisdiction.
 
+## Videos {#videos}
+
+### Breath Wars Pt. 1 - Vocabulary Words & Terms _(To Be Continued)_
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v763if0/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78a6f8--breath-wars-urban-odyssey-live-w-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['YouTube', 'https://youtube.com/live/uqqXxZ36rMA'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/breath-wars-040926:f'], ['Substack', 'https://theofficialurban.substack.com/p/breath-wars-pt-1?r=3kr5wz'], ['Spotify', 'https://open.spotify.com/episode/17R4AgU3Pl8f4guC7UvFyc?si=Ge4j3FMvRJus6anFE_ljZw']]" />
+
+:::details Expand for Episode Overview
+
+In this episode of Urban Odyssey, we sit down with [**Pastor James Carner**](https://rumble.com/user/jamescarner), author of the Breath Wars book series, to dismantle the hidden frameworks of the spiritual realm. We dive deep into the specific vocabulary used by the "black nobility" and esoteric circles to explain how human energy—our "breath"—is being measured, monitored, and monetized in the digital age.
+
+**Key Topics Covered:**
+
+- **The Breath War:** Understanding the conflict over human attention and emotion.
+- **The Ritual Machine:** How modern systems program behavior through repeated patterns.
+- **Biometric Sacrifice:** The trade-off between privacy and convenience in modern security.
+- **Digital Arks:** The attempt to preserve identity and data in a post-human era.
+
+:::
+
+### Previous Episode(s)
+
 <YouTube id="T01bzZIX6kw" />
 
 <YouTube id="Ua7OZ0VC3Sc" />
