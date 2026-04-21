@@ -121,6 +121,7 @@ const PathCategories: PathCategoryItem[] = [
   { prefix: "shared", text: "SHARED CONTENT" },
   { prefix: "technical", text: "TECHNICAL" },
   { prefix: "timelines", text: "TIMELINES" },
+  { prefix: "ucc", text: "UNIFORM COMN. CODE" },
 ];
 
 /**
@@ -149,8 +150,11 @@ const JesuitSVGIcon = `
 </svg>
 `;
 
+const UCCSVGIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 16 16"><title>UCC Section Icon</title><path fill="currentColor" d="M7.749 16c-.771 0-1.424-.225-1.939-.669c-.519-.447-.782-.969-.782-1.552a.98.98 0 0 1 .307-.726c.207-.202.465-.309.748-.309c.281 0 .534.1.732.29c.195.187.294.435.294.736q0 .267-.086.58a1.5 1.5 0 0 0-.068.364c0 .058.014.126.121.199c.199.138.439.204.732.204c.353 0 .667-.123.962-.375c.29-.249.431-.505.431-.782c0-.308-.082-.575-.252-.816c-.287-.402-.826-.874-1.603-1.401c-1.248-.835-2.079-1.559-2.54-2.211c-.358-.511-.539-1.061-.539-1.636c0-.579.19-1.155.564-1.713c.32-.477.794-.908 1.41-1.283q-.496-.534-.736-.995a2.6 2.6 0 0 1-.303-1.189c0-.747.295-1.393.878-1.92S7.39.001 8.241.001c.783 0 1.441.22 1.956.654c.521.439.785.952.785 1.524q0 .44-.324.776l-.004.004c-.125.124-.353.271-.735.271c-.299 0-.561-.098-.758-.283a.88.88 0 0 1-.296-.656c0-.108.027-.272.084-.515q.042-.173.042-.316a.48.48 0 0 0-.183-.39C8.679.962 8.494.909 8.243.909c-.389 0-.708.118-.975.361s-.399.533-.399.883q0 .474.212.771c.267.374.731.778 1.378 1.201c1.315.853 2.233 1.636 2.727 2.325c.365.518.549 1.068.549 1.637c0 .572-.186 1.148-.552 1.714c-.316.487-.793.926-1.42 1.308c.347.367.591.688.743.977c.189.359.284.751.284 1.165c0 .776-.296 1.435-.879 1.96s-1.31.79-2.161.79zM6.975 5.568c-.753.452-1.12.972-1.12 1.583c0 .356.102.674.31.973c.311.436.926.97 1.825 1.583q.572.39 1.025.751c.767-.461 1.14-.974 1.14-1.565q0-.485-.378-1.03c-.263-.378-.826-.872-1.674-1.467a21 21 0 0 1-1.128-.827z"/></svg>`;
+
 const SVGIcons: Record<string, string> = {
   JesuitSVGIcon,
+  UCCSVGIcon,
 };
 
 const CollectionDefinitions: DefineCollections = {
@@ -168,6 +172,21 @@ const CollectionDefinitions: DefineCollections = {
     icon: `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><title>Bible SVG Icon</title><path fill="currentColor" d="M6 22h15v-2H6.012C5.55 19.988 5 19.805 5 19s.55-.988 1.012-1H21V4c0-1.103-.897-2-2-2H6c-1.206 0-3 .799-3 3v14c0 2.201 1.794 3 3 3M5 8V5c0-.805.55-.988 1-1h13v12H5z"/><path fill="currentColor" d="M11 14h2v-4h2V8h-2V6h-2v2H9v2h2z"/></svg>`,
     iconLink: "/bible",
     patterns: ["bible/*.md"],
+  },
+  ucc: {
+    frontmatter: {
+      collection: "ucc",
+      contributors: false,
+      backLink: false,
+      aside: true,
+      sidebar: true,
+      prev: true,
+      next: true,
+      editLink: false,
+    },
+    icon: UCCSVGIcon,
+    iconLink: "/ucc",
+    patterns: ["ucc/*.md"],
   },
   parallelism: {
     frontmatter: {
