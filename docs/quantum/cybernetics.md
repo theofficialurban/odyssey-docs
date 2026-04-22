@@ -24,6 +24,28 @@ The provided sources explore **cybernetics** as a multidisciplinary framework fo
 </Grid>
 :::
 
+## Videos {#videos}
+
+:::tip Playlists
+
+**Series Playlist(s):**
+
+1. **Substack Posts (Main):** https://theofficialurban.substack.com/s/cybernetics
+2. **YouTube:** https://www.youtube.com/playlist?list=PLeZ164ZSzHezn3i_mcqttjF3K3TqDgI8C
+3. **Rumble:** https://rumble.com/playlists/Dr1Vni-U8Gw?e9s=src_v1_ucp_pl
+4. **Odysee:** https://odysee.com/$/playlist/996be5c6b75b97539d8561f638b6a2ab05c12559
+5. **Spotify Playlist:** https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=KXdm6ewvRg--bsNL_J7uAA
+
+:::
+
+### Introduction to Feedback Loops (Part I) {#pt-1}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v76f06o/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78lo6w-cybernetics-and-metaprogramming-part-i-introduction-and-behavioral-feedback.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1:4'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1?r=3kr5wz'], ['YouTube', 'https://youtu.be/fi38leBBcY4'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
+
+### _Project Soul Catcher (Chapter 1)_ Reading (Part 1a) {#pt-1a}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v76lbj6/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78rzje-hacking-the-human-mind-pt.-1a-project-soul-catcher-chapter-1-and-cybernetic.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1a:a'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1a?r=3kr5wz'], ['YouTube', 'https://youtu.be/o6vM0eEt-Bo'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
+
 ## New Vocabulary Entries for the [_Directory of Human Husbandry_](https://datawrapper.dwcdn.net/9ysrs/) {#vocab}
 
 :::tip Imgur Album
@@ -33,6 +55,10 @@ View the full Imgur Album: https://imgur.com/a/YIy3E3J
 Here are new entries for the "Directory of Human Husbandry" derived from the fields of Cybernetics and Metaprogramming, ensuring no duplication with your existing lexicon:
 
 :::tabs
+== Cybernetics
+
+![](https://i.imgur.com/UjxxyAH.png)
+
 == Human Biocomputer
 
 ![](https://i.imgur.com/VngBTO3.png)
@@ -72,6 +98,60 @@ Here are new entries for the "Directory of Human Husbandry" derived from the fie
 == Meme
 
 ![](https://i.imgur.com/Ai4lfUT.png)
+
+:::
+
+### Additional Vocabulary from _Project Soul Catcher_
+
+:::tip Other Images
+See the original Imgur Album for Project Soul Catcher: https://imgur.com/a/matrix-control-systems-gCpKo7X
+:::
+
+:::tabs
+== Buffer Overflow
+![](https://i.imgur.com/GAZ11ox.png)
+
+== Crash OS
+![](https://i.imgur.com/e61A3Rs.png)
+
+== Dictionary Attack
+![](https://i.imgur.com/7dHbQOQ.png)
+
+== Infinite Looping
+![](https://i.imgur.com/dnItCsR.png)
+
+== Memory Probing
+![](https://i.imgur.com/go5PXOk.png)
+
+== Mind Virus
+![](https://i.imgur.com/hTtbapg.png)
+
+== Negative Assoc.
+
+![](https://i.imgur.com/oX9aG1l.png)
+
+== Psycho-Bombs
+
+![](https://i.imgur.com/mXJtJOI.png)
+
+== Screen Scraping
+
+![](https://i.imgur.com/sHFlPla.png)
+
+== Spoofing
+
+![](https://i.imgur.com/r2P7ZLA.png)
+
+== Trojan Horse
+
+![](https://i.imgur.com/wdvHQIj.png)
+
+== Other
+
+<Grid>
+<CCard collection="biodigital" href="/biodigital-convergence/robert-duncan.html" />
+<CCard collection="biodigital" href="/biodigital-convergence/operations-scripts.html" />
+</Grid>
 
 :::
 
