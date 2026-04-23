@@ -34,71 +34,51 @@ export type GetMarkdownPluginByKey = (markKey: string) => PluginSimple | null;
  * @export
  * @class DoubleBracketMarkdownTransform
  */
-export default class DoubleBracketMarkdownTransform {
-  private _TransformMaps: Map<string, DoubleBracketDefaultOptions> = new Map<
-    string,
-    DoubleBracketDefaultOptions
-  >();
-  /**
-   * Creates a Options object which is used for the class constructor
-   * @static
-   * @param searchBracketString The string to search for in `[[???]]` form where `???` is the value of this string
-   * @param tokenState An object with `tokenType` and `tokenTag` values
-   * @param transformHtmlFunction A function that takes a classString and returns a string version of the HTML to replace the doublebracket with `[[???]]` -> the result of this function
-   * @param containerClass A class for the container which will be passed to the `transformHtmlFunction`
-   * @returns Options object for creating instances of the class.
-   */
-  static createOptions(
-    searchBracketString: string,
-    tokenState: { tokenType: string; tokenTag: string },
-    transformHtmlFunction: DoubleBracketTransformFunction,
-    containerClass: string = "",
-  ): DoubleBracketDefaultOptions {
-    const rawMarkerMarkup = `[[${searchBracketString}]]`;
+export default abstract class DoubleBracketMarkdownTransform {
+  // private _TransformMaps: Map<string, DoubleBracketDefaultOptions> = new Map<
+  //   string,
+  //   DoubleBracketDefaultOptions
+  // >();
+  private _Regex: RegExp;
+  private _RawMarkup: string = "";
 
-    const markerPattern = this.createRegexCheck(searchBracketString);
-    return {
-      containerClass,
-      markerPattern,
-      rawMarkerMarkup,
-      transformHtmlFunction,
-      markTokenState: tokenState,
-    };
-  }
-  /**
-   * Create a RegEx to check for a double bracket with content
-   * @static
-   * @param doubleBracketContent The content of the double bracket to check for `testing` will check for `[[testing]]`
-   * @returns Regular Expression to check for `doubleBracketContent`
-   */
-  static createRegexCheck(doubleBracketContent: string): RegExp {
-    const formattedString = `^\[\[${doubleBracketContent}\]\]/im`;
-    return new RegExp(formattedString);
-  }
   /**
    *
    * @param markTransforms Pair a set of replacement mark options with a key to transform as many `[[???]]` as you'd like based on the options
    */
   constructor(
-    ...markTransforms: [
-      markerRuleKey: string,
-      markerOpts: DoubleBracketDefaultOptions,
-    ][]
+    private _SearchString: string,
+    private _Token: { tokenType: string; tokenTag: string },
+    public containerClass: string,
   ) {
-    markTransforms.forEach((t) => {
-      const [markKey, markOpts] = t;
-      this._TransformMaps.set(markKey, markOpts);
-    });
+    const formattedString = `\[\[` + this._SearchString + `\]\]`;
+    this._RawMarkup = `[[${this._SearchString}]]`;
+    this._Regex = new RegExp(formattedString, "im");
+    console.log(
+      this._RawMarkup,
+      this._Regex.exec("[[substack]]"),
+      this._SearchString,
+      this._Token,
+      this.containerClass,
+    );
   }
-  private getMarkdownPlugin: GetMarkdownPluginByKey = (markKey) => {
-    const foundOptions = this._TransformMaps.get(markKey) ?? null;
-    if (!foundOptions) return null;
-    const pluginReturn: PluginSimple = (md: MarkdownIt) => {
+  regexCheck(checkString: string): RegExpExecArray | null {
+    return this._Regex.exec(checkString);
+  }
+  abstract _TransformHtml: DoubleBracketTransformFunction;
+  get Plugin(): PluginSimple {
+    return (md: MarkdownIt) => {
       const options: DoubleBracketDefaultOptions = Object.assign(
         {},
-        foundOptions,
+        {
+          containerClass: this.containerClass,
+          transformHtmlFunction: this._TransformHtml,
+          markTokenState: this._Token,
+          rawMarkerMarkup: this._RawMarkup,
+          markerPattern: this._Regex,
+        },
       );
-      const markerRegexp = options.markerPattern;
+      //const markerRegexp = options.markerPattern ?? this._Regex;
       const markerRuleBlock: RuleBlock = (
         state,
         startLine,
@@ -115,7 +95,8 @@ export default class DoubleBracketMarkdownTransform {
           return false;
         }
         // Detect [[atomic]] markup
-        match = markerRegexp.exec(state.src.substring(start, max));
+        //const testReg = /^\[\[substack\]\]/im;
+        match = this.regexCheck(state.src.substring(start, max));
         match = !match ? [] : match.filter((m) => m);
         if (match.length < 1) {
           return false;
@@ -137,21 +118,17 @@ export default class DoubleBracketMarkdownTransform {
         token.children = [];
         return true;
       };
+
       md.renderer.rules[options.markTokenState.tokenType] = function () {
         return options.transformHtmlFunction(options.containerClass);
       };
 
-      md.block.ruler.before("heading", markKey, markerRuleBlock);
+      md.block.ruler.before(
+        "heading",
+        options.markTokenState.tokenType,
+        markerRuleBlock,
+      );
+      console.log(md.renderer.rules);
     };
-    return pluginReturn;
-  };
-  getAllPlugins(): PluginSimple[] {
-    const markKeys = this._TransformMaps.keys();
-    let plugins: PluginSimple[] = [];
-    markKeys.map((k) => {
-      const foundPlugin = this.getMarkdownPlugin(k);
-      if (foundPlugin) plugins.push(foundPlugin);
-    });
-    return plugins;
   }
 }

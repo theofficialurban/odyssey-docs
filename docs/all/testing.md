@@ -3,4 +3,16 @@ title: Testing
 secret: true
 ---
 
-<CCard collection="magic" href="/magic/sacred-geometry.html" />
+# Testing
+
+Hello world
+
+[[substack]]
+
+Why no works?
+
+[[share]]
+
+## Something Bro
+
+[[substack]]

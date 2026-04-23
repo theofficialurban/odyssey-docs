@@ -7,6 +7,9 @@ import { MarkdownOptions } from "vitepress";
 import { Renderer } from "markdown-it/index.js";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import { RenderRule } from "markdown-it/lib/renderer.mjs";
+import DoubleBracketMarkdownTransform, {
+  DoubleBracketTransformFunction,
+} from "./DoubleBracketMark";
 
 // On Link Open - If Func Return True - Do This
 //["link_open", () => true, ]
@@ -365,6 +368,22 @@ const Rules: EditRules = [
   ],
 ];
 
+class SubstackDoubleBracketPlugin extends DoubleBracketMarkdownTransform {
+  _TransformHtml: DoubleBracketTransformFunction = (containerClass: string) => {
+    let build = `<div class="${containerClass}">
+      <iframe
+        src="https://theofficialurban.substack.com/embed"
+        width="480"
+        height="320"
+        style="border: 1px solid #eee; background: white"
+        frameborder="0"
+        scrolling="no"
+      ></iframe>
+    </div>`;
+    return build;
+  };
+}
+
 const MarkdownOps: MarkdownOptions = {
   html: true,
   math: true,
@@ -372,7 +391,14 @@ const MarkdownOps: MarkdownOptions = {
     //md.use(mathjax3);
   },
   preConfig(md) {
+    const SubstackDoubleBracket = new SubstackDoubleBracketPlugin(
+      "substack",
+      { tokenTag: "iframe", tokenType: "substack_frame" },
+      "substack-frame",
+    );
+    md.use(SubstackDoubleBracket.Plugin);
     md.use(ShareBtnPlugin);
+
     //md.use(mathjax3);
     const proxy: RenderRule = (tokens, idx, options, env, self) =>
       self.renderToken(tokens, idx, options);

@@ -13,11 +13,14 @@ hero:
       text: Docs & Notes
       link: /main/home
     - theme: brand
-      text: Playlists
-      link: /main/playlists
+      text: Dictionary
+      link: https://datawrapper.dwcdn.net/9ysrs/
     - theme: alt
       text: All Posts
       link: /all
+    - theme: alt
+      text: All Playlists
+      link: /main/playlists
     - theme: alt
       text: Urban's Link Page
       link: https://direct.me/officialurban
