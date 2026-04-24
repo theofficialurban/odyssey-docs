@@ -51,16 +51,16 @@ export default abstract class DoubleBracketMarkdownTransform {
     private _Token: { tokenType: string; tokenTag: string },
     public containerClass: string,
   ) {
-    const formattedString = `\[\[` + this._SearchString + `\]\]`;
+    const formattedString = `^\\[\\[` + this._SearchString + `\\]\\]`;
     this._RawMarkup = `[[${this._SearchString}]]`;
     this._Regex = new RegExp(formattedString, "im");
-    console.log(
-      this._RawMarkup,
-      this._Regex.exec("[[substack]]"),
-      this._SearchString,
-      this._Token,
-      this.containerClass,
-    );
+    // console.log(
+    //   this._RawMarkup,
+    //   this._Regex.exec("[[substack]]"),
+    //   this._SearchString,
+    //   this._Token,
+    //   this.containerClass,
+    // );
   }
   regexCheck(checkString: string): RegExpExecArray | null {
     return this._Regex.exec(checkString);
