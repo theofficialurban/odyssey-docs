@@ -46,7 +46,17 @@ The provided sources explore **cybernetics** as a multidisciplinary framework fo
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v76lbj6/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78rzje-hacking-the-human-mind-pt.-1a-project-soul-catcher-chapter-1-and-cybernetic.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1a:a'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1a?r=3kr5wz'], ['YouTube', 'https://youtu.be/o6vM0eEt-Bo'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
 
+### _Project Soul Catcher (Chapter 1)_ Reading (Part 1b) {#pt-1b}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v76pvv2/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78wjva-mind-hacking-and-digital-daemons-project-soul-catcher-pt.-1b.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1b:3'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1b?r=3kr5wz'], ['YouTube', 'https://youtu.be/j1J0AeaWRcE'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
+
+### _Project Soul Catcher (Chapter 1)_ Reading (Part 1c) {#pt-1c}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v76wjr2/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7937ra-bio-hacking-and-mind-control-pt.-1c-project-soul-catcher.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1c:7'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1c?r=3kr5wz'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
+
 ## New Vocabulary Entries for the [_Directory of Human Husbandry_](https://datawrapper.dwcdn.net/9ysrs/) {#vocab}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v76ykm6/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7958me-cybernetics-vocabulary-decoding-mind-control-and-biohacking-terms-project-s.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-vocabulary'], ['YouTube', 'https://youtu.be/SYhTEEnKhSY'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-vocabulary:0'], ['Spotify', 'https://open.spotify.com/episode/3GhhsjxVLncfc5Gr0rLxCL?si=71xTBtE3R_ifykkpuouEqg']]" />
 
 :::tip Imgur Album
 View the full Imgur Album: https://imgur.com/a/YIy3E3J
