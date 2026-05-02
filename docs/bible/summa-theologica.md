@@ -1,5 +1,8 @@
 ---
 title: Summa Theologica
+ogimage: https://substackcdn.com/image/fetch/$s_!nymJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04413ff1-075d-403b-b0f7-a12717642f46_527x344.webp
+ogimagewidth: 527
+ogimageheight: 344
 ---
 
 [[atomic]]
@@ -7,6 +10,12 @@ title: Summa Theologica
 # Summa Theologica by St. Thomas Aquinas {#title}
 
 [[toc]]
+
+:::tip Download
+
+You can access a full translation here: https://www.documentacatholicaomnia.eu/03d/1225-1274,_Thomas_Aquinas,_Summa_Theologiae_%5B1%5D,_EN.pdf
+
+:::
 
 <CCard collection="bible" href="/bible/chad-ripperger.html" />
 <CCard collection="bible" href="/bible/thomistic-psychology.html" />

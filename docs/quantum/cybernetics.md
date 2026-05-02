@@ -38,25 +38,51 @@ The provided sources explore **cybernetics** as a multidisciplinary framework fo
 
 :::
 
-### Introduction to Feedback Loops (Part I) {#pt-1}
+### Urban's Cybernetic Series {#series}
+
+:::tabs
+== Intro
+**Introduction to Feedback Loops**
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v76f06o/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78lo6w-cybernetics-and-metaprogramming-part-i-introduction-and-behavioral-feedback.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1:4'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1?r=3kr5wz'], ['YouTube', 'https://youtu.be/fi38leBBcY4'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
 
-### _Project Soul Catcher (Chapter 1)_ Reading (Part 1a) {#pt-1a}
+== Pt. 1a
+**_Project Soul Catcher (Chapter 1)_ Reading (Part 1a)**
+
+**In Part 1a we read Pages `1` to `25`**
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v76lbj6/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78rzje-hacking-the-human-mind-pt.-1a-project-soul-catcher-chapter-1-and-cybernetic.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1a:a'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1a?r=3kr5wz'], ['YouTube', 'https://youtu.be/o6vM0eEt-Bo'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
 
-### _Project Soul Catcher (Chapter 1)_ Reading (Part 1b) {#pt-1b}
+== Pt. 1b
+**_Project Soul Catcher (Chapter 1)_ Reading (Part 1b)**
+
+**In Part 1a we read Pages `25` to `50`**
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v76pvv2/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78wjva-mind-hacking-and-digital-daemons-project-soul-catcher-pt.-1b.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1b:3'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1b?r=3kr5wz'], ['YouTube', 'https://youtu.be/j1J0AeaWRcE'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
 
-### _Project Soul Catcher (Chapter 1)_ Reading (Part 1c) {#pt-1c}
+== Pt. 1c
+**_Project Soul Catcher (Chapter 1)_ Reading (Part 1c)**
+
+**In Part 1a we read Pages `50` to `75`**
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v76wjr2/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7937ra-bio-hacking-and-mind-control-pt.-1c-project-soul-catcher.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1c:7'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1c?r=3kr5wz'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
 
-## New Vocabulary Entries for the [_Directory of Human Husbandry_](https://datawrapper.dwcdn.net/9ysrs/) {#vocab}
+== Pt. 1d
+**_Project Soul Catcher (Chapter 1)_ Reading (Part 1d)**
 
+**In Part 1a we read Pages `75` to `100`**
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v771f20/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v798328-bio-hacking-the-human-computer-pt.-1d-project-soul-catcher-ch.-1.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-1d:5'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-1d?r=3kr5wz'], ['Spotify', 'https://open.spotify.com/playlist/0nNQ4SNDMDGopfUp6Uoc2P?si=kkvg9ka6Qsazq754OTMXwg']]" />
+
+== Vocab
+**New Vocabulary Entries for the [_Directory of Human Husbandry_](https://datawrapper.dwcdn.net/9ysrs/)**
+
+View the full Imgur Album: https://imgur.com/a/YIy3E3J
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v76ykm6/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7958me-cybernetics-vocabulary-decoding-mind-control-and-biohacking-terms-project-s.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-vocabulary'], ['YouTube', 'https://youtu.be/SYhTEEnKhSY'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-vocabulary:0'], ['Spotify', 'https://open.spotify.com/episode/3GhhsjxVLncfc5Gr0rLxCL?si=71xTBtE3R_ifykkpuouEqg']]" />
+
+:::
+
+## New Vocabulary Entries for the [_Directory of Human Husbandry_](https://datawrapper.dwcdn.net/9ysrs/) {#vocab}
 
 :::tip Imgur Album
 View the full Imgur Album: https://imgur.com/a/YIy3E3J
