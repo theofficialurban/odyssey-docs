@@ -16,6 +16,8 @@ ogimage: https://cdn.thecollector.com/wp-content/uploads/2023/01/st-thomas-aquin
 This source is an introduction and initial chapter from Robert Edward Brennan’s **Thomistic Psychology**, a work dedicated to unifying **scientific research** with the **philosophic analysis of the nature of man**. The text primarily explores the **Aristotelian foundation** of psychology, defining the soul not as a mysterious ghost, but as the **substantial form** or "first actuality" of an organized body that is potentially alive. By tracing the hierarchy of life from **vegetative functions** to **sensitive cognition** and finally to **rational intellection**, the author demonstrates how human nature virtually contains all lower biological powers while transcending them through the **creative and receptive intellect**. Ultimately, the text serves to bridge the gap between **ancient wisdom** and **modern experimental findings**, arguing that a true understanding of the **human person** requires a synthesis of empirical data and the **perennial truths** of Aristotle and St. Thomas Aquinas.
 
 <CCard collection="bible" href="/bible/chad-ripperger.html" :preview="true" />
+<CCard collection="bible" href="/bible/summa-theologica.html" :preview="true" />
+<CCard collection="quantum" href="/quantum/thomistic-psychology.html" :preview="true" />
 
 ### Sin: A Thomistic Psychology
 

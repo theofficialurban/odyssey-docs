@@ -24,7 +24,9 @@ This text provides a theological and psychological examination of **demonic infl
 
 ### Thomistic Psychology
 
-<CCard collection="bible" href="/bible/thomistic-psychology.html" />
+<CCard collection="bible" href="/bible/thomistic-psychology.html" :preview="true" />
+<CCard collection="bible" href="/bible/summa-theologica.html" :preview="true" />
+<CCard collection="quantum" href="/quantum/thomistic-psychology.html" :preview="true" />
 
 ### Introduction to the Science of Mental Health
 
