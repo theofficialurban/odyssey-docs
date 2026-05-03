@@ -35,6 +35,7 @@ import PlatformBtns from "./components/PlatformBtns.vue";
 import EsotericIcons from "./components/EsotericIcons.vue";
 import Redirect from "./components/Redirect.vue";
 import CollectionCard from "./components/CollectionCard.vue";
+import NonHeading from "./components/NonHeading.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -112,6 +113,7 @@ export default {
     app.component("Redirect", Redirect);
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
+    app.component("NonHeading", NonHeading);
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
 
