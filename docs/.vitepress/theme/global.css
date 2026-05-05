@@ -14,7 +14,8 @@
   font-family: "Hey August";
   font-style: normal;
   font-weight: 400;
-  src: local("Hey August"),
+  src:
+    local("Hey August"),
     url("https://fonts.cdnfonts.com/s/27783/Hey August.woff") format("woff");
 }
 
@@ -22,7 +23,8 @@
   font-family: "Killuminati";
   font-style: normal;
   font-weight: 400;
-  src: local("Killuminati"),
+  src:
+    local("Killuminati"),
     url("https://fonts.cdnfonts.com/s/90071/KilluminatiIkiikocom-eZWRO.woff")
       format("woff");
 }
@@ -31,7 +33,8 @@
   font-family: "The Art of Illuminating";
   font-style: normal;
   font-weight: 400;
-  src: local("The Art of Illuminating"),
+  src:
+    local("The Art of Illuminating"),
     url("https://fonts.cdnfonts.com/s/7966/ArtOfIlluminating.woff")
       format("woff");
 }
@@ -64,4 +67,23 @@ details[footnote] {
 
 /* :root {
   --vp-c-bg: red;
+} */
+
+::marker {
+  list-style-type: none;
+  display: none;
+}
+
+.vp-doc {
+  ul.p-galleria-indicator-list {
+    list-style-type: none;
+    list-style: none;
+    li.p-galleria-indicator {
+      margin: 0;
+    }
+  }
+}
+/*
+.vp-doc li + li {
+  margin-top: 0;
 } */

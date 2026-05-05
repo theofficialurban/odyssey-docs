@@ -128,7 +128,7 @@ export default abstract class DoubleBracketMarkdownTransform {
         options.markTokenState.tokenType,
         markerRuleBlock,
       );
-      console.log(md.renderer.rules);
+      //console.log(md.renderer.rules);
     };
   }
 }

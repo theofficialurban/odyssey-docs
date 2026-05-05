@@ -7,6 +7,7 @@ import { MarkdownOptions } from "vitepress";
 import { Renderer } from "markdown-it/index.js";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import { RenderRule } from "markdown-it/lib/renderer.mjs";
+import MarkdownItContainer from "markdown-it-container";
 import DoubleBracketMarkdownTransform, {
   DoubleBracketTransformFunction,
 } from "./DoubleBracketMark";
@@ -398,7 +399,49 @@ const MarkdownOps: MarkdownOptions = {
     );
     md.use(SubstackDoubleBracket.Plugin);
     md.use(ShareBtnPlugin);
+    md.use(MarkdownItContainer, "panel_container", {
+      validate: function (params) {
+        return params.trim().match(/^panel\s+(.*)$/);
+      },
+      render: function (tokens, idx) {
+        var m = tokens[idx].info.trim().match(/^panel\s+(.*)$/);
 
+        if (tokens[idx].nesting === 1) {
+          // opening tag
+          return `<Panel header="${md.utils.escapeHtml(m[1])}" toggleable class="m-4">\n`;
+        } else {
+          // closing tag
+          return "</Panel>\n";
+        }
+      },
+    });
+    // md.use(MarkdownItContainer, "embed_card", {
+    //   validate: function (params) {
+    //     return params.trim().match(/^embed\s+(.*)$/);
+    //   },
+    //   render: function (tokens, idx) {
+    //     if (tokens[idx].nesting === 1) {
+    //       var m = tokens[idx].info.trim().match(/^embed\s+(.*)$/);
+    //       // opening tag
+    //       return `<Card title="${md.utils.escapeHtml(m[1])}" `;
+    //     } else if (tokens[idx].nesting === 0) {
+    //       var tt = tokens[idx].info.trim();
+    //       if (tt.includes("description")) {
+    //         var m = tt.match(/^description\:\s+\"(.*)\"$/);
+    //         return `description="${md.utils.escapeHtml(m[1])}" `;
+    //       } else if (tt.includes("image")) {
+    //         var m = tt.match(/^image\:\s+\"(.*)\"$/);
+    //         return `img="${md.utils.escapeHtml(m[1])}" `;
+    //       } else if (tt.includes("url")) {
+    //         var m = tt.match(/^url\:\s+\"(.*)\"$/);
+    //         return `href="${md.utils.escapeHtml(m[1])}" `;
+    //       }
+    //     } else if (tokens[idx].nesting === -1) {
+    //       // closing tag
+    //       return " />\n";
+    //     }
+    //   },
+    // });
     //md.use(mathjax3);
     const proxy: RenderRule = (tokens, idx, options, env, self) =>
       self.renderToken(tokens, idx, options);
