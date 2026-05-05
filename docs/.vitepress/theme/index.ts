@@ -36,6 +36,17 @@ import EsotericIcons from "./components/EsotericIcons.vue";
 import Redirect from "./components/Redirect.vue";
 import CollectionCard from "./components/CollectionCard.vue";
 import NonHeading from "./components/NonHeading.vue";
+import PrimeVue from "primevue/config";
+import Aura from "@primeuix/themes/aura";
+import Btn from "primevue/button";
+import PVCard from "primevue/card";
+import Panel from "primevue/panel";
+import Tag from "primevue/tag";
+import DataTable from "primevue/datatable";
+import Column from "primevue/column";
+import Galleria from "primevue/galleria";
+import CustomCarousel from "./components/PrimeVue/CustomCarousel.vue";
+import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -114,11 +125,23 @@ export default {
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
     app.component("NonHeading", NonHeading);
+
+    // Primevue comps
+    app.component("Btn", Btn);
+    app.component("Panel", Panel);
+    app.component("PVCard", PVCard);
+    app.component("Tag", Tag);
+    app.component("DataTable", DataTable);
+    app.component("Column", Column);
+    app.component("Galleria", Galleria);
+    app.component("ImgurGalleria", ImgurGalleria);
+    app.component("Carousel", CustomCarousel);
+
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
 
     app.provide(SubstackSymbol, data);
-
+    app.use(PrimeVue, { theme: { preset: Aura } });
     app.use(NolebaseInlineLinkPreviewPlugin);
   },
 } satisfies Theme;

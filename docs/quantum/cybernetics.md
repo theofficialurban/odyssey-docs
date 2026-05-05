@@ -132,7 +132,7 @@ The ultimate goal of cybernetic warfare is total information extraction.
 
 == Vocab
 
-<NonHeading>New Vocabulary Entries for the [_Directory of Human Husbandry_](https://datawrapper.dwcdn.net/9ysrs/)</NonHeading>
+<NonHeading>New Vocabulary Entries for the <a href="https://datawrapper.dwcdn.net/9ysrs/">Directory of Human Husbandry</a></NonHeading>
 
 View the full Imgur Album: https://imgur.com/a/YIy3E3J
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v76ykm6/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7958me-cybernetics-vocabulary-decoding-mind-control-and-biohacking-terms-project-s.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/cybernetics-vocabulary'], ['YouTube', 'https://youtu.be/SYhTEEnKhSY'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cybernetics-vocabulary:0'], ['Spotify', 'https://open.spotify.com/episode/3GhhsjxVLncfc5Gr0rLxCL?si=71xTBtE3R_ifykkpuouEqg']]" />
