@@ -8,6 +8,7 @@ import { Renderer } from "markdown-it/index.js";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import { RenderRule } from "markdown-it/lib/renderer.mjs";
 import MarkdownItContainer from "markdown-it-container";
+import MdYaml from "markdown-it-yaml";
 import DoubleBracketMarkdownTransform, {
   DoubleBracketTransformFunction,
 } from "./DoubleBracketMark";
@@ -443,22 +444,32 @@ const MarkdownOps: MarkdownOptions = {
     //   },
     // });
     //md.use(mathjax3);
-    const proxy: RenderRule = (tokens, idx, options, env, self) =>
-      self.renderToken(tokens, idx, options);
-    const fenceRenderer = md.renderer.rules.fence || proxy;
-    md.renderer.rules.fence = function (
-      tokens: Token[],
-      idx: number,
-      options: Options,
-      env: any,
-      self: Renderer,
-    ) {
-      const token = tokens[idx];
-      if (token.info == "embed") {
-        return createCardFromEmbed(token.content);
-      }
-      return fenceRenderer(tokens, idx, options, env, self);
-    };
+    // const proxy: RenderRule = (tokens, idx, options, env, self) =>
+    //   self.renderToken(tokens, idx, options);
+    // const fenceRenderer = md.renderer.rules.fence || proxy;
+    // md.renderer.rules.fence = function (
+    //   tokens: Token[],
+    //   idx: number,
+    //   options: Options,
+    //   env: any,
+    //   self: Renderer,
+    // ) {
+    //   const token = tokens[idx];
+    //   if (token.info == "embed") {
+    //     return createCardFromEmbed(token.content);
+    //   }
+    //   return fenceRenderer(tokens, idx, options, env, self);
+    // };
+    md.use(MdYaml, {
+      templateDir: "./docs/.vitepress/theme/MdTemplates",
+      markerStart: "```embed",
+      markerEnd: "```",
+      typeKey: "type",
+      templateExtension: ".html",
+      autoNumbering: false,
+      numberKey: "number",
+      debug: false,
+    });
     md.use(mdSpans);
     md.use(
       ElementTransform,

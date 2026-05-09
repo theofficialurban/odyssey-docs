@@ -56,30 +56,6 @@ const props = defineProps({
     default: false,
   },
 });
-
-// const ogImage = computed(() => {
-//   // If the href is in the format of ./some-random-url.html the ogImg will be ./og-some-random-url.png
-//   if(props.href.includes("./")) {
-//     const splt = props.href.split("./")
-//     if(splt.length !== 1) return (props.img ?? "https://i.imgur.com/S8LHDQ7.jpeg")
-//     // splt[0] = some-random-url.html
-//     const fileType = splt[0].split(".")
-//     if(fileType.length !== 2) return (props.img ?? "https://i.imgur.com/S8LHDQ7.jpeg")
-//     if(fileType[1] === "md" || fileType[1] === "html") {
-//       return `./og-${fileType[0]}.png`
-//     }
-//   } else if(props.href.includes("../")) {
-//     const splt = props.href.split("../")
-//     if(splt.length !== 1) return (props.img ?? "https://i.imgur.com/S8LHDQ7.jpeg")
-//     // splt[0] = some-random-url.html
-//     const fileType = splt[0].split(".")
-//     if(fileType.length !== 2) return (props.img ?? "https://i.imgur.com/S8LHDQ7.jpeg")
-//     if(fileType[1] === "md" || fileType[1] === "html") {
-//       return `../og-${fileType[0]}.png`
-//     }
-//   }
-//   return (props.img ?? "https://i.imgur.com/S8LHDQ7.jpeg")
-// })
 </script>
 
 <template>
