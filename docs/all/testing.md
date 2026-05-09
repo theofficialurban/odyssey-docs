@@ -11,36 +11,36 @@ const products = [
     {image: "https://i.imgur.com/BmkXInc.jpeg", name: "Test 3", title: "Test", caption: "Testing"}
 ]
 
+const buttons = [
+    {label: "Imgur Album", severity: "danger", as: "a", href: "#", target: "_blank"}
+]
+
 </script>
 
 # Testing
 
-<!-- <Galleria :value="products" :numVisible="5" :showThumbnails="false" :showIndicators="true" circular autoPlay containerClass="mx-auto max-w-[650px]">
-    <template #header>
-        <div class="m-3">Testing</div>
-    </template>
-    <template #item="slotProps">
-        <img :src="slotProps.item.image" :alt="slotProps.item.name" style="width: 100%" />
-    </template>
-    <template #thumbnail="slotProps">
-        <img :src="slotProps.item.image" width="25px" class="max-w-[25px]" :alt="slotProps.item.alt" />
-    </template>
-    <template #caption="slotProps">
-        <div class="text-xl mb-2 font-bold">{{ slotProps.item.title }}</div>
-        <p class="text-white">{{ slotProps.item.alt }}</p>
-    </template>
-</Galleria> -->
+```embed
+type: CardEmbed
+title: Sorcery as Virtual Mechanics - Stephen Mace, 1999
+image: https://pcdn-u.pcloud.com/img/icons-id/120@2x/17.png
+description: Download the Source Text from pCloud
+url: https://u.pcloud.link/publink/show?code=XZkYUO5ZKkdBsnfuGgRgakFm1Xp24VeSHIPk
+```
 
-<ImgurGalleria :value="products" :galleriaProps="{showIndicators: true, showIndicatorsOnItem: true, indicatorsPosition: 'top'}">
-    <template #header>
-        <div>Testing</div>
-    </template>
+<NonHeading v-tooltip.bottom="{
+        value: 'PrimeVue Rocks',
+        pt: {
+            arrow: {
+                style: {
+                    borderBottomColor: 'var(--p-primary-color)'
+                }
+            },
+            text: '!bg-primary !text-primary-contrast !font-medium'
+        }
+    }">Hello world</NonHeading>
+
+## Something else
+
+<ImgurGalleria :value="products" :buttons="buttons" :galleriaProps="{showIndicators: true, circular: true, autoPlay: true, showItemNavigators: true}">
+    
 </ImgurGalleria>
-
-## Carousel AGain
-
-:::panel Testing
-
-Panel works fine
-
-:::

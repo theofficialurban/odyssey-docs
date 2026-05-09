@@ -4,6 +4,36 @@ description: |
   The provided sources explore cybernetics as a multidisciplinary framework for understanding communication, control, and information in both living organisms and mechanical systems.
 ---
 
+<script setup>
+
+const vocab = [
+  {image: "https://i.imgur.com/UjxxyAH.png",  title: "Cybernetics"},
+  {image: "https://i.imgur.com/VngBTO3.png", title: "Human Biocomputer"},
+  {image: "https://i.imgur.com/XY75kd1.png", title: "Self-Metaprogrammer"},
+  {image: "https://i.imgur.com/A8RWj3h.png", title: "Supraself-Metaprograms"},
+  {image: "https://i.imgur.com/wV4fDEY.png", title: "Computer Interlock"},
+  {image: "https://i.imgur.com/IEweDtd.png", title: "Governing Machine"},
+  {image: "https://i.imgur.com/vxej1Jr.png", title: "Schismogenesis"},
+  {image: "https://i.imgur.com/w3tOPGc.png", title: "Deutero-Learning"},
+  {image: "https://i.imgur.com/V0UFLpB.png", title: "Double Bind"},
+  {image: "https://i.imgur.com/zv5hv8q.png", title: "Project Cybersyn"},
+  {image: "https://i.imgur.com/Ai4lfUT.png", title: "Meme"},
+  {image: "https://i.imgur.com/GAZ11ox.png", title: "Buffer Overflow"},
+  {image: "https://i.imgur.com/e61A3Rs.png", title: "Crash OS"},
+  {image: "https://i.imgur.com/7dHbQOQ.png", title: "Dictionary Attack"},
+  {image: "https://i.imgur.com/dnItCsR.png", title: "Infinite Looping"},
+  {image: "https://i.imgur.com/go5PXOk.png", title: "Memory Probing"},
+  {image: "https://i.imgur.com/hTtbapg.png", title: "Mind Virus"},
+  {image: "https://i.imgur.com/oX9aG1l.png", title: "Negative Association"},
+  {image: "https://i.imgur.com/mXJtJOI.png", title: "Psycho-Bombs"},
+  {image: "https://i.imgur.com/sHFlPla.png", title: "Screen Scraping"},
+  {image: "https://i.imgur.com/r2P7ZLA.png", title: "Spoofing"},
+  {image: "https://i.imgur.com/wdvHQIj.png", title: "Trojan Horse"}
+  
+]
+
+</script>
+
 [[atomic]]
 
 # Systems, Mind, and Cybernetics: The Architecture of Control {#title}
@@ -219,108 +249,12 @@ View the full Imgur Album: https://imgur.com/a/YIy3E3J
 View the full Imgur Album: https://imgur.com/a/YIy3E3J
 :::
 
-Here are new entries for the "Directory of Human Husbandry" derived from the fields of Cybernetics and Metaprogramming, ensuring no duplication with your existing lexicon:
-
-:::tabs
-== Cybernetics
-
-![](https://i.imgur.com/UjxxyAH.png)
-
-== Human Biocomputer
-
-![](https://i.imgur.com/VngBTO3.png)
-
-== Self-Metaprogrammer
-
-![](https://i.imgur.com/XY75kd1.png)
-
-== Supraself-Metaprograms
-
-![](https://i.imgur.com/A8RWj3h.png)
-
-== Computer Interlock
-
-![](https://i.imgur.com/wV4fDEY.png)
-
-== Governing Machine
-
-![](https://i.imgur.com/IEweDtd.png)
-
-== Schismogenesis
-
-![](https://i.imgur.com/vxej1Jr.png)
-
-== Deutero-Learning
-
-![](https://i.imgur.com/w3tOPGc.png)
-
-== Double Bind
-
-![](https://i.imgur.com/V0UFLpB.png)
-
-== Project Cybersyn
-
-![](https://i.imgur.com/zv5hv8q.png)
-
-== Meme
-
-![](https://i.imgur.com/Ai4lfUT.png)
-
-:::
-
-### Additional Vocabulary from _Project Soul Catcher_
-
-:::tip Other Images
-See the original Imgur Album for Project Soul Catcher: https://imgur.com/a/matrix-control-systems-gCpKo7X
-:::
-
-:::tabs
-== Buffer Overflow
-![](https://i.imgur.com/GAZ11ox.png)
-
-== Crash OS
-![](https://i.imgur.com/e61A3Rs.png)
-
-== Dictionary Attack
-![](https://i.imgur.com/7dHbQOQ.png)
-
-== Infinite Looping
-![](https://i.imgur.com/dnItCsR.png)
-
-== Memory Probing
-![](https://i.imgur.com/go5PXOk.png)
-
-== Mind Virus
-![](https://i.imgur.com/hTtbapg.png)
-
-== Negative Assoc.
-
-![](https://i.imgur.com/oX9aG1l.png)
-
-== Psycho-Bombs
-
-![](https://i.imgur.com/mXJtJOI.png)
-
-== Screen Scraping
-
-![](https://i.imgur.com/sHFlPla.png)
-
-== Spoofing
-
-![](https://i.imgur.com/r2P7ZLA.png)
-
-== Trojan Horse
-
-![](https://i.imgur.com/wdvHQIj.png)
-
-== Other
+<ImgurGalleria :value="vocab" :buttons="[{label: 'Cybernetics Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/YIy3E3J', target: '_blank'}, {label: 'Robert Duncan Imgur Album', class: 'w-full', as: 'a', href: 'https://imgur.com/a/matrix-control-systems-gCpKo7X', target: '_blank'}]" />
 
 <Grid>
 <CCard collection="biodigital" href="/biodigital-convergence/robert-duncan.html" />
 <CCard collection="biodigital" href="/biodigital-convergence/operations-scripts.html" />
 </Grid>
-
-:::
 
 ## **The Hidden Hand Behind Everything: _How Cybernetics Became the Secret Operating System of the Modern World_**
 

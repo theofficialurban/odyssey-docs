@@ -36,6 +36,7 @@ import EsotericIcons from "./components/EsotericIcons.vue";
 import Redirect from "./components/Redirect.vue";
 import CollectionCard from "./components/CollectionCard.vue";
 import NonHeading from "./components/NonHeading.vue";
+import Tooltip from "primevue/tooltip";
 import PrimeVue from "primevue/config";
 import Aura from "@primeuix/themes/aura";
 import Btn from "primevue/button";
@@ -136,6 +137,8 @@ export default {
     app.component("Galleria", Galleria);
     app.component("ImgurGalleria", ImgurGalleria);
     app.component("Carousel", CustomCarousel);
+
+    app.directive("tooltip", Tooltip);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
