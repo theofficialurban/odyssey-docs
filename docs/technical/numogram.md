@@ -1,6 +1,7 @@
 ---
 title: The Numogram
 secret: true
+ogimage: https://i.imgur.com/VgxiqGJ.png
 ---
 
 [[atomic]]
@@ -17,7 +18,17 @@ description: ""
 url: http://ccru.net/syzygy.htm
 ```
 
+![](https://i.imgur.com/VgxiqGJ.png)
+
 ![](https://i.imgur.com/NM8EOW5.png)
+
+:::details Expand for Other Pages
+
+<CCard collection="quantum" href="/quantum/cybernetics.html" />
+<CCard collection="quantum" href="/quantum/ccru.html" />
+<CCard collection="reading" href="/reading/nick-land.html" />
+
+:::
 
 ## Selected Word Definitions from 'The Numogram' Document
 

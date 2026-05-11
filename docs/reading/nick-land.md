@@ -23,6 +23,12 @@ See Also:
 5. _Burning Through the Circuit: Nick Land and the Cult of Acceleration (part 1)_ https://open.substack.com/pub/heyslick/p/nick-land-accelerationism-1?r=3kr5wz&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false
 6. _Are.na Space for CCRU_ https://www.are.na/antonio-andreas/ccru-alp_yesmetw
 
+Other Pages & Notes:
+
+<CCard collection="quantum" href="/quantum/cybernetics.html" />
+<CCard collection="quantum" href="/quantum/ccru.html" />
+<CCard collection="technical" href="/technical/numogram.html" />
+
 :::
 
 ## Overview

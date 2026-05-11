@@ -41,6 +41,6 @@ url: https://u.pcloud.link/publink/show?code=XZkYUO5ZKkdBsnfuGgRgakFm1Xp24VeSHIP
 
 ## Something else
 
-<ImgurGalleria :value="products" :buttons="buttons" :galleriaProps="{showIndicators: true, circular: true, autoPlay: true, showItemNavigators: true}">
+<ImgurGalleria :value="products" :custom="false">
     
 </ImgurGalleria>
