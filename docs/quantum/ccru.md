@@ -7,6 +7,40 @@ ogimagewidth: 776
 ogimageheight: 488
 ---
 
+<script setup>
+
+const vocabulary = [
+  {image: 'https://i.imgur.com/e3muUYg.png', title: 'Gothic Materialism'},
+  {image: 'https://i.imgur.com/j78C9fc.png', title: 'Cybergothic'},
+  {image: 'https://i.imgur.com/gZHRTQc.png', title: 'Architectonic Order of the Eschaton (AOE)'},
+  {image: 'https://i.imgur.com/Vosmgwv.png', title: 'Petropolitics'},
+  {image: 'https://i.imgur.com/Oh016ny.png', title: 'Schizoanalysis'},
+  {image: 'https://i.imgur.com/TB4l5Jd.png', title: 'Technoshamanism'},
+  {image: 'https://i.imgur.com/YF6bxLg.png', title: 'Templexity'},
+  {image: 'https://i.imgur.com/J6IVB7X.png', title: 'Synthanatos'},
+  {image: 'https://i.imgur.com/B8W5lcP.png', title: 'The Eerie'},
+  {image: 'https://i.imgur.com/ZwmN4ao.png', title: 'The Weird'},
+  {image: 'https://i.imgur.com/90KdSNn.png', title: 'Xenodemon'},
+  {image: 'https://i.imgur.com/b571KaT.png', title: 'Xerodrome'},
+  {image: 'https://i.imgur.com/eBzLNDk.png', title: 'Flatline'},
+  {image: 'https://i.imgur.com/M9ROhgo.png', title: 'Metaverse'},
+  {image: 'https://i.imgur.com/3cIOHVK.png', title: 'A-Death (Unlife)'},
+  {image: 'https://i.imgur.com/GPHfXGy.png', title: 'Hauntology'},
+  {image: 'https://i.imgur.com/qYHVExU.png', title: 'Crypt'},
+  {image: 'https://i.imgur.com/hl87JdV.png', title: 'Cyberia'},
+  {image: 'https://i.imgur.com/3nPDc3N.png', title: 'Demon'},
+  {image: 'https://i.imgur.com/nkvH3U1.png', title: 'Geotraumatics'},
+  {image: 'https://i.imgur.com/YWn79kp.png', title: 'Specter (Gespenst)'},
+  {image: 'https://i.imgur.com/zLBd8Sy.png', title: 'Hypernaturalism'},
+  {image: 'https://i.imgur.com/eVLOCDq.png', title: 'Metatronics'},
+  {image: 'https://i.imgur.com/t26lTmD.png', title: 'AxSys'},
+  {image: 'https://i.imgur.com/QQOROZh.png', title: 'Hyperstition'},
+  {image: 'https://i.imgur.com/3OdZLqn.png', title: 'Mesh'},
+  {image: 'https://i.imgur.com/cwsylQr.png', title: 'Pazuzu'}
+];
+
+</script>
+
 [[atomic]]
 
 # CCRU Writings 1997-2003 {#title}
@@ -21,7 +55,9 @@ ogimageheight: 488
 
 This document serves as an archival compilation of the **Ccru (Cybernetic Culture Research Unit)**, a collective whose work blurs the boundaries between **philosophy, pulp fiction, and the occult**. The text explores the concept of **hyperstition**, which refers to fictions that function as "active agents of transformation" to **make themselves real** by influencing the future. Key themes include the subversion of **linear time**, the dismantling of standard human identity through **anonymity and "swarming,"** and a "magical war" waged against the **One God Universe (OGU)** of centralized control. Through esoteric narratives involving **digital demons, lemurs, and William Burroughs**, the source aims to document a radical experiment in **collective production** that challenges traditional academic and social reality.
 
-:::details Expand for Glossary
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/hsdcFmi', target: '_blank'}]" />
+
+:::details Expand for Full Glossary
 
 <iframe width="100%" height="600px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTTKiZ2PBVJZ_0bNShXdi7raXu21b8QMZN6_sOrPY9GNayYXfyqOLsB1j9R9kfPc5gvEoL8J0f3QCor/pubhtml?gid=1197641718&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
