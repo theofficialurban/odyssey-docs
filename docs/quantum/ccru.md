@@ -9,35 +9,9 @@ ogimageheight: 488
 
 <script setup>
 
-const vocabulary = [
-  {image: 'https://i.imgur.com/e3muUYg.png', title: 'Gothic Materialism'},
-  {image: 'https://i.imgur.com/j78C9fc.png', title: 'Cybergothic'},
-  {image: 'https://i.imgur.com/gZHRTQc.png', title: 'Architectonic Order of the Eschaton (AOE)'},
-  {image: 'https://i.imgur.com/Vosmgwv.png', title: 'Petropolitics'},
-  {image: 'https://i.imgur.com/Oh016ny.png', title: 'Schizoanalysis'},
-  {image: 'https://i.imgur.com/TB4l5Jd.png', title: 'Technoshamanism'},
-  {image: 'https://i.imgur.com/YF6bxLg.png', title: 'Templexity'},
-  {image: 'https://i.imgur.com/J6IVB7X.png', title: 'Synthanatos'},
-  {image: 'https://i.imgur.com/B8W5lcP.png', title: 'The Eerie'},
-  {image: 'https://i.imgur.com/ZwmN4ao.png', title: 'The Weird'},
-  {image: 'https://i.imgur.com/90KdSNn.png', title: 'Xenodemon'},
-  {image: 'https://i.imgur.com/b571KaT.png', title: 'Xerodrome'},
-  {image: 'https://i.imgur.com/eBzLNDk.png', title: 'Flatline'},
-  {image: 'https://i.imgur.com/M9ROhgo.png', title: 'Metaverse'},
-  {image: 'https://i.imgur.com/3cIOHVK.png', title: 'A-Death (Unlife)'},
-  {image: 'https://i.imgur.com/GPHfXGy.png', title: 'Hauntology'},
-  {image: 'https://i.imgur.com/qYHVExU.png', title: 'Crypt'},
-  {image: 'https://i.imgur.com/hl87JdV.png', title: 'Cyberia'},
-  {image: 'https://i.imgur.com/3nPDc3N.png', title: 'Demon'},
-  {image: 'https://i.imgur.com/nkvH3U1.png', title: 'Geotraumatics'},
-  {image: 'https://i.imgur.com/YWn79kp.png', title: 'Specter (Gespenst)'},
-  {image: 'https://i.imgur.com/zLBd8Sy.png', title: 'Hypernaturalism'},
-  {image: 'https://i.imgur.com/eVLOCDq.png', title: 'Metatronics'},
-  {image: 'https://i.imgur.com/t26lTmD.png', title: 'AxSys'},
-  {image: 'https://i.imgur.com/QQOROZh.png', title: 'Hyperstition'},
-  {image: 'https://i.imgur.com/3OdZLqn.png', title: 'Mesh'},
-  {image: 'https://i.imgur.com/cwsylQr.png', title: 'Pazuzu'}
-];
+import {inject} from "vue"
+
+const vocabulary = inject("ccrugalleria")
 
 </script>
 

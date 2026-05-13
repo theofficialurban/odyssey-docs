@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { type GalleriaProps, type ButtonProps } from "primevue";
-import Galleria, { GalleriaEmits, GalleriaState } from "primevue/galleria";
+import Galleria from "primevue/galleria";
 import Btnn from "primevue/button";
-import { computed, reactive, ref, useSlots } from "vue";
+import { computed, ref } from "vue";
+import { type ImageItem } from "../../../GalleriaAlbums";
 
-type ImageItem = { image: string; title: string; caption?: string };
 interface Props {
   value: ImageItem[];
   galleriaProps?: GalleriaProps;

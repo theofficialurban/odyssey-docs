@@ -48,6 +48,7 @@ import Column from "primevue/column";
 import Galleria from "primevue/galleria";
 import CustomCarousel from "./components/PrimeVue/CustomCarousel.vue";
 import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
+import { CCRUKey, CCRUVocabulary } from "../GalleriaAlbums";
 
 export type SettingsFrontmatter =
   | {
@@ -139,6 +140,9 @@ export default {
     app.component("Carousel", CustomCarousel);
 
     app.directive("tooltip", Tooltip);
+
+    // Provide Image Gallery
+    app.provide("ccrugalleria", CCRUVocabulary);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
