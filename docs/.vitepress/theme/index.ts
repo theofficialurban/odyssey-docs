@@ -38,6 +38,7 @@ import CollectionCard from "./components/CollectionCard.vue";
 import NonHeading from "./components/NonHeading.vue";
 import Tooltip from "primevue/tooltip";
 import PrimeVue from "primevue/config";
+import DialogService from "primevue/dialogservice";
 import Aura from "@primeuix/themes/aura";
 import Btn from "primevue/button";
 import PVCard from "primevue/card";
@@ -140,6 +141,7 @@ export default {
     app.component("Carousel", CustomCarousel);
 
     app.directive("tooltip", Tooltip);
+    app.use(DialogService);
 
     // Provide Image Gallery
     app.provide("ccrugalleria", CCRUVocabulary);

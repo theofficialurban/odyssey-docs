@@ -19,6 +19,27 @@ const vocabulary = inject("ccrugalleria")
 
 [[toc]]
 
+## Source Overviews
+
+:::tabs
+== Source 1
+<NonHeading>On the Existence of Digital Objects Yuk Hui; Fw. By Bernard Stiegler</NonHeading>
+![](https://i.imgur.com/FfXq80M.png)
+
+== Source 2
+<NonHeading>Templexity: Disordered Loops Through Shaghai Time - Nick Land</NonHeading>
+![](https://i.imgur.com/ttTPUpq.png)
+
+== Source 3
+<NonHeading>Simulacra and Simulation - Jean Baudrillard</NonHeading>
+![](https://i.imgur.com/kt4xWqn.png)
+
+== Source 4
+<NonHeading>The Question Concerning Technology In China - Yuk Hui</NonHeading>
+![](https://i.imgur.com/OuBWP9f.png)
+
+:::
+
 ## Video
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v77kq3u/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v79re42-cause-before-symptom-w-urban-may-12th-2026.html?mref=3gc1h8&mc=7m5w3'], ['YouTube', 'https://www.youtube.com/live/sEsVded7xOM'], ['Substack', 'https://theofficialurban.substack.com/p/heaven-and-the-machine'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-051226:2?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn']]" />

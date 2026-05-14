@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useData } from "vitepress";
-import VPLayout from "@lando/vitepress-theme-default-plus/components/VPLLayout.vue";
+
 import DefaultTheme from "vitepress/theme";
 import VPSideBarItem from "vitepress/dist/client/theme-default/components/VPSidebarItem.vue";
 import Alert from "@lando/vitepress-theme-default-plus/components/VPLAlert.vue";
@@ -8,8 +8,8 @@ import CollectionHeader from "@lando/vitepress-theme-default-plus/components/VPL
 import MailChimp from "@lando/vitepress-theme-default-plus/components/VPLMailChimp.vue";
 import PostHeader from "@lando/vitepress-theme-default-plus/components/VPLPostHeader.vue";
 import Tags from "@lando/vitepress-theme-default-plus/components/VPLCollectionItemTags.vue";
-import { computed, onMounted, Ref, ref, watch, watchEffect } from "vue";
-
+import { computed, onMounted, Ref, ref, watch } from "vue";
+import DynamicDialog from "primevue/dynamicdialog";
 const { Layout } = DefaultTheme;
 
 let alertKey: Ref<string | null> = ref(null);
@@ -19,16 +19,16 @@ let tagsKeyRef: Ref<string | null> = ref(null);
 const { frontmatter, page, theme } = useData();
 
 const alert = computed(
-  () => frontmatter.value.alert ?? theme.value.alert ?? false
+  () => frontmatter.value.alert ?? theme.value.alert ?? false,
 );
 const header = computed(() => frontmatter.value.collection || "");
 const headerClass = computed(() =>
   frontmatter.value.collection
     ? `collection-${frontmatter.value.collection}`
-    : ""
+    : "",
 );
 const mailchimp = computed(() =>
-  frontmatter.value?.mailchimp?.action ? frontmatter.value.mailchimp : false
+  frontmatter.value?.mailchimp?.action ? frontmatter.value.mailchimp : false,
 );
 const sidebarEnder = computed(() => theme.value.sidebarEnder ?? false);
 
@@ -41,7 +41,7 @@ watch(
     tagsKeyRef.value = page.value.relativePath;
     pgLayout.value = page.value.frontmatter.layout;
     pgShare.value = page.value.frontmatter.share;
-  }
+  },
 );
 
 const pgLayout = ref(page.value.frontmatter.layout);
@@ -55,6 +55,7 @@ onMounted(async () => {
 
 <template>
   <Layout>
+    <DynamicDialog />
     <template #layout-top>
       <Alert
         v-if="alert"
