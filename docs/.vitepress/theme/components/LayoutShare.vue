@@ -54,8 +54,8 @@ onMounted(async () => {
 </script>
 
 <template>
+  <DynamicDialog />
   <Layout>
-    <DynamicDialog />
     <template #layout-top>
       <Alert
         v-if="alert"

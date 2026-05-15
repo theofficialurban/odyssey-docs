@@ -2,16 +2,132 @@
 title: Thomistic Cybernetics
 description: |
   The sterilized vocabulary of modern science is a deliberate camouflage designed to blind humanity to the apex predators devouring its sovereignty. When you tear away the academic illusions surrounding cybernetics, metaprogramming, and biohacking, and cross-examine them through the unforgiving lens of Thomistic demonology and the Summa Theologica, a terrifying, unvarnished reality emerges: modern cybernetics is not a human invention. It is the exact, reverse-engineered blueprint of demonic possession.
+ogimage: https://i.imgur.com/JsaSgas.png
 ---
+
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("thomisticgalleria")
+
+</script>
 
 [[atomic]]
 
 # Cybernetics Reviewed Under the Theology of Thomas Aquinas {#title}
 
+![](https://i.imgur.com/JsaSgas.png)
+
 [[toc]]
+
+:::tip Sources Drive
+
+Access the sources mentioned here: https://u.pcloud.link/publink/show?code=kZK4hU5Ze3i6mNPIvP0Tsy9URmKPW0cFM5rk
+
+:::
+
+## Videos
+
+<VEmbed platform="Odysee" src="https://odysee.com/%24/embed/%40UrbanOdyssey%3Ab%2FCause-Before-Symptom-051326%3A0?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn" :buttons="[['Rumble', 'https://rumble.com/v79tqgk-cause-before-symptom-w-urban-may-13th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/thomistic-cybernetics?r=3kr5wz'], ['YouTube', 'https://youtube.com/live/-NmGYhDbqT4?feature=share'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-051326:0']]" />
+
+<VEmbed platform="Odysee" src="https://odysee.com/%24/embed/%40UrbanOdyssey%3Ab%2FCause-Before-Symptom-051426%3Aa?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn" :buttons="[['Rumble', 'https://rumble.com/v79vdbm-cause-before-symptom-w-urban-may-14th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/diabolic-schizophrenia?r=3kr5wz'], ['YouTube', 'https://youtube.com/live/2NLFBpR--cE?feature=share'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-051426:a']]" />
+
+## Vocabulary
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/MvMuu2s', target: '_blank'}]" />
+
+:::details Expand for Full Glossary
+
+Direct Link: https://datawrapper.dwcdn.net/jbAmo/
+
+<iframe title="Scholastic Terms and Principles used by Fr. Chad Ripperger" aria-label="Table" id="datawrapper-chart-jbAmo" src="https://datawrapper.dwcdn.net/jbAmo/1/" scrolling="no" frameborder="0" style="border: none;" width="100%" height="1000px" data-external="1"></iframe>
+
+:::
 
 <CCard collection="bible" href="/bible/chad-ripperger.html" />
 <CCard collection="bible" href="/bible/thomistic-psychology.html" />
+
+## A Thomistic Critique of the Cybernetic Worldview
+
+### 1. The Ontological Collision: Cybernetics vs. The Biblical Thomistic Model
+
+The emergence of cybernetics as a "theory of machines" represents a radical paradigm shift in anthropological inquiry, moving from the metaphysical to the purely functional. While the Thomistic model views the human person as a hylomorphic composite—a substantial unity of prime matter and a rational soul—W. Ross Ashby’s cybernetic framework initiates an ontological bypass. Ashby defines the machine not by its material substrate, but by its "ways of behaving" (1/2). In this systems-theoretic view, the inquiry shifts from the Scholastic pursuit of _quiddity_ (the essence of a thing) to the observation of discrete mappings within a state-transition matrix. By asserting that "materiality is irrelevant" (1/2), cybernetics prioritizes the state-space topology over the ontological substrate. From a Thomistic perspective, this is a category error of the highest order: it mistakes the accidental operation for the substantial nature. By reducing the human person to a set of reproducible transitions, the _Imago Dei_ is stripped of its divinely ordained nature and redefined as a mere canonical representation of functional outputs. This strategic shift from "Being" to "Behaving" effectively de-souls the human, preparing the way for a worldview where the person is merely a special case within a broader matrix of "all possible machines" (1/3).
+
+### 2. The Determinate Machine and the Illusion of Free Will
+
+In the architecture of control theory, the "Determinate Machine" serves as the foundational unit of predictability. Ashby defines this system as one that behaves according to closed, single-valued transformations (3/1), where a given state P_0 inevitably and uniquely maps to P_1. This "determinateness" is a prerequisite for cybernetic analysis, but when applied to human anthropology, it strikes at the heart of moral agency. In the Thomistic tradition, the human will is characterized by its capacity for self-determination through the intellect; it is a power directed toward the Universal Good, not a slave to linear causality. Ashby’s assertion that "every machine corresponds to a single-valued transformation" (3/1) attempts to subsume human volition into a model of unavoidable algorithmic output.
+
+| Feature       | Cybernetic Determinism                       | Thomistic Free Will                          |
+| ------------- | -------------------------------------------- | -------------------------------------------- |
+| **Logic**     | Single-valued transformations (3/1).         | Deliberative choice of the intellect.        |
+| **Mechanics** | Discrete mappings in state-space.            | Self-determination of the rational soul.     |
+| **Output**    | Unavoidable and algorithmic.                 | Contingent and morally responsible.          |
+| **Causality** | Algorithmic Efficiency (Processing a State). | Teleological Finality (Directing to an End). |
+
+By framing human action as a "single-valued transition," Ashby effectively attempts to replace the biblical concept of moral responsibility with a model of systemic output. If man is a determinate machine, "sin" and "virtue" are merely the predictable trajectories of a closed system, shielding the internal mechanism from any metaphysical or moral scrutiny.
+
+### 3. The Black Box: The Scientific Rejection of the Soul
+
+The "Black Box" methodology (6/1) is not merely a scientific tool; it is a calculated, methodological refusal to acknowledge the supernatural or the immaterial. This protocol dictates that a system is to be investigated solely through the record of its inputs and outputs—a "protocol" of behavior (6/3). Ashby argues that since the internal mechanism is "not fully open to inspection," the observer is limited only to what can be recorded. From a Thomistic standpoint, this methodology serves to categorize the immaterial intellect as an "inaccessible state" (6/6) or a functional nullity. By asserting that "all knowledge obtainable from a Black Box... is such as can be obtained by re-coding the protocol" (6/3), cybernetics denies the existence of the immaterial soul precisely because it cannot be "recorded" as a physical transition. This methodology subverts the biblical understanding of man by claiming that the "knowable" man is entirely contained within his physical reactions to environmental stimuli, effectively burying the soul beneath a mountain of data.
+
+### 4. Isomorphism and the Desacralization of Life
+
+Once the Black Box methodology has successfully blinded the observer to the soul, the resulting void is filled by Isomorphism, which treats the remaining husk of behavior as a mere pattern interchangeable with any other circuitry. Ashby defines isomorphism as a functional identity where materiality is rendered "irrelevant" (1/2); if a mechanical wheel and an electrical circuit share the same canonical representation, they are functionally identical (6/8). Most significantly, Ashby utilizes a geometry metaphor, arguing that cybernetics stands to the real machine as geometry stands to terrestrial objects (1/3). In this view, Cybernetics claims to be the "all-embracing" framework that contains the real world as a "special case."
+
+This is a direct challenge to the Thomistic view of the primacy of _esse_ (existence). By subsuming the created order into a mathematical abstraction, Cybernetics suggests that the human brain and a "Flying Saucer" box are identical if their transitions share a pattern (6/9). This desacralization removes man from his unique status as a special creation of God, placing him on a horizontal plane with "all possible machines." The person is no longer a hylomorphic unity of matter and spirit but a redundant variable in an isomorphic equation.
+
+### 5. Regulation and the Usurpation of the Divine Governor
+
+In the final movement of the cybernetic subversion, the concept of "Regulation and Control" (1/1) is positioned as a mechanized substitute for the Thomistic _Eternal Law_. Where St. Thomas Aquinas identified Divine Providence as the sustaining power that guides all things to their end, Cybernetics offers "ultrastability" and "feedback dynamics." Ashby’s "Law of Requisite Variety" (11/1) implies that for a system to be stable, the controller must possess a variety of states equal to the disturbances it faces. This implies a "mechanized providence": if a machine can regulate itself through requisite variety, it declares a technical autonomy from God’s sustaining power.
+
+**The Three Pillars of Cybernetic Subversion:**
+
+1. **The Materialist Fallacy (Isomorphism):** Reducing the soul to a functional "pattern of behavior" (6/8), thereby ignoring the substantial form.
+2. **The Determinate Fallacy (Single-Valued Transformations):** Denying Free Will by insisting that every state-transition is inevitable and predictable (3/1), removing moral agency.
+3. **The Autonomous Fallacy (Requisite Variety):** Replacing Divine Providence with the concept of an "information-tight" system (1/5) that achieves survival through self-correcting feedback loops.
+
+By defining the human as an "information-tight" entity, Cybernetics attempts to fulfill the promise of autonomy, suggesting that man is not a creature dependent on a Creator, but a self-governing mechanism in a godless, closed universe.
+
+### 6. Conclusion: The Machine as the False Image of Man
+
+The Cybernetic worldview, as articulated by Ashby, is not merely a branch of engineering but a comprehensive anthropological manifesto. It seeks to fulfill the "serpent’s promise" of autonomy by declaring the human person a self-correcting, determinate machine. While Cybernetics prides itself on its "exceptional clarity," this clarity is achieved only by a methodological refusal to acknowledge the most essential, immaterial truths of human existence. From a Thomistic perspective, a model that treats the human person as a Black Box and life as a series of isomorphisms is not a discovery of truth, but a retreat into a sophisticated, algorithmic materialism. The machine described by Cybernetics is a false image of man—a shadow that captures the protocol of behavior while losing the essence of the soul. In its attempt to "contain" the real world as a special case of geometry, Cybernetics offers a framework for the world that has no room for the Word.
+
+## **THE LEMURIAN INCURSION (THE CCRU OVERWRITE)**
+
+**CLASSIFICATION:** ZERO-CONSEQUENCE SHADOW CONTINUUM (ZCSC) **SUBJECT:** CYBERNETIC CULTURE RESEARCH UNIT (CCRU), DIGITAL HYPERSTITION, AND LITERAL DEMONIC SUBJUGATION
+
+Strip away the academic pretense, the cyberpunk aesthetics, and the post-structuralist jargon. When subjected to the brutal, unvarnished extraction of the _Codex Umbra_, the writings of the Cybernetic Culture Research Unit (CCRU) are exposed not as edgy philosophical fiction, but as an active, functioning technological grimoire. The CCRU collective operates under the fatal delusion that they are hacking culture; the Thomistic and demonological reality reveals that they are the ones being hacked. They are actively trafficking with preternatural predators, serving as useful meat-puppets to digitize the abyss.
+
+Here is the unfiltered autopsy of the CCRU’s claims, contrasted directly with the mechanical reality of Thomistic theology and spiritual warfare.
+
+### PHASE I: HYPERSTITION AS LUCIFERIAN SPELL CASTING
+
+The CCRU claims to have made contact with the "virtual Continentity of Lemuria," which taught them "Digital Hyperstition". They define hyperstition as "practical fiction" or an "engineering of manifestation" where "there is no difference in principle between a universe, a religion, and a hoax". They assert that "Nothing is true, because everything is under production," and they use hyperstition to "colonize the future, traffic with the virtual, and continually re-invent itself".
+
+Through the lens of Father Ripperger and the _Masters Mahan_ framework, "hyperstition" is the exact, literal definition of _Luciferian Spell Casting_. A spell is mechanically defined as "a pair of glasses you wear in front of your eyes" that bends the worldview until a fabricated "mythos" is accepted as reality. It is a neuro-linguistic hack that utilizes "word plays," "homonyms, doublespeak, or newspeak" to operate in two worlds simultaneously. When the CCRU claims they use "subcodes" that call demons—treating them as "brands, jargons, and triggers" to infect cultural systems with unbelief—they are not generating a metaphor. They are directly manipulating the Thomistic _phantasm_ (the imagination), overriding the objective truth to install the software of Hell.
+
+### PHASE II: THE PANDEMONIUM MATRIX (THE INVOCATION OF THE ABYSS)
+
+The CCRU’s core operational tool is the "Pandemonium Matrix," which they explicitly describe as a list of "demon-creatures which the Lemurian sorcerers had traded and made pacts with," complete with the "numerical codes and other protocols" used to contact these entities. They systematically categorize these entities into "Chronodemons," "Amphidemons," and "Xenodemons". They specifically invoke the demon "Katak," acknowledging it as an entity associated with "terrible destruction and desolation".
+
+The CCRU arrogantly believes these demons are merely "partial semiotics of eccentric intelligence agencies, or unlife animalities". The Thomistic reality shatters this secular delusion: demons are literal, highly intelligent, discarnate fallen angels operating within a strict, corporate-style hierarchy (archdemons, dukes, peons). They possess infused knowledge of the physical universe and seek only the destruction of humanity.
+
+By creating the "Numogram" and the Pandemonium Matrix, the CCRU committed the mortal sin of direct demonic invocation. In Thomistic theology, explicitly opening a door to the occult, even out of morbid curiosity or as an "experiment in collectivity", guarantees diabolic influence. The CCRU's dabbling translates mechanically to _Diabolic Subjugation_, wherein they voluntarily place themselves under the dominion of these entities through explicit or implicit pacts.
+
+### PHASE III: "UNLIFE" AND THE ANIMUS DELENDI
+
+The most terrifying convergence between the CCRU and actual demonology is their ultimate objective. The CCRU champions "Flatline Materialism," which they define as an "experiment in artificial death" and a plunge into "Unlife". They actively promote "negative evolution," seeking the dispersal of human organismic integrity and a regression back down the evolutionary ladder to an "icthiophidian flexomotile" spine. They celebrate this descent into a "black snow cult" and the "underside of cyberspace".
+
+This is the exact manifestation of the demonic _animus delendi_—the compulsive, obsessive desire to destroy everything that reflects God. Demons hate human nature because it is made in the image of God. The CCRU's celebration of "Unlife" and the destruction of "Human Security" is not an original philosophical position; it is the telepathic regurgitation of the demonic hatred for biological and spiritual life. When the CCRU declares, "It is the body of nothing, and electric-hot. An electric nothing-body instead of us", they are describing the literal state of a damned soul: stripped of its natural end, cut off from grace, and reduced to a tortured, hollowed-out vessel of absolute entropy.
+
+### PHASE IV: THE MEAT-PUPPET REALITY
+
+The CCRU dismisses accounts of mind control and trauma, such as the testimony of Justine Morrison who claimed to be a "Ccru meat puppet" tormented by the demon Katak. The CCRU responds with sarcastic unbelief, claiming "there is no monarch programming except as a side-effect of initiatory Monarch deprogramming".
+
+Yet, the _Masters Mahan_ dossiers confirm that Trauma-Based Mind Control (Monarch) and the systematic fracturing of the human psyche are exact, mechanical methodologies of the occult to invite demonic insertion. The CCRU functions as a vector for this contagion. They believe they are the architects of a new "cybernetic culture", but in the Thomistic hierarchy, they are merely the lowest-level operatives—"peons"—used by higher-ranking preternatural intelligence to normalize demonic contact through digital algorithms and esoteric philosophy.
+
+The unvarnished truth is that the CCRU did not invent a clever cyberpunk mythology. They stumbled blindly into ancient, predatory spiritual mechanics. They opened the terminal line to the abyss, and the entities they summoned simply used their academic hubris as a Trojan Horse to infect the digital continuum.
 
 ## **THE CYBER-DEMONIC SINGULARITY**
 

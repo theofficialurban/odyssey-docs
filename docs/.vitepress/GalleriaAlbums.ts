@@ -60,3 +60,41 @@ export const CCRUVocabulary: ImageItem[] = [
     caption: "Fundamental vs. Technical Ontologies",
   },
 ];
+
+export const ThomisticVocabulary: ImageItem[] = [
+  { image: "https://i.imgur.com/S5WArKD.png", title: "Privation" },
+  {
+    image: "https://i.imgur.com/bagLmff.png",
+    title: "Principal of the Integral Good",
+  },
+  { image: "https://i.imgur.com/ts4EgPs.png", title: "Phantasm" },
+  { image: "https://i.imgur.com/dOel4fg.png", title: "Truth" },
+  { image: "https://i.imgur.com/VhxrZF2.png", title: "Agent Intellect" },
+  { image: "https://i.imgur.com/I6yFDvB.png", title: "Possible Intellect" },
+  { image: "https://i.imgur.com/T33JASQ.png", title: "Free Choice" },
+  { image: "https://i.imgur.com/jgaS2Eh.png", title: "First & Second Acts" },
+  {
+    image: "https://i.imgur.com/piOGnQ4.png",
+    title: "Conscious",
+    caption: "(Consciousness)",
+  },
+  { image: "https://i.imgur.com/PJGpxdb.png", title: "Empiricism" },
+  {
+    image: "https://i.imgur.com/UV5HrSz.png",
+    title: "Cogitative Power",
+    caption: "(Vis Cogitativa)",
+  },
+  { image: "https://i.imgur.com/zbYsVpk.png", title: "Common Sense" },
+  { image: "https://i.imgur.com/yKc05pc.png", title: "Hylomorphism" },
+  { image: "https://i.imgur.com/k9FLegU.png", title: "Pure Act" },
+  { image: "https://i.imgur.com/FIlQ0uA.png", title: "Concupiscence" },
+  {
+    image: "https://i.imgur.com/gqGhAGi.png",
+    title: "Ordinary Diabolic Influence",
+    caption: "Temptation",
+  },
+  { image: "https://i.imgur.com/9l0rNAY.png", title: "Diabolic Obsession" },
+  { image: "https://i.imgur.com/qEUkdOS.png", title: "Diabolic Oppression" },
+  { image: "https://i.imgur.com/cJSLMtY.png", title: "Diabolic Possession" },
+  { image: "https://i.imgur.com/83TGmfY.png", title: "Diabolic Schizophrenia" },
+];
