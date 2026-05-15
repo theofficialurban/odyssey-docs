@@ -12,13 +12,7 @@ ogimage: https://scx2.b-cdn.net/gfx/news/hires/2018/waveparticle.jpg
 
 [[toc]]
 
-```embed
-type: CardEmbed
-title: Virtual Mechanics Feynman Sorcery Simulation by Urban Odyssey
-image: https://virtual-dynamics.vercel.app/ogimage.png
-description: This engine visualizes the thermodynamic meat-grinder: the seething vacuum, the rigid egos (electrons), the Neither-Neither annihilation, and the ultimate phase-transition of free psychic energy collapsing into a designated sigil.
-url: https://virtual-dynamics.vercel.app/
-```
+<Card title="Virtual Mechanics Feynman Sorcery Simulation by Urban Odyssey" img="https://virtual-dynamics.vercel.app/ogimage.png" description="This engine visualizes the thermodynamic meat-grinder: the seething vacuum, the rigid egos (electrons), the Neither-Neither annihilation, and the ultimate phase-transition of free psychic energy collapsing into a designated sigil." href="https://virtual-dynamics.vercel.app/" />
 
 ## **Particle Interactions: _A Conceptual Primer on Scattering and the Born Series_**
 
