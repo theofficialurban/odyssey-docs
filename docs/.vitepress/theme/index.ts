@@ -49,7 +49,11 @@ import Column from "primevue/column";
 import Galleria from "primevue/galleria";
 import CustomCarousel from "./components/PrimeVue/CustomCarousel.vue";
 import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
-import { CCRUVocabulary, ThomisticVocabulary } from "../GalleriaAlbums";
+import {
+  CCRUVocabulary,
+  MetaPhotonicsGalleria,
+  ThomisticVocabulary,
+} from "../GalleriaAlbums";
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
 
 export type SettingsFrontmatter =
@@ -148,6 +152,7 @@ export default {
     // Provide Image Gallery
     app.provide("ccrugalleria", CCRUVocabulary);
     app.provide("thomisticgalleria", ThomisticVocabulary);
+    app.provide("metaphotonicsgalleria", MetaPhotonicsGalleria);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

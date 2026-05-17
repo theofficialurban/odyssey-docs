@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import { type GalleriaProps, type ButtonProps } from "primevue";
+import { type GalleriaProps, type ButtonProps, useDialog } from "primevue";
 import Galleria from "primevue/galleria";
 import Btnn from "primevue/button";
-import { computed, ref } from "vue";
-import { type ImageItem } from "../../../GalleriaAlbums";
+import { computed, h, ref } from "vue";
+import {
+  CustomImageHtmlCaptions,
+  type ImageItem,
+} from "../../../GalleriaAlbums";
 
 interface Props {
   value: ImageItem[];
@@ -11,12 +14,9 @@ interface Props {
   buttons?: ButtonProps[];
   custom?: boolean;
 }
-// const galleriaModel = defineModel<GalleriaState>({
-//   default: { containerVisible: false, activeIndex: 0 },
-// });
-//const modState = reactive<{visible: boolean, activeIndex: number}>({visible: false, activeIndex: 0, })
+
 const visible = defineModel<boolean>("visible", { default: true });
-//const activeIndex = defineModel<number>("activeIndex", { default: 0 });
+
 const activeIndex = ref(0);
 const galleria = ref();
 
@@ -29,7 +29,30 @@ const {
   buttons = [],
   custom = false,
 } = defineProps<Props>();
+
+const d = useDialog();
 const images = ref<ImageItem[]>(value);
+const customCaptionHtml = computed<CustomImageHtmlCaptions>(() => {
+  return images.value.map((img) => {
+    if (img.captionHtml !== true && !img.caption) return null;
+    if (img.caption !== undefined) {
+      // If it's a regular caption without custom HTML
+      if (img.captionHtml !== true) return null;
+      if (img.captionHtml === true) {
+        const customHtmlCaption = h("div", { innerHTML: img.caption });
+        const customOpenFunc = () => {
+          const custInstance = d.open(customHtmlCaption, {
+            props: { header: `Caption for ${img.title}`, modal: true },
+          });
+          return custInstance;
+        };
+        return customOpenFunc;
+        //return [img, customHtmlCaption, customOpenFunc, instanceRef]
+      }
+    }
+    return null;
+  });
+});
 const toggleAutoSlide = () => {
   isAutoPlay.value = !isAutoPlay.value;
 };
@@ -111,6 +134,7 @@ const slideButtonIcon = computed(() => {
     <Galleria
       v-if="value.length > 0"
       :ref="galleria"
+      v-model:active-index="activeIndex"
       v-bind="{
         value,
         numVisible: 5,
@@ -145,9 +169,22 @@ const slideButtonIcon = computed(() => {
       </template>
       <template #caption="slotProps">
         <div class="text-xl mb-2 font-bold">{{ slotProps.item.title }}</div>
-        <p v-if="slotProps.item.caption" class="text-white">
+        <p
+          v-if="slotProps.item.caption && !slotProps.item.captionHtml"
+          class="text-white"
+        >
           {{ slotProps.item.caption }}
         </p>
+        <Btnn
+          v-else-if="
+            slotProps.item.caption &&
+            slotProps.item.captionHtml &&
+            customCaptionHtml[activeIndex] != null
+          "
+          variant="link"
+          label="Click to View Caption"
+          @click="customCaptionHtml[activeIndex]"
+        />
       </template>
       <template #footer>
         <slot name="footer">
@@ -233,7 +270,13 @@ const slideButtonIcon = computed(() => {
             <span class="font-bold text-sm">{{
               images[activeIndex].title
             }}</span>
-            <span class="text-sm">{{ images[activeIndex].caption }}</span>
+            <span
+              class="text-sm"
+              v-if="
+                images[activeIndex].caption && !images[activeIndex].captionHtml
+              "
+              >{{ images[activeIndex].caption }}</span
+            >
           </span>
           <button
             type="button"

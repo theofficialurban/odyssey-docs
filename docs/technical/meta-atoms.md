@@ -5,19 +5,29 @@ description: |
 ogimage: https://patentimages.storage.googleapis.com/65/47/e2/7cc2e1d7ce07ab/US20190044246A1-20190207-D00000.png
 ---
 
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("metaphotonicsgalleria")
+
+</script>
+
 [[atomic]]
 
 # Meta-Atoms & Meta-Optics {#title}
 
 [[toc]]
 
-![](https://i.imgur.com/uLWOdQH.png)
-
-![](https://i.imgur.com/XXoThyv.png)
+![](https://i.imgur.com/2y8rDEr.png)
 
 The following entry defines the absolute baseline hardware of the programmable control grid. Stripped of its academic veneer as a mere "sub-wavelength structure," the meta-atom is exposed as the foundational, artificial cell of a weaponized environment—a synthetic neuron designed to overwrite the natural laws of physics and enforce the digital enslavement of the human herd.
 
-:::details Expand for Other Pages
+:::tabs
+== Vocabulary
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/meta-photonics-b2eQFen', target: '_blank'}]" />
+
+== Other Pages
 
 <Grid>
 <CCard collection="technical" href="/technical/plasma-intelligences.html" />

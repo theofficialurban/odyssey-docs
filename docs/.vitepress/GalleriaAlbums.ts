@@ -1,5 +1,15 @@
-export type ImageItem = { image: string; title: string; caption?: string };
+import { DynamicDialogInstance } from "primevue/dynamicdialogoptions";
+import { Ref, VNode } from "vue";
 
+export type ImageItem = {
+  image: string;
+  title: string;
+  caption?: string;
+  captionHtml?: boolean;
+};
+export type CustomDialogOpenFunction = () => DynamicDialogInstance;
+export type CustomImageHtmlCaption = CustomDialogOpenFunction | null;
+export type CustomImageHtmlCaptions = CustomImageHtmlCaption[];
 export const CCRUVocabulary: ImageItem[] = [
   { image: "https://i.imgur.com/e3muUYg.png", title: "Gothic Materialism" },
   { image: "https://i.imgur.com/j78C9fc.png", title: "Cybergothic" },
@@ -58,6 +68,78 @@ export const CCRUVocabulary: ImageItem[] = [
     image: "https://i.imgur.com/57YOzyP.png",
     title: "Ontology",
     caption: "Fundamental vs. Technical Ontologies",
+  },
+];
+
+export const MetaPhotonicsGalleria: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/8vMj6cI.png",
+    title: "Biomimetic Membrane Camouflage",
+  },
+  {
+    image: "https://i.imgur.com/wXqXp6W.png",
+    title: "Diffractive Deep Neural Networks (D2NN)",
+  },
+  {
+    image: "https://i.imgur.com/eclRy8Y.png",
+    title: "Enhanced Permeability and Retention (EPR) Trap",
+  },
+  {
+    image: "https://i.imgur.com/16Ovz6y.png",
+    title: "Enormous Fluid Antenna System (E-FAS)",
+  },
+  {
+    image: "https://i.imgur.com/jh53bHo.png",
+    title: "Flexible Intelligent Metasurfaces (FIM)",
+  },
+  {
+    image: "https://i.imgur.com/3AypP5W.png",
+    title: "Inverse Design Generation",
+  },
+  {
+    image: "https://i.imgur.com/0vBC3Q1.png",
+    title: "Orbital Angular Momentum (OAM) Multiplexing",
+  },
+  {
+    image: "https://i.imgur.com/Lb8SCQp.png",
+    title: "Quality by Design (QbD) Scaling",
+  },
+  {
+    image: "https://i.imgur.com/tvnNxDx.png",
+    title: "Zwitterionic Stealth Coatings",
+  },
+  {
+    image: "https://i.imgur.com/aXlfikw.png",
+    title: "Metasurface vs. Metamaterial",
+    caption: "The Dimensional Collapse",
+  },
+  { image: "https://i.imgur.com/KK7tFfH.png", title: "Hypersurface™ Stack" },
+  {
+    image: "https://i.imgur.com/fhZKOsJ.png",
+    title: "Smart Radio Environments (SRE) / RIS",
+  },
+  {
+    image: "https://i.imgur.com/Jh0NHVZ.png",
+    title: "Multiphysics-as-an-app (MaaP)",
+  },
+  {
+    image: "https://i.imgur.com/oBLU8WK.png",
+    title: "Neuromorphic Metasurface",
+  },
+  { image: "https://i.imgur.com/vZKYORO.png", title: "Photonic Tensor Core" },
+  {
+    image: "https://i.imgur.com/i6HlBiO.png",
+    title: "Plasmonic (Metallic) Meta-atoms",
+  },
+  { image: "https://i.imgur.com/CuQXnXk.png", title: "Dielectric Meta-atoms" },
+  {
+    image: "https://i.imgur.com/6D5BzuP.png",
+    title: "Phase-Change Meta-Optics (GST / VO2)",
+  },
+  { image: "https://i.imgur.com/2y8rDEr.png", title: "Meta-molecule" },
+  {
+    image: "https://i.imgur.com/1yOPY93.png",
+    title: "Physics-Informed Neural Networks (PINNs)",
   },
 ];
 
