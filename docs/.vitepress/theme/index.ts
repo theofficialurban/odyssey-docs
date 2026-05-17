@@ -50,6 +50,7 @@ import Galleria from "primevue/galleria";
 import CustomCarousel from "./components/PrimeVue/CustomCarousel.vue";
 import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
 import { CCRUVocabulary, ThomisticVocabulary } from "../GalleriaAlbums";
+import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -139,6 +140,7 @@ export default {
     app.component("Galleria", Galleria);
     app.component("ImgurGalleria", ImgurGalleria);
     app.component("Carousel", CustomCarousel);
+    app.component("Accordion", CustomAccordion);
 
     app.directive("tooltip", Tooltip);
     app.use(DialogService);

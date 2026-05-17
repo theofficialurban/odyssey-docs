@@ -28,3 +28,5 @@ secret: true
 </script>
 
 # Testing
+
+<Accordion :tabs="[{title: 'Test', content: 'Test', value: 0}, {title: 'Test 2', content: 'Test 2', value: 1}]" />
