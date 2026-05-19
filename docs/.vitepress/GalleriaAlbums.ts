@@ -141,6 +141,23 @@ export const MetaPhotonicsGalleria: ImageItem[] = [
     image: "https://i.imgur.com/1yOPY93.png",
     title: "Physics-Informed Neural Networks (PINNs)",
   },
+  { image: "https://i.imgur.com/wtM8P2e.png", title: "Surrogate Model" },
+  {
+    image: "https://i.imgur.com/1IShXOp.png",
+    title: "Closed-Loop Control",
+    caption: "Self-Optimization",
+  },
+  {
+    image: "https://i.imgur.com/ixqtr7F.png",
+    title: "Neural Radiance Fields (NeRF)",
+  },
+  {
+    image: "https://i.imgur.com/WQdDZXR.png",
+    title: "Virtual Physiological Human (VPH)",
+  },
+  { image: "https://i.imgur.com/4RQHm6Q.png", title: "Agrivoltaics" },
+  { image: "https://i.imgur.com/Fvpc5dw.png", title: "Edge Intelligence" },
+  { image: "https://i.imgur.com/3Lnggd4.png", title: "Federated Learning" },
 ];
 
 export const ThomisticVocabulary: ImageItem[] = [
