@@ -145,7 +145,7 @@ const slideButtonIcon = computed(() => {
         showItemNavigators: true,
         containerClass: 'mx-auto max-w-[650px]',
         pt: {
-          item: { style: { 'max-height': '650px' } },
+          item: { style: { 'min-height': '650px' } },
         },
         ...galleriaProps,
       }"
