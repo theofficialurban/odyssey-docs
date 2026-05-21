@@ -141,6 +141,7 @@ export const MetaPhotonicsGalleria: ImageItem[] = [
     image: "https://i.imgur.com/1yOPY93.png",
     title: "Physics-Informed Neural Networks (PINNs)",
   },
+  // .slice(-13) for Surrogate Terms
   { image: "https://i.imgur.com/wtM8P2e.png", title: "Surrogate Model" },
   {
     image: "https://i.imgur.com/1IShXOp.png",
@@ -158,6 +159,36 @@ export const MetaPhotonicsGalleria: ImageItem[] = [
   { image: "https://i.imgur.com/4RQHm6Q.png", title: "Agrivoltaics" },
   { image: "https://i.imgur.com/Fvpc5dw.png", title: "Edge Intelligence" },
   { image: "https://i.imgur.com/3Lnggd4.png", title: "Federated Learning" },
+  {
+    image: "https://i.imgur.com/tEYMlc9.png",
+    title: "Digital Darwinism",
+    caption:
+      "Meta-material AI Design Principal No. One - Mimicking Nature: Digital Darwinism (Evolutionary Computation)",
+  },
+  {
+    image: "https://i.imgur.com/KqW4YZF.png",
+    title: "The Omniscient Oracle",
+    caption:
+      "Meta-material AI Design Principal No. Two - Mapping Patterns: The Omniscient Oracle (Deep Learning / Neural Networks)",
+  },
+  {
+    image: "https://i.imgur.com/qOfdTVm.png",
+    title: "Forward vs. Inverse Design",
+    caption:
+      "In meta-optics, engineering logic flows in two directions: looking forward to predict, or looking backward to discover.",
+  },
+  {
+    image: "https://i.imgur.com/GOWroMo.png",
+    title: "Convolutional Neural Networks (CNNs)",
+  },
+  {
+    image: "https://i.imgur.com/ITarhys.png",
+    title: "Variational Autoencoders (VAEs)",
+  },
+  {
+    image: "https://i.imgur.com/iYxYsXP.png",
+    title: "Generative Adversarial Networks (GANs)",
+  },
 ];
 
 export const ThomisticVocabulary: ImageItem[] = [

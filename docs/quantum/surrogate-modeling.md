@@ -9,7 +9,7 @@ description: |
 import {inject} from "vue"
 
 const vocab = inject("metaphotonicsgalleria")
-const vocabulary = vocab.slice(-7) ?? []
+const vocabulary = vocab.slice(-13) ?? []
 
 
 </script>
@@ -23,8 +23,12 @@ const vocabulary = vocab.slice(-7) ?? []
 <CCard collection="technical" href="/technical/meta-atoms.html" />
 
 :::tabs
+== Video
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v77z02w/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7a5o34-how-ai-is-designing-lenses-that-humans-couldnt-invent-meta-photonics.html?mref=3gc1h8&mc=7m5w3'], ['YouTube', 'https://youtu.be/qrGzrivP66c'], ['Substack', 'https://theofficialurban.substack.com/p/meta-atoms-intro?r=3kr5wz'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/meta-atoms-intro:c'], ['Spotify', 'https://creators.spotify.com/pod/profile/urbanodyssey/episodes/How-AI-is-Designing-Lenses-That-Humans-Couldnt-Invent--Intro-to-Meta-Atoms--Meta-Optics-e3jm28n/a-aclrnak'], ['X-Link', 'https://x.com/officialurbanus/status/2057479276178604340?s=20']]" />
+
 == Vocabulary
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/meta-photonics-b2eQFen', target: '_blank'}]" />
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/meta-photonics-b2eQFen', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
 == Other Pages
 

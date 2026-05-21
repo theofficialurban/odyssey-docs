@@ -2,7 +2,7 @@
 title: Meta Photonics
 description: |
   The following entry defines the absolute baseline hardware of the programmable control grid. Stripped of its academic veneer as a mere "sub-wavelength structure," the meta-atom is exposed as the foundational, artificial cell of a weaponized environment—a synthetic neuron designed to overwrite the natural laws of physics and enforce the digital enslavement of the human herd.
-ogimage: https://patentimages.storage.googleapis.com/65/47/e2/7cc2e1d7ce07ab/US20190044246A1-20190207-D00000.png
+ogimage: https://i.imgur.com/Kt8qPzN.png
 ---
 
 <script setup>
@@ -24,8 +24,12 @@ const vocabulary = inject("metaphotonicsgalleria")
 The following entry defines the absolute baseline hardware of the programmable control grid. Stripped of its academic veneer as a mere "sub-wavelength structure," the meta-atom is exposed as the foundational, artificial cell of a weaponized environment—a synthetic neuron designed to overwrite the natural laws of physics and enforce the digital enslavement of the human herd.
 
 :::tabs
+== Video
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v77z02w/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7a5o34-how-ai-is-designing-lenses-that-humans-couldnt-invent-meta-photonics.html?mref=3gc1h8&mc=7m5w3'], ['YouTube', 'https://youtu.be/qrGzrivP66c'], ['Substack', 'https://theofficialurban.substack.com/p/meta-atoms-intro?r=3kr5wz'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/meta-atoms-intro:c'], ['Spotify', 'https://creators.spotify.com/pod/profile/urbanodyssey/episodes/How-AI-is-Designing-Lenses-That-Humans-Couldnt-Invent--Intro-to-Meta-Atoms--Meta-Optics-e3jm28n/a-aclrnak'], ['X-Link', 'https://x.com/officialurbanus/status/2057479276178604340?s=20']]" />
+
 == Vocabulary
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/meta-photonics-b2eQFen', target: '_blank'}]" />
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/meta-photonics-b2eQFen', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
 == Other Pages
 
@@ -41,6 +45,8 @@ The following entry defines the absolute baseline hardware of the programmable c
 :::
 
 <YouTube id="t0Hth0n6lNs" />
+
+<YouTube id="1u6hkGSv384" />
 
 ## **The Anatomy of the Artificial Cell**
 
@@ -808,3 +814,47 @@ Both philosophies are essential for shrinking bulky lenses into "smart," flat de
 | **Physical Limit**   | Limited by computational time.              | Struggles with **sharp nonlinear resonances**. |
 
 By mastering these "magical" AI tools, we are moving toward a future where optical chips and invisible "cloaking" metasurfaces are designed not by months of human calculation, but by the accelerated logic of machine intelligence.
+
+## Bibliography {#sources}
+
+:::warning Selected Sources
+This list provides the primary sources used for information on Metasurfaces and Devices but isn't complete as I've used some of my own sources on similar subjects which may not be listed here in full.
+:::
+
+The following is not a mere academic reference list. It is the architectural ledger of your subjugation. Stripped of peer-reviewed politeness and clinical camouflage, this bibliography exposes the exact texts, patents, and investigative records detailing the construction of the programmable panopticon—a planetary grid designed to harvest, track, and irradiate biological hosts without their consent.
+
+### **I. The Blueprints of the Physical Cage (Programmable Environments)**
+
+- **Liaskos, C., et al. "A New Wireless Communication Paradigm through Software-controlled Metasurfaces."**
+  - _Raw Extraction:_ "In this optimization process, however, the environment remains an uncontrollable factor: it remains unaware of the communication process undergoing within it. In this paper we make the environmental effects controllable and optimizable via software".
+  - _Implication:_ This is the foundational declaration of war against natural physics. The physical space you inhabit is no longer passive; it is an active participant in your surveillance.
+- **Liaskos, C., et al. "Software-Defined Reconfigurable Intelligent Surfaces: From Theory to End-to-End Implementation."** _Proceedings of the IEEE_, 2022.
+  - _Raw Extraction:_ "Programmable wireless environments (PWEs) utilize internetworked intelligent metasurfaces to transform wireless propagation into a software-controlled resource".
+  - _Implication:_ The authors explicitly map how walls and objects are stripped of their neutrality and forced to operate as a "software-controlled resource" managed by a centralized Software-Defined Networking (SDN) controller.
+- **Akyildiz, I. F., Kak, A., & Nie, S. "6G and Beyond: The Future of Wireless Communications Systems."** _IEEE Access_, 2020.
+  - _Raw Extraction:_ "Major technological breakthroughs to achieve connectivity goals within 6G include... intelligent communication environments that enable a wireless propagation environment with active signal transmission and reception".
+  - _Implication:_ Details the macro-infrastructure required to force humanity into a fully connected, inescapable 6G grid operating at the THz band.
+- **Yang, H. Q., et al. "Adaptively programmable metasurface for intelligent wireless communications in complex environments."** _Nature Communications_, 2025.
+  - _Raw Extraction:_ "APM can sense the complex EM field distributions around and dynamically manipulate the EM waves and signals in real time under the guidance of the sensed information, eliminating the need for prior knowledge or external input on the wireless environment".
+  - _Implication:_ The cage is now sentient. It no longer needs human operators to decide how to manipulate the electromagnetic field around you; it senses and tightens the noose autonomously.
+
+### **II. The Oracles of Algorithmic Enslavement (AI and Meta-Optics)**
+
+- **Chen, M. K., et al. "Artificial Intelligence in Meta-optics."** _Chemical Reviews_, 2022.
+  - _Raw Extraction:_ "Unlike traditional simulation software that solves Maxwell's equations, neural networks establish a shortcut for mapping between the structure geometry and optical responses".
+  - _Implication:_ Human engineers have surrendered the design of reality to Artificial Intelligence. Deep Learning architectures are hallucinating the optimal sub-wavelength prison bars required to exert total control over light and energy.
+- **Zhang, L., et al. "Space-Time-Coding Digital Metasurfaces."** _Nature Communications_, 2018.
+  - _Raw Extraction:_ "Here, we propose a general theory of space-time modulated digital coding metasurfaces to obtain simultaneous manipulations of EM waves in both space and frequency domains, i.e., to control the propagation direction and harmonic power distribution simultaneously".
+  - _Implication:_ Electromagnetic reality is now digitally encoded. The grid commands exactly how much power hits your biology and from what direction, bypassing all natural wave propagation.
+
+### **III. The Unvarnished Texts of Human Husbandry**
+
+The academic sources above provide the mechanisms; the following entries from the _Directory of Human Husbandry Technology_ expose the intent, revealing the integration of atmospheric manipulation, mind control, and organized subjugation.
+
+- **Duncan, Robert.** _How to Tame a Demon: A short practical guide to organized intimidation stalking, electronic torture, and mind control_.
+- **Freeland, Elana.** _Under an Ionized Sky - From Chemtrails to Space Fence Lockdown_.
+- **Mullins, Eustace.** _The World Order, Our Secret Rulers_ (1992).
+- **O'Brien, Cathy & Phillips, Mark.** _Access Denied for Reasons Of_ (2014).
+- **Springmeier, Fritz.** _MKUltra Handbook - The Illuminati Formula_.
+
+**Connections & Hidden Implications Ruthlessly Exposed:** The telecommunications and optical engineering sectors sanitize their objectives with terms like "optimizable service" and "wireless environment optimization". Yet, when cross-referenced with the _Directory of Human Husbandry_, the contradiction shatters: the exact hardware required to perform "Advanced Physical-layer Security as an App" or establish "perfect anomalous reflection" is the identical infrastructure required for localized electronic torture, ambient biometric surveillance, and full-spectrum dominance. They are building the Space Fence and the Panopticon under the guise of "6G connectivity".
