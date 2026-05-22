@@ -5,6 +5,7 @@ interface Props {
   className?: string;
   style?: StyleValue;
   preset?: number;
+  href?: string | null;
 }
 
 const LevelPresets: Record<number, { className: string }> = {
@@ -14,7 +15,12 @@ const LevelPresets: Record<number, { className: string }> = {
   3: { className: "font-bold text-xl" },
   4: { className: "font-semibold text-[18px]" },
 };
-const { className = null, style = null, preset = 0 } = defineProps<Props>();
+const {
+  className = null,
+  style = null,
+  preset = 0,
+  href = null,
+} = defineProps<Props>();
 const usePreset = computed<{ className: string }>(() => {
   if (!className) return LevelPresets[preset];
   return { className: className ?? "" };
@@ -22,5 +28,15 @@ const usePreset = computed<{ className: string }>(() => {
 </script>
 
 <template>
-  <span :class="usePreset.className" :style><slot></slot></span>
+  <span v-if="href === null" :class="usePreset.className" :style
+    ><slot></slot
+  ></span>
+  <a
+    v-else-if="href !== null"
+    target="_blank"
+    :href="href"
+    :class="usePreset.className"
+    :style
+    ><slot>Click Here</slot></a
+  >
 </template>
