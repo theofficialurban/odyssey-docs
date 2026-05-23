@@ -49,7 +49,6 @@ Direct Link: https://datawrapper.dwcdn.net/jbAmo/
 
 <CCard collection="bible" href="/bible/chad-ripperger.html" :preview="true" />
 <CCard collection="bible" href="/bible/summa-theologica.html" :preview="true" />
-<CCard collection="quantum" href="/quantum/thomistic-psychology.html" :preview="true" />
 
 ### Sin: A Thomistic Psychology
 
