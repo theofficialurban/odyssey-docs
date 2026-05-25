@@ -53,6 +53,7 @@
 .highlightr-floating .markdown-preview-view mark {
   --floating-background: var(--vp-c-bg);
   border-radius: 0;
+  color: var(--vp-c-text-1);
   padding-bottom: 5px;
   background-image: linear-gradient(
     360deg,
@@ -65,6 +66,7 @@ mark.floating {
   --floating-background: var(--vp-c-bg);
   border-radius: 0;
   padding-bottom: 5px;
+  color: var(--vp-c-text-1);
   background-image: linear-gradient(
     360deg,
     rgba(255, 255, 255, 0) 28%,
@@ -237,7 +239,7 @@ details[open] summary.highlight-summary::before {
   animation: fade 300ms ease-in-out;
   background-color: var(--vp-c-bg);
   box-shadow: 0px 3px 25px rgba(31, 38, 135, 0.1);
-  border: 1px solid var(--background-modifier-border);
+  border: 1px solid var(--vp-c-border);
 }
 
 .menu.highlighterContainer .menu-item .menu-item-icon {
@@ -258,7 +260,7 @@ details[open] summary.highlight-summary::before {
   line-height: 31px;
   white-space: nowrap;
   border-radius: 0;
-  border-bottom: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--vp-c-border);
 }
 
 .menu.highlighterContainer .menu-item:last-of-type {
@@ -332,11 +334,11 @@ button:not(.mod-cta):not(
   grid-gap: 8px;
   grid-template-columns: 0.5fr 7fr;
   align-items: center;
-  border-top: 1px solid var(--background-modifier-border);
+  border-top: 1px solid var(--vp-c-border);
 }
 
 .HighlightrSettingsTabsContainer {
-  border-bottom: 1px solid var(--background-modifier-border);
+  border-bottom: 1px solid var(--vp-c-border);
 }
 
 .setting-item.highlighter-setting-item:first-child {
