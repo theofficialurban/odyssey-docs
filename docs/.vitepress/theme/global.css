@@ -102,9 +102,15 @@ details[footnote] {
 
 mark {
   &[color="yellow"] {
-    background: #f2ff00a6;
+    background-color: #f2ff00a6;
   }
   &[color="red"] {
-    background: #ff5582a6;
+    background-color: #ff5582a6;
+  }
+  &[color="orange"] {
+    background-color: #ffb86ca6;
+  }
+  &[color="green"] {
+    background-color: #bbfabba6;
   }
 }

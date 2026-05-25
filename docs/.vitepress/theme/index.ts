@@ -2,7 +2,7 @@ import { type Theme } from "vitepress";
 
 import VPLTheme from "@lando/vitepress-theme-default-plus";
 import "./global.css";
-
+import "./Highlightr.css";
 import OdysseyBanner from "./components/OdysseyBanner.vue";
 import CollectionIndex from "./components/CollectionIndex.vue";
 import Banner from "./components/Banner.vue";
