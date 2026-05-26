@@ -4,6 +4,16 @@ description: |
   This text is the foundational introduction to Jacques Ellul’s seminal 1962 study, which reimagines propaganda not as a collection of lies, but as an essential sociological phenomenon within the technological society. Ellul argues that modern influence is a sophisticated scientific technique that must be total, utilizing every available medium to encircle the individual and suppress critical thought.
 ---
 
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("agitpropgalleria")
+
+
+
+</script>
+
 [[atomic]]
 
 # Propaganda: The Formation of Men's Attitudes (Jacques Ellul) {#title}
@@ -17,6 +27,10 @@ description: |
 This text is the foundational introduction to Jacques Ellul’s seminal 1962 study, which reimagines **propaganda** not as a collection of lies, but as an essential **sociological phenomenon** within the **technological society**. Ellul argues that modern influence is a sophisticated **scientific technique** that must be **total**, utilizing every available medium to encircle the individual and suppress critical thought. By shifting focus from **orthodoxy** (changing what people believe) to **orthopraxy** (triggering how people act), propaganda aims to mobilize the masses into a state of **continuous participation** and psychological commitment. The author asserts that this process is only effective when it aligns with **fundamental currents**, such as the myths of progress and work, while exploiting the individual's inherent **need for a raison d'être** in a lonely, fragmented world. Ultimately, the work serves as a grave warning that propaganda is an **inescapable necessity** for the modern state, creating a "world of necessity" that threatens the very core of human freedom and **democracy**.
 
 <YouTube id="BhtpaHAKoPs" />
+
+## Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
 ## **TOTALITARIAN PSYCHOLOGICAL ORCHESTRATION — THE ARCHITECTURE OF THE MEAT-MACHINE PRISON**
 

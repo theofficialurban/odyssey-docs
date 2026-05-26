@@ -70,6 +70,39 @@ export const CCRUVocabulary: ImageItem[] = [
     caption: "Fundamental vs. Technical Ontologies",
   },
 ];
+export const AgitPropGalleria: ImageItem[] = [
+  { image: "https://i.imgur.com/2atoQB4.png", title: "Orthopraxy" },
+  { image: "https://i.imgur.com/sVPWRFX.png", title: "Sensibilization" },
+  { image: "https://i.imgur.com/evOkhQp.png", title: "Privatization" },
+  {
+    image: "https://i.imgur.com/qKnP6ue.png",
+    title: "Psychic Dissociation",
+    caption:
+      "Also Called Diabologic Schizophrenia and Damnation (To Block or Halt Progression)",
+  },
+  {
+    image: "https://i.imgur.com/5KwVJNY.png",
+    title: "Pre-Propaganda",
+    caption: "Also Called: Sub-Propaganda",
+  },
+  {
+    image: "https://i.imgur.com/UwMxocY.png",
+    title: "Sociological Propaganda",
+  },
+  {
+    image: "https://i.imgur.com/JV7Q56w.png",
+    title: "Agitation Propaganda",
+    caption: "AgitProp",
+  },
+  { image: "https://i.imgur.com/i60PcGP.png", title: "Integration Propaganda" },
+  { image: "https://i.imgur.com/wAV5X7j.png", title: "Horizontal Propaganda" },
+  { image: "https://i.imgur.com/OOpUpo6.png", title: "Vertical Propaganda" },
+  {
+    image: "https://i.imgur.com/CgtKOX8.png",
+    title: "Psychological Crystallization",
+  },
+  { image: "https://i.imgur.com/dT28k7u.png", title: "Mithridatization" },
+];
 
 export const MetaPhotonicsGalleria: ImageItem[] = [
   {
