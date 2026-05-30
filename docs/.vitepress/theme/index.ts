@@ -53,6 +53,7 @@ import {
   AgitPropGalleria,
   CCRUVocabulary,
   MetaPhotonicsGalleria,
+  MorphicResonanceGalleria,
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
@@ -155,6 +156,7 @@ export default {
     app.provide("thomisticgalleria", ThomisticVocabulary);
     app.provide("metaphotonicsgalleria", MetaPhotonicsGalleria);
     app.provide("agitpropgalleria", AgitPropGalleria);
+    app.provide("morphicgalleria", MorphicResonanceGalleria);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

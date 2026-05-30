@@ -224,6 +224,18 @@ export const MetaPhotonicsGalleria: ImageItem[] = [
   },
 ];
 
+export const MorphicResonanceGalleria: ImageItem[] = [
+  { image: "https://i.imgur.com/kFqXcJ8.png", title: "Morphic Field" },
+  { image: "https://i.imgur.com/xEi8KmW.png", title: "Morphic Resonance" },
+  { image: "https://i.imgur.com/a5jZ4a7.png", title: "Formative Causation" },
+  { image: "https://i.imgur.com/jp2voAz.png", title: "Chreode" },
+  { image: "https://i.imgur.com/asFxHDX.png", title: "Self-Resonance" },
+  {
+    image: "https://i.imgur.com/zllN8VD.png",
+    title: "Evolutionary Plagiarism",
+  },
+];
+
 export const ThomisticVocabulary: ImageItem[] = [
   { image: "https://i.imgur.com/S5WArKD.png", title: "Privation" },
   {

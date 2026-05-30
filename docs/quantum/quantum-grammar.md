@@ -1145,4 +1145,4 @@ The pervasive nature of "void" in language, especially legal and governmental co
 
 ## Syntax Key Spreadsheet (Work in Progress) {#syntax}
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAdyzA-_19n62ZlG1mk6afWku4WsuR9CtHL2t3wb5C954ZVwG_K1aPDd0BFyKKY0FOkvy4db76TIWR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width="100%" height="750px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQAdyzA-_19n62ZlG1mk6afWku4WsuR9CtHL2t3wb5C954ZVwG_K1aPDd0BFyKKY0FOkvy4db76TIWR/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>

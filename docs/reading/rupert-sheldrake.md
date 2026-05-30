@@ -3,11 +3,27 @@ title: Rupert Sheldrake
 description: The Combined Authored works by Rupert Sheldrake on Evolutionary Consciousness and Morphic Resonance
 ---
 
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("morphicgalleria")
+
+</script>
+
 [[atomic]]
 
 # Collected Works by Rupert Sheldrake on The Evolutionary Mind & Morphic Resonance {#title}
 
 [[toc]]
+
+## Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/sliqdKW', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+
+### Functional Isomorphisms
+
+![](https://i.imgur.com/92x1HaD.png)
 
 ## **The Mental Cathedral: _A Guide to the Great Leap in Human Intelligence_**
 

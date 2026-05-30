@@ -4,6 +4,14 @@ description: |
   In his 1989 work, The Presence of the Past, Rupert Sheldrake challenges the scientific orthodoxy that treats the universe as an eternal machine governed by immutable laws. He proposes the hypothesis of formative causation, suggesting that nature is not governed by fixed rules but rather by morphic resonance, a process where the past influences the present through a collective memory.
 ---
 
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("morphicgalleria")
+
+</script>
+
 [[atomic]]
 
 # The Presence of the Past (Rupert Sheldrake) {#title}
@@ -13,6 +21,14 @@ description: |
 ## Overview
 
 In his 1989 work, *The Presence of the Past*, Rupert Sheldrake challenges the scientific orthodoxy that treats the universe as an eternal machine governed by immutable laws. He proposes the **hypothesis of formative causation**, suggesting that nature is not governed by fixed rules but rather by **morphic resonance**, a process where the past influences the present through a **collective memory**. According to this theory, natural systems—from molecules to animal societies—inherit the **habits** of their predecessors, making things increasingly stable the more often they occur. By framing the cosmos as a **developing organism** rather than a static mechanism, Sheldrake argues that biological inheritance and physical patterns are shaped by **morphic fields** that evolve over time. Ultimately, the text seeks to reconcile the modern **evolutionary cosmology** with a new understanding of how memory and habit function as the primary organizing forces of the natural world.
+
+### Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/sliqdKW', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+
+#### Functional Isomorphisms
+
+![](https://i.imgur.com/92x1HaD.png)
 
 ### See Also
 
