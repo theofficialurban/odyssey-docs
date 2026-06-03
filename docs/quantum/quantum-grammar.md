@@ -40,6 +40,43 @@ https://quantum-grammar-simulation.vercel.app/
 
 <Card title="Parts of Speech Table" img="https://i.imgur.com/T3mUzpk.png" description="A simple table of the various Parts of Speech for quick reference. Provided by Allan Hancock College Writing Center" href="https://www.hancockcollege.edu/writing/documents/Parts%20of%20Speech%20Table.pdf" />
 
+== References
+<NonHeading :preset="3">Quantum Grammar</NonHeading>
+
+- Urban’s Extended Notes: https://docs.urbanodyssey.xyz/quantum/quantum-grammar.html
+- Usage Guide Slideshow: https://docs.google.com/presentation/d/1LpDrXkCBIrcQxAIxgYf0HmvQWtmiyCWW1ogFbxL3V_o/edit?usp=sharing
+- Examples Slides: https://docs.google.com/presentation/d/10uYi1BQLpiNET2MDG8wFNpETExbByDt2LYhjJRfSDiA/edit?usp=sharing
+- Urban’s Visual Simulation: https://quantum-grammar-simulation.vercel.app/
+- David Wynn Miller Explains Quantum Grammar: https://youtube.com/playlist?list=PLZPwUV0sY5PAF8d7NgJjjZQPjd2A6ZaOB&si=cOp-_U70S0UbcSiI
+
+<NonHeading :preset="3">Dictionaries (Available for Free)</NonHeading>
+
+- The Penguin Dictionary of American English Usage: https://odysee.com/@UrbanOdyssey:b/penguin-english-use-dictionary:9
+- Dictionary of Command Phrases: https://odysee.com/@UrbanOdyssey:b/Dictionary-Of-Command-Phrases:9
+- Roget’s Thesaurus & Demon Hit List: https://odysee.com/@UrbanOdyssey:b/rogets-thesaurus-demon-hit-list:e
+- 3-in-1 Word Parts, Idioms & Slang Dictionary: https://odysee.com/@UrbanOdyssey:b/dictionary-set-pdf:0
+- Dictionary of Scholastic Philosophy: https://odysee.com/@UrbanOdyssey:b/dictionary-of-scholastic-philosophy:7
+- Webster’s Encyclopedic Dictionary: https://odysee.com/@UrbanOdyssey:b/websters-encyclopedic-dictionary:1
+
+<NonHeading :preset="3">American College Encyclopedic</NonHeading>
+
+- American College Encyclopedic Dictionary (Volume I): https://odysee.com/@UrbanOdyssey:b/american-college-encyclopedic-dictionary-v1:6
+- American College Encyclopedic Dictionary (Volume II): https://odysee.com/@UrbanOdyssey:b/american-college-encyclopedic-dictionary-v2:a
+
+<NonHeading :preset="3">Black's Law Dictionary</NonHeading>
+
+- Black’s Law 7th (1999): https://odysee.com/@UrbanOdyssey:b/blacks-law-dictionary-7th:6
+- Black’s Law 6th (1994): https://odysee.com/@UrbanOdyssey:b/blacks-law-dictionary-6th:f
+- Black’s Law 5th (1979): https://odysee.com/@UrbanOdyssey:b/blacks-law-dictionary-5th:f
+- Black’s Law 4th (1968): https://odysee.com/@UrbanOdyssey:b/blacks-law-dictionary-4th:b
+- Black’s Law 3rd (1933): https://odysee.com/@UrbanOdyssey:b/blacks-law-dictionary-3rd:a
+- Black’s Law 2nd (1910): https://odysee.com/@UrbanOdyssey:b/blacks-law-dictionary-2nd:1
+
+<NonHeading :preset="3">Bouvier's Law Dictionary</NonHeading>
+
+- Volume One: https://odysee.com/@UrbanOdyssey:b/bouviers-1860-v1:5
+- Volume Two: https://odysee.com/@UrbanOdyssey:b/bouviers-1860-v2:6
+
 :::
 
 ## **THE QUANTUM ALGEBRA OF REALITY — DECODING `1`, `~1`, AND `>>~2`**

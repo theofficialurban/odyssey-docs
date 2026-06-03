@@ -24,8 +24,8 @@ const vocabulary = inject("agitpropgalleria")
 
 This text serves as a conceptual introduction to Jacques Ellul’s analysis of the **technological system**, arguing that technology has evolved from a mere collection of tools into the **defining environment and determining factor** of modern life. Ellul methodically critiques popular sociological labels like "industrial" or "consumer" society, asserting that these are merely secondary symptoms of a deeper, **autonomous technological logic** that organizes all human activity. He describes how this new milieu replaces the natural world with a **mediating screen of artificiality**, effectively distancing humanity from spontaneous reality and traditional symbols. Within this framework, technology acts as the **strategic determinant** of social problems, most notably in the realm of **statism**, where the state’s growth is driven by the technical necessity of managing complex systems rather than by political will. Ultimately, the work seeks to define the **specific nature of the modern age** by showing how human beings and institutions have been integrated into a self-augmenting, unified, and increasingly **totalitarian technological reality**.
 
-<CCard collection="mahanism" href="/mahanism/agitprop.html" />
-<CCard collection="reading" href="/reading/populist-delusion.html" />
+<CCard collection="elitetheory" href="/elite-theory/agitprop.html" />
+<CCard collection="elitetheory" href="/elite-theory/populist-delusion.html" />
 
 ## Key Words & Terms
 

@@ -16,8 +16,8 @@ description: |
 
 Neema Parvini’s ***The Populist Delusion*** provides a rigorous analysis of political realism, specifically through the lens of **elite theory** and the works of thinkers like Gaetano Mosca. The text argues that the concept of "the people" holding power is a total fallacy; instead, history proves that an **organized minority** always governs the unorganized majority. Parvini asserts that all significant social and political changes are **top-down** processes driven by either the established ruling class or a disciplined **counter-elite** seeking to replace them. By debunking the "Four Myths of Liberalism" and examining **political formulas**—the moral justifications leaders use to legitimize their authority—the book aims to describe the **realities of power** as they actually function rather than how they "ought" to be. Ultimately, the work serves as a pedagogical guide to understanding that **logistical and soft power** are the true mechanisms of control, rendering traditional democratic participation largely symbolic.
 
-<CCard collection="mahanism" href="/mahanism/agitprop.html" />
-<CCard collection="mahanism" href="/mahanism/elite-theory.html" />
+<CCard collection="elitetheory" href="/elite-theory/agitprop.html" />
+<CCard collection="elitetheory" href="/elite-theory/elite-theory.html" />
 
 ## **Understanding the Realities of Power: _An Introduction to Mosca’s Law_**
 
