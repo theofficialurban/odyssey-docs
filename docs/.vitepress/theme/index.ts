@@ -52,6 +52,7 @@ import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
 import {
   AgitPropGalleria,
   CCRUVocabulary,
+  EliteTheoryGalleria,
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
   ThomisticVocabulary,
@@ -157,6 +158,7 @@ export default {
     app.provide("metaphotonicsgalleria", MetaPhotonicsGalleria);
     app.provide("agitpropgalleria", AgitPropGalleria);
     app.provide("morphicgalleria", MorphicResonanceGalleria);
+    app.provide("elitetheorygalleria", EliteTheoryGalleria);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

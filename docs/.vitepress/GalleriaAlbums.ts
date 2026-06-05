@@ -235,7 +235,34 @@ export const MorphicResonanceGalleria: ImageItem[] = [
     title: "Evolutionary Plagiarism",
   },
 ];
-
+export const EliteTheoryGalleria: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/EAjzerw.png",
+    title: "Authoritarian High Modernism",
+  },
+  {
+    image: "https://i.imgur.com/qQTRsMs.png",
+    title: "The Political Formula",
+    caption: "See Also: Kayfabe",
+  },
+  {
+    image: "https://i.imgur.com/eozsyoy.png",
+    title: "The Second Stratum",
+    caption: "The Sub-Elite",
+  },
+  {
+    image: "https://i.imgur.com/SYeDYJp.png",
+    title: "Circulation of Elites",
+    caption: "The Snakes Eating their Own Tales",
+  },
+  { image: "https://i.imgur.com/N4t9DsY.png", title: "Legibility" },
+  { image: "https://i.imgur.com/2O5za6M.png", title: "Mass Organizations" },
+  { image: "https://i.imgur.com/J5A0c59.png", title: "Residues & Derivations" },
+  { image: "https://i.imgur.com/39iBu9D.png", title: "Scientism" },
+  { image: "https://i.imgur.com/7GqAAFc.png", title: "Soft Managerial Regime" },
+  { image: "https://i.imgur.com/atSLkRn.png", title: "Technetronic Society" },
+  { image: "https://i.imgur.com/t8mBWXJ.png", title: "Technostructure" },
+];
 export const ThomisticVocabulary: ImageItem[] = [
   { image: "https://i.imgur.com/S5WArKD.png", title: "Privation" },
   {

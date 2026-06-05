@@ -4,6 +4,14 @@ description: |
   In this posthumously published treatise, Samuel Francis provides a comprehensive reformulation of the managerial revolution, updating the theories of James Burnham to explain the shift in American power during the twentieth century. The text argues that a new managerial elite emerged within giant corporations and government bureaucracies, eventually displacing the traditional bourgeois class by dismantling its localized, family-based social order.
 ---
 
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("elitetheorygalleria")
+
+</script>
+
 [[atomic]]
 
 # Leviathan and Its Enemies (2021, Samuel Francis) {#title}
@@ -13,6 +21,10 @@ description: |
 ## Overview
 
 In this posthumously published treatise, Samuel Francis provides a comprehensive **reformulation of the managerial revolution**, updating the theories of James Burnham to explain the shift in American power during the twentieth century. The text argues that a **new managerial elite** emerged within giant corporations and government bureaucracies, eventually displacing the traditional bourgeois class by dismantling its localized, family-based social order. Central to this transition is the rise of **mass organization**, which requires a specialized class of professionals who justify their expanding reach through an ideology of **cosmopolitan liberalism** and social engineering. Francis suggests that this elite maintains a **soft managerial regime** in the West by manipulating public perception and creating social "crises" that only their technical expertise can ostensibly solve. Ultimately, the work explores the potential for a counter-revolutionary response from **Middle American Radicals**, a dispossessed group seeking to reclaim social power from the bureaucratic "Leviathan."
+
+### Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/ksLVvDz', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
 ## **The Revolution of Mass and Scale: _From Local Owners to Managerial Elites_**
 

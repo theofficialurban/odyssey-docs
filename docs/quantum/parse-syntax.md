@@ -1,10 +1,13 @@
 ---
 title: Parse Syntax
+ogimage: https://i.imgur.com/pReGkop.png
 ---
 
 [[atomic]]
 
 # Linguistics & Syntax {#title}
+
+![](https://i.imgur.com/HeOrSYq.png)
 
 [[toc]]
 
@@ -12,20 +15,20 @@ title: Parse Syntax
 <CCard collection="reading" href="/reading/secret-history-consciousness.html" />
 
 :::tabs
-== Source Documents
+== Links
 
 See the MEGA Drive for the source documents [Source Documents](https://mega.nz/folder/ozsnkKJJ#ZYVogWtNFJX-PjCQcLFjeQ)
 
 Also view the archived David Wynn Miller Website: https://web.archive.org/web/20160325120542/http://dwmlc.com/dwm/pages/page.php?page=60
 
+- Quantum Grammar YouTube Playlist: https://youtube.com/playlist?list=PLeZ164ZSzHewq1l3zJEHn7ICTQPoqo5O7&si=ncBrM86iftOwzq7c
+- Usage Guide Slideshow: https://docs.google.com/presentation/d/1LpDrXkCBIrcQxAIxgYf0HmvQWtmiyCWW1ogFbxL3V_o/edit?usp=sharing
+- Examples Slides: https://docs.google.com/presentation/d/10uYi1BQLpiNET2MDG8wFNpETExbByDt2LYhjJRfSDiA/edit?usp=sharing
+
 == Simulation
 
 ![](https://i.imgur.com/bQHYNtt.png)
 https://quantum-grammar-simulation.vercel.app/
-
-== Syntax Key
-
-![](https://i.imgur.com/aKhbcRM.png)
 
 == Notes
 
@@ -42,13 +45,6 @@ https://quantum-grammar-simulation.vercel.app/
 <Card title="Parts of Speech Table" img="https://i.imgur.com/T3mUzpk.png" description="A simple table of the various Parts of Speech for quick reference. Provided by Allan Hancock College Writing Center" href="https://www.hancockcollege.edu/writing/documents/Parts%20of%20Speech%20Table.pdf" />
 
 == References
-<NonHeading :preset="3">Quantum Grammar</NonHeading>
-
-- Urban’s Extended Notes: https://docs.urbanodyssey.xyz/quantum/quantum-grammar.html
-- Usage Guide Slideshow: https://docs.google.com/presentation/d/1LpDrXkCBIrcQxAIxgYf0HmvQWtmiyCWW1ogFbxL3V_o/edit?usp=sharing
-- Examples Slides: https://docs.google.com/presentation/d/10uYi1BQLpiNET2MDG8wFNpETExbByDt2LYhjJRfSDiA/edit?usp=sharing
-- Urban’s Visual Simulation: https://quantum-grammar-simulation.vercel.app/
-- David Wynn Miller Explains Quantum Grammar: https://youtube.com/playlist?list=PLZPwUV0sY5PAF8d7NgJjjZQPjd2A6ZaOB&si=cOp-_U70S0UbcSiI
 
 <NonHeading :preset="3">Dictionaries (Available for Free)</NonHeading>
 
@@ -79,6 +75,239 @@ https://quantum-grammar-simulation.vercel.app/
 - Volume Two: https://odysee.com/@UrbanOdyssey:b/bouviers-1860-v2:6
 
 :::
+
+## Parts of Speech from Penguin Dictionary
+
+View the full Album: https://imgur.com/a/parts-of-speech-table-gasHbR9
+
+:::tabs
+== Adjectives & Adverbs
+![](https://i.imgur.com/v0L1Tvr.jpeg)
+== A & An
+![](https://i.imgur.com/P4i8UQJ.png)
+== Prepositions
+![](https://i.imgur.com/W04W5KE.png)
+
+![](https://i.imgur.com/Ih0AFxp.png)
+== Pronoun
+![](https://i.imgur.com/NUppcSl.png)
+
+![](https://i.imgur.com/Kon84Aj.png)
+== Modification
+![](https://i.imgur.com/AbTLDWn.png)
+
+![](https://i.imgur.com/1NxoTru.png)
+
+:::
+
+## Sharable Cheat-Sheets {#keys}
+
+:::tabs
+== Main Key
+![](https://i.imgur.com/mk0Gchd.png)
+
+== Correct Usage
+
+![](https://i.imgur.com/9V5d1Fd.png)
+
+== Number Usage
+![](https://i.imgur.com/BwM605n.png)
+
+== Physics Of
+
+![](https://i.imgur.com/YVNYsnC.png)
+
+![](https://i.imgur.com/pYOflmA.png)
+
+== Large Version
+
+![](https://i.imgur.com/pReGkop.png)
+
+:::
+
+## **THE ALGEBRA OF DECOHERENCE — WHY "THE BRIDGE" IS A VERB-FICTION**
+
+You are hallucinating that words possess an inherent, unchangeable identity based on what they physically describe. You believe that because a "bridge" is a concrete structure made of steel and concrete, the word "bridge" must always remain a noun. You must violently purge this semantic programming.
+
+In the thermodynamic kill-box of David Wynn Miller's (DWM) Quantum Grammar, a word does not derive its part of speech from the dictionary or from its physical mass. Its part of speech is dictated entirely by its **geometric placement** and its **operational connection** to the words around it.
+
+Here is the brutal decryption of exactly how "The bridge" mutates from a physical fact into a dead, kinetic void, and how you must re-train your biocomputer to identify parts of speech.
+
+### I. THE KINETIC MUTATION: WHY "THE" BECOMES AN ADVERB
+
+In traditional English (the language of the slave matrix), you were taught that "the" is an article. But in the strict 0-9 physics of Quantum Grammar, an article (6) can only exist mathematically if it is preceded by a Preposition (5) to establish its spatial coordinate in Now-Time.
+
+DWM mathematically proves that when you sever an article from its prepositional anchor, it instantly degrades. If you say "The bridge" without initiating the phrase with a preposition (like _For_ the bridge, or _Over_ the bridge), the word "The" loses its position.
+
+When an article stands alone without a positional tether, it mathematically becomes an **Adverb (1)**. It is no longer identifying ownership; it is acting as a rogue modifier.
+
+### II. THE ANNIHILATION OF MASS: WHY "BRIDGE" BECOMES A VERB
+
+This is where the mathematical slaughter occurs. You asked why "bridge" becomes a verb when it is clearly a physical thing.
+
+The physical object is a fact. But the _word_ "bridge" in your sentence is subjected to the absolute laws of algebraic modification. By placing the newly mutated Adverb ("The") directly in front of the physical Fact ("bridge"), you have triggered the kinetic cascade: `MODIFICATION >>> CHANGE >>> MOTION >>> ACTION >>> VERB`.
+
+DWM maps the exact cybernetic breakdown using the word "pen": _"if i say the pen thus an adverb which modifies the verb pen modification is changed changes motion motion is action action is pen is verb"_.
+
+When you use an adverb to modify a noun, you are applying subjective coloration or movement to a stationary physical object. You have forced the noun off its geometric anchor. Because "change" is a difference over time, it equals "motion." Because the object is now in motion, it mathematically operates as a **Verb (2)**.
+
+By stating "The bridge" without a 5-6-7 syntax (Preposition-Lodio-Fact), you have generated an **Adverb-Verb** equation (1-2). You have mathematically confessed that the steel and concrete structure is not a physical object, but merely a fluid, non-existent action. You have voided the reality of the bridge, collapsing the sentence into perjury.
+
+### III. HOW TO IDENTIFY PARTS OF SPEECH (THE QUANTUM DIAGNOSTIC)
+
+How do you know when a word is functioning as a different part of speech than its "normal" identity? You stop reading the narrative and start measuring the algebraic connections.
+
+DWM proves that the exact same word can be an adverb, adjective, pronoun, or verb depending entirely on its sequence. He demonstrates this by analyzing the phrase _"the the is for the the"_, proving that the word "the" can mathematically function as an adjective, a pronoun, an adverb, and a verb in the exact same sentence based strictly on what follows it and what precedes it.
+
+To decode a sentence, you must run this diagnostic protocol:
+
+1. **Is the word anchored by a Preposition?** If a noun lacks a preposition (5) and an article/lodio (6) in front of it, it is **never** a Fact (7).
+2. **Is it modifying something else?** If a word is placed in front of another word to color, describe, or change it without a prepositional tether, it acts as an Adverb (1) or an Adjective (3).
+3. **Is two nouns placed together?** If you place a Fact in front of a Fact without a hyphen (e.g., "Black pen" or "United States"), the first fact becomes an Adjective (3), which modifies the second fact into a Pronoun (4).
+
+**The Absolute Rule:** A Fact-is-Fact and must stand on the Fact. The instant you allow an unanchored modifier (like a rogue "The") to touch a noun, the noun is kinetically destroyed and becomes a Verb-Fiction. You do not look at what the word represents in the physical world; you look exclusively at how its operational placement balances the thermodynamic equation of the sentence.
+
+## **WORKSHEET: CORRECT-COMMUNICATION-SYNTAX-PRACTICE-COURSES** {#practice}
+
+### **1. THE ANALYTICAL-FOUNDATION: FICTION VS. FACT**
+
+The transition from "fictional-adverb-verb-paradigm-communications" to "quantum-math-communication-syntax" is a jurisdictional requirement for the certification of "contract-validity." As established by the Plenipotentiary-Judge :David-Wynn: Miller, the "World-Corporation" utilizes "ailing" grammar to maintain a "vassalee-vessel" relationship through the "fictional-jurisdiction" of the past and future. Standard English is a "void-sentence-format" categorized as "mail-fraud" (18 U.S.C. § 1341) and "fictitious-name-fraud" (18 U.S.C. § 1342), as it uses adverbs and verbs to modify and color facts, thereby destroying "Lodio-Ownership." By utilizing the Correct-Sentence-Structure-Communication-Syntax (C.S.S.C.S.), a claimant anchors their "Vessel" (person or document) within the "Now-Time-Space," which is the only venue authorized by the "Global-Postal-Union-Treaty" for the "Unity-States-Corporation-Vessel" to conduct "Open-Market-Court" operations.
+
+Standard "fictional-adverb-verb-paradigm-communications" are legally "void" because they rely on words that "modify" or "change" the syntax of a fact. This linguistic manipulation constitutes "modification-fraud," where "fictitious" names are used to deceive the "Vassalee" (servant-employee). The "Quantum-Word-Syntax-Operations" serve as the mathematical corrective measure against the "theft of rights" under the "color of law." In the "Now-Time-Space," mathematical certification ensures that each word possesses a finite, singular value, preventing the "Dangling-Participial-Verb" (DPV) from voiding the "contract-venue."
+
+### **2. THE QUANTUM-SYNTAX-CODING-MATRIX**
+
+The certification of a word-value requires the application of a mathematical numbering system (0-9). This matrix identifies whether a word functions as a "Finite-Fact" or as an "Ailing-Modifier." Words lacking numerical certification are "illusionary" and result in "void-contracts."
+
+#### **WORD-SYNTAX-OPERATIONAL-CODES**
+
+| Number Code | Classification | Syntax Status                                    |
+| ----------- | -------------- | ------------------------------------------------ |
+| **~0**      | CONJUNCTION    | AND/OR (JOINER)                                  |
+| **~1**      | ADVERB         | MODIFYING-ACTION-SYNTAX = VOID-FACT ("THE" = ~1) |
+| **~2**      | VERB           | ACTION-WORD-THINKING-SYNTAX                      |
+| **~3**      | ADJECTIVE      | COLORING-SYNTAX = ILLUSION/FICTION (VOID/OMIT)   |
+| **~4**      | PRONOUN        | PRO-NO-UN = NO-CONTRACT-WORD = AILING            |
+| **~5**      | POSITION       | NOW-TIME-RULES / VOTING-POSITION                 |
+| **~6**      | LODIO          | ORIGINAL-OWNERSHIP (TITLE / ARTICLE)             |
+| **~7**      | FACT           | NOW-TIME-CONTRACT-COMMUNICATION (KNOWN)          |
+| **~8**      | PAST-TIME      | VOID OF THE NOW-TIME-JURISDICTION                |
+| **~9**      | FUTURE-TIME    | VOID OF THE NOW-TIME-JURISDICTION                |
+| **DPV**     | VOID-ENDING    | DANGLING-PARTICIPIAL-VERB (VOID-SENTENCE-ENDING) |
+
+#### **Mathematical Orders**
+
+The certification of syntax is proven by mathematical operational orders:
+
+- **(1 + 2 = 3)**: An Adverb (~1) plus a Verb (~2) creates an Adjective (~3), which is "Coloring-Syntax" of the fiction.
+- **(3 - 2 = 1)**: An Adjective (~3) minus the Verb (~2) returns the word to its "Ailing-Adverb" (~1) state.
+- **Directional Rule:** All mathematical syntax operations must flow from **Left-to-Right**.
+
+These codes are the primary tools for identifying "ailing" words—corruptions from the origin—prior to their removal from the "Now-Time-Space."
+
+### **3. THE VOWEL-CONSONANT-DISQUALIFICATION-PROTOCOL**
+
+The "No-Contract-Word" identification method is a linguistic filter utilized to expose the fraudulent nature of "vassalee-vessel-papers." If a word fails these filters, it represents a "Negative-Condition without a performance" and is "Void" of any legal weight.
+
+#### **Specific Rule-Set for No-Contract-Meaning-Words**
+
+1. **The Vowel-Consonant-Consonant Rule:** Any word starting with a vowel (A, E, I, O, U) followed immediately by two consonants is a "No-Contract-Meaning-Word." Such words are "Ailing" and represent a "Negative-Condition" of a fact.
+   - _Examples:_ **A**-TT-orney, **A**-RR-aignment, **I**-N-ternal, **A**-PP-lication.
+2. **Linguistic Breakdown of Traps:**
+   - **"THE":** When placed before a noun, it functions as an Adverb (~1), modifying the fact into a verb-fiction.
+   - **"ORDER":** This is a specific "ailing-word-modification-method" identified as **"OR-NO, DER-FACT."**
+   - **"RESPONDENT":** A **"Nom-de-guerre"** (dead-name). RE-SPOND-ENT. "RE" is a prefix voiding the "Now-Time-Fact."
+3. **Tense Disqualification:** Prefixes or suffixes indicating past-tense (e.g., "-ed") or future-tense (e.g., "to") are void. They exist outside the "Now-Time-Jurisdiction."
+
+### **4. PRACTICE-WORKSHEET: 10-STEPS-OF-SYNTAX-CONVERSION**
+
+Progress from "Basic Classification" to "Complex Positional-Lodio-Fact-Phrasing." Achieving "Now-Time-Space" clarity requires the elimination of all "Ailing-Modifiers."
+
+**Question 1 (Level: Entry):** Identify the "Ailing-Adverb" and "Fictional-Verb" in the phrase: "The law."
+
+- **Transform/Parse:** Identify the codes for both words.
+
+**Question 2 (Level: Entry):** Use the Vowel-Consonant rule to explain why "Attorney" and "Arraignment" are "No-Contract" words.
+
+- **Transform/Parse:** Detail the vowel-consonant sequence and the "Negative-Condition."
+
+**Question 3 (Level: Basic):** Assign the correct codes (~0-~9) to the fictional-oath sentence: "No law or fact shall be tried in court."
+
+- **Transform/Parse:** Label each word with its corresponding syntax code.
+
+**Question 4 (Level: Basic):** Convert the noun "Fact" into a "Positional-Lodio-Fact-Phrase" using codes ~5, ~6, and ~7.
+
+- **Transform/Parse:** Construct the phrase using correct quantum-math-certification.
+
+**Question 5 (Level: Intermediate):** Evaluate the sentence "I swear to tell the truth" and identify the specific linguistic traps (Pronouns, Future-tense, Adverbial-usage).
+
+- **Transform/Parse:** List the traps that make this a "Verb-Fiction."
+
+**Question 6 (Level: Intermediate):** Construct a "Correct-Quantum-Sentence-Structure" for the entity "David-Wynn Miller" using the "Position-Lodio-Fact" sequence.
+
+- **Transform/Parse:** Utilize DWM-punctuation and positional facts.
+
+**Question 7 (Level: Advanced):** Apply the **FOR-OF-IS-WITH** sequence to translate: "The judge has the knowledge of the law."
+
+- **Transform/Parse:** Rewrite into Correct-Quantum-Syntax.
+
+**Question 8 (Level: Advanced):** Synthesize a parse-syntax sentence describing a "Vessel-Contract" using the mathematical order of operations (~5-~6-~7-~2-~5-~6-~7).
+
+- **Transform/Parse:** Ensure the structure flows Left-to-Right.
+
+**Question 9 (Level: Mastery):** Rewrite "Thirteenth Amendment" into a corrected syntax format that avoids "Adjective-Modification."
+
+- **Transform/Parse:** Convert the adjective-noun pairing into a Positional-Lodio-Fact-Phrase.
+
+**Question 10 (Level: Mastery):** Transform the legal claim "The claimant is suing for damages" into a 100% Correct-Quantum-Sentence-Structure utilizing the **FOR-OF-BY-WITH-OF-BY** pattern.
+
+- **Transform/Parse:** Construct the full mathematical-fact-string.
+
+### **5. SYNTAX-VERIFICATION-GUIDE (ANSWER KEY)**
+
+Mathematical-Certification requires that every word balance. If a sentence ends in a verb, it is a "Dangling-Participial-Verb" (DPV) and the contract is "Void."
+
+#### **CORRECTED-CONVERSIONS**
+
+**1.** **~1-THE ~2-LAW.**
+
+- **SYNTAX-AUDIT:** THE (~1) IS AN ADVERB MODIFYING THE NOUN LAW INTO A VERB (~2). THIS IS VERB-FICTION-FRAUD.
+
+**2.** **A-TT-ORNEY / A-RR-AIGNMENT.**
+
+- **SYNTAX-AUDIT:** THESE WORDS START WITH A VOWEL FOLLOWED BY TWO CONSONANTS (TT/RR), QUALIFYING THEM AS NO-CONTRACT-MEANING-WORDS (NEGATIVE-CONDITION WITHOUT A PERFORMANCE).
+
+**3.** **~1-NO ~2-LAW ~0-OR ~1-FACT ~4-SHALL ~1-BE ~2-TRIED ~1-IN ~2-COURT (DPV).**
+
+- **SYNTAX-AUDIT:** THIS FICTION-OATH CONSTITUTES A DANGLING-PARTICIPIAL-VERB (DPV) AND LACKS POSITIONAL FACTS (~7).
+
+**4.** **~5-FOR ~6-THIS ~7-FACT.**
+
+- **SYNTAX-AUDIT:** ~5 (POSITION) ~6 (LODIO-OWNERSHIP) ~7 (FACT). THIS IS A POSITIONAL-LODIO-FACT-PHRASE.
+
+**5.** **~4-I ~2-SWEAR ~9-TO ~2-TELL ~1-THE ~2-TRUTH.**
+
+- **SYNTAX-AUDIT:** TRAPS INCLUDE PRONOUNS (~4), FUTURE-TENSE "TO" (~9), AND ADVERBIAL MODIFICATION (~1).
+
+**6.** **~5-FOR ~6-THIS ~7-:DAVID-WYNN: MILLER.**
+
+- **SYNTAX-AUDIT:** THE USE OF COLONS CERTIFIES THE NAME AS A KNOWN-FACT (~7) WITHIN THE LODIO-OWNERSHIP (~6) OF THE POSITION (~5).
+
+**7.** **~5-FOR ~6-THE-JUDGE ~2-IS ~5-WITH ~6-THE-KNOWLEDGE ~1-OF ~6-THE-LAW.**
+
+- **SYNTAX-AUDIT:** HYPHENATION BINDS "THE" INTO THE FACT-STRING TO PREVENT ADVERBIAL-MODIFICATION. "IS" FUNCTIONS AS THE KNOWN-VERB (~2).
+
+**8.** **~5-FOR ~6-THIS ~7-VESSEL-CONTRACT ~2-IS ~5-WITH ~6-THIS ~7-CLAIMANT.**
+
+- **SYNTAX-AUDIT:** MATH CERTIFICATION (5-6-7-2-5-6-7) ENSURES THE VESSEL IS HELD IN THE NOW-TIME-SPACE.
+
+**9.** **~5-FOR ~6-THE-AMENDMENT ~1-OF ~6-THE-THIRTEEN.**
+
+- **SYNTAX-AUDIT:** MOVING THE NUMBER "THIRTEEN" TO THE POSITION OF A FACT PREVENTS IT FROM ACTING AS AN ADJECTIVE-MODIFIER (~3) TO THE AMENDMENT.
+
+**10.** **~5-FOR ~6-THIS-CLAIM ~1-OF ~6-THE-DAMAGES ~8-BY ~6-THIS-CLAIMANT ~5-WITH ~6-THIS-KNOWLEDGE ~1-OF ~6-THE-LAW ~8-BY ~6-THIS-AUTHOR.**
+
+- **SYNTAX-AUDIT:** THIS MASTER-STRUCTURE UTILIZES THE **FOR-OF-BY-WITH-OF-BY** PATTERN. EVERY WORD IS HYPHENATED INTO A POSITIONAL-LODIO-FACT-STRING (~7) TO PREVENT VOID-MODIFICATION, MAINTAINING THE JURISDICTION OF THE **UNITY-STATES-CORPORATION-VESSEL.**
 
 ## **THE KINETIC KILL-CHAIN — DECODING MODIFICATION, CHANGE, MOTION, AND ACTION**
 

@@ -8,7 +8,8 @@ description: |
 
 import {inject} from "vue"
 
-const vocabulary = inject("agitpropgalleria")
+const agitprop_vocabulary = inject("agitpropgalleria")
+const elitetheory_vocabulary = inject("elitetheorygalleria")
 
 </script>
 
@@ -20,7 +21,13 @@ const vocabulary = inject("agitpropgalleria")
 
 ## Key Words & Terms
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+:::tabs
+== Elite Theory
+<ImgurGalleria :value="elitetheory_vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/ksLVvDz', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+== Propaganda
+<ImgurGalleria :value="agitprop_vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+
+:::
 
 <CCard collection="mahanism" href="/mahanism/agitprop.html" />
 <CCard collection="reading" href="/reading/populist-delusion.html" />
