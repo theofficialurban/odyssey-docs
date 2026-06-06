@@ -21,9 +21,9 @@ const vocabulary = inject("aligalleria")
 :::details Expand for Other Pages
 <Grid>
 <CCard collection="shared" href="/shared/breath-war.html" />
-<CCard collection="biodigital" href="./biodigital-convergence/artificial-liquid-intelligence.html" />
-<CCard collection="biodigital" href="./biodigital-convergence/blockchain-genomics.html" />
-<CCard collection="biodigital" href="./biodigital-convergence/dao.html" />
+<CCard collection="biodigital" href="/biodigital-convergence/artificial-liquid-intelligence.html" />
+<CCard collection="biodigital" href="/biodigital-convergence/blockchain-genomics.html" />
+<CCard collection="biodigital" href="/biodigital-convergence/dao.html" />
 </Grid>
 :::
 
