@@ -4,6 +4,14 @@ description: |
   The provided sources explore the intersection of blockchain technology and genomics, emphasizing how decentralized systems can solve critical issues in data ownership, security, and sharing. Through case studies like LifeCODE.ai, the texts illustrate how smart contracts and encryption return control of sensitive genetic information to the individual while facilitating research through token-based incentives.
 ---
 
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("aligalleria")
+
+</script>
+
 [[atomic]]
 
 # Artificial Liquid Intelligence & Blockchain {#title}
@@ -13,6 +21,18 @@ description: |
 ## Overview
 
 The provided sources explore the intersection of **blockchain technology and genomics**, emphasizing how decentralized systems can solve critical issues in **data ownership, security, and sharing**. Through case studies like **LifeCODE.ai**, the texts illustrate how **smart contracts and encryption** return control of sensitive genetic information to the individual while facilitating research through **token-based incentives**. Technical repositories like **SAMChain** demonstrate practical applications for storing and analyzing genomic files directly on a **multichain blockchain**. Furthermore, scientific perspectives draw an **analogy between blockchains and DNA**, suggesting that both function as immutable digital or biological ledgers that replicate and store essential blueprints. The sources also highlight the role of the **Artificial Liquid Intelligence (ALI) Utility Token** in governing AI-driven assets within this evolving digital ecosystem. Collectively, these materials present blockchain as a robust framework for managing the **complexity and privacy** of genomic big data.
+
+<CCard collection="biodigital" href="./biodigital-convergence/intelligent-tokens.html" />
+<CCard collection="biodigital" href="./biodigital-convergence/blockchain-genomics.html" />
+<CCard collection="biodigital" href="./biodigital-convergence/dao.html" />
+
+## Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/artificial-liquid-intelligence-blockchain-genomics-JgOKo5P', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+
+## NotebookLM Video Deep Dive
+
+<YouTube id="opygKaEP5Nk" />
 
 ## **The Digital Genome: _Breaking Down Blockchain through Biological DNA_**
 

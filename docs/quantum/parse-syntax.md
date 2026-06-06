@@ -34,6 +34,10 @@ https://quantum-grammar-simulation.vercel.app/
 
 <PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/%5BFULL%5D%20Quantum%20Grammar.pdf" title="David Wynn Miller's Quantum Parse Syntax Grammar Notes" />
 
+== Legal Grammar
+
+<PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/LegalEnglishch01.pdf" title="Legal English Usage & Grammar (Rupert Haigh)" />
+
 == Parts of Speech
 
 ![](https://i.imgur.com/tRnk5aB.png)

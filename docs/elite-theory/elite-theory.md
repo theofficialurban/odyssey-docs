@@ -29,7 +29,9 @@ const elitetheory_vocabulary = inject("elitetheorygalleria")
 
 :::
 
-<CCard collection="mahanism" href="/mahanism/agitprop.html" />
+<CCard collection="elitetheory" href="/elite-theory/agitprop.html" />
+<CCard collection="elitetheory" href="/elite-theory/populist-delusion.html" />
+
 <CCard collection="reading" href="/reading/populist-delusion.html" />
 
 ## **Definition:** `Elite Theory` {#elite-theory}

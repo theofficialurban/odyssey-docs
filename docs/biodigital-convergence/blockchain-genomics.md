@@ -4,6 +4,14 @@ description: These are my notes on the Genomic applications of Blockchain techno
 ogimage: https://i.imgur.com/tABhcWZ.png
 ---
 
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("aligalleria")
+
+</script>
+
 [[atomic]]
 
 # 🧬 Blockchain & Genomics {#blockchain-genomics}
@@ -17,6 +25,10 @@ ogimage: https://i.imgur.com/tABhcWZ.png
 ::: tip
 Access all of my source documents here: https://u.pcloud.link/publink/show?code=kZK0s95ZKg9TWbEfy4m3HOWzeWsXmufVscUX
 :::
+
+### Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/artificial-liquid-intelligence-blockchain-genomics-JgOKo5P', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
 ### _Blockchain in Life Sciences_
 

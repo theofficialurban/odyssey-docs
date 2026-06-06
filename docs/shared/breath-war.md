@@ -2,6 +2,7 @@
 title: Breath War
 description: |
   James Carner’s "Breath War" outlines a theological and legal framework where human breath is viewed as a divine jurisdictional commodity. The author posits that a spiritual conflict exists between God’s original registry of life and a counterfeit Luciferian economy that seeks to harvest breath through trauma, sin, and deception.
+ogimage: https://i.imgur.com/5j2MmtH.png
 ---
 
 [[atomic]]
@@ -12,13 +13,22 @@ description: |
 
 ## Overviews
 
-![](https://i.imgur.com/cVOfdij.jpeg)
+![](https://i.imgur.com/5j2MmtH.png)
 
 James Carner’s "Breath War" outlines a **theological and legal framework** where human breath is viewed as a **divine jurisdictional commodity**. The author posits that a spiritual conflict exists between **God’s original registry of life** and a **counterfeit Luciferian economy** that seeks to harvest breath through **trauma, sin, and deception**. This narrative traces a "seedline indictment" from the **Cain and Abel fracture** to modern **transhumanism and artificial intelligence**, portraying these as tools for **illegal breath extraction**. Carner argues that **elite bloodlines and occult hierarchies** manage this energy economy to build a **synthetic kingdom** outside of divine authority. Ultimately, the text asserts that the **sacrificial blood of Christ** serves as the only **superior legal counterclaim** capable of nullifying these spiritual contracts. The work serves as a manual for the "remnant" to engage in **courtroom-style intercessory prayer** to reclaim stolen spiritual jurisdiction.
 
+:::tip Audiobooks & Word Images
+
+Imgur Album: https://imgur.com/a/Y8iOEht
+James has completed audiobooks for 4 out of his 5 books: https://rumble.com/playlists/IXx2uMujGos?e9s=src_v1_upp_pl
+
+:::
+
+<CCard collection="biodigital" href="./biodigital-convergence/intelligent-tokens.html" />
+
 ## Videos {#videos}
 
-### Breath Wars Pt. 1 - Vocabulary Words & Terms _(To Be Continued)_
+### Breath Wars Pt. 1 - Vocabulary Words & Terms {#pt-1}
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v763if0/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78a6f8--breath-wars-urban-odyssey-live-w-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['YouTube', 'https://youtube.com/live/uqqXxZ36rMA'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/breath-wars-040926:f'], ['Substack', 'https://theofficialurban.substack.com/p/breath-wars-pt-1?r=3kr5wz'], ['Spotify', 'https://open.spotify.com/episode/17R4AgU3Pl8f4guC7UvFyc?si=Ge4j3FMvRJus6anFE_ljZw']]" />
 
@@ -34,6 +44,10 @@ In this episode of Urban Odyssey, we sit down with [**Pastor James Carner**](htt
 - **Digital Arks:** The attempt to preserve identity and data in a post-human era.
 
 :::
+
+### Who Owns Your Soul? The Hidden Spiritual Battle Behind AI and Digital ID ft. James Carner {#pt-2}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v76elbe/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v78l9bm--breath-wars-part-ii-urban-odyssey-live-w-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['YouTube', 'https://youtube.com/live/ziLQENZFzPo?feature=share'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/breath-wars-041626:6'], ['Substack', 'https://theofficialurban.substack.com/p/breath-wars-pt-2?r=3kr5wz'], ['Spotify', 'https://open.spotify.com/episode/3ulLpSTOtoTXkN3aKII7fh?si=67aa029243dc4e32']]" />
 
 ### Previous Episode(s)
 

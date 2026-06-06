@@ -51,6 +51,7 @@ import CustomCarousel from "./components/PrimeVue/CustomCarousel.vue";
 import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
 import {
   AgitPropGalleria,
+  ALIGalleria,
   CCRUVocabulary,
   EliteTheoryGalleria,
   MetaPhotonicsGalleria,
@@ -159,6 +160,7 @@ export default {
     app.provide("agitpropgalleria", AgitPropGalleria);
     app.provide("morphicgalleria", MorphicResonanceGalleria);
     app.provide("elitetheorygalleria", EliteTheoryGalleria);
+    app.provide("aligalleria", ALIGalleria);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

@@ -235,6 +235,39 @@ export const MorphicResonanceGalleria: ImageItem[] = [
     title: "Evolutionary Plagiarism",
   },
 ];
+export const ALIGalleria: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/1IW66RE.png",
+    title: "Artificial Liquid Intelligence (ALI)",
+  },
+  {
+    image: "https://i.imgur.com/oMHt7V3.png",
+    title: "Intelligent Non-Fungible Token (iNFT)",
+  },
+  {
+    image: "https://i.imgur.com/mR3qVIS.png",
+    title: "Harvest Now, Decrypt Later (HNDL)",
+  },
+  {
+    image: "https://i.imgur.com/FLPBp0V.png",
+    title: "Bioanalogous Ledgers (Blockchain Biology)",
+  },
+  {
+    image: "https://i.imgur.com/LLt6dEs.png",
+    title: "Biological Boolean Logic Gates",
+  },
+  {
+    image: "https://i.imgur.com/TPbK9rb.png",
+    title: "Decentralized Oracle Networks (DONs)",
+  },
+  {
+    image: "https://i.imgur.com/Foo2L1P.png",
+    title: "Genomic Ledgers (SAMchain / ConsentChain)",
+  },
+  { image: "https://i.imgur.com/XTtX8MG.png", title: "Quantum Pangenomics" },
+  { image: "https://i.imgur.com/kin10pz.png", title: "Hive Registry (DePIN)" },
+];
+
 export const EliteTheoryGalleria: ImageItem[] = [
   {
     image: "https://i.imgur.com/EAjzerw.png",
