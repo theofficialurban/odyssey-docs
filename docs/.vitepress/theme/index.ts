@@ -59,6 +59,7 @@ import {
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
+import CollectionCardGrid from "./components/CollectionCardGrid.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -132,6 +133,7 @@ export default {
     app.component("Grid", CardGrid);
     app.component("EsoIcon", EsotericIcons);
     app.component("CCard", CollectionCard);
+    app.component("CCards", CollectionCardGrid);
     //app.component("DictTest", DictTest);
     app.component("Redirect", Redirect);
     app.component("Imgur", ImgurEmbed);
