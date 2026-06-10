@@ -23,9 +23,14 @@ const vocabulary = inject("aligalleria")
 <CCard collection="shared" href="/shared/breath-war.html" />
 <CCard collection="biodigital" href="/biodigital-convergence/artificial-liquid-intelligence.html" />
 <CCard collection="biodigital" href="/biodigital-convergence/blockchain-genomics.html" />
+<CCard collection="biodigital" href="/biodigital-convergence/smart-contracts.html" />
 <CCard collection="biodigital" href="/biodigital-convergence/dao.html" />
 </Grid>
 :::
+
+## Urban's Presentation
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v78tfvq/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7b03vy-cause-before-symptom-w-urban-june-8th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/artificial-liquid-intelligence'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-060826:b'], ['Spotify', 'https://open.spotify.com/episode/5UIgCX5jJi72LVSqKmGIf6?si=8t1vjKOdSUWoxCiO5IbcdQ']]" />
 
 ## Key Words & Terms
 

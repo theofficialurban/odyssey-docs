@@ -22,9 +22,16 @@ const vocabulary = inject("aligalleria")
 
 The provided sources explore the intersection of **blockchain technology and genomics**, emphasizing how decentralized systems can solve critical issues in **data ownership, security, and sharing**. Through case studies like **LifeCODE.ai**, the texts illustrate how **smart contracts and encryption** return control of sensitive genetic information to the individual while facilitating research through **token-based incentives**. Technical repositories like **SAMChain** demonstrate practical applications for storing and analyzing genomic files directly on a **multichain blockchain**. Furthermore, scientific perspectives draw an **analogy between blockchains and DNA**, suggesting that both function as immutable digital or biological ledgers that replicate and store essential blueprints. The sources also highlight the role of the **Artificial Liquid Intelligence (ALI) Utility Token** in governing AI-driven assets within this evolving digital ecosystem. Collectively, these materials present blockchain as a robust framework for managing the **complexity and privacy** of genomic big data.
 
+<Grid>
 <CCard collection="biodigital" href="/biodigital-convergence/intelligent-tokens.html" />
 <CCard collection="biodigital" href="/biodigital-convergence/blockchain-genomics.html" />
+<CCard collection="biodigital" href="/biodigital-convergence/smart-contracts.html" />
 <CCard collection="biodigital" href="/biodigital-convergence/dao.html" />
+</Grid>
+
+## Urban's Presentation
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v78tfvq/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7b03vy-cause-before-symptom-w-urban-june-8th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/artificial-liquid-intelligence'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-060826:b'], ['Spotify', 'https://open.spotify.com/episode/5UIgCX5jJi72LVSqKmGIf6?si=8t1vjKOdSUWoxCiO5IbcdQ']]" />
 
 ## Key Words & Terms
 

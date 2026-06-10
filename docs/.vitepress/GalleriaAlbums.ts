@@ -266,6 +266,30 @@ export const ALIGalleria: ImageItem[] = [
   },
   { image: "https://i.imgur.com/XTtX8MG.png", title: "Quantum Pangenomics" },
   { image: "https://i.imgur.com/kin10pz.png", title: "Hive Registry (DePIN)" },
+  { image: "https://i.imgur.com/PSf9lwo.png", title: "Proof-of-Stake (PoS)" },
+  { image: "https://i.imgur.com/hifEGUz.png", title: "Digital Leviathan" },
+  { image: "https://i.imgur.com/rBAscfh.png", title: "Algorithmic Governance" },
+  {
+    image: "https://i.imgur.com/JhIcCGK.png",
+    title: "Digital Neo-Imperialism",
+  },
+  { image: "https://i.imgur.com/4c31miy.png", title: "Smart Legal Contract" },
+  {
+    image: "https://i.imgur.com/tyT9E9G.png",
+    title: "Decentralized Finance (DeFi)",
+  },
+  {
+    image: "https://i.imgur.com/1bJ2ZKD.png",
+    title: "Cross-Chain Interoperability Protocol (CCIP)",
+  },
+  {
+    image: "https://i.imgur.com/t1L7Zud.png",
+    title: "Symbolic Execution (Formal Verification)",
+  },
+  {
+    image: "https://i.imgur.com/sazY7Q2.png",
+    title: "Reentrancy Vulnerability",
+  },
 ];
 
 export const EliteTheoryGalleria: ImageItem[] = [
