@@ -400,6 +400,38 @@ const CollectionDefinitions: DefineCollections = {
   },
 };
 
+/**
+ * Takes a collection key and returns the slug url pattern `/slug` or if a `hrefSlug` is given, will return
+ * a fully formatted slug `/slug/hrefSlug.html`
+ *
+ * #### Example
+ *
+ * ```ts
+ * getCollectionSlug('biodigital', '6g-whitepaper') // /biodigital-convergence/6g-whitepaper.html
+ * ```
+ *
+ * @param collectionName The name of a collection
+ * @param hrefSlug Optional slug to return a fully formatted slug url
+ * @returns `iconLink` or formatted `iconLink`
+ */
+export function getCollectionSlug(
+  collectionName: string,
+  hrefSlug: string | null = null,
+): string | null {
+  const collectionNames = Object.entries(CollectionDefinitions);
+  const found = collectionNames.find(([cName]) => {
+    return cName == collectionName;
+  });
+  if (!hrefSlug) return found ? found[1].iconLink : null;
+  else if (hrefSlug) {
+    const foundIconLink = found ? found[1].iconLink : null;
+    if (!foundIconLink) return null;
+    let hrefTemplate = `${foundIconLink}/${hrefSlug}.html`;
+    return hrefTemplate;
+  }
+  return null;
+}
+
 export interface SponsorData {
   name: string;
   id: string;

@@ -26,6 +26,20 @@ const vocabulary = inject("aligalleria")
 Access all of my source documents here: https://u.pcloud.link/publink/show?code=kZK0s95ZKg9TWbEfy4m3HOWzeWsXmufVscUX
 :::
 
+## Urban's Videos {#videos}
+
+:::tabs
+== Intro Pt 1
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v78tfvq/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7b03vy-cause-before-symptom-w-urban-june-8th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/artificial-liquid-intelligence'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-060826:b'], ['Spotify', 'https://open.spotify.com/episode/5UIgCX5jJi72LVSqKmGIf6?si=8t1vjKOdSUWoxCiO5IbcdQ']]" />
+== Retrospective
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v79219w/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7b8pa4-age-of-deceit-retrospective-cause-before-symptom-w-urban-june-13th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-061326:f'], ['Substack', 'https://open.substack.com/pub/theofficialurban/p/age-of-deceit-recap?r=3kr5wz&utm_campaign=post&utm_medium=web'], ['YouTube', 'https://youtube.com/live/TH88RuJ8gkA?feature=share'], ['X-Link', 'https://x.com/officialurbanus/status/2066007255208849584?s=20']]" />
+
+:::
+
+### Recommended Video
+
+<YouTube id="bHOvPgZJjP4" />
+
 ### Key Words & Terms
 
 <ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/artificial-liquid-intelligence-blockchain-genomics-JgOKo5P', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
