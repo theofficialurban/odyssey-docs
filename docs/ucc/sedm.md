@@ -1,6 +1,8 @@
 ---
 title: UCC & SEDM
 description: Resources and information from the Sovereignty Education and Defense Ministry
+tags:
+  - SEDM
 ---
 
 [[atomic]]

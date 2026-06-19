@@ -2,6 +2,8 @@
 title: Personal Remedies & Defense
 description: |
   To navigate the predatory matrix of the administrative state, one must recognize that the ultimate battlefield is not geographic, but linguistic. In the legal field, the most absolute, devastating power you can possess is the power to DEFINE words. In practice, he who defines the words first wins all legal battles.
+tags:
+  - SEDM
 ---
 
 [[atomic]]

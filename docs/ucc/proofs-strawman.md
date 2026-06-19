@@ -1,6 +1,8 @@
 ---
 title: Proofs of the Strawman
 ogimage: https://i.imgur.com/RGzIMkx.png
+tags:
+  - SEDM
 ---
 
 # Proofs of the Strawman

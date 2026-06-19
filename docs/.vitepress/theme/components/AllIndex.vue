@@ -15,6 +15,7 @@ import {
   CollectionDefinition,
   findCollection,
 } from "../../utils.js";
+import Icon from "./Icon.vue";
 
 const { theme } = useData();
 const { hasItems, tags } = useCollection();
@@ -27,6 +28,7 @@ type ColObj = [
 ];
 
 const collectionsKeys = Object.keys(theme.value.collections);
+
 const collections: ComputedRef<ColObj[]> = computed(() => {
   return collectionsKeys.map((co) => {
     const foundCol: Collection = useCollection(co);

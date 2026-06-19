@@ -6,6 +6,8 @@ ogplayer: https://files.catbox.moe/13lhap.mp4
 ogimage: https://i.imgur.com/wYW2MQr.jpeg
 ogimagewidth: 1280
 ogimageheight: 720
+tags:
+  - Urban's Videos
 ---
 
 [[atomic]]

@@ -675,7 +675,16 @@ const SiteConstants = {
     cloudflarePolyfill,
   ],
   Tags: {
-    sedm: {
+    "Urban's Videos": {
+      color: "#FF000080",
+      styles: {
+        color: "black",
+        "font-weight": "800",
+      },
+      link: "https://direct.me/officialurban",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Videos by Urban</title><path fill="currentColor" d="M3 22V6.25l12-4.8V6h2v4h-2V8H5v12h5.175l2 2zM9 6h4V4.45zm4.463 14.538Q12 19.075 12 17t1.463-3.537T17 12t3.538 1.463T22 17t-1.463 3.538T17 22t-3.537-1.463M15.75 19.5l4-2.5l-4-2.5zM5 20V8z"/></svg>`,
+    },
+    SEDM: {
       color: "#AD46FF80",
       styles: {
         color: "white",

@@ -3,6 +3,8 @@ title: Cracking the Code
 description: |
   This text is an excerpt from the third edition of "Cracking the Code," a manual that claims the global legal and financial systems operate through a deceptive lexical artifice involving the corruption of the name. The authors argue that by writing names in all-capital letters, governments and corporations create a straw man, or an ens legis (artificial person), which serves as a nominal party in transactions to siphon wealth from living individuals.
 ogimage: https://i.imgur.com/TjNTR8Z.png
+tags:
+  - Jordan Maxwell
 ---
 
 [[atomic]]

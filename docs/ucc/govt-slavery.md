@@ -3,7 +3,7 @@ title: Govt Instituted Slavery
 description: |
   This document argues that modern governance has evolved into a system of government instituted slavery by manipulating the legal definition of franchises and benefits. The text asserts that by accepting statutory "privileges"—such as Social Security, licenses, or specific tax statuses—individuals unwittingly surrender their inalienable private rights and become public officers or "straw men" subject to federal regulation.
 tags:
-  - sedm
+  - SEDM
 ---
 
 [[atomic]]

@@ -3,6 +3,8 @@ title: Polylactic Co-Glycolic Acids
 description: |
   PLGA is a polyester copolymer synthesized from lactic acid (LA) and glycolic acid (GA) through ring-opening polymerization or direct polycondensation. It is universally championed by the medical-industrial complex due to its deceptive "biocompatibility"—it degrades through hydrolysis into lactic and glycolic acids, which the body metabolizes via the Krebs cycle into carbon dioxide and water. Because it mimics natural metabolic byproducts, the systemic alarms of the host are bypassed, allowing the U.S. Food and Drug Administration (FDA) and the European Medicines Agency (EMA) to sanction its use for injecting everything from psychiatric inhibitors to genetic modifiers.
 ogimage: https://i.imgur.com/ZwNHIPr.jpeg
+tags:
+  - Urban's Videos
 ---
 
 [[atomic]]
