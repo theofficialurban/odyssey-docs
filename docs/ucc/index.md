@@ -4,11 +4,22 @@ secret: true
 layout: page
 ---
 
+<VPLCollectionPage>
+  <VPLCollectionPageTitle>
+    <template #title>
+      Guides
+    </template>
+    <template #lead>
+      Helpful tutorial-like content!
+    </template>
+  </VPLCollectionPageTitle>
+  <VPLCollectionPageTags v-model="tags" />
+  <VPLCollectionItems :items="pages" :tags="tags"/>
+</VPLCollectionPage>
+
 <script setup>
-import {VPLCollectionItemTags, useCollection} from '@lando/vitepress-theme-default-plus'
-const {tags} = useCollection();
+import {useCollection} from '@lando/vitepress-theme-default-plus';
+import {VPLCollectionPage, VPLCollectionPageTags, VPLCollectionPageTitle, VPLCollectionItems} from '@lando/vitepress-theme-default-plus';
+
+const {pages, tags} = useCollection('ucc');
 </script>
-
-<VPLCollectionItemTags :v-model="tags" />
-
-<CollectionIndex title="Uniform Commercial Code" lead="Articles relating to the Uniform Commercial Code (UCC) and Commerce / Contractual Law" :collection="['ucc']" :useTags="true" />

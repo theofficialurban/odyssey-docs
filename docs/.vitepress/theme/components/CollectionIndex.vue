@@ -103,7 +103,7 @@ const collections = computed(() => {
             v-if="col.tags.length > 0 && hasItems() && useTags"
           />
           <VPLCollectionItems
-            v-if="col.hasItems()"
+            v-if="hasItems()"
             :items="publicPages"
             :tags="col.tags"
           />
