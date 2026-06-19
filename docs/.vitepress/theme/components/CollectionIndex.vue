@@ -8,7 +8,7 @@ import {
   VPLCollectionPageSection,
   VPLCollectionItems,
 } from "@lando/vitepress-theme-default-plus";
-import { computed } from "vue";
+import { computed, reactive, Reactive } from "vue";
 import {
   type Collection,
   type CollectionDefinition,
@@ -29,7 +29,6 @@ type DefinitionAndPages = {
   definition: CollectionDefinition | null;
   collection: Collection;
   publicPages: Page[];
-  hasItems: () => boolean;
 };
 
 const { theme } = useData();
@@ -53,15 +52,11 @@ const collections = computed(() => {
       }
       return { ...pubPg };
     });
-    console.log(found, titleFix, found.tags);
 
     cm.set(c, {
       definition: findCol,
       collection: found,
       publicPages: titleFix,
-      hasItems: () => {
-        return found.hasItems(titleFix, found.tags);
-      },
     });
   });
   return cm;
@@ -82,13 +77,15 @@ const collections = computed(() => {
     <template
       v-for="[
         name,
-        { definition: cDef, collection: col, publicPages, hasItems },
+        {
+          definition: cDef,
+
+          publicPages,
+          collection: fCol,
+        },
       ] in collections"
     >
-      {{ col.tags.length }}
-      {{ hasItems() ? "Yes Has Items" : "No Items" }}
-
-      <VPLCollectionPageSection v-if="hasItems()">
+      <VPLCollectionPageSection>
         <template #title>
           <Icon
             v-if="cDef !== null && cDef.icon && cDef.iconLink"
@@ -98,15 +95,8 @@ const collections = computed(() => {
           />
         </template>
         <template #items>
-          <VPLCollectionPageTags
-            :v-model="col.tags"
-            v-if="col.tags.length > 0 && hasItems() && useTags"
-          />
-          <VPLCollectionItems
-            v-if="hasItems()"
-            :items="publicPages"
-            :tags="col.tags"
-          />
+          <VPLCollectionPageTags v-model="fCol.tags" v-if="useTags" />
+          <VPLCollectionItems :items="publicPages" :tags="fCol.tags" />
         </template>
       </VPLCollectionPageSection>
     </template>
