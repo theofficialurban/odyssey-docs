@@ -52,20 +52,15 @@ const collections: ComputedRef<ColObj[]> = computed(() => {
 
     <VPLCollectionPageTags v-model="tags" />
 
-    <VPLCollectionPageSection
-      v-for="[cKey, cDef, col, hasPosts] in collections"
-    >
-      <template #title>
-        <Icon
-          v-if="cDef !== null && cDef.icon && cDef.iconLink"
-          :icon="cDef.icon ?? ''"
-          :link="cDef.iconLink"
-          :title="cKey.toUpperCase()"
-        />
-      </template>
+    <VPLCollectionPageSection>
+      <template #title> Posts </template>
 
       <template #items>
-        <VPLCollectionItems :items="col.pages" :tags="tags" />
+        <VPLCollectionItems
+          v-for="[cKey, cDef, col, hasPosts] in collections"
+          :items="col.pages"
+          :tags="tags"
+        />
       </template>
     </VPLCollectionPageSection>
   </VPLCollectionPage>
