@@ -21,6 +21,7 @@ const {
   NavigationLinks,
   SocialLinks,
   Head,
+  Tags,
 } = SiteConstants;
 
 const cfg: UserConfig = {
@@ -41,6 +42,7 @@ const cfg: UserConfig = {
     search: {
       provider: "local",
     },
+    tags: Tags,
     containers: CustomContainers,
     socialLinks: SocialLinks,
     nav: NavigationLinks,

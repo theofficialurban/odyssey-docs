@@ -4,6 +4,7 @@ import {
   VPLCollectionPage,
   VPLCollectionPageTags,
   VPLCollectionPageTitle,
+  VPLCollectionItemTags,
   VPLCollectionPageSection,
   VPLCollectionItems,
 } from "@lando/vitepress-theme-default-plus";
@@ -21,6 +22,7 @@ interface Props {
   title: string;
   lead: string;
   collection: string[];
+  tags?: boolean;
 }
 
 type DefinitionAndPages = {
@@ -30,7 +32,7 @@ type DefinitionAndPages = {
 };
 
 const { theme } = useData();
-const { title, collection, lead } = defineProps<Props>();
+const { title, collection, lead, tags: useTags = false } = defineProps<Props>();
 const collections = computed(() => {
   const cm = new Map<string, DefinitionAndPages>();
   collection.forEach((c) => {
@@ -89,7 +91,9 @@ const { hasItems, tags } = useCollection();
         <template #items>
           <VPLCollectionPageTags
             v-model="col.tags"
-            v-if="col.tags.length > 0 && hasItems(publicPages, col.tags)"
+            v-if="
+              col.tags.length > 0 && hasItems(publicPages, col.tags) && useTags
+            "
           />
           <VPLCollectionItems
             v-if="col.hasItems(publicPages, col.tags)"
