@@ -35,6 +35,8 @@ This transcript features William Cooper, host of "The Hour of the Time," advocat
 
 ## Soundcloud
 
+<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay; encrypted-media" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/soundcloud%253Aplaylists%253A1920182423&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/hour-of-the-time" title="Hour Of The Time" target="_blank" style="color: #cccccc; text-decoration: none;">Hour Of The Time</a> · <a href="https://soundcloud.com/hour-of-the-time/sets/asset-protection-12-hour-audio-series" title="Asset Protection 12-hour audio series" target="_blank" style="color: #cccccc; text-decoration: none;">Asset Protection 12-hour audio series</a></div>
+
 <Card title="Asset Protection 12-hour audio series" img="https://i1.sndcdn.com/artworks-zKu50vsszygtatzX-tGDBXg-t500x500.jpg" description="Bill Cooper's Hour of the Time Radio Show" href="https://on.soundcloud.com/KtQMOzlSl3t1nYtOFV" />
 
 ## **Strategic Asset Protection & Sovereignty Doctrine: _The Offshore Methodology_**

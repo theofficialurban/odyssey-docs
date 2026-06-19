@@ -29,6 +29,7 @@ type DefinitionAndPages = {
   definition: CollectionDefinition | null;
   collection: Collection;
   publicPages: Page[];
+  hasItems: () => boolean;
 };
 
 const { theme } = useData();
@@ -52,15 +53,20 @@ const collections = computed(() => {
       }
       return { ...pubPg };
     });
+    console.log(found, titleFix, found.tags);
+
     cm.set(c, {
       definition: findCol,
       collection: found,
       publicPages: titleFix,
+      hasItems: () => {
+        return found.hasItems(titleFix, found.tags);
+      },
     });
   });
   return cm;
 });
-const { hasItems, tags } = useCollection();
+//const { hasItems, tags } = useCollection();
 </script>
 
 <template>
@@ -76,16 +82,13 @@ const { hasItems, tags } = useCollection();
     <template
       v-for="[
         name,
-        { definition: cDef, collection: col, publicPages },
+        { definition: cDef, collection: col, publicPages, hasItems },
       ] in collections"
     >
       {{ col.tags.length }}
-      {{ hasItems(publicPages, col.tags) }}
-      <VPLCollectionPageTags
-        v-model="col.tags"
-        v-if="col.tags.length > 0 && hasItems(publicPages, col.tags) && useTags"
-      />
-      <VPLCollectionPageSection v-if="col.hasItems(publicPages, col.tags)">
+      {{ hasItems() ? "Yes Has Items" : "No Items" }}
+
+      <VPLCollectionPageSection v-if="hasItems()">
         <template #title>
           <Icon
             v-if="cDef !== null && cDef.icon && cDef.iconLink"
@@ -95,8 +98,12 @@ const { hasItems, tags } = useCollection();
           />
         </template>
         <template #items>
+          <VPLCollectionPageTags
+            :v-model="col.tags"
+            v-if="col.tags.length > 0 && hasItems() && useTags"
+          />
           <VPLCollectionItems
-            v-if="col.hasItems(publicPages, col.tags)"
+            v-if="col.hasItems()"
             :items="publicPages"
             :tags="col.tags"
           />
