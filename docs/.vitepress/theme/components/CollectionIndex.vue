@@ -79,6 +79,12 @@ const { hasItems, tags } = useCollection();
         { definition: cDef, collection: col, publicPages },
       ] in collections"
     >
+      {{ col.tags.length }}
+      {{ hasItems(publicPages, col.tags) }}
+      <VPLCollectionPageTags
+        v-model="col.tags"
+        v-if="col.tags.length > 0 && hasItems(publicPages, col.tags) && useTags"
+      />
       <VPLCollectionPageSection v-if="col.hasItems(publicPages, col.tags)">
         <template #title>
           <Icon
@@ -89,12 +95,6 @@ const { hasItems, tags } = useCollection();
           />
         </template>
         <template #items>
-          <VPLCollectionPageTags
-            v-model="col.tags"
-            v-if="
-              col.tags.length > 0 && hasItems(publicPages, col.tags) && useTags
-            "
-          />
           <VPLCollectionItems
             v-if="col.hasItems(publicPages, col.tags)"
             :items="publicPages"
