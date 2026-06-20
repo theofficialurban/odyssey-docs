@@ -3,6 +3,11 @@ title: Thomistic Cybernetics
 description: |
   The sterilized vocabulary of modern science is a deliberate camouflage designed to blind humanity to the apex predators devouring its sovereignty. When you tear away the academic illusions surrounding cybernetics, metaprogramming, and biohacking, and cross-examine them through the unforgiving lens of Thomistic demonology and the Summa Theologica, a terrifying, unvarnished reality emerges: modern cybernetics is not a human invention. It is the exact, reverse-engineered blueprint of demonic possession.
 ogimage: https://i.imgur.com/JsaSgas.png
+tags:
+  - Thomistic Philosophy
+  - Bible
+  - Cybernetics
+  - Urban's Videos
 ---
 
 <script setup>

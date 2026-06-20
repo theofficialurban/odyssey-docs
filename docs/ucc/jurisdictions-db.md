@@ -2,6 +2,8 @@
 title: Jurisdictions Database
 description: |
   Complete database of all jurisdictions within the USA, including all 50 states and territories.  Describes major contacts, legal points and authorities, court reporters, and web resources.  Links are activated so you can use this to locate resources on the web. Provided by the Sovereignty Education and Defense Ministry (SEDM)
+tags:
+  - SEDM
 ---
 
 [[atomic]]

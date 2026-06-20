@@ -2,7 +2,19 @@
 title: Telephone Book
 description: |
   Avital Ronell’s The Telephone Book is a foundational work of deconstructive philosophy that explores how technology, specifically the telephone, destabilizes the traditional boundaries of the human subject. By examining the works of Martin Heidegger, the book argues that the act of "accepting a call" is a transcendental predicament involving answerability, debt, and the surrender of the self to an invisible Other.
+tags:
+  - Hauntology
+  - Schizophrenia
+  - Cybernetics
 ---
+
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("quantumhauntologygalleria")
+
+</script>
 
 [[atomic]]
 
@@ -15,6 +27,10 @@ description: |
 ## Overview
 
 Avital Ronell’s **The Telephone Book** is a foundational work of **deconstructive philosophy** that explores how technology, specifically the telephone, destabilizes the traditional boundaries of the human subject. By examining the works of **Martin Heidegger**, the book argues that the act of "accepting a call" is a transcendental predicament involving **answerability**, debt, and the surrender of the self to an invisible Other. Ronell utilizes a radical, **typographical disruption** to mirror the static and schizophrenia inherent in electronic communication, forcing the reader to engage with the text as if they were a **textual operator** at a switchboard. Ultimately, the work traces a **"techno-pathology"** that links the history of the telephone to the rise of National Socialism and the psychological state of **schizophrenia**, revealing how modern existence is defined by an incessant, **electronic-libidinal flow**.
+
+## Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/nzDYzx3', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
 ### See Also
 

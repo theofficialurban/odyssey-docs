@@ -1,14 +1,67 @@
 <script setup lang="ts">
 import { useData } from "vitepress";
 import { computed, ComputedRef } from "vue";
-import CollectionIndex from "./CollectionIndex.vue";
-const { theme } = useData();
 
-const collections: ComputedRef<string[]> = computed(() =>
-  Object.keys(theme.value.collections)
-);
+import {
+  VPLCollectionItems,
+  VPLCollectionPage,
+  VPLCollectionPageSection,
+  VPLCollectionPageTags,
+  useCollection,
+  VPLCollectionPageTitle,
+} from "@lando/vitepress-theme-default-plus";
+import {
+  Collection,
+  CollectionDefinition,
+  findCollection,
+} from "../../utils.js";
+import Icon from "./Icon.vue";
+
+const { theme } = useData();
+const { hasItems, tags } = useCollection();
+
+type ColObj = [
+  cKey: string,
+  cDef: CollectionDefinition | null,
+  c: Collection,
+  hasPosts: ComputedRef<boolean>,
+];
+
+const collectionsKeys = Object.keys(theme.value.collections);
+
+const collections: ComputedRef<ColObj[]> = computed(() => {
+  return collectionsKeys.map((co) => {
+    const foundCol: Collection = useCollection(co);
+
+    return [
+      co,
+      findCollection(theme.value.collections, co),
+      foundCol,
+      computed(() => hasItems(foundCol.pages, tags)),
+    ];
+  });
+});
 </script>
 
 <template>
-  <CollectionIndex title="All Posts" lead="" :collection="collections" />
+  <VPLCollectionPage>
+    <VPLCollectionPageTitle>
+      <template #title> All Posts </template>
+      <template #lead> A listing of all pages on the site! </template>
+    </VPLCollectionPageTitle>
+
+    <VPLCollectionPageTags v-model="tags" />
+
+    <VPLCollectionPageSection>
+      <template #title> Posts </template>
+
+      <template #items>
+        <VPLCollectionItems
+          v-for="[cKey, cDef, col, hasPosts] in collections"
+          :items="col.pages"
+          :tags="tags"
+        />
+      </template>
+    </VPLCollectionPageSection>
+  </VPLCollectionPage>
 </template>

@@ -2,6 +2,11 @@
 title: Revolutionary Demonology
 description: |
   The text Revolutionary Demonology by Gruppo di Nun is a philosophical and esoteric manifesto that seeks to dismantle traditional Western occultism by replacing it with a materialist neo-magic rooted in modern science. The authors argue that the historical "Right Hand Path" is a reactionary system designed to maintain a false sense of cosmic equilibrium and human dominance, which they equate with patriarchal and fascist structures.
+tags:
+  - Hauntology
+  - Ccru
+  - Cyberpunk
+  - Cybernetics
 ---
 
 [[atomic]]

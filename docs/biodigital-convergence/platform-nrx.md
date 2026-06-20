@@ -2,6 +2,10 @@
 title: Platform NRx
 description: The Push for Tokenization, Universal Ledgers, Monarch CEOs, "Platform NRx" & Possible Resistance Methods
 ogimage: https://i.imgur.com/pfv1tNi.jpeg
+tags:
+  - Cybernetics
+  - Human Husbandry
+  - Ccru
 ---
 
 [[atomic]]

@@ -4,10 +4,11 @@ import {
   VPLCollectionPage,
   VPLCollectionPageTags,
   VPLCollectionPageTitle,
+  VPLCollectionItemTags,
   VPLCollectionPageSection,
   VPLCollectionItems,
 } from "@lando/vitepress-theme-default-plus";
-import { computed } from "vue";
+import { computed, reactive, Reactive } from "vue";
 import {
   type Collection,
   type CollectionDefinition,
@@ -21,6 +22,7 @@ interface Props {
   title: string;
   lead: string;
   collection: string[];
+  tags?: boolean;
 }
 
 type DefinitionAndPages = {
@@ -30,7 +32,7 @@ type DefinitionAndPages = {
 };
 
 const { theme } = useData();
-const { title, collection, lead } = defineProps<Props>();
+const { title, collection, lead, tags: useTags = false } = defineProps<Props>();
 const collections = computed(() => {
   const cm = new Map<string, DefinitionAndPages>();
   collection.forEach((c) => {
@@ -50,6 +52,7 @@ const collections = computed(() => {
       }
       return { ...pubPg };
     });
+
     cm.set(c, {
       definition: findCol,
       collection: found,
@@ -58,7 +61,7 @@ const collections = computed(() => {
   });
   return cm;
 });
-const { hasItems, tags } = useCollection();
+//const { hasItems, tags } = useCollection();
 </script>
 
 <template>
@@ -74,10 +77,15 @@ const { hasItems, tags } = useCollection();
     <template
       v-for="[
         name,
-        { definition: cDef, collection: col, publicPages },
+        {
+          definition: cDef,
+
+          publicPages,
+          collection: fCol,
+        },
       ] in collections"
     >
-      <VPLCollectionPageSection v-if="col.hasItems(publicPages, col.tags)">
+      <VPLCollectionPageSection>
         <template #title>
           <Icon
             v-if="cDef !== null && cDef.icon && cDef.iconLink"
@@ -87,15 +95,8 @@ const { hasItems, tags } = useCollection();
           />
         </template>
         <template #items>
-          <VPLCollectionPageTags
-            v-model="col.tags"
-            v-if="col.tags.length > 0 && hasItems(publicPages, col.tags)"
-          />
-          <VPLCollectionItems
-            v-if="col.hasItems(publicPages, col.tags)"
-            :items="publicPages"
-            :tags="col.tags"
-          />
+          <VPLCollectionPageTags v-model="fCol.tags" v-if="useTags" />
+          <VPLCollectionItems :items="publicPages" :tags="fCol.tags" />
         </template>
       </VPLCollectionPageSection>
     </template>

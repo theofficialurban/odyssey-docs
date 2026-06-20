@@ -5,6 +5,9 @@ description: |
 ogimage: https://i.imgur.com/OeLMnjB.png
 ogimagewidth: 1280
 ogimageheight: 720
+tags:
+  - Urban's Videos
+  - Human Husbandry
 ---
 
 [[atomic]]

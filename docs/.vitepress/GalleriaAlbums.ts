@@ -292,6 +292,62 @@ export const ALIGalleria: ImageItem[] = [
   },
 ];
 
+export const QuantumHauntologyGalleria: ImageItem[] = [
+  { image: "https://i.imgur.com/sUxhYOK.png", title: "Accommodation Party" },
+  { image: "https://i.imgur.com/cfzZAf1.png", title: "Barnum Statement" },
+  {
+    image: "https://i.imgur.com/CXucdtR.png",
+    title: "D.-C.-C.-V.",
+    caption: "Document-Contract-Corporation-Vessel",
+  },
+  {
+    image: "https://i.imgur.com/tH0ZliA.png",
+    title: "F.C.L.F.",
+    caption: "Fiction-Communication and Language-Format",
+  },
+  {
+    image: "https://i.imgur.com/5aYq2Ox.png",
+    title: "Field Warehouse Receipt",
+  },
+  { image: "https://i.imgur.com/YeSa3sK.png", title: "Identity Laundering" },
+  {
+    image: "https://i.imgur.com/RygoYmt.png",
+    title: "Invisible Consent Mechanisms",
+  },
+  {
+    image: "https://i.imgur.com/qEmmAVA.png",
+    title: "JI-Operator",
+    caption: "Jurisdictional Identity Operator",
+  },
+  { image: "https://i.imgur.com/sBBCnYr.png", title: "Perjury Jurat" },
+  {
+    image: "https://i.imgur.com/jIBLivG.png",
+    title: "PersonPRI (Private Capacity)",
+  },
+  {
+    image: "https://i.imgur.com/pLSr4a1.png",
+    title: "PersonPUB (Public Capacity)",
+  },
+  {
+    image: "https://i.imgur.com/Nu5LzYf.png",
+    title: "Straw Man (Ens Legis / Stramineus Homo)",
+  },
+  { image: "https://i.imgur.com/pz6qxCi.png", title: "Transmitting Utility" },
+  { image: "https://i.imgur.com/CC5WWHB.png", title: "Age of Total Language" },
+  { image: "https://i.imgur.com/mECOGAT.png", title: "Cyberotics" },
+  {
+    image: "https://i.imgur.com/o4u6ex6.png",
+    title: "Energy Distribution Card",
+  },
+  { image: "https://i.imgur.com/UD8sjKO.png", title: "Functional Sequence" },
+  { image: "https://i.imgur.com/9d1INZm.png", title: "Metaphysical Economy" },
+  { image: "https://i.imgur.com/Eu4JbDV.png", title: "NBIC Convergence" },
+  { image: "https://i.imgur.com/Pc0RzUH.png", title: "Post-Human" },
+  { image: "https://i.imgur.com/b42xYbe.png", title: "Self-Augmentation" },
+  { image: "https://i.imgur.com/FH2ShOa.png", title: "Technological Autonomy" },
+  { image: "https://i.imgur.com/eKrAfDG.png", title: "Transhumanism" },
+];
+
 export const EliteTheoryGalleria: ImageItem[] = [
   {
     image: "https://i.imgur.com/EAjzerw.png",

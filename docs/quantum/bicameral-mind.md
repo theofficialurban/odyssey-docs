@@ -3,6 +3,9 @@ title: Bicameral Origin of Consciousness
 description: |
   In this seminal work, Julian Jaynes investigates the enigmatic origin of human consciousness by first dismantling historical misconceptions that equate self-awareness with simple biological reactivity or associative learning. The text critiques various scientific and philosophical theories—ranging from behaviorism to neurological reductionism—arguing that consciousness is not an inherent property of matter or all living protoplasm, but a specific, metaphorical "introcosm" that emerged relatively recently in human history.
 ogimage: https://i.ytimg.com/vi/5xG_2D0WaPc/maxresdefault.jpg
+tags:
+  - Urban's Videos
+  - Cybernetics
 ---
 
 [[atomic]]

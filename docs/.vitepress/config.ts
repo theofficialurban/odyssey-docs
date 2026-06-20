@@ -21,6 +21,7 @@ const {
   NavigationLinks,
   SocialLinks,
   Head,
+  Tags,
 } = SiteConstants;
 
 const cfg: UserConfig = {
@@ -41,6 +42,7 @@ const cfg: UserConfig = {
     search: {
       provider: "local",
     },
+    tags: Tags,
     containers: CustomContainers,
     socialLinks: SocialLinks,
     nav: NavigationLinks,
@@ -90,15 +92,15 @@ const cfg: UserConfig = {
   },
 
   transformPageData: OGFromFrontmatter,
-  buildEnd(siteConfig) {
-    return buildEndGenerateOpenGraphImages({
-      baseUrl: "https://docs.urbanodyssey.xyz",
-      overrideExistingMetaTags: false,
-      category: {
-        byPathPrefix: PathCategories,
-      },
-    })(siteConfig);
-  },
+  // buildEnd(siteConfig) {
+  //   return buildEndGenerateOpenGraphImages({
+  //     baseUrl: "https://docs.urbanodyssey.xyz",
+  //     overrideExistingMetaTags: false,
+  //     category: {
+  //       byPathPrefix: PathCategories,
+  //     },
+  //   })(siteConfig);
+  // },
   markdown: MarkdownOptions,
 };
 

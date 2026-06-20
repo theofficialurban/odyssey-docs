@@ -2,6 +2,9 @@
 title: Father Chad Ripperger
 description: |
   This text provides a theological and psychological examination of demonic influence and its impact on human faculties, primarily through the teachings of Fr. Chad Ripperger. It categorizes diabolical activity into ordinary temptation and extraordinary forms such as possession, obsession, and oppression, noting how these forces exploit physical organs like memory and imagination.
+tags:
+  - Thomistic Philosophy
+  - Bible
 ---
 
 [[atomic]]

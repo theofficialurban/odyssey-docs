@@ -3,6 +3,8 @@ title: Energy Harvesting WBANs
 description: |
   This report provides an exhaustive, expert-level analysis of the seven primary modalities of energy harvesting within WBAN ecosystems: Piezoelectric (PEEH), Triboelectric (TEEH), Electromagnetic (EMEH), Thermoelectric (TEG), Kinetic, Cardiovascular, and Blood Pressure harvesting.
 ogimage: https://i.imgur.com/sXWpWIm.png
+tags:
+  - Human Husbandry
 ---
 
 [[atomic]]

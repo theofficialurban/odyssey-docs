@@ -3,6 +3,10 @@ title: Libido Dominandi
 description: |
   In Libido Dominandi, E. Michael Jones explores the historical thesis that sexual liberation has been systematically utilized as a sophisticated method of political and social control.
 ogimage: https://i.imgur.com/ukqzy4P.jpeg
+tags:
+  - Propaganda
+  - Urban's Videos
+  - Mind Control
 ---
 
 [[atomic]]

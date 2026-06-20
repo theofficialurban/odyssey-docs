@@ -2,6 +2,9 @@
 title: Connectography
 description: |
   In this excerpt from Connectography, Parag Khanna argues that the traditional map of sovereign nations is becoming obsolete, replaced by a global network civilization defined by functional geography. He posits that connectivity is destiny, suggesting that the most powerful entities in the twenty-first century are no longer those with the largest armies, but those most integrated into global supply chains and infrastructure.
+tags:
+  - Cybernetics
+  - Human Husbandry
 ---
 
 [[atomic]]

@@ -2,6 +2,11 @@
 title: Nick Land
 description: Analysis of the writings of Nick Land, one of the modern mystical philosophers who has entered the spotlight recently due to the interview between Conrad Flynn and Tucker Carlson
 ogimage: https://i.imgur.com/6SQvC8k.jpeg
+tags:
+  - Hauntology
+  - Ccru
+  - Cyberpunk
+  - Cybernetics
 ---
 
 # Nick Land Reader: Selected Writings

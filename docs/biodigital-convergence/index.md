@@ -4,4 +4,4 @@ secret: true
 layout: page
 ---
 
-<CollectionIndex title="Biodigital Convergence" lead="Notes on Biodigital Convergence" :collection="['biodigital']" />
+<CollectionIndex title="Biodigital Convergence" lead="Notes on Biodigital Convergence" :collection="['biodigital']" :tags="true" />

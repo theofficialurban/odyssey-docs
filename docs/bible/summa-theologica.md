@@ -5,6 +5,9 @@ description: |
 ogimage: https://substackcdn.com/image/fetch/$s_!nymJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04413ff1-075d-403b-b0f7-a12717642f46_527x344.webp
 ogimagewidth: 527
 ogimageheight: 344
+tags:
+  - Thomistic Philosophy
+  - Bible
 ---
 
 [[atomic]]

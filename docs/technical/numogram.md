@@ -2,6 +2,11 @@
 title: The Numogram
 secret: true
 ogimage: https://i.imgur.com/VgxiqGJ.png
+tags:
+  - Hauntology
+  - Ccru
+  - Cyberpunk
+  - Cybernetics
 ---
 
 [[atomic]]

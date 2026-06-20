@@ -3,6 +3,8 @@ title: Jesuits Southern Border
 ogimage: https://i.imgur.com/Swo77mA.png
 description: |
   These historical texts explore the clash between nineteenth-century democratic movements and the European monarchies that sought to dismantle the American Union. Authors Emmett McLoughlin and A.R. Tyrner-Tyrnauer examine how Emperors Napoleon III and Francis Joseph I utilized the Civil War to install a puppet regime in Mexico and support the Confederacy.
+tags:
+  - Jesuits
 ---
 
 [[atomic]]

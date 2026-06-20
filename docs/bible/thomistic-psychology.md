@@ -3,6 +3,9 @@ title: Thomistic Psychology
 description: |
   This source is an introduction and initial chapter from Robert Edward Brennan’s Thomistic Psychology, a work dedicated to unifying scientific research with the philosophic analysis of the nature of man. The text primarily explores the Aristotelian foundation of psychology, defining the soul not as a mysterious ghost, but as the substantial form or "first actuality" of an organized body that is potentially alive.
 ogimage: https://cdn.thecollector.com/wp-content/uploads/2023/01/st-thomas-aquinas-philosophy-thomism.jpg
+tags:
+  - Thomistic Philosophy
+  - Bible
 ---
 
 <script setup>
