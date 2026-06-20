@@ -2,6 +2,10 @@
 title: Agitation Propaganda
 description: |
   This text is the foundational introduction to Jacques Ellul’s seminal 1962 study, which reimagines propaganda not as a collection of lies, but as an essential sociological phenomenon within the technological society. Ellul argues that modern influence is a sophisticated scientific technique that must be total, utilizing every available medium to encircle the individual and suppress critical thought.
+tags:
+  - Propaganda
+  - Mahanism
+  - Mind Control
 ---
 
 <script setup>
@@ -9,8 +13,6 @@ description: |
 import {inject} from "vue"
 
 const vocabulary = inject("agitpropgalleria")
-
-
 
 </script>
 

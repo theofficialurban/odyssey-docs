@@ -3,6 +3,12 @@ title: Heaven and Hardware
 ogimage: https://i.imgur.com/qIvhmvN.png
 description: |
   In our era of hyper-connectivity, we often treat our gadgets as mere neutral assistants—silicon slaves to our convenience. However, as a student of philosophy, you must recognize that no tool is ever truly neutral. Every piece of "hardware" is an expression of a deeper "Heaven"—a metaphysical worldview. This guide explores the concept of Cosmotechnics: the unification of the cosmic order and the moral order through technical activities.
+tags:
+  - Hauntology
+  - Ccru
+  - Cyberpunk
+  - Cybernetics
+  - Urban's Videos
 ---
 
 <script setup>

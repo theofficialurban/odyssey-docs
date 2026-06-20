@@ -5,6 +5,11 @@ description: |
 ogimage: https://i.imgur.com/ybIDGRn.png
 ogimagewidth: 776
 ogimageheight: 488
+tags:
+  - Hauntology
+  - Ccru
+  - Cyberpunk
+  - Cybernetics
 ---
 
 <script setup>

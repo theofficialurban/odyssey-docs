@@ -5,6 +5,7 @@ description: |
 ogimage: https://i.imgur.com/ZwNHIPr.jpeg
 tags:
   - Urban's Videos
+  - Human Husbandry
 ---
 
 [[atomic]]

@@ -2,6 +2,9 @@
 title: Surrogate Modeling
 description: |
   In the landscape of modern engineering, the Digital Twin has evolved from a buzzword into a rigorous "Cyber-Physical" bridge for decision-making. To an engineering architect, a Digital Twin is more than a 3D CAD drawing; it is a synchronized virtual mirror of reality.
+tags:
+  - Cybernetics
+  - Urban's Videos
 ---
 
 <script setup>

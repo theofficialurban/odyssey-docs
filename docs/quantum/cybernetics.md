@@ -2,6 +2,9 @@
 title: Cybernetics
 description: |
   The provided sources explore cybernetics as a multidisciplinary framework for understanding communication, control, and information in both living organisms and mechanical systems.
+tags:
+  - Urban's Videos
+  - Cybernetics
 ---
 
 <script setup>

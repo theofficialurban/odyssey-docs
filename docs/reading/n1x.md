@@ -2,6 +2,11 @@
 title: N1X Gender Acceleration
 description: |
   "Gender Acceleration: A Blackpaper" explores a radical theory where the evolution of technology and the decline of patriarchy converge to dismantle traditional biological roles. The text begins with a historical retelling of computer science, framing the shift from rigid, hierarchical systems like Multics to fluid, open-source networks like Unix as a symbolic castration of the masculine phallus.
+tags:
+  - Hauntology
+  - Ccru
+  - Cyberpunk
+  - Cybernetics
 ---
 
 [[atomic]]

@@ -7,4 +7,4 @@ layout: page
 order: 1
 ---
 
-<CollectionIndex title="Mahanism" lead="Notes from Masters Mahan & Elite Occultism" :collection="['mahanism']" />
+<CollectionIndex title="Mahanism" lead="Notes from Masters Mahan & Elite Occultism" :collection="['mahanism']" :tags="true" />

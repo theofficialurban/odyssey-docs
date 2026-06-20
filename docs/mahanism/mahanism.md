@@ -4,6 +4,8 @@ type: video
 ogplayer: https://www.youtube.com/embed/csqUdkzCDl0
 ogplayerwidth: 1280
 ogplayerheight: 720
+tags:
+  - Mahanism
 ---
 
 # What does `Mahan` / `Mahanism` Mean?
