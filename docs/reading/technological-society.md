@@ -12,7 +12,7 @@ tags:
 import {inject} from "vue"
 
 const vocabulary = inject("agitpropgalleria")
-const quantumHauntologyVocab = inject("QuantumHauntologyGalleria")
+const quantumHauntologyVocab = inject("quantumhauntologygalleria")
 
 </script>
 

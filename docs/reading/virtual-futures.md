@@ -13,7 +13,7 @@ tags:
 
 import {inject} from "vue"
 
-const vocabulary = inject("QuantumHauntologyGalleria")
+const vocabulary = inject("quantumhauntologygalleria")
 
 </script>
 
