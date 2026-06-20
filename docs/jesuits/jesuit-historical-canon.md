@@ -2,6 +2,8 @@
 title: Jesuit Historiographic Canon
 description: |
   This doctoral research challenges traditional views of Jesuit historiography by examining the works of Albert Wijuk-Koialowicz within a broader European intellectual and ideological framework. The author argues that Jesuit historical writing was not merely a superficial adoption of Renaissance rhetoric to mask medieval values, but rather a sophisticated "historiographic canon" that integrated a critical scientific method with the Society's religious and political mission.
+tags:
+  - Jesuits
 ---
 
 [[atomic]]

@@ -2,6 +2,10 @@
 title: Haunted Media
 description: |
   Jeffrey Sconce’s book, Haunted Media, investigates the historical evolution of electronic presence, exploring how Americans have conceptualized the "living" and often uncanny nature of telecommunications from the telegraph to the dawn of the digital age. By examining a series of cultural myths and anecdotes—ranging from haunted television sets to paranoid delusions—Sconce argues that electronic presence is a social construct that reflects our changing relationship with technology rather than an inherent property of the machines themselves.
+tags:
+  - Hauntology
+  - Schizophrenia
+  - Cybernetics
 ---
 
 [[atomic]]

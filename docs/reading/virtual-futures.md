@@ -2,7 +2,20 @@
 title: Virtual Futures
 description: |
   Virtual Futures is a scholarly yet experimental collection of essays that investigates the collapsing boundaries between humanity and technology within a rapidly advancing cybernetic and capitalist landscape. The text moves beyond the simple binary of technophobia and technophilia to argue that the future of the species lies in a post-human synthesis, where the organic body and synthetic machines merge into a single, evolving entity.
+tags:
+  - Hauntology
+  - Schizophrenia
+  - Cybernetics
+  - Cyberpunk
 ---
+
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("QuantumHauntologyGalleria")
+
+</script>
 
 [[atomic]]
 
@@ -19,6 +32,10 @@ description: |
 ### Highly Recommended Interview
 
 <YouTube id="bHOvPgZJjP4" />
+
+## Key Words & Terms
+
+<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/nzDYzx3', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
 ### See Also
 

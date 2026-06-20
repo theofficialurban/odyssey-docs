@@ -2,6 +2,10 @@
 title: Anti-Oedipus
 description: |
   In the seminal text Anti-Oedipus, Gilles Deleuze and Félix Guattari propose a materialist psychiatry that reimagines the human unconscious not as a theater of classical myths, but as a factory of desiring-machines. They argue that desire is a productive force that creates reality through "syntheses" of connection and flow, rather than a psychological "lack" or a search for a missing object.
+tags:
+  - Cybernetics
+  - Ccru
+  - Cyberpunk
 ---
 
 [[atomic]]

@@ -3,6 +3,10 @@ title: Internet Daemons
 description: |
   This source consists of excerpts from Fenwick McKelvey’s book, Internet Daemons, which explores the evolution of digital communication through the lens of software programs that operate in the background of infrastructure. McKelvey argues that the internet is "possessed" by these daemons, which are responsible for flow control—the process of managing packetized data to enable diverse network applications to coexist.
 ogimage: https://i.imgur.com/XkMnBTT.png
+tags:
+  - Hauntology
+  - Urban's Videos
+  - Cybernetics
 ---
 
 [[atomic]]

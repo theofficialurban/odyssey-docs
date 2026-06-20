@@ -2,6 +2,9 @@
 title: Angels & Demons
 description: |
   This scholarly excerpt from Serge-Thomas Bonino’s work provides a Thomistic introduction to the theology of spiritual beings, framing angelology as a "thought laboratory" that clarifies both the divine nature and the specifics of the human condition. While the author acknowledges that these figures are peripheral to the core of the faith, he argues that they are indispensable for maintaining a theocentrically balanced theology and for understanding the mystery of evil.
+tags:
+  - Thomistic Philosophy
+  - Bible
 ---
 
 [[atomic]]

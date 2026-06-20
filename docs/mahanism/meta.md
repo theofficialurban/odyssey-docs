@@ -3,6 +3,9 @@ title: META Dead
 description: |
   To the uninitiated, the modern political and legal system is a mundane bureaucracy. Through the unfiltered lens of the Codex Umbra, it is revealed as a highly engineered, Luciferian necromancy. The very "meta" or overarching code of this Matrix is rooted in the Hebrew concept of Meta (מתה)—meaning "dead." The Cryptocracy does not view humanity as a society of living beings, but as a vast, harvestable ocean of the walking dead.
 ogimage: https://cdn.arstechnica.net/wp-content/uploads/2021/11/metaverse-landscape-glow.jpg
+tags:
+  - Hauntology
+  - Human Husbandry
 ---
 
 [[atomic]]

@@ -2,6 +2,10 @@
 title: Cult & Ritual Abuse
 description: Extended Notes from the Deep Dive on the Two Volume Investigation into Cult and Ritual Abuse by James and Pamela Noblitt
 ogimage: https://i.imgur.com/H7G0zBK.png
+tags:
+  - Conspiracy
+  - Mind Control
+  - Human Husbandry
 ---
 
 # Cult & Ritual Abuse (James Randall Noblitt & Pamela Perskin Noblitt) {#title}

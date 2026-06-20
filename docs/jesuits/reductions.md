@@ -3,6 +3,8 @@ title: Jesuit Reductions
 ogimage: https://i.imgur.com/Plsh3oP.png
 description: |
   In Paraguay, the Jesuits created a unique fusion of religious and military authority. To protect the Guarani from slave traders, Jesuits organized and armed native militias. These settlements functioned as a strategic buffer zone where Jesuit "priest-colonels" managed both spiritual survival and the physical defense of the frontier.
+tags:
+  - Jesuits
 ---
 
 [[atomic]]

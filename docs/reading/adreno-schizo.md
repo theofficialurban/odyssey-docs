@@ -1,6 +1,9 @@
 ---
 title: Adrenochrome Linked to Schizophrenia
 ogimage: https://i.imgur.com/AjFQH2V.png
+tags:
+  - Conspiracy
+  - Schizophrenia
 ---
 
 # The Link Between Adrenochrome & Schizophrenia {#title}

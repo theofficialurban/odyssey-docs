@@ -3,6 +3,11 @@ title: Flatline Constructs
 ogimage: https://i.imgur.com/E0pTJcv.png
 description: |
   Mark Fisher’s Flatline Constructs explores the intersection of Gothic materialism and cybernetic theory-fiction, arguing that the boundaries between the organic and the inorganic have dissolved in late capitalism. Jacques Derrida’s Specters of Marx reimagines the legacy of Karl Marx not as a dead ideology, but as a persistent haunting that continues to disrupt the "out of joint" time of our modern world.
+tags:
+  - Ccru
+  - Hauntology
+  - Cybernetics
+  - Cyberpunk
 ---
 
 [[atomic]]

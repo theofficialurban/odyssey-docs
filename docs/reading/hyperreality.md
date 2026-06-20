@@ -1,5 +1,10 @@
 ---
 title: Intro to Hyperreality
+tags:
+  - Hauntology
+  - Ccru
+  - Cyberpunk
+  - Cybernetics
 ---
 
 [[atomic]]

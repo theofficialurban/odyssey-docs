@@ -2,6 +2,9 @@
 title: The Technological Society
 description: |
   This text serves as a conceptual introduction to Jacques Ellul’s analysis of the technological system, arguing that technology has evolved from a mere collection of tools into the defining environment and determining factor of modern life. Ellul methodically critiques popular sociological labels like "industrial" or "consumer" society, asserting that these are merely secondary symptoms of a deeper, autonomous technological logic that organizes all human activity.
+tags:
+  - Cybernetics
+  - Human Husbandry
 ---
 
 <script setup>
@@ -9,6 +12,7 @@ description: |
 import {inject} from "vue"
 
 const vocabulary = inject("agitpropgalleria")
+const quantumHauntologyVocab = inject("QuantumHauntologyGalleria")
 
 </script>
 
@@ -29,7 +33,13 @@ This text serves as a conceptual introduction to Jacques Ellul’s analysis of t
 
 ## Key Words & Terms
 
+:::tabs box-blue
+== Quantum Hauntology
+<ImgurGalleria :value="quantumHauntologyVocab" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/nzDYzx3', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+== AgitProp Vocab
 <ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+
+:::
 
 ## **Lexicon of the Technological System: _From Tools to Environments_**
 

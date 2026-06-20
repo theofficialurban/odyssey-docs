@@ -2,6 +2,10 @@
 title: Digital Objects
 description: |
   Yuk Hui’s On the Existence of Digital Objects investigates the philosophical nature and evolutionary development of data-based entities within our modern technological environment. The text bridges the gap between analytical computer science and continental philosophy, moving beyond a simple view of digital tools to examine how metadata, schemas, and ontologies define the "thinghood" of the digital.
+tags:
+  - Cybernetics
+  - Ccru
+  - Cyberpunk
 ---
 
 [[atomic]]

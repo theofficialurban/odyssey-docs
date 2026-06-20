@@ -5,6 +5,8 @@ description: |
 ogimage: https://askgramps.org/files/2011/01/the-rapture.jpg
 ogimagewidth: 620
 ogimageheight: 465
+tags:
+  - Bible
 ---
 
 [[atomic]]

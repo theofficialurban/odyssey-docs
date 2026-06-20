@@ -56,6 +56,7 @@ import {
   EliteTheoryGalleria,
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
+  QuantumHauntologyGalleria,
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
@@ -163,6 +164,7 @@ export default {
     app.provide("morphicgalleria", MorphicResonanceGalleria);
     app.provide("elitetheorygalleria", EliteTheoryGalleria);
     app.provide("aligalleria", ALIGalleria);
+    app.provide("quantumhauntologygalleria", QuantumHauntologyGalleria);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
