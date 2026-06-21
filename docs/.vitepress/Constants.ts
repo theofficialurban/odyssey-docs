@@ -109,6 +109,7 @@ const PathCategories: PathCategoryItem[] = [
   { prefix: "bible", text: "THE BIBLE" },
   { prefix: "all", text: "GENERAL" },
   { prefix: "biodigital-convergence", text: "HUMAN HUSBANDRY" },
+  { prefix: "elite-theory", text: "ELITE THEORY" },
   { prefix: "magic", text: "MAGIC & MYSTICISM" },
   { prefix: "mahanism", text: "MAHANISM & CONSPIRACY" },
   { prefix: "main", text: "MAIN" },
