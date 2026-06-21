@@ -145,7 +145,7 @@ const slideButtonIcon = computed(() => {
         showItemNavigators: true,
         containerClass: 'mx-auto max-w-[650px]',
         pt: {
-          item: { class: 'md:max-h-[650px]' },
+          item: { style: { 'aspect-ratio': '1 / 1', width: '100%' } },
         },
         ...galleriaProps,
       }"
@@ -293,3 +293,14 @@ const slideButtonIcon = computed(() => {
     </Galleria>
   </div>
 </template>
+
+<style lang="css">
+.p-galleria-item {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+.p-galleria-item:has(img) {
+  min-height: auto;
+}
+</style>

@@ -92,15 +92,15 @@ const cfg: UserConfig = {
   },
 
   transformPageData: OGFromFrontmatter,
-  // buildEnd(siteConfig) {
-  //   return buildEndGenerateOpenGraphImages({
-  //     baseUrl: "https://docs.urbanodyssey.xyz",
-  //     overrideExistingMetaTags: false,
-  //     category: {
-  //       byPathPrefix: PathCategories,
-  //     },
-  //   })(siteConfig);
-  // },
+  buildEnd(siteConfig) {
+    return buildEndGenerateOpenGraphImages({
+      baseUrl: "https://docs.urbanodyssey.xyz",
+      overrideExistingMetaTags: false,
+      category: {
+        byPathPrefix: PathCategories,
+      },
+    })(siteConfig);
+  },
   markdown: MarkdownOptions,
 };
 
