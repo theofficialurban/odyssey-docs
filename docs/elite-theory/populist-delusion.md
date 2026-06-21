@@ -2,6 +2,9 @@
 title: The Populist Delusion
 description: |
   Neema Parvini’s The Populist Delusion provides a rigorous analysis of political realism, specifically through the lens of elite theory and the works of thinkers like Gaetano Mosca. The text argues that the concept of "the people" holding power is a total fallacy; instead, history proves that an organized minority always governs the unorganized majority.
+tags:
+  - Elite Theory
+  - Reading Notes
 ---
 
 [[atomic]]

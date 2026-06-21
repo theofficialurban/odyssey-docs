@@ -2,6 +2,9 @@
 title: Leviathan and Enemies
 description: |
   In this posthumously published treatise, Samuel Francis provides a comprehensive reformulation of the managerial revolution, updating the theories of James Burnham to explain the shift in American power during the twentieth century. The text argues that a new managerial elite emerged within giant corporations and government bureaucracies, eventually displacing the traditional bourgeois class by dismantling its localized, family-based social order.
+tags:
+  - Elite Theory
+  - Reading Notes
 ---
 
 <script setup>

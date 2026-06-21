@@ -1,6 +1,9 @@
 ---
 title: Rupert Sheldrake
 description: The Combined Authored works by Rupert Sheldrake on Evolutionary Consciousness and Morphic Resonance
+tags:
+  - Reading Notes
+  - Rupert Sheldrake
 ---
 
 <script setup>

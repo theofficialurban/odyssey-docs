@@ -2,6 +2,9 @@
 title: Science & Psychic Phenomenon
 description: |
   This text explores the historical and scientific struggle for the legitimacy of parapsychology, framing it as an enduring conflict between unorthodox evidence and established paradigms. Through a detailed historical lens—ranging from the nineteenth-century trials of psychics like Henry Slade to modern disputes involving Nobel laureates—the authors argue that "dogmatic skepticism" often stems from a philosophical commitment to a mechanistic worldview rather than a fair evaluation of data.
+tags:
+  - Reading Notes
+  - Rupert Sheldrake
 ---
 
 [[atomic]]

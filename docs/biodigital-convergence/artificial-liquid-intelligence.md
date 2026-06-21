@@ -4,6 +4,7 @@ description: |
   The provided sources explore the intersection of blockchain technology and genomics, emphasizing how decentralized systems can solve critical issues in data ownership, security, and sharing. Through case studies like LifeCODE.ai, the texts illustrate how smart contracts and encryption return control of sensitive genetic information to the individual while facilitating research through token-based incentives.
 tags:
   - Urban's Videos
+  - Blockchain
 ---
 
 <script setup>

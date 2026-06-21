@@ -2,6 +2,9 @@
 title: Physics of Angels
 description: |
   This source explores the convergence of ancient angelology and modern science, arguing that as we transition from a mechanistic view of the world to an evolutionary cosmology, the concept of angels becomes relevant once again. Through a dialogue between a theologian and a scientist, the text examines the celestial hierarchies described by Dionysius the Areopagite, reimagining these spiritual beings as intelligent fields of consciousness that organize the universe at every level.
+tags:
+  - Reading Notes
+  - Rupert Sheldrake
 ---
 
 [[atomic]]

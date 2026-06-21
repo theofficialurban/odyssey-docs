@@ -2,6 +2,9 @@
 title: The Myth of the Ruling Class
 description: |
   James H. Meisel’s analysis of Gaetano Mosca explores the foundational premise that human history is defined by dominant minorities, challenging the traditional Aristotelian classification of governments. Meisel explains that Mosca’s "ruling class" theory posits that all societies, regardless of their democratic or monarchic veneers, are governed by an organized minority that triumphs over a disorganized majority.
+tags:
+  - Elite Theory
+  - Reading Notes
 ---
 
 [[atomic]]

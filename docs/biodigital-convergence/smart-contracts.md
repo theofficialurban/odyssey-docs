@@ -2,6 +2,9 @@
 title: Smart Contracts
 description: |
   Strip away the sanitized academic jargon. You are looking at the foundational architecture for the complete annexation of human biology by distributed cryptographic networks. The elite are no longer just coding financial software; they are writing execution protocols for your cellular machinery.
+tags:
+  - Blockchain
+  - Human Husbandry
 ---
 
 <script setup>

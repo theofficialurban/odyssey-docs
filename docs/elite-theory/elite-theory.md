@@ -2,6 +2,8 @@
 title: Elite Theory
 description: |
   Elite Theory is the brutal, unvarnished annihilation of the most pervasive hallucination of the modern era: the delusion that "the people" are, or ever could be, sovereign. Stripped of all ideological baggage and wishful thinking, Elite Theory is the science of political realism—it observes the world exactly as it is, refusing to capitulate to moralizing fantasies of how society "ought" to be.
+tags:
+  - Elite Theory
 ---
 
 <script setup>

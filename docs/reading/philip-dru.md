@@ -2,6 +2,10 @@
 title: Philip Dru Administrator
 description: This book was written by a close advisor of Woodrow Wilson named Colonel Edward Mandell House. He may have been the inspiration for the video game character (Fallout) called "Mr. House"
 ogimage: https://i.imgur.com/1j2MTCc.png
+tags:
+  - Reading Notes
+  - Jordan Maxwell Reading List
+  - Conspiracy
 ---
 
 # Philip Dru: Administrator

@@ -2,6 +2,9 @@
 title: Against the Masses
 description: |
   In this excerpt from Against the Masses, Joseph V. Femia provides a scholarly anatomy of the intellectual opposition to democracy that emerged following the French Revolution. He frames his analysis using Albert Hirschman’s three categories of reactionary rhetoric: the perversity thesis, which argues that democratic reforms produce the exact opposite of their intended liberation; the futility thesis, which claims that social transformation is impossible because elite rule is inevitable; and the jeopardy thesis, which suggests that democracy threatens higher values like cultural excellence and individual liberty.
+tags:
+  - Elite Theory
+  - Reading Notes
 ---
 
 [[atomic]]

@@ -2,6 +2,9 @@
 title: Internet of Nano Things
 description: This page is dedicated to the topic of Nano Scale Devices as they pertain to the wider "Internet of Things / Internet of (Bio)Nano Things"
 ogimage: https://i.imgur.com/5KNALhh.png
+tags:
+  - Human Husbandry
+  - Nanotechnology
 ---
 
 [[atomic]]

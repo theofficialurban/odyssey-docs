@@ -2,6 +2,11 @@
 title: Unmanned Futures
 description: Notes on the Document 'Unmanned Futures' that discusses how, by the year 2035, there will be a major prevalance of Robot & Drone Law Enforcement
 ogimage: https://i.imgur.com/UyLIMDq.png
+tags:
+  - Urban's Videos
+  - Reading Notes
+  - Human Husbandry
+  - Nanotechnology
 ---
 
 [[atomic]]

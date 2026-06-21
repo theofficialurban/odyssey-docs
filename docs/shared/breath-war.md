@@ -3,6 +3,8 @@ title: Breath War
 description: |
   James Carner’s "Breath War" outlines a theological and legal framework where human breath is viewed as a divine jurisdictional commodity. The author posits that a spiritual conflict exists between God’s original registry of life and a counterfeit Luciferian economy that seeks to harvest breath through trauma, sin, and deception.
 ogimage: https://i.imgur.com/5j2MmtH.png
+tags:
+  - Breath Wars
 ---
 
 [[atomic]]

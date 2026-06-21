@@ -2,6 +2,9 @@
 title: Occult Theocracy
 description: Notes from Volume One and Two of the massive work by Lady Queensborough (Edith Starr Miller)
 ogimage: https://i.imgur.com/NzjoVhq.png
+tags:
+  - Reading Notes
+  - Jordan Maxwell Reading List
 ---
 
 # Occult Theocrasy (Edith Starr Miller) {#title}

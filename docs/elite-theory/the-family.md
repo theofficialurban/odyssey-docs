@@ -3,6 +3,10 @@ title: The Family
 description: |
   Jeff Sharlet’s book, The Family, investigates a secretive, elite network of American fundamentalists that exerts significant influence within the highest levels of government, business, and the military. The author provides an eyewitness account of his time living at Ivanwald, a residential community in Virginia designed to train young men for "spiritual war" through absolute obedience to a militant, authoritarian vision of Jesus.
 ogimage: https://akns-images.eonline.com/eol_images/Entire_Site/2019625/rs_1024x576-190725091105-1024-the-family-netflixh-ch-072519.jpg?fit=around%7C1024:576&output-quality=90&crop=1024:576;center,top
+tags:
+  - Elite Theory
+  - Reading Notes
+  - Mahanism
 ---
 
 [[atomic]]

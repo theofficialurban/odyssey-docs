@@ -2,6 +2,11 @@
 title: Ionized Skies
 description: |
   The creation of an ionized sky involves the systematic saturation of the atmosphere with conductive metal nanoparticles, polymers, and other chemical aerosols. Jets disperse these reflective and conductive materials, such as aluminum oxide, barium, and strontium, into the troposphere and stratosphere. Once dispersed, these particulates are heated and activated by ground-based radio frequency (RF) transmitters and ionospheric heaters like HAARP (High-frequency Active Auroral Research Project). This combination of chemical "dumping" and electromagnetic "pumping" transforms the natural atmosphere into a highly charged, plasma-like state, effectively turning the lower atmosphere into a conductive antenna.
+tags:
+  - Urban's Videos
+  - Human Husbandry
+  - Nanotechnology
+  - Reading Notes
 ---
 
 [[atomic]]

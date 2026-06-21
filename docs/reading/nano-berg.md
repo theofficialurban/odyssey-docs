@@ -2,6 +2,9 @@
 title: Kabbalistic Nano Tech
 description: |
   In his book Nano: Technology of Mind Over Matter, Kabbalist Rav Berg explores the profound intersection between the modern science of nanotechnology and the ancient spiritual wisdom found in the Zohar. The text suggests that as human consciousness evolves, scientific breakthroughs naturally mirror deep-seated metaphysical truths, particularly the concept that mind over matter can lead to total physical rejuvenation and biological immortality.
+tags:
+  - Nanotechnology
+  - Reading Notes
 ---
 
 [[atomic]]

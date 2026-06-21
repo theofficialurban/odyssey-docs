@@ -2,6 +2,9 @@
 title: Writings of Ted Kaczynski
 description: Deep dive notes on the collected writings of Ted Kaczynski on 'Technological Enslavement'
 ogimage: https://i.imgur.com/r35PstN.png
+tags:
+  - Reading Notes
+  - Human Husbandry
 ---
 
 [[atomic]]

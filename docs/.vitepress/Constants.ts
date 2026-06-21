@@ -816,6 +816,73 @@ const SiteConstants = {
       icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Christianity SVG Icon</title><path fill="currentColor" d="M20 6h-5V3c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v3H4c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1h5v9c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-9h5c.55 0 1-.45 1-1V7c0-.55-.45-1-1-1m-1 4h-5c-.55 0-1 .45-1 1v9h-2v-9c0-.55-.45-1-1-1H5V8h5c.55 0 1-.45 1-1V4h2v3c0 .55.45 1 1 1h5z"/></svg>`,
       link: "https://docs.urbanodyssey.xyz/bible/thomistic-psychology.html",
     },
+    "Elite Theory": {
+      color: "#F5272780",
+      styles: {
+        color: "black",
+        "font-weight": "700",
+      },
+      link: "https://docs.urbanodyssey.xyz/elite-theory/index.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 26 26"><title>Administrator SVG Icon</title><path fill="currentColor" d="M16.563 15.9c-.159-.052-1.164-.505-.536-2.414h-.009c1.637-1.686 2.888-4.399 2.888-7.07c0-4.107-2.731-6.26-5.905-6.26c-3.176 0-5.892 2.152-5.892 6.26c0 2.682 1.244 5.406 2.891 7.088c.642 1.684-.506 2.309-.746 2.396c-3.324 1.203-7.224 3.394-7.224 5.557v.811c0 2.947 5.714 3.617 11.002 3.617c5.296 0 10.938-.67 10.938-3.617v-.811c0-2.228-3.919-4.402-7.407-5.557m-5.516 8.709c0-2.549 1.623-5.99 1.623-5.99l-1.123-.881c0-.842 1.453-1.723 1.453-1.723s1.449.895 1.449 1.723l-1.119.881s1.623 3.428 1.623 6.018c0 .406-3.906.312-3.906-.028"/></svg>`,
+    },
+    Blockchain: {
+      color: "#8EF5274D",
+      styles: {
+        color: "black",
+        "font-weight": "700",
+      },
+      link: "https://docs.urbanodyssey.xyz/biodigital-convergence/artificial-liquid-intelligence.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 48 48"><title>Blockchain SVG Icon</title><g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"><path d="M40 30V15L27.5 7.96875M20.5 7.96875L8 15V30M11 34.6875L24 42L32 37.5L37 34.6875"/><path fill="#2F88FF" d="M21 18.75L18 20.5V24V27.5L21 29.25L24 31L27 29.25L30 27.5V24V20.5L27 18.75L24 17L21 18.75Z"/><path d="M24 17V10"/><path d="M30 27L37 31"/><path d="M18 27L11 31"/><circle cx="24" cy="7" r="3" fill="#2F88FF"/><circle cx="8" cy="33" r="3" fill="#2F88FF"/><circle cx="40" cy="33" r="3" fill="#2F88FF"/></g></svg>`,
+    },
+    Nanotechnology: {
+      color: "#FFB3874D",
+      styles: {
+        color: "black",
+        "font-weight": "700",
+      },
+      link: "https://docs.urbanodyssey.xyz/biodigital-convergence/index.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><title>Nano Bot SVG Icon</title><path fill="currentColor" d="M144 26.43L76.99 65.1v77.4l20.09 11.6l39.32-62.87l15.2 9.57l-38.9 62.3l31.3 18.1l67-38.7V131h90v11.5l67 38.7l31.3-18.1l-38.9-62.3l15.2-9.57l39.3 62.87l20.1-11.6V65.13l-67-38.7l-67 38.67V77h-90V65.13zM211 95h90v18h-90zm22 90v68.3l14 21V480h18V274.3l14-21V185zm-17.6 74.2L118 332.3L151.2 482l17.6-4L138 339.7l87.3-65.5zm81.2 0l-9.9 15l87.3 65.5L343.2 478l17.6 4L394 332.3z"/></svg>`,
+    },
+    Numerology: {
+      color: `#BD87FF80`,
+      styles: {
+        color: "black",
+        "font-weight": "600",
+      },
+      link: "https://docs.urbanodyssey.xyz/numerology/index.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 48 48"><title>Easy Math SVG Icon</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M34.971 21.293L25.88 33.035m9.091 0L25.88 21.293m-14.546-.559c.443.38.922.554 1.996.554h.25c.886 0 1.604-.735 1.604-1.641h0c0-.907-.718-1.642-1.604-1.642"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M11.334 15.27c.444-.38.922-.552 1.997-.549l.25.002c.885 0 1.603.734 1.603 1.641h0c0 .907-.718 1.641-1.604 1.641m-1.233 0h1.233m.262 7.887l4.653 7.626l2.003-18.537h15.614M4.5 16.982v-4.378c0-.884.711-1.596 1.595-1.596h5.324m0 25.984H6.095A1.59 1.59 0 0 1 4.5 35.396V31.02m39 0v4.376c0 .884-.711 1.596-1.595 1.596h-5.324m0-25.984h5.324c.884 0 1.595.712 1.595 1.596v4.378"/></svg>`,
+    },
+    "Reading Notes": {
+      color: "#DBDBDB80",
+      styles: {
+        color: "black",
+        "font-weight": "600",
+      },
+      link: "https://docs.urbanodyssey.xyz/reading/index.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Notebooklm SVG Icon</title><path fill="currentColor" d="M11.999 3.201C5.372 3.201 0 8.528 0 15.101V20.8h2.212v-.568c0-2.666 2.178-4.827 4.866-4.827s4.866 2.16 4.866 4.827v.568h2.212v-.568c0-3.877-3.17-7.019-7.078-7.019A7.1 7.1 0 0 0 2.992 14.5a7.36 7.36 0 0 1 6.568-4.016c4.057 0 7.347 3.264 7.347 7.287V20.8h2.212v-3.03c0-5.235-4.28-9.481-9.56-9.481a9.56 9.56 0 0 0-6.217 2.28A9.8 9.8 0 0 1 12 5.393c5.406 0 9.788 4.346 9.788 9.707v5.7H24v-5.7c-.001-6.573-5.373-11.9-12.001-11.9Z"/></svg>`,
+    },
+    "Breath Wars": {
+      color: "#ADFFFA80",
+      styles: {
+        color: "black",
+        "font-weight": "600",
+      },
+      link: "https://docs.urbanodyssey.xyz/shared/breath-war.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Transmission Virus Wind Breath SVG Icon</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.75 20.679a3.429 3.429 0 1 0 0-6.858a3.429 3.429 0 0 0 0 6.858m-.571-9.429h1.142m-.571 0v2.571m3.839-1.218l.808.808m-.404-.404l-1.819 1.819m3.576 1.853v1.142m0-.571h-2.571m1.218 3.839l-.808.808m.404-.404l-1.819-1.819M7.321 23.25H6.179m.571 0v-2.571m-3.839 1.218l-.808-.808m.404.404l1.819-1.819M.75 17.821v-1.142m0 .571h2.571m-1.218-3.839l.808-.808m-.404.404l1.819 1.819M18.25 3.25a2.5 2.5 0 1 1 2.5 2.5H1.25m15.5 8.5a2.5 2.5 0 1 0 2.5-2.5h-5m-13-3h16.5"/></svg>`,
+    },
+    "Rupert Sheldrake": {
+      link: "https://docs.urbanodyssey.xyz/reading/morphic-resonance.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 512 512"><title>Resonance SVG Icon</title><path fill="currentColor" d="M258.186 21.076c-61.262-.17-122.585 23.086-169.264 69.766c-79.875 79.875-90.355 202.083-33.037 294.03c-21.126-58.596-5.07-136.433 43.875-204.518c-26.864 54.274-23.788 119.52 8.705 171.64c-16.072-44.577-3.09-104.19 35.502-155.568c-22.22 40.8-20.71 91 4.105 130.804c-13.956-38.71 1.842-92.823 43.24-134.222c43.876-43.875 102.245-59.39 141.206-40.764c-39.916-27.966-92.123-30.865-134.612-8.724c54.177-39.073 116.827-50.336 161.063-29.194c-52.326-36.654-120.2-41.6-176.747-14.863c71.832-49.555 153.662-63.29 211.87-35.47c-40.654-28.48-88.263-42.783-135.907-42.917zm135.908 42.918l.008.006v-.002q-.005-.001-.008-.004m-35.125 50.332q.001.003.007.006v-.002q-.005-.001-.008-.004zm93.772 8.315c27.828 58.21 14.094 140.048-35.47 211.887c26.74-56.548 21.8-124.425-14.858-176.754c21.144 44.238 9.878 106.895-29.2 161.075c22.145-42.488 19.248-94.7-8.714-134.618c18.62 38.96 3.107 97.327-40.768 141.2c-41.4 41.4-95.513 57.196-134.224 43.238c39.81 24.817 90.023 26.326 130.826 4.096c-51.383 38.602-111.004 51.59-155.588 35.513c52.118 32.49 117.364 35.57 171.637 8.71c-68.085 48.943-145.92 64.997-204.512 43.87c91.947 57.318 214.157 46.838 294.03-33.037c82.987-82.986 91.948-212.252 26.842-305.18zM364.5 184.23l-.004-.007h-.002zm37.914-26.457l-.004-.007h-.002z"/></svg>`,
+    },
+    "Jordan Maxwell Reading List": {
+      color: `#FFA00080`,
+      styles: {
+        color: "black",
+        "font-weight": "600",
+      },
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 32 32"><title>Books SVG Icon</title><path fill="currentColor" d="M3.5 23A1.5 1.5 0 0 1 2 21.5V6a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v2h5a2 2 0 0 1 2 2v15H16.5a.5.5 0 0 0 0 1h13.415a1.5 1.5 0 0 1-1.415 1h-12a1.5 1.5 0 0 1-1.5-1.5V26H9.5A1.5 1.5 0 0 1 8 24.5V23zm13.415-1a1.5 1.5 0 0 1-1.415 1H22V9a1 1 0 0 0-1-1h-4v13H3.5a.5.5 0 0 0 0 1zM9 23h.5q-.264.001-.5.085zm7-3V6a1 1 0 0 0-1-1H5v15zm0 6v1.085q.236-.084.5-.085H29V13a1 1 0 0 0-1-1h-5v12H9.5a.5.5 0 0 0 0 1h13.415a1.5 1.5 0 0 1-1.415 1z"/></svg>`,
+      link: "https://jordanmaxwellshow.com/recommended-materials.php",
+    },
   },
 };
 

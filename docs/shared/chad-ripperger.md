@@ -2,6 +2,9 @@
 title: Fr Chad Ripperger
 description: Notes from various lectures and talks by Father Chad Ripperger on Spiritual Warfare & Demonology
 ogimage: https://usgraceforce.com/wp-content/uploads/2020/11/Fr.-Chad-Ripperger-5-770x439_c.jpg
+tags:
+  - Bible
+  - Thomistic Philosophy
 ---
 
 # Spiritual Warfare: Father Chad Ripperger

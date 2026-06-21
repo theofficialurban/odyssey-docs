@@ -2,6 +2,8 @@
 title: Intro to Bitcoin
 description: This will be the main page for all of my research and informational resources on Blockchain technology. It also has a basic introduction to Bitcoin using the original Bitcoin whitepaper.
 ogimage: https://money.com/wp-content/uploads/2022/06/What-Is-Blockchain-Infographic.jpg?quality=60
+tags:
+  - Blockchain
 ---
 
 [[atomic]]

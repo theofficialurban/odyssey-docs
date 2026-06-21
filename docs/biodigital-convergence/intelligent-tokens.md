@@ -2,6 +2,10 @@
 title: Intelligent Non-Fungible Tokens
 description: |
   When you strip away the sanitized corporate jargon of "personalized medicine" and "Web 3.0," the peer-reviewed scientific literature confirms that the Cryptocracy is actively executing the exact biological and digital takeover Carner predicted. The boundary between Carner's "prophecy" and current scientific deployment has been completely obliterated.
+tags:
+  - Urban's Videos
+  - Human Husbandry
+  - Blockchain
 ---
 
 <script setup>

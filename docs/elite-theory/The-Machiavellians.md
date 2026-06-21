@@ -2,6 +2,9 @@
 title: The Machiavellians
 description: |
   James Burnham’s The Machiavellians argues that political discourse is defined by a sharp division between formal meaning and real meaning. Using Dante Alighieri’s De Monarchia as a primary example, Burnham illustrates how noble, idealistic language regarding world peace and divine order often serves as a mythological mask for specific, practical power struggles.
+tags:
+  - Elite Theory
+  - Reading Notes
 ---
 
 [[atomic]]

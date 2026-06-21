@@ -6,6 +6,8 @@ tags:
   - Propaganda
   - Mahanism
   - Mind Control
+  - Reading Notes
+  - Elite Theory
 ---
 
 <script setup>

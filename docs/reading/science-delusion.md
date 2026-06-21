@@ -2,6 +2,9 @@
 title: The Science Delusion
 description: |
   In The Science Delusion, Rupert Sheldrake argues that modern science has become trapped by a series of materialist dogmas that have hardened into an unquestioned ideology. He challenges the "fantasy of omniscience" held by the scientific establishment, proposing instead that the universe is a developing organism rather than a purposeless, mechanical system.
+tags:
+  - Reading Notes
+  - Rupert Sheldrake
 ---
 
 [[atomic]]

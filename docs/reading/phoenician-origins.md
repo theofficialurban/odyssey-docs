@@ -2,6 +2,9 @@
 title: Phoenician Origins of Britons
 description: |
   This academic text proposes the controversial theory that the ancestral Britons and Scots were descended from Aryan Phoenicians who colonized and civilized Britain, beginning as early as the Stone Age. The author supports this claim by analyzing archaeological evidence, such as prehistoric Stone Circles and cup-marks, interpreting these monuments through the lens of Hitto-Sumerian and Phoenician script and solar religious symbolism.
+tags:
+  - Reading Notes
+  - Jordan Maxwell Reading List
 ---
 
 [[atomic]]

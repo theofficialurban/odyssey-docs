@@ -2,6 +2,9 @@
 title: Blockchain & Genomics
 description: These are my notes on the Genomic applications of Blockchain technology and how it has DNA like properties.
 ogimage: https://i.imgur.com/tABhcWZ.png
+tags:
+  - Human Husbandry
+  - Blockchain
 ---
 
 <script setup>

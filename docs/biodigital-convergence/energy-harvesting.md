@@ -5,6 +5,8 @@ description: |
 ogimage: https://i.imgur.com/sXWpWIm.png
 tags:
   - Human Husbandry
+  - Nanotechnology
+  - Blockchain
 ---
 
 [[atomic]]

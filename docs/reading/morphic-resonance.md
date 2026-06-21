@@ -2,6 +2,9 @@
 title: Presence of the Past
 description: |
   In his 1989 work, The Presence of the Past, Rupert Sheldrake challenges the scientific orthodoxy that treats the universe as an eternal machine governed by immutable laws. He proposes the hypothesis of formative causation, suggesting that nature is not governed by fixed rules but rather by morphic resonance, a process where the past influences the present through a collective memory.
+tags:
+  - Reading Notes
+  - Rupert Sheldrake
 ---
 
 <script setup>
