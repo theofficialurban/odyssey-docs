@@ -2,6 +2,9 @@
 title: Virtual Particles
 description: |
   These sources examine Quantum Field Theory (QFT), moving from traditional point-particle concepts to a framework where particles are viewed as field excitations. The texts detail causal perturbation theory and the scattering process, utilizing mathematical tools like the S-matrix and Feynman diagrams to describe how energy interacts across spacetime.
+tags:
+  - Virtual Dynamics
+  - Reading Notes
 ---
 
 [[atomic]]

@@ -2,6 +2,10 @@
 title: Quantum Grammar
 description: Notes on David Wynn Miller's Quantum Grammar
 ogimage: https://newdigitalage.co/wp-content/uploads/2021/03/ali-shah-lakhani-sp1BZ1atp7M-unsplash-Edited.jpg
+tags:
+  - Quantum Grammar
+  - Cybernetics
+  - David Wynn Miller
 ---
 
 [[atomic]]

@@ -2,6 +2,10 @@
 title: Dr Robert Duncan
 description: This page will be the combined notes on the works of Doctor Robert Duncan
 ogimage: https://i.imgur.com/gAoBD3s.png
+tags:
+  - Dr. Robert Duncan
+  - Human Husbandry
+  - Mind Control
 ---
 
 [[atomic]]

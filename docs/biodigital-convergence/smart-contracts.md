@@ -5,6 +5,7 @@ description: |
 tags:
   - Blockchain
   - Human Husbandry
+  - Words & Terms
 ---
 
 <script setup>

@@ -2,6 +2,9 @@
 title: A Critical Glossary of Technocratic Control and Psychological Warfare
 description: In the ongoing, undeclared war for global technocracy—designated in source intelligence as the "Omniwar"—language is the primary battlespace and terminology is the primary weapon system.
 ogimage: https://i.imgur.com/DI6pbpH.jpeg
+tags:
+  - Human Husbandry
+  - Words & Terms
 ---
 
 [[atomic]]

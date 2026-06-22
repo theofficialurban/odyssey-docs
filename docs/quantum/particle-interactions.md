@@ -2,6 +2,9 @@
 title: Particle Interactions
 description: This page serves as a basic introduction to particle interactions and ultimately Virtual Particles
 ogimage: https://scx2.b-cdn.net/gfx/news/hires/2018/waveparticle.jpg
+tags:
+  - Virtual Dynamics
+  - Reading Notes
 ---
 
 [[atomic]]

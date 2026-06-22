@@ -2,6 +2,11 @@
 title: Project Names & Programming Scripts
 description: Reference guide for CIA Project Names, Terms and Concepts along with Programming Scripts
 ogimage: https://i.imgur.com/oG7xr6X.png
+tags:
+  - Mind Control
+  - Dr. Robert Duncan
+  - Human Husbandry
+  - Reading Notes
 ---
 
 [[atomic]]

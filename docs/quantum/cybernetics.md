@@ -5,6 +5,7 @@ description: |
 tags:
   - Urban's Videos
   - Cybernetics
+  - Words & Terms
 ---
 
 <script setup>

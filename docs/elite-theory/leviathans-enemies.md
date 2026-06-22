@@ -5,6 +5,7 @@ description: |
 tags:
   - Elite Theory
   - Reading Notes
+  - Words & Terms
 ---
 
 <script setup>

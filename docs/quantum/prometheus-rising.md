@@ -5,6 +5,9 @@ description: |
 ogimage: https://i.imgur.com/TXwTOk6.png
 ogimagewidth: 815
 ogimageheight: 584
+tags:
+  - Reading Notes
+  - Cybernetics
 ---
 
 [[atomic]]

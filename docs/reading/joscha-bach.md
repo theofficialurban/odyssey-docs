@@ -2,6 +2,9 @@
 title: Works of Joscha Bach
 description: Works authored by Joscha Bach who runs the "California Institute of Machine Consciousness"
 ogimage: https://substackcdn.com/image/fetch/$s_!3JLw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F252ff0d3-4ec9-4fd6-b9d3-3852fceacb20_1543x867.jpeg
+tags:
+  - Cybernetics
+  - Schizophrenia
 ---
 
 # Works of Joscha Bach - Summary Notes

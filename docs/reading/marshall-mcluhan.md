@@ -2,6 +2,8 @@
 title: Marshall McLuhan
 description: |
   These sources examine the profound relationship between humanity, communication technology, and the evolution of consciousness. Marshall McLuhan's foundational work explores how media act as sensory extensions, shifting society from fragmented visual literacy toward an integrated, electronic tribalism.
+tags:
+  - Cybernetics
 ---
 
 [[atomic]]

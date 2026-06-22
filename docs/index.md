@@ -6,7 +6,7 @@ hero:
   text: Public Database
   tagline: Various notes & additional information that has been made available to the public by Urban.
   image:
-    src: https://i.imgur.com/pm8kgLg.png
+    src: https://i.imgur.com/VtSgL4j.png
     alt: Urban Odyssey Logo
   actions:
     - theme: brand
@@ -24,4 +24,7 @@ hero:
     - theme: alt
       text: Urban's Link Page
       link: https://direct.me/officialurban
+    - theme: alt
+      text: Documentaries
+      link: https://theofficialurban.substack.com/p/docs
 ---

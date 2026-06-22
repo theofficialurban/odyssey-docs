@@ -8,6 +8,7 @@ tags:
   - Mind Control
   - Reading Notes
   - Elite Theory
+  - Words & Terms
 ---
 
 <script setup>

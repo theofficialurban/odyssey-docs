@@ -3,6 +3,9 @@ title: Semiconductors
 ogimage: https://i.imgur.com/ym4SVCj.png
 description: |
   The semiconductor is essentially a programmable talisman. It is Earth (silicon) animated by Fire (electricity) and Air (logic/code) to simulate Water (fluid memory and processing).
+tags:
+  - Semiconductors
+  - Cybernetics
 ---
 
 [[atomic]]

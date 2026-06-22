@@ -3,6 +3,9 @@ title: Sorcery as Virtual Dynamics
 description: |
   Stephen Mace’s essay explores the intersection of subatomic physics and occult practice, proposing that magical results and synchronicities operate through a process he calls virtual mechanics. Drawing on the concept of a Feynman diagram, the author suggests that just as invisible "virtual" particles resolve energy stresses between electrons, hidden ideational forms in the unconscious can manifest as physical events when energized by human psychological tension.
 ogimage: https://i.imgur.com/e1ojKZR.png
+tags:
+  - Virtual Dynamics
+  - Reading Notes
 ---
 
 [[atomic]]

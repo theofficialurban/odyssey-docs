@@ -1,6 +1,10 @@
 ---
 title: Parse Syntax
 ogimage: https://i.imgur.com/pReGkop.png
+tags:
+  - Quantum Grammar
+  - Cybernetics
+  - David Wynn Miller
 ---
 
 [[atomic]]

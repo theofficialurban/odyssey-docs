@@ -5,6 +5,7 @@ ogimage: https://i.imgur.com/tABhcWZ.png
 tags:
   - Human Husbandry
   - Blockchain
+  - Words & Terms
 ---
 
 <script setup>

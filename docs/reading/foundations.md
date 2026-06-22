@@ -3,6 +3,9 @@ title: Tax-Free Foundations
 description: |
   This text examines the findings of the Reece Committee, which investigated the immense power and influence of major philanthropic foundations such as Ford, Rockefeller, and Carnegie. The author argues that these organizations used their massive wealth to bypass traditional oversight, creating an interlocking directorate that steered American education toward collectivism and globalism.
 ogimage: https://i.imgur.com/mDxyR4z.png
+tags:
+  - Urban's Videos
+  - Reading Notes
 ---
 
 [[atomic]]

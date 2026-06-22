@@ -8,6 +8,7 @@ tags:
   - Bible
   - Cybernetics
   - Urban's Videos
+  - Words & Terms
 ---
 
 <script setup>

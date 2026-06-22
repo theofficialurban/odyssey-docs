@@ -10,6 +10,7 @@ tags:
   - Ccru
   - Cyberpunk
   - Cybernetics
+  - Words & Terms
 ---
 
 <script setup>
