@@ -10,6 +10,67 @@ export type ImageItem = {
 export type CustomDialogOpenFunction = () => DynamicDialogInstance;
 export type CustomImageHtmlCaption = CustomDialogOpenFunction | null;
 export type CustomImageHtmlCaptions = CustomImageHtmlCaption[];
+
+export const NanoWbansGalleria: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/4UNJF7Q.png",
+    title: "Self-Powered Wireless Body Area Network (SpWBAN)",
+  },
+  {
+    image: "https://i.imgur.com/WIuBZnC.png",
+    title: "Bipolar Electrochemistry (Wirefree Electroceuticals)",
+  },
+  { image: "https://i.imgur.com/Qjbvaq0.png", title: "Electroporation" },
+  { image: "https://i.imgur.com/riIjmyo.png", title: "Iontophoresis" },
+  {
+    image: "https://i.imgur.com/78rdudz.png",
+    title: "Pyroelectric Nanogenerators (PYENG)",
+  },
+  {
+    image: "https://i.imgur.com/uMsUTVC.png",
+    title: "LC Resonant Tank (Wireless Inductive Heater)",
+  },
+  {
+    image: "https://i.imgur.com/gvig76j.png",
+    title: "Polymeric Microneedle Arrays",
+  },
+  { image: "https://i.imgur.com/qSttzoX.png", title: "Neuroweapons" },
+  {
+    image: "https://i.imgur.com/tkNSla3.png",
+    title: "NEURINT (Neuro-Intelligence)",
+  },
+  {
+    image: "https://i.imgur.com/A3dd72K.png",
+    title: "Genetic Firewall",
+    caption: "Cryptographic Lock-and-Key",
+  },
+  { image: "https://i.imgur.com/vgjbMEz.png", title: "HyperSonic Sound (HSS)" },
+  {
+    image: "https://i.imgur.com/LHy317Y.png",
+    title: "Videodromotic Transmission",
+  },
+  { image: "https://i.imgur.com/xesg3Fn.png", title: "Viral Waveform" },
+  { image: "https://i.imgur.com/Rm4CAcw.png", title: "Psychotronics" },
+  { image: "https://i.imgur.com/STPPA9d.png", title: "Vasculoid" },
+  { image: "https://i.imgur.com/P2dQ5gf.png", title: "Computronium" },
+  { image: "https://i.imgur.com/fsdRkOW.png", title: "Nanarchy" },
+  {
+    image: "https://i.imgur.com/MWwrDdr.png",
+    title: "Antifertility Vaccines (HCG Lacing)",
+  },
+  { image: "https://i.imgur.com/0FuLbeo.png", title: "Instinctive Substratum" },
+  {
+    image: "https://i.imgur.com/ZR0amSs.png",
+    title: "D.C.A.P.S.",
+    caption: "Detection and Computational Analysis of Psychological Signals",
+  },
+  {
+    image: "https://i.imgur.com/hjRhJOD.png",
+    title: "T.R.U.S.T.",
+    caption: "Tools for Recognizing Useful Signals of Trustworthiness",
+  },
+];
+
 export const CCRUVocabulary: ImageItem[] = [
   { image: "https://i.imgur.com/e3muUYg.png", title: "Gothic Materialism" },
   { image: "https://i.imgur.com/j78C9fc.png", title: "Cybergothic" },

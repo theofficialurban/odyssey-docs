@@ -915,6 +915,10 @@ const SiteConstants = {
       icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Integrated Circuit Chip SVG Icon</title><path fill="currentColor" d="M10 4h10c1.11 0 2 .89 2 2v2h-3.41L16 10.59v4l-2 2V20h-4v-3.41l-2-2V9.41l2-2zm8 7.41V14h4v-4h-2.59zM6.59 8L8 6.59V4H4c-1.11 0-2 .89-2 2v2zM6 14v-4H2v4zm2 3.41L6.59 16H2v2c0 1.11.89 2 2 2h4zM17.41 16L16 17.41V20h4c1.11 0 2-.89 2-2v-2z"/></svg>`,
       link: "https://docs.urbanodyssey.xyz/quantum/semiconductors.html",
     },
+    Metasurfaces: {
+      link: "https://docs.urbanodyssey.xyz/quantum/metasurfaces.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Quantum Engine SVG Icon</title><path fill="#aecbfa" d="M7.01 2h2v3h-2zm4 0h2v3h-2zm4 0h2v3h-2z"/><path fill="#4285f4" d="M7.01 19h2v3h-2zm4 0h2v3h-2zm4 0h2v3h-2zM19 15h3v2h-3zm0-4h3v2h-3zm0-4h3v2h-3z"/><path fill="#aecbfa" d="M2 15h3v2H2zm0-4h3v2H2zm0-4h3v2H2z"/><path fill="#669df6" d="M11 13H9V7H7v8h4v3h2v-3h4V7h-2v6h-2V6h-2Zm-7 7V4h16v16Z"/></svg>`,
+    },
   },
 };
 

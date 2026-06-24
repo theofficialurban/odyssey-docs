@@ -56,6 +56,7 @@ import {
   EliteTheoryGalleria,
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
+  NanoWbansGalleria,
   QuantumHauntologyGalleria,
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
@@ -165,6 +166,7 @@ export default {
     app.provide("elitetheorygalleria", EliteTheoryGalleria);
     app.provide("aligalleria", ALIGalleria);
     app.provide("quantumhauntologygalleria", QuantumHauntologyGalleria);
+    app.provide("nanowbansgalleria", NanoWbansGalleria);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

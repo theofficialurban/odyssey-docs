@@ -34,6 +34,10 @@ tags:
 
 :::
 
+## Urban's Video {#video}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v760lhy/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7879i6-the-stealth-trojan-horse-plga-nanotechnology-and-biological-control-explain.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/plga-nanotech?r=3kr5wz'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/plga-nanotech:a']]" />
+
 ## Select Images
 
 :::tip Select Images
