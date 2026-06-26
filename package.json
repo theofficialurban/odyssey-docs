@@ -50,7 +50,6 @@
     "path": "^0.12.7",
     "primevue": "^4.5.5",
     "sass": "^1.92.1",
-    "substack-api": "^1.4.0",
-    "vitepress-plugin-og-image": "^0.1.1"
+    "substack-api": "^1.4.0"
   }
 }

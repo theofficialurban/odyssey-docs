@@ -6,19 +6,10 @@ import tailwindcss from "@tailwindcss/vite";
 
 import { MarkdownOptions } from "./Markdown";
 
-//import { buildEndGenerateOpenGraphImages } from "@nolebase/vitepress-plugin-og-image";
+import { buildEndGenerateOpenGraphImages } from "@nolebase/vitepress-plugin-og-image";
 
 import SiteConstants, { siteBaseUrl } from "./Constants";
 import OGFromFrontmatter from "./OpenGraph";
-import { OgImagePlugin } from "vitepress-plugin-og-image";
-
-const ogImagePlugin = new OgImagePlugin({
-  destDir: "/og",
-  author: {
-    name: "Urban Odyssey",
-    imageURL: "https://i.imgur.com/BRzoZMX.png",
-  },
-});
 
 const {
   Collections,
@@ -101,20 +92,19 @@ const cfg: UserConfig = {
   },
 
   transformPageData: OGFromFrontmatter,
-  transformHead(ctx) {
-    const currentOgImg: string | null =
-      ctx.pageData.frontmatter.ogimage ?? null;
-    if (!currentOgImg) return ogImagePlugin.transformHead(ctx);
-  },
+  // transformHead(ctx) {
+  //   const currentOgImg: string | null =
+  //     ctx.pageData.frontmatter.ogimage ?? null;
+  //   if (!currentOgImg) return ogImagePlugin.transformHead(ctx);
+  // },
   buildEnd(siteConfig) {
-    ogImagePlugin.buildEnd(siteConfig);
-    // return buildEndGenerateOpenGraphImages({
-    //   baseUrl: "https://docs.urbanodyssey.xyz",
-    //   overrideExistingMetaTags: false,
-    //   category: {
-    //     byPathPrefix: PathCategories,
-    //   },
-    // })(siteConfig);
+    return buildEndGenerateOpenGraphImages({
+      baseUrl: "https://docs.urbanodyssey.xyz",
+      overrideExistingMetaTags: false,
+      category: {
+        byPathPrefix: PathCategories,
+      },
+    })(siteConfig);
   },
   markdown: MarkdownOptions,
 };
