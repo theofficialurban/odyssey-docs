@@ -62,6 +62,7 @@ import {
 } from "../GalleriaAlbums";
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
 import CollectionCardGrid from "./components/CollectionCardGrid.vue";
+import SpotifyPlaylist from "./components/SpotifyPlaylist.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -118,6 +119,7 @@ export default {
     app.component("OdysseyBanner", OdysseyBanner);
     app.component("Substack", OdysseySubstack);
     app.component("Spotify", SpotifyPlaylists);
+    app.component("SpotifyPlaylist", SpotifyPlaylist);
     app.component("Banner", Banner);
     app.component("Card", Card);
     app.component("Preset", CardPreset);
