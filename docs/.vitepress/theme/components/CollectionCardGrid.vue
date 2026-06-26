@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ComputedRef, reactive } from "vue";
+import { computed, ComputedRef } from "vue";
 import { getCollectionSlug } from "../../Constants.js";
 import CardGrid from "./CardGrid.vue";
 import CollectionCard from "./CollectionCard.vue";

@@ -4,7 +4,7 @@ import { type UserConfig } from "vitepress";
 import Inspect from "vite-plugin-inspect";
 import tailwindcss from "@tailwindcss/vite";
 
-import Rules, { MarkdownOptions } from "./Markdown";
+import { MarkdownOptions } from "./Markdown";
 
 import { buildEndGenerateOpenGraphImages } from "@nolebase/vitepress-plugin-og-image";
 
@@ -92,15 +92,20 @@ const cfg: UserConfig = {
   },
 
   transformPageData: OGFromFrontmatter,
-  buildEnd(siteConfig) {
-    return buildEndGenerateOpenGraphImages({
-      baseUrl: "https://docs.urbanodyssey.xyz",
-      overrideExistingMetaTags: false,
-      category: {
-        byPathPrefix: PathCategories,
-      },
-    })(siteConfig);
-  },
+  // transformHead(ctx) {
+  //   const currentOgImg: string | null =
+  //     ctx.pageData.frontmatter.ogimage ?? null;
+  //   if (!currentOgImg) return ogImagePlugin.transformHead(ctx);
+  // },
+  // buildEnd(siteConfig) {
+  //   return buildEndGenerateOpenGraphImages({
+  //     baseUrl: "https://docs.urbanodyssey.xyz",
+  //     overrideExistingMetaTags: false,
+  //     category: {
+  //       byPathPrefix: PathCategories,
+  //     },
+  //   })(siteConfig);
+  // },
   markdown: MarkdownOptions,
 };
 

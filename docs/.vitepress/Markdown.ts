@@ -1,12 +1,10 @@
 import type Token from "markdown-it/lib/token.mjs";
 import mdSpans from "markdown-it-bracketed-spans";
 import StateCore from "markdown-it/lib/rules_core/state_core.mjs";
-import MarkdownIt, { Options, PluginSimple } from "markdown-it";
+import MarkdownIt, { PluginSimple } from "markdown-it";
 import { RuleBlock } from "markdown-it/lib/parser_block.mjs";
 import { MarkdownOptions } from "vitepress";
-import { Renderer } from "markdown-it/index.js";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
-import { RenderRule } from "markdown-it/lib/renderer.mjs";
 import MarkdownItContainer from "markdown-it-container";
 import MdYaml from "markdown-it-yaml";
 import DoubleBracketMarkdownTransform, {

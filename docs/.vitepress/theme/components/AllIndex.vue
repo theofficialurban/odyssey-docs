@@ -15,7 +15,6 @@ import {
   CollectionDefinition,
   findCollection,
 } from "../../utils.js";
-import Icon from "./Icon.vue";
 
 const { theme } = useData();
 const { hasItems, tags } = useCollection();
