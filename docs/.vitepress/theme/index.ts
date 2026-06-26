@@ -172,7 +172,7 @@ export default {
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
 
-    app.provide(SubstackSymbol, data);
+    //app.provide(SubstackSymbol, data);
     app.use(PrimeVue, { theme: { preset: Aura } });
     app.use(NolebaseInlineLinkPreviewPlugin);
   },
