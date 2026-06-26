@@ -25,7 +25,6 @@ import Video from "./components/Video.vue";
 import AudioEmbed from "./components/Audio.vue";
 import VideoEmbed from "./components/VideoEmbed.vue";
 import { defaultLinkPreviewOptions, SubstackSymbol } from "../utils";
-import { data } from "./data/substack.data";
 import ImgurEmbed from "./components/ImgurEmbed.vue";
 import SubstackPost from "./components/SubstackPost.vue";
 import CardGrid from "./components/CardGrid.vue";

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useData } from "vitepress";
-import { Collection, findCollection, Page } from "../../utils";
+import { Collection, Page } from "../../utils";
 import { useCollection } from "@lando/vitepress-theme-default-plus";
 import { computed } from "vue";
 import Card from "./Card.vue";

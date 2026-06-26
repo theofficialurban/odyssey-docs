@@ -1,12 +1,5 @@
 <script setup lang="ts">
-import {
-  ComponentPropsOptions,
-  computed,
-  ExtractDefaultPropTypes,
-  ExtractPropTypes,
-  ExtractPublicPropTypes,
-  PropType,
-} from "vue";
+import { computed } from "vue";
 import Card from "./Card.vue";
 
 interface CardProps {

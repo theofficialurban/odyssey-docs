@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, withDefaults } from "vue";
+import { ref } from "vue";
 const {
   spotify = false,
   apple = false,
@@ -32,7 +32,13 @@ const appleRef = ref(null);
       :class="classes.spotify"
       ref="spotRef"
       frameBorder="0"
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      allow="
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        fullscreen;
+        picture-in-picture;
+      "
       loading="lazy"
     ></iframe>
   </div>

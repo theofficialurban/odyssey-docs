@@ -4,7 +4,6 @@ import {
   VPLCollectionPage,
   VPLCollectionPageTags,
   VPLCollectionPageTitle,
-  VPLCollectionItemTags,
   VPLCollectionPageSection,
   VPLCollectionItems,
 } from "@lando/vitepress-theme-default-plus";

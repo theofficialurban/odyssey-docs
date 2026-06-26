@@ -1,14 +1,12 @@
 import { PreviewPost } from "substack-api";
 import { loadEnv } from "vitepress";
-import { defineAsyncComponent, defineComponent, render } from "vue";
-import { ssrRenderComponent } from "vue/server-renderer";
 
 const env = loadEnv("", "docs", ["SUBSTACK"]);
 
 export async function fetchPosts(
   limit: number = 10,
   offset: number = 0,
-  additionalHeaders: Record<string, any> = {}
+  additionalHeaders: Record<string, any> = {},
 ): Promise<PreviewPost[]> {
   const hostname = env.SUBSTACK_HOSTNAME;
   const key = env.SUBSTACK_API;
@@ -28,7 +26,7 @@ export async function fetchPosts(
 
 export async function fetchPost(
   postSlug: string,
-  additionalHeaders: Record<string, any> = {}
+  additionalHeaders: Record<string, any> = {},
 ): Promise<PreviewPost> {
   const hostname = env.SUBSTACK_HOSTNAME;
   const key = env.SUBSTACK_API;

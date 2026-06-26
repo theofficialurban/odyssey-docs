@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
 import { type EmbedPlatformBtn, PlatformIcons } from "../../utils";
-import Icon from "./Icon.vue";
 
 interface Props {
   buttons: EmbedPlatformBtn[];
