@@ -28,7 +28,7 @@ const isLink = computed<boolean>(() => {
 });
 
 const playlistEmbedLink = computed(() => {
-  if (isLink) return playlist;
+  if (isLink.value === true) return playlist;
   return `https://open.spotify.com/embed/playlist/${playlist}`;
 });
 </script>
