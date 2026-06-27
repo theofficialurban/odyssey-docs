@@ -4,20 +4,21 @@ import { Collection, Page } from "../../utils";
 import { useCollection } from "@lando/vitepress-theme-default-plus";
 import { computed } from "vue";
 import Card from "./Card.vue";
+import { getCollectionSlug } from "../../Constants";
 
 interface Props {
   collection: string;
   href?: string | null;
-  slug?: string | null;
   ogimage?: string | null;
+  useFinder?: boolean;
   preview?: boolean;
 }
 
 const {
   collection,
-  href = null,
+  href: hHref = null,
   preview = false,
-  slug = null,
+  useFinder = false,
   ogimage: ogImg = null,
 } = defineProps<Props>();
 
@@ -26,26 +27,42 @@ const { theme } = useData();
 const colls = theme.value.collections ?? null;
 const foundCollection: Collection = useCollection(collection);
 const foundPages = foundCollection.pages ?? [];
+const href = computed(() => {
+  if (useFinder) return getCollectionSlug(collection, hHref);
+  return hHref;
+});
 
 const validCollection = computed<boolean>(() =>
   Object.hasOwn(colls, collection),
 );
+// const finderFound: ComputedRef<CollectionCardTuple[]> = computed(() => {
+//   if (!useFinder) return cards;
+//   return cards.map(([cCollection, href, preview]) => {
+//     const findSlug = getCollectionSlug(cCollection, href);
+//     if (!findSlug) return [cCollection, href, preview];
+//     return [cCollection, findSlug, preview];
+//   });
+// });
 const foundPage = computed<Page | null>(() => {
-  if (slug && !href) {
-    const fp =
-      foundPages.find((p) => {
-        return p.url.includes(slug);
-      }) ?? null;
+  // if (useFinder) {
 
-    return fp;
-  } else if (!slug && href) {
-    const fp =
-      foundPages.find((p) => {
-        return p.url == href;
-      }) ?? null;
+  //   const fp =
+  //     foundPages.find((p) => {
+  //       return p.url == foundSlug;
+  //     }) ?? null;
 
-    return fp;
-  }
+  //   return fp;
+  // } else {
+  //   const fp =
+  //     foundPages.find((p) => {
+  //       return p.url == href;
+  //     }) ?? null;
+
+  //   return fp;
+  // }
+  foundPages.find((p) => {
+    return p.url == href.value;
+  }) ?? null;
   return null;
 });
 
@@ -76,16 +93,12 @@ const ogImage = computed<string>(() => {
     :href="foundPage.url"
     :preview
   />
-  <sub v-else-if="slug && href" class="font-mono text-red-500 text-lg"
-    >You cannot search by href and slug, use either exact href or slug search
-    string</sub
-  >
+
   <sub v-else class="font-mono text-red-500 text-lg"
-    >Unable to Find Page: {{ href ?? slug }} ({{
-      href === null ? "Using Slug Match" : "Using Exact HREF"
-    }}) in Collection {{ collection }}
+    >Unable to Find Page: {{ href }} in Collection {{ collection }}
     {{
       validCollection ? "The Collection is Valid" : "Invalid Collection"
-    }}</sub
+    }}
+    useFinder is {{ useFinder }}</sub
   >
 </template>

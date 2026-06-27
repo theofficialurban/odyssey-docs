@@ -36,7 +36,7 @@ const cfg: UserConfig = {
     outline: "deep",
     outlineTitle: "Table of Contents",
     baseURL: siteBaseUrl,
-    logo: "/icons/colored/CogSaturn.png",
+    logo: "/icons/OdysseyIcon.png",
     contributors: Contributors,
     collections: Collections,
     search: {

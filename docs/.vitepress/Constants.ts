@@ -928,6 +928,9 @@ const SiteConstants = {
       },
       icon: `<img src="/icons/LeurenMoret.svg" alt="Jesuit Sun" height="16" width="16" />`,
     },
+    "Peter Breggin": {
+      link: "https://gingerbreggin.substack.com?r=3kr5wz",
+    },
   },
 };
 
