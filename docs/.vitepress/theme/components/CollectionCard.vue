@@ -96,9 +96,7 @@ const ogImage = computed<string>(() => {
 
   <sub v-else class="font-mono text-red-500 text-lg"
     >Unable to Find Page: {{ href }} in Collection {{ collection }}
-    {{
-      validCollection ? "The Collection is Valid" : "Invalid Collection"
-    }}
+    {{ validCollection ? "The Collection is Valid" : "Invalid Collection" }}
     useFinder is {{ useFinder }}</sub
   >
 </template>
