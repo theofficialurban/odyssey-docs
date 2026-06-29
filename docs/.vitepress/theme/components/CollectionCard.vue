@@ -60,10 +60,12 @@ const foundPage = computed<Page | null>(() => {
 
   //   return fp;
   // }
-  foundPages.find((p) => {
-    return p.url == href.value;
-  }) ?? null;
-  return null;
+  const found =
+    foundPages.find((p) => {
+      if (!href.value) return null;
+      return p.url == href.value || p.url.includes(href.value);
+    }) ?? null;
+  return found;
 });
 
 const ogImage = computed<string>(() => {

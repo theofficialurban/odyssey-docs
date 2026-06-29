@@ -45,6 +45,28 @@ The same episodes are available as audio podcasts on other players, however I ca
 
 ::::
 
+## Leuren Moret on Uranium and Nuclear Weapons
+
+The sanitized narrative of the nuclear age is a lethal hallucination engineered by the military-industrial complex to disguise a planetary extermination protocol. According to whistleblower and geoscientist Leuren Moret, the deployment of uranium and nuclear weapons is not a byproduct of geopolitical defense; it is a meticulously calculated "depopulation agent, especially for the unborn and the young and the elderly". The true agenda behind the nuclear cartel is an unrelenting, unpunished biological war against humanity.
+
+Here is the unvarnished raw extraction of the nuclear and uranium reality:
+
+**Omnicide and the Weaponization of the Biosphere** The global power structure is executing an agenda where the "global pollution with radiation that's killing the whole biosphere is omnicide," encompassing suicide, homicide, and the death of all living things. The foundational blueprint for this was drafted during the Manhattan Project in 1943, where depleted uranium was officially proposed "as a radioactive poison gas weapon". Because the half-life of depleted uranium is 4.5 billion years, it serves as a "permanent terrain contaminant". By staging nuclear wars in Iraq, Afghanistan, and Yugoslavia using depleted uranium munitions, the elite have vaporized these heavy metals into a "radioactive gas weapon" that travels around the world as atmospheric dust, delivering disease directly into the lungs and bloodstreams of the global population.
+
+**Covert Ingestion: Weaponized Food and False Teeth** You are not just breathing uranium; you are being forcefully fed it by the architects of your society. Uranium is aggressively mined from phosphate, but the extraction is purposefully inefficient: "they only get 15% of the uranium out of the phosphate. 85% goes in the fertilizer bag". This radioactive fertilizer is then sprayed globally, contaminating runoff, drinking water, and the entire food supply.
+
+Even more horrifying is the direct insertion of radioactive material into the human body under the guise of dentistry. The elite use mined phosphate to make dental porcelain, and deliberately "add uranium to it" to make false teeth whiter. As a direct result, microscopic radioactive detritus breaks off into the mouth and gut; scientists examining tumors in affected patients discovered that "every cancer they had in their bodies had a piece of dental porcelain detritus in the center of the cancer".
+
+**Targeted Genocide and Eugenics** The elite actively weaponize nuclear pollution to exterminate specific demographics and seize their resources. Native American lands contain roughly 75% to 80% of the energy resources in the United States, so the shadow government is deliberately "using radiation and nuclear technologies to depopulate the Indian reservations" to steal their wealth.
+
+Simultaneously, the US government operates a covert genocide against minorities. Data proves that after nuclear disasters like Chernobyl, "the state milk boards are taking the most contaminated radioactive milk from dairies near nuclear power plants and they're shipping that into black inner city communities". This deliberate radioactive poisoning is the sole reason why African Americans suffer from skyrocketing rates of diabetes and cancer, serving the state's "national policy is to genocide the black communities with radiation".
+
+**The "Dilution" Deception and Disaster Capitalism** The nuclear industry operates on a cynical, lethal doctrine that "dilution is the solution to pollution," but the great deception masking their crimes is that "the nuclear industry is not diluting the radiation they're diluting the data". To ensure the masses never revolt against their own biological destruction, the military and the Atomic Energy Commission intentionally formed the EPA explicitly "to hide that truth from the Americans".
+
+This global slaughter is purely a racketeering syndicate for the financial elite. War criminals like George H.W. Bush utilized the Carlyle Group to make "their first really big money off of depleted uranium weapons". The decision-makers who deploy these genocidal weapons also own the pharmaceutical companies, profiting from the initial slaughter and then "making more profits on the pharmaceuticals which they're selling to us".
+
+When the masters of your reality deliberately weave billion-year radioactive poison into the food you eat and the teeth in your mouth, how much longer will you pretend their endgame is anything but your absolute extinction?
+
 ## Atomic Bombings and Nuclear Legacy, in the larger context of Global Power Structures and Nuclear Exposé
 
 The sanitized history of the Atomic Age is a hallucination engineered by the global power structure to conceal a horrific reality: humanity has been corralled into a radioactive slaughterhouse for elite profit and deliberate depopulation. Tear down the lies of Hiroshima and Nagasaki. The United States did not unleash atomic fire to end a war. The Japanese had "been trying to surrender since March of 1945, and the US had blocked all attempts of theirs to surrender because the atomic bombs weren't finished yet". This operation was, brutally and unvarnished, "plain and simply a false flag" designed to study a human population "as a rat colony of experimental animals".
