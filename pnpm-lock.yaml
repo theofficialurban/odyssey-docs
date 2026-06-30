@@ -11,9 +11,6 @@ importers:
       '@popperjs/core':
         specifier: ^2.11.8
         version: 2.11.8
-      '@primeicons/core':
-        specifier: 8.0.0-rc.1
-        version: 8.0.0-rc.1
       '@primeicons/vue':
         specifier: 8.0.0-rc.1
         version: 8.0.0-rc.1(vue@3.5.21)
@@ -38,9 +35,6 @@ importers:
       path:
         specifier: ^0.12.7
         version: 0.12.7
-      primeicons:
-        specifier: ^7.0.0
-        version: 7.0.0
       primevue:
         specifier: 5.0.0-rc.1
         version: 5.0.0-rc.1(vue@3.5.21)
@@ -2143,9 +2137,6 @@ packages:
 
   preact@10.27.2:
     resolution: {integrity: sha512-5SYSgFKSyhCbk6SrXyMpqjb5+MQBgfvEKE/OC+PujcY34sOpqtr+0AZQtPYx5IA6VxynQ7rUPCtKzyovpj9Bpg==}
-
-  primeicons@7.0.0:
-    resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
 
   primevue@5.0.0-rc.1:
     resolution: {integrity: sha512-ZR/fJHDZQpqRnSkPCxa5egmqiFZAySvBKi2NXvoJnZbYYDo6bzhv/FiMQMysIdYCXsEm/Ir+/vyRt+64IWp1UQ==}
@@ -4644,8 +4635,6 @@ snapshots:
       source-map-js: 1.2.1
 
   preact@10.27.2: {}
-
-  primeicons@7.0.0: {}
 
   primevue@5.0.0-rc.1(vue@3.5.21):
     dependencies:
