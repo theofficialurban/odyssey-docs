@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@import "tailwindcss-primeui";
 @config "../../tailwind.config.js";
 
 @utility text-fluid-sm {

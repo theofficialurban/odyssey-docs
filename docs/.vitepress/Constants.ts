@@ -94,6 +94,22 @@ const MathJaxCustomElements = [
 export const siteBaseUrl = "https://docs.urbanodyssey.xyz";
 
 /**
+ * Default Open Graph images to use if none supplied in Frontmatter
+ */
+export const OpenGraphDefaults: string[] = [
+  `/og/1.jpg`,
+  `/og/2.png`,
+  `/og/3.png`,
+  `/og/4.png`,
+  `/og/5.png`,
+  `/og/6.png`,
+  `/og/7.png`,
+  `/og/8.png`,
+  `/og/9.png`,
+  `/og/10.png`,
+];
+
+/**
  * A mapping of a collection or category to a textual title for OpenGraph Images
  * @prop {string} prefix - The Collection URL Slug to Match
  * @prop {string} text - The title to show in OG image

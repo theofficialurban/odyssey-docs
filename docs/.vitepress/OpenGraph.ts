@@ -1,6 +1,16 @@
 import { PageData, TransformPageContext } from "vitepress";
 import { computed, ref } from "vue";
-import { siteBaseUrl } from "./Constants";
+import { OpenGraphDefaults, siteBaseUrl } from "./Constants";
+
+/**
+ * Selects a random OGImage from the list of slugs in the format of `/og/img1.png` and returns it as `(siteBaseUrl)/og/img1.png`
+ * @returns
+ */
+export function getRandomOpenGraphImage() {
+  const list = OpenGraphDefaults;
+  const randomImgRaw = list[Math.floor(Math.random() * list.length)];
+  return `${siteBaseUrl}${randomImgRaw}`;
+}
 
 /**
  * Automatically decides on OG Card Type
@@ -19,17 +29,67 @@ function twitterCardType(pageData: PageData): string {
   return "summary";
 }
 
-export const baseOgImages = [
-  `${siteBaseUrl}/og/1.jpg`,
-  `${siteBaseUrl}/og/2.jpg`,
-  `${siteBaseUrl}/og/3.jpg`,
-  "https://i.imgur.com/S8LHDQ7.jpeg",
-];
-export function getRandomOg(): string {
-  const imgs = baseOgImages.length;
-  const max = imgs - 1;
-  const pickRand = Math.floor(Math.random() * max);
-  return baseOgImages[pickRand] ?? `${siteBaseUrl}/og/1.jpg`;
+// export const baseOgImages = [
+//   `${siteBaseUrl}/og/1.jpg`,
+//   `${siteBaseUrl}/og/2.jpg`,
+//   `${siteBaseUrl}/og/3.jpg`,
+//   "https://i.imgur.com/S8LHDQ7.jpeg",
+// ];
+// export function getRandomOg(): string {
+//   const imgs = baseOgImages.length;
+//   const max = imgs - 1;
+//   const pickRand = Math.floor(Math.random() * max);
+//   return baseOgImages[pickRand] ?? `${siteBaseUrl}/og/1.jpg`;
+// }
+
+function pushOpenGraphImg(pageData: PageData) {
+  const ogImage = pageData.frontmatter.ogimage ?? getRandomOpenGraphImage();
+  const ogIHeight = String(pageData.frontmatter.ogimageheight ?? 630) ?? "630";
+  const ogIWidth = String(pageData.frontmatter.ogimagewidth ?? 1200) ?? "1200";
+  pageData.frontmatter.head.push(
+    [
+      "meta",
+      {
+        name: "og:image",
+        content: ogImage,
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "twitter:image",
+        content: ogImage,
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "og:image:width",
+        content: ogIWidth,
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "twitter:image:width",
+        content: ogIWidth,
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "og:image:height",
+        content: ogIHeight,
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "twitter:image:height",
+        content: ogIHeight,
+      },
+    ],
+  );
 }
 
 function OGFromFrontmatter(pageData: PageData, ctx: TransformPageContext<any>) {
@@ -172,58 +232,7 @@ function OGFromFrontmatter(pageData: PageData, ctx: TransformPageContext<any>) {
     );
   }
   // Sets the `og:image` and the `twitter:image` along with height and width
-
-  if (pageData.frontmatter.ogimage) {
-    const ogImage = pageData.frontmatter.ogimage ?? getRandomOg();
-    const ogIHeight =
-      String(pageData.frontmatter.ogimageheight ?? 630) ?? "630";
-    const ogIWidth =
-      String(pageData.frontmatter.ogimagewidth ?? 1200) ?? "1200";
-    pageData.frontmatter.head.push(
-      [
-        "meta",
-        {
-          name: "og:image",
-          content: ogImage,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "twitter:image",
-          content: ogImage,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "og:image:width",
-          content: ogIWidth,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "twitter:image:width",
-          content: ogIWidth,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "og:image:height",
-          content: ogIHeight,
-        },
-      ],
-      [
-        "meta",
-        {
-          name: "twitter:image:height",
-          content: ogIHeight,
-        },
-      ],
-    );
-  }
+  pushOpenGraphImg(pageData);
 
   const baseUrl = `${siteBaseUrl}/${pageData.relativePath}`;
   const pgUrl = baseUrl.replace(".md", ".html");

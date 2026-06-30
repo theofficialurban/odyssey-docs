@@ -5,38 +5,15 @@ secret: true
 
 <script setup>
 
-// import { useDialog } from "primevue/usedialog"
-// import { h, resolveComponent } from 'vue'
+import {inject} from "vue"
+import ImgurCarousel from "../.vitepress/theme/components/PrimeVue/ImgurCarousel.vue"
 
-// const CardComp = resolveComponent("Card")
-// const RenderedCard = h(CardComp, {
-//     title: "Test",
-//     description: "Test",
-//     href: "#"
-// })
-// const dialog = useDialog()
-// const showProducts = () => {
-//     dialog.open(CardComp, {
-//         props: {
-//             title: 'Test Title',
-//             description: 'Sup',
-//             href: '#'
-//         }
-//     });
-// }
-// console.log(CardComp, dialog)
+const vocabulary = inject("agitpropgalleria")
+
 </script>
 
 # Testing
 
-<Accordion :tabs="[{title: 'Test', content: 'Test', value: 0}, {title: 'Test 2', content: 'Test 2', value: 1}]" />
+<TestGallery :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
 
-## Highlight Test
-
-<mark class="floating" color="green">Testing</mark>
-
-<mark class="floating" color="yellow">Testing</mark>
-
-<div class="highlightr-floating"><mark :style="{background: '#FF5582A6'}">Testing</mark></div>
-
-<div class="highlightr-floating"><mark style="background: #FF5582A6;">Testing</mark></div>
+<ImgurCarousel :value="vocabulary" />

@@ -41,15 +41,19 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@primeuix/themes": "^2.0.3",
+    "@primeicons/core": "8.0.0-alpha.1",
+    "@primeicons/vue": "8.0.0-rc.1",
+    "@primeuix/themes": "3.0.0-rc.1",
     "@royalfig/share-button": "^1.0.26",
     "bootstrap": "^4.6.2",
     "fs": "0.0.1-security",
     "grey-matter": "^0.0.0",
     "markdown-it-yaml": "^1.0.0",
     "path": "^0.12.7",
-    "primevue": "^4.5.5",
+    "primeicons": "^7.0.0",
+    "primevue": "5.0.0-rc.1",
     "sass": "^1.92.1",
-    "substack-api": "^1.4.0"
+    "substack-api": "^1.4.0",
+    "tailwindcss-primeui": "^0.6.1"
   }
 }
