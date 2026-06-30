@@ -13,7 +13,8 @@ import GalleryZoomOut from "primevue/galleryzoomout";
 import Gallery from "primevue/gallery";
 import ChevronLeft from "@primeicons/vue/chevron-left";
 import ChevronRight from "@primeicons/vue/chevron-right";
-
+import GalleryPrev from "primevue/galleryprev";
+import GalleryNext from "primevue/gallerynext";
 import Download from "@primeicons/vue/download";
 
 import SearchMinus from "@primeicons/vue/search-minus";
@@ -58,7 +59,7 @@ const activeImage = computed<ImageItem | null>(() => {
           v-html="activeImage.caption"
         ></span>
       </div>
-      <div class="gap-0.5 inline-flex">
+      <div class="gap-0.5">
         <GalleryPrev>
           <ChevronLeft />
         </GalleryPrev>

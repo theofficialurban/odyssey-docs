@@ -12,8 +12,8 @@ importers:
         specifier: ^2.11.8
         version: 2.11.8
       '@primeicons/core':
-        specifier: 8.0.0-alpha.1
-        version: 8.0.0-alpha.1
+        specifier: 8.0.0-rc.1
+        version: 8.0.0-rc.1
       '@primeicons/vue':
         specifier: 8.0.0-rc.1
         version: 8.0.0-rc.1(vue@3.5.21)
@@ -588,9 +588,6 @@ packages:
 
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
-
-  '@primeicons/core@8.0.0-alpha.1':
-    resolution: {integrity: sha512-FjipxrQKiZae/dhspo4s7zUQEat7SjK4tfoiCR3FQh5biaj7LlZFkMmwHkBCQzlVYAujSjRiOdMjPe2jcT6P7A==}
 
   '@primeicons/core@8.0.0-rc.1':
     resolution: {integrity: sha512-ua8X+4/S9HcHr6mGnzj/SfvgCq5grksTd5wxvvk0AE8KemWIp/dui0u7S30GTTcPM8U4eGf+5xO6bkJ6gWaScQ==}
@@ -3118,10 +3115,6 @@ snapshots:
   '@polka/url@1.0.0-next.29': {}
 
   '@popperjs/core@2.11.8': {}
-
-  '@primeicons/core@8.0.0-alpha.1':
-    dependencies:
-      '@primeuix/utils': 0.6.4
 
   '@primeicons/core@8.0.0-rc.1':
     dependencies:

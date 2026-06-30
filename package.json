@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@primeicons/core": "8.0.0-alpha.1",
+    "@primeicons/core": "8.0.0-rc.1",
     "@primeicons/vue": "8.0.0-rc.1",
     "@primeuix/themes": "3.0.0-rc.1",
     "@royalfig/share-button": "^1.0.26",
