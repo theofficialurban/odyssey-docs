@@ -11,14 +11,14 @@ import GalleryDownload from "primevue/gallerydownload";
 import GalleryZoomIn from "primevue/galleryzoomin";
 import GalleryZoomOut from "primevue/galleryzoomout";
 import Gallery from "primevue/gallery";
-import ChevronLeft from "@primeicons/vue/chevron-left";
-import ChevronRight from "@primeicons/vue/chevron-right";
+import ChevronLeft from "@primevue/icons/chevronleft";
+import ChevronRight from "@primevue/icons/chevronright";
 import GalleryPrev from "primevue/galleryprev";
 import GalleryNext from "primevue/gallerynext";
 import Download from "@primeicons/vue/download";
 
-import SearchMinus from "@primeicons/vue/search-minus";
-import SearchPlus from "@primeicons/vue/search-plus";
+import SearchMinus from "@primevue/icons/searchminus";
+import SearchPlus from "@primevue/icons/searchplus";
 
 import { computed, h, ref } from "vue";
 import { type ImageItem } from "../../../GalleriaAlbums";
