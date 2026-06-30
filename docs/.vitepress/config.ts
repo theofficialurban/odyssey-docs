@@ -74,11 +74,11 @@ const cfg: UserConfig = {
     // esbuild: {
     //   exclude: ["@primeicons/vue/core"],
     // },
-    build: {
-      rollupOptions: {
-        external: ["@primeicons/vue/core"],
-      },
-    },
+    // build: {
+    //   rollupOptions: {
+    //     external: ["@primeicons/vue/core"],
+    //   },
+    // },
     optimizeDeps: {
       exclude: [
         "@nolebase/vitepress-plugin-inline-link-preview/client",
