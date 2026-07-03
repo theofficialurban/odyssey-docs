@@ -49,12 +49,16 @@ const mergedProps = computed(() => {
           <CarouselPrev
             class="w-9 h-9 flex items-center justify-center rounded-full border border-surface bg-surface-0 dark:bg-surface-800 text-surface-500 dark:text-surface-400 hover:opacity-75 cursor-pointer transition-opacity"
           >
-            <Btnn raised severity="danger" variant="text">Previous</Btnn>
+            <Btnn raised severity="danger" variant="outlined"
+              ><i class="pi pi-arrow-left"></i
+            ></Btnn>
           </CarouselPrev>
           <CarouselNext
             class="w-9 h-9 flex items-center justify-center rounded-full border border-surface bg-surface-0 dark:bg-surface-800 text-surface-500 dark:text-surface-400 hover:opacity-75 cursor-pointer transition-opacity"
           >
-            <Btnn raised severity="success" variant="text">Next</Btnn>
+            <Btnn raised severity="success" variant="outlined" size="small">
+              <i class="pi pi-arrow-right"></i>
+            </Btnn>
           </CarouselNext>
         </div>
       </div>

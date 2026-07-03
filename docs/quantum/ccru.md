@@ -35,7 +35,7 @@ const vocabulary = inject("ccrugalleria")
 
 This document serves as an archival compilation of the **Ccru (Cybernetic Culture Research Unit)**, a collective whose work blurs the boundaries between **philosophy, pulp fiction, and the occult**. The text explores the concept of **hyperstition**, which refers to fictions that function as "active agents of transformation" to **make themselves real** by influencing the future. Key themes include the subversion of **linear time**, the dismantling of standard human identity through **anonymity and "swarming,"** and a "magical war" waged against the **One God Universe (OGU)** of centralized control. Through esoteric narratives involving **digital demons, lemurs, and William Burroughs**, the source aims to document a radical experiment in **collective production** that challenges traditional academic and social reality.
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/hsdcFmi', target: '_blank'}]" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/hsdcFmi'}]" />
 
 :::details Expand for Full Glossary
 

@@ -3,6 +3,7 @@ import { type Theme } from "vitepress";
 import VPLTheme from "@lando/vitepress-theme-default-plus";
 import "./global.css";
 import "./Highlightr.css";
+
 import OdysseyBanner from "./components/OdysseyBanner.vue";
 import CollectionIndex from "./components/CollectionIndex.vue";
 import Banner from "./components/Banner.vue";
@@ -64,6 +65,7 @@ import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
 import CollectionCardGrid from "./components/CollectionCardGrid.vue";
 import SpotifyPlaylist from "./components/SpotifyPlaylist.vue";
 import ImgurGallery from "./components/PrimeVue/ImgurGallery.vue";
+import Highlighter from "./components/Highlighter.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -152,10 +154,11 @@ export default {
     app.component("Tag", Tag);
     app.component("DataTable", DataTable);
     app.component("Column", Column);
-    app.component("TestGallery", ImgurGallery);
+    app.component("ImgurGallery", ImgurGallery);
     app.component("ImgurGalleria", ImgurGalleria);
     app.component("Carousel", CustomCarousel);
     app.component("Accordion", CustomAccordion);
+    app.component("Hl", Highlighter);
 
     app.directive("tooltip", Tooltip);
     app.use(DialogService);

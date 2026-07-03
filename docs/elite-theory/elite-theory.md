@@ -25,9 +25,9 @@ const elitetheory_vocabulary = inject("elitetheorygalleria")
 
 :::tabs
 == Elite Theory
-<ImgurGalleria :value="elitetheory_vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/ksLVvDz', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+<ImgurGallery :value="elitetheory_vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/ksLVvDz'}]" :galleriaProps="{showIndicators: false}" />
 == Propaganda
-<ImgurGalleria :value="agitprop_vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+<ImgurGallery :value="agitprop_vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp'}]" :galleriaProps="{showIndicators: false}" />
 
 :::
 

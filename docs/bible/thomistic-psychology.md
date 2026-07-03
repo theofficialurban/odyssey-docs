@@ -40,7 +40,7 @@ This source is an introduction and initial chapter from Robert Edward Brennan’
 
 ### Vocabulary
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/MvMuu2s', target: '_blank'}]" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/MvMuu2s'}]" />
 
 :::details Expand for Full Glossary
 

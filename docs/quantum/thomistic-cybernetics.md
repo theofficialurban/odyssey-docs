@@ -41,7 +41,7 @@ Access the sources mentioned here: https://u.pcloud.link/publink/show?code=kZK4h
 
 ## Vocabulary
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/MvMuu2s', target: '_blank'}]" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/MvMuu2s'}]" />
 
 :::details Expand for Full Glossary
 

@@ -49,7 +49,7 @@ const vocabulary = inject("aligalleria")
 
 ## Key Words & Terms
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/artificial-liquid-intelligence-blockchain-genomics-JgOKo5P', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/artificial-liquid-intelligence-blockchain-genomics-JgOKo5P'}]" :galleriaProps="{showIndicators: false}" />
 
 ## James Carner’s "Breath Wars" Prophecies vs. The Bio-Digital Reality
 
