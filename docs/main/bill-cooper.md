@@ -68,15 +68,20 @@ https://open.spotify.com/show/7rgnucezAMKo6EvlbZzVyZ?si=b124431191e44aae
 
 #### Bill Cooper’s Material (Audio & Writings)
 
+:::tabs
+== FOIA
+<PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/William%20-Bill-%20Milton%20Cooper%20Part%2001%20of%2001.pdf" title="Bill Cooper FOIA Request and Govt Documents on Bill Cooper" />
+== Links
 <Grid>
-<Card title="Bill Cooper's Hour of the Time Audio Archives" img="https://mega.nz/rich-folder.png" description="Provided by the DM Hutchins Research Library (bio.link/dmh2nd)" href="https://mega.nz/folder/IPECUKwT#s9gna8oyLGX1yfZdfCnsgA/folder/VGcWmBRL"
+<Card title="Bill Cooper's Hour of the Time Audio Archives" img="https://mega.nz/rich-folder.png" description="Provided by the DM Hutchins Research Library (bio.link/dmh2nd)" href="https://mega.nz/folder/IPECUKwT#s9gna8oyLGX1yfZdfCnsgA/folder/VGcWmBRL" />
 
-<Card title="DMH2ND Research Project" img="https://cdn.bio.link/uploads/profile_pictures/2024-05-18/ZVUrajULPGCAzPBqeZpkxSNsLiyvy3CU.png" description="DM Hutchins 2nd Digital Occult Library Research Project - Terabytes of esoteric research materials," href="https://bio.link/dmh2nd"
+<Card title="DMH2ND Research Project" img="https://cdn.bio.link/uploads/profile_pictures/2024-05-18/ZVUrajULPGCAzPBqeZpkxSNsLiyvy3CU.png" description="DM Hutchins 2nd Digital Occult Library Research Project - Terabytes of esoteric research materials," href="https://bio.link/dmh2nd" />
 
-<Card title="Authored by Bill Cooper" img="https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_1x_web_48dp.png" description="" href="https://drive.google.com/drive/folders/12Q1NkAEEkimrp7zkTrJ4_3V_zN5hVdWh?usp=drive_link"
+<Card title="Authored by Bill Cooper" img="https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_1x_web_48dp.png" description="" href="https://drive.google.com/drive/folders/12Q1NkAEEkimrp7zkTrJ4_3V_zN5hVdWh?usp=drive_link" />
 
 <Card title="Hour Of The Time" img="https://i1.sndcdn.com/avatars-UphqlyscZ8ZRDnjn-JOSfQA-t500x500.jpg" description="Listen to Hour Of The Time | SoundCloud is an audio platform that lets you listen to what you love and share the sounds you create." href="https://soundcloud.com/hour-of-the-time" />
 </Grid>
+:::
 
 ## How many times did Bill Cooper foreshadow his own demise?
 
