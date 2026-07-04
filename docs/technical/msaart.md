@@ -167,6 +167,8 @@ Source for this Graphic: https://studylib.net/doc/9491884/99hub103-vision?p=5
 ![](https://i.imgur.com/goofnec.png)
 Definition for Subtend: https://www.mathsisfun.com/definitions/subtend.html
 
+:::
+
 #### 5. The Master Outline of the Operating System
 
 To stop your confusion, you must memorize the four distinct operations that force the Aether down into the dirt of physical reality:
