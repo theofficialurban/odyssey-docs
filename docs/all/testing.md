@@ -14,23 +14,24 @@ const vocabulary = inject("agitpropgalleria")
 
 # Testing
 
-<ImgurGallery :value="vocabulary" :buttons="[{icon: 'pi pi-image', value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp'}]" :galleriaProps="{showIndicators: false}" />
+## Accordion
 
-<ImgurCarousel :value="vocabulary" />
+<Accordion :tabs="[{title: 'Testing 1', content: 'Some content', value: 0}, {title: 'Testing 2', content: 'Some content', value: 1}]" />
 
-## Testing Icons
+## Message Test
 
-<i class="pi pi-arrow-right"></i>
-<i class="pi pi-times"></i>
-<i class="pi pi-search"></i>
-<i class="pi pi-user"></i>
+<Message size="small" icon="pi pi-send" severity="info">Hello</Message>
+
+<Message size="small" severity="error">Testing</Message>
+
+This is a test for inline <Message size="small" severity="error">Testing</Message>
 
 ## Highlight test
 
 <Hl>Testing</Hl>
-<Hl :floating="false">Testing</Hl>
+<Hl v-tooltip.top="'Testing tooltip'" :floating="false">Testing</Hl>
 
 <Hl color="F54927" :alpha="20">Testing</Hl>
 <Hl color="27F538" :alpha="40" :floating="false">Testing</Hl>
 
-<Hl color="27F538" :alpha="40" :floating="false" :props="{class: 'text-3xl'}">Testing</Hl>
+<Hl color="27F538" v-tooltip="{ value: 'Confirm to proceed', showDelay: 1000, hideDelay: 300 }" :alpha="40" :floating="false" :props="{class: 'text-3xl'}">Testing</Hl>

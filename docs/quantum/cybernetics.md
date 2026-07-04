@@ -10,31 +10,9 @@ tags:
 
 <script setup>
 
-const vocab = [
-  {image: "https://i.imgur.com/UjxxyAH.png",  title: "Cybernetics"},
-  {image: "https://i.imgur.com/VngBTO3.png", title: "Human Biocomputer"},
-  {image: "https://i.imgur.com/XY75kd1.png", title: "Self-Metaprogrammer"},
-  {image: "https://i.imgur.com/A8RWj3h.png", title: "Supraself-Metaprograms"},
-  {image: "https://i.imgur.com/wV4fDEY.png", title: "Computer Interlock"},
-  {image: "https://i.imgur.com/IEweDtd.png", title: "Governing Machine"},
-  {image: "https://i.imgur.com/vxej1Jr.png", title: "Schismogenesis"},
-  {image: "https://i.imgur.com/w3tOPGc.png", title: "Deutero-Learning"},
-  {image: "https://i.imgur.com/V0UFLpB.png", title: "Double Bind"},
-  {image: "https://i.imgur.com/zv5hv8q.png", title: "Project Cybersyn"},
-  {image: "https://i.imgur.com/Ai4lfUT.png", title: "Meme"},
-  {image: "https://i.imgur.com/GAZ11ox.png", title: "Buffer Overflow"},
-  {image: "https://i.imgur.com/e61A3Rs.png", title: "Crash OS"},
-  {image: "https://i.imgur.com/7dHbQOQ.png", title: "Dictionary Attack"},
-  {image: "https://i.imgur.com/dnItCsR.png", title: "Infinite Looping"},
-  {image: "https://i.imgur.com/go5PXOk.png", title: "Memory Probing"},
-  {image: "https://i.imgur.com/hTtbapg.png", title: "Mind Virus"},
-  {image: "https://i.imgur.com/oX9aG1l.png", title: "Negative Association"},
-  {image: "https://i.imgur.com/mXJtJOI.png", title: "Psycho-Bombs"},
-  {image: "https://i.imgur.com/sHFlPla.png", title: "Screen Scraping"},
-  {image: "https://i.imgur.com/r2P7ZLA.png", title: "Spoofing"},
-  {image: "https://i.imgur.com/wdvHQIj.png", title: "Trojan Horse"}
-  
-]
+import {inject} from "vue"
+
+const vocab = inject("cyberneticsgallery")
 
 </script>
 

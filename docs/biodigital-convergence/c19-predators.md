@@ -15,9 +15,15 @@ ogimage: https://i.imgur.com/4hBfIrt.png
 
 [[toc]]
 
+<iframe src="https://gingerbreggin.substack.com/embed?r=3kr5wz" width="582" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 ## Overview
 
 This text introduces a comprehensive critique of the global response to the pandemic, positioning **COVID-19 and the Global Predators** as a meticulous investigation into what the authors describe as a **coordinated effort to diminish human liberty**. By assembling a vast chronology of events, Peter and Ginger Breggin argue that **public health policies were weaponized** to instill fear and facilitate a "Great Reset" led by powerful international figures and organizations. The book’s structure moves from analyzing the **origins of the virus in gain-of-function research** to exposing the active suppression of **inexpensive, early home-based treatments** that proponents claim could have saved millions of lives. Ultimately, the work serves as a **call to action for medical freedom**, urging readers to reject a "new normal" of state-sponsored control and to reclaim their **unalienable rights to life and autonomy**.
+
+<VEmbed platform="Odysee" src="https://odysee.com/%24/embed/%40UrbanOdyssey%3Ab%2Fdr-peter-breggin%3A7?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn" />
+
+<VEmbed platform="Odysee" src="https://odysee.com/%24/embed/%40Truewholehuman%3Ac%2FDr.-Peter-Breggin-Brain-Hijackers-%3A6?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn" />
 
 ## Key Figures and Authors in the Context of "COVID-19 and the Global Predators"
 

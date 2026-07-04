@@ -1,11 +1,10 @@
 ---
-title: Brain Disabling
+title: Brain Disabling Treatments
 description: |
   In the second edition of Brain-Disabling Treatments in Psychiatry, Dr. Peter R. Breggin challenges the fundamental legitimacy of modern biological psychiatry by arguing that all psychiatric interventions—including drugs, electroshock, and lobotomy—function not by curing disease, but by inducing generalized brain dysfunction. He posits that these "treatments" achieve their intended effects through deactivation, a process that suppresses higher human functions such as autonomy, self-awareness, and emotional sensitivity, effectively acting as a chemical lobotomy.
 tags:
-  - Peter Breggin
   - Reading Notes
-ogimage: https://i.imgur.com/LWtejcp.png
+  - Peter Breggin
 ---
 
 [[atomic]]
@@ -14,16 +13,24 @@ ogimage: https://i.imgur.com/LWtejcp.png
 
 [[toc]]
 
-## Overview
-
 ![](https://i.imgur.com/QGJItv7.png)
+
+<iframe src="https://gingerbreggin.substack.com/embed?r=3kr5wz" width="582" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
+## Overview
 
 In the second edition of ***Brain-Disabling Treatments in Psychiatry***, Dr. Peter R. Breggin challenges the fundamental legitimacy of modern biological psychiatry by arguing that all psychiatric interventions—including drugs, electroshock, and lobotomy—function not by curing disease, but by inducing **generalized brain dysfunction**. He posits that these "treatments" achieve their intended effects through **deactivation**, a process that suppresses higher human functions such as autonomy, self-awareness, and emotional sensitivity, effectively acting as a **chemical lobotomy**. Central to his critique is the concept of **medication spellbinding**, or intoxication anosognosia, wherein patients become unable to perceive the extent of their own drug-induced impairment, often believing they have improved while their cognitive and social health actually deteriorates. Breggin meticulously documents how the **psychopharmaceutical complex** promotes myths of "biochemical imbalances" to justify the use of **neurotoxic substances** that actually create the very imbalances they claim to treat. Ultimately, the text serves as both a scientific indictment of the industry's **deceptive marketing** and a clinical guide for ethical alternatives, emphasizing a **moral foundation for psychotherapy** and the necessity of supervised drug withdrawal.
 
+<VEmbed platform="Odysee" src="https://odysee.com/%24/embed/%40UrbanOdyssey%3Ab%2Fdr-peter-breggin%3A7?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn" />
+
+<VEmbed platform="Odysee" src="https://odysee.com/%24/embed/%40Truewholehuman%3Ac%2FDr.-Peter-Breggin-Brain-Hijackers-%3A6?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn" />
+
+<CCard :useFinder="true" collection="biodigital" href="c19-predators" :preview="true" />
+
 **Fr. Chad Ripperger's authored text 'An Introduction to the Science of Mental Health' offers a framework of Psychology based heavily on St. Thomas Aquinas writings and the Thomistic Philosophy. By restoring and taking into consideration the spiritual condition of the patient, I think his framework rivals most of modern psychology & psychiatry**
-<CCard collection="bible" href="/bible/chad-ripperger.html" />
 
 <YouTube id="DnVG5yiaO7k" />
+<CCard :useFinder="true" collection="bible" href="chad-ripperger" :preview="true" />
 
 ## **The Brain-Disabling Model of Psychiatry: _A Conceptual Primer for Students_**
 
@@ -31,11 +38,7 @@ In the second edition of ***Brain-Disabling Treatments in Psychiatry***, Dr. Pe
 
 The clinical consensus you have been taught throughout your medical education—that mental suffering is the result of a "chemical imbalance"—is an industry-sponsored fiction. In the traditional medical model, we are told psychiatric drugs act like insulin for a diabetic, correcting a pre-existing biological defect. However, Dr. Peter Breggin’s **brain-disabling model** reveals a far more disturbing reality: psychiatric disorders have no proven biological markers. There is no blood test, no genetic scan, and no chemical profile that can identify a patient with "schizophrenia" or "depression" before the drugs are introduced.
 
-:::tip **Key Insight:**
-
-Despite centuries of research, no commonly diagnosed psychiatric disorder has been proven to be genetic or biological in origin. The "imbalances" we see in patients are not the _cause_ of their suffering; they are the _result_ of the drugs. The brain is healthy until we introduce neurotoxic agents that force it to physically compensate for the resulting disability.
-
-:::
+> **Key Insight:** Despite centuries of research, no commonly diagnosed psychiatric disorder has been proven to be genetic or biological in origin. The "imbalances" we see in patients are not the _cause_ of their suffering; they are the _result_ of the drugs. The brain is healthy until we introduce neurotoxic agents that force it to physically compensate for the resulting disability.
 
 To grasp the mechanism of these treatments, we must abandon the myth of the "magic bullet" and examine the **Basic Four Principles** of how these interventions actually achieve their results through the disruption of normal function.
 
@@ -185,7 +188,7 @@ The spellbound state is reinforced by psychological factors that distort how bot
 - **Psychological Denial:** Both the patient and doctor naturally want to believe the "magic bullet" is working. If a drug provides temporary emotional anesthesia, they may deny the accompanying cognitive costs to maintain the illusion of a "cure."
 - **Confabulation:** When the brain is damaged and memory is faulty, it creates "cover stories" to fill the gaps. A patient may invent reasons why they are doing well even while sitting in a state of rousable stupor.
 
-#### **Comparing Outcomes:**
+**Comparing Outcomes:**
 
 - **Spontaneous Recovery:** A natural return to health where the individual uses reason and self-determination to overcome stress.
 - **Drug-Induced Compliance:** A state of **docility** where the individual appears "better" only because their will has been broken by chemical suppression.
@@ -194,11 +197,14 @@ The spellbound state is reinforced by psychological factors that distort how bot
 
 For the learner, understanding medication spellbinding is essential for developing a scientific view of mental health. It requires recognizing that what looks like "stability" in a medicated individual is often a profound state of biological disability.
 
-#### **Key Takeaways**
+:::tip Summary
+**Key Takeaways**
 
 1. **Insight is a Brain Function:** If a drug disrupts the brain’s highest centers, it inevitably disrupts the patient's ability to judge the drug's effects.
 2. **Docility is Not Healing:** The "zombie effect" or "deactivation" should never be mistaken for genuine psychological recovery; it is the hallmark of a suppressed will.
 3. **Worsening is Toxicity:** When a medicated person’s condition declines, the primary suspicion must be drug toxicity (Medication Madness), not the progression of an underlying "mental illness."
+
+:::
 
 ## **The Clinical Reform Manifesto: _From Chemical Control to Empathic Presence_**
 

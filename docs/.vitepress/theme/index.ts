@@ -26,7 +26,7 @@ import OdysseySubstack from "./components/OdysseySubstack.vue";
 import Video from "./components/Video.vue";
 import AudioEmbed from "./components/Audio.vue";
 import VideoEmbed from "./components/VideoEmbed.vue";
-import { defaultLinkPreviewOptions, SubstackSymbol } from "../utils";
+import { defaultLinkPreviewOptions } from "../utils";
 import ImgurEmbed from "./components/ImgurEmbed.vue";
 import SubstackPost from "./components/SubstackPost.vue";
 import CardGrid from "./components/CardGrid.vue";
@@ -48,12 +48,12 @@ import Tag from "primevue/tag";
 import DataTable from "primevue/datatable";
 import Column from "primevue/column";
 
-import CustomCarousel from "./components/PrimeVue/CustomCarousel.vue";
 import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
 import {
   AgitPropGalleria,
   ALIGalleria,
   CCRUVocabulary,
+  CyberneticsGallery,
   EliteTheoryGalleria,
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
@@ -66,7 +66,8 @@ import CollectionCardGrid from "./components/CollectionCardGrid.vue";
 import SpotifyPlaylist from "./components/SpotifyPlaylist.vue";
 import ImgurGallery from "./components/PrimeVue/ImgurGallery.vue";
 import Highlighter from "./components/Highlighter.vue";
-
+import ImgurCarousel from "./components/PrimeVue/ImgurCarousel.vue";
+import Message from "primevue/message";
 export type SettingsFrontmatter =
   | {
       font: Partial<BannerFontProps>;
@@ -146,6 +147,8 @@ export default {
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
     app.component("NonHeading", NonHeading);
+    app.component("Nh", NonHeading);
+    app.component("Hl", Highlighter);
 
     // Primevue comps
     app.component("Btn", Btn);
@@ -156,14 +159,16 @@ export default {
     app.component("Column", Column);
     app.component("ImgurGallery", ImgurGallery);
     app.component("ImgurGalleria", ImgurGalleria);
-    app.component("Carousel", CustomCarousel);
+    app.component("Carousel", ImgurCarousel);
     app.component("Accordion", CustomAccordion);
-    app.component("Hl", Highlighter);
+
+    app.component("Message", Message);
 
     app.directive("tooltip", Tooltip);
     app.use(DialogService);
 
     // Provide Image Gallery
+    app.provide("cyberneticsgallery", CyberneticsGallery);
     app.provide("ccrugalleria", CCRUVocabulary);
     app.provide("thomisticgalleria", ThomisticVocabulary);
     app.provide("metaphotonicsgalleria", MetaPhotonicsGalleria);
