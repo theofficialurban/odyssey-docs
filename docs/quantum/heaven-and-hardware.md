@@ -9,6 +9,7 @@ tags:
   - Cyberpunk
   - Cybernetics
   - Urban's Videos
+  - Words & Terms
 ---
 
 <script setup>

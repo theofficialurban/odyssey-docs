@@ -2,6 +2,9 @@
 title: Plasma Intelligences
 description: |
   Robert Temple’s A New Science of Heaven explores the revolutionary premise that plasma, which constitutes nearly the entire visible universe, is a medium for extraterrestrial life and intelligence. The author argues that complex "dusty plasmas" and plasmoids can self-organize into stable, conscious structures that far exceed human cognitive capacity.
+tags:
+  - Reading Notes
+  - Plasmoids
 ---
 
 [[atomic]]

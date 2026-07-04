@@ -935,6 +935,19 @@ const SiteConstants = {
       link: "https://docs.urbanodyssey.xyz/quantum/metasurfaces.html",
       icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Quantum Engine SVG Icon</title><path fill="#aecbfa" d="M7.01 2h2v3h-2zm4 0h2v3h-2zm4 0h2v3h-2z"/><path fill="#4285f4" d="M7.01 19h2v3h-2zm4 0h2v3h-2zm4 0h2v3h-2zM19 15h3v2h-3zm0-4h3v2h-3zm0-4h3v2h-3z"/><path fill="#aecbfa" d="M2 15h3v2H2zm0-4h3v2H2zm0-4h3v2H2z"/><path fill="#669df6" d="M11 13H9V7H7v8h4v3h2v-3h4V7h-2v6h-2V6h-2Zm-7 7V4h16v16Z"/></svg>`,
     },
+    Plasmoids: {
+      link: "https://docs.urbanodyssey.xyz/technical/plasma-intelligences.html",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Torus SVG Icon</title><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><ellipse cx="12" cy="11" rx="3" ry="2"/><ellipse cx="12" cy="12.5" rx="10" ry="8.5"/></g></svg>`,
+      color: "#F400FF4D",
+      styles: {
+        color: "black",
+        "font-weight": "800",
+      },
+    },
+    MSAART: {
+      link: "https://www.strikefoundation.earth/open-source-research",
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"><title>Torus SVG Icon</title><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><ellipse cx="12" cy="11" rx="3" ry="2"/><ellipse cx="12" cy="12.5" rx="10" ry="8.5"/></g></svg>`,
+    },
     "Leuren Moret": {
       link: "https://docs.urbanodyssey.xyz/biodigital-convergence/leuren-moret.html",
       color: "#F787FF4D",
