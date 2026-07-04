@@ -5,38 +5,32 @@ secret: true
 
 <script setup>
 
-// import { useDialog } from "primevue/usedialog"
-// import { h, resolveComponent } from 'vue'
+import {inject} from "vue"
+import ImgurCarousel from "../.vitepress/theme/components/PrimeVue/ImgurCarousel.vue"
 
-// const CardComp = resolveComponent("Card")
-// const RenderedCard = h(CardComp, {
-//     title: "Test",
-//     description: "Test",
-//     href: "#"
-// })
-// const dialog = useDialog()
-// const showProducts = () => {
-//     dialog.open(CardComp, {
-//         props: {
-//             title: 'Test Title',
-//             description: 'Sup',
-//             href: '#'
-//         }
-//     });
-// }
-// console.log(CardComp, dialog)
+const vocabulary = inject("agitpropgalleria")
+
 </script>
 
 # Testing
 
-<Accordion :tabs="[{title: 'Test', content: 'Test', value: 0}, {title: 'Test 2', content: 'Test 2', value: 1}]" />
+<ImgurGallery :value="vocabulary" :buttons="[{icon: 'pi pi-image', value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp'}]" :galleriaProps="{showIndicators: false}" />
 
-## Highlight Test
+<ImgurCarousel :value="vocabulary" />
 
-<mark class="floating" color="green">Testing</mark>
+## Testing Icons
 
-<mark class="floating" color="yellow">Testing</mark>
+<i class="pi pi-arrow-right"></i>
+<i class="pi pi-times"></i>
+<i class="pi pi-search"></i>
+<i class="pi pi-user"></i>
 
-<div class="highlightr-floating"><mark :style="{background: '#FF5582A6'}">Testing</mark></div>
+## Highlight test
 
-<div class="highlightr-floating"><mark style="background: #FF5582A6;">Testing</mark></div>
+<Hl>Testing</Hl>
+<Hl :floating="false">Testing</Hl>
+
+<Hl color="F54927" :alpha="20">Testing</Hl>
+<Hl color="27F538" :alpha="40" :floating="false">Testing</Hl>
+
+<Hl color="27F538" :alpha="40" :floating="false" :props="{class: 'text-3xl'}">Testing</Hl>

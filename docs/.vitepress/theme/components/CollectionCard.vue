@@ -5,6 +5,7 @@ import { useCollection } from "@lando/vitepress-theme-default-plus";
 import { computed } from "vue";
 import Card from "./Card.vue";
 import { getCollectionSlug } from "../../Constants";
+import { getRandomOpenGraphImage } from "../../OpenGraph";
 
 interface Props {
   collection: string;
@@ -70,9 +71,9 @@ const foundPage = computed<Page | null>(() => {
 
 const ogImage = computed<string>(() => {
   if (ogImg !== null) return ogImg;
-  if (foundPage.value == null) return "https://i.imgur.com/S8LHDQ7.jpeg";
+  if (foundPage.value == null) return getRandomOpenGraphImage();
   if (foundPage.value.ogimage) return foundPage.value.ogimage;
-  if (foundPage.value.secret == true) return "https://i.imgur.com/S8LHDQ7.jpeg";
+  if (foundPage.value.secret == true) return getRandomOpenGraphImage();
 
   const hrefSplit = foundPage.value.url.split("/"); // `0/ 1 magic / 2 slug.html
 
@@ -82,7 +83,7 @@ const ogImage = computed<string>(() => {
 
     return `/${hrefSplit[1]}/og-${realSlug}.png`;
   }
-  return "https://i.imgur.com/S8LHDQ7.jpeg";
+  return getRandomOpenGraphImage();
 });
 </script>
 

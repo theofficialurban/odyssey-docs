@@ -9,6 +9,7 @@ tags:
   - Cyberpunk
   - Cybernetics
   - Urban's Videos
+  - Words & Terms
 ---
 
 <script setup>
@@ -52,7 +53,7 @@ const vocabulary = inject("ccrugalleria")
 
 ## **The Bridge Between Heaven and Hardware: A Student's Guide to Chinese Cosmotechnics**
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/hsdcFmi', target: '_blank'}]" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/hsdcFmi'}]" />
 
 :::details Expand for Full Glossary
 

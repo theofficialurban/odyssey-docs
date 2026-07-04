@@ -47,7 +47,7 @@ The provided sources detail the forthcoming **Development of 6G Networks and Tec
 
 ## Key Words & Terms {#words}
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Smart Polymers Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/smart-polymers-wbans-iRLzETC', target: '_blank'}, {label: 'Nano & WBANs Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/neuroweapons-neurint-C3ndcJS', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'SMART Polymers Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/smart-polymers-wbans-iRLzETC'}, {value: 'WBANs Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/neuroweapons-neurint-C3ndcJS'}]" :galleriaProps="{showIndicators: false}" />
 
 ## Potential Indicators for the Development of Nanotechnology being for Human Husbandry
 

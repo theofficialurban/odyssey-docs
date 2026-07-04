@@ -253,7 +253,7 @@ View the full Imgur Album: https://imgur.com/a/YIy3E3J
 View the full Imgur Album: https://imgur.com/a/YIy3E3J
 :::
 
-<ImgurGalleria :value="vocab" :buttons="[{label: 'Cybernetics Imgur Album', severity: 'help', class: 'w-full', as: 'a', href: 'https://imgur.com/a/YIy3E3J', target: '_blank'}, {label: 'Robert Duncan Imgur Album', class: 'w-full', as: 'a', href: 'https://imgur.com/a/matrix-control-systems-gCpKo7X', target: '_blank'}]" />
+<ImgurGallery :value="vocab" :buttons="[{value: 'Cybernetics Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/YIy3E3J'}, {value: 'Robert Duncan Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/matrix-control-systems-gCpKo7X'}]" />
 
 <Grid>
 <CCard collection="biodigital" href="/biodigital-convergence/robert-duncan.html" />

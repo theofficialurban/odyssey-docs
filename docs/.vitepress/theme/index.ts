@@ -3,6 +3,7 @@ import { type Theme } from "vitepress";
 import VPLTheme from "@lando/vitepress-theme-default-plus";
 import "./global.css";
 import "./Highlightr.css";
+
 import OdysseyBanner from "./components/OdysseyBanner.vue";
 import CollectionIndex from "./components/CollectionIndex.vue";
 import Banner from "./components/Banner.vue";
@@ -18,6 +19,7 @@ import {
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
 import { ElementObjects, EsotericSymbol } from "../Esoteric";
 import PDF from "./components/PDF.vue";
+
 import AllIndex from "./components/AllIndex.vue";
 import Gradient from "./components/Gradient.vue";
 import OdysseySubstack from "./components/OdysseySubstack.vue";
@@ -45,7 +47,7 @@ import Panel from "primevue/panel";
 import Tag from "primevue/tag";
 import DataTable from "primevue/datatable";
 import Column from "primevue/column";
-import Galleria from "primevue/galleria";
+
 import CustomCarousel from "./components/PrimeVue/CustomCarousel.vue";
 import ImgurGalleria from "./components/PrimeVue/ImgurGalleria.vue";
 import {
@@ -62,6 +64,8 @@ import {
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
 import CollectionCardGrid from "./components/CollectionCardGrid.vue";
 import SpotifyPlaylist from "./components/SpotifyPlaylist.vue";
+import ImgurGallery from "./components/PrimeVue/ImgurGallery.vue";
+import Highlighter from "./components/Highlighter.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -150,10 +154,11 @@ export default {
     app.component("Tag", Tag);
     app.component("DataTable", DataTable);
     app.component("Column", Column);
-    app.component("Galleria", Galleria);
+    app.component("ImgurGallery", ImgurGallery);
     app.component("ImgurGalleria", ImgurGalleria);
     app.component("Carousel", CustomCarousel);
     app.component("Accordion", CustomAccordion);
+    app.component("Hl", Highlighter);
 
     app.directive("tooltip", Tooltip);
     app.use(DialogService);
@@ -173,7 +178,12 @@ export default {
     app.provide(InjectionKey, defaultLinkPreviewOptions);
 
     //app.provide(SubstackSymbol, data);
-    app.use(PrimeVue, { theme: { preset: Aura } });
+
+    app.use(PrimeVue, {
+      theme: { preset: Aura },
+      license:
+        "eyJpZCI6IjEyMDliNTgwLTBhZjEtNDZlOC1iNTkxLWRlNjZhNzE4M2NlNCIsInByb2R1Y3QiOiJwcmltZXVpIiwidGllciI6ImNvbW11bml0eSIsInR5cGUiOiJkZXYiLCJpYXQiOjE3ODI3NjUyNDgsImV4cCI6MTgxNDMwMTI0OH0.Yc0piBgbnYSn5aYJDBuH99Pk8iRkoLPWZFrHGkkx3Yj0lSHtFulDvF5Xu4thSPETOSBXDzxmD25nrAwJPBfbCw",
+    });
     app.use(NolebaseInlineLinkPreviewPlugin);
   },
 } satisfies Theme;

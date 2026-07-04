@@ -6,8 +6,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 import { MarkdownOptions } from "./Markdown";
 
-import { buildEndGenerateOpenGraphImages } from "@nolebase/vitepress-plugin-og-image";
-
 import SiteConstants, { siteBaseUrl } from "./Constants";
 import OGFromFrontmatter from "./OpenGraph";
 
@@ -56,6 +54,7 @@ const cfg: UserConfig = {
       },
     },
   },
+
   vue: {
     template: {
       compilerOptions: {
@@ -72,6 +71,14 @@ const cfg: UserConfig = {
   vite: {
     plugins: [tailwindcss(), Inspect()],
 
+    // esbuild: {
+    //   exclude: ["@primeicons/vue/core"],
+    // },
+    // build: {
+    //   rollupOptions: {
+    //     external: ["@primeicons/vue/core"],
+    //   },
+    // },
     optimizeDeps: {
       exclude: [
         "@nolebase/vitepress-plugin-inline-link-preview/client",

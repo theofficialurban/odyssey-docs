@@ -2,6 +2,8 @@
 title: Plasmoids, Vatican, Sigil of Lucifer
 description: Investigation of Plasmoids, Sentient Life, UAPs, Vatican Sacred Portals & Ringmakers of Saturn
 ogimage: https://i.imgur.com/iPYJoG8.jpeg
+tags:
+  - Plasmoids
 ---
 
 # Plasmoids, Saturn, Vatican, Sigil of Lucifer

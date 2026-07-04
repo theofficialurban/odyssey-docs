@@ -35,7 +35,7 @@ This text is the foundational introduction to Jacques Ellul’s seminal 1962 stu
 
 ## Key Words & Terms
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/jacques-ellul-propaganda-agitprop-words-terms-YCtfyDp'}]" :galleriaProps="{showIndicators: false}" />
 
 ## **TOTALITARIAN PSYCHOLOGICAL ORCHESTRATION — THE ARCHITECTURE OF THE MEAT-MACHINE PRISON**
 

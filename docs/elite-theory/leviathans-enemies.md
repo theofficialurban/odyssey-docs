@@ -28,7 +28,7 @@ In this posthumously published treatise, Samuel Francis provides a comprehensive
 
 ### Key Words & Terms
 
-<ImgurGalleria :value="vocabulary" :buttons="[{label: 'Full Imgur Album', variant: 'link', class: 'w-full', as: 'a', href: 'https://imgur.com/a/ksLVvDz', target: '_blank'}]" :galleriaProps="{showIndicators: false}" />
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/ksLVvDz'}]" :galleriaProps="{showIndicators: false}" />
 
 ## **The Revolution of Mass and Scale: _From Local Owners to Managerial Elites_**
 

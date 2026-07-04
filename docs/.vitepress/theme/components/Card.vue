@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { NolebaseInlineLinkPreview } from "@nolebase/vitepress-plugin-inline-link-preview";
 import { useData } from "vitepress";
+import { getRandomOpenGraphImage } from "../../OpenGraph";
 
 // This script block defines the properties (props) that our component will accept.
 // This allows us to pass unique data for each card we create.
@@ -71,7 +72,7 @@ const props = defineProps({
     >
       <div class="overflow-hidden">
         <img
-          :src="img ?? 'https://i.imgur.com/S8LHDQ7.jpeg'"
+          :src="img ?? getRandomOpenGraphImage()"
           :alt="`Image for ${title}`"
           class="cardImg"
         />
@@ -101,7 +102,7 @@ const props = defineProps({
     >
       <div class="overflow-hidden">
         <img
-          :src="img ?? 'https://i.imgur.com/S8LHDQ7.jpeg'"
+          :src="img ?? getRandomOpenGraphImage()"
           :alt="`Image for ${title}`"
           class="cardImg"
         />
