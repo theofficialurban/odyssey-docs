@@ -20,15 +20,30 @@ const { tabs = [], props = {} } = defineProps<Props>();
 </script>
 
 <template>
-  <Accordion v-bind="{ multiple: true, ...props }">
-    <AccordionPanel
-      v-for="tab in tabs"
-      v-bind="{ key: tab.title, value: tab.value, ...tab.props }"
-    >
-      <AccordionHeader>{{ tab.title }}</AccordionHeader>
-      <AccordionContent>
-        <p class="m-0">{{ tab.content }}</p>
-      </AccordionContent>
-    </AccordionPanel>
-  </Accordion>
+  <div class="flex justify-center">
+    <PVCard class="max-w-sm w-full">
+      <template #title v-if="$slots.title">
+        <slot name="title"></slot>
+      </template>
+      <template #subtitle v-if="$slots.subtitle">
+        <slot name="subtitle"></slot>
+      </template>
+      <template #content>
+        <Accordion v-bind="{ multiple: true, ...props }">
+          <AccordionPanel
+            v-for="tab in tabs"
+            v-bind="{ key: tab.title, value: tab.value, ...tab.props }"
+          >
+            <AccordionHeader>{{ tab.title }}</AccordionHeader>
+            <AccordionContent>
+              <p class="m-0">{{ tab.content }}</p>
+            </AccordionContent>
+          </AccordionPanel>
+        </Accordion>
+      </template>
+      <template #footer v-if="$slots.footer">
+        <slot name="footer"></slot>
+      </template>
+    </PVCard>
+  </div>
 </template>

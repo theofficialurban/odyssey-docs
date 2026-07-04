@@ -68,6 +68,7 @@ import ImgurGallery from "./components/PrimeVue/ImgurGallery.vue";
 import Highlighter from "./components/Highlighter.vue";
 import ImgurCarousel from "./components/PrimeVue/ImgurCarousel.vue";
 import Message from "primevue/message";
+import NewCard from "./components/PrimeVue/NewCard.vue";
 export type SettingsFrontmatter =
   | {
       font: Partial<BannerFontProps>;
@@ -126,6 +127,7 @@ export default {
     app.component("SpotifyPlaylist", SpotifyPlaylist);
     app.component("Banner", Banner);
     app.component("Card", Card);
+    app.component("NewCard", NewCard);
     app.component("Preset", CardPreset);
     app.component("Platforms", PlatformBtns);
     app.component("Gradient", Gradient);

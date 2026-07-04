@@ -18,6 +18,16 @@ const vocabulary = inject("agitpropgalleria")
 
 <Accordion :tabs="[{title: 'Testing 1', content: 'Some content', value: 0}, {title: 'Testing 2', content: 'Some content', value: 1}]" />
 
+## Cards
+
+<Grid>
+<NewCard title="DMH2ND Research Project" img="https://cdn.bio.link/uploads/profile_pictures/2024-05-18/ZVUrajULPGCAzPBqeZpkxSNsLiyvy3CU.png" description="DM Hutchins 2nd Digital Occult Library Research Project - Terabytes of esoteric research materials," href="https://bio.link/dmh2nd" />
+
+<NewCard title="Authored by Bill Cooper" img="https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_1x_web_48dp.png" description="" href="https://drive.google.com/drive/folders/12Q1NkAEEkimrp7zkTrJ4_3V_zN5hVdWh?usp=drive_link" />
+
+<NewCard title="Testing" description="I don't know" href="../bible/angels-and-demons.html" :preview="true" />
+</Grid>
+
 ## Message Test
 
 <Message size="small" icon="pi pi-send" severity="info">Hello</Message>
