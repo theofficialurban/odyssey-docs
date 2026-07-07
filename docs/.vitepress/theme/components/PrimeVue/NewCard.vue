@@ -67,6 +67,10 @@ const props = defineProps({
             class:
               'pt-16! md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
           },
+          root: {
+            class:
+              'md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
+          },
         }"
       >
         <template #header>
@@ -150,8 +154,11 @@ const props = defineProps({
         class="max-w-sm w-full overflow-hidden"
         :pt="{
           body: {
+            class: 'pt-16!',
+          },
+          root: {
             class:
-              'pt-16! pt-16! md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
+              'md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
           },
         }"
       >
