@@ -10,6 +10,64 @@ export type ImageItem = {
 export type CustomDialogOpenFunction = () => DynamicDialogInstance;
 export type CustomImageHtmlCaption = CustomDialogOpenFunction | null;
 export type CustomImageHtmlCaptions = CustomImageHtmlCaption[];
+
+export const PlasmoidGallery: ImageItem[] = [
+  { image: "https://i.imgur.com/Q7N6gLI.png", title: "Vivi-6" },
+  { image: "https://i.imgur.com/VUUiWOp.png", title: "Sarkolepsy" },
+  { image: "https://i.imgur.com/EzbNO3n.png", title: "Proticity" },
+  {
+    image: "https://i.imgur.com/gOb07u8.png",
+    title: "Psi-Signature (Psi-Sig)",
+  },
+  { image: "https://i.imgur.com/5g89VmB.png", title: "Biophotons" },
+  {
+    image: "https://i.imgur.com/lI4hIGp.png",
+    title: "HyPercept",
+    caption: "Hypothesis-based Perception",
+  },
+  { image: "https://i.imgur.com/tpU6shS.png", title: "Holon" },
+  {
+    image: "https://i.imgur.com/rWSi0nz.png",
+    title: "Natura Naturata",
+    caption: "The Created World",
+  },
+  {
+    image: "https://i.imgur.com/NX56NFH.png",
+    title: "MSAART",
+    caption: "Molten Sea Arc Atomic Reconstruction Technology",
+  },
+  {
+    image: "https://i.imgur.com/89XG1jx.png",
+    title: "Plasmoid EVO",
+    caption: "EVO = Exotic Vacuum Occurrence",
+  },
+  {
+    image: "https://i.imgur.com/zyumeMN.png",
+    title: "Torus Vajra (Implosive Turbine)",
+  },
+  {
+    image: "https://i.imgur.com/C1WmMPV.png",
+    title: "Singularity Zero Point (Point G)",
+  },
+  { image: "https://i.imgur.com/N7aPPhU.png", title: "The Rod Unit 1.111" },
+  {
+    image: "https://i.imgur.com/QJ5WMUv.png",
+    title: "Resonant Frequency Energy Unit 129,600",
+  },
+  {
+    image: "https://i.imgur.com/kKObg4e.png",
+    title: "Catalytic Tornado Resonator (CTR)",
+  },
+  {
+    image: "https://i.imgur.com/wTihVDK.png",
+    title: "Low Energy Atomic Transmutation (LEAT)",
+  },
+  {
+    image: "https://i.imgur.com/GcQZUMI.png",
+    title: "Yukawa Balls (Coulomb Balls)",
+  },
+];
+
 export const CyberneticsGallery: ImageItem[] = [
   { image: "https://i.imgur.com/UjxxyAH.png", title: "Cybernetics" },
   { image: "https://i.imgur.com/VngBTO3.png", title: "Human Biocomputer" },

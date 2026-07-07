@@ -58,6 +58,7 @@ import {
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
   NanoWbansGalleria,
+  PlasmoidGallery,
   QuantumHauntologyGalleria,
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
@@ -180,6 +181,7 @@ export default {
     app.provide("aligalleria", ALIGalleria);
     app.provide("quantumhauntologygalleria", QuantumHauntologyGalleria);
     app.provide("nanowbansgalleria", NanoWbansGalleria);
+    app.provide("PlasmoidGallery", PlasmoidGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

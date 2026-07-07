@@ -21,7 +21,7 @@ const { tabs = [], props = {} } = defineProps<Props>();
 
 <template>
   <div class="flex justify-center">
-    <PVCard class="max-w-sm w-full">
+    <PVCard class="w-full">
       <template #title v-if="$slots.title">
         <slot name="title"></slot>
       </template>

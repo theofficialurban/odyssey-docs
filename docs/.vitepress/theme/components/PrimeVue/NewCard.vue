@@ -62,19 +62,26 @@ const props = defineProps({
     >
       <NewCard
         class="max-w-sm w-full overflow-hidden"
-        :pt="{ body: { class: 'pt-16!' } }"
+        :pt="{
+          body: {
+            class:
+              'pt-16! md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
+          },
+        }"
       >
         <template #header>
-          <div class="relative">
+          <div class="overflow-hidden">
             <img
-              class="w-full max-h-42 object-cover"
+              class="h-full w-full object-cover"
               alt="user header"
               :src="img ?? getRandomOpenGraphImage()"
             />
           </div>
         </template>
         <template #title>
-          <span class="font-bold text-xl">{{ title }}</span>
+          <div class="p-6 md:col-span-3">
+            <span class="font-bold text-xl">{{ title }}</span>
+          </div>
         </template>
         <!-- <template #subtitle>
         <div class="flex items-center gap-2">
@@ -141,19 +148,26 @@ const props = defineProps({
     <NolebaseInlineLinkPreview :href="href" v-else-if="preview === true">
       <NewCard
         class="max-w-sm w-full overflow-hidden"
-        :pt="{ body: { class: 'pt-16!' } }"
+        :pt="{
+          body: {
+            class:
+              'pt-16! pt-16! md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
+          },
+        }"
       >
         <template #header>
           <div class="relative">
             <img
-              class="w-full max-h-42 object-cover"
+              class="h-full w-full object-cover"
               alt="user header"
               :src="img ?? getRandomOpenGraphImage()"
             />
           </div>
         </template>
         <template #title>
-          <span class="font-bold text-xl">{{ title }}</span>
+          <div class="p-6 md:col-span-3">
+            <span class="font-bold text-xl">{{ title }}</span>
+          </div>
         </template>
         <!-- <template #subtitle>
         <div class="flex items-center gap-2">

@@ -4,7 +4,16 @@ description: This page contains notes and images related to Malcolm Bendall's Mo
 tags:
   - MSAART
   - Plasmoids
+  - Words & Terms
 ---
+
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("PlasmoidGallery")
+
+</script>
 
 [[atomic]]
 
@@ -14,7 +23,15 @@ tags:
 
 ![](https://i.imgur.com/ou8JhsL.png)
 
+![](https://i.imgur.com/m9la8Bi.png)
+
 ## Images & References
+
+### Key Words & Terms
+
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/msaart-plasmoids-ZcpWjw9'}]" />
+
+### Additional Resources
 
 :::tabs
 == Links
