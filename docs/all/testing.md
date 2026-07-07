@@ -10,6 +10,29 @@ import ImgurCarousel from "../.vitepress/theme/components/PrimeVue/ImgurCarousel
 
 const vocabulary = inject("agitpropgalleria")
 
+const tooltipContent = `<div class="flex-col gap-3">
+    <Nh>Testing Non Heading</Nh>
+    <p style="
+                  font-size: 10px;
+                  color: #cccccc;
+                  line-break: anywhere;
+                  word-break: normal;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  font-family:
+                    Interstate,
+                    Lucida Grande,
+                    Lucida Sans Unicode,
+                    Lucida Sans,
+                    Garuda,
+                    Verdana,
+                    Tahoma,
+                    sans-serif;
+                  font-weight: 100;
+                ">Some word definition here</p>
+</div>`;
+
 </script>
 
 # Testing
@@ -41,7 +64,7 @@ This is a test for inline <Message size="small" severity="error">Testing</Messag
 <Hl>Testing</Hl>
 <Hl v-tooltip.top="'Testing tooltip'" :floating="false">Testing</Hl>
 
-<Hl color="F54927" :alpha="20">Testing</Hl>
+<Hl color="F54927" :alpha="20" v-tooltip.bottom="{value: tooltipContent, escape: false}">Testing</Hl>
 <Hl color="27F538" :alpha="40" :floating="false">Testing</Hl>
 
 <Hl color="27F538" v-tooltip="{ value: 'Confirm to proceed', showDelay: 1000, hideDelay: 300 }" :alpha="40" :floating="false" :props="{class: 'text-3xl'}">Testing</Hl>

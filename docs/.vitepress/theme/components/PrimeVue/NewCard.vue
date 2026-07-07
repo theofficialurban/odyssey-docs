@@ -61,15 +61,11 @@ const props = defineProps({
       rel="noopener noreferrer"
     >
       <NewCard
-        class="max-w-sm w-full overflow-hidden"
+        class="w-full overflow-hidden"
         :pt="{
-          body: {
-            class:
-              'pt-16! md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
-          },
           root: {
             class:
-              'md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
+              'max-md:grid max-md:grid-cols-4 md:flex md:flex-col overflow-hidden',
           },
         }"
       >
@@ -151,14 +147,11 @@ const props = defineProps({
     </a>
     <NolebaseInlineLinkPreview :href="href" v-else-if="preview === true">
       <NewCard
-        class="max-w-sm w-full overflow-hidden"
+        class="w-full overflow-hidden"
         :pt="{
-          body: {
-            class: 'pt-16!',
-          },
           root: {
             class:
-              'md:grid md:grid-cols-4 max-md:flex max-md:flex-col overflow-hidden',
+              'max-md:grid max-md:grid-cols-4 md:flex md:flex-col overflow-hidden',
           },
         }"
       >
