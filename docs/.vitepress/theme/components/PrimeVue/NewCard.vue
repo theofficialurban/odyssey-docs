@@ -61,25 +61,24 @@ const props = defineProps({
       rel="noopener noreferrer"
     >
       <NewCard
-        class="w-full overflow-hidden"
+        class="w-full overflow-hidden md:max-h-[500px] max-md:max-h-[300px] max-md:grid max-md:grid-cols-4 md:flex md:flex-col"
         :pt="{
-          root: {
-            class:
-              'max-md:grid max-md:grid-cols-4 md:flex md:flex-col overflow-hidden',
+          body: {
+            class: 'max-md:col-span-3',
           },
         }"
       >
         <template #header>
           <div class="overflow-hidden">
             <img
-              class="h-full w-full object-cover"
+              class="max-h-[150px] w-full object-cover"
               alt="user header"
               :src="img ?? getRandomOpenGraphImage()"
             />
           </div>
         </template>
         <template #title>
-          <div class="p-6 md:col-span-3">
+          <div class="p-6">
             <span class="font-bold text-xl">{{ title }}</span>
           </div>
         </template>
@@ -147,25 +146,24 @@ const props = defineProps({
     </a>
     <NolebaseInlineLinkPreview :href="href" v-else-if="preview === true">
       <NewCard
-        class="w-full overflow-hidden"
+        class="w-full overflow-hidden md:max-h-[500px] max-md:max-h-[300px] max-md:grid max-md:grid-cols-4 md:flex md:flex-col"
         :pt="{
-          root: {
-            class:
-              'max-md:grid max-md:grid-cols-4 md:flex md:flex-col overflow-hidden',
+          body: {
+            class: 'max-md:col-span-3',
           },
         }"
       >
         <template #header>
-          <div class="relative">
+          <div class="overflow-hidden">
             <img
-              class="h-full w-full object-cover"
+              class="max-h-[150px] w-full object-cover"
               alt="user header"
               :src="img ?? getRandomOpenGraphImage()"
             />
           </div>
         </template>
         <template #title>
-          <div class="p-6 md:col-span-3">
+          <div class="p-6">
             <span class="font-bold text-xl">{{ title }}</span>
           </div>
         </template>
