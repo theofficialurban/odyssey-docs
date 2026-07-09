@@ -55,6 +55,7 @@ import {
   CCRUVocabulary,
   CyberneticsGallery,
   EliteTheoryGalleria,
+  HiddenKingGallery,
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
   NanoWbansGalleria,
@@ -182,6 +183,7 @@ export default {
     app.provide("quantumhauntologygalleria", QuantumHauntologyGalleria);
     app.provide("nanowbansgalleria", NanoWbansGalleria);
     app.provide("PlasmoidGallery", PlasmoidGallery);
+    app.provide("hiddenkinggallery", HiddenKingGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

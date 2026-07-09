@@ -489,7 +489,44 @@ export const QuantumHauntologyGalleria: ImageItem[] = [
   { image: "https://i.imgur.com/FH2ShOa.png", title: "Technological Autonomy" },
   { image: "https://i.imgur.com/eKrAfDG.png", title: "Transhumanism" },
 ];
-
+export const HiddenKingGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/v20PpPo.png",
+    title: "Marks of Foundlings (Sinais de Expostos)",
+  },
+  {
+    image: "https://i.imgur.com/ClFaZ94.png",
+    title: "Varnish over Blood (DNA Footprint)",
+  },
+  {
+    image: "https://i.imgur.com/7ZujcAa.png",
+    title: "Arma Christi ^(Forbidden Merchandise)^",
+  },
+  {
+    image: "https://i.imgur.com/e2yPZoZ.png",
+    title: "Me Seeds ^(Civilisation Seeds)^",
+  },
+  { image: "https://i.imgur.com/uf7EdPj.png", title: "Lancement" },
+  { image: "https://i.imgur.com/wUCrX7q.png", title: "Cumberland Jacks" },
+  {
+    image: "https://i.imgur.com/aQ4OzrY.png",
+    title: "6/5",
+    caption: "Microcosm / Macrocosm Alignment",
+  },
+  {
+    image: "https://i.imgur.com/HzgNvYE.png",
+    title: "Shin Pact",
+    caption: "Enforced Period of Omerta (Secrecy) Lasting 200-Years",
+  },
+  { image: "https://i.imgur.com/8CaE7U4.png", title: "Morganatic Conception" },
+  { image: "https://i.imgur.com/w6cJiJU.png", title: "The Plantagenet Jesus" },
+  { image: "https://i.imgur.com/AzLLHiG.png", title: "Tidal Kings" },
+  {
+    image: "https://i.imgur.com/i2ux1OP.png",
+    title: "Legominism",
+    caption: "(Psychological Containment / Subliminal Formatting)",
+  },
+];
 export const EliteTheoryGalleria: ImageItem[] = [
   {
     image: "https://i.imgur.com/EAjzerw.png",
