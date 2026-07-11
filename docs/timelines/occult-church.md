@@ -2,6 +2,9 @@
 title: The Occult Renaissance Church of Rome
 description: These are extended notes from my deep dive on Michael Hoffman's book "The Occult Renaissance Church of Rome" looking into the occult and mystical influences within the Roman Catholic Church during the Renaissance
 ogimage: https://i.imgur.com/Nui6FUf.jpeg
+tags:
+  - Reading Notes
+  - Michael Hoffman II
 ---
 
 # The Occult Renaissance Church of Rome (Michael Hoffman II)

@@ -527,6 +527,71 @@ export const HiddenKingGallery: ImageItem[] = [
     caption: "(Psychological Containment / Subliminal Formatting)",
   },
 ];
+
+export const TectonicWarfareGallery: ImageItem[] = [
+  { image: "https://i.imgur.com/lT0heFh.png", title: "Tectonic Warfare" },
+  {
+    image: "https://i.imgur.com/PD0LwHP.png",
+    title: "Wigner Effect",
+    caption: "(Discomposition Effect / Radioactive Dust)",
+  },
+  { image: "https://i.imgur.com/MAYr48s.png", title: "Jason Scientists" },
+  {
+    image: "https://i.imgur.com/MQ6Nn80.png",
+    title: "Fukushima Neutron Pulse ^(Blowup Regime)^",
+  },
+  {
+    image: "https://i.imgur.com/xF1LXsI.png",
+    title: "Foreshadowing Event ^(HAARP Trigger)^",
+  },
+  { image: "https://i.imgur.com/ln6MyfF.png", title: "Military Rainstorms" },
+  { image: "https://i.imgur.com/xyQtqLN.png", title: "Rogue Waves" },
+  { image: "https://i.imgur.com/56d0kSw.png", title: "Brown's Gas" },
+  {
+    image: "https://i.imgur.com/Jg85VQO.png",
+    title: "Catenoid / Pseudosphere",
+  },
+  {
+    image: "https://i.imgur.com/8LC5hMt.png",
+    title: "Commodity Code 792",
+    caption: "(Russian Classification OK 015-94)",
+  },
+  {
+    image: "https://i.imgur.com/DtdPsSp.png",
+    title: "DOR (Deadly Orgone Radiation)",
+  },
+  {
+    image: "https://i.imgur.com/2ddv5hR.png",
+    title: "Eidetic / Eidolic Vision",
+  },
+  {
+    image: "https://i.imgur.com/MmrwE9D.png",
+    title: "Zero-Point Energy (ZPE)",
+  },
+  { image: "https://i.imgur.com/KesEG1i.png", title: "Eloptic Energy" },
+  { image: "https://i.imgur.com/S6Xbk17.png", title: "Ephemeralization" },
+  { image: "https://i.imgur.com/bFNi9nA.png", title: "Feta Comeso" },
+  {
+    image: "https://i.imgur.com/RJ6q1JS.png",
+    title: "GEET",
+    caption: "(Global Environmental Energy Technology)",
+  },
+  { image: "https://i.imgur.com/FgZT4SI.png", title: "Homopolar Generator" },
+  { image: "https://i.imgur.com/xU4IvHr.png", title: "Oscilloclast" },
+  { image: "https://i.imgur.com/nrUcWjZ.png", title: "Piezoluminescence" },
+  { image: "https://i.imgur.com/n0kIWlb.png", title: "Regauging" },
+  { image: "https://i.imgur.com/xqK34b9.png", title: "Somatid" },
+  { image: "https://i.imgur.com/miC6r3o.png", title: "Trexar" },
+  { image: "https://i.imgur.com/MMAOblN.png", title: "Violet Ray" },
+  {
+    image: "https://i.imgur.com/MB0HYof.png",
+    title: "Voluntary Roman Slaves",
+    caption: " (Добровольные Римские Рабы)",
+  },
+  { image: "https://i.imgur.com/0LloFXr.png", title: "Vril" },
+  { image: "https://i.imgur.com/sjgGuBP.png", title: "Z-Ray" },
+];
+
 export const EliteTheoryGalleria: ImageItem[] = [
   {
     image: "https://i.imgur.com/EAjzerw.png",

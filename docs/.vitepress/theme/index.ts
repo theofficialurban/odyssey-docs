@@ -61,6 +61,7 @@ import {
   NanoWbansGalleria,
   PlasmoidGallery,
   QuantumHauntologyGalleria,
+  TectonicWarfareGallery,
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
@@ -184,6 +185,7 @@ export default {
     app.provide("nanowbansgalleria", NanoWbansGalleria);
     app.provide("PlasmoidGallery", PlasmoidGallery);
     app.provide("hiddenkinggallery", HiddenKingGallery);
+    app.provide("tectonicwarfaregallery", TectonicWarfareGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

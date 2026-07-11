@@ -4,8 +4,16 @@ description: Leuren Moret's findings on Tectonic Warfare and Cyber Sabotage
 tags:
   - Human Husbandry
   - Leuren Moret
+  - Words & Terms
 ogimage: https://cdn.britannica.com/53/4953-050-E6291658/subduction-zones-Stratovolcanoes-Earth-plate-margins-activity.jpg
 ---
+
+<script setup>
+
+import {inject} from "vue"
+
+const vocabulary = inject("tectonicwarfaregallery")
+</script>
 
 [[atomic]]
 
@@ -18,6 +26,10 @@ ogimage: https://cdn.britannica.com/53/4953-050-E6291658/subduction-zones-Strato
 > _"[Lawrence Livermore whistle blower](https://archive.org/details/LeurenKMoret-RealJobAtLawrenceLivermoreNationalLaboratory) and atmospheric dust specialist Leuren Moret summarizes the latest news on America's covert nuclear war waged with sea currents to deliver radiation to Africa, the Middle East and Asia. Leuren recently attended the War Crimes tribunal in Malaysia as an expert witness and brings us up to date on developments there as well. Depleted Uranium is the most serious threat facing the world today."_
 
 <VEmbed platform='Rumble' src="https://rumble.com/embed/v79m88o/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7bsw8w-nuclear-kabuki-theater-depopulation-false-flags-and-fukushima-leuren-moret-.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/nuclear-kabuki-moret?r=3kr5wz'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/nuclear-kabuki-moret:0']]" />
+
+## Key Words & Terms {#vocab}
+
+<ImgurGallery :value="vocabulary" :buttons="[{value: 'Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true}, href: 'https://imgur.com/a/tectonic-warfare-leuren-moret-falMM4F'}]" />
 
 ## More by Leuren Moret {#playlists}
 
@@ -93,7 +105,7 @@ The catastrophic magnitude 9.1 Fukushima earthquake was not a natural disaster; 
 
 ### DEFINE: `Wigner Effect` (Discomposition Effect) & `Radioactive Dust`
 
-While the user query refers to "Wigner Dust," the true technical classification in the archives is the **Wigner Effect (Discomposition Effect)**—an apocalyptic atomic reaction triggered by the omnipresent radioactive dust and fallout suffocating the biosphere.
+The true technical classification in the archives is the **Wigner Effect (Discomposition Effect)**—an apocalyptic atomic reaction triggered by the omnipresent radioactive dust and fallout suffocating the biosphere.
 
 The Wigner Effect is officially defined as "The displacement of atoms in a solid material caused by neutron radiation, leading to sudden physical collapse and decay." Due to the massive, unchecked global pollution from nuclear wars, depleted uranium, and meltdowns like Fukushima, this radiation is currently saturating the atmosphere as highly mobile, nanoparticle dust.
 

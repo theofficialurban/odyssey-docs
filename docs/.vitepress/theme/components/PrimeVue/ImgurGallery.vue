@@ -33,18 +33,27 @@ type ButtonItem = {
 interface Props {
   value: ImageItem[];
   buttons?: ButtonItem[];
+  imgurAlbum?: string | null;
 }
 
 const activeIndex = ref(0);
 
-const { value, buttons = [] } = defineProps<Props>();
-
+const { value, buttons = [], imgurAlbum = null } = defineProps<Props>();
+const buttonsRef = ref<ButtonItem[]>(buttons);
 const images = ref<ImageItem[]>(value);
 const activeImage = computed<ImageItem | null>(() => {
   const active = images.value.at(activeIndex.value);
   if (!active) return null;
   return active;
 });
+
+if (imgurAlbum) {
+  buttonsRef.value.push({
+    value: "Imgur Album",
+    props: { variant: "outlined", size: "small", fluid: true },
+    href: imgurAlbum,
+  });
+}
 </script>
 
 <template>

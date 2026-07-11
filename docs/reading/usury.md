@@ -3,6 +3,9 @@ title: Usury in Christendom
 secret: true
 description: |
   This text examines the historical transformation of usury from a condemned mortal sin to an accepted practice within Christendom. The author argues that for fifteen centuries, both Catholic and Protestant traditions strictly forbade any interest on loans, viewing it as a parasitic "bite" against one's neighbor and an affront to divine law.
+tags:
+  - Michael Hoffman II
+  - Reading Notes
 ---
 
 [[atomic]]

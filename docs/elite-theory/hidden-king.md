@@ -29,6 +29,7 @@ const vocabulary = inject("hiddenkinggallery")
 
 ### PDF Reader {#pdf}
 
+::::details Expand for Document Reader
 :::tabs box-blue
 == Volume 1
 <PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/The%20Hidden%20King%20of%20England/Volume%201%20THKoE%20(2014).pdf" title="The Hidden King of England (Volume I)" />
@@ -42,6 +43,7 @@ const vocabulary = inject("hiddenkinggallery")
 <PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/The%20Hidden%20King%20of%20England/Volume%20V%20THKoE%20(2014).pdf" title="The Hidden King of England (Volume V)" />
 
 :::
+::::
 
 ## THE TELLURIC CIPHER // LEGOMINISM AND THE EXILARCH-QUEST CONTINUUM
 
