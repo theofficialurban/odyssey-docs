@@ -86,9 +86,9 @@ const topLevelProps = computed(() => {
       >
         <template #header>
           <slot name="header" :img="img">
-            <div class="overflow-hidden max-md:h-full">
+            <div class="overflow-hidden max-md:hidden">
               <img
-                class="md:max-h-[150px] max-md:h-full w-full object-cover"
+                class="md:max-h-[150px] w-full object-cover"
                 alt="user header"
                 :src="img"
               />
@@ -151,3 +151,9 @@ const topLevelProps = computed(() => {
     </component>
   </div>
 </template>
+
+<style lang="css" scoped>
+a {
+  text-decoration: none;
+}
+</style>

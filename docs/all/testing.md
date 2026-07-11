@@ -44,7 +44,9 @@ const tooltipContent = `<div class="flex-col gap-3">
 ## Cards
 
 <Grid>
-<NewCard title="DMH2ND Research Project" img="https://cdn.bio.link/uploads/profile_pictures/2024-05-18/ZVUrajULPGCAzPBqeZpkxSNsLiyvy3CU.png" description="DM Hutchins 2nd Digital Occult Library Research Project - Terabytes of esoteric research materials," href="https://bio.link/dmh2nd" />
+<NewCard title="DMH2ND Research Project" img="https://cdn.bio.link/uploads/profile_pictures/2024-05-18/ZVUrajULPGCAzPBqeZpkxSNsLiyvy3CU.png" description="DM Hutchins 2nd Digital Occult Library Research Project - Terabytes of esoteric research materials," href="https://bio.link/dmh2nd">
+<template #subtitle>This is a subtitle</template>
+</NewCard>
 
 <NewCard title="Authored by Bill Cooper" img="https://www.gstatic.com/images/branding/productlogos/drive_2026/v1/web-48dp/logo_drive_2026_color_1x_web_48dp.png" description="" href="https://drive.google.com/drive/folders/12Q1NkAEEkimrp7zkTrJ4_3V_zN5hVdWh?usp=drive_link" />
 
