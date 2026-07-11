@@ -3,7 +3,7 @@ import { useData } from "vitepress";
 import { Collection, Page } from "../../utils";
 import { useCollection } from "@lando/vitepress-theme-default-plus";
 import { computed } from "vue";
-import Card from "./Card.vue";
+import Card from "./PrimeVue/NewCard.vue";
 import { getCollectionSlug } from "../../Constants";
 import { getRandomOpenGraphImage } from "../../OpenGraph";
 

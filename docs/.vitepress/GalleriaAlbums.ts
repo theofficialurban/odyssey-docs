@@ -538,11 +538,13 @@ export const TectonicWarfareGallery: ImageItem[] = [
   { image: "https://i.imgur.com/MAYr48s.png", title: "Jason Scientists" },
   {
     image: "https://i.imgur.com/MQ6Nn80.png",
-    title: "Fukushima Neutron Pulse ^(Blowup Regime)^",
+    title: "Fukushima Neutron Pulse",
+    caption: "(Blowup Regime)",
   },
   {
     image: "https://i.imgur.com/xF1LXsI.png",
-    title: "Foreshadowing Event ^(HAARP Trigger)^",
+    title: "Foreshadowing Event",
+    caption: "(HAARP Trigger)",
   },
   { image: "https://i.imgur.com/ln6MyfF.png", title: "Military Rainstorms" },
   { image: "https://i.imgur.com/xyQtqLN.png", title: "Rogue Waves" },
@@ -558,7 +560,8 @@ export const TectonicWarfareGallery: ImageItem[] = [
   },
   {
     image: "https://i.imgur.com/DtdPsSp.png",
-    title: "DOR (Deadly Orgone Radiation)",
+    title: "DOR",
+    caption: "(Deadly Orgone Radiation)",
   },
   {
     image: "https://i.imgur.com/2ddv5hR.png",
@@ -586,7 +589,7 @@ export const TectonicWarfareGallery: ImageItem[] = [
   {
     image: "https://i.imgur.com/MB0HYof.png",
     title: "Voluntary Roman Slaves",
-    caption: " (Добровольные Римские Рабы)",
+    caption: "(Добровольные Римские Рабы)",
   },
   { image: "https://i.imgur.com/0LloFXr.png", title: "Vril" },
   { image: "https://i.imgur.com/sjgGuBP.png", title: "Z-Ray" },
