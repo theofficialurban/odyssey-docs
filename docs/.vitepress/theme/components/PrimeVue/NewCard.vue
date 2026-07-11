@@ -80,13 +80,16 @@ const topLevelProps = computed(() => {
         class="w-full overflow-hidden md:max-h-[500px] max-md:max-h-[300px] max-md:grid! max-md:grid-cols-4! md:flex md:flex-col"
         :pt="{
           body: {
-            class: 'max-md:col-span-3',
+            class: 'max-md:col-span-4',
+          },
+          header: {
+            class: 'max-md:hidden',
           },
         }"
       >
         <template #header>
           <slot name="header" :img="img">
-            <div class="overflow-hidden max-md:hidden">
+            <div class="overflow-hidden">
               <img
                 class="md:max-h-[150px] w-full object-cover"
                 alt="user header"
@@ -109,7 +112,11 @@ const topLevelProps = computed(() => {
           <slot :card="{ title, description, img, preview }">
             <div class="space-y-4">
               <p v-if="description">
-                {{ description }}
+                {{
+                  description.length > 250
+                    ? `${description.substring(0, 250)}...`
+                    : description
+                }}
               </p>
               <div class="flex items-center gap-2">
                 <div
