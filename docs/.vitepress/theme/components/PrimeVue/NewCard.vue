@@ -113,8 +113,8 @@ const topLevelProps = computed(() => {
             <div class="space-y-4">
               <p v-if="description">
                 {{
-                  description.length > 250
-                    ? `${description.substring(0, 250)}...`
+                  description.length > 150
+                    ? `${description.substring(0, 150)}...`
                     : description
                 }}
               </p>
