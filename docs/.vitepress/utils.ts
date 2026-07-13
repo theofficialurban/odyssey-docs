@@ -1,6 +1,7 @@
 import { ComputedRef, InjectionKey } from "vue";
 import { type PageData } from "vitepress";
 import { PreviewPost, Profile } from "substack-api";
+import { TooltipOptions } from "primevue";
 
 export interface CollectionDefinition<T extends Partial<Page> = Partial<Page>> {
   frontmatter: T;
@@ -171,6 +172,28 @@ export function withAlpha(hexColor: string, percent: number): string {
   // Remove # if present and ensure 6-digit hex
   const cleanHex = hexColor.replace("#", "").slice(0, 6);
   return `#${cleanHex}${alpha}`;
+}
+
+/**
+ * Creates a basic tooltip HTML template and returns it as TooltipOptions
+ * @param title The title to display in the HTML tooltip
+ * @param content The content to display in the HTML tooltip
+ * @param tooltipOptions TooltipOptions object
+ * @returns TooltipOptions with the content rendering in HTML tag
+ */
+export function basicTooltipHtml(
+  title: string,
+  content: string,
+  tooltipOptions: TooltipOptions = {},
+): TooltipOptions {
+  const htmlTemplate = `<div class="font-semibold text-sm">${title}</div><div class="opacity-75 text-sm mt-1">${content}</div>`;
+  const options: TooltipOptions = {
+    escape: false,
+    value: htmlTemplate,
+    class: "w-60!",
+    ...tooltipOptions,
+  };
+  return options;
 }
 
 // Example
