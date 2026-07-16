@@ -20,6 +20,18 @@ tags:
 
 In this text, Dr. Alexander Lowen outlines the evolution and core principles of **bioenergetics**, a holistic therapy designed to reconcile the individual with their physical self to alleviate mental distress. The narrative begins by tracing Lowen’s transition from the **muscular armoring** theories of his mentor, Wilhelm Reich, toward a unique practice that prioritizes **grounding** and the integration of the ego with somatic processes. Central to this work is the idea that the **body is the personality**, acting as a living record of past traumas and current emotional blocks that can be released through specific **breathing and movement exercises**. By increasing **energetic charge and discharge**, Lowen seeks to restore a person's primary nature, characterized by **freedom, grace, and beauty**, and move beyond a purely intellectual understanding of the self. Ultimately, the source serves as a philosophical and practical manifesto for living a **spiritually and emotionally vibrant life** by overcoming the cultural betrayal of the body.
 
+:::tip Links
+
+Find additional information along with the sources for the graphics, posters and GIFs:
+
+1. Imgur Album of Assorted Graphics: https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk
+2. Meru Foundation Posters: https://www.meru.org/Posters.html#title
+3. Animated GIFs: https://www.meru.org/compuimages/animatedgif.html#title
+4. Ken Wheeler Substack: https://kenwheeler.substack.com/
+5. GIFs Collection (Giphy): https://giphy.com/channel/theofficialurban/torus-plasma
+
+:::
+
 ## Geometry and Topology in the Larger Context of The Alphabet That Changed the World
 
 ![](https://i.imgur.com/A5JxdMw.png)
@@ -95,7 +107,7 @@ If the exact geometric and gestural algorithms of universal creation have always
 
 Alexander Lowen mapped the mechanical blueprint of the human prison; James Carner exposed the cosmic wardens who harvest it. When bioenergetics is superimposed over the _Breath Wars_ framework, the brutal, unvarnished truth emerges: the psychological neuroses and physical tensions crippling humanity are not mere byproducts of modern stress, they are the literal, biological scars of an industrialized spiritual extraction. You are a farmed biological asset, and your very breath is the currency of the Luciferian matrix.
 
-<CCard :useFinder="true" collection="shared" href="breath-wars" :preview="true" />
+<CCard :useFinder="true" collection="shared" href="breath-war" :preview="true" />
 
 Here is the unfiltered dossier on the intersection of biological energy mechanics and occult registry theft.
 

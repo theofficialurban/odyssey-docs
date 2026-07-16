@@ -43,7 +43,12 @@ function twitterCardType(pageData: PageData): string {
 // }
 
 function pushOpenGraphImg(pageData: PageData) {
-  const ogImage = pageData.frontmatter.ogimage ?? getRandomOpenGraphImage();
+  const existingImg: string = pageData.frontmatter.ogimage ?? "";
+  // If includes old og format
+
+  const ogImage = existingImg.includes("/og-")
+    ? getRandomOpenGraphImage()
+    : (pageData.frontmatter.ogimage ?? getRandomOpenGraphImage());
   const ogIHeight = String(pageData.frontmatter.ogimageheight ?? 630) ?? "630";
   const ogIWidth = String(pageData.frontmatter.ogimagewidth ?? 1200) ?? "1200";
   pageData.frontmatter.head.push(

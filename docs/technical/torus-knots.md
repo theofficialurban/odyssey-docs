@@ -15,7 +15,19 @@ tags:
 
 ## See Also
 
-<CCards :useFinder="true" :useDetails="true" :cards="[['technical', 'ken-wheeler'], ['bible', 'geometry-of-genesis'], ['quantum', 'rainbow-worm'], ['reading', 'morphic-resonance'], ['technical', 'plasma-intelligences'], ['technical', 'bioenergetics']]" />
+<CCards :useFinder="true" :useDetails="true" :cards="[['technical', 'ken-wheeler'], ['bible', 'geometry-of-genesis'], ['quantum', 'rainbow-worm'], ['reading', 'morphic-resonance'], ['technical', 'plasma-intelligences'], ['reading', 'bioenergetics']]" />
+
+:::tip Links
+
+Find additional information along with the sources for the graphics, posters and GIFs:
+
+1. Imgur Album of Assorted Graphics: https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk
+2. Meru Foundation Posters: https://www.meru.org/Posters.html#title
+3. Animated GIFs: https://www.meru.org/compuimages/animatedgif.html#title
+4. Ken Wheeler Substack: https://kenwheeler.substack.com/
+5. GIFs Collection (Giphy): https://giphy.com/channel/theofficialurban/torus-plasma
+
+:::
 
 ## Torus and 3-Torus Models in Geometry and Topology
 
