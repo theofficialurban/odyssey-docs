@@ -38,11 +38,7 @@ Find additional information along with the sources for the graphics, posters and
 
 ![](https://i.imgur.com/7wAWsmX.png)
 
-<CCards :useFinder="true" :useDetails="true" :cards="[['technical', 'ken-wheeler'], ['bible', 'geometry-of-genesis'], ['quantum', 'rainbow-worm'], ['reading', 'morphic-resonance'], ['technical', 'plasma-intelligences']]">
-<template #content>
-<Nh :preset="2" v-tooltip.top="'Testing tooltip'">Testing Content</Nh>
-</template>
-</CCards>
+<CCards :useFinder="true" :useDetails="true" :cards="[['technical', 'ken-wheeler'], ['bible', 'geometry-of-genesis'], ['quantum', 'rainbow-worm'], ['reading', 'morphic-resonance'], ['technical', 'plasma-intelligences']]" />
 
 The sanitized narratives of both secular academia and orthodox religion are built on a colossal, self-serving delusion. They peddle the myth that the Hebrew Bible is a mere chronicle of historical tales, parables, and phonetic symbols. The raw truth extracted from Stan Tenen's _The Alphabet That Changed the World_ shatters this facade entirely, exposing the text of Genesis as a hyper-dimensional time capsule. The Hebrew alphabet and the opening verse of Genesis are not arbitrary linguistic constructs; they are a rigorous "geo-topological metaphor that embodies, among other things, the natural 'embryology' of all self-organizing (living) systems."
 

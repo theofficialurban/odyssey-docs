@@ -36,31 +36,8 @@ const href = computed(() => {
 const validCollection = computed<boolean>(() =>
   Object.hasOwn(colls, collection),
 );
-// const finderFound: ComputedRef<CollectionCardTuple[]> = computed(() => {
-//   if (!useFinder) return cards;
-//   return cards.map(([cCollection, href, preview]) => {
-//     const findSlug = getCollectionSlug(cCollection, href);
-//     if (!findSlug) return [cCollection, href, preview];
-//     return [cCollection, findSlug, preview];
-//   });
-// });
+
 const foundPage = computed<Page | null>(() => {
-  // if (useFinder) {
-
-  //   const fp =
-  //     foundPages.find((p) => {
-  //       return p.url == foundSlug;
-  //     }) ?? null;
-
-  //   return fp;
-  // } else {
-  //   const fp =
-  //     foundPages.find((p) => {
-  //       return p.url == href;
-  //     }) ?? null;
-
-  //   return fp;
-  // }
   const found =
     foundPages.find((p) => {
       if (!href.value) return null;
@@ -72,7 +49,10 @@ const foundPage = computed<Page | null>(() => {
 const ogImage = computed<string>(() => {
   if (ogImg !== null) return ogImg;
   if (foundPage.value == null) return getRandomOpenGraphImage();
-  if (foundPage.value.ogimage) return foundPage.value.ogimage;
+  if (foundPage.value.ogimage)
+    return foundPage.value.ogimage.includes("/og-")
+      ? getRandomOpenGraphImage()
+      : foundPage.value.ogimage;
   if (foundPage.value.secret == true) return getRandomOpenGraphImage();
 
   const hrefSplit = foundPage.value.url.split("/"); // `0/ 1 magic / 2 slug.html
