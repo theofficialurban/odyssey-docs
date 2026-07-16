@@ -13,14 +13,14 @@ type CollectionCardTuple = [
 
 interface Props {
   cards: CollectionCardTuple[];
-  className?: string;
+  class?: string;
   useFinder?: boolean;
   useDetails?: boolean;
 }
 
 const {
   cards,
-  className = "grid grid-flow-row gap-6",
+  class: className = "",
   useFinder = false,
   useDetails: details = false,
 } = defineProps<Props>();
@@ -40,16 +40,16 @@ const useDetails = computed(() => {
 </script>
 
 <template>
-  <CardGrid v-if="!useDetails">
+  <CardGrid v-if="!useDetails" :class="className">
     <CollectionCard
       v-for="[collection, href, preview = null] in finderFound"
       :collection
       :href
       :preview="preview ?? false"
     />
-    <slot></slot>
+    <slot name="content" v-if="$slots.content"></slot>
   </CardGrid>
-  <details v-else class="details custom-block">
+  <details v-else class="details custom-block" :class="className">
     <summary>Expand for Additional Links</summary>
     <CardGrid>
       <CollectionCard
@@ -58,8 +58,8 @@ const useDetails = computed(() => {
         :href
         :preview="preview ?? false"
       />
-      <slot></slot>
     </CardGrid>
+    <slot name="content" v-if="$slots.content"></slot>
   </details>
   <!-- <CardGrid v-else-if="useFinder" v-for="[collection, href, preview = null] in cards">
     <CollectionCard :collection :href :preview="preview ?? false" />
