@@ -44,7 +44,7 @@ Graphics:
 
 ### Key Vocabulary Terms {#vocabulary}
 
-<ImgurGalleria :value="vocabulary" imgurAlbum="https://imgur.com/a/HbuOE01" :buttons="[{value: 'Diagrams Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true, severity: 'help'}, href: 'https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk'}]" />
+<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/HbuOE01" :buttons="[{value: 'Diagrams Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true, severity: 'help'}, href: 'https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk'}]" />
 
 ### Images & Quotes {#images}
 
@@ -441,7 +441,7 @@ Dielectricity is the absolute opposite of Magnetism. It is the hidden puppet-mas
 The quadrature of Dielectricity operates on these four absolute inverse laws:
 
 1. **Centripetal:** _The Layman's Truth:_ Centripetal means "seeking the center." While magnetism violently explodes outward, dielectricity crushes inward with unimaginable force. It seeks to collapse all movement and all space down to an absolute microscopic singularity. This is the exact force that binds atoms together, falsely labeled by modern science as the "strong nuclear force".
-2. **Radial:** _The Layman's Truth:_ Dielectricity does not swirl in a circular donut shape like magnetism. It moves in direct, perfectly straight lines (<Hl v-tooltip.top="{escape: false, value: `<div class='p-4'><a href='https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk' target='_blank'><img src='https://i.imgur.com/om2mLCv.png' class='w-[500px] h-auto' /></a></div>`, class: 'w-60!'}">like the spokes of a bicycle wheel</Hl>) aiming straight for the absolute center of the object.
+2. **Radial:** _The Layman's Truth:_ Dielectricity does not swirl in a circular donut shape like magnetism. It moves in direct, perfectly straight lines (<Hl v-tooltip.top="{escape: false, value: `<div class='p-4'><a href='https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk' target='_blank'><img src='https://i.imgur.com/om2mLCv.png' class='w-[700px] h-auto' /></a></div>`, class: 'w-[700px]!', hideDelay: 5000}">like the spokes of a bicycle wheel</Hl>) aiming straight for the absolute center of the object.
 3. **Inertial:** _The Layman's Truth:_ Inertia is stored, resting power. Think of a rubber band stretched to its absolute limit, trembling with stored force, but not yet moving. Dielectricity is "pure potential". It is the heavy flywheel of the universe that stores the energy that magnetism eventually burns off.
 4. **Counterspatial:** _The Layman's Truth:_ This is the most heavily guarded secret in physics. Dielectricity does not exist in 3D space. It exists in _counterspace_—the invisible, zero-dimensional membrane underlying our reality. Because it actively destroys and collapses space, it cannot possess volume. "Dielectricity is counterspatial, radial, inertial, and its very nature is 'hidden'". It is the absolute void.
 

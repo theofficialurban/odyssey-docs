@@ -26,7 +26,8 @@ export const TEMGallery: ImageItem[] = [
   },
   {
     image: "https://i.imgur.com/9gHH7AD.png",
-    title: "Ferrohydrodynamic Lens ^(Ferrocell)^",
+    title: "Ferrocell",
+    caption: "Ferrohydrodynamic Lens",
   },
   {
     image: "https://i.imgur.com/fM1a580.png",
