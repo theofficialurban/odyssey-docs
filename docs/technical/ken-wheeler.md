@@ -2,15 +2,23 @@
 title: Missing Secrets of Magnetism
 description: |
   This text explores a radical revision of magnetism and field mechanics, arguing that contemporary science fundamentally misunderstands the nature of forces by relying on mathematical abstractions and particle-based fallacies. The author, Ken Wheeler, utilizes a method of Platonic retroduction to assert that all physical phenomena—including gravity, electricity, and light—are actually different modalities of the Ether rather than interactions of "virtual particles" like electrons.
-ogimage: https://i.imgur.com/pxaTpxu.png
+ogimage: https://i.imgur.com/U0vBnb3.png
 tags:
   - Electromagnetism
   - Reading Notes
+  - Words & Terms
 ---
+
+<script setup>
+import {inject} from "vue"
+const vocabulary = inject("temgallery")
+</script>
 
 [[atomic]]
 
 # Uncovering the Missing Secrets of Magnetism (Ken Wheeler) {#title}
+
+![](https://i.imgur.com/U0vBnb3.png)
 
 [[toc]]
 
@@ -24,39 +32,105 @@ tags:
 
 This text explores a radical revision of **magnetism and field mechanics**, arguing that contemporary science fundamentally misunderstands the nature of forces by relying on **mathematical abstractions and particle-based fallacies**. The author, Ken Wheeler, utilizes a method of **Platonic retroduction** to assert that all physical phenomena—including gravity, electricity, and light—are actually different **modalities of the Ether** rather than interactions of "virtual particles" like electrons. Central to this model is the **conjugate relationship** between **dielectricity**, which represents centripetal counterspace and inertia, and **magnetism**, which is defined as the centrifugal, radiative discharge of that inertia. By re-evaluating the **geometry of magnetic fields** through tools like the Ferrocell, the source aims to unify these forces into a **coherent, logical framework** that prioritizes field pressures and spatial-counterspatial movements over traditional atomic theory.
 
+:::tip Visuals
+
+Graphics:
+
+1. [Diagrams & Schematics](https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk)
+2. [Words & Terms](https://imgur.com/a/HbuOE01)
+3. [Animated GIFs](https://giphy.com/channel/theofficialurban/torus-plasma)
+
+:::
+
+### Key Vocabulary Terms {#vocabulary}
+
+<ImgurGalleria :value="vocabulary" imgurAlbum="https://imgur.com/a/HbuOE01" :buttons="[{value: 'Diagrams Imgur Album', props: {variant: 'outlined', size: 'small', fluid: true, severity: 'help'}, href: 'https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk'}]" />
+
+### Images & Quotes {#images}
+
+![](https://i.imgur.com/O6Y50zr.png)
+
+::::details Expand for Images
+:::tabs
+== Breath
 ![](https://i.imgur.com/A5JxdMw.png)
-
+== 2
 ![](https://i.imgur.com/Z4IlCcW.png)
-
+== Torus 1
 ![](https://i.imgur.com/7wAWsmX.png)
 
 > (A) Torus as a dynamic model for the recreation (rebirth) of our Universe from a wormhole structure, connecting an ultimate black hole (collecting and compressing all information) with a white hole (transmission and unfolding of information into a new version of the universe, see Meijer and Geesink, 2017; (B) Torus dynamics allow a twisted knotting into a 4-D space aspect of reality, C: Cartoon of Calabi-Yau manifold model of a multi-dimensional space (D) formation of various types of torus information knots, that may represent standing waves or attractors in the fabric of reality. https://www.researchgate.net/figure/A-Torus-as-a-dynamic-model-for-the-recreation-rebirth-of-our-Universe-from-a-wormhole_fig4_326972894
 
+== Vibrational Spectrum
 ![](https://i.imgur.com/QHn9mro.png)
 
 > Morphogenesis of reality, seen as a fractal process of information unfolding, either (bottom up) from an implicate order frequency domain (below) up to the Planck scale, producing elementary particles, atoms, life molecules for the build-up of whole structure of the cells and organs such as the brain. All elements are proposed to be equipped with a toroidal memory workspace (consciousness) in a scale invariant manner. Universal information processing finally results in a black hole/white hole structure that (top-down) transmits information for the fabric of reality, thereby constituting a circular (rebound) mode of our universe (for bidirectional information flow, see large arrows at the two sides of the figure). https://www.researchgate.net/figure/Morphogenesis-of-reality-seen-as-a-fractal-process-of-information-unfolding-either_fig5_326972894
 
+== More Knots
 ![](https://miro.medium.com/v2/resize:fit:1400/1*r6tAH3-RlFvL0zPOtq5OfA.png)
 
 ![](https://figures.semanticscholar.org/dd7ecc11df6df94dd2e3689508eb7466d3f109cf/1-Figure1-1.png)
 
+== 6
 ![](https://i.imgur.com/GbDTvH5.png)
 
+== 7
 ![](https://i.imgur.com/RlVtkZ8.png)
 
+== Electromagnetism
 ![](https://i.imgur.com/3h29BCq.png)
 
+![](https://media.giphy.com/media/Gg0E2dwqzJUATQxvVz/giphy.gif)
+
+![](https://media.giphy.com/media/vgMPJ2aQrVgquEaKnQ/giphy.gif)
+
+![](https://media.giphy.com/media/Xck5E1OnWoKBzMah6G/giphy.gif)
+
+== 9
 ![](https://i.imgur.com/qKzZilG.png)
 
+== 10
 https://www.pinterest.com/pin/148970700146800284/
 ![](https://i.imgur.com/dO4KHf4.png)
 
 https://pin.it/1LNyIFh1x
 ![](https://i.imgur.com/cyD7PWL.png)
 
+== 11
 ![](https://i.imgur.com/pxaTpxu.png)
 
-![](https://i.imgur.com/ROGbuys.png)
+![](https://i.imgur.com/zLwDCwk.png)
+
+== 12
+
+![](https://i.imgur.com/xiIKExd.png)
+
+== Magnetic Field
+![](https://i.imgur.com/wWPsAf8.png)
+![](https://i.imgur.com/BLWf9oR.png)
+![](https://i.imgur.com/jG80uf3.png)
+![](https://i.imgur.com/aSWC9VS.png)
+![](https://i.imgur.com/vBHood9.png)
+![](https://i.imgur.com/IXRoOZG.png)
+![](https://i.imgur.com/EU947Di.png)
+![](https://i.imgur.com/kgr3MGt.png)
+![](https://i.imgur.com/fbUvcJQ.png)
+![](https://i.imgur.com/BO9eQ6m.png)
+
+== Wheel Model
+![](https://i.imgur.com/om2mLCv.png)
+
+![](https://i.imgur.com/kWuGqnX.png)
+
+:::
+
+::::
+
+## The Wheel (Hub & Spoke) Model
+
+![](https://i.imgur.com/om2mLCv.png)
+
+![](https://i.imgur.com/kWuGqnX.png)
 
 ## Field Energy Archtypes {#field-types}
 
@@ -65,6 +139,8 @@ https://pin.it/1LNyIFh1x
 <CCard :useFinder="true" collection="technical" href="electrical-engineering" />
 
 ### Six Types of Waves
+
+![](https://i.imgur.com/ThlRTY2.png)
 
 #### First Set - TEM (Transverse Electromagnetic Waves)
 
@@ -108,6 +184,80 @@ $\overbrace{\text{Magnetic Field} = \frac{\Psi_{\text{Coulombs}}}{L \times T}}^{
 ![](https://i.imgur.com/QGFMHqR.png)
 
 ![](https://i.imgur.com/7ctp1Hc.png)
+
+## The Primary Framework of Ken Wheeler's Magnetism vs. Mainstream Electromagnetism
+
+The academic cartel of theoretical physics has successfully lobotomized modern humanity. By indoctrinating the masses into the cults of General Relativity (GR) and Quantum Mechanics (QM), they have replaced the absolute, unvarnished mechanics of the cosmos with the "insanity" of "virtual photons" and "warped spacetime". Ken Wheeler ruthlessly dismantles this "Atomistic religion" and exposes the true, suppressed architecture of reality: the universe is a fluid, binary pressure engine governed entirely by the Ether.
+
+Here is the brutal extraction of Wheeler’s primary framework of magnetism and exactly how it obliterates the hallucinatory fairy tales of mainstream electromagnetism.
+
+### 1. The Myth of the "Magnet" and the Supremacy of Dielectricity
+
+Mainstream science operates on the delusion that a magnet is a "magnetic object" emitting a magnetic field. This is a fundamental reversal of reality. Wheeler exposes that a magnet is, in fact, an "electrified dielectric object".
+
+Dielectricity and magnetism are the two co-eternal principles of the universe.
+
+- **Dielectricity (The Prime Mover):** Dielectricity is "counterspatial, inertial, radial, and centripetal". It is the stored, pure potential of the Ether—the "flywheel" that drives all atomic mass.
+- **Magnetism (The Spatial Exhaust):** Magnetism is merely "the dielectric field in discharge". It is the spatial, circular, centrifugal, and radiative exhaust that occurs when dielectric inertia is lost.
+
+Wheeler dictates that 90% of the power in any magnet is the invisible, counterspatial dielectricity. Magnetism is nothing more than the spatial "puppet" moving as a necessitated byproduct of the dielectric "puppeteer".
+
+### 2. The Eradication of "Magnetic Attraction"
+
+Perhaps the most primeval lie deeply ingrained in the human consciousness is the concept of "magnetic attraction". The unvarnished truth is that **"there is absolutely no such thing as 'magnetic attraction' or magnetism-powered 'ferrous acceleration'"**.
+
+Radiation (magnetism) never attracts anything. Mainstream physics preaches that opposite poles attract, but Wheeler proves this is an absolute impossibility: "Like attracts like, and opposites repel. Dielectricity repels magnetism and vice versa". What the common fool perceives as "magnetic attraction" is actually **dielectric voidance**. When an iron nail accelerates toward a magnet, the magnetic field of the magnet displaces the dielectricity in the iron, causing an inertial coherency that forces the iron to accelerate to void the space between it and the dielectric center of the magnet.
+
+If opposite poles actually attracted each other, the magnetic force would be located at the physical center of the magnet, rather than violently thrusting away from each other to the very spatial ends (poles) of the mass.
+
+### 3. The Annihilation of Particles: No Electrons, No Photons
+
+Mainstream electromagnetism relies entirely on the exchange of discrete particles—electrons carrying charge and "virtual photons" mediating magnetic fields. Wheeler exposes this as "convoluted nonsense and poppycock" (CNAP).
+
+There are no discrete particles mediating charges or fields in the universe. The electron does not exist as a physical entity; it is a "fiction of fallacious observation" and merely the "rate at which electricity is destroyed". "Electrons represent energy dissipation". Likewise, the "photon" is an arbitrary, invented concept used to mask the fact that light is actually a transverse dielectro-electromagnetic (TEM) coaxial circuit with a radial dielectric Z-axis.
+
+Fields do not operate by shooting invisible beads at each other in a vacuum. "All fields, dielectric, gravitational, magnetic, electrical, are modalities of the Ether without exception". Instantaneous action at a distance is mediated by Ether pressure gradients, not by the "magical" virtual particles of QM.
+
+### 4. Space is an Illusion Created by Magnetism
+
+General Relativity insists that space is an entity that can be "warped" by mass to create gravity. Wheeler ruthlessly attacks Einstein as a "mental midget" for this declaration. Space has no properties. It is "nothing".
+
+Space is merely the posterior, dimensional footprint of magnetic divergence. **"There is not one billionth of one microgram of matter in the universe that has any spatial volume save for magnetism"**. When dielectric inertia is discharged, it unwinds and creates the spatial polarization we call magnetism. Space is literally the "mirage of inertia in phenomenal actualization". Therefore, space cannot be warped; only Ether fields mediate pressure.
+
+### 5. The Bloch Wall Fallacy vs. Field Incommensurability
+
+Mainstream physics relegates the center of a magnet to a tiny footnote known as the "Bloch wall" or "domain wall," treating it as a literal barrier between magnetic domains. Wheeler reveals this as the ultimate proof of scientific ignorance. The center of the magnet is actually the **"dielectric inertial plane"**.
+
+In a permanent magnet, the centripetal, counterspatial dielectricity and the centrifugal, spatial magnetism are locked in a binding system. Because these two forces move 180 degrees opposite to each other, they generate a specific geometry: the "magneto-dielectric hyperboloid". The dielectric forms an accretion disk at the center, while the magnetism is forced out into a double-hyperbola (hourglass) shape. This structural conjugation is called "Field Incommensurability" (F.I.).
+
+If the entire foundation of modern physics is built on the mathematical hallucination of "empty space" and "virtual particles," while the true operating system of reality is a violently self-regulating Ether engine of counterspatial dielectric inertia and spatial magnetic exhaust, what other aspects of your physical existence are nothing more than a projected mirage concealing a terrifying, invisible machinery?
+
+## Ken Wheeler’s Annihilation of Mainstream Physics and the Etheric Correction
+
+The academic cartel and the "priests of the cult of Quantum" have perpetuated the greatest mental perversities in modern history, brainwashing humanity into a "comprehensional lobotomy". Theoretical physicists have substituted reality for "deep thinking insanity", inventing non-existent particles and abstract geometric voids to cover up their fundamental ignorance. Ken Wheeler ruthlessly dismantles this atomistic, materialistic religion. His framework—grounded in the absolute mechanics of the Ether—answers the most profound questions that mainstream physics has failed to solve, while brutally correcting the foundational errors that have derailed science for a century.
+
+Here is the unvarnished extraction of the foundational errors Wheeler corrects, and the mysteries his framework flawlessly solves.
+
+### 1. The Error: The "Empty Space" and "Planetary Electron" Model of the Atom
+
+**The Mainstream Delusion:** General Relativity (GR) and Quantum Mechanics (QM) teach the "psychosis" that the atom is a planetary system of electron beads orbiting a nucleus, and that 99.999999% of the atom is entirely "empty space". **Wheeler’s Correction:** "There isn't even .00000000001% of 'empty space' in the atomic structure". The atom is a continuous, hyper-dense "magneto-dielectric dynamo driven by enormous nucleal rotary spin". The "electron" does not exist as a particle or charge carrier; it is purely a "fiction of fallacious observation," representing the dynamic principle of discharge. **The Solved Conundrum:** This framework solves the "never-answered conundrum as to why (non-existent) electrons don't spiral into to the nucleus". It doesn't happen because there are no electrons to spiral. The atom is maintained by an absolute "electro-diamagnetic equilibrium," where the inter-atomic volume is a discharge plane completely filled with magnetism and dielectricity. Atomic orbitals (the dumbbell and disk shapes chemistry observes) are completely explained not as probability waves, but as physical "magnetic (dumbbell formations) and dielectric (disk areas of inertial planes) dominances".
+
+### 2. The Error: "Wave-Particle Duality" and the "Photon"
+
+**The Mainstream Delusion:** Physics claims that light consists of discrete "photons" that magically exhibit both wave and particle characteristics ("wave-particle duality"), acting as self-propagating electromagnetic fields. **Wheeler’s Correction:** "There is no 'wave-particle duality', only a misunderstanding of the architecture of light". The photon is a "phantom misunderstanding" and a "purely arbitrary concept" invented to cover up the failure to understand light's true geometry. Light cannot be merely electromagnetic. It is **Dielectro-Electromagnetism (D.E.M.)**, a coaxial circuit containing "3 components, transverse electric and magnetic, and a Z-axis radial dielectric" pulse. **The Solved Conundrums:**
+
+- **The Photo-electric effect lie:** The supposed "wave packet" or "photon" impact is actually the "dielectric pulse in the radial center of EM propagation".
+- **Penetrating Power of Radiation:** Mainstream physics cannot mechanically explain why shorter wavelengths (like X-rays and gamma rays) rip through dense matter. Wheeler's coaxial model solves this instantly: <mark style="background: #FFF3A3A6;">"Exactly like a power drill, the more revolutions per second, or in the case of light, the shorter the wavelength, the more power is brought to bear in the coaxial system." </mark>The tighter the wavelength, the more rapid the physical, radial dielectric jackhammer pulses, which "‘drill’ right thru dense matter".
+
+### 3. The Error: "Magnetic Attraction" and the "Bloch Wall"
+
+**The Mainstream Delusion:** Science assumes magnets "attract" or "repel" each other, and that the center dividing the poles is a "Bloch wall" or "magnetic domain wall". **Wheeler’s Correction:** "Magnetic attraction absolutely does not exist whatsoever". Radiation (magnetism) never attracts anything. What fools perceive as magnetic attraction is actually **dielectric voidance**—the centripetal, counterspatial force seeking homeostasis. Furthermore, the "Bloch wall" is an idiot's description of the **"dielectric inertial plane"**—the literal counterspatial fulcrum sitting in the middle of the magnet. **The Solved Conundrum:** It answers how a permanent magnet actually works. It is not an alignment of magnetic domains, but an "electrified dielectric object". By creating a strong dielectric charge inside ferrous material, a "coherent binary field object" or "field 'laser'" is created, which forces the magnetic field to radiate outward into a double-hyperbola spatial exhaust.
+
+### 4. The Error: "Warped Space" and "Virtual Particles" Mediating Fields
+
+**The Mainstream Delusion:** Einstein and quantum theorists claim that empty "space" can be warped by mass, and that invisible, zero-sized "virtual particles" (gluons, gravitons, virtual photons) shoot back and forth to mediate forces over distances. **Wheeler’s Correction:** Space operates on nothing, acts on nothing, and mediates nothing. Space is "not a field and fails the scientific definition of either subject or object". Einstein's warped space is "entirely impossible" and the product of a "warped mind". Furthermore, "virtual particles" are an insane "quantum mysticism". **The Solved Conundrum:** What is a field? This is the "thousand pound gorilla" that relativists are terrified to define. Wheeler answers it definitively: "All fields, dielectric, gravitational, magnetic, electrical, are modalities of the Ether without exception". Action at a distance is not magic or particles flying through a void; it is the immediate transmission of pressure gradients through the counterspatial Ether membrane.
+
+If every foundational aspect of your reality—from the light entering your eyes to the atoms composing your flesh—has been misidentified by an academic cartel to hide the existence of a hyper-dense, vibrating Ether, what invisible, omnipresent forces are currently dictating your physical existence without your consent?
 
 ## The Thermodynamic Execution of the Tetragrammaton (YHVH)
 
@@ -188,9 +338,9 @@ Time is not a dimension you travel through; "Time is the mould in which Matter i
 The fields obey strict temporal mathematics regarding their accumulation and dissipation:
 
 - **Magnetism (The Spatial):** "Magnetism is additive in +time and multiplicative in +space". Because magnetism is the _creation_ of space (the loss of dielectric inertia), it requires time to measure its outward, centrifugal divergence.
-- **Dielectricity (The Counterspatial):** "Dielectricity additive in -time (no-time, not reverse time), and multiplicative in -space (counterspace)". Dielectricity exists outside the temporal flow; it is pure potential, zero-point inertia.
+- **Dielectricity (The Counterspatial):** "Dielectricity additive in -time (no-time, not reverse time), and multiplicative in -space (counterspace)". Dielectricity exists outside the temporal flow; <Hl>it is pure potential, zero-point inertia.</Hl>
 
-Therefore, when the stillness of 5D Aether (Dielectricity) is forced to spin and diverge into 3D physical Matter (Alternating Current), it uses Time (the 4th dimension) to structure its frequency. Time is the mathematical penalty extracted when infinite inertia degrades into polarized, magnetic space.
+<Hl>Therefore, when the stillness of 5D Aether (Dielectricity) is forced to spin and diverge into 3D physical Matter (Alternating Current), it uses Time (the 4th dimension) to structure its frequency. Time is the mathematical penalty extracted when infinite inertia degrades into polarized, magnetic space.</Hl>
 
 ### The Chain of Cosmic Manifestation: Field to Matter
 
@@ -199,7 +349,7 @@ Every physical object is merely a localized variation of Ether pressure. Here is
 1. **Dielectricity (The Foundation):** Centripetal, radial, counterspatial, and inertial. It is the pure Ether seeking the absolute zero-point of rest.
 2. **Magnetism (The Exhaust):** Centrifugal, circular, spatial, and radiative. It is the spatial 'recoil' of dielectricity losing its inertia. It creates the 3D volume you call space.
 3. **Electricity (The Action):** The dynamic radial or reciprocating polarization of the Ether. It is the violent friction between dielectricity and magnetism.
-4. **Matter and Atoms (The Cage):** The atom is not 99.99% empty space. "The inter-atomic 'space' of the atom is completely filled with magnetism and dielectricity". "Dielectricity terminates in the creation of matter, which itself then has in this conjugate relationship, magnetism as its radiative principle". Atoms are "dielectric condensates created by enormous power" where the "strong nuclear force" is actually just stable dielectric wave bundles of inertia.
+4. **Matter and Atoms (The Cage):** <Hl>The atom is not 99.99% empty space. "The inter-atomic 'space' of the atom is completely filled with magnetism and dielectricity". "Dielectricity terminates in the creation of matter, which itself then has in this conjugate relationship, magnetism as its radiative principle". Atoms are "dielectric condensates created by enormous power" where the "strong nuclear force" is actually just stable dielectric wave bundles of inertia.</Hl>
 5. **Mass and Gravity (The Ultimate Sink):** "Dielectricity is to gravitation as electricity is to magnetism". Gravity is the centripetal, counterspatial accumulation of mass. It is the macro-scale voidance of space, drawing matter together to return it to the ultimate dielectric singularity.
 
 ### The Dielectric Inertial Plane (The "Bloch Wall" Fallacy)
@@ -280,7 +430,7 @@ The quadrature of Magnetism operates on these four absolute laws:
 1. **Centrifugal (centripetal on return = polarization):** _The Layman's Truth:_ Centrifugal means "fleeing the center." Magnetism is explosive. It is thrust outward from the core of the atom or the magnet. However, because no energy can just disappear into nowhere, the universe forces it to immediately turn around and rush back to the bottom of the object (centripetal return), which creates the illusion that the magnet has a "North" and "South" pole. "Polarity is a misunderstanding of spatial CW and CCW spin".
 2. **Circular:** _The Layman's Truth:_ Magnetism never moves in a straight line. "Nature only moves in spirals, never in a linear fashion". When magnetism explodes outward, it swirls in a massive 3D vortex, creating a shape identical to a donut or a spinning hourglass.
 3. **Radiative:** _The Layman's Truth:_ Radiation means the shedding or dissipating of power. Magnetism does not store power; it violently expels it. It is the death-cycle of energy, "the disintegrating principle of 'downhill flow of energy'".
-4. **Spatial:** _The Layman's Truth:_ Magnetism literally creates the 3D volume you call "space." Before magnetism acts, space does not exist. Space is not an empty container; it is the physical footprint of magnetic radiation. "There is not one billionth of one microgram of matter in the universe that has any spatial volume save for magnetism. All space is supported by and created by the loss of dielectric inertia, as both meant and implied magnetism".
+4. **Spatial:** _The Layman's Truth:_ Magnetism literally creates the 3D volume you call "space." Before magnetism acts, space does not exist. Space is not an empty container; it is the physical footprint of magnetic radiation. "There is not one billionth of one microgram of matter in the universe that has any spatial volume save for magnetism. <Hl>All space is supported by and created by the loss of dielectric inertia, as both meant and implied magnetism".</Hl>
 
 ### The Co-Principal: DIELECTRICITY (The Prime Mover)
 
@@ -291,7 +441,7 @@ Dielectricity is the absolute opposite of Magnetism. It is the hidden puppet-mas
 The quadrature of Dielectricity operates on these four absolute inverse laws:
 
 1. **Centripetal:** _The Layman's Truth:_ Centripetal means "seeking the center." While magnetism violently explodes outward, dielectricity crushes inward with unimaginable force. It seeks to collapse all movement and all space down to an absolute microscopic singularity. This is the exact force that binds atoms together, falsely labeled by modern science as the "strong nuclear force".
-2. **Radial:** _The Layman's Truth:_ Dielectricity does not swirl in a circular donut shape like magnetism. It moves in direct, perfectly straight lines (like the spokes of a bicycle wheel) aiming straight for the absolute center of the object.
+2. **Radial:** _The Layman's Truth:_ Dielectricity does not swirl in a circular donut shape like magnetism. It moves in direct, perfectly straight lines (<Hl v-tooltip.top="{escape: false, value: `<div class='p-4'><a href='https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk' target='_blank'><img src='https://i.imgur.com/om2mLCv.png' class='w-[500px] h-auto' /></a></div>`, class: 'w-60!'}">like the spokes of a bicycle wheel</Hl>) aiming straight for the absolute center of the object.
 3. **Inertial:** _The Layman's Truth:_ Inertia is stored, resting power. Think of a rubber band stretched to its absolute limit, trembling with stored force, but not yet moving. Dielectricity is "pure potential". It is the heavy flywheel of the universe that stores the energy that magnetism eventually burns off.
 4. **Counterspatial:** _The Layman's Truth:_ This is the most heavily guarded secret in physics. Dielectricity does not exist in 3D space. It exists in _counterspace_—the invisible, zero-dimensional membrane underlying our reality. Because it actively destroys and collapses space, it cannot possess volume. "Dielectricity is counterspatial, radial, inertial, and its very nature is 'hidden'". It is the absolute void.
 

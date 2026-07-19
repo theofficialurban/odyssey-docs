@@ -37,7 +37,7 @@ url: http://ccru.net/syzygy.htm
 
 ## Selected Word Definitions from 'The Numogram' Document
 
-<Grid>
+<div class="grid grid-flow-row gap-4">
 <Panel toggleable :collapsed="true">
     <template #header>
         <span class="definition-red">Demons</span>
@@ -75,7 +75,8 @@ So if you drew it, you’d get:
 
 It’s at once a diagram, a myth-engine, and a machine for thinking time as something alien.
 </Panel>
-</Grid>
+
+</div>
 
 ![](https://i.imgur.com/OIUgBTR.png)
 

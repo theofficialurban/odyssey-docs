@@ -11,6 +11,34 @@ export type CustomDialogOpenFunction = () => DynamicDialogInstance;
 export type CustomImageHtmlCaption = CustomDialogOpenFunction | null;
 export type CustomImageHtmlCaptions = CustomImageHtmlCaption[];
 
+export const TEMGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/YSYldFt.png",
+    title: "Transverse Dielectro-Electromagnetism (TEM)",
+  },
+  {
+    image: "https://i.imgur.com/zZJhBvQ.png",
+    title: "Z-Axis Radial Dielectric Core",
+  },
+  {
+    image: "https://i.imgur.com/Kb1cJBC.png",
+    title: "Field Incommensurability (F.I.)",
+  },
+  {
+    image: "https://i.imgur.com/9gHH7AD.png",
+    title: "Ferrohydrodynamic Lens ^(Ferrocell)^",
+  },
+  {
+    image: "https://i.imgur.com/fM1a580.png",
+    title: "Magneto-Dielectric Hyperboloid",
+  },
+  { image: "https://i.imgur.com/HLDauoC.png", title: "Dielectric Reflector" },
+  {
+    image: "https://i.imgur.com/5nvijHc.png",
+    title: "Hypotrochoid Vectorization",
+  },
+];
+
 export const PlasmoidGallery: ImageItem[] = [
   { image: "https://i.imgur.com/Q7N6gLI.png", title: "Vivi-6" },
   { image: "https://i.imgur.com/VUUiWOp.png", title: "Sarkolepsy" },

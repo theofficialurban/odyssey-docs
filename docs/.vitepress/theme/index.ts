@@ -62,6 +62,7 @@ import {
   PlasmoidGallery,
   QuantumHauntologyGalleria,
   TectonicWarfareGallery,
+  TEMGallery,
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
 import CustomAccordion from "./components/PrimeVue/CustomAccordion.vue";
@@ -186,6 +187,7 @@ export default {
     app.provide("PlasmoidGallery", PlasmoidGallery);
     app.provide("hiddenkinggallery", HiddenKingGallery);
     app.provide("tectonicwarfaregallery", TectonicWarfareGallery);
+    app.provide("temgallery", TEMGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
