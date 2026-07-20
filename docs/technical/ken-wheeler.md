@@ -12,6 +12,9 @@ tags:
 <script setup>
 import {inject} from "vue"
 const vocabulary = inject("temgallery")
+
+const wheelerHtml = `<div class="w-[650px]! h-[400px]! p-2"><iframe class="m-2" src="https://kenwheeler.substack.com/embed" width="582" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe></div>`
+
 </script>
 
 [[atomic]]
@@ -39,6 +42,7 @@ Graphics:
 1. [Diagrams & Schematics](https://imgur.com/a/meru-foundation-torus-graphics-WWEsbJk)
 2. [Words & Terms](https://imgur.com/a/HbuOE01)
 3. [Animated GIFs](https://giphy.com/channel/theofficialurban/torus-plasma)
+4. [Visual Simulation](https://theofficialurban.github.io/dielectro_electromagnetism/)
 
 :::
 
@@ -50,7 +54,23 @@ Graphics:
 
 ![](https://i.imgur.com/O6Y50zr.png)
 
-::::details Expand for Images
+#### Compilation of Ken Wheeler's Diagrams {#diagrams}
+
+<Nh :preset="3" v-tooltip.top="{escape: false, value: wheelerHtml, hideDelay: 5000}">Drawings and Diagrams by Ken Wheeler from his "Uncovering the Missing Secrets of Magnetism"</Nh>
+
+:::tabs
+== Diagrams
+![](https://file.garden/ae-rA3RY3UKpjLy8/TEM/Compilation_2.png)
+== Drawings
+![](https://file.garden/ae-rA3RY3UKpjLy8/TEM/Compilation_3.png)
+== Extras
+![](https://file.garden/ae-rA3RY3UKpjLy8/TEM/Compilation_1.png)
+
+:::
+
+#### Additional Images
+
+::::details Expand for Additional Images
 :::tabs
 == Breath
 ![](https://i.imgur.com/A5JxdMw.png)

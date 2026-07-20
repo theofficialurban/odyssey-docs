@@ -38,6 +38,27 @@ export const TEMGallery: ImageItem[] = [
     image: "https://i.imgur.com/5nvijHc.png",
     title: "Hypotrochoid Vectorization",
   },
+  {
+    image: "https://i.imgur.com/NcCwlT9.png",
+    title: "Counterspace",
+    caption:
+      "Background: Bismuth Inertial, Dielectric \“Anti-Cube\” Representational of Counterspace & Inertia in General",
+  },
+  {
+    image: "https://i.imgur.com/qM9eYXV.png",
+    title: "Dielectricity",
+    caption: "Magnetism = Dielectrical Voidance",
+  },
+  { image: "https://i.imgur.com/XyK5s0z.png", title: "Accretion Disk" },
+  { image: "https://i.imgur.com/pMnjKFt.png", title: "Inertial Plane" },
+  { image: "https://i.imgur.com/6EcWOnz.png", title: "Torque & Torsion" },
+  {
+    image: "https://i.imgur.com/p7DKxBJ.png",
+    title: "Polarization",
+    caption:
+      "Direct Current / Aether (DC) transformed into Matter / Light / Alternating Current (AC)",
+  },
+  { image: "https://i.imgur.com/bDRgIx8.png", title: "Magnetic Divergence" },
 ];
 
 export const PlasmoidGallery: ImageItem[] = [

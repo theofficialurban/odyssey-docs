@@ -73,6 +73,7 @@ import Highlighter from "./components/Highlighter.vue";
 import ImgurCarousel from "./components/PrimeVue/ImgurCarousel.vue";
 import Message from "primevue/message";
 import NewCard from "./components/PrimeVue/NewCard.vue";
+import GlowText from "./components/GlowText.vue";
 export type SettingsFrontmatter =
   | {
       font: Partial<BannerFontProps>;
@@ -167,7 +168,7 @@ export default {
     app.component("ImgurGalleria", ImgurGalleria);
     app.component("Carousel", ImgurCarousel);
     app.component("Accordion", CustomAccordion);
-
+    app.component("Glow", GlowText);
     app.component("Message", Message);
 
     app.directive("tooltip", Tooltip);

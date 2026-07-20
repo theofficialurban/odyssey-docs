@@ -61,6 +61,8 @@ const tooltipContent = `<div class="flex-col gap-3">
 
 This is a test for inline <Message size="small" severity="error">Testing</Message>
 
+<Glow color="deepskyblue" class="text-4xl font-semibold">Test Josh</Glow>
+
 ## Highlight test
 
 <Hl>Testing</Hl>

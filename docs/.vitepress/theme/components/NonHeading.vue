@@ -2,7 +2,7 @@
 import { computed, StyleValue } from "vue";
 
 interface Props {
-  className?: string;
+  class?: string;
   style?: StyleValue;
   preset?: number;
   href?: string | null;
@@ -16,7 +16,7 @@ const LevelPresets: Record<number, { className: string }> = {
   4: { className: "font-semibold text-[18px]" },
 };
 const {
-  className = null,
+  class: className = null,
   style = null,
   preset = 0,
   href = null,
