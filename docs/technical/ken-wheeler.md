@@ -13,7 +13,7 @@ tags:
 import {inject} from "vue"
 const vocabulary = inject("temgallery")
 
-const wheelerHtml = `<div class="w-[650px]! h-[400px]! p-2"><iframe class="m-2" src="https://kenwheeler.substack.com/embed" width="582" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe></div>`
+const wheelerHtml = `<div class="w-[650px]! h-auto p-2"><iframe class="m-2" src="https://kenwheeler.substack.com/embed" width="582" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe></div>`
 
 </script>
 

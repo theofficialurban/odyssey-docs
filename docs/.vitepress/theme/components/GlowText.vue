@@ -16,7 +16,7 @@ const {
   <span :class="['glowText', className]"><slot>Glowing Text</slot></span>
 </template>
 
-<style lang="css" module>
+<style scoped>
 .glowText {
   --glow-color: v-bind(color);
   --base-color: v-bind(baseColor);
