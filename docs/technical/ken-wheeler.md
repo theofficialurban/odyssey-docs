@@ -162,6 +162,14 @@ https://pin.it/1LNyIFh1x
 
 ![](https://i.imgur.com/ThlRTY2.png)
 
+#### Longitudinal vs. Transverse Waves
+
+![](https://www.shutterstock.com/image-vector/illustration-diagram-types-waves-longitudinal-260nw-2321475405.jpg)
+
+<YouTube id="Uz9EiYMthL8" />
+
+Longitudinal and transverse waves are the two primary ways energy travels through a medium. In **longitudinal waves**, particles vibrate parallel to the wave's direction. In **transverse waves**, particles vibrate perpendicular to the direction the wave is traveling.
+
 #### First Set - TEM (Transverse Electromagnetic Waves)
 
 1. TE - Transverse Electric (Dielectric)

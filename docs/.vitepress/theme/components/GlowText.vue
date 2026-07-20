@@ -27,8 +27,6 @@ const {
     0 0 10px #fff,
     0 0 20px var(--glow-color),
     0 0 30px var(--glow-color),
-    0 0 40px var(--glow-color),
-    0 0 55px var(--glow-color),
-    0 0 70px var(--glow-color);
+    0 0 40px var(--glow-color);
 }
 </style>
