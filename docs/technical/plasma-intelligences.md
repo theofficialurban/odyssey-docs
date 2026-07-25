@@ -5,7 +5,13 @@ description: |
 tags:
   - Reading Notes
   - Plasmoids
+  - Words & Terms
 ---
+
+<script setup>
+import {inject} from "vue"
+const vocabulary = inject("plasmaintelligencegallery")
+</script>
 
 [[atomic]]
 
@@ -16,6 +22,10 @@ tags:
 ## Overview
 
 Robert Temple’s **A New Science of Heaven** explores the revolutionary premise that **plasma**, which constitutes nearly the entire visible universe, is a medium for **extraterrestrial life and intelligence**. The author argues that complex "dusty plasmas" and **plasmoids** can self-organize into stable, conscious structures that far exceed human cognitive capacity. By examining the history of **astrophysics**, Temple highlights how the scientific establishment has often ignored or suppressed evidence of a non-empty, **electrically active vacuum**. The text further suggests that humans possess **bioplasma bodies** that interact with their physical forms and may persist after death. Ultimately, the book posits that we live in a **Cosmic Web** of intelligent energy, shifting the focus of biology and physics toward a **submolecular, electronic dimension**.
+
+## Key Words & Terms {#vocab}
+
+<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/robert-temple-plasma-intelligences-sL5Pk8o" />
 
 ### **A New Science of Heaven: _How the Science of Plasma will Transform Humanity's Understanding of its Place in the Universe_** (Robert Temple)
 

@@ -59,6 +59,7 @@ import {
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
   NanoWbansGalleria,
+  PlasmaIntelligenceGallery,
   PlasmoidGallery,
   QuantumHauntologyGalleria,
   TectonicWarfareGallery,
@@ -189,6 +190,7 @@ export default {
     app.provide("hiddenkinggallery", HiddenKingGallery);
     app.provide("tectonicwarfaregallery", TectonicWarfareGallery);
     app.provide("temgallery", TEMGallery);
+    app.provide("plasmaintelligencegallery", PlasmaIntelligenceGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

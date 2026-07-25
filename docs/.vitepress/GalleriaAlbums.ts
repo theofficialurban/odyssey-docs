@@ -60,7 +60,32 @@ export const TEMGallery: ImageItem[] = [
   },
   { image: "https://i.imgur.com/bDRgIx8.png", title: "Magnetic Divergence" },
 ];
-
+export const PlasmaIntelligenceGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/QxBOq4d.png",
+    title: "Kordylewski Dust Clouds (KDC)",
+  },
+  { image: "https://i.imgur.com/M52iJJu.png", title: "Bioplasma Body" },
+  { image: "https://i.imgur.com/bccC80f.png", title: "Dynamic Torsion" },
+  { image: "https://i.imgur.com/14nnxfJ.png", title: "IRR Xerum 525" },
+  {
+    image: "https://i.imgur.com/dDQpB6T.png",
+    title: "Topological Metaphor",
+    caption: "(Primary Scission)",
+  },
+  { image: "https://i.imgur.com/ebMOTzd.png", title: "Birkeland Currents" },
+  {
+    image: "https://i.imgur.com/yXvyxF7.png",
+    title: "Coupled Harmonic Oscillator",
+  },
+  { image: "https://i.imgur.com/RzVNc2g.png", title: "Crystal Sun" },
+  {
+    image: "https://i.imgur.com/XVvY65s.png",
+    title: "Plasma Crystals",
+    caption: "(Coulomb Crystals)",
+  },
+  { image: "https://i.imgur.com/MhOyrqs.png", title: "Nabta Playa Constants" },
+];
 export const PlasmoidGallery: ImageItem[] = [
   { image: "https://i.imgur.com/Q7N6gLI.png", title: "Vivi-6" },
   { image: "https://i.imgur.com/VUUiWOp.png", title: "Sarkolepsy" },
