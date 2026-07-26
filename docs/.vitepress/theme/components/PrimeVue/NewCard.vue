@@ -55,6 +55,12 @@ const {
   class: className = "",
   img = getRandomOpenGraphImage(),
 } = defineProps<Props>();
+
+const ogImg = computed(() => {
+  if (!img || img.includes("og-")) return getRandomOpenGraphImage();
+  return img;
+});
+
 const topLevelProps = computed(() => {
   if (!preview) {
     return {
@@ -93,7 +99,7 @@ const topLevelProps = computed(() => {
               <img
                 class="md:max-h-[150px] w-full object-cover"
                 alt="user header"
-                :src="img"
+                :src="ogImg"
               />
             </div>
           </slot>
