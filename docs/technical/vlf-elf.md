@@ -3,6 +3,9 @@ title: ELF and VLF Electromagnetic Fields
 description: |
   This text, edited by Michael A. Persinger, explores the intersection of environmental physics and biology by examining how extremely low frequency (ELF) and very low frequency (VLF) electromagnetic fields influence living systems. The source identifies a fundamental "resonance" between nature and biology, noting that these external frequencies—originating from weather processes, solar activity, and human technology—closely overlap with the internal bio-electrical rhythms of the human brain and heart.
 ogimage: https://www.dolphmicrowave.com/wp-content/uploads/2024/12/ELF-Waves-1.webp
+tags:
+  - Electromagnetic Warfare
+  - Human Husbandry
 ---
 
 [[atomic]]

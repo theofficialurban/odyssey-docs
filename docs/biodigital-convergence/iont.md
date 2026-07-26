@@ -5,6 +5,7 @@ ogimage: https://i.imgur.com/5KNALhh.png
 tags:
   - Human Husbandry
   - Nanotechnology
+  - Electromagnetic Warfare
 ---
 
 [[atomic]]

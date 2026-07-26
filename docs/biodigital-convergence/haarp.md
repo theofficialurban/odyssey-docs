@@ -7,6 +7,7 @@ tags:
   - Reading Notes
   - Nanotechnology
   - Human Husbandry
+  - Electromagnetic Warfare
 ---
 
 [[atomic]]
@@ -20,6 +21,8 @@ tags:
 ## Overview
 
 This text serves as an investigative exposé on the **High-frequency Active Auroral Research Project (HAARP)**, a powerful Alaskan-based transmitter that authors Nick Begich and Jeane Manning characterize as a dangerous form of **environmental warfare**. The book argues that by aiming high-frequency radio waves at the ionosphere, the U.S. military possesses a tool capable of **altering weather patterns**, disrupting global communications, and even **manipulating human mental states** through electromagnetic frequencies. By tracing the lineage of this "Star Wars" technology back to the innovations of **Nikola Tesla**, the authors provide a historical timeline of atmospheric experimentation to demonstrate a pattern of governmental secrecy and ecological risk. Ultimately, the work functions as a call for a **moratorium on ionospheric heating**, urging for greater public transparency and independent scientific oversight of technologies that could profoundly destabilize the planet's natural systems.
+
+<CCards :useFinder="true" :cards="[['biodigital', 'haarp-gwen'], ['technical', 'vlf-elf'], ['biodigital', 'leuren-moret'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'cmos'], ['biodigital', 'plga'], ['biodigital', 'wbans'], ['reading', 'nano-berg'], ['technical', 'energy-grid'], ['main', 'vlf'], ['main', 'ley-lines']]" />
 
 ### Tesla Conference Dictionary
 

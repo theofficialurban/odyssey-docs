@@ -53,7 +53,7 @@ The same episodes are available as audio podcasts on other players, however I ca
 
 ### See Also
 
-<CCards :useFinder="true" :cards="[['biodigital-convergence', 'leuren-moret'], ['biodigital-convergence', 'tectonic-warfare'], ['biodigital-convergence', 'cmos'], ['biodigital-convergence', 'plga'], ['biodigital-convergence', 'wbans'], ['reading', 'nano-berg']]" />
+<CCards :useFinder="true" :cards="[['biodigital', 'haarp'], ['biodigital', 'haarp-gwen'], ['biodigital', 'leuren-moret'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'cmos'], ['biodigital', 'plga'], ['biodigital', 'wbans'], ['reading', 'nano-berg']]" />
 
 ## **The Microscopic Intruder: A Journey into the Heart of the Cell**
 

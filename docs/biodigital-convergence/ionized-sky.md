@@ -7,6 +7,7 @@ tags:
   - Human Husbandry
   - Nanotechnology
   - Reading Notes
+  - Electromagnetic Warfare
 ---
 
 [[atomic]]

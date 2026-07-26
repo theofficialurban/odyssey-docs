@@ -5,6 +5,7 @@ tags:
   - Human Husbandry
   - Leuren Moret
   - Words & Terms
+  - Electromagnetic Warfare
 ogimage: https://cdn.britannica.com/53/4953-050-E6291658/subduction-zones-Stratovolcanoes-Earth-plate-margins-activity.jpg
 ---
 

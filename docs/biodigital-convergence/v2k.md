@@ -2,6 +2,8 @@
 title: V2K and Cognitive Weapons
 description: This is a summary of information on the topic of V2K and Cognitive Warfare
 ogimage: https://i.imgur.com/QyehPyh.png
+tags:
+  - Electromagnetic Warfare
 ---
 
 [[atomic]]
