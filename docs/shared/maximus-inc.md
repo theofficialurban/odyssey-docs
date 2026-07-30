@@ -4,6 +4,8 @@ description: Most of this information comes from Jack Pendergrass (@NoogaJack) o
 ogimage: https://i.imgur.com/4V1VEpa.png
 ---
 
+[[atomic]]
+
 # Summary of Information on Maximus, Inc
 
 [[toc]]
@@ -20,18 +22,32 @@ The following is a collection of the research efforts of **_Jack Pendergrass ([`
 
 :::
 
+<VEmbed platform="Odysee" src="https://odysee.com/%24/embed/%40UrbanOdyssey%3Ab%2Fjp-max%3A8?r=SeiWjpTeLvnadbdz5qFHGSRRzyZLzTJn" />
+
 :::danger
 
 I made this thread about a year ago, some info may be out of date.
 
+Posted `July 30th, 2026` https://x.com/officialurbanus/status/2082948529543172483
+
 :::
 
+<iframe src="https://jackpendergrass.substack.com/embed" width="582" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+
 ## Videos / Interviews /w Jack Pendergrass
+
+[_Direct Link_](https://rumble.com/v43huai-s2e26-jack-pendergrass-whistleblower-on-how-maximus-inc-mk-ultra-and-family.html?mref=3gc1h8&mc=7m5w3)
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v40whl3/?pub=3gc1h8" />
 
 1. https://rumble.com/v2bef4o-march-1-2023.html?e9s=src_v1_s%2Csrc_v1_s_o
 2. https://rumble.com/v3sccyp-maximus-disclosure-w-jack-pendergrass.html?e9s=src_v1_s%2Csrc_v1_s_o
 3. https://rumble.com/v1h1rv5-red-white-and-boom-w-meghan-walsh-and-jack-pendergrass.html?e9s=src_v1_s%2Csrc_v1_s_o
 4. https://rumble.com/v43huai-s2e26-jack-pendergrass-whistleblower-on-how-maximus-inc-mk-ultra-and-family.html?e9s=src_v1_s%2Csrc_v1_s_o
+
+### Latest Post by Jack P.
+
+**Direct Link:** https://jackpendergrass.substack.com/p/maximus-inc
+![](https://i.imgur.com/hqZjb9a.png)
 
 ### Interview /w my close friend, [Pastor James Carner](https://rumble.com/user/jamescarner)
 
@@ -172,7 +188,7 @@ Transcribed audio from [`#deloitte`](https://x.com/hashtag/deloitte?src=hashtag_
 
 ## **Maximus Inc.: Foundational Architecture of the Automated Beast System**
 
-Under the **Codex Umbra** lens, the foundational origins of Maximus Inc. are revealed not as a standard business venture, but as the deliberate porting of military-grade automated warfare technology into the civilian administrative state. Established at the intersection of intelligence, social engineering, and legislative opportunism, Maximus serves as the operational nexus for a global grid of data-driven social control.
+Established at the intersection of intelligence, social engineering, and legislative opportunism, Maximus serves as the operational nexus for a global grid of data-driven social control.
 
 ### The Mastran Genesis: From Automated Warfare to Social Management
 
@@ -286,3 +302,67 @@ The sources link the emergence of Maximus and the CMCHS to a network of influent
 ### The Beast System Nexus
 
 Independent analysis within the sources views the CMCHS as the "nucleus" of a broader "Beast System," a global control grid designed to aggregate personal data and enforce social control. From the 1979 study on hospital beds to the 2023 **MOVEit data breach**—which exposed the personal data of millions of Medicare beneficiaries to Russian-speaking ransomware groups—the trajectory of Maximus represents the systematic exploitation of civilian information for corporate and military gain.
+
+## Tactical and Strategic Hamlet Program (Phoenix and Igloo White)
+
+To the anesthetized public, the Vietnam War was a chaotic foreign failure involving jungle combat and political blunders. Through the unfiltered lens of the _Codex Umbra_, Vietnam is revealed as a massive, taxpayer-funded laboratory for the Cryptocracy. It was the ultimate beta-test for totalitarian population control, behavioral engineering, and the creation of an automated electronic battlefield.
+
+When the architects of the Matrix concluded their experiments in Southeast Asia, they did not discard their weapons; they brought them home to deploy against the American people. Here is the unvarnished autopsy of the Strategic Hamlet program, the electronic sensor grid, and their modern reincarnation as the domestic "Smart City" panopticon.
+
+### I. THE PROTOTYPE: THE STRATEGIC HAMLET AND OPERATION PHOENIX
+
+The original "Strategic Hamlet" program was a brutal campaign of forced relocation and psychological destruction engineered by the CIA and military intelligence during the Vietnam War.
+
+- **The Physical Cage:** Guided by Sir Robert Thompson, who had utilized similar tactics in Malaya, the CIA engineered the Taylor-Staley strategic hamlet programme in South Vietnam. This operation "resulted in 13 million farmers and workers being forcibly relocated to 12,000 'fortified villages, surrounded by barbed wire fences and ditches fortified with bamboo spikes'."
+- **The Psychological Meat-Grinder:** The objective was not merely physical security, but total behavioral modification. The archives reveal that "Food control was applied to the camps in an attempt to 'psychologically smash' their inhabitants, with a view to selecting out future leaders to replace the ineffectual Diem regime."
+- **The Information-Liquidation Model:** Inside and outside these hamlets, the CIA operated the Phoenix Program, creating a "computerized […] means of generating 1,800 names a month for the target list, coordinating the information on suspects from 30,000-plus informants." This program was a literal "template for systemic domination," utilizing death squads and secret police to murder tens of thousands of individuals classified as spies and terrorists, though many were simply patriots resisting foreign aggression.
+
+### II. THE DOMESTIC DEPLOYMENT: BRINGING THE CAGE TO AMERICA
+
+The techniques perfected in the Vietnamese Strategic Hamlets and the electronic sensor grids (like Igloo White) were seamlessly imported into the United States to construct the modern police state.
+
+- **The LEAA and the National Police Force:** During the Nixon administration, the Law Enforcement Assistance Administration (LEAA) utilized the very technology developed in Vietnam to build a domestic control grid. The LEAA funded the development of a "National Population Surveillance Computer System, designed to monitor citizens of the U.S., as well as measures to create a national police force, including Operation Cable Splicer and Operation Garden Plot."
+- **The Warning of the Architects:** Even Rand Corporation executive Paul Baran admitted the terrifying reality, warning that "the influx back to the United States of the Vietnam War surveillance gadgets alone, not to mention the behavior modification hardware, could bring about 'the most effective, oppressive police state ever created'."
+- **The Eternal War on Terror:** Operation Phoenix did not die; it became the operational standard for domestic control. "After 9/11, Operation Phoenix became the 'template for policing the empire and fighting its eternal War on Terror'." The archives pose the chilling question: "What is to stop [the CIA and military] applying the full systematic extent of Phoenix-style operations to include political dissidents, immigrants, and despised minorities in America, just as they did in Vietnam?."
+
+### III. THE MODERN STRATEGIC HAMLET: 15-MINUTE CITIES AND S.M.A.R.T. GRIDS
+
+Today, the Cryptocracy does not need bamboo spikes and barbed wire to herd the American population. The Strategic Hamlet has been completely digitized and rebranded as the "15-Minute City" or "S.M.A.R.T. City."
+
+- **The 15-Minute Containment Zone:** The _Directory of Human Husbandry_ explicitly lists "Strategic Hamlet" as an alias for S.M.A.R.T. Cities and 15-Minute Cities. These are defined as "Geofenced Prisons." If a subject attempts to travel outside their designated sector (their modern Strategic Hamlet), "their Digital ID or Central Bank Digital Currency (CBDC) wallet is disabled, and their electric vehicle (EV) is remotely stalled via its Electronic Control Unit (ECU)."
+- **The Electronic Battlefield (C4ISR):** The Vietnam-era sensor grids have evolved into the "C4ISR" (Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance) network. This is the "digital nervous system of the Beast System's control grid" which fuses satellite telemetry, drone feeds, and civilian surveillance to synchronize directed-energy weapon strikes and electronic warfare across the populated battlespace.
+- **S.M.A.R.T. Dust and Ubiquitous Sensors:** To replicate the jungle acoustic sensors of Vietnam in the urban concrete of America, the elite deploy M.E.M.S. (Micro-Electrical-Mechanical-Systems) and S.M.A.R.T. Dust. These microscopic "air molecule particulants" are deployed via aerial dumping to form a "wireless sensor network" that transforms the very atmosphere and the interior of the human body into a hostile, monitoring entity.
+- **Human Husbandry:** The ultimate goal of the modern Strategic Hamlet is absolute "Human Husbandry," the scientific management, milking, and culling of the human herd. The population is concentrated into these zones "to maximize the harvesting of bio-data and energy before being discarded (cremated) when they are no longer economically viable."
+
+## The Strategic Hamlet Program & Operation Igloo White
+
+### 1. The Strategic Hamlet Program: Physical Containment and Human Geofencing
+
+Initiated in the early 1960s by South Vietnamese President Ngo Dinh Diem with extensive U.S. financial and military backing, advocated directly by the Eisenhower and Kennedy administrations, the **Strategic Hamlet Program** was a massive counter-insurgency operation designed to forcibly isolate South Vietnamese peasants from the Vietcong (VC) guerrillas.
+
+- **The Stated Strategy:** The explicit objective was to "separate the loyal South Vietnamese from the Vietcong," utilizing the military metaphor of "drying up the ocean that gives life to the fish."
+- **The Physical Architecture:** Over 4.3 million people, more than one-third of the entire South Vietnamese population by September 1962, were uprooted from their ancestral lands and herd-managed into specialized, fortified hamlets surrounded by barbed wire, bamboo fences, moats, earthen mounds with bamboo spears, and watchtowers.
+- **The Reality of Failure & Terror:** The program degenerated into a coercive nightmare. Peasants were torn from generational farmlands, promised medical and food supplies vanished through corrupt government officials in Saigon, and fortified hamlets like An Loc were routinely infiltrated, overrun, or annihilated in devastating air strikes.
+- **Modern Classification:** In the _Directory of Human Husbandry_, the Strategic Hamlet is recognized as the direct historical antecedent to the **15-Minute Containment Zone**, a geofenced prison disguised as "urban convenience" where human livestock are confined to surveilled geographic sectors.
+
+### 2. Operation Igloo White: The Genesis of Automated Warfare
+
+Launched in late January 1968 under Defense Secretary Robert McNamara and the Defense Communications Planning Group (DCPG), **Operation Igloo White** was an unclassified/classified $1 billion electronic anti-infiltration barrier along the Ho Chi Minh Trail in Laos.
+
+- **The Technical Infrastructure:** Igloo White deployed over 20,000 air-dropped seismic and acoustic biosensors disguised as jungle foliage across Laotian transit corridors.
+- **The Automated Kill Chain:** Signals emitted by the sensors were picked up by orbiting EC-121 Batcat aircraft and relayed to Task Force Alpha’s Infiltration Surveillance Center (ISC) at Nakhon Phanom, Thailand. There, two IBM 360-65 supercomputers, the most powerful of their era, collated sensor data against electronic maps of the trail to automatically calculate strike coordinates for bomber aircraft.
+- **The Key Architect:** **David Vincent Mastran**, a DARPA analyst hand-selected by Robert McNamara and linked to the MITRE Corporation's secretive JASON Advisory Group, served as the primary data analyst for Igloo White. Mastran created the computer simulations tracking truck convoys and air orders of battle to automate target destruction.
+
+### 3. The Interconnection: How Strategic Hamlets and Igloo White Integrate
+
+The Strategic Hamlet Program and Operation Igloo White represent the **two foundational pillars of the military-industrial complex’s population interdiction model** engineered during the Vietnam War:
+
+1. **Physical vs. Electronic Containment:**
+   - **Strategic Hamlets** provided the _physical geofencing grid_, fencing in human populations, restricting physical movement, and creating a stark binary where anyone outside the perimeter was classified as an targetable enemy.
+   - **Igloo White** provided the _electronic surveillance grid_, blanketing the surrounding corridors with sensor networks, automated telemetry, and computer-driven strike algorithms to monitor and neutralize movement across the perimeter.
+2. **The McNamara / DARPA / JASON Synthesis:** Both programs stemmed from the same technocratic inner circle, Robert McNamara, DARPA spooks, and the JASON scientists at the MITRE Corporation, seeking a technical, algorithmic solution to human warfare and social control.
+3. **Porting Military Interdiction into the Civilian Administrative State:** The methodology developed across Strategic Hamlets and Igloo White did not end in Southeast Asia; it was ported directly into civilian domestic governance. After departing the Air Force, David Mastran took his Igloo White interdiction models, combined them with stolen PROMIS software algorithms, and founded **Maximus Inc.** in 1975.
+   Maximus applied these exact convoy-tracking and targeting simulation models to human beings, turning citizens into "targets" and constructing socioeconomic profiles to automate child support enforcement (Title IV-D), welfare-to-work programs, Medicaid, and healthcare databases.
+4. **The Ultimate Convergence (Smart Cities & Human Husbandry):** Today, the combination of physical geofencing (Strategic Hamlets) and sensor-driven data harvesting (Igloo White) forms the blueprint for the **Smart City initiative**. The 15-Minute Containment Zone acts as the modern Strategic Hamlet, while the 5G/6G/7G Body Area Networks, biosensors, and AI surveillance grids act as the modern Igloo White, creating an inescapable, self-monitoring digital feedlot for human husbandry.
+
+When the exact same computer simulation models built to target convoy bomb strikes on the Ho Chi Minh Trail are currently managing your child support records, healthcare databases, and city travel perimeters, at what point do you realize the war zone was never left behind, it was simply brought home to you?
