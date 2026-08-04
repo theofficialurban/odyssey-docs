@@ -63,6 +63,7 @@ import {
   PlasmoidGallery,
   QuantumHauntologyGalleria,
   TectonicWarfareGallery,
+  TelemetryGallery,
   TEMGallery,
   ThomisticVocabulary,
 } from "../GalleriaAlbums";
@@ -75,6 +76,9 @@ import ImgurCarousel from "./components/PrimeVue/ImgurCarousel.vue";
 import Message from "primevue/message";
 import NewCard from "./components/PrimeVue/NewCard.vue";
 import GlowText from "./components/GlowText.vue";
+import { createMermaidRenderer } from "vitepress-mermaid-renderer";
+import { h, nextTick, watch } from "vue";
+
 export type SettingsFrontmatter =
   | {
       font: Partial<BannerFontProps>;
@@ -125,7 +129,19 @@ export type PodcastsSettings = {
 
 export default {
   extends: VPLTheme,
-  Layout: LayoutShare,
+  Layout: () => {
+    const initMermaid = () => {
+      createMermaidRenderer({
+        theme: "redux-dark-color",
+        look: "neo",
+        darkMode: true,
+      });
+    };
+
+    nextTick(() => initMermaid());
+
+    return h(LayoutShare);
+  },
   enhanceApp({ app }) {
     app.component("OdysseyBanner", OdysseyBanner);
     app.component("Substack", OdysseySubstack);
@@ -191,6 +207,7 @@ export default {
     app.provide("tectonicwarfaregallery", TectonicWarfareGallery);
     app.provide("temgallery", TEMGallery);
     app.provide("plasmaintelligencegallery", PlasmaIntelligenceGallery);
+    app.provide("telemetrygallery", TelemetryGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
