@@ -11,6 +11,117 @@ export type CustomDialogOpenFunction = () => DynamicDialogInstance;
 export type CustomImageHtmlCaption = CustomDialogOpenFunction | null;
 export type CustomImageHtmlCaptions = CustomImageHtmlCaption[];
 
+export const TelemetryGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/TYixzVM.png",
+    title: "Non-Thermal Calcium Efflux Window",
+  },
+  {
+    image: "https://i.imgur.com/cKLb8QA.png",
+    title: "Cognitive Twin",
+  },
+  {
+    image: "https://i.imgur.com/9nl26Xm.png",
+    title: "TS-OOK",
+    caption: "(Time Spread On-Off Keying)",
+  },
+  {
+    image: "https://i.imgur.com/oIA0kMl.png",
+    title: "Data and Coding Scheme (DCS)",
+  },
+  {
+    image: "https://i.imgur.com/iCPPX4B.png",
+    title: "Quantization Error",
+    caption: "(121(Δx)2)",
+  },
+  {
+    image: "https://i.imgur.com/7REZGUc.png",
+    title: "Sub-Threshold Energy Draw",
+    caption: '("Mosquito Bite")',
+  },
+  {
+    image: "https://i.imgur.com/ZIX2QpD.png",
+    title: "MICS / MedRadio",
+    caption: "(Medical Implant Communications Service)",
+  },
+  {
+    image: "https://i.imgur.com/jIOcIMx.png",
+    title: "Evoked Potential Peak",
+    caption: "(3.50 Hz / 5 mW)",
+  },
+  {
+    image: "https://i.imgur.com/sogGtvB.png",
+    title: "Subliminal Electromagnetic Modulation",
+  },
+  {
+    image: "https://i.imgur.com/wGgVTDD.png",
+    title: "Bioneural Digital Twin Matrix",
+  },
+  {
+    image: "https://i.imgur.com/bquXnHo.png",
+    title: "Graphene Plasmonic THz Transceiver",
+  },
+  {
+    image: "https://i.imgur.com/jir7JSN.png",
+    title: "Bio-Resonance Anatomical Matching",
+  },
+  {
+    image: "https://i.imgur.com/Vsm5xnz.png",
+    title: "Information Rate",
+    caption: "(R=∑A_i*n_i)",
+  },
+  {
+    image: "https://i.imgur.com/N1eH8vS.png",
+    title: "EEG Heterodyne Coupling",
+  },
+  {
+    image: "https://i.imgur.com/8p5DThB.png",
+    title: "Acoustic-Seismic Frequency Conversion",
+  },
+  {
+    image: "https://i.imgur.com/8CrkSzs.png",
+    title: "Bioinformatics",
+    captionHtml: true,
+    caption:
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil\'s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+  },
+  {
+    image: "https://i.imgur.com/7K9uZzE.png",
+    title: "Biosensors",
+    captionHtml: true,
+    caption:
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+  },
+  {
+    image: "https://i.imgur.com/itQfVSX.png",
+    title: "Capacitive Coupling",
+    captionHtml: true,
+    caption:
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+  },
+  {
+    image: "https://i.imgur.com/gdYfnOV.png",
+    title: "Electromagnetic Communication",
+    captionHtml: true,
+    caption:
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+  },
+  {
+    image: "https://i.imgur.com/P2rNhyp.png",
+    title: "Emergent Technology",
+    captionHtml: true,
+    caption:
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+  },
+  {
+    image: "https://i.imgur.com/qKqGDe2.png",
+    title: "Intra-body Networks & Molecular Communication Networks",
+    captionHtml: true,
+    caption:
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+  },
+];
+
 export const TEMGallery: ImageItem[] = [
   {
     image: "https://i.imgur.com/YSYldFt.png",

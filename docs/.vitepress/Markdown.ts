@@ -396,6 +396,7 @@ const MarkdownOps: MarkdownOptions = {
       { tokenTag: "iframe", tokenType: "substack_frame" },
       "substack-frame",
     );
+    // md.use(MermaidMarkdown);
     md.use(SubstackDoubleBracket.Plugin);
     md.use(ShareBtnPlugin);
     md.use(MarkdownItContainer, "panel_container", {

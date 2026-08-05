@@ -69,7 +69,11 @@ const cfg: UserConfig = {
     },
   },
   vite: {
-    plugins: [tailwindcss(), Inspect()],
+    plugins: [
+      tailwindcss(),
+      Inspect(),
+      // MermaidPlugin({ theme: "redux-dark-color", darkMode: true, look: "neo" }),
+    ],
 
     // esbuild: {
     //   exclude: ["@primeicons/vue/core"],
@@ -84,6 +88,7 @@ const cfg: UserConfig = {
         "@nolebase/vitepress-plugin-inline-link-preview/client",
         "@royalfig/share-button",
       ],
+      include: ["dayjs", "mermaid"],
     },
     ssr: {
       noExternal: [
