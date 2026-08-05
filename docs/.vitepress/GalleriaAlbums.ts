@@ -83,42 +83,42 @@ export const TelemetryGallery: ImageItem[] = [
     title: "Bioinformatics",
     captionHtml: true,
     caption:
-      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil's-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil\'s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
   },
   {
     image: "https://i.imgur.com/7K9uZzE.png",
     title: "Biosensors",
     captionHtml: true,
     caption:
-      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil's-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
   },
   {
     image: "https://i.imgur.com/itQfVSX.png",
     title: "Capacitive Coupling",
     captionHtml: true,
     caption:
-      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil's-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
   },
   {
     image: "https://i.imgur.com/gdYfnOV.png",
     title: "Electromagnetic Communication",
     captionHtml: true,
     caption:
-      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil's-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
   },
   {
     image: "https://i.imgur.com/P2rNhyp.png",
     title: "Emergent Technology",
     captionHtml: true,
     caption:
-      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil's-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
   },
   {
     image: "https://i.imgur.com/qKqGDe2.png",
     title: "Intra-body Networks & Molecular Communication Networks",
     captionHtml: true,
     caption:
-      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil's-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
+      "<a target='_blank' href='https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf'>From Anab Whitehouse's 'The Devils Dictionary'</a>",
   },
 ];
 
