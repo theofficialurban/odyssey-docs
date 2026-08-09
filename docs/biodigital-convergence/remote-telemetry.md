@@ -81,7 +81,7 @@ From Webster's Encyclopedic
 The last few definitions are from Anab Whitehouse's "The Devil's Dictionary" available for free here: https://www.anab-whitehouse.com/Devil's-Dictionary.pdf
 :::
 
-<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/telemetry-wireless-sensor-networks-wbans-a3WgueT" />
+<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/telemetry-wireless-sensor-networks-wbans-a3WgueT" :buttons="[{value: 'The Devil\'s Dictionary', href: 'https://www.anab-whitehouse.com/Devil%27s-Dictionary.pdf', props: {variant: 'outlined', size: 'small', fluid: true, severity: 'danger'}}]" />
 
 ### Selected Quotes
 
