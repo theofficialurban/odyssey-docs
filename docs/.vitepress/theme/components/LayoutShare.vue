@@ -10,6 +10,7 @@ import PostHeader from "@lando/vitepress-theme-default-plus/components/VPLPostHe
 import Tags from "@lando/vitepress-theme-default-plus/components/VPLCollectionItemTags.vue";
 import { computed, onMounted, Ref, ref, watch } from "vue";
 import DynamicDialog from "primevue/dynamicdialog";
+import Giscus from "@giscus/vue";
 const { Layout } = DefaultTheme;
 
 let alertKey: Ref<string | null> = ref(null);
@@ -47,7 +48,11 @@ watch(
 const pgLayout = ref(page.value.frontmatter.layout);
 
 const pgShare = ref(page.value.frontmatter.share ?? true);
-
+const useGiscus = computed(() => {
+  if (frontmatter.value.giscus && frontmatter.value.giscus == false)
+    return false;
+  return true;
+});
 onMounted(async () => {
   await import("@royalfig/share-button");
 });
@@ -92,6 +97,22 @@ onMounted(async () => {
       <Tags v-if="header === 'post'" :key="tagsKeyRef" />
       <div v-if="mailchimp" class="newsletter-wrapper">
         <MailChimp v-bind="mailchimp" />
+      </div>
+      <div v-if="useGiscus" class="giscus-wrapper">
+        <Giscus
+          repo="theofficialurban/odyssey-docs"
+          repo-id="R_kgDOPg6B_A"
+          category="Comments"
+          category-id="DIC_kwDOPg6B_M4DDPzl"
+          mapping="pathname"
+          strict="0"
+          reactions-enabled="1"
+          emit-metadata="0"
+          input-position="bottom"
+          theme="dark_tritanopia"
+          lang="en"
+          loading="lazy"
+        />
       </div>
     </template>
   </Layout>

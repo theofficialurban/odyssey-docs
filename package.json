@@ -41,6 +41,7 @@
     }
   },
   "dependencies": {
+    "@giscus/vue": "^3.1.1",
     "@popperjs/core": "^2.11.8",
     "@primeicons/core": "8.0.0-rc.1",
     "@primeicons/vue": "8.0.0-rc.1",
