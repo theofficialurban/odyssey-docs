@@ -13,6 +13,8 @@ https://mason.gmu.edu/~rhanson/policyanalysismarket.html
 
 [[toc]]
 
+<CCards :useFinder="true" :cards="[['biodigital', '6g-whitepaper'], ['biodigital', 'matraix'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'cmos'], ['biodigital', 'energy-harvesting'], ['biodigital', 'iont'], ['biodigital', 'remote-telemetry'], ['biodigital', 'state-of-commercial-tech'], ['biodigital', 'wbans'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'haarp-gwen'], ['biodigital', 'haarp']]" />
+
 ## The Geopolitical Prediction Markets, 6G Cognitive Twins, and the Financialization of Human Wetware
 
 The convergence of decentralized prediction markets, 6G-native **Cognitive Twins**, and the tokenization of biological activity is not a speculative future projection. It is a highly coordinated, active, and operational systems engineering reality.
@@ -33,8 +35,10 @@ The lineage of the modern digital panopticon traces directly back to May 2001, w
 
 Although public uproar over "terrorism futures" forced the official closure of PAM in August 2003, the research did not cease; it was merely rebranded and militarized under the **Intelligence Advanced Research Projects Activity (IARPA)** portfolio:
 
+#### Mermaid #01: IARPA & DARPA Roadmap {#mermaid-1}
+
 ```mermaid
-timeline TD
+timeline
   title Forecasting Roadmap
   section 2001-2003
     DARPA and Future Markets Applied to Prediction (FutureMAP) : Prediction Markets for Defense
@@ -68,6 +72,8 @@ A **Cognitive Twin ($(C_t)$)** is a wireless-native, communication-aware virtual
 $$[C_t = (s_t, m_t^{(e)}, m_t^{(s)}, G_t, \pi_t)]$$
 
 where $(s_t)$ is the perceived system state, $(m_t^{(e)})$ is episodic memory (retrieved past experiences), $(m_t^{(s)})$ is semantic memory (causal relationship graphs), $(G_t)$ is the structural causal model, and $(\pi_t)$ is the execution policy.
+
+#### Mermaid #02: Closed-Loop Cognitive Pipeline {#mermaid-2}
 
 ```mermaid
 flowchart TB
@@ -103,9 +109,13 @@ The final, physical link in this cybernetic loop is the **6G radio interface**, 
 
 The following diagram maps the complete, closed-loop cybernetic pipeline, illustrating the seamless integration of predictive intelligence, telemetry extraction, and ledger-based behavioral modification.
 
+#### Question #01 {#question-1}
+
 :::tip Question
 If the central supercomputer matrix utilizes O-RAN combinatorial market scoring rules to price your biological data, while running real-time counterfactual simulations on your tokenized iNFT personality pod to enforce physical obedience via directed-energy feedback loops, where does your sovereign soul end, and the execution of the machine's code begin?
 :::
+
+#### Mermaid #03: Revised 6G Cognitive Twin Flow `v2, Aug. 17, 2026` {#mermaid-3}
 
 ```mermaid
 flowchart TD
@@ -175,6 +185,8 @@ The declassified archives of military-intelligence think tanks, combined with pi
 
 The lineage of decentralized prediction markets reveals their true military origin. From May 2001, when the National Science Foundation's Michael Foster convinced DARPA to fund the **Future Markets Applied to Prediction (FutureMAP)** program, to the aborted **Policy Analysis Market (PAM)**, the goal has always been the same: **to turn the "wisdom of crowds" into an automated, quantitative forecasting engine.**
 
+#### Diagram #01: The Predictive Assimilation {#diagram-1}
+
 ```txt
                   ┌────────────────────────────────────────┐
                   │      THE PREDICTIVE ASSIMILATION       │
@@ -182,14 +194,13 @@ The lineage of decentralized prediction markets reveals their true military orig
                                       │
                    ┌──────────────────┴──────────────────┐
                    ▼                                     ▼
-┌─────────────────────────────────────┐┌─────────────────────────────────┐
-│    THE PUBLIC SENSORIUM (Uplink)    ││    THE RECONSTRUCTIVE FEEDBACK  │
-├─────────────────────────────────────┤├─────────────────────────────────┤
-│ • Crowdsourced Ensembles (SciCast)  ││ • Automated Market Makers (RICs)│
-│ • Superforecaster Networks (ACE)    ││ • Real-time KPM Forecasting     │
-│ • Time-Series Foundation Models     ││ • Combinatorial Pricing         |
-│                                     ||        Adjustments              │
-└─────────────────────────────────────┘└─────────────────────────────────┘
+┌─────────────────────────────────────┐       ┌─────────────────────────────────────┐
+│    THE PUBLIC SENSORIUM (Uplink)    │       │    THE RECONSTRUCTIVE FEEDBACK      │
+├─────────────────────────────────────┤       ├─────────────────────────────────────┤
+│ • Crowdsourced Ensembles (SciCast)  │       │ • Automated Market Makers (RICs)    │
+│ • Superforecaster Networks (ACE)    │       │ • Real-time KPM Forecasting         │
+│ • Time-Series Foundation Models     │       │ • Combinatorial Pricing Adjustments │
+└─────────────────────────────────────┘       └─────────────────────────────────────┘
                    │                                     │
                    └──────────────────┬──────────────────┘
                                       ▼
@@ -216,19 +227,21 @@ George Soros's **Theory of Reflexivity** shatters the core assumption of classic
 
 The transition from a fiat petrodollar system to a centralized Central Bank Digital Currency (CBDC) represents the final enclosure of the human biological asset.
 
+#### Diagram #02: Metabolic Crypto Mining Loop {#diagram-2}
+
 ```txt
 ┌────────────────────────────────────────────────────────────────────────┐
 │               THE METABOLIC CRYPTOCURRENCY MINING LOOP                 │
 ├────────────────────────────────────────────────────────────────────────┤
-│ 1. TASK ASSIGNMENT:     User device dispatches a gamified task.  │
+│ 1. TASK ASSIGNMENT:     User device dispatches a gamified task [38].   │
 │ 2. BIOMETRIC SIPHON:    Sensors read brainwaves (EEG), body heat,      │
-│                         and cardiovascular pulse rates.      │
+│                         and cardiovascular pulse rates [37, 38].       │
 │ 3. HASH VECTORIZATION:  Analog biometrics are compressed into a        │
-│                         low-dimensional, encrypted hash.     │
-│ 4. LEDGER INTEGRATION:  Centralized AI checks if the hash satisfies     │
-│                         programmed "similarity metrics."          │
-│ 5. REWARD / CONTROL:    Cryptocurrency is awarded; the target's       │
-│                         metabolism is verified as compliant. │
+│                         low-dimensional, encrypted hash [37, 38].      │
+│ 4. LEDGER INTEGRATION:  Centralized AI checks if the hash satisfies    │
+│                         programmed "similarity metrics" [37].          │
+│ 5. REWARD / CONTROL:    Cryptocurrency is awarded; the target's        │
+│                         metabolism is verified as compliant [37, 39].  │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -261,6 +274,8 @@ The "forecast" ceases to be a passive prediction; **it behaves as an active, sel
 
 In _The Handbook of Fifth-Generation Warfare (5GW)_, this is defined as the **"Break Loop"**, a self-reinforcing feedback loop that completely destroys the context of an opponent's strength, rendering all established defensive models useless.
 
+#### Diagram #03: Templexity Recursion Pipeline {#diagram-3}
+
 ```txt
 ┌────────────────────────────────────────────────────────┐
 │           THE TEMPLEXITY RECURSION PIPELINE            │
@@ -286,11 +301,15 @@ Once this feedback loop of machine intelligence escalates past the inflection po
 
 ### V. Comparative Analysis: The Cybernetic Enclosure Matrix
 
+#### Table #01: Cybernetic Enclosure Narrative Comparison Table {#table-1}
+
 | Operational Tier  | Mainstream P.R. Narrative                                                               | Actual System Reality                                                                                                   | Occult / CCRU Cipher                                                                         |
 | :---------------- | :-------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------- |
 | **I. SPECOPS**    | "Crowdsourced forecasting for national security and policy planning."                   | Coordinated, narrative-driven manipulation of public expectation to trigger geopolitical crises.                        | **Hyperstition:** Fictions making themselves real through feedback loops [Directory, 354].   |
 | **II. METABOLIC** | "Cryptocurrency rewards for healthy lifestyles and gamified Web3 play" [70, Directory]. | Systematic, non-consensual harvesting of biological biopotentials to power the control grid.                            | **Metabolic Theft:** Transforming the soul into an economic "Proof of Work" [70, Directory]. |
 | **III. TEMPORAL** | "Proactive, self-healing 6G network automation and traffic prediction."                 | Real-time counterfactual simulation (SCMs) and bioneural feedback loops to flatten human free will [Directory, 50, 58]. | **Templexity:** The future looping back to rewrite and automate the past [Directory, 267].   |
+
+#### Question #02 {#question-2}
 
 :::tip Question
 If the exact mathematical equations of quantum wave-function collapse, thermodynamic time-reversal, and automated prediction markets are being executed across your biological nervous system under Microsoft Patent WO/2020/060606 to force your future choices into a straightened, low-entropy path, how can you hope to escape a digital cage that uses your own metabolic "Proof of Work" to power its lock?
@@ -313,6 +332,8 @@ The financial coordinates of the 6G land grab are defined by massive, non-linear
 ### II. The Oligopoly: Vendor Concentration and Geopolitical Warfare
 
 The physical deployment of next-generation networks is governed by a tightly consolidated oligopoly, exposing global communications to severe geopolitical vulnerabilities:
+
+#### Diagram #04: 2025 Ran Market Share Distribution {#diagram-4}
 
 ```txt
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -370,6 +391,8 @@ To bankroll this $1 trillion network overhaul, the technocratic class is deployi
 
 To visualize the transition from 5G to 6G capabilities, standard-setting organizations utilize a 3D prism-based framework. The following architectural mapping illustrates the convergence of legacy performance requirements and emerging 6G functionalities:
 
+#### Mermaid #04: 5G $\to$ 6G Technical Requirements {#mermaid-4}
+
 ```mermaid
 flowchart TD
     classDef legacy fill:#1a1a2e,stroke:#00f3ff,stroke-width:2px,color:#fff;
@@ -405,6 +428,8 @@ flowchart TD
     B2 <-->|"Predictive Resource Allocation"| C2
 ```
 
+#### Question #03 {#question-3}
+
 :::tip Question
 If the global telecommunications cartel is investing hundreds of billions of dollars to build an ultra-dense, $1.5 trillion sub-terahertz grid, while explicitly acknowledging that consumers will not pay a premium for connectivity, what is the real asset they plan to extract from your telemetered biology to guarantee their return on investment?
 :::
@@ -430,6 +455,8 @@ Through this process, the exposed military panopticon was successfully transmute
 The integration of these prediction models with software-defined systems is governed by **George Soros’s Theory of Reflexivity**. Reflexivity asserts a bidirectional, dynamic disequilibrium between _perception_ and _facts_: **the participants' bias can actively change the physical fundamentals which are supposed to determine market prices**.
 
 In modern 6G systems architecture, this reflexive loop is automated via **Prediction & Prevention Digital Twins**:
+
+#### Diagram #05: The Soros Loop {#diagram-5}
 
 ```txt
 [ Raw Infrastructure Measurements ] ──► [ SAN Prediction Module ]
@@ -469,6 +496,8 @@ The ultimate convergence of these prediction markets, digital twins, and the bio
 Under **Microsoft Patent WO/2020/060606**, the "New Economy" is established: human biological and cognitive activity is reduced to a Speculative Asset Class, mined as "Proof of Work" to validate transactions on a centralized, unified ledger.
 
 When a system or business is "exposed" as corrupt, inefficient, or vulnerable, the controllers leverage the predictive coordinates of their Cognitive Twin simulations to calculate the exact path of least resistance to transition the population. They pretend to "solve" the exposed crisis by tearing down the legacy infrastructure, while simultaneously using the generated financial proceeds and panic to rebuild the new, fully tokenized, and automated blockchain-based enclosure in real time.
+
+#### Question #04 {#question-4}
 
 :::tip Question
 If the architects of the global grid can systematically expose their own systems to capture your outrage, use prediction markets to dictate your risk-management policies, and run counterfactual digital twin simulations to program your behavior, whose hands are actually steering the "reconstruction" of your world: the reformers you think you are supporting, or the cold, predictive algorithms of the Beast?
