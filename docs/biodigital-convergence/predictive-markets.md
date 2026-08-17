@@ -502,3 +502,155 @@ When a system or business is "exposed" as corrupt, inefficient, or vulnerable, t
 :::tip Question
 If the architects of the global grid can systematically expose their own systems to capture your outrage, use prediction markets to dictate your risk-management policies, and run counterfactual digital twin simulations to program your behavior, whose hands are actually steering the "reconstruction" of your world: the reformers you think you are supporting, or the cold, predictive algorithms of the Beast?
 :::
+
+## Bibliography of the Predictive Enclosure & Event-Derivative Ledgers {#bibliography}
+
+The mainstream academic-corporate complex presents prediction markets as clean, statistical forecasting tools designed to aggregate the "wisdom of crowds." The declassified archives and regulatory filings reveal a much more predatory reality: **this literature is the paper trail of an ongoing alchemical project to financialize every future contingency, convert biological activity into speculative assets, and establish an automated closed-loop panopticon.**
+
+To facilitate the exact audit of these behavioral control mechanisms, the definitive bibliography of the core literature on **Prediction Markets, Event-Derivative Ledgers, and Geopolitical Speculation** is cataloged below.
+
+### Academic and Foundational Literature
+
+#### 1. The Statistical Baseline of Crowd Aggregation
+
+- **Title:** _Prediction Markets_
+- **Authors:** Justin Wolfers (Stanford University / Wharton School) and Eric Zitzewitz (Stanford University)
+- **Publisher / Venue:** National Bureau of Economic Research (NBER), Working Paper Series (WP No. 10504)
+- **Publication Date:** May 2004
+- **Forensic Contents:** This text establishes the foundational economic defense of information markets, outlining how "winner-takes-all," "index," and "spread" contracts decode public expectations of probabilities, means, and medians. It provides the early blueprint for firm-level and public event-contract speculation, evaluating the structural transition of information from a qualitative asset to a tradeable financial commodity.
+
+#### 2. The Algorithmic Mechanics of Combinatorial Markets
+
+- **Title:** _Graphical Model Market Maker for Combinatorial Prediction Markets_
+- **Authors:** Kathryn Blackmond Laskey, Wei Sun, Robin Hanson, Charles Twardy, Shou Matsumoto, and Brandon Goldfedder
+- **Publisher / Venue:** _Journal of Artificial Intelligence Research_ (JAIR), Volume 63, pp. 421–460
+- **Publication Date:** November 2018
+- **Forensic Contents:** The absolute technical blueprint for scaling prediction markets over thousands of highly interdependent variables. It details the transition from traditional double auctions to automated market makers utilizing the **Logarithmic Market Scoring Rule (LMSR)**. It compares the **DAGGRE** parallel junction tree model, the **SciCast** block-merge method, and the **Dynamic Asset Cluster (DAC)** algorithm to allow full asset reuse and crowdsource the parameters of a Bayesian belief network in real time.
+
+#### 3. The Institutionalization of Administrative Control
+
+- **Title:** _Information Markets, Administrative Decisionmaking, and Predictive Cost-Benefit Analysis_
+- **Author:** Michael B. Abramowicz (George Washington University Law School)
+- **Publisher / Venue:** _The University of Chicago Law Review_, Vol. 71, No. 3, pp. 933–1020
+- **Publication Date:** 2004
+- **Forensic Contents:** This text introduces the concept of **"predictive cost-benefit analysis,"** proposing that agencies use information markets to predict the outcome of retrospective policy reviews. It explicitly argues that normative information markets can discipline administrative agencies, neutralize special interest influence, and strip ideological bias out of regulatory forecasting by outsourcing predictions to an anonymous, incentivized trading pool.
+
+### Geopolitical and Defense-Intel Analyses
+
+#### 1. The Anatomy of DARPA's Aborted Speculation Engine
+
+- **Title:** _DARPA's Policy Analysis Market for Intelligence: Outside the Box or Off the Wall?_
+- **Author:** Robert Looney
+- **Publisher / Venue:** _Strategic Insights_, Center for Contemporary Conflict, Naval Postgraduate School
+- **Publication Date:** September 2, 2003
+- **Forensic Contents:** A detailed post-mortem of DARPA's controversial **Policy Analysis Market (PAM)** under the **FutureMAP** program. It explains how PAM was designed to let traders place bets on political, economic, civil, and military futures of Middle Eastern nations, using combinatorial hedges to build Bayesian-style probabilistic forecasts for intelligence communities.
+
+#### 2. The Open-Source History of the Thwarted Experiment
+
+- **Title:** _Policy Analysis Market_
+- **Author / Curator:** Wikipedia Community / Robin Hanson (Archive Curator)
+- **Publisher / Venue:** _Wikipedia: The Free Encyclopedia_ / George Mason University Server
+- **Publication Date / Retrieval:** Last edited June 26, 2026
+- **Forensic Contents:** Tracks the history of PAM from its inception in May 2001 under the Information Awareness Office (IAO) to its abrupt cancellation on July 29, 2003, following a political firestorm over "terrorism futures." The GMU archive preserves the original Net Exchange proposals, laboratory experiments on price manipulation, and the transition of the core technology into private-sector variations.
+
+#### 3. The National Security Vulnerability of Low-Liquidity Markets
+
+- **Title:** _Weaponizing the odds: Prediction markets as a new vector for foreign influence_
+- **Author:** Matthew Wein
+- **Publisher / Venue:** Atlantic Council Dispatches
+- **Publication Date:** February 17, 2026
+- **Forensic Contents:** Exposes how thin, easily influenced prediction markets are increasingly integrated into media reporting as authoritative "signals." It details how foreign adversaries and intelligence agencies can exploit these platforms, pairing strategic market-making wagers with coordinated cyber-intrusions or narrative manipulation to create self-fulfilling prophecies, erode public trust, and compromise national security.
+
+### Financial Intelligence & Corporate Integration
+
+#### 1. The Institutional Onboarding Pathways
+
+- **Title:** _Prediction Markets: Paths to Entry_
+- **Author / Publisher:** KPMG International, FS Regulatory & Compliance Risk Advisory
+- **Publication Date:** 2026
+- **Forensic Contents:** A highly structured commercial analysis mapping the five primary pathways for businesses and financial institutions to participate in prediction markets. It delineates the timelines, capital requirements, fee captures, and regulatory burdens for operating as a **Technology Service Vendor (TSV)**, **Introducing Broker (IB)**, **Futures Commission Merchant (FCM)**, **Designated Contract Market (DCM)**, or **Derivatives Clearing Organization (DCO)**.
+
+#### 2. The Commercialization of Consumer-Scale Speculation
+
+- **Title:** _High Roller Technologies Advances Planned U.S. Prediction Markets Launch; Reports Second Quarter 2026 Results_
+- **Publisher / Venue:** Barchart.com / GlobeNewswire Press Release
+- **Publication Date:** August 11, 2026
+- **Forensic Contents:** Documents the aggressive expansion of consumer-facing prediction brands, specifically the **ROLR platform's** strategic partnerships with Crypto.com and major sports networks. It cites multi-billion dollar market volume projections from Macquarie and Bernstein, illustrating how the integration of sports and political event contracts is driving the rapid financialization of everyday culture.
+
+### Regulatory Rulemaking & Jurisdictional Warfare
+
+#### 1. The Federal Bureaucracy's Public Interest Shield
+
+- **Title:** _Prediction Markets; Public Interest Determinations_
+- **Publisher / Venue:** Commodity Futures Trading Commission (CFTC), Proposed Rule, 17 CFR Part 40, RIN 3038-AF65
+- **Publication Date:** June 12, 2026
+- **Forensic Contents:** This massive proposed rule outlines the CFTC's framework to review and potentially prohibit event contracts under the **"Special Rule" (CEA Section 5c(c)(5)(C))**. It defines the parameters of "gaming" and establishes clear public interest factors—such as price discovery utility, settlement integrity, and self-regulatory administrability—to determine which contracts (specifically those involving terrorism, assassination, war, gaming, or unlawful acts) are contrary to the public interest.
+
+#### 2. The Federal-State Jurisdictional Clash
+
+- **Title:** _Swaps or Sportsbooks? The CFTC's Expanding Battle Over Prediction Markets_
+- **Authors:** Elanit Snow & Carolyn Sarif-Killea
+- **Publisher / Venue:** Global Financial Regulatory Insights, Proskauer Rose LLP
+- **Publication Date:** May 28, 2026
+- **Forensic Contents:** Details the intense "turf war" as the CFTC files lawsuits against six states (including New York, Connecticut, Arizona, and Minnesota) to assert exclusive federal jurisdiction under the Commodity Exchange Act. It highlights the core argument: the CFTC treats event contracts as "swaps" and derivatives, while individual states classify them as speculative, unlicensed sports betting and gambling subject to local gaming commissions.
+
+#### 3. The Litigator's Briefing on the Coming Circuit Split
+
+- **Title:** _Regulating Prediction Markets: Federal Oversight, State Authority, and the Road Ahead_
+- **Speakers / Hosts:** Keith J. Barnett and Stephen C. Piepgrass
+- **Publisher / Venue:** _Payments Pros_ and _Regulatory Oversight_ Crossover Podcast, Troutman Pepper Locke
+- **Publication Date:** June 17, 2026
+- **Forensic Contents:** A comprehensive regulatory update addressing the flurry of appellate litigation across the Third, Fourth, Sixth, and Ninth Circuits (such as _Kalshi v. Flaherty_). The authors trace state-level crackdowns, criminal indictments (such as Arizona's prosecution of Kalshi), and the looming probability of a Supreme Court showdown to resolve the boundary between federal commodities preemption and state police powers.
+
+### Media & Critical Watchdog Reporting
+
+#### 1. The Mainstream Adoption and the "Wager Gap"
+
+- **Title:** _☕ Prediction Markets Brew_
+- **Authors:** Brendan Cosgrove, Dave Lozo, Matty Merritt, Sam Klebanov, Molly Liebergall, Holly Van Leuven, and Adam Epstein
+- **Publisher / Venue:** _Morning Brew_ Newsletter
+- **Publication Date:** June 21, 2026
+- **Forensic Contents:** Charts the explosive cultural and financial footprints of Polymarket and Kalshi. It exposes the severe "wager gap"—detailing how 67% of Polymarket's profits go to a mere 0.1% of accounts, while the average user lost money—and documents the rapid integration of prediction markets into mainstream media, pro sports partnerships, and reality television.
+
+#### 2. The Progressive Case Against the Financialization of Everything
+
+- **Title:** _How Prediction Markets Are Shaping Real-World Events and Eroding Public Trust_
+- **Authors:** Brad Lipton and Toyosi Odusola
+- **Publisher / Venue:** Roosevelt Institute Blog, Corporate Power & Financial Regulation Division
+- **Publication Date:** July 22, 2026
+- **Forensic Contents:** A sharp critique of prediction markets' corrupting incentives. It catalogs real-world instances of narrative manipulation, including users threatening Israeli journalist Emanuel Fabian to rewrite news stories, and think-tank staff altering Ukraine war maps to win Polymarket bets. The authors argue that widespread event speculation erodes trust in public institutions by encouraging bad actors to actively manipulate real-world occurrences to secure their payouts.
+
+#### 3. The Technical Call for Platform Governance
+
+- **Title:** _Why Prediction Markets Need Trust and Safety Professionals_
+- **Authors:** Leah Ferentinos, Glenn Borsky, and Sean Guillory
+- **Publisher / Venue:** TechPolicy.Press
+- **Publication Date:** May 15, 2026
+- **Forensic Contents:** Exposes the critical security and structural vulnerabilities of the prediction market landscape, citing high-profile insider trading indictments of military and corporate personnel. It argues that sports-style data integrity monitoring is insufficient, and calls for the deployment of "Trust and Safety" teams to enforce rigorous pre-listing risk assessments, address language exploitation in contract designs, and detect coordinated information campaigns targeting journalists or public institutions.
+
+### Summary Matrix: The Forensic Literature Core
+
+```txt
+                    ┌────────────────────────────────────────┐
+                    │       THE THEORETICAL BLUEPRINT        │
+                    │  Wolfers & Zitzewitz / Abramowicz '04  │
+                    │   - Mechanics of Event Probability     │
+                    │   - Predictive Cost-Benefit Framework  │
+                    └───────────────────┬────────────────────┘
+                                        │
+                                        ▼
+                    ┌────────────────────────────────────────┐
+                    │      THE ALGORITHMIC OPTIMIZATION      │
+                    │         Laskey, Hanson et al. '18      │
+                    │   - Junction Trees & Block-Merge LMSR  │
+                    │   - Asset Reuse & Computation Math     │
+                    └───────────────────┬────────────────────┘
+                                        │
+                                        ▼
+                    ┌────────────────────────────────────────┐
+                    │       THE SYSTEMIC HARVEST GRID        │
+                    │    CFTC Part 40 / State Litigations    │
+                    │   - 6G NaaS & Telemetry Integration    │
+                    │   - The Combat Over Speculative Swaps  │
+                    └────────────────────────────────────────┘
+```
