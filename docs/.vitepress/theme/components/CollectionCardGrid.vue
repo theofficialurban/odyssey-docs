@@ -50,7 +50,7 @@ const useDetails = computed(() => {
     <slot name="content" v-if="$slots.content"></slot>
   </CardGrid>
   <details v-else class="details custom-block" :class="className">
-    <summary>Expand for Additional Links</summary>
+    <summary><slot name="details">Expand for Additional Links</slot></summary>
     <CardGrid>
       <CollectionCard
         v-for="[collection, href, preview = null] in finderFound"
