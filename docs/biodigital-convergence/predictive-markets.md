@@ -2,7 +2,17 @@
 title: Policy Analysis Market
 description: |
   This dossier exposes the structural, mathematical, and physical connections that link DARPA’s aborted Policy Analysis Market (PAM) with the planetary-scale harvesting of human wetware via the 6G "Network as a Sensor" (NaaS) substrate, the tokenization of consciousness, and automated behavioral modification.
+tags:
+  - Urban's Videos
+  - Words & Terms
+  - Human Husbandry
+  - Predictive Markets
 ---
+
+<script setup>
+import {inject} from "vue"
+const vocabulary = inject("predictivemarkets")
+</script>
 
 [[atomic]]
 
@@ -14,6 +24,26 @@ https://mason.gmu.edu/~rhanson/policyanalysismarket.html
 [[toc]]
 
 <CCards :useFinder="true" :cards="[['biodigital', '6g-whitepaper'], ['biodigital', 'matraix'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'cmos'], ['biodigital', 'energy-harvesting'], ['biodigital', 'iont'], ['biodigital', 'remote-telemetry'], ['biodigital', 'state-of-commercial-tech'], ['biodigital', 'wbans'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'haarp-gwen'], ['biodigital', 'haarp']]" />
+
+## Videos {#videos}
+
+:::tabs
+
+== MatrAIx & LeWM
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7bye7m/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7e4xcu-matraix-and-leworldmodel-for-6g-digital-slavery-and-automated-mkultra.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/matraix-leworldmodel'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/matraix-leworldmodel:9'], ['Spotify', 'https://open.spotify.com/episode/3dJNVukhpswUnfq0U3TtIo?si=gfALj9NiR92UHeYLeEB6FA']]" />
+
+<CCard :useFinder='true' collection="biodigital" href="matraix" />
+
+== Predictive Markets
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7c3ha0/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7e9wdw-prediction-markets-and-cognitive-twins-cause-before-symptom-w-urban-august-.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/prediction-markets'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-081626:0'], ['Spotify', 'https://open.spotify.com/episode/5n6cXsZbIFwaQ7Frvq75uw?si=U9dF0jZRS9exq82h4S9cNg']]" />
+
+:::
+
+## Key Words & Terms {#vocabulary}
+
+<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/policy-analysis-markets-CPRQ63g" />
 
 ## The Geopolitical Prediction Markets, 6G Cognitive Twins, and the Financialization of Human Wetware
 

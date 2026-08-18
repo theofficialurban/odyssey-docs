@@ -122,6 +122,44 @@ export const TelemetryGallery: ImageItem[] = [
   },
 ];
 
+export const PredictionMarketsGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/bDgkMqi.png",
+    title: "FutureMAP",
+    caption: "Future Markets Applied to Prediction",
+  },
+  {
+    image: "https://i.imgur.com/7glv18m.png",
+    title: "Policy Analysis Market (PAM)",
+  },
+  {
+    image: "https://i.imgur.com/F7ECECB.png",
+    title: "Aggregative Contingent Estimation (ACE)",
+  },
+  {
+    image: "https://i.imgur.com/CcZ1Bjd.png",
+    title: "ISAC",
+    caption: "Integrated Sensing and Communication",
+  },
+  { image: "https://i.imgur.com/YIwOBEn.png", title: "O-RAN RIC Market Maker" },
+  {
+    image: "https://i.imgur.com/w1wOAWn.png",
+    title: "Parallel Junction Tree Method",
+  },
+  { image: "https://i.imgur.com/xVbndb0.png", title: "Block-Merge Method" },
+  {
+    image: "https://i.imgur.com/RBYWpGH.png",
+    title: "S-CDT",
+    caption: "Sovereign Cognitive Digital Twin",
+  },
+  {
+    image: "https://i.imgur.com/9wwKRgr.png",
+    title: "FOCUS",
+    caption: "Forecasting Counterfactuals",
+  },
+  { image: "https://i.imgur.com/shnX6Qk.png", title: "TelcoAgent" },
+];
+
 export const TEMGallery: ImageItem[] = [
   {
     image: "https://i.imgur.com/YSYldFt.png",

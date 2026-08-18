@@ -61,6 +61,7 @@ import {
   NanoWbansGalleria,
   PlasmaIntelligenceGallery,
   PlasmoidGallery,
+  PredictionMarketsGallery,
   QuantumHauntologyGalleria,
   TectonicWarfareGallery,
   TelemetryGallery,
@@ -208,6 +209,7 @@ export default {
     app.provide("temgallery", TEMGallery);
     app.provide("plasmaintelligencegallery", PlasmaIntelligenceGallery);
     app.provide("telemetrygallery", TelemetryGallery);
+    app.provide("predictivemarkets", PredictionMarketsGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

@@ -3,6 +3,11 @@ title: MatrAIx & LeWorldModel
 description: |
   Looking at the combined capabilities of the MatrAIx Simulation from MIT and Harvard along with the LeWorldModel paper, the Microsoft Cryptocurrency Body Activity Data Patent 060606 and finally the 6G and Cognitive Twin workflow combined with all of the above.
 ogimage: https://i.imgur.com/a3gKcEX.png
+tags:
+  - Urban's Videos
+  - Blockchain
+  - Human Husbandry
+  - MatrAIx
 ---
 
 [[atomic]]
@@ -10,6 +15,22 @@ ogimage: https://i.imgur.com/a3gKcEX.png
 # MatrAIx & LeWorldModel Research {#title}
 
 [[toc]]
+
+## Videos {#videos}
+
+:::tabs
+
+== MatrAIx & LeWM
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7bye7m/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7e4xcu-matraix-and-leworldmodel-for-6g-digital-slavery-and-automated-mkultra.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/matraix-leworldmodel'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/matraix-leworldmodel:9'], ['Spotify', 'https://open.spotify.com/episode/3dJNVukhpswUnfq0U3TtIo?si=gfALj9NiR92UHeYLeEB6FA']]" />
+
+== Predictive Markets
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7c3ha0/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7e9wdw-prediction-markets-and-cognitive-twins-cause-before-symptom-w-urban-august-.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/prediction-markets'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-081626:0'], ['Spotify', 'https://open.spotify.com/episode/5n6cXsZbIFwaQ7Frvq75uw?si=U9dF0jZRS9exq82h4S9cNg']]" />
+
+<CCard :useFinder='true' collection="biodigital" href="predictive" />
+
+:::
 
 ## Overviews
 
