@@ -3,6 +3,8 @@ title: Switzerland & the BIS
 description: |
   This page will be a general page with information about the role of Switzerland (the Neutral Country) and the various important things located within Switzerland. Things such as the "Bank of International Settlements," the Large Hadron Collider, and the World Economic Forum (amongst other things).
 ogimage: https://i.imgur.com/mJ0hBcB.png
+tags:
+  - Switzerland
 ---
 
 [[atomic]]

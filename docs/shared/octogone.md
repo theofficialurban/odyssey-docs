@@ -5,6 +5,8 @@ description: |
 ogimage: https://i.imgur.com/SYQ35eT.png
 ogimagewidth: 1280
 ogimageheight: 720
+tags:
+  - Switzerland
 ---
 
 [[atomic]]
