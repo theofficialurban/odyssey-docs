@@ -79,6 +79,7 @@ import NewCard from "./components/PrimeVue/NewCard.vue";
 import GlowText from "./components/GlowText.vue";
 import { createMermaidRenderer } from "vitepress-mermaid-renderer";
 import { h, nextTick, watch } from "vue";
+import Question from "./components/Question.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -174,6 +175,7 @@ export default {
     app.component("NonHeading", NonHeading);
     app.component("Nh", NonHeading);
     app.component("Hl", Highlighter);
+    app.component("Question", Question);
 
     // Primevue comps
     app.component("Btn", Btn);
