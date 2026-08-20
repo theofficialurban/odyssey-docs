@@ -5,6 +5,7 @@ description: |
 tags:
   - Urban's Videos
   - Words & Terms
+  - Mermaid Charts
   - Human Husbandry
   - Predictive Markets
 ---

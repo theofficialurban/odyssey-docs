@@ -7,6 +7,7 @@ tags:
   - Electromagnetism
   - Reading Notes
   - Words & Terms
+  - Mermaid Charts
 ---
 
 <script setup>
