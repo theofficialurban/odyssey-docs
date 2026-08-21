@@ -161,6 +161,14 @@ export const PredictionMarketsGallery: ImageItem[] = [
   { image: "https://i.imgur.com/5P6NqdJ.png", title: "Break Loop" },
   { image: "https://i.imgur.com/3MPrKop.png", title: "Forward Propagation" },
   { image: "https://i.imgur.com/P4UHEIC.png", title: "Reverse Diffusion" },
+  { image: "https://i.imgur.com/4MwxDQp.png", title: "Econophysics" },
+  {
+    image: "https://i.imgur.com/O2XWTkb.png",
+    title: "Reflexive Alchemy",
+    captionHtml: true,
+    caption:
+      "<a target='_blank' href='https://odyssey-docs.vercel.app/technical/reflexive-economics.html'>George Soros' General Theory of Reflexivity</a>",
+  },
 ];
 
 export const TEMGallery: ImageItem[] = [
