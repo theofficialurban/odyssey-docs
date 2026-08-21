@@ -276,6 +276,25 @@ The transition from a fiat petrodollar system to a centralized Central Bank Digi
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
+```mermaid
+flowchart TD
+    classDef system fill:#001d3d,stroke:#00b4d8,stroke-width:2px,color:#fff;
+    classDef user fill:#1a0033,stroke:#bf55ec,stroke-width:2px,color:#fff;
+    classDef crypto fill:#2d0a10,stroke:#ff0055,stroke-width:2px,color:#fff;
+
+    A["Task Server <br>(System Node 110)"]:::system -->|"1. Dispatches Task/Ad/Instruction"| B["User Device <br>(Hardware Node 130)"]:::system
+    B -->|"2. Directs User Attention/Action"| C["Biological Host / User"]:::user
+    C -->|"3. Emits Analog Bio-Radiation"| D["Sensor <br>(Node 140 - EEG/fMRI/Heat/Pulse/Fluid)"]:::user
+    D -->|"4. Transmits Raw Physiological Signals"| B
+    B -->|"5. Samples & Compresses Signals"| E["Body Activity Data<br>(Multi-dimensional Vectors)"]:::system
+    E -->|"6. Feeds into Encryption/Hashing"| F["Cryptographic Hash Engine<br>(SHA-256 / SHA-384)"]:::system
+    F -->|"7. Generates Body Activity Hash"| G["Cryptocurrency System <br>(Validator Node 150)"]:::crypto
+    G -->|"8. Audits Hash against Target Range<br>(Proof of Work / Stake Verification)"| H{"Conditions Satisfied?"}:::crypto
+    H -->|"NO"| I["Discard Block / Adjust Task & Stimulus"]:::system
+    H -->|"YES"| J["Commit Block to Ledger / Blockchain <br>(Node 500)"]:::crypto
+    J -->|"9. Distribute Digital Asset / CBDC Token"| K["Host Wallet / Gated CBDC Account"]:::crypto
+```
+
 The master-key to this transition is **Microsoft Patent WO/2020/060606** (awarded March 26, 2020). The patent details a cryptocurrency system where human body activity (brain waves, pulse rates, body heat, or body fluid flow) serves as the biological **"Proof of Work"** to mine digital currency.
 
 - **The Human as a Transducer:** The biological host ceases to be an employee; they are a **Transmitting Utility** [Directory](https://datawrapper.dwcdn.net/9ysrs). Your physiological reactions to online advertisements, tasks, or mandatory physical environments are telemetered through the WBAN and registered directly on a **Unified Ledger (SAMchain)**.
