@@ -158,6 +158,9 @@ export const PredictionMarketsGallery: ImageItem[] = [
     caption: "Forecasting Counterfactuals",
   },
   { image: "https://i.imgur.com/shnX6Qk.png", title: "TelcoAgent" },
+  { image: "https://i.imgur.com/5P6NqdJ.png", title: "Break Loop" },
+  { image: "https://i.imgur.com/3MPrKop.png", title: "Forward Propagation" },
+  { image: "https://i.imgur.com/P4UHEIC.png", title: "Reverse Diffusion" },
 ];
 
 export const TEMGallery: ImageItem[] = [

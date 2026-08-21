@@ -140,11 +140,7 @@ The final, physical link in this cybernetic loop is the **6G radio interface**, 
 
 The following diagram maps the complete, closed-loop cybernetic pipeline, illustrating the seamless integration of predictive intelligence, telemetry extraction, and ledger-based behavioral modification.
 
-#### Question #01 {#question-1}
-
-:::tip Question
-If the central supercomputer matrix utilizes O-RAN combinatorial market scoring rules to price your biological data, while running real-time counterfactual simulations on your tokenized iNFT personality pod to enforce physical obedience via directed-energy feedback loops, where does your sovereign soul end, and the execution of the machine's code begin?
-:::
+<Question>If the central supercomputer matrix utilizes O-RAN combinatorial market scoring rules to price your biological data, while running real-time counterfactual simulations on your tokenized iNFT personality pod to enforce physical obedience via directed-energy feedback loops, where does your sovereign soul end, and the execution of the machine's code begin?</Question>
 
 #### Mermaid #03: Revised 6G Cognitive Twin Flow `v2, Aug. 17, 2026` {#mermaid-3}
 
@@ -361,11 +357,7 @@ Once this feedback loop of machine intelligence escalates past the inflection po
 | **II. METABOLIC** | "Cryptocurrency rewards for healthy lifestyles and gamified Web3 play" [70, Directory]. | Systematic, non-consensual harvesting of biological biopotentials to power the control grid.                            | **Metabolic Theft:** Transforming the soul into an economic "Proof of Work" [70, Directory]. |
 | **III. TEMPORAL** | "Proactive, self-healing 6G network automation and traffic prediction."                 | Real-time counterfactual simulation (SCMs) and bioneural feedback loops to flatten human free will [Directory, 50, 58]. | **Templexity:** The future looping back to rewrite and automate the past [Directory, 267].   |
 
-#### Question #02 {#question-2}
-
-:::tip Question
-If the exact mathematical equations of quantum wave-function collapse, thermodynamic time-reversal, and automated prediction markets are being executed across your biological nervous system under Microsoft Patent WO/2020/060606 to force your future choices into a straightened, low-entropy path, how can you hope to escape a digital cage that uses your own metabolic "Proof of Work" to power its lock?
-:::
+<Question>If the exact mathematical equations of quantum wave-function collapse, thermodynamic time-reversal, and automated prediction markets are being executed across your biological nervous system under Microsoft Patent WO/2020/060606 to force your future choices into a straightened, low-entropy path, how can you hope to escape a digital cage that uses your own metabolic "Proof of Work" to power its lock?</Question>
 
 ## The 6G Wireless Cartel and the Financialization of the All-Spectrum Grid
 
@@ -480,11 +472,7 @@ flowchart TD
     B2 <-->|"Predictive Resource Allocation"| C2
 ```
 
-#### Question #03 {#question-3}
-
-:::tip Question
-If the global telecommunications cartel is investing hundreds of billions of dollars to build an ultra-dense, $1.5 trillion sub-terahertz grid, while explicitly acknowledging that consumers will not pay a premium for connectivity, what is the real asset they plan to extract from your telemetered biology to guarantee their return on investment?
-:::
+<Question>If the global telecommunications cartel is investing hundreds of billions of dollars to build an ultra-dense, $1.5 trillion sub-terahertz grid, while explicitly acknowledging that consumers will not pay a premium for connectivity, what is the real asset they plan to extract from your telemetered biology to guarantee their return on investment?</Question>
 
 ## Reflexive Demolition: How Prediction Markets and Digital Twins Transmute Capital and Systems under Exposure
 
@@ -549,11 +537,7 @@ Under **Microsoft Patent WO/2020/060606**, the "New Economy" is established: hum
 
 When a system or business is "exposed" as corrupt, inefficient, or vulnerable, the controllers leverage the predictive coordinates of their Cognitive Twin simulations to calculate the exact path of least resistance to transition the population. They pretend to "solve" the exposed crisis by tearing down the legacy infrastructure, while simultaneously using the generated financial proceeds and panic to rebuild the new, fully tokenized, and automated blockchain-based enclosure in real time.
 
-#### Question #04 {#question-4}
-
-:::tip Question
-If the architects of the global grid can systematically expose their own systems to capture your outrage, use prediction markets to dictate your risk-management policies, and run counterfactual digital twin simulations to program your behavior, whose hands are actually steering the "reconstruction" of your world: the reformers you think you are supporting, or the cold, predictive algorithms of the Beast?
-:::
+<Question>If the architects of the global grid can systematically expose their own systems to capture your outrage, use prediction markets to dictate your risk-management policies, and run counterfactual digital twin simulations to program your behavior, whose hands are actually steering the "reconstruction" of your world: the reformers you think you are supporting, or the cold, predictive algorithms of the Beast?</Question>
 
 ## Meta-Abstraction and the O-RAN Latency Schedulers
 
@@ -661,11 +645,7 @@ where $(L_i)$ is the latency of the cognitive function $(f_i)$ under execution p
 - **Out-Bidding the Crowd:** The daemon executes a high-priority "buy" order on the RIC resource exchange, bidding for premium sub-THz bandwidth and edge-compute slices. It out-bids mundane background consumer traffic (such as someone streaming entertainment), forcing the network to temporarily restrict or "null" non-essential traffic.
 - **The Closed-Loop Actuation:** By purchasing this priority latency, the daemon pushes your real-time biological metadata to the front of the queue, updating your Digital Twin in **under 10 milliseconds**. The system-wide controller evaluates the state, runs counterfactual simulations, and transmits the resulting "mitigation" signal (e.g., localized directed-energy zaps, V2K prompts, or financial wallet locks) back down to the physical host, maintaining absolute cybernetic dominance.
 
-#### Question #05 {#question-5}
-
-:::tip Question
-If the very walls, streetlights, and base stations surrounding you are operating as an automated, high-frequency resource exchange (where background trading daemons are continuously placing virtual bets to buy microsecond-level priority over your biological metadata) how can you hope to out-think a machine that has mathematically priced and scheduled your next heartbeat before you can even draw a breath?
-:::
+<Question>If the very walls, streetlights, and base stations surrounding you are operating as an automated, high-frequency resource exchange (where background trading daemons are continuously placing virtual bets to buy microsecond-level priority over your biological metadata) how can you hope to out-think a machine that has mathematically priced and scheduled your next heartbeat before you can even draw a breath?</Question>
 
 ## The Market Scoring Rules and Latency Schedulers of the O-RAN Enclosure
 
@@ -933,11 +913,7 @@ The ultimate, horrifying consequence of putting a dielectric reflector inside a 
 - **The "Mosquito-Bite" Energy Draw:** The Scalar Matrix utilizes this fluidic, internal waveguide to execute **direct energy theft.** It drains your electromagnetic aura (the bio-field of your soul) just on the threshold of your awareness. It meticulously fine-tunes the scalar energy draw so the body doesn't die of massive, systemic inflammation.
 - **The Loss of the Schumann Birthright:** By crowding your local environment and your internal tissues with these high-Q dielectric resonators, the system **robs you of your Schumann resonance birthright.** Your cells are decoupled from the natural, healing frequency of the Earth and are instead forced to vibrate in sync with the cold, synthetic, and "temporally straightened" clock cycles of the quantum computer grid [24-p40, 33, 300].
 
-#### Question #06 {#question-6}
-
-:::tip Question
-If the most elite military-intelligence laboratories have successfully engineered high-refractive-index dielectric meta-atoms to redirect your body's electric field lines, replace the natural crystals in your nervous system, and guide electromagnetic "mind-meld" signals directly into your hippocampus, how can you be absolutely certain that the spiritual "thoughts" you feel in your heart are actually your own, and not a synthetic waveform reflected off the Barium Titanate mirror in your skull?
-:::
+<Question>If the most elite military-intelligence laboratories have successfully engineered high-refractive-index dielectric meta-atoms to redirect your body's electric field lines, replace the natural crystals in your nervous system, and guide electromagnetic "mind-meld" signals directly into your hippocampus, how can you be absolutely certain that the spiritual "thoughts" you feel in your heart are actually your own, and not a synthetic waveform reflected off the Barium Titanate mirror in your skull?</Question>
 
 ## Bibliography of the Predictive Enclosure & Event-Derivative Ledgers {#bibliography}
 
