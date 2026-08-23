@@ -80,6 +80,7 @@ import GlowText from "./components/GlowText.vue";
 import { createMermaidRenderer } from "vitepress-mermaid-renderer";
 import { h, nextTick, watch } from "vue";
 import Question from "./components/Question.vue";
+import ColorPicker from "./components/PrimeVue/ColorPicker.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -176,6 +177,7 @@ export default {
     app.component("Nh", NonHeading);
     app.component("Hl", Highlighter);
     app.component("Question", Question);
+    app.component("ColorPicker", ColorPicker);
 
     // Primevue comps
     app.component("Btn", Btn);
