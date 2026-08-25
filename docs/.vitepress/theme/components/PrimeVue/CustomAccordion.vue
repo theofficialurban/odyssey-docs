@@ -10,6 +10,7 @@ interface Tab {
   title: string;
   content: string;
   value: string | number;
+  escape?: boolean;
   props?: AccordionPanelProps;
 }
 interface Props {
@@ -34,10 +35,21 @@ const { tabs = [], props = {} } = defineProps<Props>();
             v-for="tab in tabs"
             v-bind="{ key: tab.title, value: tab.value, ...tab.props }"
           >
-            <AccordionHeader>{{ tab.title }}</AccordionHeader>
-            <AccordionContent>
-              <p class="m-0">{{ tab.content }}</p>
-            </AccordionContent>
+            <slot
+              name="content"
+              :tab="tab"
+              :components="{ AH: AccordionHeader, AC: AccordionContent }"
+            >
+              <AccordionHeader>{{ tab.title }}</AccordionHeader>
+              <AccordionContent>
+                <p class="m-0" v-if="!tab.escape">{{ tab.content }}</p>
+                <div
+                  class="m-0"
+                  v-else-if="tab.escape === true"
+                  v-html="tab.content"
+                ></div>
+              </AccordionContent>
+            </slot>
           </AccordionPanel>
         </Accordion>
       </template>
