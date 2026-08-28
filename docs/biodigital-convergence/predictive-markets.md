@@ -24,7 +24,7 @@ https://mason.gmu.edu/~rhanson/policyanalysismarket.html
 
 [[toc]]
 
-<CCards :useFinder="true" :cards="[['biodigital', '6g-whitepaper'], ['biodigital', 'matraix'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'cmos'], ['biodigital', 'energy-harvesting'], ['biodigital', 'iont'], ['biodigital', 'remote-telemetry'], ['biodigital', 'state-of-commercial-tech'], ['biodigital', 'wbans'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'haarp-gwen'], ['biodigital', 'haarp']]" />
+<CCards :useFinder="true" :cards="[['biodigital', '6g-whitepaper'], ['biodigital', 'matraix'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'cmos'], ['biodigital', 'energy-harvesting'], ['biodigital', 'iont'], ['biodigital', 'remote-telemetry'], ['biodigital', 'state-of-commercial-tech'], ['biodigital', 'wbans'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'haarp-gwen'], ['biodigital', 'haarp'], ['reading', 'mirror-worlds']]" />
 
 ## Videos {#videos}
 
@@ -32,13 +32,31 @@ https://mason.gmu.edu/~rhanson/policyanalysismarket.html
 
 == MatrAIx & LeWM
 
+<Nh>MatrAIx, LE World Model & Cognitive Twins (August 14th, 2026)</Nh>
+
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7bye7m/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7e4xcu-matraix-and-leworldmodel-for-6g-digital-slavery-and-automated-mkultra.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/matraix-leworldmodel'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/matraix-leworldmodel:9'], ['Spotify', 'https://open.spotify.com/episode/3dJNVukhpswUnfq0U3TtIo?si=gfALj9NiR92UHeYLeEB6FA']]" />
 
 <CCard :useFinder='true' collection="biodigital" href="matraix" />
 
 == Predictive Markets
 
+<Nh>Prediction Markets, 6G Cognitive Twins (August 16th, 2026)</Nh>
+
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7c3ha0/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7e9wdw-prediction-markets-and-cognitive-twins-cause-before-symptom-w-urban-august-.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/prediction-markets'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-081626:0'], ['Spotify', 'https://open.spotify.com/episode/5n6cXsZbIFwaQ7Frvq75uw?si=U9dF0jZRS9exq82h4S9cNg']]" />
+
+== Reflexive Alchemy
+
+<Nh>Reflexive Alchemy & Retrocausality: The 6G O-RAN Control Grid (August 22nd, 2026)</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7cbngg/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7ei0dy-reflexive-alchemy-and-retrocausality-the-6g-o-ran-control-grid-prediction-m.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/reflexive-alchemy?r=3kr5wz&utm_campaign=post&utm_medium=web'], ['YouTube', 'https://youtu.be/XNoXyoFaKVQ?si=-boCok7D5eeRfWop'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/reflexive-alchemy:3'], ['Spotify', 'https://open.spotify.com/episode/1Sa0M8Rm69MrUqvX2yl8LX?si=RJDmSJzBRtmz3rof0Wv0AA']]" />
+
+<CCard :useFinder='true' collection="technical" href="previous-token-prediction" />
+
+== Mirror Worlds
+
+<Nh>Operational Retrocausality: How 1991's Mirror Worlds Predicted Digital Twins (August 27th, 2026)</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7cksp6/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7er5mo-cause-before-symptom-w-urban-august-27th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/mirror-worlds'], ['YouTube', 'https://youtube.com/live/BLlzHuvXGvo'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-082726:d515f9ff8e'], ['Spotify', 'https://open.spotify.com/episode/1fZwirgiP1Cuma0HQz1aAe?si=9A--9NDjQomv72FCcidPPQ']]" />
 
 :::
 

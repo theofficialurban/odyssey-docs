@@ -5,6 +5,7 @@ description: |
 tags:
   - Mermaid Charts
   - Animal Magnetism
+  - Urban's Videos
 ---
 
 [[atomic]]
@@ -12,6 +13,12 @@ tags:
 # Plasmas, Plasm & Animal Magnetism {#title}
 
 [[toc]]
+
+## Videos
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7cj7ug/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7epkry-bloods-connection-to-breath-cause-before-symptom-w-urban-august-26th-2026.html?e9s=src_v1_ucp_a'], ['Substack', 'https://theofficialurban.substack.com/p/blood-breath-connection'], ['YouTube', 'https://youtube.com/live/StNmWe909_o'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-082626:6'], ['Spotify', 'https://open.spotify.com/episode/0TiCcBOjJg5rp6JUMaYPFM?si=15f0cee4bece4343']]" />
+
+<CCard :useFinder='true' collection="mahanism" href="blood" />
 
 ## Overviews
 
