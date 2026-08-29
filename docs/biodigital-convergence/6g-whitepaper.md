@@ -1,8 +1,6 @@
 ---
 title: 6G White Paper
 description: Urban's full reading and walkthrough of the "6G and Beyond The Future of Wireless Communications Systems" White Paper, section by section until completion. (This series is now complete).
-ogtype: video
-ogplayer: https://files.catbox.moe/13lhap.mp4
 ogimage: https://i.imgur.com/wYW2MQr.jpeg
 ogimagewidth: 1280
 ogimageheight: 720
@@ -33,7 +31,12 @@ You should be aware of the following two key terms before beginning on this topi
 ## Urban's Walkthrough {#walkthrough}
 
 :::tabs
+== 6G Recap
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7cmcpe/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7espmw-cause-before-symptom-w-urban-august-28th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/6g-tech-recap?r=3kr5wz'], ['YouTube', 'https://youtube.com/live/EMq1ZcM_nLg?feature=share'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-082826:0'], ['Spotify', 'https://open.spotify.com/episode/1cRrXAtds5DgTNKCe6ngTj?si=-x_-bhucTIu_5VZQuQEnPg']]" />
+
 == Links
+
 You can find the series on many platforms
 
 1. **Substack:** https://theofficialurban.substack.com/t/6g-and-beyond
@@ -42,7 +45,9 @@ You can find the series on many platforms
 4. **Odysee:** https://odysee.com/@UrbanOdyssey:b/6g-whitepaper:1
 5. **X:** https://x.com/officialurbanus/status/2005040667551215993?s=20
 6. **Bitchute:** https://www.bitchute.com/video/40a4CfGLXIgl?playlistId=telNasy8Ti3F
+
 == Spotify
+
 <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0YBAKOtukmMvGCjQkp8pMN?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 :::
 

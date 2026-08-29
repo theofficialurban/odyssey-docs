@@ -3,6 +3,8 @@ title: Metatron
 ogimage: https://i.imgur.com/TFWkGJa.png
 description: |
   The provided documents explore mystical Jewish traditions and esoteric systems, specifically focusing on gematria, apocalyptic prophecy, and the figure of Metatron. One source utilizes mathematical formulas and sacred languages to link ancient linguistic concepts with numerical values.
+tags:
+  - Metatron
 ---
 
 [[atomic]]
