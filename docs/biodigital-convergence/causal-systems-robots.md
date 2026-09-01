@@ -5,6 +5,7 @@ description: |
 ogimage: https://i.imgur.com/7jy47Nb.png
 tags:
   - Human Husbandry
+  - Mermaid Charts
 ---
 
 [[atomic]]

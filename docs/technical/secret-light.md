@@ -3,6 +3,8 @@ title: Secret of Light
 description: |
   Walter Russell’s "The Secret of Light" presents a radical shift in perspective, asserting that the entire physical universe is a cosmic cinema of light illusion projected from a singular, still, and divine Source. The text distinguishes between the universe of knowing, which is the silent, unchanging Mind of God, and the universe of sensing, an electric wave-motion that simulates reality through pairs of opposites.
 ogimage: https://www.theparisreview.org/blog/wp-content/uploads/2015/05/walter-russell27_905.jpg
+tags:
+  - Antique Books
 ---
 
 [[atomic]]

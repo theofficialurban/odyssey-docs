@@ -5,7 +5,12 @@ const { class: className = "" } = defineProps<{
 </script>
 
 <template>
-  <div :class="['grid max-md:grid-flow-row md:grid-cols-3 gap-6', className]">
+  <div
+    :class="[
+      'grid max-md:grid-flow-row md:grid-cols-3 gap-6 place-items-center',
+      className,
+    ]"
+  >
     <slot></slot>
   </div>
 </template>
