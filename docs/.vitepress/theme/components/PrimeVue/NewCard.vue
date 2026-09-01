@@ -71,7 +71,7 @@ const topLevelProps = computed(() => {
       style: { "text-decoration": "none" },
     };
   } else {
-    return { href: href, class: className };
+    return { href: href };
   }
 });
 </script>
@@ -83,7 +83,10 @@ const topLevelProps = computed(() => {
       v-bind="topLevelProps"
     >
       <NewCard
-        class="w-full overflow-hidden md:max-h-[500px] max-md:max-h-[300px] max-md:grid! max-md:grid-cols-4! md:flex md:flex-col"
+        :class="[
+          'max-md:w-full overflow-hidden md:max-w-[350px] md:max-h-[500px] max-md:max-h-[300px] max-md:grid! max-md:grid-cols-4! md:flex md:flex-col',
+          className,
+        ]"
         :pt="{
           body: {
             class: 'max-md:col-span-4',

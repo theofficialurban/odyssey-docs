@@ -743,7 +743,7 @@ Imagine you are standing on a steep mountain in a thick, blinding fog, and your 
 
 You take a step downhill, update your estimate of where the bottom is, and immediately discard the rest of the history to save memory. In **Recursive Stochastic Algorithms**, the system updates its parameters on-the-fly using a simple loop:
 
-$$[\tiny \text{New Estimate} = \text{Old Estimate} + \text{Learning Rate} \times (\text{New Data} - \text{Old Estimate})]$$
+$$[\text{New Estimate} = \text{Old Estimate} + \text{Learning Rate} \times (\text{New Data} - \text{Old Estimate})]$$
 
 It continuously corrects its trajectory step-by-step, hunting for the fixed point of the system without being crushed by massive data-storage requirements.
 
