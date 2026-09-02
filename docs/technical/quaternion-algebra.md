@@ -228,22 +228,34 @@ Papus maps this to the Hebrew Tetragrammaton (**יהוה / YHVH**) and the Pytha
 - **He (2) & Vau (3):** The Receptive/Passive and the Mediating/Transforming terms (completing the spatial **Ternary** of manifestation).
 - **2nd He (4):** The **Quaternary term of closure and transition**, which encloses the three preceding terms into a new entity and returns the sequence to Unity on a higher octave $(1 + 2 + 3 + 4 = 10 \to 1)$.
 
-Now compare this directly to the fundamental definition of a **Quaternion** $(\mathbb{H})$, discovered by Sir William Rowan Hamilton in 1843: \[q = a + bi + cj + dk \quad \text{where } a, b, c, d \in \mathbb{R}\] A quaternion is not four homogeneous numbers; it is partitioned into two distinct parts: \[\mathbf{q} = \text{Scalar Part } (a) + \text{Vector Part } (bi + cj + dk)\]
+Now compare this directly to the fundamental definition of a **Quaternion** $(\mathbb{H})$, discovered by Sir William Rowan Hamilton in 1843:
 
-| Occult Component (Papus / Dee)             | Mathematical Component (Quaternion Algebra)     | Ontological Role                                                                      |
-| :----------------------------------------- | :---------------------------------------------- | :------------------------------------------------------------------------------------ |
-| **The Monad / Yod (1)**                    | **Scalar Component $(a \in \mathbb{R})$**       | Real, non-spatial scalar magnitude; pure potential, duration, or invariant rest.      |
-| **The Ternary / He-Vau-He (2, 3)**         | **The 3 Imaginaries $(i, j, k)$**               | Orthogonal spatial axes defining 3D extension, orientation, and rotation.             |
-| **The Quaternary / 2nd He (4)**            | **The Hypercomplex Unity $(q \in \mathbb{H})$** | The 4-dimensional hypercomplex number that unifies scalar rest and 3D spatial motion. |
-| **Decadal Reduction $(1+2+3+4=10 \to 1)$** | \*\*Unit Quaternion Norm $(\|q\|                |
+$$[q = a + bi + cj + dk \quad \text{where } a, b, c, d \in \mathbb{R}]$$
+
+A quaternion is not four homogeneous numbers; it is partitioned into two distinct parts:
+
+$$[\mathbf{q} = \text{Scalar Part } (a) + \text{Vector Part } (bi + cj + dk)]$$
+
+| Occult Component (Papus / Dee)             | Mathematical Component (Quaternion Algebra)            | Ontological Role                                                                                  |
+| :----------------------------------------- | :----------------------------------------------------- | :------------------------------------------------------------------------------------------------ |
+| **The Monad / Yod (1)**                    | **Scalar Component $(a \in \mathbb{R})$**              | Real, non-spatial scalar magnitude; pure potential, duration, or invariant rest.                  |
+| **The Ternary / He-Vau-He (2, 3)**         | **The 3 Imaginaries $(i, j, k)$**                      | Orthogonal spatial axes defining 3D extension, orientation, and rotation.                         |
+| **The Quaternary / 2nd He (4)**            | **The Hypercomplex Unity $(q \in \mathbb{H})$**        | The 4-dimensional hypercomplex number that unifies scalar rest and 3D spatial motion.             |
+| **Decadal Reduction $(1+2+3+4=10 \to 1)$** | **Unit Quaternion Norm** $(\|q\|^2=a^2+b^2+c^2+d^2=1)$ | The hyperspherical constraint ($S^3$) that maps 4D parameters back to invariant spatial rotation. |
 
 In both formalisms, **three orthogonal components of action cannot exist or rotate in equilibrium without a fourth scalar term providing the fulcrum**.
 
 ### 2. Chiral Rotation and Non-Commutative Generation
 
-For centuries before Hamilton, mathematicians attempted to extend complex numbers into triplets $(a + bi + cj)$ to model 3D space, but the algebra consistently failed. Hamilton’s breakthrough on Brougham Bridge was realizing that **nature requires a four-term system** governed by the famous inscription: \[i^2 = j^2 = k^2 = ijk = -1\]
+For centuries before Hamilton, mathematicians attempted to extend complex numbers into triplets $(a + bi + cj)$ to model 3D space, but the algebra consistently failed. Hamilton’s breakthrough on Brougham Bridge was realizing that **nature requires a four-term system** governed by the famous inscription:
 
-This introduces an essential property that conventional arithmetic rejected: **non-commutativity**. In quaternions: \[ij = k, \quad ji = -k\] The order of operations determines the resulting polarity; reversing the order reverses the spatial orientation.
+$$[i^2 = j^2 = k^2 = ijk = -1]$$
+
+This introduces an essential property that conventional arithmetic rejected: **non-commutativity**. In quaternions:
+
+$$[ij = k, \quad ji = -k]$$
+
+The order of operations determines the resulting polarity; reversing the order reverses the spatial orientation.
 
 In Papus's analysis of the _ROTA_ (the cosmic wheel) and John Dee's _Monas Hieroglyphica_ (Theorems VI, VII, and XX), creation is explicitly modeled as a **chiral, rotational vortex**:
 
@@ -261,7 +273,7 @@ In Papus's system, the most baffling operation to conventional mathematicians is
 
 In quaternion mathematics, this "return to Unity" is the exact condition required to perform spatial rotations:
 
-- To rotate an object in 3D physical space without distortion or stretching, one must use a **unit quaternion** (a versor), defined by: \[|q| = \sqrt{a^2 + b^2 + c^2 + d^2} = 1\]
+- To rotate an object in 3D physical space without distortion or stretching, one must use a **unit quaternion** (a versor), defined by: $[|q| = \sqrt{a^2 + b^2 + c^2 + d^2} = 1]$
 - Unit quaternions form a 3-sphere $(S^3)$ embedded in 4-dimensional space. Every valid spatial rotation is an operation on this unit sphere that **maps four distinct numbers back to an absolute magnitude of 1**.
 - Just as Papus argued that the four elements of the Tetragrammaton are merely four aspects of a singular underlying Divine Name, quaternion algebra proves that 3D spatial transformations are four-dimensional projections constrained to an invariant unit sphere.
 
@@ -383,9 +395,17 @@ Sir William Rowan Hamilton spent over a decade trying to invent a 3D number syst
 
 1. If you take a book, rotate it $(90^\circ)$ forward, and then $(90^\circ)$ to the right, it ends up in a completely different orientation than if you rotate it $(90^\circ)$ right first and then $(90^\circ)$ forward.
 2. In algebra, this means the operators must be **non-commutative**: $(A \times B \neq B \times A)$.
-3. When you multiply two perpendicular planes of rotation together (e.g., rotating in the $(yz)$-plane $(i)$, then in the $(zx)$-plane $(j)$, the interaction does not produce a scalar number—**it forces a rotation in the third plane $(k)$**: \[ij = k, \quad \text{but} \quad ji = -k\]
+3. When you multiply two perpendicular planes of rotation together (e.g., rotating in the $(yz)$-plane $(i)$, then in the $(zx)$-plane $(j)$, the interaction does not produce a scalar number—**it forces a rotation in the third plane $(k)$**:
 
-On October 16, 1843, Hamilton realized that to model 3D space, you cannot have three numbers; you need **four dimensions**: \[q = \underbrace{w}_{\text{Scalar (Angle/Inertia)}} + \underbrace{xi + yj + zk}_{\text{Vector (3 Planes of Rotation)}}\] Hamilton famously carved the formula into Brougham Bridge in Dublin: \[i^2 = j^2 = k^2 = ijk = -1\]
+$$[ij = k, \quad \text{but} \quad ji = -k]$$
+
+On October 16, 1843, Hamilton realized that to model 3D space, you cannot have three numbers; you need **four dimensions**:
+
+$$[q = \underbrace{w}_{\text{Scalar (Angle/Inertia)}} + \underbrace{xi + yj + zk}_{\text{Vector (3 Planes of Rotation)}}]$$
+
+Hamilton famously carved the formula into Brougham Bridge in Dublin:
+
+$$[i^2 = j^2 = k^2 = ijk = -1]$$
 
 ### 4. What Exactly About Quaternions Allows Them to Model Rotation?
 
@@ -394,7 +414,9 @@ To rotate an object in 3D, you need two pieces of information:
 1. **An axis of rotation** (a unit vector $(\vec{u} = u_x i + u_y j + u_z k)$.
 2. **An angle of rotation** $(\theta)$.
 
-A **unit quaternion** (versor) packages this into an extension of Euler’s formula: \[q = \cos\left(\frac{\theta}{2}\right) + \vec{u} \sin\left(\frac{\theta}{2}\right)\]
+A **unit quaternion** (versor) packages this into an extension of Euler’s formula:
+
+$$[q = \cos\left(\frac{\theta}{2}\right) + \vec{u} \sin\left(\frac{\theta}{2}\right)]$$
 
 #### The "Sandwich Product" $(v' = q v q^{-1})$
 
@@ -443,7 +465,7 @@ To understand the double cover, compare how humans perceive rotation versus how 
 
 - **The Rotation Group $(SO(3))$:** This is the conventional group of rotations in three dimensions. If an object is rotated by **$(360^\circ)$**, it visually returns to where it started.
 - **The Unit Quaternions / $(SU(2))$:** Unit quaternions live on the surface of a 4D hypersphere $(S^3)$ and form the group **$(SU(2))$** (Special Unitary group of $(2 \times 2)$ complex matrices).
-- **The 2-to-1 Mapping:** In quaternion algebra, a 3D vector $(\vec{v})$ is rotated using the sandwich product: \[\vec{v}' = q \vec{v} q^{-1}\] If the quaternion $(q)$ is replaced with its exact negative, $(-q)$: \[(-q) \vec{v} (-q)^{-1} = (-1)^2 (q \vec{v} q^{-1}) = q \vec{v} q^{-1} = \vec{v}'\] Both $(+q)$ and $(-q)$ produce the **exact same 3D spatial rotation**.
+- **The 2-to-1 Mapping:** In quaternion algebra, a 3D vector $(\vec{v})$ is rotated using the sandwich product: $[\vec{v}' = q \vec{v} q^{-1}]$ If the quaternion $(q)$ is replaced with its exact negative, $(-q)$: $[(-q) \vec{v} (-q)^{-1} = (-1)^2 (q \vec{v} q^{-1}) = q \vec{v} q^{-1} = \vec{v}']$ Both $(+q)$ and $(-q)$ produce the **exact same 3D spatial rotation**.
 
 Because every single physical orientation in 3D space $(SO(3))$ corresponds to **two distinct antipodal points $(+q)$ and $(-q)$** on the quaternion hypersphere $(SU(2))$, $(SU(2))$ is called the **double cover** of $(SO(3))$.
 
