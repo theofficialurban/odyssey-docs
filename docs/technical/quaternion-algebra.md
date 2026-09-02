@@ -350,7 +350,7 @@ If doing it twice turns you $(180^\circ)$, **doing it once must turn you halfway
 
 As shown in standard electrical engineering and the quantum mechanics literature in your notebook, any $(2\times 2)$ real rotation matrix representing a $(90^\circ)$ turn:
 
-$$[J = \begin{pmatrix} 0 & -1 \ 1 & 0 \end{pmatrix}]$$
+$$[J = \begin{pmatrix} 0 & -1 \\ 1 & 0 \end{pmatrix}]$$
 
 satisfies $(J^2 = -I)$. **There is nothing mystical or "imaginary" about $(i)$; it is the algebraic instruction to rotate $(90^\circ)$ in a plane.**
 
