@@ -65,7 +65,6 @@ const topLevelProps = computed(() => {
   if (!preview) {
     return {
       href: href,
-      class: className,
       target: "_blank",
       rel: "noopener noreferrer",
       style: { "text-decoration": "none" },
@@ -77,15 +76,19 @@ const topLevelProps = computed(() => {
 </script>
 
 <template>
-  <div>
+  <div
+    :class="[
+      'md:max-w-[350px] md:max-h-[500px] max-md:max-h-[300px] max-md:w-full',
+      className,
+    ]"
+  >
     <component
       :is="preview ? NolebaseInlineLinkPreview : 'a'"
       v-bind="topLevelProps"
     >
       <NewCard
         :class="[
-          'max-md:w-full overflow-hidden md:max-w-[350px] md:max-h-[500px] max-md:max-h-[300px] max-md:grid! max-md:grid-cols-4! md:flex md:flex-col',
-          className,
+          'overflow-hidden max-md:grid! max-md:grid-cols-4! md:flex md:flex-col',
         ]"
         :pt="{
           body: {
