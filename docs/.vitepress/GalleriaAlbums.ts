@@ -11,6 +11,65 @@ export type CustomDialogOpenFunction = () => DynamicDialogInstance;
 export type CustomImageHtmlCaption = CustomDialogOpenFunction | null;
 export type CustomImageHtmlCaptions = CustomImageHtmlCaption[];
 
+export const SwarmGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/94VA5LZ.png",
+    title: "PRIVÉ",
+    caption: "(Privacy-Preserving Swarm Attestation)",
+  },
+  { image: "https://i.imgur.com/ueU53az.png", title: "Swarm Attestation" },
+  {
+    image: "https://i.imgur.com/dNcgcvR.png",
+    title: "Bilinear Aggregate Signature",
+  },
+  {
+    image: "https://i.imgur.com/EsgO2FR.png",
+    title: "Traceable DAA",
+    caption: "(Traceable Direct Anonymous Attestation)",
+  },
+  { image: "https://i.imgur.com/MpGu81D.png", title: "SwarmBox" },
+  {
+    image: "https://i.imgur.com/USIwxIJ.png",
+    title: "Local Auth",
+    caption: "(Locally Centralized, Globally Distributed Auth)",
+  },
+  { image: "https://i.imgur.com/L4bqrtD.png", title: "DataCapsule" },
+  {
+    image: "https://i.imgur.com/66bEPKD.png",
+    title: "RtCert (Routing Certificate)",
+  },
+  {
+    image: "https://i.imgur.com/9zxSJ5k.png",
+    title: "FIG Tree (File-Indexed Group Tree)",
+  },
+  {
+    image: "https://i.imgur.com/Ro1WaSF.png",
+    title: "Collective 3D Intelligence",
+  },
+  {
+    image: "https://i.imgur.com/QeMlEL5.png",
+    title: "6G-Ready OTFS Modulation",
+  },
+  {
+    image: "https://i.imgur.com/bz1q4tx.png",
+    title: "Raft-over-Mesh Consensus",
+  },
+  {
+    image: "https://i.imgur.com/jYdbYxa.png",
+    title: "Dynamic Pheromone Routing",
+  },
+  {
+    image: "https://i.imgur.com/AGi4Gjt.png",
+    title: "Data Ferrying",
+    caption: "(Disruption Tolerant Networking)",
+  },
+  {
+    image: "https://i.imgur.com/52UdSoV.png",
+    title: "Global Data Plane (GDP)",
+  },
+  { image: "https://i.imgur.com/9eihvix.png", title: "Fog Computing" },
+];
+
 export const TelemetryGallery: ImageItem[] = [
   {
     image: "https://i.imgur.com/TYixzVM.png",

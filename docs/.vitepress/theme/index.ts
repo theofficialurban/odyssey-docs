@@ -63,6 +63,7 @@ import {
   PlasmoidGallery,
   PredictionMarketsGallery,
   QuantumHauntologyGalleria,
+  SwarmGallery,
   TectonicWarfareGallery,
   TelemetryGallery,
   TEMGallery,
@@ -214,6 +215,7 @@ export default {
     app.provide("plasmaintelligencegallery", PlasmaIntelligenceGallery);
     app.provide("telemetrygallery", TelemetryGallery);
     app.provide("predictivemarkets", PredictionMarketsGallery);
+    app.provide("swarmgallery", SwarmGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
