@@ -52,7 +52,8 @@ const {
   description = "",
   href,
   preview = false,
-  class: className = "",
+  class:
+    className = "md:max-w-[350px] md:max-h-[500px] max-md:max-h-[300px] max-md:w-full",
   img = getRandomOpenGraphImage(),
 } = defineProps<Props>();
 
@@ -76,12 +77,7 @@ const topLevelProps = computed(() => {
 </script>
 
 <template>
-  <div
-    :class="[
-      'md:max-w-[350px] md:max-h-[500px] max-md:max-h-[300px] max-md:w-full',
-      className,
-    ]"
-  >
+  <div :class="className">
     <component
       :is="preview ? NolebaseInlineLinkPreview : 'a'"
       v-bind="topLevelProps"
