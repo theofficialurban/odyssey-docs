@@ -18,15 +18,8 @@ onMounted(() => {
 
 # Testing
 
+{{ childRef.value ? childRef.value.value : "Error" }}
+
 <ColorPicker ref="colorpicker" />
 
-## Accord
-
-<Accordion :tabs="[{title: 'Testing One', value: 1, content: 'https://i.imgur.com/BhdhPMJ.png'}, {title: 'Testing Two', value: 2, content: 'https://i.imgur.com/Tu6dUe9.png'}]">
-<template #content="{tab: {title, content, value}, components: {AH, AC}}">
-<component :is="AH">{{title}}</component>
-<component :is="AC">
-<img :src="content" alt="some" />
-</component>
-</template>
-</Accordion>
+<NewCard title="Tyndall FX — Real-Time Spatial Intelligence for Defense & Field Operations" img="https://www.tyndallfx.com/og-image.jpg" description="Tyndall FX pioneers sovereign real-time 3D mapping, GNSS-free navigation and swarm intelligence for defense, public safety and critical field operations." href="https://www.tyndallfx.com/products/terraswarm" class="max-h-[300px] w-full" />

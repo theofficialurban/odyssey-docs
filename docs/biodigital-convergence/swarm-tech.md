@@ -74,7 +74,7 @@ The provided technical report outlines the **Global Data Plane (GDP)**, a new d
 
 This report introduces the **Global Data Plane File System (GDPFS)**, a distributed filesystem designed to bridge the gap between **secure, append-only logs** and the need for **mutable data access**. Built upon the Global Data Plane (GDP) substrate, the system leverages a **single-writer log abstraction** to ensure data integrity and atomicity even when operating on **untrusted hardware**. To overcome the inherent performance hurdles of scanning linear logs, the authors implement a **FIG Tree index** for logarithmic data retrieval and an aggressive **asynchronous caching layer** to minimize network latency. Experimental evaluations demonstrate that while file creation remains a bottleneck, the GDPFS provides a **highly scalable and secure** alternative to traditional filesystems like NFS, particularly in **high-latency wide area networks**.
 
-### **Live Mobile Edge Sensors Swarm System: _Decentralized AI-Driven Early Warning Architecture for Disaster Response and Climate Monitoring_ **
+### Live Mobile Edge Sensors Swarm System: _Decentralized AI-Driven Early Warning Architecture for Disaster Response and Climate Monitoring_
 
 The source describes the **Live Mobile Edge Sensors Swarm System**, a cutting-edge **decentralized architecture** designed to transform disaster response and climate monitoring. Unlike traditional warning systems that rely on a vulnerable central cloud, this proposal utilizes a **self-healing swarm of mobile and stationary sensors** that can coordinate and make decisions locally. The framework integrates three primary technical pillars: **Swarm Intelligence** for resilient group behavior, **6G-ready communication** for reliable data transfer at high speeds, and **Hybrid Federated Learning** to process AI models privately at the edge. By moving the "brain" of the system closer to the disaster site, the architecture aims for an **80% reduction in alert latency** and maintains high performance even if individual nodes are destroyed. Ultimately, the document serves as a comprehensive **architectural blueprint** that bridges the gap between theoretical swarm research and practical, life-saving emergency infrastructure.
 
@@ -174,7 +174,7 @@ Vehicular tracking begins at the edge with camera networks equipped with advance
 
 Traditional communication protocols (like 5G OFDM) collapse in dense urban areas because high-velocity vehicle movements (>100 km/h) introduce severe Doppler shifts that destroy signal orthogonality, leading to massive packet drops.
 
-- **OTFS (Delay-Doppler) Modulation:** 6G resolves this by modulating signals in the **Delay-Doppler domain** rather than the Time-Frequency plane. This guarantees a highly reliable Bit Error Rate (BER) of \(10^{-6}\) (compared to a failing \(10^{-2}\) for OFDM), allowing moving vehicles to maintain uninterrupted, high-speed telemetry uplinks.
+- **OTFS (Delay-Doppler) Modulation:** 6G resolves this by modulating signals in the **Delay-Doppler domain** rather than the Time-Frequency plane. This guarantees a highly reliable Bit Error Rate (BER) of $(10^{-6})$ (compared to a failing $(10^{-2})$ for OFDM), allowing moving vehicles to maintain uninterrupted, high-speed telemetry uplinks.
 - **ISAC (Integrated Sensing and Communication):** Simultaneously, 6G base stations perform dual-function **radar-like sensing and data transmission**. The RF waveforms sent to transmit ALPR metadata bounce off the physical vehicle, measuring its precise velocity, three-dimensional volume, and path trajectory in real-time. This allows the network to physically detect and track vehicles in low-visibility scenarios (smoke, heavy rain, or fog) without relying on visual cameras alone.
 
 #### 3. The Brain: The Cognitive Digital Twin Grid
@@ -372,8 +372,6 @@ In the system design of next-generation early warning platforms (such as the _Li
 
 ```mermaid
 graph TB
-  subgraph master["THE SWARM"]
-    direction TB
     subgraph t1["Tier 1: THE EDGE SWARM (The Senses)"]
       t11("UAVs, Static IoT, WBANs, Human Biotelemetry Nodes")
     end
@@ -384,7 +382,6 @@ graph TB
       t31("Sovereign Digital Twins, Generative AI, Predictive Models")
     end
     t1 ---> |Local Mesh Peer-to-Peer Links| t2 ---> |Satellite/5G Backhaul| t3
-  end
 ```
 
 == ASCII Diagram
