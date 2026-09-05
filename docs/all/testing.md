@@ -18,7 +18,7 @@ onMounted(() => {
 
 # Testing
 
-{{ childRef.value ? childRef.value.value : "Error" }}
+{{ childRef ? (childRef.value ?? "Error 2") : "Error 1" }}
 
 <ColorPicker ref="colorpicker" />
 
