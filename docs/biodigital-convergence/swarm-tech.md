@@ -5,6 +5,7 @@ description: |
 tags:
   - Human Husbandry
   - Words & Terms
+  - Urban's Videos
   - SWARM Technology
   - Mermaid Charts
 ogimage: https://ars.els-cdn.com/content/image/1-s2.0-S1084804521001582-gr2.jpg
@@ -29,6 +30,36 @@ const vocabulary = inject("swarmgallery")
 
 <ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/swarm-terraswarm-technology-vocabulary-0C6Vs4V" />
 
+### Other Diagrams & Graphics {#graphics}
+
+:::tabs
+
+== 1
+
+![SwarmDiagram](https://i.imgur.com/X0zixGs.png)
+
+== 2
+
+![SwarmIntelligence](https://i.imgur.com/46qIz6e.png)
+
+== 3
+
+![WhatIs](https://i.imgur.com/7h1LEDP.png)
+
+== 4
+
+![SwarmCapabilities](https://i.imgur.com/unKsUNg.png)
+
+== 5
+
+![Applied](https://i.imgur.com/Cb1kK0R.png)
+
+== 6
+
+![Daoswarm](https://i.imgur.com/orrazEg.png)
+
+:::
+
 ## Videos {#videos}
 
 Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
@@ -39,6 +70,12 @@ Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
 <Nh>Swarm Technology & The Global Data Plane (Pt. 1) [Sept. 4th, 2026]</Nh>
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7cxa76/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7f3n4o-cause-before-symptom-w-urban-september-4th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-1'], ['YouTube', 'https://www.youtube.com/watch?v=eCbi-Slm9H4'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-090426:f'], ['Spotify', 'https://open.spotify.com/episode/7mUgRCbQbzGI8QSeIAOyTp?si=iJTP0fUKTDijcbB7vFOWpw']]" />
+
+== Part 2
+
+<Nh>Swarm Technology (Pt. II): Mesh & “Subordinated Operator” Status /w Urban [Sept. 5th, 2026]</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7cypok/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7f52m2-swarm-technology-pt.-ii-cause-before-symptom-w-urban-sept.-5th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-2'], ['YouTube', 'https://youtube.com/live/BgfgmnwbK24'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-090526:2'], ['Spotify', 'https://open.spotify.com/episode/1avSWZs6xS96R39pWtTnbb?si=0mSqPl1tTXCD0UuKmNFtUQ']]" />
 
 == TerraSwarm Demo
 
@@ -51,6 +88,10 @@ Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
 == MQTT
 
 <YouTube id="WmKAWOVnwjE" />
+
+== What is Swarm AI?
+
+<YouTube id="xWSkbsIRNMg" />
 
 :::
 
@@ -88,9 +129,39 @@ This text introduces Terraswarm, a sophisticated software solution designed to e
 
 Department of Defense Directive 3000.09 establishes the formal protocols and ethical standards for the creation and deployment of autonomous and semi-autonomous weapon systems. The document mandates that these technologies must be engineered to support appropriate levels of human judgment, ensuring that military personnel maintain responsibility for the use of force through clear human-machine interfaces. To minimize the risk of unintended engagements, the directive outlines a rigorous framework for verification, validation, and testing that remains active throughout a system's entire life cycle. Furthermore, it institutes a high-level senior review process for advanced autonomous capabilities, requiring explicit approval from defense leadership before such systems can move into formal development or operational use. Ultimately, the policy integrates AI ethical principles and international law to ensure that automated combat functions remain reliable, auditable, and under strict human control.
 
+### [**Internet of Nano, Bio-Nano, Biodegradable and Ingestible Things: A Survey**](https://arxiv.org/pdf/2202.12409)
+
+This survey explores the evolution of the Internet of Things into the microscopic realm by examining four emerging paradigms: the **Internet of Nano Things (IoNT)**, **Bio-Nano Things (IoBNT)**, **Biodegradable Things (IoBDT)**, and **Ingestible Things (IoIT)**. The authors provide a comprehensive framework that connects advancements in **nanotechnology and materials science** to practical medical and environmental applications, such as internal disease monitoring and smart drug delivery. By defining the unique **architectural components and communication modes**—including molecular and electromagnetic signals—the text illustrates how these tiny devices bridge the gap between biological systems and digital networks. Ultimately, the paper serves as a foundational guide that identifies critical **research challenges**, such as biocompability, data security, and the need for new communication standards, to inspire future development in these revolutionary fields.
+
+### [**Decentralized Multi-Agent Swarms for Autonomous Grid Security in Industrial IoT: A Consensus-based**](https://arxiv.org/pdf/2601.17303v1)
+
+![Decentralized Multi-Agent Swarms](https://i.imgur.com/orrazEg.png)
+
+This paper proposes a **Decentralized Multi-Agent Swarm (DMAS)** architecture designed to protect **Industrial Internet of Things (IIoT)** networks from cyber-physical attacks. By replacing slow, centralized cloud monitoring with **autonomous AI agents** at the network edge, the system functions like a distributed **"digital immune system"** that can identify and isolate threats in **sub-millisecond response times**. The core innovation is a **Consensus-based Threat Validation (CVT)** protocol, which utilizes **weighted voting and reputation scoring** to ensure that a collective agreement is reached even if some agents are compromised. Experimental results demonstrate that this decentralized approach achieves **97.3% detection accuracy**, drastically reduces bandwidth usage by 89%, and remains robust against **zero-day exploits** and Byzantine faults. Ultimately, the research advocates for a shift toward **self-organizing, proactive security frameworks** to maintain the safety and reliability of modern industrial ecosystems.
+
+### [**Self Organized Multi Agent Swarms (SOMAS) for Network Security Control**](https://archive.org/details/DTIC_ADA502518) (Published March 2009)
+
+This thesis explores the creation of **Self Organized Multi Agent Swarms (SOMAS)**, an innovative architectural approach designed to improve **network security control** through decentralized intelligence. The author, Eric M. Holloway, argues that traditional security systems are often too rigid and hierarchical to combat modern, stealthy cyber threats, necessitating a move toward **autonomous agents** that can adapt in real-time. By utilizing **multi-objective evolutionary algorithms (MOEA)** and formal mathematical models like **partially observable Markov decision processes (POMDP)**, the research seeks to evolve swarms capable of complex global behaviors through simple local interactions. A central theme of the work is the development of **entangled hierarchies**, a communication and control structure that balances the flexibility of flat organizations with the direction of traditional systems to ensure **robustness and scalability**. Ultimately, the text provides a comprehensive framework for simulating, measuring, and visualizing how these **self-organizing swarms** can effectively detect, quarantine, and eliminate intrusions within a dynamic digital environment.
+
 ### Other Pages
 
 <CCards :useFinder="true" :cards="[['biodigital', 'phenopackets'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
+
+#### Lecture on Microelectromechanical Systems (MEMS) & NEMS (By Prof. Zhiyong Gu; April, 2013) {#lecture-mems}
+
+:::details Expand for PDF Reader
+
+<PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/Lecture04-24-13.pdf" title="Lecture on Microelectromechanical Systems (MEMS) & NEMS (By Prof. Zhiyong Gu; April, 2013)" />
+
+:::
+
+#### Utility Fog Slides (Parvathy S. Dileep; Jinu Raj) {#utility-fog-slides}
+
+:::details Expand for PDF Reader
+
+<PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/Utility-Fog-Slides.pdf" title="Slideshow on Utility Fog" />
+
+:::
 
 ## [**Modular Open Systems Approach (MOSA) and Sensor Open Systems Approach (SOSA)**](https://www.atrenne.com/blog/mosa-vs-sosa-how-they-relate-for-hardware-integrators/) {#mosa-sosa}
 

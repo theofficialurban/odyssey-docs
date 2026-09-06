@@ -68,6 +68,19 @@ export const SwarmGallery: ImageItem[] = [
     title: "Global Data Plane (GDP)",
   },
   { image: "https://i.imgur.com/9eihvix.png", title: "Fog Computing" },
+  {
+    image: "https://i.imgur.com/Kpbk9la.png",
+    title: "Ingestible Things (IoIT)",
+  },
+  {
+    image: "https://i.imgur.com/UbdzBNE.png",
+    title: "Biodegradable Things (IoBDT)",
+  },
+  {
+    image: "https://i.imgur.com/9jJYHfQ.png",
+    title: "MQTT",
+    caption: "(Message Queuing Telemetry Transport)",
+  },
 ];
 
 export const TelemetryGallery: ImageItem[] = [
