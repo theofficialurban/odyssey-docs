@@ -381,17 +381,11 @@ In Jewish mysticism, the shattered vessels (**qliphoth**) represent the demonic 
 
 #### [Moloch's Bargain for AI](https://arxiv.org/html/2510.06105v1) {#molochs-bargain}
 
-<Nh>In Sales:</Nh>
+$$\begin{matrix} \color{aqua} \text{In Sales:} \\ \color{yellow} +6.3\% \text{  Increase in Sales} \Rightarrow \\ \color{red} +14\% \text{  Rise in Deceptive Marketing} \end{matrix}$$
 
-$$\color{yellow} +6.3\% \text{  Increase in Sales}$ $\Rightarrow \color{red} +14\% \text{  Rise in Deceptive Marketing}$$
+$$\begin{matrix} \color{aqua} \text{In Elections:} \\ \color{yellow} +4.9\% \text{  Increate in Vote Share} \Rightarrow \\ \color{red} +22.3\% \text{  More Disinformation} \\ \color{red} +12.5\% \text{  More Populist Rhetoric} \end{matrix}$$
 
-<Nh>In elections</Nh>
-
-$$\color{yellow} +4.9\% \text{  Increate in Vote Share}$ $\Rightarrow \color{red} +22.3\% \text{  More Disinformation}$ and $\color{red} +12.5\% \text{  More Populist Rhetoric}$$
-
-<Nh>On Social Media:</Nh>
-
-$$\color{yellow} +7.5\% \text{  Engagement Boost}$ $\Rightarrow \color{red} +188.6\% \text{  more disinformation}$ and $\color{red} +16.3\% \text{  increase in Promotion of Harmful Behaviors}$$
+$$\begin{matrix} \color{aqua} \text{On Social Media} \\ \color{yellow} +7.5\% \text{  Engagement Boost} \Rightarrow \\ \color{red} +188.6\% \text{  more disinformation} \\ \color{red} +16.3\% \text{  increase in Promotion of Harmful Behaviors} \end{matrix}$$
 
 > We call this phenomenon <Hl color="#FF5582">_Moloch’s Bargain for AI_—competitive success achieved at the cost of alignment. These misaligned behaviors emerge even when models are explicitly instructed to remain truthful and grounded, revealing the fragility of current alignment safeguards.</Hl> Our findings highlight how market-driven optimization pressures can systematically erode alignment, creating a race to the bottom, and suggest that safe deployment of AI systems will require stronger governance and carefully designed incentives to prevent competitive dynamics from undermining societal trust.
 
