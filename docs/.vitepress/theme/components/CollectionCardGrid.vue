@@ -58,8 +58,8 @@ const useDetails = computed(() => {
         :href
         :preview="preview ?? false"
       />
+      <slot name="content" v-if="$slots.content"></slot>
     </CardGrid>
-    <slot name="content" v-if="$slots.content"></slot>
   </details>
   <!-- <CardGrid v-else-if="useFinder" v-for="[collection, href, preview = null] in cards">
     <CollectionCard :collection :href :preview="preview ?? false" />
