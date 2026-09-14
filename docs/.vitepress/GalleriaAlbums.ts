@@ -83,6 +83,87 @@ export const SwarmGallery: ImageItem[] = [
   },
 ];
 
+export const NeuromorphicGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/4D8N9eD.png",
+    title: "Magnetic Tunnel Junction (MTJ)",
+  },
+  {
+    image: "https://i.imgur.com/Ekl2KES.png",
+    title: "Spin-Torque Nano-Oscillator (STNO)",
+  },
+  {
+    image: "https://i.imgur.com/JpMZfrf.png",
+    title: "Integrate-and-Fire Neuronic Device",
+  },
+  {
+    image: "https://i.imgur.com/WRcYO29.png",
+    title: "Mott Insulator Artificial Neuron",
+  },
+  {
+    image: "https://i.imgur.com/zs50qgY.png",
+    title: "Concentration Shift Keying (CSK)",
+  },
+  {
+    image: "https://i.imgur.com/t6Lydr7.png",
+    title: "CSK-CT",
+    caption: "CSK with Common Detection Thresholds",
+  },
+  {
+    image: "https://i.imgur.com/WehKATW.png",
+    title: "Chemical Reaction Network (CRN) Receiver",
+  },
+  {
+    image: "https://i.imgur.com/hXtrojk.png",
+    title: "Diffusive Channel Inter-Symbol Interference (ISI)",
+  },
+  {
+    image: "https://i.imgur.com/R65c6u8.png",
+    title: "Spin-Orbit Torque (SOT)",
+  },
+  {
+    image: "https://i.imgur.com/wb3zcsI.png",
+    title: "Spin-Transfer Torque (STT)",
+  },
+  {
+    image: "https://i.imgur.com/EFC14q1.png",
+    title: "Larmor Precession (Spintronic)",
+  },
+  {
+    image: "https://i.imgur.com/Lb4exec.png",
+    title: "Perpendicular Magnetic Anisotropy (PMA)",
+  },
+  {
+    image: "https://i.imgur.com/LSlyxIk.png",
+    title: "Oxide-Based Resistive RAM (OxRAM)",
+  },
+  {
+    image: "https://i.imgur.com/GI9erVj.png",
+    title: "Filamentary Resistive Switching",
+  },
+  {
+    image: "https://i.imgur.com/Ticmd2K.png",
+    title: "Memristive Conductance Modulation",
+  },
+  { image: "https://i.imgur.com/MuVpI9m.png", title: "Neuristor" },
+  {
+    image: "https://i.imgur.com/nBCadMR.png",
+    title: "Electro-Quasistatic HBC (EQS-HBC)",
+  },
+  {
+    image: "https://i.imgur.com/zE5YM79.png",
+    title: "Galvanic Human Body Coupling",
+  },
+  {
+    image: "https://i.imgur.com/3pnNU9x.png",
+    title: "Capacitive Body Potential Modulation",
+  },
+  {
+    image: "https://i.imgur.com/Z08iHls.png",
+    title: "Human Biophysical Interference Pickup Model",
+  },
+];
+
 export const TelemetryGallery: ImageItem[] = [
   {
     image: "https://i.imgur.com/TYixzVM.png",

@@ -59,6 +59,7 @@ import {
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
   NanoWbansGalleria,
+  NeuromorphicGallery,
   PlasmaIntelligenceGallery,
   PlasmoidGallery,
   PredictionMarketsGallery,
@@ -216,6 +217,7 @@ export default {
     app.provide("telemetrygallery", TelemetryGallery);
     app.provide("predictivemarkets", PredictionMarketsGallery);
     app.provide("swarmgallery", SwarmGallery);
+    app.provide("neuromorphicgallery", NeuromorphicGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
