@@ -1,11 +1,14 @@
 ---
 title: Spintronics
+description: |
+  This review examines the evolution of neuromorphic computing, a field dedicated to overcoming the von Neumann bottleneck by designing hardware that integrates memory and processing. To mimic the human brain’s high efficiency, researchers are developing artificial synapses and neurons using emerging materials like memristors, phase change memory, and ferroelectric transistors.
 tags:
   - Words & Terms
   - Reading Notes
   - Nanotechnology
   - Molecular Engineering
   - Neuromorphic Computing
+ogimage: https://i.imgur.com/fu2Eby5.png
 ---
 
 <script setup>
@@ -18,6 +21,22 @@ const vocabulary = inject("neuromorphicgallery")
 # Spintronics & Neuromorphic Computing {#title}
 
 [[toc]]
+
+## Overview
+
+This review examines the evolution of **neuromorphic computing**, a field dedicated to overcoming the **von Neumann bottleneck** by designing hardware that integrates memory and processing. To mimic the human brain’s high efficiency, researchers are developing **artificial synapses and neurons** using **emerging materials** like memristors, phase change memory, and ferroelectric transistors. The text categorizes these technologies based on their application in **Deep Neural Networks (DNNs)**, which require linear and symmetric weight updates, and **Spiking Neural Networks (SNNs)**, which prioritize spatiotemporal data processing and **spike-timing-dependent plasticity (STDP)**. By emulating the **integrate-and-fire** functions of biological neurons through innovative materials, these systems aim to achieve significantly lower power consumption and faster learning speeds than current software-based approaches. While challenges regarding **device variation** and standardized training algorithms remain, the source highlights the vast potential of these hardware advances to revolutionize **next-generation computing**.
+
+### Additional Links & Resources {#resources}
+
+1. [Imgur Album](https://imgur.com/a/neuromorphic-computing-iKj76Xf)
+2. [Deliang Fan from Arizona State University, Publications & Graphics](https://faculty.engineering.asu.edu/dfan/neuromorphic-computing/)
+3. [Integrated Spintronics & CMOS Design Slideshow](https://ece.au.dk/fileadmin/ece/Research/R-Day/Sonal_Shreya_-_Integrated_Spintronics.pdf)
+4. [Neuromorphic Computing Slideshow](https://magnetism.eu/esm/2024/slides/esm2024-mizrahi-slides.pdf)
+5. [Memory & Logic Based on Spin (Slideshow)](https://my8693.github.io/attach/spin/spin.pdf)
+6. [Modeling & Computing-in-Memory Design](https://theses.hal.science/tel-04210216v1/file/130197_WANG_2023_archivage.pdf)
+7. [Urban's pCloud Folder](https://u.pcloud.link/publink/show?code=kZgIKzJZJK2I5AlDVYzO9URR7N1ptzFSM46X)
+
+<CCards :useFinder="true" :cards="[['technical', 'memristors'], ['biodigital', 'human-interaction-emerging-tech'], ['technical', 'nano-tech-molecular-speculations'], ['biodigital', 'phenopackets'], ['biodigital', 'cmos'], ['quantum', 'semiconductors'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
 
 ### Words & Terms {#vocab}
 

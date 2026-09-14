@@ -1,5 +1,13 @@
 ---
 title: Memristors
+description: |
+  This text explores the emergence of the memristor as a transformative fourth fundamental circuit element, complementing the traditional trio of resistors, capacitors, and inductors. It details how these components possess a unique resistance memory that allows them to store data based on past electrical charges, making them ideal for non-volatile memory and energy-efficient neuromorphic computing.
+tags:
+  - Words & Terms
+  - Reading Notes
+  - Nanotechnology
+  - Molecular Engineering
+  - Neuromorphic Computing
 ---
 
 <script setup>
@@ -18,6 +26,18 @@ const vocabulary = inject("neuromorphicgallery")
 ![](https://i.imgur.com/VgiwsXe.png)
 
 This text explores the emergence of the **memristor** as a transformative **fourth fundamental circuit element**, complementing the traditional trio of resistors, capacitors, and inductors. It details how these components possess a unique **resistance memory** that allows them to store data based on past electrical charges, making them ideal for **non-volatile memory** and energy-efficient **neuromorphic computing**. A central theme is the development of a cost-effective **M-device**, which uses simple hardware like a thyristor to replicate the complex **insulator-to-metal transitions** found in high-end quantum materials. Ultimately, the source aims to demonstrate how these devices can emulate **biological neurons and synapses**, paving the way for advanced **artificial intelligence** and innovative medical treatments for neurological disorders.
+
+### Additional Links & Resources {#resources}
+
+1. [Imgur Album](https://imgur.com/a/neuromorphic-computing-iKj76Xf)
+2. [Deliang Fan from Arizona State University, Publications & Graphics](https://faculty.engineering.asu.edu/dfan/neuromorphic-computing/)
+3. [Integrated Spintronics & CMOS Design Slideshow](https://ece.au.dk/fileadmin/ece/Research/R-Day/Sonal_Shreya_-_Integrated_Spintronics.pdf)
+4. [Neuromorphic Computing Slideshow](https://magnetism.eu/esm/2024/slides/esm2024-mizrahi-slides.pdf)
+5. [Memory & Logic Based on Spin (Slideshow)](https://my8693.github.io/attach/spin/spin.pdf)
+6. [Modeling & Computing-in-Memory Design](https://theses.hal.science/tel-04210216v1/file/130197_WANG_2023_archivage.pdf)
+7. [Urban's pCloud Folder](https://u.pcloud.link/publink/show?code=kZgIKzJZJK2I5AlDVYzO9URR7N1ptzFSM46X)
+
+<CCards :useFinder="true" :cards="[['technical', 'spintronics'], ['biodigital', 'human-interaction-emerging-tech'], ['technical', 'nano-tech-molecular-speculations'], ['biodigital', 'phenopackets'], ['biodigital', 'cmos'], ['quantum', 'semiconductors'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
 
 ### Words & Terms {#vocab}
 

@@ -1,5 +1,12 @@
 ---
 title: Human Interaction w Emerging Tech
+description: |
+  This document introduces a sophisticated framework for human-technology teaming, moving beyond the traditional view that positions human control and machine autonomy as opposing forces. The authors argue that true synergy is found in complementarity, where the unique strengths of people and digital systems mutually reinforce one another to overcome individual limitations. Central to this evolution is the emergence of machine learning, which has surpassed Polanyi’s paradox—the idea that human knowledge is often too intuitive to be programmed—by allowing technology to develop its own patterns and autonomous capabilities.
+tags:
+  - Reading Notes
+  - Nanotechnology
+  - Molecular Engineering
+  - Neuromorphic Computing
 ---
 
 [[atomic]]
@@ -13,6 +20,8 @@ Proceedings of the 5th International Virtual Conference on Human Interaction a
 ## Overview
 
 This document introduces a sophisticated framework for **human-technology teaming**, moving beyond the traditional view that positions human control and machine autonomy as opposing forces. The authors argue that true synergy is found in **complementarity**, where the unique strengths of people and digital systems mutually reinforce one another to overcome individual limitations. Central to this evolution is the emergence of **machine learning**, which has surpassed **Polanyi’s paradox**—the idea that human knowledge is often too intuitive to be programmed—by allowing technology to develop its own patterns and **autonomous capabilities**.
+
+<CCards :useFinder="true" :cards="[['technical', 'spintronics'], ['technical', 'memristors'], ['technical', 'nano-tech-molecular-speculations'], ['biodigital', 'phenopackets'], ['biodigital', 'cmos'], ['quantum', 'semiconductors'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
 
 ## Theoretical Synthesis: Boundary Management and the Formal Model of Availability
 
