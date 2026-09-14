@@ -53,7 +53,7 @@ The device is defined by three critical properties:
 
 - **Non-volatility:** The memristor retains its resistance state even after power is removed, mimicking the long-term data retention of biological synapses.
 - **Hysteresis:** On a current-voltage plot, memristors exhibit "pinched hysteresis loops," indicating that the device's behavior is intrinsically dependent on the history of the applied electrical stress.
-- **Memory-like Behavior:** Unlike a standard resistor, a memristor’s resistance—or "memristance"—is a function of the total charge (q) or magnetic flux (\Phi) that has passed through it.
+- **Memory-like Behavior:** Unlike a standard resistor, a memristor’s resistance—or "memristance"—is a function of the total charge (q) or magnetic flux $(\Phi)$ that has passed through it.
 
 **The "So What?" for Learners:** In traditional Von Neumann architectures, memory and processing are physically separate, leading to massive energy bottlenecks. In a memristive system, the device is the processor and the memory simultaneously. By "remembering" its charge history, a memristor can emulate the switching behavior of a neuron or the weight of a synapse, enabling massively parallel computing at a fraction of the power required by digital simulations.
 
@@ -67,21 +67,21 @@ Designing biomorphic hardware requires a precise translation of cellular mechani
 
 | Biological Component           | Electronic Equivalent                        | Functional Synergy                                                                                                                                           |
 | ------------------------------ | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Lipid Bilayer Membrane**     | **Capacitor ($C_m$)**                        | The bilayer acts as a high-quality insulator that separates charge, functioning as an electronic capacitor to store the membrane potential (V_m).            |
+| **Lipid Bilayer Membrane**     | **Capacitor $(C_m)$**                        | The bilayer acts as a high-quality insulator that separates charge, functioning as an electronic capacitor to store the membrane potential $(V_m)$.          |
 | **Voltage-Gated Ion Channels** | **M-Device (Memristive Conductance** $g(V)$) | These protein channels open or close in response to voltage; the M-device replicates this by switching from high to low resistance at a specific threshold.  |
-| **Dendrites**                  | **Input Current Signals ($I_{in}$)**         | Dendrites integrate incoming chemical and electrical signals; in hardware, this is represented by the external current $(I_{in})$ injected into the circuit. |
-| **Axon**                       | **Output/Spike Path ($V_{out}$)**            | The axon is the transmission line for action potentials; the $V_{out}$ path carries the resulting voltage spike to subsequent stages.                        |
-| **Soma (Cell Body)**           | **Integration and Discharge Center**         | The Soma integrates inputs until a threshold is reached; the hardware circuit integrates charge on C_m until the M-device triggers a discharge.              |
+| **Dendrites**                  | **Input Current Signals $(I_{in})$**         | Dendrites integrate incoming chemical and electrical signals; in hardware, this is represented by the external current $(I_{in})$ injected into the circuit. |
+| **Axon**                       | **Output/Spike Path $(V_{out})$**            | The axon is the transmission line for action potentials; the $V_{out}$ path carries the resulting voltage spike to subsequent stages.                        |
+| **Soma (Cell Body)**           | **Integration and Discharge Center**         | The Soma integrates inputs until a threshold is reached; the hardware circuit integrates charge on $C_m$ until the M-device triggers a discharge.            |
 
 _While these parallels exist in theory, realizing them in physical hardware requires a breakthrough that prioritizes both reliability and cost-effectiveness._
 
 ### 3. Engineering the "M-Device": A Breakthrough in Accessibility
 
-Realizing spiking neurons has historically relied on volatile "Mott insulators"—quantum materials like Vanadium Oxide (VO_2) that are notoriously difficult to fabricate and inconsistent in performance. The "M-device" (Marcelo device) represents a paradigm shift by utilizing conventional electronics to mimic quantum behaviors:
+Realizing spiking neurons has historically relied on volatile "Mott insulators"—quantum materials like Vanadium Oxide $(VO_2)$ that are notoriously difficult to fabricate and inconsistent in performance. The "M-device" (Marcelo device) represents a paradigm shift by utilizing conventional electronics to mimic quantum behaviors:
 
 1. **Component Selection:** The M-device is constructed using a **thyristor** (Silicon-Controlled Rectifier) and a single resistor $(R_{gate})$.
 2. **Circuit Configuration:** The resistor $R_{gate}$ connects the thyristor’s anode to its gate terminal. This simple modification transforms a three-terminal industrial part into a two-terminal memristive device.
-3. **Engineering Advantages:** By using stable, off-the-shelf components, the M-device achieves a production cost of **less than 1**. Furthermore, it offers superior controllability; the threshold voltage ($V*{th}$) is linearly related to the value of $R*{gate}$, allowing for precise tuning that Mott materials cannot provide.
+3. **Engineering Advantages:** By using stable, off-the-shelf components, the M-device achieves a production cost of **less than 1**. Furthermore, it offers superior controllability; the threshold voltage $(V_{th})$ is linearly related to the value of $R_{gate}$, allowing for precise tuning that Mott materials cannot provide.
 
 **The circuit is the model.** In neuromorphic engineering, we do not simply simulate a neuron using software; we build a physical circuit whose inherent electrical dynamics are the mathematical equations of the biological model.
 
@@ -97,13 +97,13 @@ As input current $(I_{in})$ enters the circuit, it charges the membrane capacito
 
 #### II. The Threshold Event
 
-The M-device begins in a high-resistance state (low conductance). However, once $V*m$ reaches the threshold voltage $(V*{th})$, the internal **J2 depletion layer** of the thyristor is "flooded" with carriers. This causes the J2 junction to collapse, and the M-device switches instantaneously to a low-resistance (high conductance) state.
+The M-device begins in a high-resistance state (low conductance). However, once $V*m$ reaches the threshold voltage $(V_{th})$, the internal **J2 depletion layer** of the thyristor is "flooded" with carriers. This causes the J2 junction to collapse, and the M-device switches instantaneously to a low-resistance (high conductance) state.
 
 #### III. The Fire/Reset
 
-With the resistance collapsed, the charge stored in $C*m$ rapidly discharges through the M-device. This creates a sharp voltage spike $(V*{out})$. Once the current falls below the **holding current $(I_{hold})$**, the depletion layer reforms, resetting the M-device to high resistance for the next cycle.
+With the resistance collapsed, the charge stored in $C_m$ rapidly discharges through the M-device. This creates a sharp voltage spike $(V_{out})$. Once the current falls below the **holding current $(I_{hold})$**, the depletion layer reforms, resetting the M-device to high resistance for the next cycle.
 
-**The "Leaky" Aspect and Nonlinearity:** A biological neuron is a "leaky" integrator; it cannot hold charge indefinitely. The M-device replicates this because it is a **non-ideal switch**, meaning its "off" state still allows for a minimal leak current. The rate of this leakage is determined by the R*{gate} component. Furthermore, while simple models are linear, the MSN follows a **logarithmic relationship** between spiking frequency and input current $(f(I*{in}) \propto 1 / \log(1 - I*{min}/I*{in}))$ near the lower excitation threshold $(I_{min})$, providing a higher degree of biological realism.
+**The "Leaky" Aspect and Nonlinearity:** A biological neuron is a "leaky" integrator; it cannot hold charge indefinitely. The M-device replicates this because it is a **non-ideal switch**, meaning its "off" state still allows for a minimal leak current. The rate of this leakage is determined by the $R_{gate}$ component. Furthermore, while simple models are linear, the MSN follows a **logarithmic relationship** between spiking frequency and input current $(f(I_{in}) \propto 1 / \log(1 - I_{min}/I_{in}))$ near the lower excitation threshold $(I_{min})$, providing a higher degree of biological realism.
 
 _While simple spiking is a powerful fundamental, biological complexity necessitates adding additional dimensions to the circuit._
 
@@ -111,13 +111,13 @@ _While simple spiking is a powerful fundamental, biological complexity necessita
 
 To emulate the complex "bursting" patterns—rhythmic clusters of spikes followed by quiet periods—the hardware must evolve from the MSN to the **Memristive Spiking Bursting Neuron (MSBN)**.
 
-By introducing a second **time constant ($\tau_s$)** via an additional capacitor (C_s) and resistor (R_s), we add a second "compartment" to the model. This allows the hardware to generate four distinct neuronal behaviors:
+By introducing a second **time constant $(\tau_{s})$** via an additional capacitor $(C_s)$ and resistor $(R_s)$, we add a second "compartment" to the model. This allows the hardware to generate four distinct neuronal behaviors:
 
 - **Tonic Spiking:** Rhythmic, single pulses.
 - **Fast Spiking:** High-frequency, continuous pulses.
 - **Intrinsic Bursting (Type 1 and Type 2):** Patterns where the neuron emits clusters of spikes, modulated by the interaction of the two time constants.
 
-**The "So What?":** The frequency of these behaviors is determined by C_m. By tuning the capacitance, we can scale the spiking dynamics from the microsecond range $(10^{-6}s)$ typical of electronics to the **millisecond range ($10^{-3}s$)** of biology, ensuring the hardware can communicate directly with living neural networks.
+**The "So What?":** The frequency of these behaviors is determined by $C_m$. By tuning the capacitance, we can scale the spiking dynamics from the microsecond range $(10^{-6}s)$ typical of electronics to the **millisecond range $(10^{-3}s)$** of biology, ensuring the hardware can communicate directly with living neural networks.
 
 _These advanced hardware dynamics have profound implications for the future of medical science and neuroprosthetics._
 
@@ -158,7 +158,7 @@ The strategic impact of IMC lies in transforming Power-Performance-Area-Cost (PP
 
 While the theoretical benefits of memristive systems are absolute, commercial adoption in high-stakes industrial environments—such as autonomous systems or medical diagnostics—is gated by reliability. Resistive RAM (RRAM) and Magnetoresistive RAM (MRAM) are the primary contenders, but their transition to the production line requires overcoming significant physical and architectural hurdles.
 
-Oxide-Based RRAM (OxRAM) is the focus for synaptic emulation, typically utilizing a **1T1R (one transistor, one resistor)** architecture. The transistor acts as a selector to control current, while the resistive element (often Hafnium Dioxide, HfO_2) toggles between a High Resistance State (HRS) and a Low Resistance State (LRS). Switching is achieved through a "SET" operation (forming a conductive filament) and a "RESET" operation (breaking that filament).
+Oxide-Based RRAM (OxRAM) is the focus for synaptic emulation, typically utilizing a **1T1R (one transistor, one resistor)** architecture. The transistor acts as a selector to control current, while the resistive element (often Hafnium Dioxide, $HfO_2$) toggles between a High Resistance State (HRS) and a Low Resistance State (LRS). Switching is achieved through a "SET" operation (forming a conductive filament) and a "RESET" operation (breaking that filament).
 
 #### Critical Challenges: Variability and Non-Idealities
 
@@ -173,7 +173,7 @@ Mitigation strategies currently involve improved fabrication, advanced device mo
 
 ### 3. The "M-Device": Cost-Efficiency of Thyristor-Based Spiking Neurons
 
-For implementing artificial neurons, the industry has struggled with Mott-material neuristors (e.g., VO_2, NbO_2), which are difficult to fabricate and lack consistent reliability. A strategic "trivial implementation" of an analog spiking neuron is now possible using volatile memristors—specifically the "M-Device."
+For implementing artificial neurons, the industry has struggled with Mott-material neuristors (e.g., $VO_2$, $NbO_2$), which are difficult to fabricate and lack consistent reliability. A strategic "trivial implementation" of an analog spiking neuron is now possible using volatile memristors—specifically the "M-Device."
 
 The M-Device utilizes conventional semiconductor components to mimic the behavior of biological neurons at a fraction of the cost. By connecting the gate and anode of a thyristor with a resistor, we create a two-terminal device that emulates the complex switching of Mott insulators.
 
@@ -315,9 +315,9 @@ The evolution of integrated electronics has been constrained for decades by the 
 
 #### Theoretical Grounding
 
-The memristor’s behavior is defined by the nonlinear relationship between charge (q), current (i), voltage (v), and magnetic flux linkage (\Phi). While traditional resistors are defined by a linear V-I relationship, the memristor is governed by the following mathematical proofs derived from the fundamental variables:
+The memristor’s behavior is defined by the nonlinear relationship between charge (q), current (i), voltage (v), and magnetic flux linkage $(\Phi)$. While traditional resistors are defined by a linear V-I relationship, the memristor is governed by the following mathematical proofs derived from the fundamental variables:
 
-1. **Smooth Flux-Controlled Relationship:** $q(\Phi) = \beta\Phi + \xi\Phi^3, where W(\Phi) = \frac{dq(\Phi)}{d\Phi} = \beta + 3\xi\Phi^2$
+1. **Smooth Flux-Controlled Relationship:** $q(\Phi) = \beta\Phi + \xi\Phi^3$, where $W(\Phi) = \frac{dq(\Phi)}{d\Phi} = \beta + 3\xi\Phi^2$
 2. **Current Relationship:** $i = W(\Phi)v$
 3. **Charge-Controlled Memristance:** $v = M(q) \cdot i$
 4. **Flux Linkage Definition:** $\Phi = \int v \, dt$
@@ -339,16 +339,16 @@ Implementing reliable memristive systems requires a convergence of materials sci
 
 We must balance the high performance of transition metal oxides against the cost-effective scalability of organic polymers.
 
-| Feature             | Transition Metal Oxides (TiO_2, HfO_2, Ta_2O_5) | Polymers / Organic Materials           |
-| ------------------- | ----------------------------------------------- | -------------------------------------- |
-| **Switching Speed** | High (Nanosecond scale)                         | Moderate                               |
-| **Endurance**       | High (Reliable over 10^6+ cycles)               | Variable / Emerging                    |
-| **Scalability**     | Excellent (<10 nm nodes)                        | High flexibility; lower density        |
-| **Fabrication**     | Sputtering, Atomic Layer Deposition (ALD)       | Nanoimprint lithography, self-assembly |
+| Feature             | Transition Metal Oxides ($TiO_2$, $HfO_2$, $Ta_2O_5$) | Polymers / Organic Materials           |
+| ------------------- | ----------------------------------------------------- | -------------------------------------- |
+| **Switching Speed** | High (Nanosecond scale)                               | Moderate                               |
+| **Endurance**       | High (Reliable over $10^6+$ cycles)                   | Variable / Emerging                    |
+| **Scalability**     | Excellent (<10 nm nodes)                              | High flexibility; lower density        |
+| **Fabrication**     | Sputtering, Atomic Layer Deposition (ALD)             | Nanoimprint lithography, self-assembly |
 
 #### Volatile vs. Non-Volatile Mechanisms
 
-For synaptic weight storage, we utilize **non-volatile** OxRAM (e.g., HfO_2). However, for spiking neurons, we strategically employ **volatile** switching materials such as **Mott insulators** (e.g., NbO_2, VO_2). These materials exhibit a spectacular **insulator-to-metal transition (IMT)** triggered by thermal or electric stress. This IMT serves as the physical mechanism for artificial action potentials; the resistance collapses suddenly under stress, producing a current surge—or "spike"—before reverting to an insulating state once the stress is removed.
+For synaptic weight storage, we utilize **non-volatile** OxRAM (e.g., $HfO_2$). However, for spiking neurons, we strategically employ **volatile** switching materials such as **Mott insulators** (e.g., $NbO_2$, $VO_2$). These materials exhibit a spectacular **insulator-to-metal transition (IMT)** triggered by thermal or electric stress. This IMT serves as the physical mechanism for artificial action potentials; the resistance collapses suddenly under stress, producing a current surge—or "spike"—before reverting to an insulating state once the stress is removed.
 
 These physical properties must be carefully managed as we scale from individual devices to complex architectures.
 
@@ -359,7 +359,7 @@ The transition from lab-scale prototypes to mass-producible microchips requires 
 #### Architecture Comparison: 1T1R vs. Crossbar
 
 1. **1T1R (1 Transistor, 1 Resistor):** Uses a select transistor to provide precise current control and isolation. While this increases the area-cost, it is the current standard for high-reliability neuromorphic blocks.
-2. **1R Crossbar Array:** Offers the theoretical minimum cell size of 4F^2. However, it is plagued by **sneak-path currents**—unwanted leakage through unselected cells—which fundamentally limits the maximum size and accuracy of the array.
+2. **1R Crossbar Array:** Offers the theoretical minimum cell size of $4F^2$. However, it is plagued by **sneak-path currents**—unwanted leakage through unselected cells—which fundamentally limits the maximum size and accuracy of the array.
 
 #### Mitigating Physical Non-Idealities
 
@@ -386,14 +386,14 @@ Artificial synapses utilize the non-volatile nature of OxRAM to store weights th
 
 #### The M-Device Breakthrough
 
-For spiking neurons, the **M-device** (a Thyristor + Resistor synergy) represents a strategic breakthrough. At a cost of <1 using off-the-shelf components, it bypasses the fabrication difficulties of Mott insulators while providing superior **VLSI portability**. This device uses a thyristor’s internal hysteresis and holding current (I\_{hold}$) to produce complex biomimetic behaviors:
+For spiking neurons, the **M-device** (a Thyristor + Resistor synergy) represents a strategic breakthrough. At a cost of <1 using off-the-shelf components, it bypasses the fabrication difficulties of Mott insulators while providing superior **VLSI portability**. This device uses a thyristor’s internal hysteresis and holding current $(I_{hold})$ to produce complex biomimetic behaviors:
 
 - **Tonic Spiking:** Regular Successions of action potentials.
 - **Intrinsic Bursting:** Intermittent, high-frequency spiking modes.
 
 #### Phase Diagram and Therapeutic Intervention
 
-By tuning the time constants of the Memristive Spiking Bursting Neuron (MSBN)—the dendrite (\tau_m) and soma (\tau_s)—we can explore a complete **Phase Diagram** (TS, FS, IB1, IB2). This allows hardware to reproduce "pathological spiking traces" identical to those seen in biological nigral dopamine or pre-Bötzinger respiratory neurons. This capability is the cornerstone for **electroceuticals**, where memristive implants provide therapeutic intervention for Parkinson’s disease and epilepsy by correcting neural firing patterns.
+By tuning the time constants of the Memristive Spiking Bursting Neuron (MSBN)—the dendrite $(\tau_{m})$ and soma $(\tau_{s})$—we can explore a complete **Phase Diagram** (TS, FS, IB1, IB2). This allows hardware to reproduce "pathological spiking traces" identical to those seen in biological nigral dopamine or pre-Bötzinger respiratory neurons. This capability is the cornerstone for **electroceuticals**, where memristive implants provide therapeutic intervention for Parkinson’s disease and epilepsy by correcting neural firing patterns.
 
 ### 5. High-Level Integration: PIM and AI Accelerators
 
