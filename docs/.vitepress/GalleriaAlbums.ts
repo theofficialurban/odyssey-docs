@@ -162,6 +162,16 @@ export const NeuromorphicGallery: ImageItem[] = [
     image: "https://i.imgur.com/Z08iHls.png",
     title: "Human Biophysical Interference Pickup Model",
   },
+  {
+    image: "https://i.imgur.com/rPhjZHg.png",
+    title: "Variac",
+    caption: "Variable AC Autotransformer",
+  },
+  {
+    image: "https://i.imgur.com/MkEpX2I.png",
+    title: "Varistor (MOV)",
+    caption: "Metal Oxide Varistor",
+  },
 ];
 
 export const TelemetryGallery: ImageItem[] = [
