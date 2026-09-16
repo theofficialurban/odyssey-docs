@@ -28,15 +28,20 @@ This review examines the evolution of **neuromorphic computing**, a field dedica
 
 ### Additional Links & Resources {#resources}
 
-1. [Imgur Album](https://imgur.com/a/neuromorphic-computing-iKj76Xf)
-2. [Deliang Fan from Arizona State University, Publications & Graphics](https://faculty.engineering.asu.edu/dfan/neuromorphic-computing/)
-3. [Integrated Spintronics & CMOS Design Slideshow](https://ece.au.dk/fileadmin/ece/Research/R-Day/Sonal_Shreya_-_Integrated_Spintronics.pdf)
-4. [Neuromorphic Computing Slideshow](https://magnetism.eu/esm/2024/slides/esm2024-mizrahi-slides.pdf)
-5. [Memory & Logic Based on Spin (Slideshow)](https://my8693.github.io/attach/spin/spin.pdf)
-6. [Modeling & Computing-in-Memory Design](https://theses.hal.science/tel-04210216v1/file/130197_WANG_2023_archivage.pdf)
-7. [Urban's pCloud Folder](https://u.pcloud.link/publink/show?code=kZgIKzJZJK2I5AlDVYzO9URR7N1ptzFSM46X)
+<CCards :useFinder="true" :cards="[['technical', 'variacs'], ['technical', 'memristors'], ['biodigital', 'human-interaction-emerging-tech'], ['technical', 'nano-tech-molecular-speculations']]" />
 
-<CCards :useFinder="true" :cards="[['technical', 'memristors'], ['biodigital', 'human-interaction-emerging-tech'], ['technical', 'nano-tech-molecular-speculations'], ['biodigital', 'phenopackets'], ['biodigital', 'cmos'], ['quantum', 'semiconductors'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
+1. [Imgur Album](https://imgur.com/a/neuromorphic-computing-iKj76Xf)
+2. [Varistors & Variacs (Notes)](https://odyssey-docs.vercel.app/technical/variacs.html)
+3. [Memristors (Notes)](https://odyssey-docs.vercel.app/technical/memristors.html)
+4. [Spintronics (Notes)](https://odyssey-docs.vercel.app/technical/spintronics.html)
+5. [Deliang Fan from Arizona State University, Publications & Graphics](https://faculty.engineering.asu.edu/dfan/neuromorphic-computing/)
+6. [Integrated Spintronics & CMOS Design Slideshow](https://ece.au.dk/fileadmin/ece/Research/R-Day/Sonal_Shreya_-_Integrated_Spintronics.pdf)
+7. [Neuromorphic Computing Slideshow](https://magnetism.eu/esm/2024/slides/esm2024-mizrahi-slides.pdf)
+8. [Memory & Logic Based on Spin (Slideshow)](https://my8693.github.io/attach/spin/spin.pdf)
+9. [Modeling & Computing-in-Memory Design](https://theses.hal.science/tel-04210216v1/file/130197_WANG_2023_archivage.pdf)
+10. [Urban's pCloud Folder](https://u.pcloud.link/publink/show?code=kZgIKzJZJK2I5AlDVYzO9URR7N1ptzFSM46X)
+
+<CCards :useFinder="true" :cards="[['biodigital', 'phenopackets'], ['biodigital', 'cmos'], ['quantum', 'semiconductors'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
 
 ### Words & Terms {#vocab}
 
