@@ -1,13 +1,14 @@
 <script setup lang="ts">
+import type { HTMLAttributes } from "vue";
 const { class: className = "" } = defineProps<{
-  class?: string;
+  class?: HTMLAttributes["class"];
 }>();
 </script>
 
 <template>
   <div
     :class="[
-      'grid max-md:grid-flow-row md:grid-cols-3 gap-6 mx-auto py-3',
+      'grid max-md:grid-flow-row md:grid-cols-3 gap-6 mx-auto py-4',
       className,
     ]"
   >
