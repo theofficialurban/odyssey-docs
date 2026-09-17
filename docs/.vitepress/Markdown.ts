@@ -2,6 +2,7 @@ import type Token from "markdown-it/lib/token.mjs";
 import mdSpans from "markdown-it-bracketed-spans";
 import StateCore from "markdown-it/lib/rules_core/state_core.mjs";
 import MarkdownIt, { PluginSimple } from "markdown-it";
+import MarkdownFootnote from "markdown-it-footnote";
 import { RuleBlock } from "markdown-it/lib/parser_block.mjs";
 import { MarkdownOptions } from "vitepress";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
@@ -397,6 +398,7 @@ const MarkdownOps: MarkdownOptions = {
       "substack-frame",
     );
     // md.use(MermaidMarkdown);
+    md.use(MarkdownFootnote);
     md.use(SubstackDoubleBracket.Plugin);
     md.use(ShareBtnPlugin);
     md.use(MarkdownItContainer, "panel_container", {

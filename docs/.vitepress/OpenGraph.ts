@@ -161,7 +161,13 @@ function OGFromFrontmatter(pageData: PageData, ctx: TransformPageContext<any>) {
       },
     ],
   );
-
+  pageData.frontmatter.head.push([
+    "meta",
+    {
+      name: "og:site_name",
+      content: "Urban Odyssey Notes Archive",
+    },
+  ]);
   pageData.frontmatter.head.push([
     "meta",
     {

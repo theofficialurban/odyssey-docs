@@ -51,7 +51,7 @@ const useDetails = computed(() => {
   </CardGrid>
   <details v-else class="details custom-block" :class="className">
     <summary><slot name="details">Expand for Additional Links</slot></summary>
-    <CardGrid>
+    <CardGrid :class="className">
       <CollectionCard
         v-for="[collection, href, preview = null] in finderFound"
         :collection

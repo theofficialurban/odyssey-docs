@@ -84,7 +84,7 @@ const topLevelProps = computed(() => {
     >
       <NewCard
         :class="[
-          'overflow-hidden max-md:grid! max-md:grid-cols-4! md:flex md:flex-col',
+          'overflow-hidden max-md:grid! max-md:grid-cols-4! md:flex md:max-h-[500px] max-md:max-h-[300px] md:flex-col',
         ]"
         :pt="{
           body: {
@@ -108,7 +108,7 @@ const topLevelProps = computed(() => {
         </template>
         <template #title>
           <slot name="title" :title="title">
-            <div class="py-3">
+            <div class="pb-3">
               <span class="font-bold text-xl">{{ title }}</span>
             </div>
           </slot>
@@ -118,7 +118,7 @@ const topLevelProps = computed(() => {
         </template>
         <template #content>
           <slot :card="{ title, description, img, preview }">
-            <div class="space-y-4">
+            <div class="space-y-2">
               <p v-if="description">
                 {{
                   description.length > 150
