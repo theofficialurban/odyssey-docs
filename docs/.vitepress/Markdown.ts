@@ -399,6 +399,14 @@ const MarkdownOps: MarkdownOptions = {
     );
     // md.use(MermaidMarkdown);
     md.use(MarkdownFootnote);
+
+    // Add Footnotes H2
+    md.renderer.rules.footnote_block_open = () =>
+      '<hr class="footnotes-sep />\n' +
+      '<h2 id="footnotes" class="mt-3">&#128203; Footnotes</h2>\n' +
+      '<section class="footnotes">\n' +
+      '<ol class="footnotes-list">\n';
+
     md.use(SubstackDoubleBracket.Plugin);
     md.use(ShareBtnPlugin);
     md.use(MarkdownItContainer, "panel_container", {
