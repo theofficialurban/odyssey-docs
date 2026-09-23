@@ -836,15 +836,15 @@ Has Jesse Ridgway been exploited by precognitive dreams into brainwashing viewer
     https://datawrapper.dwcdn.net/9ysrs/
 
 [^DontDream]:
-    "Don't Dream About Me" (Film by Jesse Ridgway / McJuggerNuggets)
+    Don't Dream About Me (Film by Jesse Ridgway / McJuggerNuggets)
     Watch on YouTube: https://youtube.com/watch?v=v_hwlPO6GDw
 
 [^MJNStory]:
-    "The Channel That Broke YouTube | The McJuggerNuggets Story"
+    The Channel That Broke YouTube The McJuggerNuggets Story
     YouTube Video: https://youtu.be/CyTjtfiTW8I
 
 [^PsychoFamily]:
-    "PSYCHO FAMILY Documentary"
+    PSYCHO FAMILY Documentary
     Watch on YouTube: https://youtu.be/kugVPZU2bBo
 
 [^MJN]:
@@ -859,13 +859,13 @@ Has Jesse Ridgway been exploited by precognitive dreams into brainwashing viewer
     [PSYCHO FAMILY Documentary](https://youtu.be/kugVPZU2bBo)
 
 [^Snapping]:
-    "Snapping: America's Epidemic of Sudden Personality Change" (Flo Conway and Jim Siegelman investigate, 1975)
+    Snapping: America's Epidemic of Sudden Personality Change (Flo Conway and Jim Siegelman investigate, 1975)
     In the book Snapping, authors Flo Conway and Jim Siegelman investigate a widespread phenomenon they define as sudden personality change, a radical shift in awareness that can occur in a single, transformative moment. The text explores how various religious cults and mass-marketed therapies utilize sophisticated psychological and physiological techniques to bring about these drastic alterations of personality and belief systems. By weaving together the histories of the human potential movement and the rise of Evangelical Christianity, the authors argue that what often appears as a "spiritual breakthrough" or "enlightenment" can actually be a comprehensive attack on the mind that stunts critical thinking and individuality. Their ultimate purpose is to provide a new perspective on human communication that exposes the hidden dangers of these experiences, which can leave individuals detached, disoriented, or vulnerable to total social control. [Urban's Notes](../mahanism/snapping-epidemic.html)
 
-[^TranceFormations]: "TRANCE-Formations: Neuro-Linguistic Programming & the Structure of Hypnosis (John Grinder & Richard Bandler)" [Urban's Notes](../magic/trance-formation.html)
+[^TranceFormations]: TRANCE-Formations: Neuro-Linguistic Programming & the Structure of Hypnosis (John Grinder & Richard Bandler) [Urban's Notes](../magic/trance-formation.html)
 
-[^Frogs]: "Frogs Into Princes (Richard Bandler & John Grinder)" [Urban's Notes](../magic/frogs-into-princes.html)
+[^Frogs]: Frogs Into Princes (Richard Bandler & John Grinder) [Urban's Notes](../magic/frogs-into-princes.html)
 
 [^Conjurers]:
-    "Conjurers' Psychological Secrets (S.H. Sharpe, 1988)"
+    Conjurers Psychological Secrets (S.H. Sharpe, 1988)
     [View Notes Page](../magic/conjurers-psych-secrets.html)

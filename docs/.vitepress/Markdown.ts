@@ -507,7 +507,7 @@ const MarkdownOps: MarkdownOptions = {
     const FNBlockOpen: RenderRule = (tokens, idx, options) => {
       return (
         '<hr class="footnotes-sep />\n' +
-        '<h2 id="footnotes" class="mt-3">Footnotes</h2>\n' +
+        '<h2 id="footnotes" class="mt-3">&#128203;Footnotes</h2>\n' +
         '<section class="footnotes">\n' +
         '<ol class="footnotes-list">\n'
       );
