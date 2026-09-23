@@ -848,15 +848,15 @@ Has Jesse Ridgway been exploited by precognitive dreams into brainwashing viewer
     Watch on YouTube: https://youtu.be/kugVPZU2bBo
 
 [^MJN]:
+    Jesse Ridgway aka McJuggerNuggets
     The YouTube Career and Series Created by Jesse Tyler Ridgway aka McJuggerNuggets on YouTube
     Channel Link: https://www.youtube.com/@McJuggerNuggets
-
-    1. [The Complete Psycho Series | McJuggerNuggets](https://www.youtube.com/playlist?list=PLmJhC17ABwkmSAjQivNEByhTSS8L1ngYn)
-    2. [THE DEVIL INSIDE SERIES | McJuggerNuggets](https://www.youtube.com/playlist?list=PLmJhC17ABwklbtoq6_bTVhnBYHqtbjBy_)
-    3. [My Virtual Escape | McJuggerNuggets](https://www.youtube.com/playlist?list=PLmJhC17ABwkk1Ev0wF8y24rw3kRFOwy5Y)
-    4. [The Creator: Jesse Ridgway](https://youtu.be/Ha-LgDIwsog)
-    5. ["The Channel That Broke YouTube | The McJuggerNuggets Story"](https://youtu.be/CyTjtfiTW8I)
-    6. [PSYCHO FAMILY Documentary](https://youtu.be/kugVPZU2bBo)
+    [The Complete Psycho Series | McJuggerNuggets](https://www.youtube.com/playlist?list=PLmJhC17ABwkmSAjQivNEByhTSS8L1ngYn)
+    [THE DEVIL INSIDE SERIES | McJuggerNuggets](https://www.youtube.com/playlist?list=PLmJhC17ABwklbtoq6_bTVhnBYHqtbjBy_)
+    [My Virtual Escape | McJuggerNuggets](https://www.youtube.com/playlist?list=PLmJhC17ABwkk1Ev0wF8y24rw3kRFOwy5Y)
+    [The Creator: Jesse Ridgway](https://youtu.be/Ha-LgDIwsog)
+    ["The Channel That Broke YouTube | The McJuggerNuggets Story"](https://youtu.be/CyTjtfiTW8I)
+    [PSYCHO FAMILY Documentary](https://youtu.be/kugVPZU2bBo)
 
 [^Snapping]:
     "Snapping: America's Epidemic of Sudden Personality Change" (Flo Conway and Jim Siegelman investigate, 1975)
