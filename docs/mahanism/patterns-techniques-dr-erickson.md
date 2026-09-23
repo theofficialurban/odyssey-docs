@@ -22,7 +22,11 @@ tags:
 
 This text serves as a foundational exploration of **Milton Erickson’s hypnotic techniques**, systematically decoded by Richard Bandler and John Grinder to reveal the **underlying linguistic patterns** that make his work effective. The authors demonstrate how Erickson bypasses the conscious mind by using **vague, ambiguous language**, such as **nominalizations and unspecified predicates**, which forces the subject to internally generate their own meaning. A central theme is the concept of **pacing and leading**, where the hypnotist first validates the client’s current experience before subtly directing them toward new behaviors or altered states of consciousness. Through detailed case studies—including the famous "**tomato plant**" induction for pain control and a collaborative inquiry with **Aldous Huxley**—the text illustrates how **indirect communication** and the **utilization of a client's own model of the world** can elicit profound therapeutic changes. Ultimately, the purpose of the work is to provide an **explicit, learnable model** of hypnosis that empowers practitioners to harness the **potential of the unconscious mind** through precise verbal and non-verbal strategies.
 
-<CCards :useFinder="true" :cards="[['mahanism', 'persuasion-engineering'], ['mahanism', 'trance-formation'], ['reading', 'adventures-of-anybody']]" />
+<CCards :useFinder="true" :cards="[['mahanism', 'persuasion-engineering'], ['magic', 'trance-formation'], ['magic', 'structure-of-magic'], ['reading', 'adventures-of-anybody']]" />
+
+### Urban's Presentation on ["The Structure of Magic"](../magic/structure-of-magic.html) {#video}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v783jpg/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7aa7po-cause-before-symptom-w-urban-may-23rd-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/structure-of-magic?r=3kr5wz']]" />
 
 ## Decoding the Hidden Language: A Linguistic Key to the Mind
 

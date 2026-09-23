@@ -8,6 +8,7 @@ tags:
   - John Grinder
   - Applied Linguistics
   - Neuro-Linguistic Programming
+  - Urban's Videos
 ---
 
 [[atomic]]
@@ -22,6 +23,10 @@ tags:
 
 In **The Structure of Magic**, Richard Bandler and John Grinder explore how **language and mental models** shape human experience and the process of change. The authors argue that individuals do not interact with the world directly, but rather through **subjective maps** that are often limited by **generalization, deletion, and distortion**. These linguistic and cognitive filters can lead to an **impoverished model of reality**, causing people to feel trapped or paralyzed by a perceived lack of choices. By applying **transformational grammar** and specific verbal techniques, the book provides a **Meta-model** for therapists to identify and challenge these restrictive patterns. This systematic approach allows practitioners to help clients **expand their internal representations**, thereby uncovering new options for behavior and emotional relief. Ultimately, the text demonstrates that the "magic" performed by effective therapists is actually a **structured, learnable skill** rooted in the syntax of communication.
 
+### Urban's Presentation {#video}
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v783jpg/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7aa7po-cause-before-symptom-w-urban-may-23rd-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/structure-of-magic?r=3kr5wz']]" />
+
 ### Volume One
 
 This text introduces a **transformational model** of therapy that examines how human beings use **language to represent experience**. The authors argue that people suffer not because the world is limited, but because their **internal models of the world** are impoverished by linguistic distortions like **deletions, nominalizations, and universal quantifiers**. By utilizing a specialized **Meta-Model**, therapists can challenge these restricted "Surface Structures" to recover the richer "Deep Structure" of a client's actual life. This process functions as a **map for change**, allowing individuals to break through **semantically ill-formed** generalizations and reclaim a wider range of **creative choices and potential**.
@@ -29,6 +34,10 @@ This text introduces a **transformational model** of therapy that examines how
 ### Volume Two
 
 This seminal work explores how individuals construct internal **representational systems**—such as visual, auditory, and kinesthetic maps—to interpret their reality, noting that these personal models often limit human potential when they become rigid or **incongruent**. The authors provide a formal framework for therapists to identify **semantic ill-formedness**, such as "mind-reading" or "fuzzy functions," where a person's linguistic output fails to align with their sensory experience. By utilizing specific **meta-tactics** like matching predicates and sorting physical stances, practitioners can help clients bridge the gap between their mental "maps" and the actual "territory" of their lives. Ultimately, the text aims to provide a **structural language of growth** that enables people to integrate conflicting internal polarities and reclaim a sense of creative agency and **self-worth**.
+
+### Also by Richard Bandler & John Grinder {#also-by}
+
+<CCards :useFinder="true" :cards="[['magic', 'trance-formation'], ['mahanism', 'patterns-techniques-dr-erickson'], ['mahanism', 'persuasion-engineering'], ['reading', 'adventures-of-anybody']]" />
 
 ## **Foundation Primer: _The Map and the Territory_**
 

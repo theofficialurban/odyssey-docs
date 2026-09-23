@@ -4,6 +4,7 @@ description: |
   This 1993 work by Richard Bandler uses the format of a philosophical fable to explore the fluid nature of personal identity and the constructs of the human mind. The narrative follows a protagonist who transitions from a bored prince to a character named Anybody, a transformation that serves as a metaphor for the linguistic and psychological models Bandler developed in his non-fiction career.
 tags:
   - Reading Notes
+  - Richard Bandler
 ---
 
 [[atomic]]
@@ -18,7 +19,7 @@ tags:
 
 This 1993 work by Richard Bandler uses the format of a **philosophical fable** to explore the fluid nature of **personal identity** and the constructs of the human mind. The narrative follows a protagonist who transitions from a bored prince to a character named **Anybody**, a transformation that serves as a metaphor for the **linguistic and psychological models** Bandler developed in his non-fiction career. By depicting a journey where the hero literally **loses his identity** and must seek a new one through the guidance of eccentric figures like judges and scholars, the text functions as a **metaphorical teaching tool** designed to bypass conscious resistance. Ultimately, the story suggests that **reality is dreamlike and malleable**, encouraging readers to view their own sense of self as a flexible garment that can be exchanged or redesigned at will.
 
-<CCards :useFinder="true" :cards="[['mahanism', 'persuasion-engineering'], ['mahanism', 'patterns-techniques-dr-erickson'], ['mahanism', 'trance-formation']]" />
+<CCards :useFinder="true" :cards="[['mahanism', 'persuasion-engineering'], ['mahanism', 'patterns-techniques-dr-erickson'], ['magic', 'trance-formation'], ['magic', 'structure-of-magic']]" />
 
 ## The Evolution of "Anybody": A Study Guide to Identity and Transformation
 

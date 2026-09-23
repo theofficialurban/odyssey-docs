@@ -5,6 +5,7 @@ description: |
   In Persuasion Engineering, Richard Bandler and John La Valle present a dynamic model of sales and business communication rooted in Neuro-Linguistic Programming (NLP). The text shifts the focus from traditional product-based selling to the engineering of human feelings and internal states, arguing that customers purchase emotional outcomes like comfort or security rather than just physical objects.
 tags:
   - Reading Notes
+  - Covert Persuasion
   - Richard Bandler
   - Applied Linguistics
 ---
