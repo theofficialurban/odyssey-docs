@@ -3,6 +3,13 @@ title: Hypnosis Techniques of Milton Erickson
 description: |
   This text serves as a foundational exploration of Milton Erickson’s hypnotic techniques, systematically decoded by Richard Bandler and John Grinder to reveal the underlying linguistic patterns that make his work effective. The authors demonstrate how Erickson bypasses the conscious mind by using vague, ambiguous language, such as nominalizations and unspecified predicates, which forces the subject to internally generate their own meaning.
 secret: true
+tags:
+  - Neuro-Linguistic Programming
+  - Dr. Milton Erickson
+  - Applied Linguistics
+  - Richard Bandler
+  - John Grinder
+  - Reading Notes
 ---
 
 [[atomic]]

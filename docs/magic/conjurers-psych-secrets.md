@@ -3,6 +3,10 @@ title: Conjurers Psychological Secrets
 description: |
   S. H. Sharpe’s Conjurers' Psychological Secrets is a comprehensive treatise on the mental mechanics of magic, asserting that a magician's true power lies in manipulating human perception rather than mere manual dexterity. The work systematically classifies deceptions into objective illusions, which exploit physical sensory limitations like auditory direction or visual persistence, and subjective illusions, which leverage internal mental habits such as the distortion of time and false inference.
 secret: true
+tags:
+  - Conjuring & Illusion
+  - Reading Notes
+  - Stagecraft
 ---
 
 [[atomic]]
@@ -14,6 +18,8 @@ secret: true
 ## Overview
 
 S. H. Sharpe’s *Conjurers' Psychological Secrets* is a comprehensive treatise on the **mental mechanics** of magic, asserting that a magician's true power lies in manipulating human perception rather than mere manual dexterity. The work systematically classifies deceptions into **objective illusions**, which exploit physical sensory limitations like auditory direction or visual persistence, and **subjective illusions**, which leverage internal mental habits such as the distortion of time and false inference. Central to the text is the role of **suggestion and misdirection**, detailing how a performer can guide an audience’s focus and influence their choices through **guided forcing** or the creation of a specific **magical atmosphere**. By blending technical stagecraft with **mass psychology**, the book serves as a foundational guide for transforming simple puzzles into profound experiences of **wonder**.
+
+<CCards :useFinder="true" :cards="[['magic', 'conjuring-houdin'], ['magic', 'stage-illusion'], ['magic', 'frauds-con-games']]" />
 
 ## **The Architecture of Deception: A Foundational Study of Objective and Subjective Illusions**
 

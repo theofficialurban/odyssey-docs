@@ -3,6 +3,10 @@ title: Frauds & Con Games
 description: |
   This text serves as a detailed examination of white-collar crime and professional swindles, emphasizing that these non-violent offenses are often more lucrative and less risky than street crime. The author explores how institutional hypocrisy and legal loopholes allow corporate fraud to thrive as a "cost of doing business," while also detailing specific methods of securities theft, computer-based "data diddling," and bankruptcy scams.
 secret: true
+tags:
+  - Conjuring & Illusion
+  - Reading Notes
+  - Stagecraft
 ---
 
 [[atomic]]
@@ -16,6 +20,8 @@ secret: true
 ![](https://i.imgur.com/RwpBXAI.png)
 
 This text serves as a detailed examination of **white-collar crime** and professional swindles, emphasizing that these non-violent offenses are often more lucrative and less risky than street crime. The author explores how **institutional hypocrisy** and legal loopholes allow corporate fraud to thrive as a "cost of doing business," while also detailing specific methods of **securities theft**, computer-based "data diddling," and bankruptcy scams. Beyond the boardroom, the source exposes the exploitative nature of **predatory industries** targeting individual ambitions, specifically through the "writing racket" of vanity publishers and the fraudulent credentials offered by **diploma mills**. Finally, the text identifies the significance of **nomadic criminal clans**, such as the "Terrible Williamsons" and Gypsy groups, who leverage mobility and family ties to evade law enforcement. Ultimately, the work functions as a guide to **consumer and investor self-reliance**, arguing that prevention is the only effective defense in a system where con artists consistently outpace the law.
+
+<CCards :useFinder="true" :cards="[['magic', 'conjuring-houdin'], ['magic', 'stage-illusion'], ['magic', 'conjurers-psych-secrets']]" />
 
 ### Core Themes
 

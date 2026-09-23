@@ -2,6 +2,12 @@
 title: Structure of Magic
 description: |
   In The Structure of Magic, Richard Bandler and John Grinder explore how language and mental models shape human experience and the process of change. The authors argue that individuals do not interact with the world directly, but rather through subjective maps that are often limited by generalization, deletion, and distortion. These linguistic and cognitive filters can lead to an impoverished model of reality, causing people to feel trapped or paralyzed by a perceived lack of choices.
+tags:
+  - Reading Notes
+  - Richard Bandler
+  - John Grinder
+  - Applied Linguistics
+  - Neuro-Linguistic Programming
 ---
 
 [[atomic]]

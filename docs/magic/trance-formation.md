@@ -3,6 +3,11 @@ title: Trance Formations
 description: |
   This foundational text on Neuro-Linguistic Programming provides a detailed breakdown of how language and behavior can be used to navigate and influence altered states of consciousness. Based on the clinical observations of Milton Erickson, the authors demonstrate how practitioners can build rapport through pacing, use linguistic bridges to create smooth transitions into trance, and facilitate profound personal change.
 secret: true
+tags:
+  - Reading Notes
+  - Richard Bandler
+  - John Grinder
+  - Neuro-Linguistic Programming
 ---
 
 [[atomic]]
