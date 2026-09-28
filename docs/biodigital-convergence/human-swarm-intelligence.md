@@ -2,6 +2,11 @@
 title: Human Swarm Intelligence
 description: |
   This research paper introduces Hyperchat AI, a specialized architecture designed to foster collective superintelligence by linking large groups of people through a network of surrogate AI agents. Another paper introduces Conversational Swarm Intelligence (CSI), a technology designed to achieve Collective Superintelligence by allowing massive groups of humans and AI to deliberate in real-time. By mimicking the biological principles of swarms, CSI avoids the limitations of traditional data aggregation, such as polls or surveys, which often fail to solve complex, open-ended problems.
+tags:
+  - Human Husbandry
+  - SWARM Technology
+  - Collective Superintelligence
+  - Mermaid Charts
 ---
 
 [[atomic]]
@@ -11,6 +16,8 @@ description: |
 [[toc]]
 
 ## Source Overviews
+
+<CCards :useFinder="true" :cards="[['biodigital', 'smartmesh'], ['biodigital', 'swarm-tech'], ['biodigital', 'temporal-logic'], ['biodigital', 'human-interaction-emerging-tech'], ['biodigital', 'phenopackets'], ['technical', 'microfluidics'], ['technical', 'spintronics'], ['magic', 'conjuring-houdin'], ['magic', 'conjurers-psych-secrets']]" />
 
 ### [**_"Conversational Forecasting Across Large Human Groups Using a Swarm of Surrogate AI Agents"_**](https://arxiv.org/pdf/2604.09570) [^ConvForecasting]
 
