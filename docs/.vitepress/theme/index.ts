@@ -83,6 +83,8 @@ import { createMermaidRenderer } from "vitepress-mermaid-renderer";
 import { h, nextTick, watch } from "vue";
 import Question from "./components/Question.vue";
 import ColorPicker from "./components/PrimeVue/ColorPicker.vue";
+import PostCollection from "./components/PostCollection.vue";
+import { data as tagnotes } from "./data/tagnotes.data";
 
 export type SettingsFrontmatter =
   | {
@@ -147,7 +149,12 @@ export default {
 
     return h(LayoutShare);
   },
-  enhanceApp({ app }) {
+  async enhanceApp({ app }) {
+    // Tag Notes
+    //const tagNotes = await tagnotes
+    app.provide("tagnotes", tagnotes);
+    app.component("PostCollection", PostCollection);
+
     app.component("OdysseyBanner", OdysseyBanner);
     app.component("Substack", OdysseySubstack);
     app.component("Spotify", SpotifyPlaylists);
@@ -173,6 +180,7 @@ export default {
     app.component("CCards", CollectionCardGrid);
     //app.component("DictTest", DictTest);
     app.component("Redirect", Redirect);
+
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
     app.component("NonHeading", NonHeading);
