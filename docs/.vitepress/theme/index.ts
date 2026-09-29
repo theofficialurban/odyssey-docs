@@ -56,6 +56,7 @@ import {
   CyberneticsGallery,
   EliteTheoryGalleria,
   HiddenKingGallery,
+  HumanSwarmGallery,
   MetaPhotonicsGalleria,
   MorphicResonanceGalleria,
   NanoWbansGalleria,
@@ -226,6 +227,7 @@ export default {
     app.provide("predictivemarkets", PredictionMarketsGallery);
     app.provide("swarmgallery", SwarmGallery);
     app.provide("neuromorphicgallery", NeuromorphicGallery);
+    app.provide("humanswarmgallery", HumanSwarmGallery);
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);

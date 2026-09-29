@@ -11,6 +11,84 @@ export type CustomDialogOpenFunction = () => DynamicDialogInstance;
 export type CustomImageHtmlCaption = CustomDialogOpenFunction | null;
 export type CustomImageHtmlCaptions = CustomImageHtmlCaption[];
 
+export const HumanSwarmGallery: ImageItem[] = [
+  {
+    image: "https://i.imgur.com/L8lSvjZ.png",
+    title: "Conversational Swarm Intelligence (CSI)",
+  },
+  {
+    image: "https://i.imgur.com/BQDEPg9.png",
+    title: "Conversational Surrogate Agent",
+  },
+  {
+    image: "https://i.imgur.com/gOLjQkg.png",
+    title: "Hybrid Conversational Swarm Intelligence (HyCSI)",
+  },
+  {
+    image: "https://i.imgur.com/1MRmO2u.png",
+    title: "Contributor Agent (Infobot)",
+  },
+  {
+    image: "https://i.imgur.com/urTBBEx.png",
+    title: "Pluribus Avatar / Agent",
+  },
+  {
+    image: "https://i.imgur.com/ApJtmdf.png",
+    title: "Conversational Matching Engine (CME)",
+  },
+  { image: "https://i.imgur.com/9pgla0q.png", title: "Hyperswarm" },
+  { image: "https://i.imgur.com/t3HgBDJ.png", title: "Swarm Metaverse" },
+  { image: "https://i.imgur.com/uwUVJxX.png", title: "Shepherding Algorithm" },
+  {
+    image: "https://i.imgur.com/9raHPf4.png",
+    title: "Logical Shepherd",
+    caption: "AKA Sky Shepherd",
+  },
+  {
+    image: "https://i.imgur.com/T7wxpJC.png",
+    title: "Adaptive Allocation Logic (AAL)",
+  },
+  { image: "https://i.imgur.com/13osbib.png", title: "Mission Cryptology" },
+  {
+    image: "https://i.imgur.com/0kqbRFA.png",
+    title: "Avatarobot / Digital Doppelgänger",
+  },
+  {
+    image: "https://i.imgur.com/zrDGUH6.png",
+    title: "Hypersuasion (Hyper-Persuasion)",
+  },
+  {
+    image: "https://i.imgur.com/vL6cUIB.png",
+    title: "LeWorldModel",
+    caption: "(Joint Embedding Predictive World Models)",
+  },
+  { image: "https://i.imgur.com/bvw6Xm3.png", title: "MatrAIx Engine" },
+  {
+    image: "https://i.imgur.com/iXO5duj.png",
+    title: "Time Slotted Channel Hopping (TSCH)",
+  },
+  {
+    image: "https://i.imgur.com/bywO8tV.png",
+    title: "SmartMesh Mote",
+    caption: "(LTC5800 / Eterna SoC)",
+  },
+  {
+    image: "https://i.imgur.com/zt5ApPC.png",
+    title: "VManager (Virtual Manager)",
+  },
+  {
+    image: "https://i.imgur.com/mpjzBAR.png",
+    title: "OTAP",
+    caption: "(Over-The-Air Programming / OTAPCommit (0x19))",
+  },
+  { image: "https://i.imgur.com/d1mVIyd.png", title: "Sarkonian Mesh-Tag" },
+  {
+    image: "https://i.imgur.com/GoB6pEj.png",
+    title: "Neighbors Health Report",
+  },
+  { image: "https://i.imgur.com/ESj9ZjJ.png", title: "Blink Mode" },
+];
+
 export const SwarmGallery: ImageItem[] = [
   {
     image: "https://i.imgur.com/94VA5LZ.png",

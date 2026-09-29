@@ -6,14 +6,25 @@ tags:
   - SmartMesh
   - Human Husbandry
   - Nanotechnology
+  - Words & Terms
   - Mermaid Charts
 ---
+
+<script setup>
+import {inject} from "vue"
+const vocabulary = inject("humanswarmgallery")
+
+</script>
 
 [[atomic]]
 
 # SmartMesh, Dust Networks & Eterna IP {#title}
 
 [[toc]]
+
+## Key Words & Terms {#vocabulary}
+
+<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/collective-human-swarm-intelligence-EouMvSf" />
 
 ## Overview
 

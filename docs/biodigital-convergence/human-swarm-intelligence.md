@@ -5,15 +5,29 @@ description: |
 tags:
   - Human Husbandry
   - SWARM Technology
+  - Words & Terms
   - Collective Superintelligence
   - Mermaid Charts
 ---
+
+<script setup>
+import {inject} from "vue"
+const humanswarmvocab = inject("humanswarmgallery")
+const swarmvocab = inject("swarmgallery")
+
+const vocabulary = Array.of(humanswarmvocab, swarmvocab)
+
+</script>
 
 [[atomic]]
 
 # Collective Swarm Intelligence {#title}
 
 [[toc]]
+
+## Key Words & Terms {#vocabulary}
+
+<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/collective-human-swarm-intelligence-EouMvSf" :buttons="[{value: 'Swarm Album #01', href: 'https://imgur.com/a/swarm-terraswarm-technology-vocabulary-0C6Vs4V', props: {variant: 'outlined', size: 'small', fluid: true}}]" />
 
 ## Source Overviews
 

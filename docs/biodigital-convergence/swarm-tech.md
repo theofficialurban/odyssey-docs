@@ -15,7 +15,10 @@ ogimageheight: 302
 
 <script setup>
 import {inject} from "vue"
-const vocabulary = inject("swarmgallery")
+const humanswarmvocab = inject("humanswarmgallery")
+const swarmvocab = inject("swarmgallery")
+const vocabulary = Array.of(swarmvocab, humanswarmvocab)
+
 </script>
 
 [[atomic]]
@@ -28,7 +31,7 @@ const vocabulary = inject("swarmgallery")
 
 ## Key Words & Terms {#vocab}
 
-<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/swarm-terraswarm-technology-vocabulary-0C6Vs4V" />
+<ImgurGallery :value="vocabulary" imgurAlbum="https://imgur.com/a/swarm-terraswarm-technology-vocabulary-0C6Vs4V" :buttons="[{value: 'Human Swarm Intelligence Album', href: 'https://imgur.com/a/collective-human-swarm-intelligence-EouMvSf', props: {variant: 'outlined', size: 'small', fluid: true}}]" />
 
 ### Other Diagrams & Graphics {#graphics}
 
