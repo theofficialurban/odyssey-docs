@@ -17,7 +17,7 @@ ogimageheight: 302
 import {inject} from "vue"
 const humanswarmvocab = inject("humanswarmgallery")
 const swarmvocab = inject("swarmgallery")
-const vocabulary = Array.of(swarmvocab, humanswarmvocab)
+const vocabulary = [...swarmvocab, ...humanswarmvocab]
 
 </script>
 

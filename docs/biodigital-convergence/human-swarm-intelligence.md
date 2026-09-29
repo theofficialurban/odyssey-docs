@@ -15,7 +15,7 @@ import {inject} from "vue"
 const humanswarmvocab = inject("humanswarmgallery")
 const swarmvocab = inject("swarmgallery")
 
-const vocabulary = Array.of(humanswarmvocab, swarmvocab)
+const vocabulary = [...humanswarmvocab, ...swarmvocab]
 
 </script>
 
