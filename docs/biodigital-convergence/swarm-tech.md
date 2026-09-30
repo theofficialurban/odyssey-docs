@@ -80,6 +80,12 @@ Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7cypok/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7f52m2-swarm-technology-pt.-ii-cause-before-symptom-w-urban-sept.-5th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-2'], ['YouTube', 'https://youtube.com/live/BgfgmnwbK24'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-090526:2'], ['Spotify', 'https://open.spotify.com/episode/1avSWZs6xS96R39pWtTnbb?si=0mSqPl1tTXCD0UuKmNFtUQ']]" />
 
+== Part 3
+
+<Nh>Swarm Technology (Pt. III): Human-Swarm Teaming & Smart Dust ft James Carner [Sept. 29th, 2026]</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7dzyj8/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7g6bgq-swarm-technology-pt.-iii-human-swarm-teaming-ft-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-3'], ['YouTube', 'https://youtube.com/watch?v=5uC-vikdcHI'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/swarm-technology-3:9'], ['Spotify', 'https://open.spotify.com/episode/0GQLxDGBpQSVkgr9xh4s60?si=hvoHswaKRZKnYuuA2x42wg']]" />
+
 == TerraSwarm Demo
 
 <YouTube id="uE0bP-AS_sQ" />
@@ -148,7 +154,7 @@ This thesis explores the creation of **Self Organized Multi Agent Swarms (SOMAS
 
 ### Other Pages
 
-<CCards :useFinder="true" :cards="[['biodigital', 'phenopackets'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
+<CCards :useFinder="true" :cards="[['biodigital', 'human-swarm-intelligence'], ['biodigital', 'shepherding-uxvs'], ['biodigital', 'phenopackets'], ['biodigital', 'meta-ecology'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
 
 #### Lecture on Microelectromechanical Systems (MEMS) & NEMS (By Prof. Zhiyong Gu; April, 2013) {#lecture-mems}
 

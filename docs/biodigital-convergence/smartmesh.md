@@ -30,6 +30,10 @@ const vocabulary = inject("humanswarmgallery")
 
 ### SmartMesh IP Application Notes (LinearTech & Dust Networks)
 
+![Mote](https://news.cornell.edu/sites/default/files/styles/full_size/public/2025-11/1103_neural.jpg?itok=v6O9AXxG)
+
+> A neural implant developed at Cornell rests on a grain of salt. About 300 microns long and 70 microns wide, it’s the smallest neural implant capable of wirelessly transmitting brain activity data. [Full Article](https://news.cornell.edu/stories/2025/11/neural-implant-smaller-salt-grain-wirelessly-tracks-brain)
+
 This comprehensive technical guide serves as a manual for implementing and optimizing **SmartMesh IP wireless sensor networks**, focusing on the dual priorities of **network reliability and power efficiency**. Through a series of detailed application notes, the document explores the mechanics of **mesh behavior**, covering essential operational phases such as device joining, **over-the-air programming (OTAP)**, and data routing using the **6LoWPAN protocol**. It provides engineers with practical frameworks for **performance evaluation**, offering specific methodologies to measure and mitigate the impacts of **RF interference, latency, and congestion**. Ultimately, the text functions as a strategic roadmap for **planning and monitoring large-scale deployments**, ensuring that industrial wireless systems remain robust and healthy throughout their lifecycle. [^1] [^3] [^4] [^5]
 
 <CCards :useFinder="true" :cards="[['biodigital', 'temporal-logic'], ['biodigital', 'swarm-tech'], ['biodigital', 'human-swarm-intelligence'], ['biodigital', 'human-interaction-emerging-tech'], ['biodigital', 'phenopackets'], ['technical', 'microfluidics'], ['technical', 'spintronics'], ['quantum', 'ccru'], ['technical', 'numogram'], ['reading', 'nick-land'], ['magic', 'conjuring-houdin'], ['magic', 'conjurers-psych-secrets']]" />
