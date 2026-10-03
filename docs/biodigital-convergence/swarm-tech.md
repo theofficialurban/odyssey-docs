@@ -86,6 +86,16 @@ Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7dzyj8/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7g6bgq-swarm-technology-pt.-iii-human-swarm-teaming-ft-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-3'], ['YouTube', 'https://youtube.com/watch?v=5uC-vikdcHI'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/swarm-technology-3:9'], ['Spotify', 'https://open.spotify.com/episode/0GQLxDGBpQSVkgr9xh4s60?si=hvoHswaKRZKnYuuA2x42wg']]" />
 
+<CCard :useFinder='true' collection="biodigital" href="human-swarm-intelligence" :preview="true" />
+
+== Part 4
+
+<Nh>🐝The AI Hive Mind: Human-Swarm Teaming & Moloch's Bargain Explained (Pt. IV) ft James Carner [Sept. 30th, 2026]</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7e1dty/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7g7qrg-swarm-technology-pt.-iv-human-swarm-teaming-continued-ft-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-4'], ['YouTube', 'https://youtube.com/live/bdaOqH-mhns'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/swarm-technology-4:d'], ['Spotify', 'https://open.spotify.com/episode/47vHYY14bf4Aqxu693d5sv?si=oVbIa58DRqeUT8H8UAAKHg']]" />
+
+<CCard :useFinder='true' collection="biodigital" href="human-swarm-intelligence" :preview="true" />
+
 == TerraSwarm Demo
 
 <YouTube id="uE0bP-AS_sQ" />
@@ -101,6 +111,12 @@ Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
 == What is Swarm AI?
 
 <YouTube id="xWSkbsIRNMg" />
+
+== Cyborg Insects
+
+<YouTube id="Xhw1_2x7fqI" />
+<YouTube id="_i-_1QdY2Zc" />
+<YouTube id="hFguLwUT5lg" />
 
 :::
 

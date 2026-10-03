@@ -77,7 +77,8 @@ https://en.wikipedia.org/wiki/Transactional_interpretation
 
 ## Videos {#videos}
 
-Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
+Swarm Playlist (YouTube + Extras): https://www.youtube.com/playlist?list=PLfWnOKqeCKog
+Odysee Playlist: https://odysee.com/$/playlist/348c9899c711003d97f8e0342e039830efd3eacb
 
 :::tabs
 == Part 1
@@ -86,17 +87,27 @@ Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7cxa76/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7f3n4o-cause-before-symptom-w-urban-september-4th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-1'], ['YouTube', 'https://www.youtube.com/watch?v=eCbi-Slm9H4'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/Cause-Before-Symptom-090426:f'], ['Spotify', 'https://open.spotify.com/episode/7mUgRCbQbzGI8QSeIAOyTp?si=iJTP0fUKTDijcbB7vFOWpw']]" />
 
+<CCard :useFinder='true' collection="biodigital" href="swarm-tech" :preview="true" />
+
 == Part 2
 
 <Nh>Swarm Technology (Pt. II): Mesh & “Subordinated Operator” Status /w Urban [Sept. 5th, 2026]</Nh>
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7cypok/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7f52m2-swarm-technology-pt.-ii-cause-before-symptom-w-urban-sept.-5th-2026.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-2'], ['YouTube', 'https://youtube.com/live/BgfgmnwbK24'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-090526:2'], ['Spotify', 'https://open.spotify.com/episode/1avSWZs6xS96R39pWtTnbb?si=0mSqPl1tTXCD0UuKmNFtUQ']]" />
 
+<CCard :useFinder='true' collection="biodigital" href="swarm-tech" :preview="true" />
+
 == Part 3
 
 <Nh>Swarm Technology (Pt. III): Human-Swarm Teaming & Smart Dust ft James Carner [Sept. 29th, 2026]</Nh>
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7dzyj8/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7g6bgq-swarm-technology-pt.-iii-human-swarm-teaming-ft-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-3'], ['YouTube', 'https://youtube.com/watch?v=5uC-vikdcHI'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/swarm-technology-3:9'], ['Spotify', 'https://open.spotify.com/episode/0GQLxDGBpQSVkgr9xh4s60?si=hvoHswaKRZKnYuuA2x42wg']]" />
+
+== Part 4
+
+<Nh>🐝The AI Hive Mind: Human-Swarm Teaming & Moloch's Bargain Explained (Pt. IV) ft James Carner [Sept. 30th, 2026]</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7e1dty/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7g7qrg-swarm-technology-pt.-iv-human-swarm-teaming-continued-ft-james-carner.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/swarm-technology-4'], ['YouTube', 'https://youtube.com/live/bdaOqH-mhns'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/swarm-technology-4:d'], ['Spotify', 'https://open.spotify.com/episode/47vHYY14bf4Aqxu693d5sv?si=oVbIa58DRqeUT8H8UAAKHg']]" />
 
 == TerraSwarm Demo
 
@@ -113,6 +124,12 @@ Swarm Playlist: https://www.youtube.com/playlist?list=PLfWnOKqeCKog
 == What is Swarm AI?
 
 <YouTube id="xWSkbsIRNMg" />
+
+== Cyborg Insects
+
+<YouTube id="Xhw1_2x7fqI" />
+<YouTube id="_i-_1QdY2Zc" />
+<YouTube id="hFguLwUT5lg" />
 
 :::
 
