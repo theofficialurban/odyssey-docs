@@ -27,7 +27,7 @@ const vocabulary = [...humanswarmvocab, ...swarmvocab]
 
 ## Source Overviews
 
-<CCards :useFinder="true" :cards="[['biodigital', 'shepherding-uxvs'], ['biodigital', 'phenopackets'], ['biodigital', 'deceptive-language'], ['biodigital', 'smartmesh'], ['biodigital', 'meta-ecology'], ['biodigital', 'swarm-tech'], ['biodigital', 'temporal-logic'], ['biodigital', 'human-interaction-emerging-tech'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
+<CCards :useFinder="true" :cards="[['biodigital', 'cyborg-insects'], ['biodigital', 'hyperswarms'], ['biodigital', 'shepherding-uxvs'], ['biodigital', 'phenopackets'], ['biodigital', 'deceptive-language'], ['biodigital', 'smartmesh'], ['biodigital', 'meta-ecology'], ['biodigital', 'swarm-tech'], ['biodigital', 'temporal-logic'], ['biodigital', 'human-interaction-emerging-tech'], ['technical', 'the-metatron'], ['mahanism', 'metatron'], ['biodigital', 'blockchain-genomics'], ['biodigital', 'dao'], ['biodigital', 'artificial-liquid-intelligence'], ['biodigital', 'intelligent-tokens'], ['biodigital', 'smart-contracts'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'remote-telemetry'], ['biodigital', 'network-centric-warfare'], ['biodigital', 'intro-global-grid'], ['biodigital', 'ionized-sky'], ['biodigital', 'haarp'], ['biodigital', 'haarp-gwen']]" />
 
 ### [**_"Conversational Forecasting Across Large Human Groups Using a Swarm of Surrogate AI Agents"_**](https://arxiv.org/pdf/2604.09570) [^ConvForecasting]
 
@@ -78,6 +78,7 @@ https://en.wikipedia.org/wiki/Transactional_interpretation
 ## Videos {#videos}
 
 Swarm Playlist (YouTube + Extras): https://www.youtube.com/playlist?list=PLfWnOKqeCKog
+
 Odysee Playlist: https://odysee.com/$/playlist/348c9899c711003d97f8e0342e039830efd3eacb
 
 :::tabs

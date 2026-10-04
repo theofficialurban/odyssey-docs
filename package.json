@@ -58,6 +58,6 @@
     "primevue": "5.0.0-rc.1",
     "sass": "^1.92.1",
     "tailwindcss-primeui": "^0.6.1",
-    "vitepress-mermaid-renderer": "^1.1.28"
+    "vitepress-mermaid-renderer": "^1.2.2"
   }
 }
