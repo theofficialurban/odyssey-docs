@@ -2,7 +2,7 @@
 import { getRandomOpenGraphImage } from "../../../OpenGraph";
 import { NolebaseInlineLinkPreview } from "@nolebase/vitepress-plugin-inline-link-preview";
 import NewCard from "primevue/card";
-import { computed } from "vue";
+import { computed, ref } from "vue";
 
 interface Props {
   href: string;
@@ -10,6 +10,7 @@ interface Props {
   title: string;
   description?: string;
   class?: string;
+  inline?: boolean;
   preview?: boolean;
 }
 // const props = defineProps({
@@ -52,8 +53,8 @@ const {
   description = "",
   href,
   preview = false,
-  class:
-    className = "md:max-w-[350px] md:max-h-[500px] max-md:max-h-[300px] max-md:w-full",
+  inline = false,
+  class: className = "",
   img = getRandomOpenGraphImage(),
 } = defineProps<Props>();
 
@@ -74,24 +75,36 @@ const topLevelProps = computed(() => {
     return { href: href };
   }
 });
+
+const columnMode = ref("flex max-h-[500px] flex-col");
+const lineMode = ref("grid! grid-cols-4! max-h-[300px]");
+const regularMode = ref(
+  "overflow-hidden max-md:grid! max-md:grid-cols-4! md:flex md:max-h-[500px] max-md:max-h-[300px] md:flex-col",
+);
 </script>
 
 <template>
-  <div :class="className">
+  <div
+    :class="[
+      inline
+        ? 'max-h-[300px] w-full'
+        : className.length > 0
+          ? className
+          : 'md:max-w-[350px] md:max-h-[500px] max-md:max-h-[300px] max-md:w-full',
+    ]"
+  >
     <component
       :is="preview ? NolebaseInlineLinkPreview : 'a'"
       v-bind="topLevelProps"
     >
       <NewCard
-        :class="[
-          'overflow-hidden max-md:grid! max-md:grid-cols-4! md:flex md:max-h-[500px] max-md:max-h-[300px] md:flex-col',
-        ]"
+        :class="[inline ? lineMode : regularMode]"
         :pt="{
           body: {
-            class: 'max-md:col-span-4',
+            class: [inline ? 'col-span-4' : 'max-md:col-span-4'],
           },
           header: {
-            class: 'max-md:hidden',
+            class: [inline ? 'hidden' : 'max-md:hidden'],
           },
         }"
       >
@@ -108,7 +121,7 @@ const topLevelProps = computed(() => {
         </template>
         <template #title>
           <slot name="title" :title="title">
-            <div class="pb-3">
+            <div class="pb-1">
               <span class="font-bold text-xl">{{ title }}</span>
             </div>
           </slot>
@@ -118,7 +131,7 @@ const topLevelProps = computed(() => {
         </template>
         <template #content>
           <slot :card="{ title, description, img, preview }">
-            <div class="space-y-2">
+            <div class="space-y-1">
               <p v-if="description">
                 {{
                   description.length > 150

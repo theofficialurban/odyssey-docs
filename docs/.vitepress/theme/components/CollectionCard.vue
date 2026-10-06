@@ -13,12 +13,14 @@ interface Props {
   ogimage?: string | null;
   useFinder?: boolean;
   preview?: boolean;
+  inline?: boolean;
 }
 
 const {
   collection,
   href: hHref = null,
   preview = false,
+  inline = false,
   useFinder = false,
   ogimage: ogImg = null,
 } = defineProps<Props>();
@@ -74,6 +76,7 @@ const ogImage = computed<string>(() => {
     :description="foundPage.description"
     :img="foundPage.ogimage ?? ogImage"
     :href="foundPage.url"
+    :inline="inline"
     :preview
   />
 

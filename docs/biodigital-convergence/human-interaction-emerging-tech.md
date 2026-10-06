@@ -61,7 +61,7 @@ As outlined by Gross and Mueller, individuals organize their life roles (e.g., "
 
 #### The Target User
 
-While extreme segmenters (who might carry two phones) and extreme integrators (who allow all domains to blend) represent the ends of the spectrum, the **middle-user** is our primary architectural concern. <mark style="background: #FFF3A3A6;">For these users, the system cannot rely on simple "on/off" switches. Because their boundaries are fluid, the system must utilize a precise mathematical "refersTo" logic—analyzing the **Sender, Channel, and Content**—to resolve the ambiguity that the user cannot manually filter in real-time.</mark>
+While extreme segmenters (who might carry two phones) and extreme integrators (who allow all domains to blend) represent the ends of the spectrum, the **middle-user** is our primary architectural concern. <Hl color="#FFF3A3">For these users, the system cannot rely on simple "on/off" switches. Because their boundaries are fluid, the system must utilize a precise mathematical "refersTo" logic—analyzing the **Sender, Channel, and Content**—to resolve the ambiguity that the user cannot manually filter in real-time.</Hl>
 
 _To transform these "gut feelings" about boundaries into functional system logic, we must move from psychological theory to a formal mathematical model._
 

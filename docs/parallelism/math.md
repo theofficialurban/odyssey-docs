@@ -2,6 +2,11 @@
 title: Fomenko's Math Models
 description: |
   This academic analysis, attributed to Anatoly Fomenko, undertakes a thorough statistical and astronomical revision of Ptolemy's Almagest, challenging the traditional 2nd-century dating based on inherent contradictions in the star coordinates and claims that much of the observational data is counterfeit.
+tags:
+  - Reading Notes
+  - Anatoly Fomenko
+  - Statistical Analysis
+  - Dynastic Parallelism
 ---
 
 [[atomic]]

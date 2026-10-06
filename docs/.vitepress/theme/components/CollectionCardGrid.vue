@@ -15,6 +15,7 @@ interface Props {
   cards: CollectionCardTuple[];
   class?: string;
   useFinder?: boolean;
+  useInline?: boolean;
   useDetails?: boolean;
 }
 
@@ -22,6 +23,7 @@ const {
   cards,
   class: className = "",
   useFinder = false,
+  useInline = false,
   useDetails: details = false,
 } = defineProps<Props>();
 //const cardsRef = reactive(cards)
@@ -40,26 +42,40 @@ const useDetails = computed(() => {
 </script>
 
 <template>
-  <CardGrid v-if="!useDetails" :class="className">
+  <div
+    v-if="!useDetails"
+    :class="[
+      'grid gap-4 mx-auto py-3',
+      useInline ? 'grid-flow-row' : 'max-md:grid-flow-row md:grid-cols-3',
+      className,
+    ]"
+  >
     <CollectionCard
       v-for="[collection, href, preview = null] in finderFound"
       :collection
       :href
+      :inline="useInline"
       :preview="preview ?? false"
     />
     <slot name="content" v-if="$slots.content"></slot>
-  </CardGrid>
+  </div>
   <details v-else class="details custom-block" :class="className">
     <summary><slot name="details">Expand for Additional Links</slot></summary>
-    <CardGrid :class="className">
+    <div
+      :class="[
+        'grid gap-4 mx-auto py-3',
+        useInline ? 'grid-flow-row' : 'max-md:grid-flow-row md:grid-cols-3',
+      ]"
+    >
       <CollectionCard
         v-for="[collection, href, preview = null] in finderFound"
         :collection
         :href
+        :inline="useInline"
         :preview="preview ?? false"
       />
       <slot name="content" v-if="$slots.content"></slot>
-    </CardGrid>
+    </div>
   </details>
   <!-- <CardGrid v-else-if="useFinder" v-for="[collection, href, preview = null] in cards">
     <CollectionCard :collection :href :preview="preview ?? false" />

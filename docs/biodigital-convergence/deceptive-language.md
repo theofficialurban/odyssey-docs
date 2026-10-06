@@ -83,11 +83,9 @@ Both systems execute the exact same linguistic deception: **they construct an op
 
 In military defense specifications, terms like _"human-in-the-loop," "human-machine teaming,"_ and _"trust calibration"_ are presented as ethical safeguards [[`Open_Tareq_Ahram... (IHIET 2021)`](./human-interaction-emerging-tech.html), pp. 198, 203, 204]. The raw operational specs reveal that human decision-making is treated as a flaw to be eliminated:
 
-::::right
 :::highlight
 _"We have programs right now, capabilities right now that allow for fully automatic processing of sensor-to-shooter targeting, but we don't trust the data. And we still ensure that there's human intervention at every [step in the process]. And, of course, with each intervention by humans we're adding more time, more opportunities for mistakes to happen, time we're not going to have when an adversary's targeting our network... We have the ability for a quicker targeting cycle, but we don't trust the process."_ [[`Open_Tareq_Ahram... (IHIET 2021)`](./human-interaction-emerging-tech.html), p. 203]
 :::
-::::
 
 - **De-Coding "Human-Machine Teaming":** The human is not a partner; the human is a temporary "friction dampener" retained solely for legal liability until the automated sensor-to-shooter targeting cycle is granted total execution authority [[`IHIET 2021`](./human-interaction-emerging-tech.html), p. 203].
 
@@ -95,11 +93,9 @@ _"We have programs right now, capabilities right now that allow for fully automa
 
 In industrial human-computer interaction (HCI), papers describe _"adaptive automation"_ as a feature that _"modifies levels of automation based on states of the operator"_ [[`Open_Tareq_Ahram... (IHIET 2021)`](./human-interaction-emerging-tech.html), p. 265].
 
-::::right
 :::highlight
 _"One way of ensuring proper calibration is the adoption of adaptive automation mechanisms which allow systems to modify levels of automation or operations based on states of the operator... For automation to be effectively adaptive, they need to be capable of real-time measurement of human mental states... using facial expressions [Action Units], EEG, ECG, EDA, and eye tracking... Under-trust, the act of distrust when automation is trustworthy, can lead to disuse..."_ [[`Open_Tareq_Ahram... (IHIET 2021)`](./human-interaction-emerging-tech.html), pp. 265, 266]
 :::
-::::
 
 - **De-Coding "Adaptive Automation":** The system deploys continuous biotelemetric surveillance (tracking facial micro-expressions, skin conductance, and eye focus) to detect when a human operator displays "under-trust" (skepticism toward the machine) [[`IHIET 2021`](./human-interaction-emerging-tech.html), p. 265]. Upon detecting distrust, **the adaptive automation mechanism automatically triggers to override human inputs, revoke manual control, and enforce machine execution** [[`IHIET 2021`](./human-interaction-emerging-tech.html), pp. 265, 339–340].
 
@@ -107,11 +103,9 @@ _"One way of ensuring proper calibration is the adoption of adaptive automation 
 
 Commercial speech assistants (Alexa, Siri, Google Assistant) are marketed as "eyes-free, hands-free convenience tools" [[`Open_Tareq_Ahram... (IHIET 2021)`](./human-interaction-emerging-tech.html), p. 200]. In _IHIET 2021_, researchers explicitly define them as infrastructure for **Cognitive Hacks**:
 
-::::right
 :::highlight
 _"Marvin Zelkowitz provides a definition of the cognitive hack, stating that it 'refers to a computer or information system attack that relies on changing human users' perceptions and corresponding behaviors to be successful'... in contrast to attacks that operate solely within network infrastructure... The cognitive hack is a cyberattack that seeks to manipulate the perception of people by exploiting their psychological vulnerabilities... using concealed affordances and psychoacoustic hiding to embed hidden commands into audio files."_ [[`Open_Tareq_Ahram... (IHIET 2021)`](./human-interaction-emerging-tech.html), pp. 201–203]
 :::
-::::
 
 - **De-Coding "Psychoacoustic Hiding":** Operators use mathematical forced alignment and gradient descent to embed sub-threshold, imperceptible audio frequencies into broadcast media or smart-speaker feeds [[`IHIET 2021`](./human-interaction-emerging-tech.html), p. 202]. Human ears hear normal speech or music, while the device's Deep Neural Network (DNN) parses and executes secret commands, directly manipulating the user's environment and behavior without conscious consent [[`IHIET 2021`](./human-interaction-emerging-tech.html), pp. 202–203].
 
@@ -135,11 +129,9 @@ _"An algedonic mode of communication between two systems which do not speak each
 
 In _[Notes] Ccru and Gothic Materialism Notes_, critical theorists de-code modern data architectures:
 
-::::right
 :::highlight
 _"'Algorithmic Governmentality' is the dominant paradigm of the current data economy—a system where social normativity is inscribed into technical schemas... Under this regime, the 'Individual' is transformed into the 'Dividual.' This is the result of the analytical grammatization of psychic life: the process of breaking down human experience into discrete, recordable bits for the optimization of behavioral control... replacing active human choice with passive behavioral steering."_ [[`[Notes] Ccru`](../quantum/ccru.html), p. 316]
 :::
-::::
 
 - **De-Coding "Algorithmic Personalization":** The user is no longer viewed as a unified human individual, but as a fragmented collection of data points (**a Dividual**) [[`[Notes] Ccru`](../quantum/ccru.html), p. 316]. Automated prediction engines ("tertiary protentions") monitor past data tracks to anticipate and replace human choices, locking the target inside a personalized "filter bubble" that induces **functional stupidity** and total behavioral compliance [[`[Notes] Ccru`](../quantum/ccru.html), pp. 315, 316].
 
@@ -147,11 +139,9 @@ _"'Algorithmic Governmentality' is the dominant paradigm of the current data eco
 
 Unanimous AI white papers describe **Conversational Swarm Intelligence (CSI)** as "amplifying group social wisdom" [`Collective Superintelligence...`, p. 86; `Conversational Forecasting...`, p. 200]. The underlying engineering specifications reveal an active behavioral manipulation system:
 
-::::right
 :::highlight
 _"CSI breaks a large population into small subgroups and inserts a Conversational Surrogate AI Agent... powered by Large Language Models... The Deliberative Matching Engine (DME) optimizes informational diversity by selectively injecting insights to 'maximally challenge' receiving subgroups... while swarming algorithms monitor magnet motion in real-time to infer relative conviction and weight contributions."_ [`Collective Superintelligence...`, pp. 91, 94; `Conversational Forecasting...`, p. 210]
 :::
-::::
 
 - **De-Coding "Deliberative Matching Engine":** The system does not allow free human dialogue; it uses AI surrogates to profile participants in real time, calculate their **Support Values (0% to 100%)**, and intentionally inject tailored counterpoints to break human resistance, shift sentiment vectors, and force the group into an algorithmically targeted consensus [`Conversational Forecasting...`, pp. 208–210].
 
@@ -159,11 +149,9 @@ _"CSI breaks a large population into small subgroups and inserts a Conversationa
 
 Healthcare frameworks present **GA4GH Phenopackets v2.0** and **Dynamic Digital Twins** as "personalized medicine improvements" [[`Phenopackets v2.0 GA4GH`](./phenopackets.html); `Frontiers Oncology`, p. 127]. The technical infrastructure reveals total biological indexing:
 
-::::right
 :::highlight
 _"Phenopackets v2.0 offers a human and machine-readable way to structure phenotypic data about an individual... integrated with Fast Healthcare Interoperability Resources (FHIR) and OMOP Common Data Models... dynamic digital twins perpetually assimilate streaming clinical notes, wearable biosensor streams (heart rate, gait analysis, stress levels), and multi-omics datasets... concluding ~1,000 therapy-rehearsal simulations in under 1 second..."_ [[`Phenopackets v2.0 GA4GH`](./phenopackets.html); `Frontiers Oncology`, pp. 128, 133, 134]
 :::
-::::
 
 - **De-Coding "Phenopackets & Digital Twins":** Human biological existence (DNA, clinical symptoms, real-time heart rate, gait) is converted into computable, machine-readable JSON data packets [[`Phenopackets v2.0 GA4GH`](./phenopackets.html); `Frontiers Oncology`, p. 133]. This bio-data is tokenized onto smart contracts and fused into **Alethea AI iNFT "Personality Pods"** (ERC-721 tokens) to create an autonomous digital double that is continuously traded, simulated, and harvested on decentralized prediction markets [`Binance Research`, pp. 10–11; `Frontiers Oncology`, p. 134].
 

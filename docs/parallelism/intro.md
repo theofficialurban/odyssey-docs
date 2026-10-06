@@ -2,6 +2,10 @@
 title: Introduction to Dynastic Parallelism
 description: This is an introduction to Dynastic Parallelism as laid out by Anatoly Fomenko
 ogimage: https://i.imgur.com/kzDiFR0.jpeg
+tags:
+  - Reading Notes
+  - Anatoly Fomenko
+  - Dynastic Parallelism
 ---
 
 # History: Fact or Science (Anatoly Fomenko) {#title}
