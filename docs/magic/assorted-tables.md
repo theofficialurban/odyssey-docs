@@ -2,6 +2,8 @@
 title: Assorted Tables
 description: Assorted tables of Magical Correspondences
 ogimage: https://i.imgur.com/275DjFP.png
+tags:
+  - References & Tables
 ---
 
 # Additional Magical Tables

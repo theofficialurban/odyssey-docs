@@ -1,6 +1,8 @@
 ---
 title: Letters & Alphabet Tables
 description: References of Alphabet & Numbers
+tags:
+  - References & Tables
 ---
 
 # 🔠 Letters & Alphabet

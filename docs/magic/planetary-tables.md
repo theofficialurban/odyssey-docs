@@ -1,6 +1,8 @@
 ---
 title: Planetary Tables
 description: Planetary Reference Tables
+tags:
+  - References & Tables
 ---
 
 # 🌎 Planetary Magic Tables

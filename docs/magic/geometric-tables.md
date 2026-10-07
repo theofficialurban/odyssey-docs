@@ -2,6 +2,8 @@
 title: Geometric Representations of Reality
 description: From the book 'New Millennium Magic'
 ogimage: https://i.imgur.com/WJTmFP8.png
+tags:
+  - References & Tables
 ---
 
 # 🔳 Geometrical Representations of Reality
