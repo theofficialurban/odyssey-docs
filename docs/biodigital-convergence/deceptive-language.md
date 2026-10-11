@@ -29,9 +29,23 @@ The goal of this presentation is for you to learn how neuro-linguistic programmi
 
 Urban also references key texts such as the Springer Handbook of Nanotechnology [^SpringerNanotechnology], Human Interaction and Emerging Technologies (IHIET) [^IHIET], and The Hypnotic Techniques of Milton Erickson [^Erickson] to expose the dual-layer language (double speak) that paces and leads your subconscious. I want you to come away from this episode with the ability to understand how life domains are mathematically mapped into [formal sets](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/) and how your physiological biometric data is harvested via VR simulations and telemetry.
 
-### Video {#video}
+### Videos {#videos}
+
+:::tabs
+
+== Part ONE
+
+<Nh>How AI & Elite Publications Use Deceptive Language to Control You (Pt. I)</Nh>
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7dn0zm/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7ftdx4-deceptive-language-in-human-husbandry-publications-cause-before-symptom-w-u.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/deceptive-language-white-papers?r=3kr5wz&utm_campaign=post&utm_medium=web'], ['YouTube', 'https://youtube.com/live/RlqT9mjnvH8'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/cause-before-symptom-092126:1'], ['Spotify', 'https://open.spotify.com/episode/62k4cuEEdYtPtvnVR5EVcV?si=iJA8MOd0SB-n-K9KwMFdfw']]" />
+
+== Part TWO
+
+<Nh>How to Spot Deceptive Language (Pt. II) - Case Study: Technocratic Doublespeak & Affect Manipulation</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7ei8ea/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7golbs-decoding-deceptive-language-case-study-pt.-ii-how-chemtrails-becomes-strato.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/deceptive-language-2?r=3kr5wz&utm_campaign=post&utm_medium=web'], ['YouTube', 'https://youtu.be/qFCm9JZPzPQ?si=vW2wGTF2OII6-gyv'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/deceptive-language-2:9'], ['Spotify', 'https://open.spotify.com/episode/6gehXLppy3mnQeJ4v5Sx1K?si=qKJcJNzGR4Wo0AxFhEIEuQ']]" />
+
+:::
 
 ### Slideshow PDF
 
