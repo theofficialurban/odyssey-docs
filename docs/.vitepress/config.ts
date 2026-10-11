@@ -3,7 +3,7 @@ import { withSidebar } from "vitepress-sidebar";
 import { type UserConfig } from "vitepress";
 import Inspect from "vite-plugin-inspect";
 import tailwindcss from "@tailwindcss/vite";
-
+import viteSvgLoader from "vite-svg-loader";
 import { MarkdownOptions } from "./Markdown";
 
 import SiteConstants, { siteBaseUrl } from "./Constants";
@@ -72,6 +72,7 @@ const cfg: UserConfig = {
     plugins: [
       tailwindcss(),
       Inspect(),
+      viteSvgLoader(),
       // MermaidPlugin({ theme: "redux-dark-color", darkMode: true, look: "neo" }),
     ],
 
