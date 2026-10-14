@@ -6,7 +6,7 @@ tags:
   - Human Husbandry
   - Urban's Videos
   - Applied Linguistics
-ogimage: https://i.imgur.com/V8lpWyT.png
+ogimage: https://i.imgur.com/h4MC8Y6.png
 ogimagewidth: 2400
 ogimageheight: 1350
 ---
@@ -15,7 +15,7 @@ ogimageheight: 1350
 
 # Intentional Deception & Malicious Obfuscation of Intent in Human Husbandry & Tech Publications {#title}
 
-![coverimg](https://i.imgur.com/V8lpWyT.png)
+![coverimg](https://i.imgur.com/h4MC8Y6.png)
 
 [[toc]]
 
@@ -45,21 +45,39 @@ Urban also references key texts such as the Springer Handbook of Nanotechnology 
 
 <VEmbed platform="Rumble" src="https://rumble.com/embed/v7ei8ea/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7golbs-decoding-deceptive-language-case-study-pt.-ii-how-chemtrails-becomes-strato.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/deceptive-language-2?r=3kr5wz&utm_campaign=post&utm_medium=web'], ['YouTube', 'https://youtu.be/qFCm9JZPzPQ?si=vW2wGTF2OII6-gyv'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/deceptive-language-2:9'], ['Spotify', 'https://open.spotify.com/episode/6gehXLppy3mnQeJ4v5Sx1K?si=qKJcJNzGR4Wo0AxFhEIEuQ']]" />
 
+== Final Pt. III
+
+<Nh>The Willful Intent to Deceive (Final Pt. III): Applied Linguistics & Mission Cryptology in Human-Swarm Teaming</Nh>
+
+<VEmbed platform="Rumble" src="https://rumble.com/embed/v7eoivu/?pub=3gc1h8" :buttons="[['Rumble', 'https://rumble.com/v7guvtc-the-willful-intent-to-deceive-applied-linguistics-and-mission-cryptology-fi.html?mref=3gc1h8&mc=7m5w3'], ['Substack', 'https://theofficialurban.substack.com/p/deceptive-language-3'], ['YouTube', 'https://youtu.be/tO9Ux98hiqE'], ['Odysee', 'https://odysee.com/@UrbanOdyssey:b/deceptive-language-3:7']]" />
+
 :::
 
 ### Slideshow PDF
 
-:::details Expand for Document Viewer
+::::details Expand for Document Viewer
+
+:::tabs
+
+== Part ONE
 
 <Nh><Hl>Be sure to click the various images and screenshots in the slideshow as they are links that will take you to the respective source or webpage</Hl></Nh>
 
 <PDF src="https://file.garden/ae-rA3RY3UKpjLy8/PDF%20Documents/Notes%20Slideshows/Abstract%20Language%20Intended%20Audience%20%26%20Human%20Husbandry%20Fixed.pdf" title="Abstract Language Intended Audience & Human Husbandry" />
 
+== Part II & III
+
+<Nh><Hl>Be sure to click the various images and screenshots in the slideshow as they are links that will take you to the respective source or webpage</Hl></Nh>
+
+<PDF src="https://files.catbox.moe/inv8vt.pdf" title="Abstract Language Intended Audience & Human Husbandry (Pt. II & III Slideshow)" />
+
 :::
+
+::::
 
 ### Also Recommended
 
-<CCards :useFinder="true" :cards="[['biodigital', 'swarm-tech'], ['biodigital', 'remote-telemetry'], ['biodigital', 'human-interaction-emerging-tech'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'predictive-markets'], ['technical', 'previous-token-prediction'], ['technical', 'spintronics'], ['technical', 'nano-tech-molecular-speculations'], ['technical', 'reflexive-economics'], ['technical', 'plasma-intelligences'], ['technical', 'msaart'], ['technical', 'microfluidics'], ['biodigital', 'phenopackets'], ['biodigital', 'causal-systems-robots']]" />
+<CCards :useFinder="true" :cards="[['biodigital', 'shepherding-uxvs'], ['biodigital', 'human-swarm-intelligence'],  ['biodigital', 'hyperswarms'], ['biodigital', 'smartmesh'], ['biodigital', 'unmanned-futures'], ['biodigital', 'temporal-logic'], ['biodigital', 'swarm-tech'], ['reading', 'drones-discourse'], ['reading', 'unmanning'], ['biodigital', 'remote-telemetry'], ['biodigital', 'human-interaction-emerging-tech'], ['biodigital', 'tectonic-warfare'], ['biodigital', 'predictive-markets'], ['technical', 'previous-token-prediction'], ['technical', 'spintronics'], ['technical', 'nano-tech-molecular-speculations'], ['technical', 'reflexive-economics'], ['technical', 'plasma-intelligences'], ['technical', 'msaart'], ['technical', 'microfluidics'], ['biodigital', 'phenopackets'], ['biodigital', 'causal-systems-robots']]" />
 
 ## **Linguistic Weapons of Mass Deception: Deconstructing Nominalization, Elastic Definitions, and the Unmanning Zombie Paradox** {#linguistic-tactics}
 
