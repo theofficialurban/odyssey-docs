@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import Label from "primevue/label";
 import Fieldset from "primevue/fieldset";
-import Numogram, { type NumogramDemon } from "../../../../Numogram";
+import { type NumogramDemon } from "../../../../Numogram";
 
 interface Props {
   demon: NumogramDemon;

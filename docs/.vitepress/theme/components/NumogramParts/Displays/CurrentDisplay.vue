@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Current } from "../../../../Numogram";
+import { type Current } from "../../../../Numogram";
 import Demon from "./Demon.vue";
 
 interface Props {

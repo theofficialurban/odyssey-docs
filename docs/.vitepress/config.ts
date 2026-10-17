@@ -98,10 +98,9 @@ const cfg: UserConfig = {
       ],
     },
   },
-
   head: Head,
   sitemap: {
-    hostname: "https://docs.urbanodyssey.xyz",
+    hostname: "https://odyssey-docs.vercel.app/",
   },
 
   transformPageData: OGFromFrontmatter,

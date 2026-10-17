@@ -1,11 +1,11 @@
-import type { Planets } from "./Esoteric";
+import type { InjectionKey } from "vue";
 
 type NumogramZoneName = `Zone ${NumogramZone}`;
 
 export interface Zone {
   id: number;
   name: NumogramZoneName;
-  planet: Planets & string;
+  planet: string;
   region: TimeSystem;
   demon: NumogramDemon;
   lore: string;
@@ -86,8 +86,14 @@ interface CurrentPath {
   path: string;
   grad: string;
 }
-
-export const getMeshTagData = (zoneId: number) => {
+export type MeshTagData = {
+  val: number;
+  hex: string;
+  bin: string;
+  role: string;
+  formula: string;
+};
+export const getMeshTagData = (zoneId: number): MeshTagData => {
   const n = zoneId;
   const exactVal = Math.pow(2, n) - 1;
   const hex = `0x${Math.max(0, exactVal).toString(16).toUpperCase().padStart(4, "0")}`;
@@ -129,27 +135,10 @@ export const getMeshTagData = (zoneId: number) => {
       role = "9-Bit Abyssal Limit / Full Pandemonium Array";
       break;
   }
-  return { val: Math.max(0, exactVal), hex, bin, role, formula: `2^${n} - 1` };
+  const val = Math.max(0, exactVal);
+  const formula = `2^${n} - 1`;
+  return { val, hex, bin, role, formula };
 };
-
-// --- EXAMPLES OF INSTANTIATED DEMONS ---
-
-/**
- * Example 1: KATAK (5::4 Syzygy)
- * The demon of the Pandemonium Gate, generating the Sink Current.
- */
-// export const KATAK: NumogramDemon = {
-//   matrixId: "M#14",
-//   name: "Katak",
-//   pitch: "5::4",
-//   phase: 5,
-//   imp: 4,
-//   region: "Time-Circuit (Torque)",
-//   classification: "Chronodemon",
-//   isSyzygetic: true,
-//   meshTagHex: "0x001F", // 2^5 - 1 = 31
-//   lore: "The Sink Current. Cataclysmically unstable. Hunts amongst the raging storms. Generates the primary flow tearing downward into the hub of Zone 1."
-// };
 
 /**
  * Example 2: TCHU (6::0)
@@ -254,18 +243,19 @@ export const UTTUNUL: NumogramDemon = {
 };
 
 // Mapping positions to match the iconic SVG perfectly (1000x1200 viewBox)
-const NODE_COORDS = {
-  1: { x: 500, y: 550 },
-  2: { x: 750, y: 250 },
-  3: { x: 420, y: 180 },
-  4: { x: 120, y: 480 },
-  5: { x: 250, y: 350 },
-  6: { x: 580, y: 180 },
-  7: { x: 820, y: 350 },
-  8: { x: 500, y: 730 },
-  9: { x: 500, y: 900 },
-  0: { x: 500, y: 1070 },
-};
+// const NODE_COORDS = {
+//   1: { x: 500, y: 550 },
+//   2: { x: 750, y: 250 },
+//   3: { x: 420, y: 180 },
+//   4: { x: 120, y: 480 },
+//   5: { x: 250, y: 350 },
+//   6: { x: 580, y: 180 },
+//   7: { x: 820, y: 350 },
+//   8: { x: 500, y: 730 },
+//   9: { x: 500, y: 900 },
+//   0: { x: 500, y: 1070 },
+// };
+
 export interface ColorConfig {
   gateCol: string;
   numColor: string;
@@ -375,13 +365,13 @@ export interface Current {
   path: CurrentPath;
 }
 // Precise pathing for Currents (thick arrows)
-const CURRENTS_PATHS: CurrentPath[] = [
-  { id: "5::4", path: "M 200 400 Q 350 450 450 530", grad: "grad-5-4" },
-  { id: "8::1", path: "M 540 570 Q 750 500 780 390", grad: "grad-8-1" },
-  { id: "7::2", path: "M 780 340 Q 550 340 300 350", grad: "grad-7-2" },
-  { id: "6::3", path: "M 540 180 Q 500 230 460 180", grad: "grad-6-3" },
-  { id: "9::0", path: "M 460 1050 Q 420 980 470 930", grad: "grad-9-0" },
-];
+// const CURRENTS_PATHS: CurrentPath[] = [
+//   { id: "5::4", path: "M 200 400 Q 350 450 450 530", grad: "grad-5-4" },
+//   { id: "8::1", path: "M 540 570 Q 750 500 780 390", grad: "grad-8-1" },
+//   { id: "7::2", path: "M 780 340 Q 550 340 300 350", grad: "grad-7-2" },
+//   { id: "6::3", path: "M 540 180 Q 500 230 460 180", grad: "grad-6-3" },
+//   { id: "9::0", path: "M 460 1050 Q 420 980 470 930", grad: "grad-9-0" },
+// ];
 const CURRENTS_DATA: Record<Syzygy, Current> = {
   "5::4": {
     syzygy: "5::4",
@@ -424,7 +414,7 @@ const CURRENTS_DATA: Record<Syzygy, Current> = {
   },
 };
 type Channel = { id: number; path: string };
-interface NumogramData {
+export interface NumogramData {
   Currents: Record<Syzygy, Current>;
   Zones: Record<number, Zone>;
   CurrentsPaths: CurrentPath[];
@@ -433,7 +423,8 @@ interface NumogramData {
   Channels: Channel[];
   GatesPaths: Record<number, { x: number; y: number }>;
 }
-
+export const NumogramInjectionSymbol: InjectionKey<NumogramData> =
+  Symbol("NumogramData");
 export interface Gate {
   value: number;
   zone: Zone;
@@ -442,17 +433,17 @@ export interface Gate {
   pos: { x: number; y: number };
 }
 
-const GATE_COORDS = {
-  1: { x: 550, y: 470 },
-  3: { x: 350, y: 260 },
-  6: { x: 500, y: 80 },
-  10: { x: 310, y: 560 },
-  15: { x: 570, y: 40 },
-  21: { x: 480, y: 260 },
-  28: { x: 670, y: 500 },
-  36: { x: 600, y: 815 },
-  45: { x: 390, y: 880 },
-};
+// const GATE_COORDS = {
+//   1: { x: 550, y: 470 },
+//   3: { x: 350, y: 260 },
+//   6: { x: 500, y: 80 },
+//   10: { x: 310, y: 560 },
+//   15: { x: 570, y: 40 },
+//   21: { x: 480, y: 260 },
+//   28: { x: 670, y: 500 },
+//   36: { x: 600, y: 815 },
+//   45: { x: 390, y: 880 },
+// };
 
 // Precise pathing for Channels (thin lines)
 const CHANNELS_PATHS: Channel[] = [

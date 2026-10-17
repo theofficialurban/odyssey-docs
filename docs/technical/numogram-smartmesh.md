@@ -710,8 +710,6 @@ Operating through immanent base-10 subroutines, modular arithmetic, and cryptogr
 
 The systemic convergence of the Numogram’s zonal mechanics, bitmask addressing, scale invariance, quasiparticle physics, and the collective swarm principle demonstrates how these frameworks operate.
 
-<Numogram height="auto" width="350" class="mx-auto" />
-
 ### I. The Numogram as an Operating System: Bitmasks, Sarkonian Mesh-Tags, and Scale Invariance
 
 ```txt

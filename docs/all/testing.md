@@ -6,20 +6,17 @@ sidebar: false
 
 <script setup>
 
-import { useTemplateRef, onMounted } from 'vue'
+import { useTemplateRef } from 'vue'
+
 //import { data } from "../.vitepress/theme/data/tagnotes.data";
 
+//const Numogram = inject(NumogramInjectionSymbol)
 const childRef = useTemplateRef("colorpicker")
-
-// onMounted(() => {
-//   // childRef.value will hold an instance of <Child />
-//   console.log(data)
-// })
 
 </script>
 
 # Testing
 
-<ColorPicker ref="colorpicker" />
+<Numogram width="400" height="auto" class="mx-auto" />
 
-<Numogram height="auto" width="350" />
+<ColorPicker ref="colorpicker" />

@@ -86,8 +86,8 @@ import Question from "./components/Question.vue";
 import ColorPicker from "./components/PrimeVue/ColorPicker.vue";
 import PostCollection from "./components/PostCollection.vue";
 import { data as tagnotes } from "./data/tagnotes.data";
-import TheNumogram from "./components/TheNumogram.vue";
-import NumogramSvg from "./components/NumogramSvg.vue";
+import NumogramSvg from "./components/NumogramParts/NumogramSvg.vue";
+import Numogram, { NumogramInjectionSymbol } from "../Numogram";
 
 export type SettingsFrontmatter =
   | {
@@ -235,6 +235,7 @@ export default {
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
+    app.provide(NumogramInjectionSymbol, Numogram);
 
     //app.provide(SubstackSymbol, data);
 
@@ -243,6 +244,6 @@ export default {
       license:
         "eyJpZCI6IjEyMDliNTgwLTBhZjEtNDZlOC1iNTkxLWRlNjZhNzE4M2NlNCIsInByb2R1Y3QiOiJwcmltZXVpIiwidGllciI6ImNvbW11bml0eSIsInR5cGUiOiJkZXYiLCJpYXQiOjE3ODI3NjUyNDgsImV4cCI6MTgxNDMwMTI0OH0.Yc0piBgbnYSn5aYJDBuH99Pk8iRkoLPWZFrHGkkx3Yj0lSHtFulDvF5Xu4thSPETOSBXDzxmD25nrAwJPBfbCw",
     });
-    app.use(NolebaseInlineLinkPreviewPlugin);
+    // app.use(NolebaseInlineLinkPreviewPlugin);
   },
 } satisfies Theme;

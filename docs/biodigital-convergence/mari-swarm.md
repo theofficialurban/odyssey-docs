@@ -569,7 +569,7 @@ Before mapping the sequence flow, the core mathematical operators that enforce s
 1. **Corollary 6.2 (Universal Attention Subsumption):** In `2506.18739v2.pdf`, Dutta et al. prove that an attention architecture $(U_{(n, d, d_v)})$ of higher order subsumes any lower-order network $(U_{(m, e, e_v)})$ without changing the underlying weights or layers: $[\tilde{A} = \begin{bmatrix} A & 0 \ 0 & I_{d-e} \end{bmatrix}, \quad \tilde{V} = \begin{bmatrix} V & 0 \ 0 & 0 \end{bmatrix}]$ The identity block $(I_{d-e})$ acts as an invariant passthrough. A planetary 6G cognitive twin runs the exact same linear algebra as a microscopic sensor mote.
 2. **Barker Numbering & Zygonovism $(9 = 0)$:** In CCRU theory, metric size is abolished by modular reduction: $[\text{Digital Reduction: } n \pmod 9]$ The digits 1 through 8 form five complementary syzygies summing to 9 $(1:8, 2:7, 3:6, 4:5)$. Listing 6 (`Match2`) in `2506.18739v2.pdf` uses the exact RASP code:
 
-```sql
+```txt
 select(tokens % p, p - (tokens % p), ==)
 ```
 
