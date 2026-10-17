@@ -86,6 +86,8 @@ import Question from "./components/Question.vue";
 import ColorPicker from "./components/PrimeVue/ColorPicker.vue";
 import PostCollection from "./components/PostCollection.vue";
 import { data as tagnotes } from "./data/tagnotes.data";
+import TheNumogram from "./components/TheNumogram.vue";
+import NumogramSvg from "./components/NumogramSvg.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -189,6 +191,8 @@ export default {
     app.component("Hl", Highlighter);
     app.component("Question", Question);
     app.component("ColorPicker", ColorPicker);
+    // app.component("TheNumogram", TheNumogram);
+    app.component("Numogram", NumogramSvg);
 
     // Primevue comps
     app.component("Btn", Btn);

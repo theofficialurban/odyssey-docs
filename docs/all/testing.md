@@ -1,6 +1,7 @@
 ---
 title: Testing
 secret: true
+sidebar: false
 ---
 
 <script setup>
@@ -21,4 +22,4 @@ const childRef = useTemplateRef("colorpicker")
 
 <ColorPicker ref="colorpicker" />
 
-<PostCollection :tags="['Urban\'s Videos', 'Mermaid Charts']" />
+<Numogram height="auto" width="350" />

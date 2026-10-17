@@ -2,7 +2,7 @@
 title: CCRU Writings (1997-2003)
 description: |
   This document serves as an archival compilation of the Ccru (Cybernetic Culture Research Unit), a collective whose work blurs the boundaries between philosophy, pulp fiction, and the occult.
-ogimage: https://i.imgur.com/ybIDGRn.png
+ogimage: https://i.ibb.co/wZrz59wY/ccru-flags-by-neobolshevik-dkj1q01-fullview.jpg
 ogimagewidth: 776
 ogimageheight: 488
 tags:
