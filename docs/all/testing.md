@@ -1,7 +1,6 @@
 ---
 title: Testing
 secret: true
-sidebar: false
 ---
 
 <script setup>
@@ -16,7 +15,5 @@ const childRef = useTemplateRef("colorpicker")
 </script>
 
 # Testing
-
-<Numogram width="400" height="auto" class="mx-auto" />
 
 <ColorPicker ref="colorpicker" />

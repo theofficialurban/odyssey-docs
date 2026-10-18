@@ -31,23 +31,22 @@ const handleClick = (e: PointerEvent) => {
     v-if="gate && Numogram"
     v-on:click="(e) => handleClick(e)"
   >
-    <slot name="number" v-if="$slots.number">
+    <slot>
       <path
         d="M1877.52 3263V3252.38H1900.69V3190.04H1877.52V3182.23C1880.33 3181.98 1883.45 3181.51 1886.86 3180.82C1890.27 3180.06 1893.86 3179.12 1897.61 3178.01C1901.45 3176.81 1905.21 3175.45 1908.88 3173.91H1913.61V3252.38H1936.53V3263H1877.52Z"
         fill="white"
       ></path>
-    </slot>
-    <text
-      v-else-if="!$slots.number"
-      textAnchor="middle"
-      dy="5"
-      fill="#fff"
-      fontSize="14"
-      fontWeight="bold"
-    >
-      {{ gateId }}
-    </text>
-    <slot>
+
+      <text
+        textAnchor="middle"
+        dy="5"
+        fill="#fff"
+        fontSize="14"
+        fontWeight="bold"
+      >
+        {{ gateId }}
+      </text>
+
       <circle
         cx="110"
         cy="110"

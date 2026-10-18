@@ -17,6 +17,7 @@ import {
   InjectionKey,
 } from "@nolebase/vitepress-plugin-inline-link-preview";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
+
 import { ElementObjects, EsotericSymbol } from "../Esoteric";
 import PDF from "./components/PDF.vue";
 
@@ -81,13 +82,13 @@ import Message from "primevue/message";
 import NewCard from "./components/PrimeVue/NewCard.vue";
 import GlowText from "./components/GlowText.vue";
 import { createMermaidRenderer } from "vitepress-mermaid-renderer";
-import { h, nextTick, watch } from "vue";
+import { h, nextTick } from "vue";
 import Question from "./components/Question.vue";
 import ColorPicker from "./components/PrimeVue/ColorPicker.vue";
 import PostCollection from "./components/PostCollection.vue";
 import { data as tagnotes } from "./data/tagnotes.data";
 import NumogramSvg from "./components/NumogramParts/NumogramSvg.vue";
-import Numogram, { NumogramInjectionSymbol } from "../Numogram";
+import { Numogram as NumogramData, NumogramInjectionSymbol } from "../Numogram";
 
 export type SettingsFrontmatter =
   | {
@@ -235,7 +236,7 @@ export default {
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
-    app.provide(NumogramInjectionSymbol, Numogram);
+    app.provide(NumogramInjectionSymbol, NumogramData);
 
     //app.provide(SubstackSymbol, data);
 

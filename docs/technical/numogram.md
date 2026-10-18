@@ -29,6 +29,10 @@ tags:
 
 :::
 
+## The Numogram
+
+<Numogram width="400" height="auto" class="mx-auto" />
+
 ## Nick Land (Creator) Explains the Numogram {#land-explains}
 
 <YouTube id="URWFdmLRt0U" />

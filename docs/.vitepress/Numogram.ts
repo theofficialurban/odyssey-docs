@@ -101,7 +101,7 @@ export const getMeshTagData = (zoneId: number): MeshTagData => {
     .toString(2)
     .padStart(16, "0")
     .replace(/(.{4})/g, "$1 ")
-    .trim();
+    ?.trim();
   let role = "";
   switch (n) {
     case 0:
@@ -523,7 +523,7 @@ const GATES_DATA: Record<number, Gate> = {
   },
 };
 
-const Numogram: NumogramData = {
+export const Numogram: NumogramData = {
   Zones: ZONES_DATA,
   Currents: CURRENTS_DATA,
   Gates: GATES_DATA,
@@ -559,4 +559,4 @@ const Numogram: NumogramData = {
     0: { x: 500, y: 1070 },
   },
 };
-export default Numogram;
+//export default Numogram;

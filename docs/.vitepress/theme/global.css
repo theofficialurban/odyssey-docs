@@ -1,6 +1,9 @@
 @import "tailwindcss";
 @import "tailwindcss-primeui";
 @import "primeicons/primeicons.css";
+
+/* @import url("https://registry.npmmirror.com/18s/0.2.24/files/m.css"); */
+
 @config "../../tailwind.config.js";
 
 @utility text-fluid-sm {
@@ -46,6 +49,21 @@
   border-radius: 2px;
   transition: background-color 0.25s;
 }
+
+/* math {
+  font-family: m, "Latin Modern Math", "Cambria Math", math, sans-serif;
+  color: inherit;
+}
+
+math[display="block"] {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin: 1em auto;
+  padding: 0.5em 0;
+  text-align: center;
+} */
 
 sub.error {
   @apply font-mono text-red-500 text-lg;

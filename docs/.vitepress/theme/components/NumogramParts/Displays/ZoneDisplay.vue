@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from "vue";
-import { getMeshTagData, Zone } from "../../../../Numogram";
+import { getMeshTagData, type Zone } from "../../../../Numogram";
 import Demon from "./Demon.vue";
 
 interface Props {

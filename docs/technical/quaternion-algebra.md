@@ -16,15 +16,15 @@ tags:
 
 ## Links & Downloads
 
-<Grid>
-<NewCard title="Visualizing quaternions | Ben Eater" img="https://eater.net/quaternions/media/intro.jpg" description="Explaining how quaternions, a four-dimensional number system, describe 3d rotation." href="https://eater.net/quaternions" />
+<div class="grid grid-flow-row gap-3 py-2">
+<NewCard title="Visualizing quaternions | Ben Eater" img="https://eater.net/quaternions/media/intro.jpg" :inline="true" description="Explaining how quaternions, a four-dimensional number system, describe 3d rotation." href="https://eater.net/quaternions" />
 
-<NewCard title="Euler's Identities - ProofWiki" img="https://proofwiki.org/w/resources/assets/poweredby_mediawiki.svg" description="" href="https://proofwiki.org/wiki/Euler%27s_Identities" />
+<NewCard title="Euler's Identities - ProofWiki" :inline="true" img="https://proofwiki.org/w/resources/assets/poweredby_mediawiki.svg" description="" href="https://proofwiki.org/wiki/Euler%27s_Identities" />
 
-<NewCard title="Quaternion Algebra (YouTube)" img="https://i.ytimg.com/vi/zjMuIxRvygQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDotU54ve2EpFvlzN_EfA4lXmJ9zg" description="" href="https://www.youtube.com/playlist?list=PLHiYVYuiWLBI" />
+<NewCard title="Quaternion Algebra (YouTube)" :inline="true" img="https://i.ytimg.com/vi/zjMuIxRvygQ/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDotU54ve2EpFvlzN_EfA4lXmJ9zg" description="" href="https://www.youtube.com/playlist?list=PLHiYVYuiWLBI" />
 
-<NewCard title="Quaternion Algebra - Shared with pCloud" img="https://pcdn-u.pcloud.com/img/icons-id/120@2x/20.png" href="https://u.pcloud.link/publink/show?code=kZLPrJJZjoUibicmmgYC0UkyfsHM9XF3dOM7" />
-</Grid>
+<NewCard title="Quaternion Algebra - Shared with pCloud" :inline="true" img="https://pcdn-u.pcloud.com/img/icons-id/120@2x/20.png" href="https://u.pcloud.link/publink/show?code=kZLPrJJZjoUibicmmgYC0UkyfsHM9XF3dOM7" />
+</div>
 
 <YouTube id="dKz__xV5Uwo" />
 
@@ -32,7 +32,7 @@ tags:
 
 The comparative analysis of Joseph P. Farrell’s exploration of hyperdimensional physics and Ken Wheeler’s **Torsion Field Electromagnetics (TEM)** exposes a profound, unified underground scientific current. Both models assert that mainstream 20th-century physics—dominated by relativistic and vector-bound paradigms—is a heavily edited, mathematically castrated "public consumption" script designed to obscure the true, engineerable mechanics of the **Ether**.
 
-<NewCard title="The Duality of Whittaker Potential Theory" href="https://arxiv.org/pdf/2205.08309v4" description="Fundamental Representations of Electromagnetism and Gravity, and Their Orthogonality" />
+<NewCard title="The Duality of Whittaker Potential Theory" :inline="true" href="https://arxiv.org/pdf/2205.08309v4" description="Fundamental Representations of Electromagnetism and Gravity, and Their Orthogonality" />
 
 By unpacking the mathematical and physical correspondences between Farrell's focus on **quaternion geometry** and E.T. Whittaker's **multivectorial entities** against Ken Wheeler's TEM, we decode the exact geometric coordinates where these two models fuse.
 
@@ -117,17 +117,17 @@ flowchart TD
     classDef unified fill:#1b4d3e,stroke:#39ff14,stroke-width:2px,color:#fff;
 
     subgraph FARRELL_MODEL ["I. Farrell: Quaternion & Scalar Physics"]
-        A1["Maxwell's Quaternions<br>(q = s + v)"]:::farrell
-        A2["Whittaker's Multivectorial Entity<br>(Bi-directional Longitudinal Waves)"]:::farrell
-        A3["Zero-Summing of Vectors<br>(Internal Stress & Curvature Saved)"]:::farrell
-        A4["Particles as Trapped Resonance<br>(Vortices & Spin in the Plenum)"]:::farrell
+        A1["Maxwell's Quaternions<br />(q = s + v)"]:::farrell
+        A2["Whittaker's Multivectorial Entity<br />(Bi-directional Longitudinal Waves)"]:::farrell
+        A3["Zero-Summing of Vectors<br />(Internal Stress & Curvature Saved)"]:::farrell
+        A4["Particles as Trapped Resonance<br />(Vortices & Spin in the Plenum)"]:::farrell
     end
 
     subgraph WHEELER_MODEL ["II. Ken Wheeler: Torsion Field Electromagnetics (TEM)"]
-        B1["Conjugate Field Geometry<br>(Dielectricity & Magnetism)"]:::wheeler
-        B2["Coaxial EM Modalities<br>(Counterspatial & Spatial Waves)"]:::wheeler
-        B3["Dielectric Inertial Plane<br>(Counterspace Rest-State / Source)"]:::wheeler
-        B4["Matter as Toroidal Condensation<br>(Ether Pumps & Spinning Sinks)"]:::wheeler
+        B1["Conjugate Field Geometry<br />(Dielectricity & Magnetism)"]:::wheeler
+        B2["Coaxial EM Modalities<br />(Counterspatial & Spatial Waves)"]:::wheeler
+        B3["Dielectric Inertial Plane<br />(Counterspace Rest-State / Source)"]:::wheeler
+        B4["Matter as Toroidal Condensation<br />(Ether Pumps & Spinning Sinks)"]:::wheeler
     end
 
     %% Conceptual Equivalences
@@ -139,21 +139,34 @@ flowchart TD
 
 ### VI. Comparison Matrix: Farrell's Quaternions vs. Ken Wheeler's TEM
 
-| Operational Concept              | Joseph Farrell’s Writings (Scalar / Quaternions)                      | Ken Wheeler's TEM (Torsion Electromagnetics)                              | Underlying Physical Reality                                                                   |
-| :------------------------------- | :-------------------------------------------------------------------- | :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
-| **The Primary Substrate**        | The active local vacuum / dynamic aether plenum.                      | The non-material Ether.                                                   | A highly charged, fluid-like sub-quantum medium of pure potentiality.                         |
-| **The Static "Zero" State**      | Scalar potentials filling nested, multi-dimensional subspaces.        | Counterspace / Dielectricity.                                             | An un-differentiated, isotropic balance of sub-wavelength spin orientations.                  |
-| **The Scalar Component ($(s)$)** | Pure magnitudes of force locked inside a non-translational structure. | The centripetal, radial accumulation of dielectric rest.                  | Energy/information held in the virtual state without manifesting vector force.                |
-| **The Transverse EM Wave**       | A coupled pair of longitudinal, scalar Whittaker waves.               | A secondary, coaxial hybrid product of the dielectric-magnetic conjugate. | Transverse waves are secondary shear-stresses created by crossing longitudinal carrier waves. |
-| **The Physical "Particle"**      | Trapped scalar resonance preserved by the spin of the node.           | A toroidal, rotating knot of localized ether-pressure.                    | A vorticular "ether pump" or sink that cycles energy through hyperdimensional subspaces.      |
+| Operational Concept            | Joseph Farrells Writings (Scalar / Quaternions)                       | Ken Wheeler's TEM (Torsion Electromagnetics)                              | Underlying Physical Reality                                                                   |
+| :----------------------------- | :-------------------------------------------------------------------- | :------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------- |
+| **The Primary Substrate**      | The active local vacuum / dynamic aether plenum.                      | The non-material Ether.                                                   | A highly charged, fluid-like sub-quantum medium of pure potentiality.                         |
+| **The Static "Zero" State**    | Scalar potentials filling nested, multi-dimensional subspaces.        | Counterspace / Dielectricity.                                             | An un-differentiated, isotropic balance of sub-wavelength spin orientations.                  |
+| **The Scalar Component ((s))** | Pure magnitudes of force locked inside a non-translational structure. | The centripetal, radial accumulation of dielectric rest.                  | Energy/information held in the virtual state without manifesting vector force.                |
+| **The Transverse EM Wave**     | A coupled pair of longitudinal, scalar Whittaker waves.               | A secondary, coaxial hybrid product of the dielectric-magnetic conjugate. | Transverse waves are secondary shear-stresses created by crossing longitudinal carrier waves. |
+| **The Physical "Particle"**    | Trapped scalar resonance preserved by the spin of the node.           | A toroidal, rotating knot of localized ether-pressure.                    | A vorticular "ether pump" or sink that cycles energy through hyperdimensional subspaces.      |
 
 <Question>If physical matter is nothing more than a localized, rotating vortex in a highly charged etheric plenum—and standard vector electromagnetics was deliberately engineered to hide the existence of this medium—is the scientific community's rejection of both Farrell's quaternions and Wheeler's counterspace a genuine "intellectual disagreement," or is it the enforcement of a strict, mathematical quarantine designed to keep humanity locked inside a four-dimensional prison?</Question>
 
 ## Hamilton's Breakthrough & Non-Commutativity
 
-$$\begin{matrix} i\times j = -j \times i = k \\ j \times k = -k\times j = i \\ k \times i = -i \times k =j \end{matrix}$$
+$$
+\begin{aligned}
+i \times j &= -j \times i = k \\
+j \times k &= -k \times j = i \\
+k \times i &= -i \times k = j
+\end{aligned}
+$$
 
-$$\begin{matrix} \underbrace{\boxed{i^2=j^2=k^2=ijk=-1}}_{\text{\color{red} Hamilton's Breakthrough Equation}} \\ \\ \underbrace{\boxed{\begin{matrix}ij=k & ji=-k\end{matrix}}}_{\text{\color{yellow} Non-Commutativity in Quaternions}} \end{matrix}$$
+and
+
+$$
+\begin{aligned}
+\underbrace{\boxed{i^2=j^2=k^2=ijk=-1}}_{\color{red}{\text{Hamilton's Breakthrough Equation}}} \\ [1em]
+\underbrace{\boxed{ij=k \quad ji=-k}}_{\color{yellow}{\text{Non-Commutativity in Quaternions}}}
+\end{aligned}
+$$
 
 ## 1. Chapter One
 
@@ -163,24 +176,40 @@ This section is still a work in progress
 
 ### 1.1 Quaternion Numbers
 
-$$\begin{matrix} \underbrace{Q_w=w}_{\text{A scaler number}} & \underbrace{Q_r=ix+jy+kz}_{\text{Three Vectors } <i,j,k>} & Q=Q_w+Q_r \end{matrix}$$
+$$\begin{matrix} Q_w=w & Q_r=\vec{i}x+\vec{j}y+\vec{k}z & Q=Q_w+Q_r \\ \vec{i}=<0,1,0,0> & \vec{j}=<0,0,1,0> & \vec{k}=<0,0,0,1> \end{matrix}$$
 
-$$\overbrace{Q = w + ix + jy + kz}^{\text{Hamilton's Quaternion}}$$
+#### What Are $(i, j, k)$? (Basis Axes vs. Vectors)
+
+See section below: [#4D Hyperspace](#i-j-k)
+
+:::highlight
+$(\vec{i}, \vec{j}, \vec{k})$ are NOT a single 3D vector, nor are they ordinary numbers.
+:::
+
+They are **three distinct, orthogonal (90° perpendicular) imaginary basis vectors** in 4D space $(\mathbb{R}^4)$. Along with the real scalar axis $(1)$, they form the **4 fundamental directional axes** of four-dimensional hypercomplex space $(\mathbb{H})$.
+
+In explicit 4D coordinate notation, the four basis elements are defined as:
+
+$$\begin{aligned} \text{Real Axis } (1) &= (1, 0, 0, 0) \\ \text{Imaginary Axis } (i) &= (0, 1, 0, 0) \\ \text{Imaginary Axis } (j) &= (0, 0, 1, 0) \\ \text{Imaginary Axis } (k) &= (0, 0, 0, 1) \end{aligned}$$
+
+#### Hamilton's Quaternion
+
+$$Q = w + ix + jy + kz$$
 
 #### Magnitude
 
-$$|Q|=\sqrt{w^2+x^2+y^2+z^2}$$
+$$\|Q\|=\sqrt{w^2+x^2+y^2+z^2}$$
 
 Quaternion $Q$ represents an expansion or contraction by its magnitude and a rotation around its vector axis $q$ of degree $\theta$
 
-$$Q=|Q| e^{q \times \theta} = |Q|(\cos{\theta}+q\sin{\theta})$$
+$$Q=\|Q\| e^{q \times \theta} = \|Q\|(\cos{\theta}+q\sin{\theta})$$
 where
 
-$$\cos{\theta}=\frac{Q_w}{|Q|}$$
+$$\cos{\theta}=\frac{Q_w}{\|Q\|}$$
 
 #### Negative Quaternion
 
-$$-Q=-w-ix-jy-kz=-Q_w-Q_r$$
+$$[-Q=-w-ix-jy-kz=-Q_w-Q_r]$$
 
 #### Conjugate
 
@@ -204,7 +233,7 @@ $$\begin{bmatrix} A_w B_w & iA_w B_x & jA_w B_y & kA_w B_z \\ iA_x B_w & -1 A_x 
 
 ### 1.4 Quaternion Group (Theory)
 
-1. **Closure:** If `i` and `j` are members of the group, $i \times j = k \;$ is a member
+1. **Closure:** If `i` and `j` are members of the group, $i \times j = k$ is a member
 2. **Associativity:** $i(ij)=(ii)j=-j$
    1. $i =\sqrt{-1} \;$
 3. **Identity:** $(1 \; | \; 1i=i1=i)$
@@ -261,7 +290,7 @@ In Papus's analysis of the _ROTA_ (the cosmic wheel) and John Dee's _Monas Hiero
 
 - Dee emphasizes that the four elements of the Cross do not sit in passive balance; their equilibrium is achieved through **"a circular conjunction within the solar complement"**—lines of force rotating about a central copulative point.
 - In Papus's Tarot wheel, the sequence $(1 \to 2 \to 3 \to 4)$ is directional. Moving forward generates **Involution** (spirit congealing into matter); moving backward represents **Evolution** or dissolution.
-- In Ken Wheeler's rational field mechanics, this exact geometry is identified as the **gyromagnetic precession of the dielectric plane**: space and magnetism are rotational and non-commutative, generated by the torque between the dielectric scalar inertia (the real scalar $(a)$ and the centrifugal magnetic vortex (the imaginary triad $(i, j, k)$.
+- In Ken Wheeler's rational field mechanics, this exact geometry is identified as the **gyromagnetic precession of the dielectric plane**: space and magnetism are rotational and non-commutative, generated by the torque between the dielectric scalar inertia (the real scalar $(a)$ and the centrifugal magnetic vortex (the imaginary triad $(i, j, k)$).
 
 ### 3. The Reduction to Unity: The $(S^3)$ Hypersphere
 
@@ -273,7 +302,7 @@ In Papus's system, the most baffling operation to conventional mathematicians is
 
 In quaternion mathematics, this "return to Unity" is the exact condition required to perform spatial rotations:
 
-- To rotate an object in 3D physical space without distortion or stretching, one must use a **unit quaternion** (a versor), defined by: $[|q| = \sqrt{a^2 + b^2 + c^2 + d^2} = 1]$
+- To rotate an object in 3D physical space without distortion or stretching, one must use a **unit quaternion** (a versor), defined by: $\[|q| = \sqrt{a^2 + b^2 + c^2 + d^2} = 1\]$
 - Unit quaternions form a 3-sphere $(S^3)$ embedded in 4-dimensional space. Every valid spatial rotation is an operation on this unit sphere that **maps four distinct numbers back to an absolute magnitude of 1**.
 - Just as Papus argued that the four elements of the Tetragrammaton are merely four aspects of a singular underlying Divine Name, quaternion algebra proves that 3D spatial transformations are four-dimensional projections constrained to an invariant unit sphere.
 
@@ -426,7 +455,7 @@ To keep the transformed object purely in 3D space, Hamilton designed the **sandw
 
 $$[v' = q \cdot v \cdot q^*]$$
 
-\_(where $(q^*)$ is the quaternion conjugate, inverting the imaginary parts).\*
+(where $(q^*)$ is the quaternion conjugate, inverting the imaginary parts).
 
 Here is why this mechanism works:
 
@@ -699,11 +728,115 @@ Quaternions are uniquely optimized for representing these exact physical field p
 
 ### Comparative Matrix: Vector Navier-Stokes vs. Quaternionic Field Mechanics
 
-| Dimension / Feature                       | Standard Vector Navier-Stokes (Gibbs/Heaviside)                       | Quaternionic Navier-Stokes (Hamiltonian 4D)                                                            |
-| :---------------------------------------- | :-------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------- |
-| **Mathematical Domain**                   | Truncated 3D Vector Space $(u \in \mathbb{R}^3)$.                     | **4D Hypercomplex Quaternion Division Algebra $(Q_u \in \mathbb{H})$.**                                |
-| **Derivative Operator**                   | Split into separate scalar $(\text{div})$ and vector $(\text{curl})$. | **Single unified quaternionic operator $(\nabla Q_u = -\text{div } u + \text{curl } u)$.**             |
-| **Convective Term $((u \cdot \nabla)u)$** | Non-linear vector product; prone to numerical instability.            | **Quaternionic rotor product $(Q_u Q_\omega = -\text{Helicity} + \text{Lamb Vector})$.**               |
-| **Viscous Term $(\mu \nabla^2 u)$**       | Vector Laplacian of 3 velocity components.                            | **Spatial derivative of the vorticity vector $(-\mu \text{ curl } \omega)$.**                          |
-| **Rotational Geometry**                   | Euler angles; suffers from coordinate singularities/gimbal lock.      | **Hypercomplex spatial rotors $(e^{\frac{\theta}{2} \mathbf{n}})$; exact precessional field mapping.** |
-| **Singularity / Turbulence**              | Treated as an unresolved, chaotic "Millennium Prize" flaw.            | **Smooth 4D energy-conserving hypercomplex rotation without blowup.**                                  |
+| Dimension / Feature                       | Standard Vector Navier-Stokes (Gibbs/Heaviside)                       | Quaternionic Navier-Stokes (Hamiltonian 4D)                                                          |
+| :---------------------------------------- | :-------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| **Mathematical Domain**                   | Truncated 3D Vector Space $(u \in \mathbb{R}^3)$.                     | **4D Hypercomplex Quaternion Division Algebra $(Q_u \in \mathbb{H})$.**                              |
+| **Derivative Operator**                   | Split into separate scalar $(\text{div})$ and vector $(\text{curl})$. | **Single unified quaternionic operator $(\nabla Q_u = -\text{div } u + \text{curl } u)$.**           |
+| **Convective Term $((u \cdot \nabla)u)$** | Non-linear vector product; prone to numerical instability.            | **Quaternionic rotor product $(Q_u Q_\omega = -\text{Helicity} + \text{Lamb Vector})$.**             |
+| **Viscous Term $(\mu \nabla^2 u)$**       | Vector Laplacian of 3 velocity components.                            | **Spatial derivative of the vorticity vector $(-\mu \text{ curl } \omega)$.**                        |
+| **Rotational Geometry**                   | Euler angles; suffers from coordinate singularities/gimbal lock.      | **Hypercomplex spatial rotors $(e^{\frac{\theta}{2}\mathbf{n}})$ exact precessional field mapping.** |
+| **Singularity / Turbulence**              | Treated as an unresolved, chaotic "Millennium Prize" flaw.            | **Smooth 4D energy-conserving hypercomplex rotation without blowup.**                                |
+
+## Demystifying the Quaternion Architecture: Scalars, Basis Vectors, and 4D Geometry {#i-j-k}
+
+To untangle this, we must separate the **numbers that measure magnitude** $(a, b, c, d)$ from the **directional axes that define hyper-dimensional space** $(1, i, j, k)$.
+
+### I. What Are $(i, j, k)$? (Basis Axes vs. Vectors)
+
+**$(i, j, k)$ are NOT a single 3D vector, nor are they ordinary numbers.**
+
+They are **three distinct, orthogonal (90° perpendicular) imaginary basis vectors** in 4D space $(\mathbb{R}^4)$. Along with the real scalar axis $(1)$, they form the **4 fundamental directional axes** of four-dimensional hypercomplex space $(\mathbb{H})$.
+
+In explicit 4D coordinate notation, the four basis elements are defined as:
+
+$$\begin{aligned} \text{Real Axis } (1) &= (1, 0, 0, 0) \\ \text{Imaginary Axis } (i) &= (0, 1, 0, 0) \\ \text{Imaginary Axis } (j) &= (0, 0, 1, 0) \\ \text{Imaginary Axis } (k) &= (0, 0, 0, 1) \end{aligned}$$
+
+```txt
+                          [ 4D HYPERCOMPLEX SPACE (H) ]
+                                       │
+            ┌──────────────────────────┴─────────────────────┐
+            ▼                                                ▼
+   REAL SUBSPACE (1D)                               IMAGINARY SUBSPACE (3D)
+   • Axis: { 1 }                                  • Axes: { i, j, k }
+   • Measured by Real Scalar: a                   • Measured by Real Scalars: (b, c, d)
+   • 4D Vector: (a, 0, 0, 0)                      • 4D Vector: (0, b, c, d)
+                                                 • Forms a SINGLE 3D spatial vector v!
+```
+
+- **Individually:** $(i)$, $(j)$, and $(k)$ are **3 separate unit-length basis vectors**.
+- **Together:** $({i, j, k})$ span a **3D imaginary subspace** inside the 4D quaternion space.
+- **The Fusion:** When you combine them as $(bi + cj + dk)$, you are scaling each basis vector by a real number and adding them together to create **ONE single 3D spatial vector** $(\mathbf{v} = (b, c, d))$.
+
+### II. What Is the Difference Between $((a, b, c, d))$ and $((1, i, j, k))$?
+
+A quaternion is written as:
+
+$$[q = a \cdot 1 + b \cdot i + c \cdot j + d \cdot k]$$
+
+The difference between the two sets of symbols is the difference between **the map's grid lines** and **how far you walk along those grid lines**:
+
+| Symbol Set       | What They Are        | Type of Entity               | Purpose / Role                                                                        |
+| :--------------- | :------------------- | :--------------------------- | :------------------------------------------------------------------------------------ |
+| $\{1, i, j, k\}$ | **Basis Components** | **4D Directional Unit Axes** | Fixed structural frame of 4D space. They tell you _which direction_ you are pointing. |
+| $(a, b, c, d)$   | **Coefficients**     | **Real Numbers (Scalars)**   | Variable weights/lengths. They tell you _how far_ to move along each of the 4 axes.   |
+
+- **$(a)$** is a real scalar that scales the real basis unit $(1)$. (It controls the real, non-spatial scalar magnitude).
+- **$(b)$** is a real scalar that scales the imaginary basis unit $(i)$. (Controls the x-direction in 3D space).
+- **$(c)$** is a real scalar that scales the imaginary basis unit $(j)$. (Controls the y-direction in 3D space).
+- **$(d)$** is a real scalar that scales the imaginary basis unit $(k)$. (Controls the z-direction in 3D space).
+
+### III. How Do These Relate to "Active Basis Components"?
+
+In Lindsay's _Quaternion Cosmos_ (Section 1.4), when he counts **singlets, doublets, triplets, and quadruplets**, he is asking a simple question:
+
+> _"Out of the 4 available basis slots $({1, i, j, k})$, how many of the coefficient knobs $((a, b, c, d))$ are turned ON (non-zero), and how many are turned OFF (zero)?"_
+
+An **"active basis component"** simply means a basis axis whose multiplier coefficient is non-zero!
+
+```txt
+                  ┌────────────────────────────────────────┐
+                  │   THE 4 BASIS SLOTS: { 1, i, j, k }    │
+                  └───────────────────┬────────────────────┘
+                                      │
+    ┌─────────────────┬───────────────┴───────────────┬─────────────────┐
+    ▼                 ▼                               ▼                 ▼
+SINGLET (1 Active) DOUBLET (2 Active)             TRIPLET (3 Active) QUADRUPLET (4 Active)
+• 1 knob ON       • 2 knobs ON                    • 3 knobs ON       • All 4 knobs ON
+• e.g., (a,0,0,0) • e.g., (a,b,0,0)               • e.g., (a,b,c,0)  • e.g., (a,b,c,d)
+• 8 total units   • 24 total units                • 32 total units   • 16 total units
+```
+
+#### 1. Singlets (1 Active Basis Component)
+
+Only **1** of the 4 coefficients $((a, b, c, d))$ is non-zero; the other 3 are zero.
+
+- _Example:_ $(q = 1i)$ (here $(b = 1)$, while $(a = c = d = 0)$.
+- You have chosen 1 basis element out of 4 $(\binom{4}{1} = 4)$, with 2 sign choices $(\pm 1)$, giving **8 unit singlets**: $[{\pm 1, \pm i, \pm j, \pm k}]$
+
+#### 2. Doublets (2 Active Basis Components)
+
+Exactly **2** of the 4 coefficients are non-zero; the other 2 are zero.
+
+- _Example:_ $(q = \frac{1}{\sqrt{2}}1 + \frac{1}{\sqrt{2}}i)$ (here $(a \neq 0, b \neq 0)$, while $(c = d = 0)$.
+- You choose 2 basis elements out of 4 $(\binom{4}{2} = 6)$, with $(2^2 = 4)$ sign combinations, giving $(6 \times 4 = \mathbf{24 \text{ unit doublets}})$.
+
+#### 3. Triplets (3 Active Basis Components)
+
+Exactly **3** of the 4 coefficients are non-zero; 1 is zero.
+
+- _Example:_ $(q = \frac{1}{\sqrt{3}}i + \frac{1}{\sqrt{3}}j + \frac{1}{\sqrt{3}}k)$ (here $(b, c, d \neq 0)$, while $(a = 0)$.
+- You choose 3 basis elements out of 4 $(\binom{4}{3} = 4)$, with $(2^3 = 8)$ sign combinations, giving $(4 \times 8 = \mathbf{32 \text{ unit triplets}})$.
+
+#### 4. Quadruplets (4 Active Basis Components)
+
+All **4** coefficients are non-zero simultaneously.
+
+- _Example:_ $(q = \frac{1}{2}1 + \frac{1}{2}i + \frac{1}{2}j + \frac{1}{2}k)$ (all $(a, b, c, d \neq 0)$.
+- You choose all 4 basis elements $(\binom{4}{4} = 1)$, with $(2^4 = 16)$ sign combinations, giving $(\mathbf{16 \text{ unit quadruplets}})$.
+
+### IV. Summary of the Structure
+
+1. **$({1, i, j, k})$ are 4 independent basis vectors** defining the 4 directions of hypercomplex space $(\mathbb{H})$.
+2. **$(i, j, k)$ are NOT 3 separate 3D vectors**—they are the 3 orthogonal imaginary axes that together build a 3D space.
+3. **$((a, b, c, d))$ are real numbers** that set the length along each of those 4 basis axes.
+4. **"Active components"** measures how many of those 4 directional axes are currently being used (have non-zero numbers in front of them) to locate a point on the 4D unit sphere $(\mathbb{S}^3)$.

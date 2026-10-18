@@ -45,7 +45,7 @@ const cfg: UserConfig = {
     socialLinks: SocialLinks,
     nav: NavigationLinks,
     sponsors: Sponsors,
-    math: true,
+    math: false,
     lastUpdated: {
       text: "Updated at",
       formatOptions: {
