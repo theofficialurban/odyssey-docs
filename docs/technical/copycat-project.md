@@ -1471,7 +1471,7 @@ A failure to maintain clear structural boundaries between core assumptions and p
 
 To prevent such maintenance failures, systems like Copycat formalize cognitive operations across three tightly integrated structural components:
 
-- **Workspace:** Functions as a dynamic mental blackboard representing the agent's perceived environment. It stores permanent problem descriptions alongside temporary working structures organized in arrays or vectors. In the classic letter analogy domain—formally denoted as $\text{initial} : \text{modified} :: \text{target} : \text{answer}$ (e.g., $abc : abd : : ijk : ?$)—the Workspace models complex perceptual dynamics under mental fluid pressures. When presented with $abc : abd : : ijk : ?$, the system generates a probability distribution of candidate outputs reflecting different cognitive interpretations: $i\;j\;l$ represents the high-level cognitive answer (interpreting $c \rightarrow d$ as a "successor-building" rule applied to k), whereas $i\;j\;d$ results from literal substitution, and `abd` reflects direct string replacement. Temporary structures inside the Workspace comprise _letters_ and _groups_ (primary objects), as well as _descriptions_, _bonds_, _correspondences_, _rules_, and _replacements_ (relational structures attached to or spanning objects).
+- **Workspace:** Functions as a dynamic mental blackboard representing the agent's perceived environment. It stores permanent problem descriptions alongside temporary working structures organized in arrays or vectors. In the classic letter analogy domain—formally denoted as $\text{initial} : \text{modified} :: \text{target} : \text{answer}$ (e.g., `abc : abd :: ijk : ?`)—the Workspace models complex perceptual dynamics under mental fluid pressures. When presented with `abc : abd :: ijk : ?`, the system generates a probability distribution of candidate outputs reflecting different cognitive interpretations: `ijl` represents the high-level cognitive answer (interpreting $c \rightarrow d$ as a "successor-building" rule applied to k), whereas `ijd` results from literal substitution, and `abd` reflects direct string replacement. Temporary structures inside the Workspace comprise _letters_ and _groups_ (primary objects), as well as _descriptions_, _bonds_, _correspondences_, _rules_, and _replacements_ (relational structures attached to or spanning objects).
 - **Slipnet:** Operates as a dynamic network of platonic concepts providing contextual framing for perception and analogy. Conceptual nodes feature varying levels of _conceptual depth_ (a metric measuring how deeply a concept is hidden from surface-level symbols). Nodes activate when corresponding objects are perceived in the Workspace, spreading activation to neighboring conceptual nodes. Activation decays over time, but a node becomes discontinuously fully active once its activation crosses a 50% threshold. This dynamic enables _conceptual slippage_, systematically shifting which concepts are deemed relevant to guide processing under changing environmental conditions.
 - **Coderack:** Acts as a statistical regulation mechanism containing an array of active, asynchronous agent instances called _codelets_. The Coderack regulates system behavior through a _temperature gauge_, which balances the exploration vs. exploitation trade-off across distinct candidate solution spaces. Codelets are evaluated using salience functions driven by _happiness_ (how well an object is integrated into structural relationships) and _importance_. Stochastic codelet execution follows a strictly regulated three-stage lifecycle: $$\text{Scout} \longrightarrow \text{Strength-Tester} \longrightarrow \text{Builder}$$ A _scout_ codelet probabilistically selects objects and checks for potential structures; if plausible, it posts a _strength-tester_ codelet to evaluate structural fit; if verified, a _builder_ codelet executes to instantiate the structure within the Workspace, competing against incompatible existing structures. In functional implementations, codelets are passed as higher-order lambda closures instantiated when target arguments apply.
 
@@ -1503,7 +1503,7 @@ FUNCTIONAL (FP) APPROACH:
 
 In structural representation, the Object-Oriented Programming (OOP) paradigm relies on class encapsulation, physical reference pointers, and dynamic inheritance hierarchies. While OOP offers intuitive initial domain modeling, its dependence on object mutation and deep class hierarchies complicates non-deterministic cognitive architectures. Conversely, the Functional Programming (FP) paradigm utilizes data-structure abstraction, immutable state transformations, and functional composition. FP eliminates class-based inheritance in favor of explicit data structures and functional contracts, avoiding hidden reference mutations.
 
-To maintain clarity across diverse data types without object-oriented class hierarchies, functional architectures enforce a systematic naming convention: $\texttt{<data-type>-<operation-name>}$ This pattern explicitly maps data expectations to operations, eliminating function name ambiguity. Examples include:
+To maintain clarity across diverse data types without object-oriented class hierarchies, functional architectures enforce a systematic naming convention: `<data-type>-<operation-name>` This pattern explicitly maps data expectations to operations, eliminating function name ambiguity. Examples include:
 
 - `workspace-structure-to-pointer`: Maps a workspace structure to its corresponding vector pointer.
 - `workspace-object-bonds`: Consumes a workspace object and returns its attached list of structural bonds (`workspace object -> (list-of-bond)`).
@@ -1512,7 +1512,7 @@ Memory allocation strategies in purely functional environments must prevent memo
 
 1. **Slipnet Reference Model:** Conceptual nodes within the Slipnet link to one another using unique identifiers (such as hashed strings or symbols in DrRacket) rather than hard-coded physical memory pointers. A link structure stores target identifiers (`from`, `to`) as symbols:
 
-```racket
+```txt
 (define-struct slipnet (nodes links))
 (define-struct link (from to type intrinsic length)) ; 'from' and 'to' are symbols
 (define-struct node (name depth activation))         ; 'name' is a symbol
@@ -1526,20 +1526,20 @@ This symbolic reference model eliminates physical object graph dependencies. Nod
 
 1. **Workspace Pointer Architecture:** Complex nested relationships within the Workspace (such as groups containing multiple letter instances) are accessed via functional vectors using explicit target functions and index pointers. A pointer structure encapsulates a vector target lookup function alongside an integer index:
 
-```racket
+```txt
 (define-struct pointer (target index))
 ```
 
 Accessing a target structure within a workspace vector is executed using functional vector referencing:
 
-```racket
+```txt
 (vector-ref ((pointer-target <a-pointer>) <data-structure>)
             (pointer-index <a-pointer>))
 ```
 
 For example, resolving a letter structure within a workspace group evaluates cleanly without mutating memory address references:
 
-```racket
+```txt
 (define (workspace-pointer-to-structure space ptr)
   (vector-ref ((pointer-target ptr) space)
               (pointer-index ptr)))
@@ -1610,7 +1610,7 @@ The contrast between functional abstraction and linear OOP execution is highligh
 - **Functional Abstraction Pipeline (DrRacket):** Structural logic is decomposed into pure, isolated functional contracts. For instance, testing Slipnet number node initializations requires verifying only three modular functions:
   1. `description-tester-number`: Evaluates object length against expected numeric concepts within the codelet scope:
 
-```racket
+```txt
 ; description-tester-number : symbol -> boolean
 (define (description-tester-number desc)
   (and (group? obj) (= (object-length obj) (symbol->number desc))))
@@ -1618,7 +1618,7 @@ The contrast between functional abstraction and linear OOP execution is highligh
 
 1. `workspace-description-tester-lambda-get`: Generates closure predicates mapping symbols to functional testers via explicit case dispatch:
 
-```racket
+```txt
 ; workspace-description-tester-lambda-get : workspace symbol -> lambda
 (define (workspace-description-tester-lambda-get space desc)
   (case desc
@@ -1640,11 +1640,11 @@ Balancing execution runtime speed and garbage collection overhead against behavi
 
 To quantify these trade-offs, empirical benchmark data was gathered from comparative execution trials running a dataset list length of 1,000 over 1,000,000 iterations. The performance metrics across functional global mutation, functional pure local execution, and interpreted OOP environments are summarized below.
 
-| Implementation / Paradigm                  | CPU Time (ms) | Real Time (ms) | Garbage Collection Time (ms) |
-| ------------------------------------------ | ------------- | -------------- | ---------------------------- |
-| **Racket Global Mutated (**`**set!**`**)** | 20,938        | 21,001         | 94                           |
-| **Racket Local Pure (**`**apply +**`**)**  | 15,359        | 15,547         | 2,895                        |
-| **Python Interpreted**                     | —             | 49,900         | —                            |
+| Implementation / Paradigm          | CPU Time (ms) | Real Time (ms) | Garbage Collection Time (ms) |
+| ---------------------------------- | ------------- | -------------- | ---------------------------- |
+| **Racket Global Mutated (`set!`)** | 20,938        | 21,001         | 94                           |
+| **Racket Local Pure (`apply +`)**  | 15,359        | 15,547         | 2,895                        |
+| **Python Interpreted**             | —             | 49,900         | —                            |
 
 Analysis of these empirical performance metrics reveals several critical trade-offs:
 
@@ -1676,7 +1676,7 @@ MACRO COMPILE-TIME TRANSFORMATION (#lang s-exp slipnet):
 
 To achieve this phase split, DrRacket distinguishes compile-time macro expansion from runtime code execution. Syntax definitions use syntax transformation macros (`define-syntax`, `syntax-parse`) where syntax objects are captured using the syntax quote operator (`#'`). Variable expressions are evaluated dynamically at compile time by escaping literal syntax structures via the unquote escape operator (`,`). For example, a macro definition for `define-function` captures syntax structures during compilation:
 
-```racket
+```txt
 (define-syntax (define-function stx)
   (syntax-parse stx
     [(_ (f:id param:id ...) body:expr)
@@ -1684,7 +1684,7 @@ To achieve this phase split, DrRacket distinguishes compile-time macro expansion
      #'(define-syntax f (cons #,arity (lambda (param ...) body)))]))
 ```
 
-Under a `#lang s-exp slipnet` implementation, defining an invalid connection—such as `(link a random 50)` where `random` has not been declared as a valid node—triggers an immediate macro compilation error: \texttt{"link: undefined node: random"} In contrast, standard interpreted OOP architectures execute unverified string or object references directly, catching missing link errors only if a specific runtime codelet happens to traverse that path during execution. Compile-time DSL validation directly embodies Lakatosian philosophy by enforcing structural core invariants within software syntax.
+Under a `#lang s-exp slipnet` implementation, defining an invalid connection—such as `(link a random 50)` where `random` has not been declared as a valid node—triggers an immediate macro compilation error: `link: undefined node: random` In contrast, standard interpreted OOP architectures execute unverified string or object references directly, catching missing link errors only if a specific runtime codelet happens to traverse that path during execution. Compile-time DSL validation directly embodies Lakatosian philosophy by enforcing structural core invariants within software syntax.
 
 Beyond language design, historical cognitive architectures like Copycat map directly onto modern Artificial Intelligence frameworks, specifically Reinforcement Learning (RL) and Markov Decision Processes (MDPs):
 
@@ -1699,9 +1699,9 @@ Beyond language design, historical cognitive architectures like Copycat map dire
 +------------------------------------+------------------------------------+
 ```
 
-- **Slipnet Structures** **$\rightarrow$** **RL State-Transition Models:** The platonic concept nodes and dynamic activation links of the Slipnet define the underlying state-transition probabilities of an environment.
-- **Coderack Codelets** **$\rightarrow$** **RL Policy Spaces:** Stochastic codelet search trajectories represent discrete policy actions chosen to manipulate structural state representations.
-- **Statistical Regulations** **$\rightarrow$** **Reward Function Optimization:** System metrics—specifically conceptual depth, happiness, and importance—act as objective functions that regulate the temperature gauge to balance exploration versus exploitation.
+- **Slipnet Structures** $\rightarrow$ **RL State-Transition Models:** The platonic concept nodes and dynamic activation links of the Slipnet define the underlying state-transition probabilities of an environment.
+- **Coderack Codelets** $\rightarrow$ **RL Policy Spaces:** Stochastic codelet search trajectories represent discrete policy actions chosen to manipulate structural state representations.
+- **Statistical Regulations** $\rightarrow$ **Reward Function Optimization:** System metrics—specifically conceptual depth, happiness, and importance—act as objective functions that regulate the temperature gauge to balance exploration versus exploitation.
 
 This reinterpretation can be situated within Allen Newell’s _Time Scales of Human Action_, which categorizes intelligent systems across temporal and cognitive bands:
 
@@ -1738,7 +1738,7 @@ Addressing these research challenges efficiently requires structured engineering
 ```
 
 1. **Cognitive Architecture Designer:** Formulates core cognitive hypotheses, structures experimental task domains, and defines statistical salience objectives.
-2. **Program Designer:** Translates cognitive specifications into formal functional contracts (`contract : input-type -> output-type`) and defines unit test suites.
+2. **Program Designer:** Translates cognitive specifications into formal functional contracts (`contract : input-type - output-type`) and defines unit test suites.
 3. **Implementation Programmer:** Implements pure modular functions satisfying the contract specifications, verified via localized unit assertions (`check-expect`).
 
 Adopting functional programming abstractions, explicit contract disciplines, and compile-time macro validation provides a robust software foundation for cognitive AI systems—ensuring long-term code reusability, structural stability, and scientific validity.
