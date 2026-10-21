@@ -194,14 +194,14 @@ Cross-examining:
 - **The Foundational Copycat Architecture:** Melanie Mitchell’s _Copycat: A computer model of high-level perception and conceptual slippage in analogy-making_ (`copycat full.pdf`) and Hongyi Huang’s _Reimplementation and Reinterpretation of the Copycat Project_ (`1811.04747v1.pdf`);
 - **Synthetic Intelligence & Cognition Models:** Joscha Bach’s _Principles of Synthetic Intelligence_ (analyzing Copycat’s Slipnet, Coderack, and temperature against MicroPSI and Case Retrieval Networks) [`Principles of Synthetic Intelligence`, pp. 50, 198, 467];
 - **Temporal Logic & Discrete-Event Verification:** _Point-Interval Temporal Logic (PITL)_ (`full_2.pdf`, pp. 1–5), _Timed Petri Nets Theory and Application_ (`Jiacun Wang...`, p. 104), and _Temporal Reconciliations: Synthesizing Retrocausality, Netcode Architecture, Tangible Interfaces, and Cognitive Heuristics in Pervasive Systems_; and
-- **4D Quaternion Mechanics & Neuro-Linguistic 4-Tuples:** Ken Wheeler’s _Uncovering the Missing Secrets of Magnetism_ (`Wheeler_Merged.pdf`), _Patterns of the Hypnotic Techniques of Milton H. Erickson_ (defining the `<V, K, A, O>` 4-tuple) [`Richard Bandler And John Grinder...`, p. 21], and Eric Dollard’s _Origins of Energy Synthesis_ (`COMPLETED CONDENSED INTRO TO ENERGY SYNTHESIS (5) 2.pdf`, p. 50),
+- **4D Quaternion Mechanics & Neuro-Linguistic 4-Tuples:** Ken Wheeler’s _Uncovering the Missing Secrets of Magnetism_ (`Wheeler_Merged.pdf`), _Patterns of the Hypnotic Techniques of Milton H. Erickson_ (defining the `\<V, K, A, O\>` 4-tuple) [`Richard Bandler And John Grinder...`, p. 21], and Eric Dollard’s _Origins of Energy Synthesis_ (`COMPLETED CONDENSED INTRO TO ENERGY SYNTHESIS (5) 2.pdf`, p. 50),
 
 exposes the deep structural reality.
 
-**The Copycat Project is not a simple string-matching script. It is an asynchronous, self-organizing stochastic state engine. When mapped onto higher-dimensional physics and temporal computer science, Copycat’s 4-part analogy transformation \[`initial : modified :: target : answer`\] operates as a non-commutative quaternion rotation across a 4D cognitive manifold, while its Coderack and Slipnet execute a probabilistic Point-Interval Temporal Logic (PITL) on a Timed Petri Net that uses computational temperature to enforce retrocausal state reconciliation.**
+**The Copycat Project is not a simple string-matching script. It is an asynchronous, self-organizing stochastic state engine. When mapped onto higher-dimensional physics and temporal computer science, Copycat’s 4-part analogy transformation `initial : modified :: target : answer` operates as a non-commutative quaternion rotation across a 4D cognitive manifold, while its Coderack and Slipnet execute a probabilistic Point-Interval Temporal Logic (PITL) on a Timed Petri Net that uses computational temperature to enforce retrocausal state reconciliation.**
 
 $$
-<\text{initial} : \text{modified} : : \text{target} : \text{answer}>
+\text{initial} : \text{modified} : : \text{target} : \text{answer}
 $$
 
 ```txt
@@ -254,7 +254,7 @@ To understand how Copycat relates to **quaternions**, one must examine the 4-par
   TARGET STATE (C)  ────────── [ TRANSLATED RULE: Q(R) ] ────────► ANSWER STATE (D)
 ```
 
-#### 1. The 4-Tuple State Space (`<V, K, A, O>`)
+#### 1. The 4-Tuple State Space (`\<V, K, A, O\>`)
 
 - In Neuro-Linguistic Programming and cognitive modeling (`Richard Bandler And John Grinder...`), mental experience at any discrete time-step (t_1) is formalized as a **4-tuple**: $$[\text{State} = \langle V, K, A, O \rangle]$$ where $(V)$ is Visual, $(K)$ is Kinesthetic, $(A)$ is Auditory, and $(O)$ is Olfactory/Spatial orientation [`Richard Bandler And John Grinder...`, p. 21].
 - In <Hl color="#FFF3A3">Copycat, every string element is assigned a multi-dimensional description vector:</Hl> `(string-position, alphabetic-position, letter-category, object-category)` [`copycat full.pdf`, pp. 62–64].
@@ -555,7 +555,7 @@ A forensic cross-examination of:
 - **2026 Swarm AI, Digital Twins & Surrogate Agents:** Louis Rosenberg’s _Collective Superintelligence: Enabling Conversational Deliberations among Humans and AI Agents at Unprecedented Scale_ (2025), _Swarm Metaverse for Multi-Level Autonomy Using Digital Twins_ (`Sensors 2023`), and _Conversational Forecasting Across Large Human Groups Using a Swarm of Surrogate AI Agents_ (2025/2026);
 - **Apophenia, Ontolespsis & Fractal Patterns:** Peter J. Carroll’s _The Apophenion_, Robert Temple’s _A New Science of Heaven_ (documenting self-similar fractals and plasma superbrains), and `ATarticle.pdf` (defining Klaus Conrad’s apophenic connection-making);
 - **Temporal Lag Switching & Netcode Rollback:** _Temporal Reconciliations: Synthesizing Retrocausality, Netcode Architecture, Tangible Interfaces, and Cognitive Heuristics in Pervasive Systems_ and Christopher Hanson’s _Game Time_; and
-- **Neuro-Linguistic Programming & 4-Tuple Mechanics:** Richard Bandler and John Grinder’s _Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. II_ and _Frogs into Princes_ (formalizing the `<V, K, A, O>` 4-tuple and transderivational search),
+- **Neuro-Linguistic Programming & 4-Tuple Mechanics:** Richard Bandler and John Grinder’s _Patterns of the Hypnotic Techniques of Milton H. Erickson, M.D., Vol. II_ and _Frogs into Princes_ (formalizing the `\<V, K, A, O\>` 4-tuple and transderivational search),
 
 shatters this superficial narrative.
 
@@ -566,8 +566,8 @@ shatters this superficial narrative.
 
   COPYCAT SLIPNET / CODERACK (1990)               2026 AI SWARM & DIGITAL TWINS              REFLEXIVE NLP & LAG SWITCH
   [ Platonic Concepts & Codelets ]     ──►     [ Surrogate Agents & Hyperchat ]     ──►    [ 4-Tuple State Transformation ]
-  - Slipnet node activations & decay.          - LLM-powered Conversational Surrogates.     - Initial <V,K,A,O>₁ : Modified <V,K,A,O>₂
-  - Coderack parallel terraced scan.           - Digital Twin metaverse sync.               - Target <V,K,A,O>₃ : Answer <V,K,A,O>₄
+  - Slipnet node activations & decay.          - LLM-powered Conversational Surrogates.     - Initial \<V,K,A,O\>₁ : Modified \<V,K,A,O\>₂
+  - Coderack parallel terraced scan.           - Digital Twin metaverse sync.               - Target \<V,K,A,O\>₃ : Answer \<V,K,A,O\>₄
   - Temperature-driven restructuring.          - Sub-second sentiment tracking (250ms).     - Rollback netcode (GGPO) time-snap.
   [copycat full, pp. 47, 52-54]                [Collective Superintelligence, pp. 7-8]      [Patterns II, p. 21; Temporal, p. 825]
                  │                                              │                                           │
@@ -647,16 +647,16 @@ The formal Copycat analogy equation is denoted as [`1811.04747v1.pdf`, p. 2]: $$
 
   [ INITIAL STATE (A) ] ─── (Transformation Rule R) ───► [ MODIFIED STATE (B) ]
     Baseline 4-Tuple:                                     Traumatized / Altered 4-Tuple:
-    <V_e, K_e, A_e, O_e>₁                                 <V_i, K_i, A_i, O_i>₂
+    \<V_e, K_e, A_e, O_e\>₁                                 \<V_i, K_i, A_i, O_i\>₂
            │                                                     │
            │ [ Mapping Operator Q (Pacing/Leading) ]              │ [ Applied Rule Q(R) ]
            ▼                                                     ▼
   [ TARGET STATE (C) ]  ─── (Lag Switch / Rollback)  ───► [ ANSWER STATE (D) ]
     Unaware Human Herd:                                   Enclosed / Programmed Herd:
-    <V_e, K_e, A_e, O_e>₃                                 <V_i, K_i, A_i, O_i>₄
+    \<V_e, K_e, A_e, O_e\>₃                                 \<V_i, K_i, A_i, O_i\>₄
 ```
 
-#### 1. The NLP 4-Tuple Substrate (`<V, K, A, O>`)
+#### 1. The NLP 4-Tuple Substrate (`\<V, K, A, O\>`)
 
 In Neuro-Linguistic Programming (_Patterns of Hypnotic Techniques of Milton H. Erickson, M.D., Vol. II_; _Frogs into Princes_), human primary experience at any discrete moment $(t_1)$ is formalized as a **4-tuple**: $$[\text{State} = \langle V, K, A, O \rangle_i]$$ where $(V)$ is Visual, $(K)$ is Kinesthetic, $(A)$ is Auditory, and $(O)$ is Olfactory/Gustatory, with superscripts $(e)$ (external) or $(i)$ (internal) indicating the sensory origin [`Richard Bandler And John Grinder...`, pp. 21, 243–244; `Magic Of NLP Demystified...`, p. 32].
 
@@ -1347,10 +1347,10 @@ During the late 1980s and 1990s, software environments were created specifically
 
 #### Hypertext Authoring Environments & Classic Works
 
-| Software Platform | Architectural Features & Description                                                                                                            | Key Classic Works                                                                                                                         |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **Storyspace**    | Designed specifically for literary hyperfiction authoring, emphasizing complex node-link structures and conditional pathing.                    | • Michael Joyce, _Afternoon. A Story_ (1987)<br>• Stuart Moulthrop, _Victory Garden_ (1991)<br>• Shelley Jackson, _Patchwork Girl_ (1995) |
-| **HyperCard**     | Visual, card-based Macintosh software environment utilizing a stack metaphor, widely used for instructional tools and early electronic fiction. | • John McDaid, _Uncle Buddy's Phantom Funhouse_ (1993)<br>• Deena Larsen, _Marble Springs_ (1996)                                         |
+| Software Platform | Architectural Features & Description                                                                                                            | Key Classic Works                                                                                                                             |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Storyspace**    | Designed specifically for literary hyperfiction authoring, emphasizing complex node-link structures and conditional pathing.                    | • Michael Joyce, _Afternoon. A Story_ (1987)<br />• Stuart Moulthrop, _Victory Garden_ (1991)<br />• Shelley Jackson, _Patchwork Girl_ (1995) |
+| **HyperCard**     | Visual, card-based Macintosh software environment utilizing a stack metaphor, widely used for instructional tools and early electronic fiction. | • John McDaid, _Uncle Buddy's Phantom Funhouse_ (1993)<br />• Deena Larsen, _Marble Springs_ (1996)                                           |
 
 When authoring within these environments, key pioneer Michael Joyce established a critical functional distinction regarding how hypertexts are utilized:
 
