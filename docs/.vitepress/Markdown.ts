@@ -7,6 +7,7 @@ import { RuleBlock } from "markdown-it/lib/parser_block.mjs";
 import { MarkdownOptions } from "vitepress";
 import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import MarkdownItContainer from "markdown-it-container";
+import mdKatex from "markdown-it-katex";
 import MdYaml from "markdown-it-yaml";
 import DoubleBracketMarkdownTransform, {
   DoubleBracketTransformFunction,
@@ -388,10 +389,12 @@ class SubstackDoubleBracketPlugin extends DoubleBracketMarkdownTransform {
 
 const MarkdownOps: MarkdownOptions = {
   html: true,
-  math: true,
+  math: false,
   config(md) {
     //md.use(mathjax3);
+    // md.use(mdMathJax);
   },
+  languageAlias: { raw: "txt" },
   preConfig(md) {
     const SubstackDoubleBracket = new SubstackDoubleBracketPlugin(
       "substack",
@@ -400,7 +403,7 @@ const MarkdownOps: MarkdownOptions = {
     );
     // md.use(MermaidMarkdown);
     md.use(MarkdownFootnote);
-
+    md.use(mdKatex);
     md.use(SubstackDoubleBracket.Plugin);
     md.use(ShareBtnPlugin);
     md.use(MarkdownItContainer, "panel_container", {

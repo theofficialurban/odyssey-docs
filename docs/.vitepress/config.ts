@@ -45,7 +45,7 @@ const cfg: UserConfig = {
     socialLinks: SocialLinks,
     nav: NavigationLinks,
     sponsors: Sponsors,
-    math: true,
+    math: false,
     lastUpdated: {
       text: "Updated at",
       formatOptions: {
@@ -98,10 +98,9 @@ const cfg: UserConfig = {
       ],
     },
   },
-
   head: Head,
   sitemap: {
-    hostname: "https://docs.urbanodyssey.xyz",
+    hostname: "https://odyssey-docs.vercel.app/",
   },
 
   transformPageData: OGFromFrontmatter,

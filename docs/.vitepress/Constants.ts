@@ -693,6 +693,21 @@ const cloudflarePolyfill: HeadConfig = [
   },
 ];
 
+const githubMarkdown: HeadConfig = [
+  "link",
+  {
+    rel: "stylesheet",
+    href: "https://cdn.jsdelivr.net/github-markdown-css/2.2.1/github-markdown.css",
+  },
+];
+const katexMarkdown: HeadConfig = [
+  "link",
+  {
+    rel: "stylesheet",
+    href: "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css",
+  },
+];
+
 const SiteConstants = {
   Collections: CollectionDefinitions,
   Sponsors,
@@ -709,6 +724,8 @@ const SiteConstants = {
     googleAnalyticsTag,
     tailwindTag,
     faviconTag,
+    githubMarkdown,
+    katexMarkdown,
     cloudflarePolyfill,
   ],
   Tags: {

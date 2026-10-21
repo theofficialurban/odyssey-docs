@@ -17,6 +17,7 @@ import {
   InjectionKey,
 } from "@nolebase/vitepress-plugin-inline-link-preview";
 import "@nolebase/vitepress-plugin-inline-link-preview/client/style.css";
+
 import { ElementObjects, EsotericSymbol } from "../Esoteric";
 import PDF from "./components/PDF.vue";
 
@@ -81,11 +82,13 @@ import Message from "primevue/message";
 import NewCard from "./components/PrimeVue/NewCard.vue";
 import GlowText from "./components/GlowText.vue";
 import { createMermaidRenderer } from "vitepress-mermaid-renderer";
-import { h, nextTick, watch } from "vue";
+import { h, nextTick } from "vue";
 import Question from "./components/Question.vue";
 import ColorPicker from "./components/PrimeVue/ColorPicker.vue";
 import PostCollection from "./components/PostCollection.vue";
 import { data as tagnotes } from "./data/tagnotes.data";
+import NumogramSvg from "./components/NumogramParts/NumogramSvg.vue";
+import { Numogram as NumogramData, NumogramInjectionSymbol } from "../Numogram";
 
 export type SettingsFrontmatter =
   | {
@@ -189,6 +192,8 @@ export default {
     app.component("Hl", Highlighter);
     app.component("Question", Question);
     app.component("ColorPicker", ColorPicker);
+    // app.component("TheNumogram", TheNumogram);
+    app.component("Numogram", NumogramSvg);
 
     // Primevue comps
     app.component("Btn", Btn);
@@ -231,6 +236,7 @@ export default {
 
     app.provide(EsotericSymbol, ElementObjects);
     app.provide(InjectionKey, defaultLinkPreviewOptions);
+    app.provide(NumogramInjectionSymbol, NumogramData);
 
     //app.provide(SubstackSymbol, data);
 
@@ -239,6 +245,6 @@ export default {
       license:
         "eyJpZCI6IjEyMDliNTgwLTBhZjEtNDZlOC1iNTkxLWRlNjZhNzE4M2NlNCIsInByb2R1Y3QiOiJwcmltZXVpIiwidGllciI6ImNvbW11bml0eSIsInR5cGUiOiJkZXYiLCJpYXQiOjE3ODI3NjUyNDgsImV4cCI6MTgxNDMwMTI0OH0.Yc0piBgbnYSn5aYJDBuH99Pk8iRkoLPWZFrHGkkx3Yj0lSHtFulDvF5Xu4thSPETOSBXDzxmD25nrAwJPBfbCw",
     });
-    app.use(NolebaseInlineLinkPreviewPlugin);
+    // app.use(NolebaseInlineLinkPreviewPlugin);
   },
 } satisfies Theme;

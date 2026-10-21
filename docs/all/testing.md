@@ -5,20 +5,15 @@ secret: true
 
 <script setup>
 
-import { useTemplateRef, onMounted } from 'vue'
+import { useTemplateRef } from 'vue'
+
 //import { data } from "../.vitepress/theme/data/tagnotes.data";
 
+//const Numogram = inject(NumogramInjectionSymbol)
 const childRef = useTemplateRef("colorpicker")
-
-// onMounted(() => {
-//   // childRef.value will hold an instance of <Child />
-//   console.log(data)
-// })
 
 </script>
 
 # Testing
 
 <ColorPicker ref="colorpicker" />
-
-<PostCollection :tags="['Urban\'s Videos', 'Mermaid Charts']" />

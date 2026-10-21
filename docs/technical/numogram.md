@@ -1,12 +1,12 @@
 ---
 title: The Numogram
-secret: true
-ogimage: https://i.imgur.com/VgxiqGJ.png
+ogimage: https://i.ibb.co/wZrz59wY/ccru-flags-by-neobolshevik-dkj1q01-fullview.jpg
 tags:
   - Hauntology
   - Ccru
   - Cyberpunk
   - Cybernetics
+  - The Numogram
 ---
 
 [[atomic]]
@@ -15,17 +15,11 @@ tags:
 
 [[toc]]
 
-```embed
-type: CardEmbed
-title: The Numogram & Syzygy (CCRU)
-image: http://ccru.net/images/ccrulogo.gif
-description: ""
-url: http://ccru.net/syzygy.htm
-```
+<NewCard :inline="true" title="The Numogram & Syzygy (CCRU)" img="http://ccru.net/images/ccrulogo.gif" href="http://ccru.net/syzygy.htm" />
 
-![](https://i.imgur.com/VgxiqGJ.png)
+![numogram1](https://i.ibb.co/chjzKrGP/image.png)
 
-![](https://i.imgur.com/NM8EOW5.png)
+![numogram2](https://i.imgur.com/NM8EOW5.png)
 
 :::details Expand for Other Pages
 
@@ -34,6 +28,16 @@ url: http://ccru.net/syzygy.htm
 <CCard collection="reading" href="/reading/nick-land.html" />
 
 :::
+
+## The Numogram
+
+<Numogram width="400" height="auto" class="mx-auto" />
+
+## Nick Land (Creator) Explains the Numogram {#land-explains}
+
+<YouTube id="URWFdmLRt0U" />
+
+<YouTube id="rTTiYO2IQqg" />
 
 ## Selected Word Definitions from 'The Numogram' Document
 

@@ -36,7 +36,7 @@ const collections = computed(() => {
   const cm = new Map<string, DefinitionAndPages>();
   collection.forEach((c) => {
     const found: Collection = useCollection(c);
-    console.log(found.pages);
+    // console.log(found.pages);
     const findCol = findCollection(theme.value.collections, c);
     const publicPages: Page[] = found.pages.filter(
       (pg) => pg.secret === undefined || pg.secret === false,
