@@ -9,7 +9,6 @@ import { ElementTransform } from "@nolebase/markdown-it-element-transform";
 import MarkdownItContainer from "markdown-it-container";
 import mdKatex from "markdown-it-katex";
 import MdYaml from "markdown-it-yaml";
-import mdMathJax from "markdown-it-mathjax3";
 import DoubleBracketMarkdownTransform, {
   DoubleBracketTransformFunction,
 } from "./DoubleBracketMark";
@@ -404,7 +403,7 @@ const MarkdownOps: MarkdownOptions = {
     );
     // md.use(MermaidMarkdown);
     md.use(MarkdownFootnote);
-    //md.use(mdKatex);
+    md.use(mdKatex);
     md.use(SubstackDoubleBracket.Plugin);
     md.use(ShareBtnPlugin);
     md.use(MarkdownItContainer, "panel_container", {
