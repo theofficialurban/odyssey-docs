@@ -89,6 +89,7 @@ import PostCollection from "./components/PostCollection.vue";
 import { data as tagnotes } from "./data/tagnotes.data";
 import NumogramSvg from "./components/NumogramParts/NumogramSvg.vue";
 import { Numogram as NumogramData, NumogramInjectionSymbol } from "../Numogram";
+import TxCalc from "./components/NumogramParts/TxCalc.vue";
 
 export type SettingsFrontmatter =
   | {
@@ -184,7 +185,7 @@ export default {
     app.component("CCards", CollectionCardGrid);
     //app.component("DictTest", DictTest);
     app.component("Redirect", Redirect);
-
+    app.component("TxCalculator", TxCalc);
     app.component("Imgur", ImgurEmbed);
     app.component("SubstackEmbed", SubstackPost);
     app.component("NonHeading", NonHeading);

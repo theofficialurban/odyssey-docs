@@ -210,6 +210,21 @@ const CollectionDefinitions: DefineCollections = {
     iconLink: "/moors",
     patterns: ["moors/*.md"],
   },
+  ccru: {
+    frontmatter: {
+      collection: "ccru",
+      contributors: false,
+      backLink: false,
+      aside: true,
+      sidebar: true,
+      prev: true,
+      next: true,
+      editLink: false,
+    },
+    icon: `<img src="/icons/ccruspiral.png" width="16" height="auto" alt="Cybernetic Culture Research Unit" />`,
+    iconLink: "/ccru",
+    patterns: ["ccru/*.md"],
+  },
   elitetheory: {
     frontmatter: {
       collection: "elitetheory",

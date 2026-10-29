@@ -17,3 +17,9 @@ const childRef = useTemplateRef("colorpicker")
 # Testing
 
 <ColorPicker ref="colorpicker" />
+
+<TxCalculator />
+
+:::details
+test
+:::

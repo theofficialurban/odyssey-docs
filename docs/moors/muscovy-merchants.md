@@ -2,7 +2,7 @@
 title: Muscovy Merchants
 description: |
   This text provides a comprehensive biographical and economic examination of the original members of the Russia Company established in 1555, highlighting their prominent social standing, extensive global trading networks, and significant accumulation of personal wealth. Initially, the author outlines the hierarchical yet fluid nature of sixteenth-century English society, explaining the unique difficulties of classifying merchants alongside wealthy peers and crown officials who formed the company's elite core. Next, the narrative details the diverse commercial activities of the membership, demonstrating how these London merchants pioneered foreign trade ventures, managed joint-stock enterprises, and dominated the cloth export and shipping industries. Finally, the source illustrates the widespread financial success and inheritance practices of these entrepreneurs, revealing how their accumulated wealth in land, urban property, and personal estates was systematically distributed among their widows, apprentices, and children.
-ogimage: https://en.wikipedia.org/wiki/Muscovy_Company#/media/File:Alexander_Litovchenko_-_Ivan_the_Terrible_Showing_Treasures_to_the_English_Ambassador_Jerome_Horsey.jpg
+ogimage: https://i.imgur.com/f8EIcCb.jpeg
 ogimagewidth: 3840
 ogimageheight: 2468
 tags:
