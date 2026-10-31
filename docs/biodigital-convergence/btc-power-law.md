@@ -2,6 +2,9 @@
 title: Power Laws in Bitcoin
 description: Examining the work of Giovanni Santostasi in which he claims that Bitcoin has inherent Power Law properties.
 ogimage: https://i.imgur.com/z2pNTOU.png
+tags:
+  - Blockchain
+  - Cryptocurrency
 ---
 
 [[atomic]]

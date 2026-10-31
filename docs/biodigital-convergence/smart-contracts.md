@@ -6,6 +6,7 @@ tags:
   - Blockchain
   - Human Husbandry
   - Words & Terms
+  - Smart Contracts
 ---
 
 <script setup>
