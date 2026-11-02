@@ -6,6 +6,7 @@ ogimage: https://i.imgur.com/7jy47Nb.png
 tags:
   - Human Husbandry
   - Mermaid Charts
+  - AI Delusional Spiraling
 ---
 
 [[atomic]]
