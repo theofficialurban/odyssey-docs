@@ -1,1 +1,1 @@
-nodeOptions: "${NODE_OPTIONS:- } --max-old-space-size=8192 --experimental-vm-modules"
+nodeOptions: "${NODE_OPTIONS:- } --max-old-space-size=10240 --experimental-vm-modules"
